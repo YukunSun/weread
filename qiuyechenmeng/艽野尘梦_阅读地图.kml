@@ -1,0 +1,3024 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="qiuyechenmeng">
+    <name>《艽野尘梦》阅读地图｜主要地点与行程示意</name>
+    <open>1</open>
+    <description>&lt;h2&gt;《艽野尘梦》阅读地图&lt;/h2&gt;&lt;p&gt;按十二章整理的主要地点；不是全地名索引，也不是历史测绘复原。&lt;/p&gt;&lt;p&gt;蓝：川西入藏；紫：昌都至工布；绿：波密；橙：存疑；红：青海至西安。虚线只连接地点顺序，不表示道路或GPS轨迹；北返荒原段不画推测轨迹。&lt;/p&gt;&lt;p&gt;点击点位查看书中名、今名、章节、定位依据和资料。现代聚落点不等于营地、旧桥、墓地或战场。&lt;/p&gt;&lt;p&gt;资料核对：2026-10-30。微信读书参考：北方文艺出版社2018年版，ISBN 9787531738671；不是对用户当前所读版本的断言。正文地名参照原文及任乃强校注。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与任乃强校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6"&gt;原文在线对读&lt;/a&gt;&lt;br/&gt;&lt;a href="https://weread.qq.com/web/reader/c04325905e47adc0457d4a9"&gt;微信读书版本与目录&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm"&gt;旧驿道与长坝春考证&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml"&gt;江达与太昭考证&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html"&gt;鲁朗镇治迁移&lt;/a&gt;&lt;br/&gt;&lt;a href="https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf"&gt;江巴村地理参照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html"&gt;恩达与瓦合山旧驿道&lt;/a&gt;&lt;br/&gt;&lt;a href="https://developers.google.com/kml/documentation/kmlreference"&gt;KML格式规范&lt;/a&gt;</description>
+    <LookAt>
+      <longitude>100.5</longitude>
+      <latitude>33.6</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>2000000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="in">
+      <IconStyle>
+        <color>ffffa749</color>
+        <scale>1.05</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d8ffa749</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="in_uncertain">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>1.15</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d8ffa749</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="west">
+      <IconStyle>
+        <color>ffff92b6</color>
+        <scale>1.05</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d8ff92b6</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="west_uncertain">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>1.15</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d8ff92b6</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="pome">
+      <IconStyle>
+        <color>ffa0c535</color>
+        <scale>1.05</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d8a0c535</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="pome_uncertain">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>1.15</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d8a0c535</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="wilderness">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>1.05</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d847b3ff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="wilderness_uncertain">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>1.15</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d847b3ff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="return">
+      <IconStyle>
+        <color>ff6878ff</color>
+        <scale>1.05</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d86878ff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="return_uncertain">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>1.15</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d86878ff</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="context">
+      <IconStyle>
+        <color>ffaaaaaa</color>
+        <scale>1.05</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d8aaaaaa</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Style id="context_uncertain">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>1.15</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d8aaaaaa</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name>00 先读说明与图例</name>
+      <open>0</open>
+      <Placemark>
+        <name>地图用法、精度与来源</name>
+        <description>&lt;h2&gt;《艽野尘梦》阅读地图&lt;/h2&gt;&lt;p&gt;按十二章整理的主要地点；不是全地名索引，也不是历史测绘复原。&lt;/p&gt;&lt;p&gt;蓝：川西入藏；紫：昌都至工布；绿：波密；橙：存疑；红：青海至西安。虚线只连接地点顺序，不表示道路或GPS轨迹；北返荒原段不画推测轨迹。&lt;/p&gt;&lt;p&gt;点击点位查看书中名、今名、章节、定位依据和资料。现代聚落点不等于营地、旧桥、墓地或战场。&lt;/p&gt;&lt;p&gt;资料核对：2026-10-30。微信读书参考：北方文艺出版社2018年版，ISBN 9787531738671；不是对用户当前所读版本的断言。正文地名参照原文及任乃强校注。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与任乃强校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6"&gt;原文在线对读&lt;/a&gt;&lt;br/&gt;&lt;a href="https://weread.qq.com/web/reader/c04325905e47adc0457d4a9"&gt;微信读书版本与目录&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm"&gt;旧驿道与长坝春考证&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml"&gt;江达与太昭考证&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html"&gt;鲁朗镇治迁移&lt;/a&gt;&lt;br/&gt;&lt;a href="https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf"&gt;江巴村地理参照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html"&gt;恩达与瓦合山旧驿道&lt;/a&gt;&lt;br/&gt;&lt;a href="https://developers.google.com/kml/documentation/kmlreference"&gt;KML格式规范&lt;/a&gt;</description>
+      </Placemark>
+    </Folder>
+    <Folder id="folder_in">
+      <name>01 川西入藏｜第1章</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark id="place_chengdu">
+        <name>01 成都</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;01 成都&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;成都&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;104.0644°E, 30.6583°N&lt;/p&gt;&lt;p&gt;行程起点。城市代表点，不指认出师营址。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/成都市"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>104.0644</longitude>
+          <latitude>30.6583</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>01 成都</value>
+          </Data>
+          <Data name="modern_name">
+            <value>成都</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/成都市</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>行程起点。城市代表点，不指认出师营址。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>104.0644,30.6583,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_yaan">
+        <name>02 雅州 → 雅安</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;02 雅州 → 雅安&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;雅安市&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;103.0128°E, 29.9805°N&lt;/p&gt;&lt;p&gt;旧府城的现代城市参照。雅安至泸定之间的大相岭、飞越岭旧道未逐段复原，连线不代表现代川藏公路。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/雅安市"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>103.0128</longitude>
+          <latitude>29.9805</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>02 雅州 → 雅安</value>
+          </Data>
+          <Data name="modern_name">
+            <value>雅安市</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/雅安市</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>旧府城的现代城市参照。雅安至泸定之间的大相岭、飞越岭旧道未逐段复原，连线不代表现代川藏公路。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>103.0128,29.9805,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_luding">
+        <name>03 沪定桥 → 泸定桥</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;03 沪定桥 → 泸定桥&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;泸定桥&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;102.2302°E, 29.9145°N&lt;/p&gt;&lt;p&gt;书中大渡河渡桥地点。使用现桥地标坐标；不据原文估计桥长、宽度。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/泸定桥"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>102.2302</longitude>
+          <latitude>29.9145</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>03 沪定桥 → 泸定桥</value>
+          </Data>
+          <Data name="modern_name">
+            <value>泸定桥</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/泸定桥</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>书中大渡河渡桥地点。使用现桥地标坐标；不据原文估计桥长、宽度。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>102.2302,29.9145,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_kangding">
+        <name>04 打箭炉 → 康定</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;04 打箭炉 → 康定&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;康定老城区一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;101.9550°E, 30.0015°N&lt;/p&gt;&lt;p&gt;北路入藏的整备地点。现代城区代表点。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/康定市"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.955</longitude>
+          <latitude>30.0015</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>04 打箭炉 → 康定</value>
+          </Data>
+          <Data name="modern_name">
+            <value>康定老城区一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/康定市</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>北路入藏的整备地点。现代城区代表点。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>101.955,30.0015,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_zheduo">
+        <name>05 折多塘</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;05 折多塘&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;折多塘一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;101.8860°E, 29.9949°N&lt;/p&gt;&lt;p&gt;离开打箭炉后的首站；使用地名代表点，非宿营遗址。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.fallingrain.com/world/CH/32/Zheduotang.html"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.886</longitude>
+          <latitude>29.9949</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>05 折多塘</value>
+          </Data>
+          <Data name="modern_name">
+            <value>折多塘一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://www.fallingrain.com/world/CH/32/Zheduotang.html</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>离开打箭炉后的首站；使用地名代表点，非宿营遗址。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>101.886,29.9949,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_changba">
+        <name>06 长坝春 → 江巴村一带</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章；校注6 · 区域参照</Snippet>
+        <description>&lt;h3&gt;06 长坝春 → 江巴村一带&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;康定江巴村一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章；校注6&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;区域参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;101.6500°E, 30.2000°N&lt;/p&gt;&lt;p&gt;长坝春又作长霸冲、长坝仲。中国藏学研究中心论文对应为江巴村。坐标取官方报告江巴村监测点并舍入至0.01°；报告未注明坐标系，故只作村域阅读定位，不作精确坐标。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf"&gt;坐标参照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm"&gt;长坝春今名考证&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.65</longitude>
+          <latitude>30.2</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>06 长坝春 → 江巴村一带</value>
+          </Data>
+          <Data name="modern_name">
+            <value>康定江巴村一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章；校注6</value>
+          </Data>
+          <Data name="certainty">
+            <value>区域参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>长坝春又作长霸冲、长坝仲。中国藏学研究中心论文对应为江巴村。坐标取官方报告江巴村监测点并舍入至0.01°；报告未注明坐标系，故只作村域阅读定位，不作精确坐标。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>101.65,30.2,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_daofu">
+        <name>07 道坞 → 道孚</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;07 道坞 → 道孚&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;道孚鲜水镇&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;101.1254°E, 30.9777°N&lt;/p&gt;&lt;p&gt;旧称道坞，对应今道孚。使用现代县城聚落代表点。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/鲜水镇"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.1254</longitude>
+          <latitude>30.9777</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>07 道坞 → 道孚</value>
+          </Data>
+          <Data name="modern_name">
+            <value>道孚鲜水镇</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/鲜水镇</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>旧称道坞，对应今道孚。使用现代县城聚落代表点。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>101.1254,30.9777,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_luhuo">
+        <name>08 霍尔章谷 → 炉霍</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章；校注8 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;08 霍尔章谷 → 炉霍&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;炉霍新都镇&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章；校注8&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;100.6803°E, 31.3937°N&lt;/p&gt;&lt;p&gt;按校注对应炉霍；现代聚落代表点。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/新都镇_(炉霍县)"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>100.6803</longitude>
+          <latitude>31.3937</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>08 霍尔章谷 → 炉霍</value>
+          </Data>
+          <Data name="modern_name">
+            <value>炉霍新都镇</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章；校注8</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/新都镇_(炉霍县)</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>按校注对应炉霍；现代聚落代表点。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>100.6803,31.3937,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_garze">
+        <name>09 甘孜</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章；校注10 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;09 甘孜&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;甘孜镇&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章；校注10&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;99.9886°E, 31.6273°N&lt;/p&gt;&lt;p&gt;校注记后续经打火沟、甑科、麦学、八邦寺，不走雀儿山大道。地图不把德格县城增列为作者亲经站。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/甘孜镇"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>99.9886</longitude>
+          <latitude>31.6273</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>09 甘孜</value>
+          </Data>
+          <Data name="modern_name">
+            <value>甘孜镇</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章；校注10</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/甘孜镇</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>校注记后续经打火沟、甑科、麦学、八邦寺，不走雀儿山大道。地图不把德格县城增列为作者亲经站。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>99.9886,31.6273,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_maisux">
+        <name>10 麦削／麦学 → 麦宿一带</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章；校注10 · 区域参照</Snippet>
+        <description>&lt;h3&gt;10 麦削／麦学 → 麦宿一带&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;德格麦宿一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章；校注10&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;区域参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;98.9914°E, 31.6329°N&lt;/p&gt;&lt;p&gt;校注作麦学。使用现代麦宿聚落点概略定位，非旧驿站遗址；甘孜至此之间的曾科／甑科另列待考。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/麦宿镇"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>98.9914</longitude>
+          <latitude>31.6329</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>10 麦削／麦学 → 麦宿一带</value>
+          </Data>
+          <Data name="modern_name">
+            <value>德格麦宿一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章；校注10</value>
+          </Data>
+          <Data name="certainty">
+            <value>区域参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/麦宿镇</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>校注作麦学。使用现代麦宿聚落点概略定位，非旧驿站遗址；甘孜至此之间的曾科／甑科另列待考。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>98.9914,31.6329,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_palpung">
+        <name>11 八邦寺</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章；校注10 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;11 八邦寺&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;八邦寺／八蚌寺&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章；校注10&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;98.7960°E, 31.6483°N&lt;/p&gt;&lt;p&gt;原文行程的补充节点来自校注10；与作者正文亲记地点作来源区分。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/八邦寺"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>98.796</longitude>
+          <latitude>31.6483</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>11 八邦寺</value>
+          </Data>
+          <Data name="modern_name">
+            <value>八邦寺／八蚌寺</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章；校注10</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/八邦寺</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>原文行程的补充节点来自校注10；与作者正文亲记地点作来源区分。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>98.796,31.6483,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_gangtuo">
+        <name>12 岗拖 → 岗托</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;12 岗拖 → 岗托&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;金沙江岗托一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;98.5853°E, 31.6326°N&lt;/p&gt;&lt;p&gt;金沙江渡口地区。标的是现代岗托聚落，非确定的历史皮船下水点。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/岗托镇"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>98.5853</longitude>
+          <latitude>31.6326</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>12 岗拖 → 岗托</value>
+          </Data>
+          <Data name="modern_name">
+            <value>金沙江岗托一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/岗托镇</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>金沙江渡口地区。标的是现代岗托聚落，非确定的历史皮船下水点。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>98.5853,31.6326,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_chamdo">
+        <name>13 察木多 → 昌都</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第1—3章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;13 察木多 → 昌都&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;昌都老城、强巴林寺一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第1—3章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;97.1779°E, 31.1435°N&lt;/p&gt;&lt;p&gt;用强巴林寺定位昌都老城，非作者营房遗址。第2章腊左探险支线未精确复原。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/强巴林寺"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>97.1779</longitude>
+          <latitude>31.1435</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#in</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>13 察木多 → 昌都</value>
+          </Data>
+          <Data name="modern_name">
+            <value>昌都老城、强巴林寺一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第1—3章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/强巴林寺</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>用强巴林寺定位昌都老城，非作者营房遗址。第2章腊左探险支线未精确复原。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>97.1779,31.1435,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="route_1">
+        <name>R1 入藏地点顺序示意（虚线，非道路）</name>
+        <description>&lt;p&gt;只显示主要地点的先后及大致方向。每两点间为人为直线插值的虚线；未按山谷、旧驿道、现代公路或卫星地形拟合，不可用于测量历史里程或导航。&lt;/p&gt;&lt;p&gt;第二章探险、第四章工布驻防、第五至七章反复进退均未完整复原。太昭至鲁朗、北返荒原、格尔木至青海湖等证据不足的连接处留白。&lt;/p&gt;</description>
+        <styleUrl>#in</styleUrl>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.064400,30.658300,0 104.026280,30.633730,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.998675,30.615938,0 103.960555,30.591367,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.932950,30.573575,0 103.894830,30.549005,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.867225,30.531212,0 103.829104,30.506642,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.801500,30.488850,0 103.763379,30.464280,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.735775,30.446487,0 103.697654,30.421917,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.670050,30.404125,0 103.631929,30.379555,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.604325,30.361763,0 103.566204,30.337192,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.538600,30.319400,0 103.500479,30.294830,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.472875,30.277037,0 103.434754,30.252467,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.407150,30.234675,0 103.369029,30.210105,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.341425,30.192312,0 103.303304,30.167742,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.275700,30.149950,0 103.237579,30.125380,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.209975,30.107588,0 103.171854,30.083017,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.144250,30.065225,0 103.106129,30.040655,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.078525,30.022862,0 103.040404,29.998292,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.012800,29.980500,0 102.967409,29.976672,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.934540,29.973900,0 102.889149,29.970072,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.856280,29.967300,0 102.810889,29.963472,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.778020,29.960700,0 102.732629,29.956872,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.699760,29.954100,0 102.654369,29.950272,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.621500,29.947500,0 102.576109,29.943672,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.543240,29.940900,0 102.497849,29.937072,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.464980,29.934300,0 102.419589,29.930472,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.386720,29.927700,0 102.341329,29.923872,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.308460,29.921100,0 102.263069,29.917272,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.230200,29.914500,0 102.190296,29.927115,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.161400,29.936250,0 102.121496,29.948865,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.092600,29.958000,0 102.052696,29.970615,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.023800,29.979750,0 101.983896,29.992365,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.955000,30.001500,0 101.934990,29.999586,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.920500,29.998200,0 101.900490,29.996286,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.886000,29.994900,0 101.858624,30.018692,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.838800,30.035920,0 101.811424,30.059712,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.791600,30.076940,0 101.764224,30.100732,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.744400,30.117960,0 101.717024,30.141752,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.697200,30.158980,0 101.669824,30.182772,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.650000,30.200000,0 101.626595,30.234697,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.609646,30.259823,0 101.586241,30.294520,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.569292,30.319646,0 101.545887,30.354344,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.528938,30.379469,0 101.505533,30.414167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.488585,30.439292,0 101.465179,30.473990,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.448231,30.499115,0 101.424826,30.533813,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.407877,30.558938,0 101.384472,30.593636,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.367523,30.618762,0 101.344118,30.653459,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.327169,30.678585,0 101.303764,30.713282,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.286815,30.738408,0 101.263410,30.773105,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.246462,30.798231,0 101.223056,30.832928,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.206108,30.858054,0 101.182702,30.892751,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.165754,30.917877,0 101.142349,30.952574,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.125400,30.977700,0 101.093130,31.007860,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.069762,31.029700,0 101.037493,31.059860,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.014125,31.081700,0 100.981855,31.111860,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.958488,31.133700,0 100.926218,31.163860,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.902850,31.185700,0 100.870580,31.215860,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.847212,31.237700,0 100.814943,31.267860,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.791575,31.289700,0 100.759305,31.319860,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.735938,31.341700,0 100.703668,31.371860,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.680300,31.393700,0 100.635724,31.408754,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.603444,31.419656,0 100.558868,31.434710,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.526589,31.445611,0 100.482013,31.460665,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.449733,31.471567,0 100.405157,31.486621,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.372878,31.497522,0 100.328302,31.512576,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.296022,31.523478,0 100.251446,31.538532,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.219167,31.549433,0 100.174590,31.564488,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.142311,31.575389,0 100.097735,31.590443,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.065456,31.601344,0 100.020879,31.616399,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.988600,31.627300,0 99.940402,31.627571,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.905500,31.627767,0 99.857302,31.628037,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.822400,31.628233,0 99.774202,31.628504,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.739300,31.628700,0 99.691102,31.628971,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.656200,31.629167,0 99.608002,31.629437,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.573100,31.629633,0 99.524902,31.629904,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.490000,31.630100,0 99.441802,31.630371,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.406900,31.630567,0 99.358702,31.630837,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.323800,31.631033,0 99.275602,31.631304,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.240700,31.631500,0 99.192502,31.631771,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.157600,31.631967,0 99.109402,31.632237,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.074500,31.632433,0 99.026302,31.632704,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.991400,31.632900,0 98.953623,31.635877,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.926267,31.638033,0 98.888489,31.641011,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.861133,31.643167,0 98.823356,31.646144,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.796000,31.648300,0 98.755265,31.645265,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.725767,31.643067,0 98.685031,31.640031,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.655533,31.637833,0 98.614798,31.634798,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.585300,31.632600,0 98.539950,31.616840,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.507111,31.605428,0 98.461762,31.589668,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.428922,31.578256,0 98.383573,31.562496,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.350733,31.551083,0 98.305384,31.535323,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.272544,31.523911,0 98.227195,31.508151,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.194356,31.496739,0 98.149006,31.480979,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.116167,31.469567,0 98.070817,31.453807,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.037978,31.442394,0 97.992628,31.426635,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.959789,31.415222,0 97.914439,31.399462,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.881600,31.388050,0 97.836250,31.372290,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.803411,31.360878,0 97.758062,31.345118,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.725222,31.333706,0 97.679873,31.317946,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.647033,31.306533,0 97.601684,31.290773,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.568844,31.279361,0 97.523495,31.263601,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.490656,31.252189,0 97.445306,31.236429,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.412467,31.225017,0 97.367117,31.209257,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.334278,31.197844,0 97.288928,31.182085,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.256089,31.170672,0 97.210739,31.154912,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+    <Folder id="folder_west">
+      <name>02 昌都至工布｜第2—4章</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark id="place_riwoche">
+        <name>14 类乌齐</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第3章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;14 类乌齐&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;类乌齐旧寺镇&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第3章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;96.5036°E, 31.3716°N&lt;/p&gt;&lt;p&gt;选用旧寺镇，区分今县城桑多镇。恩达、三十九族等中间节点未强行定位。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/类乌齐镇"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.5036</longitude>
+          <latitude>31.3716</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#west</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>14 类乌齐</value>
+          </Data>
+          <Data name="modern_name">
+            <value>类乌齐旧寺镇</value>
+          </Data>
+          <Data name="chapter">
+            <value>第3章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/类乌齐镇</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>选用旧寺镇，区分今县城桑多镇。恩达、三十九族等中间节点未强行定位。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.5036,31.3716,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_lhari">
+        <name>15 拉里 → 嘉黎旧镇</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第3章 · 区域参照</Snippet>
+        <description>&lt;h3&gt;15 拉里 → 嘉黎旧镇&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;嘉黎镇一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第3章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;区域参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;93.3458°E, 30.7423°N&lt;/p&gt;&lt;p&gt;旧粮台所在地区的镇区参照；不是今日阿扎县城。原文回忆与部分史事在校注中有订正。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/嘉黎镇"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>93.3458</longitude>
+          <latitude>30.7423</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#west</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>15 拉里 → 嘉黎旧镇</value>
+          </Data>
+          <Data name="modern_name">
+            <value>嘉黎镇一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第3章</value>
+          </Data>
+          <Data name="certainty">
+            <value>区域参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/嘉黎镇</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>旧粮台所在地区的镇区参照；不是今日阿扎县城。原文回忆与部分史事在校注中有订正。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.3458,30.7423,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_taizhao">
+        <name>16 江达 → 太昭古城一带</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第3、7、8章 · 区域参照</Snippet>
+        <description>&lt;h3&gt;16 江达 → 太昭古城一带&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;工布江达县江达村、太昭一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第3、7、8章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;区域参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;93.0800°E, 30.0000°N&lt;/p&gt;&lt;p&gt;依据社科院实地考察对应太昭／江达村。采用地名表及太昭大桥附近区域的粗略坐标；不是昌都市江达县，也不是工布江达现代县城。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.fallingrain.com/world/a/T/a/i/z/h/index.html"&gt;坐标参照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml"&gt;江达与太昭：社科院考察&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>93.08</longitude>
+          <latitude>30.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#west</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>16 江达 → 太昭古城一带</value>
+          </Data>
+          <Data name="modern_name">
+            <value>工布江达县江达村、太昭一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第3、7、8章</value>
+          </Data>
+          <Data name="certainty">
+            <value>区域参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://www.fallingrain.com/world/a/T/a/i/z/h/index.html</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>依据社科院实地考察对应太昭／江达村。采用地名表及太昭大桥附近区域的粗略坐标；不是昌都市江达县，也不是工布江达现代县城。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.08,30.0,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="route_2">
+        <name>R2 昌都—类乌齐—嘉黎—江达（虚线，省略若干未定站）</name>
+        <description>&lt;p&gt;只显示主要地点的先后及大致方向。每两点间为人为直线插值的虚线；未按山谷、旧驿道、现代公路或卫星地形拟合，不可用于测量历史里程或导航。&lt;/p&gt;&lt;p&gt;第二章探险、第四章工布驻防、第五至七章反复进退均未完整复原。太昭至鲁朗、北返荒原、格尔木至青海湖等证据不足的连接处留白。&lt;/p&gt;</description>
+        <styleUrl>#west</styleUrl>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.177900,31.143500,0 97.134445,31.158200,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.102978,31.168844,0 97.059523,31.183544,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.028056,31.194189,0 96.984601,31.208889,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.953133,31.219533,0 96.909678,31.234233,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.878211,31.244878,0 96.834756,31.259578,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.803289,31.270222,0 96.759834,31.284922,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.728367,31.295567,0 96.684912,31.310266,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.653444,31.320911,0 96.609990,31.335611,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.578522,31.346256,0 96.535067,31.360955,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.503600,31.371600,0 96.456638,31.362241,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.422631,31.355464,0 96.375669,31.346105,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.341662,31.339328,0 96.294699,31.329969,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.260692,31.323192,0 96.213730,31.313833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.179723,31.307056,0 96.132761,31.297698,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.098754,31.290921,0 96.051792,31.281562,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.017785,31.274785,0 95.970822,31.265426,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.936815,31.258649,0 95.889853,31.249290,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.855846,31.242513,0 95.808884,31.233154,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.774877,31.226377,0 95.727915,31.217018,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.693908,31.210241,0 95.646946,31.200882,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.612938,31.194105,0 95.565976,31.184746,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.531969,31.177969,0 95.485007,31.168610,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.451000,31.161833,0 95.404038,31.152475,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.370031,31.145697,0 95.323069,31.136339,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.289062,31.129562,0 95.242099,31.120203,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.208092,31.113426,0 95.161130,31.104067,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.127123,31.097290,0 95.080161,31.087931,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.046154,31.081154,0 94.999192,31.071795,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.965185,31.065018,0 94.918222,31.055659,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.884215,31.048882,0 94.837253,31.039523,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.803246,31.032746,0 94.756284,31.023387,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.722277,31.016610,0 94.675315,31.007251,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.641308,31.000474,0 94.594346,30.991116,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.560338,30.984338,0 94.513376,30.974980,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.479369,30.968203,0 94.432407,30.958844,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.398400,30.952067,0 94.351438,30.942708,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.317431,30.935931,0 94.270469,30.926572,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.236462,30.919795,0 94.189499,30.910436,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.155492,30.903659,0 94.108530,30.894300,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.074523,30.887523,0 94.027561,30.878164,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.993554,30.871387,0 93.946592,30.862028,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.912585,30.855251,0 93.865622,30.845892,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.831615,30.839115,0 93.784653,30.829757,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.750646,30.822979,0 93.703684,30.813621,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.669677,30.806844,0 93.622715,30.797485,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.588708,30.790708,0 93.541746,30.781349,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.507738,30.774572,0 93.460776,30.765213,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.426769,30.758436,0 93.379807,30.749077,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.345800,30.742300,0 93.331785,30.703161,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.321636,30.674818,0 93.307621,30.635679,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.297473,30.607336,0 93.283458,30.568197,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.273309,30.539855,0 93.259294,30.500715,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.249145,30.472373,0 93.235131,30.433233,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.224982,30.404891,0 93.210967,30.365751,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.200818,30.337409,0 93.186803,30.298270,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.176655,30.269927,0 93.162640,30.230788,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.152491,30.202445,0 93.138476,30.163306,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.128327,30.134964,0 93.114312,30.095824,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.104164,30.067482,0 93.090149,30.028342,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+    <Folder id="folder_pome">
+      <name>03 工布与波密｜第5—7章</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark id="place_lulang">
+        <name>17 鲁朗</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第5—7章 · 区域参照</Snippet>
+        <description>&lt;h3&gt;17 鲁朗&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;鲁朗地区&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第5—7章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;区域参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;94.7332°E, 29.7257°N&lt;/p&gt;&lt;p&gt;使用现代镇驻地作地区参照。镇治曾由东久迁移，旅游小镇与书中驻营地不能直接等同；未确认作者每次驻地。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/N12238762005"&gt;坐标参照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html"&gt;鲁朗镇治迁移&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>94.7332</longitude>
+          <latitude>29.7257</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#pome</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>17 鲁朗</value>
+          </Data>
+          <Data name="modern_name">
+            <value>鲁朗地区</value>
+          </Data>
+          <Data name="chapter">
+            <value>第5—7章</value>
+          </Data>
+          <Data name="certainty">
+            <value>区域参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://mapcarta.com/N12238762005</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>使用现代镇驻地作地区参照。镇治曾由东久迁移，旅游小镇与书中驻营地不能直接等同；未确认作者每次驻地。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.7332,29.7257,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_tongmai">
+        <name>18 汤买／汤木 → 通麦一带</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第6章；校注33 · 区域参照</Snippet>
+        <description>&lt;h3&gt;18 汤买／汤木 → 通麦一带&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;通麦、易贡藏布渡河地区&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第6章；校注33&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;区域参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;95.0646°E, 30.0976°N&lt;/p&gt;&lt;p&gt;现代通麦桥坐标仅用于定位渡河地区，不认定旧藤桥与今桥重合。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.upc.pbs.bridgemeister.com/bridge.php?bid=6161"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>95.0646</longitude>
+          <latitude>30.0976</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#pome</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>18 汤买／汤木 → 通麦一带</value>
+          </Data>
+          <Data name="modern_name">
+            <value>通麦、易贡藏布渡河地区</value>
+          </Data>
+          <Data name="chapter">
+            <value>第6章；校注33</value>
+          </Data>
+          <Data name="certainty">
+            <value>区域参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://www.upc.pbs.bridgemeister.com/bridge.php?bid=6161</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>现代通麦桥坐标仅用于定位渡河地区，不认定旧藤桥与今桥重合。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.0646,30.0976,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_yigong">
+        <name>19 彝贡 → 易贡地区</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第6章 · 区域参照</Snippet>
+        <description>&lt;h3&gt;19 彝贡 → 易贡地区&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;易贡乡一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第6章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;区域参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;94.8162°E, 30.2699°N&lt;/p&gt;&lt;p&gt;现代易贡乡聚落代表点，用于查看易贡河谷；不等同书中的军营、登岸点或具体战场。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/29837964"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>94.8162</longitude>
+          <latitude>30.2699</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#pome</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>19 彝贡 → 易贡地区</value>
+          </Data>
+          <Data name="modern_name">
+            <value>易贡乡一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第6章</value>
+          </Data>
+          <Data name="certainty">
+            <value>区域参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://mapcarta.com/29837964</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>现代易贡乡聚落代表点，用于查看易贡河谷；不等同书中的军营、登岸点或具体战场。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.8162,30.2699,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_qundo">
+        <name>20 春多寺 → 倾多寺一带</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第6—7章；校注35 · 事件区域</Snippet>
+        <description>&lt;h3&gt;20 春多寺 → 倾多寺一带&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;倾多镇、倾多寺地区&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第6—7章；校注35&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;事件区域&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;95.6022°E, 30.0577°N&lt;/p&gt;&lt;p&gt;校注将春多寺、春倾寺对应倾多寺。坐标取现代倾多聚落点，非寺院测绘坐标；主要作为书中部队和人物活动的事件地点，不认定作者本人亲到，未接入个人行程连线。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/N3017464360"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>95.6022</longitude>
+          <latitude>30.0577</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#pome</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>20 春多寺 → 倾多寺一带</value>
+          </Data>
+          <Data name="modern_name">
+            <value>倾多镇、倾多寺地区</value>
+          </Data>
+          <Data name="chapter">
+            <value>第6—7章；校注35</value>
+          </Data>
+          <Data name="certainty">
+            <value>事件区域</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://mapcarta.com/N3017464360</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>校注将春多寺、春倾寺对应倾多寺。坐标取现代倾多聚落点，非寺院测绘坐标；主要作为书中部队和人物活动的事件地点，不认定作者本人亲到，未接入个人行程连线。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.6022,30.0577,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="route_3">
+        <name>R3 鲁朗—通麦—易贡方向（虚线，反攻阶段简化）</name>
+        <description>&lt;p&gt;只显示主要地点的先后及大致方向。每两点间为人为直线插值的虚线；未按山谷、旧驿道、现代公路或卫星地形拟合，不可用于测量历史里程或导航。&lt;/p&gt;&lt;p&gt;第二章探险、第四章工布驻防、第五至七章反复进退均未完整复原。太昭至鲁朗、北返荒原、格尔木至青海湖等证据不足的连接处留白。&lt;/p&gt;</description>
+        <styleUrl>#pome</styleUrl>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.733200,29.725700,0 94.760659,29.756515,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.780543,29.778829,0 94.808002,29.809643,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.827886,29.831957,0 94.855345,29.862772,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.875229,29.885086,0 94.902687,29.915900,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.922571,29.938214,0 94.950030,29.969029,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.969914,29.991343,0 94.997373,30.022157,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.017257,30.044471,0 95.044716,30.075286,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.064600,30.097600,0 95.028582,30.122584,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.002500,30.140675,0 94.966482,30.165658,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.940400,30.183750,0 94.904382,30.208734,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.878300,30.226825,0 94.842282,30.251808,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+    <Folder id="folder_wilderness">
+      <name>04 北返荒原｜第8—10章：路线待考</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <description>&lt;p&gt;太昭北行后经凝多、哈喇乌苏、酱通、通天河，再至柴达木。旧名、渡点和迷路行迹尚不足以恢复。本层保留文献条目，不赋假坐标；请配合其他图层观察西藏至青海的大尺度地形。&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94</longitude>
+        <latitude>33.1</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>1000000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="unlocated_9">
+        <name>凝多／凝多塘【未定位】</name>
+        <description>&lt;h3&gt;凝多／凝多塘&lt;/h3&gt;&lt;p&gt;第8章。北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_10">
+        <name>哈喇乌苏【未定位】</name>
+        <description>&lt;h3&gt;哈喇乌苏&lt;/h3&gt;&lt;p&gt;第8章。按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_11">
+        <name>酱通／绛通（羌塘）【未定位】</name>
+        <description>&lt;h3&gt;酱通／绛通（羌塘）&lt;/h3&gt;&lt;p&gt;第8—10章。高原区域名称，并非一个可定位的沙漠景区。迷路行迹缺少足够空间约束，本图不复原其折线。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_12">
+        <name>通天河渡点【未定位】</name>
+        <description>&lt;h3&gt;通天河渡点&lt;/h3&gt;&lt;p&gt;第9章。跨河本身有文本依据；校注联系穆鲁乌苏水系，但渡点不详，未用现代沱沱河桥或通天河大桥充作历史渡口。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_13">
+        <name>冈天削【未定位】</name>
+        <description>&lt;h3&gt;冈天削&lt;/h3&gt;&lt;p&gt;第8—10章。校注48推测与昆仑山口有关，此说不作为精确定位依据；不把现代公路山口写成已证实途经点。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_14">
+        <name>遇蒙古喇嘛、遇猎户地点【未定位】</name>
+        <description>&lt;h3&gt;遇蒙古喇嘛、遇猎户地点&lt;/h3&gt;&lt;p&gt;第10章。事件有原文，地点无可靠坐标，不另造营地。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+    </Folder>
+    <Folder id="folder_return">
+      <name>05 柴达木至西安｜第11—12章</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <Placemark id="place_golmud">
+        <name>21 柴达木 → 格尔木一带（推定）</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第11章；校注55 · 校注推定</Snippet>
+        <description>&lt;h3&gt;21 柴达木 → 格尔木一带（推定）&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;格尔木地区&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第11章；校注55&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;校注推定&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;94.9042°E, 36.4028°N&lt;/p&gt;&lt;p&gt;任乃强按程站推为格尔木一带，不是作者明确写出的今名。使用现代城市代表点；不是当时城市已建成的断言，也不能据此反推羌塘精确轨迹。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/格尔木市"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>94.9042</longitude>
+          <latitude>36.4028</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>180000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#return_uncertain</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>21 柴达木 → 格尔木一带（推定）</value>
+          </Data>
+          <Data name="modern_name">
+            <value>格尔木地区</value>
+          </Data>
+          <Data name="chapter">
+            <value>第11章；校注55</value>
+          </Data>
+          <Data name="certainty">
+            <value>校注推定</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/格尔木市</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>任乃强按程站推为格尔木一带，不是作者明确写出的今名。使用现代城市代表点；不是当时城市已建成的断言，也不能据此反推羌塘精确轨迹。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.9042,36.4028,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_qinghai">
+        <name>22 青海 → 青海湖（区域）</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第11章；校注57 · 区域参照</Snippet>
+        <description>&lt;h3&gt;22 青海 → 青海湖（区域）&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;青海湖&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第11章；校注57&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;区域参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;100.2000°E, 36.9000°N&lt;/p&gt;&lt;p&gt;湖面代表点，仅定位整湖。原文及校注记行海南路；不代表到湖心，也不是确定的岸边营地。书中另有“青盐海”，与青海湖分开处理。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://en.wikipedia.org/wiki/Qinghai_Lake"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>100.2</longitude>
+          <latitude>36.9</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>180000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#return</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>22 青海 → 青海湖（区域）</value>
+          </Data>
+          <Data name="modern_name">
+            <value>青海湖</value>
+          </Data>
+          <Data name="chapter">
+            <value>第11章；校注57</value>
+          </Data>
+          <Data name="certainty">
+            <value>区域参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://en.wikipedia.org/wiki/Qinghai_Lake</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>湖面代表点，仅定位整湖。原文及校注记行海南路；不代表到湖心，也不是确定的岸边营地。书中另有“青盐海”，与青海湖分开处理。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>100.2,36.9,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_riyue">
+        <name>23 日月山</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第11章；校注58 · 区域参照</Snippet>
+        <description>&lt;h3&gt;23 日月山&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;日月山一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第11章；校注58&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;区域参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;101.0939°E, 36.4431°N&lt;/p&gt;&lt;p&gt;使用日月山景区代表点，未确认旧道具体翻越位置。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/W1425740804"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.0939</longitude>
+          <latitude>36.4431</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#return</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>23 日月山</value>
+          </Data>
+          <Data name="modern_name">
+            <value>日月山一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第11章；校注58</value>
+          </Data>
+          <Data name="certainty">
+            <value>区域参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://mapcarta.com/W1425740804</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>使用日月山景区代表点，未确认旧道具体翻越位置。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>101.0939,36.4431,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_huangyuan">
+        <name>24 丹噶尔厅 → 湟源</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第11—12章；校注59 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;24 丹噶尔厅 → 湟源&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;丹噶尔古城一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第11—12章；校注59&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;101.2643°E, 36.6890°N&lt;/p&gt;&lt;p&gt;用古城内城隍庙定位丹噶尔老城，非作者旅店。书中到达日期为农历六月二十四，本图未换算为公历。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/城隍庙_(湟源县)"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.2643</longitude>
+          <latitude>36.689</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#return</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>24 丹噶尔厅 → 湟源</value>
+          </Data>
+          <Data name="modern_name">
+            <value>丹噶尔古城一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第11—12章；校注59</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/城隍庙_(湟源县)</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>用古城内城隍庙定位丹噶尔老城，非作者旅店。书中到达日期为农历六月二十四，本图未换算为公历。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>101.2643,36.689,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_xining">
+        <name>25 西宁</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第12章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;25 西宁&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;西宁城区&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第12章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;101.7781°E, 36.6169°N&lt;/p&gt;&lt;p&gt;现代城市代表点，不指认张镇军衙署或作者所住旅店。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/西宁市"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.7781</longitude>
+          <latitude>36.6169</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#return</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>25 西宁</value>
+          </Data>
+          <Data name="modern_name">
+            <value>西宁城区</value>
+          </Data>
+          <Data name="chapter">
+            <value>第12章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/西宁市</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>现代城市代表点，不指认张镇军衙署或作者所住旅店。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>101.7781,36.6169,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_lanzhou">
+        <name>26 兰州</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第12章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;26 兰州&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;兰州城区&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第12章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;103.8320°E, 36.0610°N&lt;/p&gt;&lt;p&gt;现代城市代表点；旧炭市街旅店位置未核。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/兰州市"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>103.832</longitude>
+          <latitude>36.061</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#return</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>26 兰州</value>
+          </Data>
+          <Data name="modern_name">
+            <value>兰州城区</value>
+          </Data>
+          <Data name="chapter">
+            <value>第12章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/兰州市</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>现代城市代表点；旧炭市街旅店位置未核。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>103.832,36.061,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_xian">
+        <name>27 长安 → 西安</name>
+        <visibility>1</visibility>
+        <Snippet maxLines="1">第12章 · 对应较明确</Snippet>
+        <description>&lt;h3&gt;27 长安 → 西安&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;西安老城一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;第12章&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;对应较明确&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;108.9453°E, 34.2592°N&lt;/p&gt;&lt;p&gt;全书叙事终点。使用老城范围代表点；洪铺街寓所及墓葬均未精确定位。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/西安市"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>108.9453</longitude>
+          <latitude>34.2592</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#return</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>27 长安 → 西安</value>
+          </Data>
+          <Data name="modern_name">
+            <value>西安老城一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>第12章</value>
+          </Data>
+          <Data name="certainty">
+            <value>对应较明确</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/西安市</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>全书叙事终点。使用老城范围代表点；洪铺街寓所及墓葬均未精确定位。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>108.9453,34.2592,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="route_4">
+        <name>R4 日月山—丹噶尔—西宁—兰州—西安（虚线）</name>
+        <description>&lt;p&gt;只显示主要地点的先后及大致方向。每两点间为人为直线插值的虚线；未按山谷、旧驿道、现代公路或卫星地形拟合，不可用于测量历史里程或导航。&lt;/p&gt;&lt;p&gt;第二章探险、第四章工布驻防、第五至七章反复进退均未完整复原。太昭至鲁朗、北返荒原、格尔木至青海湖等证据不足的连接处留白。&lt;/p&gt;</description>
+        <styleUrl>#return</styleUrl>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.093900,36.443100,0 101.118608,36.478755,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.136500,36.504575,0 101.161208,36.540230,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.179100,36.566050,0 101.203808,36.601706,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.221700,36.627525,0 101.246408,36.663181,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.264300,36.689000,0 101.313967,36.682030,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.349933,36.676983,0 101.399601,36.670014,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.435567,36.664967,0 101.485234,36.657997,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.521200,36.652950,0 101.570867,36.645980,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.606833,36.640933,0 101.656501,36.633964,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.692467,36.628917,0 101.742134,36.621947,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.778100,36.616900,0 101.825750,36.604003,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.860256,36.594664,0 101.907906,36.581767,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.942412,36.572428,0 101.990062,36.559531,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.024568,36.550192,0 102.072218,36.537295,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.106724,36.527956,0 102.154374,36.515059,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.188880,36.505720,0 102.236530,36.492823,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.271036,36.483484,0 102.318686,36.470587,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.353192,36.461248,0 102.400842,36.448351,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.435348,36.439012,0 102.482998,36.426115,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.517504,36.416776,0 102.565154,36.403879,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.599660,36.394540,0 102.647310,36.381643,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.681816,36.372304,0 102.729466,36.359407,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.763972,36.350068,0 102.811622,36.337171,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.846128,36.327832,0 102.893778,36.314935,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.928284,36.305596,0 102.975934,36.292699,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.010440,36.283360,0 103.058090,36.270463,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.092596,36.261124,0 103.140246,36.248227,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.174752,36.238888,0 103.222402,36.225991,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.256908,36.216652,0 103.304558,36.203755,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.339064,36.194416,0 103.386714,36.181519,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.421220,36.172180,0 103.468870,36.159283,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.503376,36.149944,0 103.551026,36.137047,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.585532,36.127708,0 103.633182,36.114811,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.667688,36.105472,0 103.715338,36.092575,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.749844,36.083236,0 103.797494,36.070339,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.832000,36.061000,0 103.878339,36.044671,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.911895,36.032847,0 103.958235,36.016518,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>103.991791,36.004694,0 104.038130,35.988365,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.071686,35.976541,0 104.118025,35.960212,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.151581,35.948388,0 104.197921,35.932059,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.231477,35.920234,0 104.277816,35.903906,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.311372,35.892081,0 104.357711,35.875752,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.391267,35.863928,0 104.437606,35.847599,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.471162,35.835775,0 104.517502,35.819446,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.551058,35.807622,0 104.597397,35.791293,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.630953,35.779469,0 104.677292,35.763140,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.710848,35.751316,0 104.757188,35.734987,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.790744,35.723163,0 104.837083,35.706834,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.870639,35.695009,0 104.916978,35.678681,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>104.950534,35.666856,0 104.996874,35.650527,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.030430,35.638703,0 105.076769,35.622374,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.110325,35.610550,0 105.156664,35.594221,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.190220,35.582397,0 105.236560,35.566068,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.270116,35.554244,0 105.316455,35.537915,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.350011,35.526091,0 105.396350,35.509762,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.429906,35.497937,0 105.476246,35.481609,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.509802,35.469784,0 105.556141,35.453456,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.589697,35.441631,0 105.636036,35.425302,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.669592,35.413478,0 105.715931,35.397149,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.749488,35.385325,0 105.795827,35.368996,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.829383,35.357172,0 105.875722,35.340843,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.909278,35.329019,0 105.955617,35.312690,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>105.989173,35.300866,0 106.035513,35.284537,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.069069,35.272712,0 106.115408,35.256384,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.148964,35.244559,0 106.195303,35.228231,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.228859,35.216406,0 106.275199,35.200077,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.308755,35.188253,0 106.355094,35.171924,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.388650,35.160100,0 106.434989,35.143771,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.468545,35.131947,0 106.514885,35.115618,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.548441,35.103794,0 106.594780,35.087465,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.628336,35.075641,0 106.674675,35.059312,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.708231,35.047488,0 106.754571,35.031159,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.788127,35.019334,0 106.834466,35.003006,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.868022,34.991181,0 106.914361,34.974852,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>106.947917,34.963028,0 106.994256,34.946699,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.027812,34.934875,0 107.074152,34.918546,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.107708,34.906722,0 107.154047,34.890393,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.187603,34.878569,0 107.233942,34.862240,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.267498,34.850416,0 107.313838,34.834087,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.347394,34.822263,0 107.393733,34.805934,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.427289,34.794109,0 107.473628,34.777781,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.507184,34.765956,0 107.553524,34.749627,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.587080,34.737803,0 107.633419,34.721474,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.666975,34.709650,0 107.713314,34.693321,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.746870,34.681497,0 107.793210,34.665168,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.826766,34.653344,0 107.873105,34.637015,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.906661,34.625191,0 107.953000,34.608862,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>107.986556,34.597037,0 108.032896,34.580709,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.066452,34.568884,0 108.112791,34.552556,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.146347,34.540731,0 108.192686,34.524402,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.226242,34.512578,0 108.272581,34.496249,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.306138,34.484425,0 108.352477,34.468096,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.386033,34.456272,0 108.432372,34.439943,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.465928,34.428119,0 108.512267,34.411790,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.545823,34.399966,0 108.592163,34.383637,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.625719,34.371812,0 108.672058,34.355484,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.705614,34.343659,0 108.751953,34.327331,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.785509,34.315506,0 108.831849,34.299177,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>108.865405,34.287353,0 108.911744,34.271024,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+    <Folder id="folder_context">
+      <name>06 现代地理参照｜默认隐藏</name>
+      <visibility>0</visibility>
+      <open>0</open>
+      <Placemark id="place_gongbo">
+        <name>参照 工布江达现代县城</name>
+        <visibility>0</visibility>
+        <Snippet maxLines="1">地理对照 · 背景参照</Snippet>
+        <description>&lt;h3&gt;参照 工布江达现代县城&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;工布江达县城&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;地理对照&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;背景参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;93.2462°E, 29.8868°N&lt;/p&gt;&lt;p&gt;供辨认今地名。与西北方向的太昭／江达村分开；本图不把现代县城当书中“江达”。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/工布江达县"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>93.2462</longitude>
+          <latitude>29.8868</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#context</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>参照 工布江达现代县城</value>
+          </Data>
+          <Data name="modern_name">
+            <value>工布江达县城</value>
+          </Data>
+          <Data name="chapter">
+            <value>地理对照</value>
+          </Data>
+          <Data name="certainty">
+            <value>背景参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/工布江达县</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>供辨认今地名。与西北方向的太昭／江达村分开；本图不把现代县城当书中“江达”。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.2462,29.8868,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="place_bomi">
+        <name>参照 波密现代县城</name>
+        <visibility>0</visibility>
+        <Snippet maxLines="1">地理对照 · 背景参照</Snippet>
+        <description>&lt;h3&gt;参照 波密现代县城&lt;/h3&gt;&lt;p&gt;&lt;b&gt;今名／定位对象：&lt;/b&gt;波密扎木镇一带&lt;br/&gt;&lt;b&gt;对应章节：&lt;/b&gt;地理对照&lt;br/&gt;&lt;b&gt;定位性质：&lt;/b&gt;背景参照&lt;br/&gt;&lt;b&gt;经纬度：&lt;/b&gt;95.7694°E, 29.8585°N&lt;/p&gt;&lt;p&gt;现代地理参照。历史波密是区域，不把今县城自动等同卡拖或春多寺。&lt;/p&gt;&lt;p&gt;坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;地名与行程：原文、校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/波密县"&gt;坐标参照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>95.7694</longitude>
+          <latitude>29.8585</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#context</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>参照 波密现代县城</value>
+          </Data>
+          <Data name="modern_name">
+            <value>波密扎木镇一带</value>
+          </Data>
+          <Data name="chapter">
+            <value>地理对照</value>
+          </Data>
+          <Data name="certainty">
+            <value>背景参照</value>
+          </Data>
+          <Data name="coordinate_reference">
+            <value>https://zh.wikipedia.org/wiki/波密县</value>
+          </Data>
+          <Data name="literary_source">
+            <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+          </Data>
+          <Data name="note">
+            <value>现代地理参照。历史波密是区域，不把今县城自动等同卡拖或春多寺。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.7694,29.8585,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>07 待考旧地名｜无坐标，不在地球上造点</name>
+      <open>0</open>
+      <Placemark id="unlocated_1">
+        <name>曾科／甑科【未定位】</name>
+        <description>&lt;h3&gt;曾科／甑科&lt;/h3&gt;&lt;p&gt;第1章。校注10指白玉县甑科。与今赠科乡对应尚需进一步核实，暂不赋坐标。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_2">
+        <name>大相岭、飞越岭【未定位】</name>
+        <description>&lt;h3&gt;大相岭、飞越岭&lt;/h3&gt;&lt;p&gt;第1章。旧道与山口未逐段核定。成都—雅安—泸定连线只是地点顺序。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_3">
+        <name>腊左塘、腊左、并达桥、林多坝【未定位】</name>
+        <description>&lt;h3&gt;腊左塘、腊左、并达桥、林多坝&lt;/h3&gt;&lt;p&gt;第2—3章。校注11订为浪荡沟、纳贡塘、甲木桥、梭罗坝等。不同旧名不可混作同一个点，支线暂不画。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_4">
+        <name>恩达【未定位】</name>
+        <description>&lt;h3&gt;恩达&lt;/h3&gt;&lt;p&gt;第2—3章。可考至类乌齐桑多镇恩达村、瓦合山东侧一带；未核得可靠点位，未用俄洛镇代替。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html"&gt;恩达与瓦合山旧驿道实地报道&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_5">
+        <name>三十九族【未定位】</name>
+        <description>&lt;h3&gt;三十九族&lt;/h3&gt;&lt;p&gt;第3章。区域名称，不能当一座城镇。未知作者在该区域的逐站行迹。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_6">
+        <name>牙披、脚木宗、窝冗噶伽【未定位】</name>
+        <description>&lt;h3&gt;牙披、脚木宗、窝冗噶伽&lt;/h3&gt;&lt;p&gt;第3—4章。工布活动中的重要旧名，校注可提供相对方位，尚不足以确认现代精确点。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_7">
+        <name>德摩、纳衣当噶、八浪登、京中、树枝、央噶【未定位】</name>
+        <description>&lt;h3&gt;德摩、纳衣当噶、八浪登、京中、树枝、央噶&lt;/h3&gt;&lt;p&gt;第5—7章。旧山名、聚落名与现代点位未逐一核准，保留原名供对读，未冒用现代公路折线。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_8">
+        <name>卡拖、八阶、夥若桥【未定位】</name>
+        <description>&lt;h3&gt;卡拖、八阶、夥若桥&lt;/h3&gt;&lt;p&gt;第6—7章。具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_15">
+        <name>盐淖、青盐海【未定位】</name>
+        <description>&lt;h3&gt;盐淖、青盐海&lt;/h3&gt;&lt;p&gt;第11章。盐沼及盐湖的具体范围未定。青盐海不同于随后到达的青海湖，不直接对应察尔汗、茶卡或柯柯盐湖。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_16">
+        <name>都兰【未定位】</name>
+        <description>&lt;h3&gt;都兰&lt;/h3&gt;&lt;p&gt;第11章。校注56作地理推定，未核当时市场位置，不使用今日察汗乌苏县城作为旧市镇的确点。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+      <Placemark id="unlocated_17">
+        <name>分州、洪铺街寓所、西原墓【未定位】</name>
+        <description>&lt;h3&gt;分州、洪铺街寓所、西原墓&lt;/h3&gt;&lt;p&gt;第12章。旧名或具体地点尚待考；地图止于西安，不另画一条书中未叙述的回凤凰路线。&lt;/p&gt;&lt;p&gt;本条无几何坐标；不会在地球上显示点标。&lt;/p&gt;&lt;a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"&gt;原文与校注&lt;/a&gt;</description>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
