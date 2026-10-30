@@ -4,12 +4,14 @@ import csv
 import html
 import json
 import math
+import re
 import struct
 import xml.etree.ElementTree as ET
 import zipfile
 import zlib
 
 ROOT = Path(__file__).resolve().parents[1]
+TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
 KML = 'http://www.opengis.net/kml/2.2'
 ET.register_namespace('', KML)
 BOOK = 'https://weread.qq.com/web/reader/c04325905e47adc0457d4a9'
@@ -63,6 +65,31 @@ ROWS = [
 ('bomi','参照 波密现代县城','波密扎木镇一带',95.7694,29.8585,'地理对照','context','背景参照',wiki('波密县'),'现代地理参照。历史波密是区域，不把今县城自动等同卡拖或春多寺。'),
 ]
 
+# Distances are between representative points, never reconstructed walking miles.
+PLACE_BY_ID = {r[0]: r for r in ROWS}
+ROUTES = [
+    ('in','R1 入藏地点顺序示意',['chengdu','yaan','luding','kangding','zheduo','changba','daofu','luhuo','garze','maisux','palpung','gangtuo','chamdo']),
+    ('west','R2 昌都—类乌齐—嘉黎—江达',['chamdo','riwoche','lhari','taizhao']),
+    ('pome','R3 鲁朗—通麦—易贡方向',['lulang','tongmai','yigong']),
+    ('return','R4 日月山—丹噶尔—西宁—兰州—西安',['riyue','huangyuan','xining','lanzhou','xian']),
+]
+DISTANCE_NOTE = '代表点之间的球面近似直线距离，按平均地球半径6371.0088 km计算，取整。不是历史实走里程、现代公路里程或虚线短笔画长度；不确定位置会影响距离，不能当导航数据。'
+
+def distance_km(a,b):
+    ax,ay=PLACE_BY_ID[a][3:5]; bx,by=PLACE_BY_ID[b][3:5]
+    p1,p2=map(math.radians,[ay,by]); dp=p2-p1; dl=math.radians(bx-ax)
+    h=math.sin(dp/2)**2+math.cos(p1)*math.cos(p2)*math.sin(dl/2)**2
+    return 6371.0088*2*math.asin(math.sqrt(min(1,max(0,h))))
+
+DISTANCE_ROWS = []
+for phase,route,ids in ROUTES:
+    for a,b in zip(ids,ids[1:]):
+        DISTANCE_ROWS.append((route,a,b,'相邻示意节点',distance_km(a,b)))
+DISTANCE_ROWS += [
+    ('补充起讫对照','kangding','chamdo','康定至昌都起讫直线，不含绕行',distance_km('kangding','chamdo')),
+    ('补充起讫对照','taizhao','huangyuan','北返223日全段起讫直线，不是荒原轨迹',distance_km('taizhao','huangyuan')),
+]
+
 UNLOCATED = [
 ('第1章','曾科／甑科','校注10指白玉县甑科。与今赠科乡对应尚需进一步核实，暂不赋坐标。'),
 ('第1章','大相岭、飞越岭','旧道与山口未逐段核定。成都—雅安—泸定连线只是地点顺序。'),
@@ -84,10 +111,10 @@ UNLOCATED = [
 ]
 
 PHASES = {
- 'in': ('01 川西入藏｜第1章', '#49a7ff', True),
- 'west': ('02 昌都至工布｜第2—4章', '#b692ff', True),
- 'pome': ('03 工布与波密｜第5—7章', '#35c5a0', True),
- 'wilderness': ('04 北返荒原｜第8—10章：路线待考', '#ffb347', True),
+ 'in': ('01 川西入藏｜成都至康定行约12日；炉城至昌都记50余日＊', '#49a7ff', True),
+ 'west': ('02 昌都至工布｜恩达至嘉黎月余；工布安抚约2月', '#b692ff', True),
+ 'pome': ('03 工布与波密｜含驻防、等待和往返，未计统一总日数', '#35c5a0', True),
+ 'wilderness': ('04 北返荒原｜江达到丹噶尔223日大段的一部分', '#ffb347', True),
  'return': ('05 柴达木至西安｜第11—12章', '#ff7868', True),
  'context': ('06 现代地理参照｜默认隐藏', '#aaaaaa', False),
 }
@@ -105,6 +132,28 @@ def view(parent, lon, lat, distance=70000):
 
 def links(items):
     return '<br/>'.join(f'<a href="{html.escape(u, quote=True)}">{html.escape(n)}</a>' for n,u in items)
+
+def time_html(entries):
+    if not entries:
+        return '<p>本地点单独耗时未明确记载，不按里程分摊。</p>'
+    return '<h3>行程与耗时</h3>'+''.join(
+        f'<p><b>{html.escape(t["segment"])}：{html.escape(t["duration"])}</b><br/>'
+        f'{html.escape(t["kind"])}。{html.escape(t["basis"])}</p>' for t in entries)
+
+def distance_html(entries):
+    return '<h3>距离（km）</h3>'+''.join(
+        f'<p><b>{html.escape(PLACE_BY_ID[a][2])} → {html.escape(PLACE_BY_ID[b][2])}：直线约 {km:.0f} km</b><br/>{html.escape(kind)}</p>'
+        for _,a,b,kind,km in entries)+f'<p>{DISTANCE_NOTE}</p>'
+
+def display_label(rid,label):
+    labels=[t['label'] for t in TIMINGS if t['anchor']==rid and t.get('label')]
+    incoming=[d for d in DISTANCE_ROWS if d[2]==rid and d[3]=='相邻示意节点']
+    # A few major labels also show distance; all segments remain in balloons/CSV.
+    if rid in ['yaan','luding','kangding','lanzhou','xian'] and incoming:
+        a=incoming[-1][1]; labels.append(f'{PLACE_BY_ID[a][2]}直距约{incoming[-1][4]:.0f} km')
+    if rid=='chamdo': labels.append(f'康定直距约{distance_km("kangding","chamdo"):.0f} km')
+    if rid=='huangyuan': labels.append(f'北返起讫直距约{distance_km("taizhao","huangyuan"):.0f} km')
+    return label+('｜'+'；'.join(labels) if labels else '')
 
 def kcolor(hexrgb, alpha='ff'):
     s=hexrgb.lstrip('#')
@@ -128,9 +177,9 @@ def png(color, hollow=False):
 
 def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
-    el(doc,'name','《艽野尘梦》阅读地图｜主要地点与行程示意')
+    el(doc,'name','《艽野尘梦》阅读地图｜耗时与距离（km）')
     el(doc,'open',1)
-    el(doc,'description','<h2>《艽野尘梦》阅读地图</h2><p>按十二章整理的主要地点；不是全地名索引，也不是历史测绘复原。</p><p>蓝：川西入藏；紫：昌都至工布；绿：波密；橙：存疑；红：青海至西安。虚线只连接地点顺序，不表示道路或GPS轨迹；北返荒原段不画推测轨迹。</p><p>点击点位查看书中名、今名、章节、定位依据和资料。现代聚落点不等于营地、旧桥、墓地或战场。</p><p>资料核对：2026-10-30。微信读书参考：北方文艺出版社2018年版，ISBN 9787531738671；不是对用户当前所读版本的断言。正文地名参照原文及任乃强校注。</p>'+links(SOURCES.items()))
+    el(doc,'description','29个地点，含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日，约7个多月。\n蓝：入藏；紫：工布；绿：波密；红：归途；橙：推定。\n虚线仅为行程示意；距离不是历史实走里程。点击地点查看明细。＊炉城至昌都50余日被校注质疑。农历日期未换算公历，交叠段不相加。')
     view(doc,100.5,33.6,2000000)
     for key,(_,color,_) in PHASES.items():
         for uncertain in [False, True]:
@@ -146,29 +195,40 @@ def make_map(bundled=False):
             lab=el(st,'LabelStyle');el(lab,'color','ffffffff');el(lab,'scale',0.85)
             line=el(st,'LineStyle');el(line,'color',kcolor(color,'d8'));el(line,'width',3)
             balloon=el(st,'BalloonStyle');el(balloon,'bgColor','fffafafa');el(balloon,'textColor','ff222222')
-    guide=el(doc,'Folder');el(guide,'name','00 先读说明与图例');el(guide,'open',0)
+    guide=el(doc,'Folder');el(guide,'name','00 耗时、距离总览与图例');el(guide,'open',0)
     pm=el(guide,'Placemark');el(pm,'name','地图用法、精度与来源');el(pm,'description',doc.find(f'{{{KML}}}description').text)
+    pm=el(guide,'Placemark');el(pm,'name','各段耗时总览｜不能全部相加')
+    el(pm,'description','<p>原文日期保留农历；约数、推算和正文与校注分歧分别标明。北返223日是江达到丹噶尔全段，不等于连续断粮或全在无人区。内部16日、5日等均包含在总段内。时间未明的地点不按距离猜测。</p>'+time_html(TIMINGS)+'<h3>资料</h3>'+links(SOURCES.items()))
+    pm=el(guide,'Placemark');el(pm,'name','距离总览｜km，直线近似，非实走')
+    el(pm,'description',distance_html(DISTANCE_ROWS))
     folders={}
     for key,(name,_,visible) in PHASES.items():
         f=el(doc,'Folder',id='folder_'+key);el(f,'name',name);el(f,'visibility',int(visible));el(f,'open',0);folders[key]=f
+        phase_timing=time_html([t for t in TIMINGS if t['phase']==key])
         if key=='wilderness':
-            el(f,'description','<p>太昭北行后经凝多、哈喇乌苏、酱通、通天河，再至柴达木。旧名、渡点和迷路行迹尚不足以恢复。本层保留文献条目，不赋假坐标；请配合其他图层观察西藏至青海的大尺度地形。</p>')
+            el(f,'description','<p>北返江达到丹噶尔223日；本层只涉及其中荒原段，不能给荒原段单独套用223日。旧名、渡点和迷路行迹不足以复原，不赋假坐标。</p>'+phase_timing)
             view(f,94,33.1,1000000)
+        else:
+            el(f,'description',phase_timing)
     points={}
     for rid,label,modern,lon,lat,chapter,phase,certainty,coordsource,note in ROWS:
         uncertain=certainty=='校注推定'
-        pm=el(folders[phase],'Placemark',id='place_'+rid);el(pm,'name',label)
-        el(pm,'visibility',int(PHASES[phase][2]));el(pm,'Snippet',chapter+' · '+certainty,maxLines='1')
+        entries=[t for t in TIMINGS if t['anchor']==rid]
+        pm=el(folders[phase],'Placemark',id='place_'+rid);el(pm,'name',display_label(rid,label))
+        el(pm,'visibility',int(PHASES[phase][2]));el(pm,'Snippet',(entries[-1]['duration']+' · ' if entries else '')+chapter+' · '+certainty,maxLines='2')
         extra=[('地名与行程：原文、校注',TEXT),('坐标参照',coordsource)]
         if rid=='taizhao': extra.append(('江达与太昭：社科院考察',SOURCES['江达与太昭考证']))
         if rid=='changba': extra.append(('长坝春今名考证',SOURCES['旧驿道与长坝春考证']))
         if rid=='lulang': extra.append(('鲁朗镇治迁移',SOURCES['鲁朗镇治迁移']))
         body=f'<h3>{html.escape(label)}</h3><p><b>今名／定位对象：</b>{html.escape(modern)}<br/><b>对应章节：</b>{html.escape(chapter)}<br/><b>定位性质：</b>{certainty}<br/><b>经纬度：</b>{lon:.4f}°E, {lat:.4f}°N</p><p>{html.escape(note)}</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p>'+links(extra)+'</p>'
-        el(pm,'description',body);view(pm,lon,lat,180000 if rid in ['golmud','qinghai'] else 65000)
+        related_distances=[d for d in DISTANCE_ROWS if d[1]==rid or d[2]==rid]
+        el(pm,'description',time_html(entries)+(distance_html(related_distances) if related_distances else '')+body);view(pm,lon,lat,180000 if rid in ['golmud','qinghai'] else 65000)
         el(pm,'styleUrl','#'+phase+('_uncertain' if uncertain else ''))
         ed=el(pm,'ExtendedData')
-        for name,value in [('book_name',label),('modern_name',modern),('chapter',chapter),('certainty',certainty),('coordinate_reference',coordsource),('literary_source',TEXT),('note',note)]:
+        for name,value in [('book_name',label),('modern_name',modern),('chapter',chapter),('certainty',certainty),('coordinate_reference',coordsource),('literary_source',TEXT),('note',note),('travel_time','；'.join(t['segment']+'：'+t['duration'] for t in entries)),('timing_basis','；'.join(t['kind']+'：'+t['basis'] for t in entries))]:
             d=el(ed,'Data',name=name);el(d,'value',value)
+        if related_distances:
+            d=el(ed,'Data',name='distance_km');el(d,'value','；'.join(PLACE_BY_ID[a][2]+'→'+PLACE_BY_ID[b][2]+f' 直线约{km:.0f} km' for _,a,b,_,km in related_distances))
         pt=el(pm,'Point');el(pt,'altitudeMode','clampToGround');el(pt,'coordinates',f'{lon},{lat},0');points[rid]=(lon,lat)
     # Geometry-free entries are deliberately not dropped: available in the Places tree.
     other=el(doc,'Folder');el(other,'name','07 待考旧地名｜无坐标，不在地球上造点');el(other,'open',0)
@@ -178,15 +238,11 @@ def make_map(bundled=False):
         refs=[('原文与校注',TEXT)]
         if name=='恩达': refs.append(('恩达与瓦合山旧驿道实地报道',SOURCES['恩达与瓦合山旧驿道']))
         el(p,'description',f'<h3>{html.escape(name)}</h3><p>{chapter}。{html.escape(note)}</p><p>本条无几何坐标；不会在地球上显示点标。</p>'+links(refs))
-    routes=[
-        ('in','R1 入藏地点顺序示意（虚线，非道路）',['chengdu','yaan','luding','kangding','zheduo','changba','daofu','luhuo','garze','maisux','palpung','gangtuo','chamdo']),
-        ('west','R2 昌都—类乌齐—嘉黎—江达（虚线，省略若干未定站）',['chamdo','riwoche','lhari','taizhao']),
-        ('pome','R3 鲁朗—通麦—易贡方向（虚线，反攻阶段简化）',['lulang','tongmai','yigong']),
-        ('return','R4 日月山—丹噶尔—西宁—兰州—西安（虚线）',['riyue','huangyuan','xining','lanzhou','xian']),
-    ]
-    for n,(phase,name,ids) in enumerate(routes,1):
-        p=el(folders[phase],'Placemark',id=f'route_{n}');el(p,'name',name)
-        el(p,'description','<p>只显示主要地点的先后及大致方向。每两点间为人为直线插值的虚线；未按山谷、旧驿道、现代公路或卫星地形拟合，不可用于测量历史里程或导航。</p><p>第二章探险、第四章工布驻防、第五至七章反复进退均未完整复原。太昭至鲁朗、北返荒原、格尔木至青海湖等证据不足的连接处留白。</p>')
+    for n,(phase,name,ids) in enumerate(ROUTES,1):
+        distance_entries=[d for d in DISTANCE_ROWS if d[0]==name]
+        total=sum(d[4] for d in distance_entries)
+        p=el(folders[phase],'Placemark',id=f'route_{n}');el(p,'name',name+f'｜示意连线合计约{total:.0f} km')
+        el(p,'description',distance_html(distance_entries)+f'<p>各相邻点直距相加约{total:.0f} km。不是首尾直距，也不是古道实走总里程。此合计按未取整数值计算后取整；分段四舍五入数相加可能相差少量km。</p>'+time_html([t for t in TIMINGS if t['phase']==phase])+'<p>只显示主要地点先后及大致方向。虚线人为插值，未按旧道或公路拟合，不可测量历史里程。部分时间是内部子段或驻留，不能全部累加。未知路段留白。</p>')
         el(p,'styleUrl','#'+phase);mg=el(p,'MultiGeometry')
         for a,b in zip(ids,ids[1:]):
             ax,ay=points[a];bx,by=points[b]
@@ -197,7 +253,10 @@ def make_map(bundled=False):
                 ls=el(mg,'LineString');el(ls,'tessellate',1);el(ls,'altitudeMode','clampToGround')
                 el(ls,'coordinates',f'{ax+(bx-ax)*t0:.6f},{ay+(by-ay)*t0:.6f},0 {ax+(bx-ax)*t1:.6f},{ay+(by-ay)*t1:.6f},0')
     ET.indent(root,space='  ')
-    return ET.tostring(root,encoding='utf-8',xml_declaration=True)
+    serialized=ET.tostring(root,encoding='utf-8',xml_declaration=True).decode('utf-8')
+    # CDATA preserves rich descriptions when imported by Google Earth Web.
+    serialized=re.sub(r'<description>(.*?)</description>',lambda m:'<description><![CDATA['+html.unescape(m.group(1)).replace(']]>',']]]]><![CDATA[>')+']]></description>',serialized,flags=re.S)
+    return serialized.encode('utf-8')
 
 def main():
     name='艽野尘梦_阅读地图'
@@ -207,9 +266,18 @@ def main():
         for phase,(_,color,_) in PHASES.items():
             z.writestr('icons/'+phase+'.png',png(color))
             z.writestr('icons/'+phase+'_uncertain.png',png('#ffb347',True))
-    headers=['id','地图标签','现代定位对象','经度','纬度','章节','图层','定位性质','坐标来源','说明']
+    headers=['id','地图标签','现代定位对象','经度','纬度','章节','图层','定位性质','坐标来源','说明','耗时','耗时依据']
     with (ROOT/'地名对照与坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
-        w=csv.writer(f);w.writerow(headers);w.writerows(ROWS)
+        w=csv.writer(f,lineterminator='\n');w.writerow(headers)
+        for row in ROWS:
+            entries=[t for t in TIMINGS if t['anchor']==row[0]]
+            w.writerow([*row,'；'.join(t['segment']+'：'+t['duration'] for t in entries),'；'.join(t['kind']+'：'+t['basis'] for t in entries)])
+    with (ROOT/'行程耗时对照.csv').open('w',encoding='utf-8-sig',newline='') as f:
+        w=csv.writer(f,lineterminator='\n');w.writerow(['地点ID','图层','地段／事项','耗时','性质','依据与限制'])
+        for t in TIMINGS: w.writerow([t[k] for k in ['anchor','phase','segment','duration','kind','basis']])
+    with (ROOT/'行程距离对照_km.csv').open('w',encoding='utf-8-sig',newline='') as f:
+        w=csv.writer(f,lineterminator='\n');w.writerow(['示意段','起点','终点','口径','直线距离_km','限制'])
+        for route,a,b,kind,km in DISTANCE_ROWS: w.writerow([route,PLACE_BY_ID[a][2],PLACE_BY_ID[b][2],kind,round(km),DISTANCE_NOTE])
     (ROOT/'data'/'未定位地名.json').write_text(json.dumps(UNLOCATED,ensure_ascii=False,indent=2)+'\n')
     readme='''《艽野尘梦》阅读地图
 制作与核对日期：2026-10-30
@@ -240,6 +308,13 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 坐标采用WGS84兼容地理来源；江巴村官方监测点未注明坐标系，特意舍入至0.01°，只用于粗略定位。
 显示四位小数仅是统一存储格式，不能理解成历史位置精确到米。
 没有给未知行程编造日期或经纬度；农历日期未冒作公历。
+已补行程和驻留耗时：直接显示于主要点标标签、弹窗、图层和耗时总览。
+江达至丹噶尔223日是整个北返大段；猎户处至柴达木16日等是子段，不重复相加。
+康定至昌都正文50余日被校注质疑，保留分歧；分州至长安7日不误写为兰州至西安7日。
+西安停留约2—3个月为叙事粗略推算；其余未明记的时间不按现代距离猜测。
+距离统一用km：按代表点的球面近似直线计算，取整，不是历史实际步行或公路里程。
+示意线的合计为各相邻点直距之和，既不是首尾直距，也不是全书完整行程。
+北返只给江达至丹噶尔起讫直距，不补画未知轨迹，不用223日反推实走距离。
 
 四、文本依据
 微信读书已核对陈渠珍、任乃强《艽野尘梦》北方文艺出版社2018年版目录（ISBN 9787531738671）。
@@ -255,13 +330,17 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
     readme+='''
 六、附带文件
 地名对照与坐标.csv：可用表格软件查看29个点的坐标、章节和来源。
+行程耗时对照.csv：可核查各段行程、驻留与推算性质。
+行程距离对照_km.csv：相邻节点直距及补充起讫直距，单位km。
+data/行程耗时.json：耗时原始结构化数据。
 data/未定位地名.json：17条待考条目。
 scripts/build_map.py：可复现构建脚本，只使用Python标准库。
 
 七、验证范围
 KML及KMZ内doc.kml均已通过OGC KML 2.2官方XSD校验。
 已检查坐标顺序和范围、样式引用、ID唯一性、KMZ完整性与内置图标引用。
-未在Google Earth客户端实际导入或检验卫星底图的对位效果。
+2026-10-30已在Google Earth网页版现有项目中实际导入，抽查丹噶尔标签、弹窗的223日、驻7日与1063 km直距，确认显示并保存到云端硬盘。
+网页版提示忽略maxLines和textColor两种样式字段；地点、时间、距离与弹窗可查看，底图精确对位和桌面客户端尚未逐点验收。
 '''
     (ROOT/'地图使用说明.txt').write_text(readme,encoding='utf-8')
     print(f'Created: {len(ROWS)} point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
