@@ -9,6 +9,7 @@ import struct
 import xml.etree.ElementTree as ET
 import zipfile
 import zlib
+from modern_roads import add_roads, write_road_index
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -235,6 +236,14 @@ def make_supplement(bundled=False):
     minor_styles(doc,bundled);minor_folder(doc)
     return serialize(root)
 
+def make_road_supplement():
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='modern_road_supplement')
+    el(doc,'name','《艽野尘梦》现代道路对照｜G317等国道省道');el(doc,'open',1)
+    el(doc,'description','现代道路为实线，历史行程仍为原图虚线。只需叠加本文件即可对照，不重复导入历史地点。道路数据缺失不人为补齐，点击路号查看范围与来源。')
+    view(doc,97.07,31.18,160000)
+    roads=add_roads(doc,el,view,kcolor);write_road_index(roads)
+    return serialize(root)
+
 def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
     el(doc,'name','《艽野尘梦》阅读地图｜耗时与距离（km）')
@@ -314,6 +323,7 @@ def make_map(bundled=False):
                 ls=el(mg,'LineString');el(ls,'tessellate',1);el(ls,'altitudeMode','clampToGround')
                 el(ls,'coordinates',f'{ax+(bx-ax)*t0:.6f},{ay+(by-ay)*t0:.6f},0 {ax+(bx-ax)*t1:.6f},{ay+(by-ay)*t1:.6f},0')
     minor_folder(doc)
+    add_roads(doc,el,view,kcolor)
     return serialize(root)
 
 def main():
@@ -332,6 +342,11 @@ def main():
         z.writestr('doc.kml',make_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    roads='艽野尘梦_现代道路对照'
+    road_kml=make_road_supplement()
+    (ROOT/(roads+'.kml')).write_bytes(road_kml)
+    with zipfile.ZipFile(ROOT/(roads+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',road_kml)
     with (ROOT/'小地名对照与坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
         fields=['id','name','old_names','modern','lon','lat','chapter','group','certainty','coordinate_source','identity_source','note','timing']
         w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(MINOR_PLACES)
@@ -420,6 +435,26 @@ KML及KMZ内doc.kml均已通过OGC KML 2.2官方XSD校验。
 网页版提示忽略maxLines和textColor两种样式字段；地点、时间、距离与弹窗可查看，底图精确对位和桌面客户端尚未逐点验收。
 同日已将九处小地名补充层叠加导入现有项目，抽查俄洛桥点、定位性质与弹窗并保存到云端硬盘。
 小地名层导入提示忽略Region缩放显示条件；九处地名及说明保留，可在地图和图层列表中查看。
+
+八、现代国道省道对照
+新增09现代道路层。现代道路为实线，历史行程仍为虚线，可在左侧单独开关。
+已导入旧版地图时，只需叠加“艽野尘梦_现代道路对照.kmz”，不必重复导入历史地点。
+新版完整阅读地图已包含09层，与现代道路补充版二选一加载，避免重叠。
+现代道路路号：G317、G350、G248、G318、G108、G214、G349、G109及S434、S303；S205另留编号核对说明，缺独立几何不冒画。
+路号依据交通部门、国家公路网规划及地方政府资料；各路线弹窗列出来源和历史对照限制。
+道路实际曲线来自OpenStreetMap，WGS84，2026-10-30提取；按阅读范围裁剪，约30米容差简化。
+不是逐点实测或实时路况；缺段不补连，OSM编号与官方编号有差异时在数据来源说明中保留。
+G317画炉霍—甘孜—德格—江达—昌都—类乌齐走廊，八美—道孚—炉霍现编号是G350。
+G318雅安—二郎山—泸定与书中清溪—飞越岭古道分开；甘孜—德格G317也不等同作者麦宿—八邦寺支线。
+S205官方确认娘蒲—太昭路段，但OSM该走廊仍有S303编号；独立几何缺失时仅作说明。完整嘉黎—太昭的规划升级不等于全线已通。S435飞越岭在建新线不画为已通。
+G109仅作柴达木及青海湖至兰州的现代方向参照，不据此复原北返荒原轨迹。
+现代道路对照.csv：各路号所选方向、数据状态、所绘片段长度km及核实依据；片段线长不是国省道全长、历史里程或导航里程。
+data/roads/osm_roads.geojson及manifest.json保留道路几何、提取口径、数据缺口和来源。
+道路数据 © OpenStreetMap contributors，Open Database License 1.0（ODbL）。
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+2026-10-30已将现代道路补充KMZ导入现有Google Earth项目，显示处理成功并保存到云端硬盘。
+已在俄洛桥—昌都视图抽查G317、G214实线与路号标签，以及历史行程虚线、小地名的同时显示。
 '''
     readme=readme.replace('17条',f'{len(UNLOCATED)}条').replace('另加9处',f'另加{len(MINOR_PLACES)}处')
     (ROOT/'地图使用说明.txt').write_text(readme,encoding='utf-8')

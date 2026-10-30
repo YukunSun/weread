@@ -1,0 +1,101 @@
+{
+  "retrieved_at_utc": "2026-10-30T04:00:49.310186+00:00",
+  "crs": "WGS84 longitude, latitude",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "sources": [
+    {
+      "ref": "G108",
+      "relation_id": 554657,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/554657/full",
+      "unresolved_child_relations": []
+    },
+    {
+      "ref": "G109",
+      "relation_id": 153104,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/153104/full",
+      "unresolved_child_relations": []
+    },
+    {
+      "ref": "G214",
+      "relation_id": 358995,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/358995/full",
+      "unresolved_child_relations": []
+    },
+    {
+      "ref": "G248",
+      "relation_id": 13902178,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/13902178/full",
+      "unresolved_child_relations": []
+    },
+    {
+      "ref": "G317",
+      "relation_id": 215491,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/215491/full",
+      "unresolved_child_relations": []
+    },
+    {
+      "ref": "G318",
+      "relation_id": 20295422,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/20295422/full",
+      "unresolved_child_relations": []
+    },
+    {
+      "ref": "G318",
+      "relation_id": 20295421,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/20295421/full",
+      "unresolved_child_relations": []
+    },
+    {
+      "ref": "G349",
+      "relation_id": 13088685,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/13088685/full",
+      "unresolved_child_relations": []
+    },
+    {
+      "ref": "G350",
+      "relation_id": 20295532,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/20295532/full",
+      "unresolved_child_relations": []
+    },
+    {
+      "ref": "S434",
+      "relation_id": 14953102,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/14953102/full",
+      "unresolved_child_relations": []
+    },
+    {
+      "ref": "S303",
+      "relation_id": 8426861,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/8426861/full",
+      "unresolved_child_relations": []
+    }
+  ],
+  "relation_index": "https://wiki.openstreetmap.org/wiki/China/Transport/National_Highways",
+  "province_relation_discovery_sources": [
+    "https://www.openstreetmap.org/api/0.6/map?bbox=101.55,30.15,101.85,30.35",
+    "https://www.openstreetmap.org/api/0.6/map?bbox=94.75,30.12,95.05,30.42",
+    "https://www.openstreetmap.org/api/0.6/map?bbox=92.95,30.0,93.3,30.4"
+  ],
+  "selection_rectangles_lonlat": [
+    [
+      92.0,
+      29.0,
+      104.4,
+      32.6
+    ],
+    [
+      94.3,
+      35.7,
+      104.1,
+      37.3
+    ]
+  ],
+  "feature_count": 4736,
+  "limits": [
+    "OSM completeness and road references may lag official road changes.",
+    "S434 and S303 are directly sourced route relations. No S205-tagged geometry was found in the sampled Niangpu/Taizhao area; OSM still labels that corridor S303.",
+    "No gap is joined or filled. Full original ways intersecting the selection rectangles are retained."
+  ]
+}

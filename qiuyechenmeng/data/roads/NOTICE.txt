@@ -1,0 +1,16 @@
+道路几何数据归属与口径
+
+© OpenStreetMap contributors
+Open Database License (ODbL) 1.0
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+
+osm_roads.geojson 是从公开 OSM API 取得的部分道路数据提取，保留原始道路点列、way ID、道路标签及来源路线关系。
+提取时间、请求来源与选取范围见 manifest.json；可使用 scripts/fetch_roads.py 重建数据。
+此道路数据提取及对其的数据库修改，依 ODbL 1.0 提供。
+由它生成的阅读地图在说明及弹窗保留数据归属。
+
+路线编号另与交通部门和地方政府资料核对；道路曲线、路号标签可能不完整或滞后。
+构建地图时按阅读范围裁剪，约30米容差简化；不使用直线插值填补道路缺口。
+现代道路实线与历史行程虚线为不同图层；两线接近不表示古今道路相同。
+缺少线路数据不代表现实无路；绘有道路也不保证当前通行状况。
