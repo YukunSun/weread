@@ -3,9 +3,8 @@
   <Document id="qiuyechenmeng">
     <name>《艽野尘梦》阅读地图｜耗时与距离（km）</name>
     <open>1</open>
-    <description><![CDATA[29个地点，含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日，约7个多月。
-蓝：入藏；紫：工布；绿：波密；红：归途；橙：推定。
-虚线仅为行程示意；距离不是历史实走里程。点击地点查看明细。＊炉城至昌都50余日被校注质疑。农历日期未换算公历，交叠段不相加。]]></description>
+    <description><![CDATA[29个主要地点及参照点，另补9处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
+小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
     <LookAt>
       <longitude>100.5</longitude>
       <latitude>33.6</latitude>
@@ -267,18 +266,43 @@
         <textColor>ff222222</textColor>
       </BalloonStyle>
     </Style>
+    <Style id="minor_landmark">
+      <IconStyle>
+        <color>ffffd889</color>
+        <scale>0.85</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="minor_reference">
+      <IconStyle>
+        <color>ff66d1ff</color>
+        <scale>0.85</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
     <Folder>
       <name>00 耗时、距离总览与图例</name>
       <open>0</open>
       <Placemark>
         <name>地图用法、精度与来源</name>
-        <description><![CDATA[29个地点，含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日，约7个多月。
-蓝：入藏；紫：工布；绿：波密；红：归途；橙：推定。
-虚线仅为行程示意；距离不是历史实走里程。点击地点查看明细。＊炉城至昌都50余日被校注质疑。农历日期未换算公历，交叠段不相加。]]></description>
+        <description><![CDATA[29个主要地点及参照点，另补9处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
+小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
       </Placemark>
       <Placemark>
         <name>各段耗时总览｜不能全部相加</name>
-        <description><![CDATA[<p>原文日期保留农历；约数、推算和正文与校注分歧分别标明。北返223日是江达到丹噶尔全段，不等于连续断粮或全在无人区。内部16日、5日等均包含在总段内。时间未明的地点不按距离猜测。</p><h3>行程与耗时</h3><p><b>成都启程：1909年农历七月既望</b><br/>原文日期。总叙：宣统元年秋七月既望；不换算公历日期。</p><p><b>成都 → 雅州：4日</b><br/>原文明记。第1章：自成都四日而至雅州。</p><p><b>雅州 → 泸定桥：6日</b><br/>原文明记。第1章过大相、飞越诸岭后记行六日抵泸定桥。</p><p><b>泸定桥 → 打箭炉：2日</b><br/>原文明记。第1章：又行二日至打箭炉。</p><p><b>打箭炉整备：约10日</b><br/>原文约数合并。第1章待命约一周、再准备三日；属于驻留，不是行军。</p><p><b>折多塘 → 甘孜一带：20余日</b><br/>原文回忆约数。第1章：此二十余日中。属于康定至昌都的大段，不能重复累加。</p><p><b>打箭炉 → 昌都：正文记50余日，校注存疑</b><br/>正文与校注意见不同。第1章记五十余日。校注10认为常规17日，加渡河停留约23—30日，疑有稽延或误记。校注是另一估计，不能拼成23—50日的可靠范围。</p><p><b>恩达 → 三十九族：20余日</b><br/>原文约数。第3章；包含在恩达至拉里段内，不重复累加。</p><p><b>恩达 → 拉里／嘉黎：月余</b><br/>原文约数。第3章：由恩达北行月余，抵拉里为农历腊月二十八。</p><p><b>拉里 → 凝多 → 江达：约3日</b><br/>原文分日合并。第3章两日至凝多，翌日抵江达；并非含后续驻留的总时间。</p><p><b>江达首次驻留：约20日</b><br/>原文约数释义。第3章一驻兼旬；与后来北返出发分开。</p><p><b>工布安抚：约2个月</b><br/>原文约数。第4章历时两月；并不等于整个工布驻防时长，可能与后续活动叙事交叠。</p><p><b>脚木宗驻留：半月</b><br/>原文约数。第4章；地点未精确定位，保留文字条目。</p><p><b>脚木宗 → 窝冗噶伽：4日</b><br/>原文明记。第4章。</p><p><b>窝冗噶伽办理事务：2个月</b><br/>原文约数。第4章；为驻留办事，不是行军。</p><p><b>窝冗噶伽 → 德摩：4日；随后驻德摩月余</b><br/>原文明记与约数。第4章末至第5章；不同事项不能当作一段净行军时间。</p><p><b>鲁朗等待援军：约1个月</b><br/>原文约数。第6章一住经月。</p><p><b>第6章越山至通麦附近：约3日</b><br/>原文明记。部队穷三日之力。另一处负重商旅需六日是一般路程说明，不是本队实际耗时。</p><p><b>通麦渡桥：全营约3日</b><br/>原文明记。第6章全营三日方渡毕；不是作者个人攀桥所需时间。</p><p><b>北返：江达 → 丹噶尔厅：223日，约7个多月</b><br/>作者自计总耗时。第12章：农历冬月十一出发，六月二十四到丹噶尔，自计二百二十三日。包含途中行走、停留及后段有居民区，不能写成连续断粮或全在无人区223日。</p><p><b>凝多北行 → 哈喇乌苏：7日</b><br/>原文明记。第8章起算点为凝多北行，不是从江达启程。</p><p><b>得猎户相助后 → 柴达木：16日</b><br/>原文明记。第11章行十六日至柴达木；该16日属于北返223日总段内。地名对应格尔木为校注推定。</p><p><b>穿过盐淖：5日</b><br/>原文明记。第11章；盐淖具体范围未确定，不据此造路线。</p><p><b>沿青海湖南岸行进：约2日</b><br/>原文明记。第11章二日海尽；不是环湖一圈，点标在湖面仅作区域参照。</p><p><b>日月山后 → 丹噶尔：2日（另有下山当天行程）</b><br/>原文明记。第11章下山止宿后再行两日至丹噶尔；不把整段翻越日月山写成仅2日。</p><p><b>北返抵丹噶尔：江达起223日；农历六月二十四到达</b><br/>作者自计总耗时与日期。第12章。与江达处标注为同一大段，不能相加。</p><p><b>丹噶尔驻留：7日</b><br/>原文明记。第12章制备衣物期间。</p><p><b>丹噶尔 → 西宁：未明记日数</b><br/>原文无明确耗时。第12章只记九十里，不按距离猜成1日。</p><p><b>西宁驻留：3日</b><br/>原文明记。第12章住西宁三日始行。</p><p><b>西宁 → 兰州：6日；兰州驻留日数未明</b><br/>原文明记。第12章乘骡车行六日始至。</p><p><b>分州 → 长安：7日；不是兰州至西安全程</b><br/>原文明记。第12章在分州过农历八月中旬节日，次晨启程，七日至长安。</p><p><b>西安停留：约2—3个月</b><br/>据叙事粗略推算。农历八月中旬在分州，随后七日至长安，叙事至冬月。非作者明记连续天数，不据此计算精确抵达或离开日。</p><h3>资料</h3><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注</a><br/><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">原文在线对读</a><br/><a href="https://weread.qq.com/web/reader/c04325905e47adc0457d4a9">微信读书版本与目录</a><br/><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">旧驿道与长坝春考证</a><br/><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">江达与太昭考证</a><br/><a href="https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html">鲁朗镇治迁移</a><br/><a href="https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf">江巴村地理参照</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">恩达与瓦合山旧驿道</a><br/><a href="https://developers.google.com/kml/documentation/kmlreference">KML格式规范</a>]]></description>
+        <description><![CDATA[<p>原文日期保留农历；约数、推算和正文与校注分歧分别标明。北返223日是江达到丹噶尔全段，不等于连续断粮或全在无人区。内部16日、5日等均包含在总段内。时间未明的地点不按距离猜测。</p><h3>行程与耗时</h3><p><b>成都启程：1909年农历七月既望</b><br/>原文日期。总叙：宣统元年秋七月既望；不换算公历日期。</p><p><b>成都 → 雅州：4日</b><br/>原文明记。第1章：自成都四日而至雅州。</p><p><b>雅州 → 泸定桥：6日</b><br/>原文明记。第1章过大相、飞越诸岭后记行六日抵泸定桥。</p><p><b>泸定桥 → 打箭炉：2日</b><br/>原文明记。第1章：又行二日至打箭炉。</p><p><b>打箭炉整备：约10日</b><br/>原文约数合并。第1章待命约一周、再准备三日；属于驻留，不是行军。</p><p><b>折多塘 → 甘孜一带：20余日</b><br/>原文回忆约数。第1章：此二十余日中。属于康定至昌都的大段，不能重复累加。</p><p><b>打箭炉 → 昌都：正文记50余日，校注存疑</b><br/>正文与校注意见不同。第1章记五十余日。校注10认为常规17日，加渡河停留约23—30日，疑有稽延或误记。校注是另一估计，不能拼成23—50日的可靠范围。</p><p><b>恩达 → 三十九族：20余日</b><br/>原文约数。第3章；包含在恩达至拉里段内，不重复累加。</p><p><b>恩达 → 拉里／嘉黎：月余</b><br/>原文约数。第3章：由恩达北行月余，抵拉里为农历腊月二十八。</p><p><b>拉里 → 凝多 → 江达：约3日</b><br/>原文分日合并。第3章两日至凝多，翌日抵江达；并非含后续驻留的总时间。</p><p><b>江达首次驻留：约20日</b><br/>原文约数释义。第3章一驻兼旬；与后来北返出发分开。</p><p><b>工布安抚：约2个月</b><br/>原文约数。第4章历时两月；并不等于整个工布驻防时长，可能与后续活动叙事交叠。</p><p><b>脚木宗驻留：半月</b><br/>原文约数。第4章；地点未精确定位，保留文字条目。</p><p><b>脚木宗 → 窝冗噶伽：4日</b><br/>原文明记。第4章。</p><p><b>窝冗噶伽办理事务：2个月</b><br/>原文约数。第4章；为驻留办事，不是行军。</p><p><b>窝冗噶伽—德摩的相对程距：校注称四日程；正文另有绕行</b><br/>校注程距，非连续实走耗时。校注27称两地相距四日程；正文绕行六日访野番后，又行四日至德摩，随后驻月余，不把绕行省略为直接四日。</p><p><b>鲁朗等待援军：约1个月</b><br/>原文约数。第6章一住经月。</p><p><b>第6章越山至通麦附近：约3日</b><br/>原文明记。部队穷三日之力。另一处负重商旅需六日是一般路程说明，不是本队实际耗时。</p><p><b>通麦渡桥：全营约3日</b><br/>原文明记。第6章全营三日方渡毕；不是作者个人攀桥所需时间。</p><p><b>北返：江达 → 丹噶尔厅：223日，约7个多月</b><br/>作者自计总耗时。第12章：农历冬月十一出发，六月二十四到丹噶尔，自计二百二十三日。包含途中行走、停留及后段有居民区，不能写成连续断粮或全在无人区223日。</p><p><b>凝多北行 → 哈喇乌苏：7日</b><br/>原文明记。第8章起算点为凝多北行，不是从江达启程。</p><p><b>得猎户相助后 → 柴达木：16日</b><br/>原文明记。第11章行十六日至柴达木；该16日属于北返223日总段内。地名对应格尔木为校注推定。</p><p><b>穿过盐淖：5日</b><br/>原文明记。第11章；盐淖具体范围未确定，不据此造路线。</p><p><b>沿青海湖南岸行进：约2日</b><br/>原文明记。第11章二日海尽；不是环湖一圈，点标在湖面仅作区域参照。</p><p><b>日月山后 → 丹噶尔：2日（另有下山当天行程）</b><br/>原文明记。第11章下山止宿后再行两日至丹噶尔；不把整段翻越日月山写成仅2日。</p><p><b>北返抵丹噶尔：江达起223日；农历六月二十四到达</b><br/>作者自计总耗时与日期。第12章。与江达处标注为同一大段，不能相加。</p><p><b>丹噶尔驻留：7日</b><br/>原文明记。第12章制备衣物期间。</p><p><b>丹噶尔 → 西宁：未明记日数</b><br/>原文无明确耗时。第12章只记九十里，不按距离猜成1日。</p><p><b>西宁驻留：3日</b><br/>原文明记。第12章住西宁三日始行。</p><p><b>西宁 → 兰州：6日；兰州驻留日数未明</b><br/>原文明记。第12章乘骡车行六日始至。</p><p><b>分州 → 长安：7日；不是兰州至西安全程</b><br/>原文明记。第12章在分州过农历八月中旬节日，次晨启程，七日至长安。</p><p><b>西安停留：约2—3个月</b><br/>据叙事粗略推算。农历八月中旬在分州，随后七日至长安，叙事至冬月。非作者明记连续天数，不据此计算精确抵达或离开日。</p><h3>资料</h3><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注</a><br/><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">原文在线对读</a><br/><a href="https://weread.qq.com/web/reader/c04325905e47adc0457d4a9">微信读书版本与目录</a><br/><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">旧驿道与长坝春考证</a><br/><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">江达与太昭考证</a><br/><a href="https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html">鲁朗镇治迁移</a><br/><a href="https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf">江巴村地理参照</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">恩达与瓦合山旧驿道</a><br/><a href="https://developers.google.com/kml/documentation/kmlreference">KML格式规范</a>]]></description>
       </Placemark>
       <Placemark>
         <name>距离总览｜km，直线近似，非实走</name>
@@ -1957,7 +1981,7 @@
       <name>03 工布与波密｜含驻防、等待和往返，未计统一总日数</name>
       <visibility>1</visibility>
       <open>0</open>
-      <description><![CDATA[<h3>行程与耗时</h3><p><b>窝冗噶伽 → 德摩：4日；随后驻德摩月余</b><br/>原文明记与约数。第4章末至第5章；不同事项不能当作一段净行军时间。</p><p><b>鲁朗等待援军：约1个月</b><br/>原文约数。第6章一住经月。</p><p><b>第6章越山至通麦附近：约3日</b><br/>原文明记。部队穷三日之力。另一处负重商旅需六日是一般路程说明，不是本队实际耗时。</p><p><b>通麦渡桥：全营约3日</b><br/>原文明记。第6章全营三日方渡毕；不是作者个人攀桥所需时间。</p>]]></description>
+      <description><![CDATA[<h3>行程与耗时</h3><p><b>窝冗噶伽—德摩的相对程距：校注称四日程；正文另有绕行</b><br/>校注程距，非连续实走耗时。校注27称两地相距四日程；正文绕行六日访野番后，又行四日至德摩，随后驻月余，不把绕行省略为直接四日。</p><p><b>鲁朗等待援军：约1个月</b><br/>原文约数。第6章一住经月。</p><p><b>第6章越山至通麦附近：约3日</b><br/>原文明记。部队穷三日之力。另一处负重商旅需六日是一般路程说明，不是本队实际耗时。</p><p><b>通麦渡桥：全营约3日</b><br/>原文明记。第6章全营三日方渡毕；不是作者个人攀桥所需时间。</p>]]></description>
       <Placemark id="place_lulang">
         <name>17 鲁朗｜等待援军约1月</name>
         <visibility>1</visibility>
@@ -2165,7 +2189,7 @@
       </Placemark>
       <Placemark id="route_3">
         <name>R3 鲁朗—通麦—易贡方向｜示意连线合计约83 km</name>
-        <description><![CDATA[<h3>距离（km）</h3><p><b>鲁朗地区 → 通麦、易贡藏布渡河地区：直线约 52 km</b><br/>相邻示意节点</p><p><b>通麦、易贡藏布渡河地区 → 易贡乡一带：直线约 31 km</b><br/>相邻示意节点</p><p>代表点之间的球面近似直线距离，按平均地球半径6371.0088 km计算，取整。不是历史实走里程、现代公路里程或虚线短笔画长度；不确定位置会影响距离，不能当导航数据。</p><p>各相邻点直距相加约83 km。不是首尾直距，也不是古道实走总里程。此合计按未取整数值计算后取整；分段四舍五入数相加可能相差少量km。</p><h3>行程与耗时</h3><p><b>窝冗噶伽 → 德摩：4日；随后驻德摩月余</b><br/>原文明记与约数。第4章末至第5章；不同事项不能当作一段净行军时间。</p><p><b>鲁朗等待援军：约1个月</b><br/>原文约数。第6章一住经月。</p><p><b>第6章越山至通麦附近：约3日</b><br/>原文明记。部队穷三日之力。另一处负重商旅需六日是一般路程说明，不是本队实际耗时。</p><p><b>通麦渡桥：全营约3日</b><br/>原文明记。第6章全营三日方渡毕；不是作者个人攀桥所需时间。</p><p>只显示主要地点先后及大致方向。虚线人为插值，未按旧道或公路拟合，不可测量历史里程。部分时间是内部子段或驻留，不能全部累加。未知路段留白。</p>]]></description>
+        <description><![CDATA[<h3>距离（km）</h3><p><b>鲁朗地区 → 通麦、易贡藏布渡河地区：直线约 52 km</b><br/>相邻示意节点</p><p><b>通麦、易贡藏布渡河地区 → 易贡乡一带：直线约 31 km</b><br/>相邻示意节点</p><p>代表点之间的球面近似直线距离，按平均地球半径6371.0088 km计算，取整。不是历史实走里程、现代公路里程或虚线短笔画长度；不确定位置会影响距离，不能当导航数据。</p><p>各相邻点直距相加约83 km。不是首尾直距，也不是古道实走总里程。此合计按未取整数值计算后取整；分段四舍五入数相加可能相差少量km。</p><h3>行程与耗时</h3><p><b>窝冗噶伽—德摩的相对程距：校注称四日程；正文另有绕行</b><br/>校注程距，非连续实走耗时。校注27称两地相距四日程；正文绕行六日访野番后，又行四日至德摩，随后驻月余，不把绕行省略为直接四日。</p><p><b>鲁朗等待援军：约1个月</b><br/>原文约数。第6章一住经月。</p><p><b>第6章越山至通麦附近：约3日</b><br/>原文明记。部队穷三日之力。另一处负重商旅需六日是一般路程说明，不是本队实际耗时。</p><p><b>通麦渡桥：全营约3日</b><br/>原文明记。第6章全营三日方渡毕；不是作者个人攀桥所需时间。</p><p>只显示主要地点先后及大致方向。虚线人为插值，未按旧道或公路拟合，不可测量历史里程。部分时间是内部子段或驻留，不能全部累加。未知路段留白。</p>]]></description>
         <styleUrl>#pome</styleUrl>
         <MultiGeometry>
           <LineString>
@@ -2240,27 +2264,27 @@
         <range>1000000</range>
         <altitudeMode>clampToGround</altitudeMode>
       </LookAt>
-      <Placemark id="unlocated_9">
+      <Placemark id="unlocated_13">
         <name>凝多／凝多塘【未定位】</name>
         <description><![CDATA[<h3>凝多／凝多塘</h3><p>第8章。北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_10">
+      <Placemark id="unlocated_14">
         <name>哈喇乌苏【未定位】</name>
         <description><![CDATA[<h3>哈喇乌苏</h3><p>第8章。按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_11">
+      <Placemark id="unlocated_15">
         <name>酱通／绛通（羌塘）【未定位】</name>
         <description><![CDATA[<h3>酱通／绛通（羌塘）</h3><p>第8—10章。高原区域名称，并非一个可定位的沙漠景区。迷路行迹缺少足够空间约束，本图不复原其折线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_12">
+      <Placemark id="unlocated_16">
         <name>通天河渡点【未定位】</name>
         <description><![CDATA[<h3>通天河渡点</h3><p>第9章。跨河本身有文本依据；校注联系穆鲁乌苏水系，但渡点不详，未用现代沱沱河桥或通天河大桥充作历史渡口。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_13">
+      <Placemark id="unlocated_17">
         <name>冈天削【未定位】</name>
         <description><![CDATA[<h3>冈天削</h3><p>第8—10章。校注48推测与昆仑山口有关，此说不作为精确定位依据；不把现代公路山口写成已证实途经点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_14">
+      <Placemark id="unlocated_18">
         <name>遇蒙古喇嘛、遇猎户地点【未定位】</name>
         <description><![CDATA[<h3>遇蒙古喇嘛、遇猎户地点</h3><p>第10章。事件有原文，地点无可靠坐标，不另造营地。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
@@ -3243,45 +3267,564 @@
         <description><![CDATA[<h3>曾科／甑科</h3><p>第1章。校注10指白玉县甑科。与今赠科乡对应尚需进一步核实，暂不赋坐标。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
       <Placemark id="unlocated_2">
-        <name>大相岭、飞越岭【未定位】</name>
-        <description><![CDATA[<h3>大相岭、飞越岭</h3><p>第1章。旧道与山口未逐段核定。成都—雅安—泸定连线只是地点顺序。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+        <name>大相岭旧山口、果亲王摩崖诗【未定位】</name>
+        <description><![CDATA[<h3>大相岭旧山口、果亲王摩崖诗</h3><p>第1章。已补大相岭古道的路桥碑地区参照及飞越岭垭口；作者登岭顶与摩崖诗的具体位置仍待考。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
       <Placemark id="unlocated_3">
-        <name>腊左塘、腊左、并达桥、林多坝【未定位】</name>
-        <description><![CDATA[<h3>腊左塘、腊左、并达桥、林多坝</h3><p>第2—3章。校注11订为浪荡沟、纳贡塘、甲木桥、梭罗坝等。不同旧名不可混作同一个点，支线暂不画。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+        <name>腊左塘 → 浪荡沟【未定位】</name>
+        <description><![CDATA[<h3>腊左塘 → 浪荡沟</h3><p>第2—3章。校注11订正今旧称。位于俄洛桥与纳贡山之间，未查到可靠独立坐标，不按书中里数插值造点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
       <Placemark id="unlocated_4">
-        <name>恩达【未定位】</name>
-        <description><![CDATA[<h3>恩达</h3><p>第2—3章。可考至类乌齐桑多镇恩达村、瓦合山东侧一带；未核得可靠点位，未用俄洛镇代替。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">恩达与瓦合山旧驿道实地报道</a>]]></description>
+        <name>腊左 → 纳贡塘【未定位】</name>
+        <description><![CDATA[<h3>腊左 → 纳贡塘</h3><p>第2—3章。校注11订正，与腊左塘／浪荡沟是不同地点；暂不赋假坐标。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
       <Placemark id="unlocated_5">
+        <name>并达桥／井达桥 → 甲木桥【未定位】</name>
+        <description><![CDATA[<h3>并达桥／井达桥 → 甲木桥</h3><p>第2—3章。校注11订正，位于纳贡塘与梭罗坝之间；未确认旧桥具体桥址。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_6">
+        <name>林多坝 → 梭罗坝【未定位】</name>
+        <description><![CDATA[<h3>林多坝 → 梭罗坝</h3><p>第2—3章。校注11订正，在恩达与甲木桥之间；未查到可直接使用的现代点位。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_7">
+        <name>西藏桥【未定位】</name>
+        <description><![CDATA[<h3>西藏桥</h3><p>第2—3章。正文出昌都先过西藏桥，再到俄洛桥；校注11将两者相联，存在称名差异。本图只补俄洛桥地区参照，不将两座桥直接合并。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_8">
+        <name>恩达汛署／堪布营地【未定位】</name>
+        <description><![CDATA[<h3>恩达汛署／堪布营地</h3><p>第2—3章。已补今桑多镇恩达村代表点，但汛署及堪布大营遗址未定位。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_9">
         <name>三十九族【未定位】</name>
         <description><![CDATA[<h3>三十九族</h3><p>第3章。区域名称，不能当一座城镇。未知作者在该区域的逐站行迹。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_6">
-        <name>牙披、脚木宗、窝冗噶伽【未定位】</name>
-        <description><![CDATA[<h3>牙披、脚木宗、窝冗噶伽</h3><p>第3—4章。工布活动中的重要旧名，校注可提供相对方位，尚不足以确认现代精确点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      <Placemark id="unlocated_10">
+        <name>脚木宗、窝冗噶伽【未定位】</name>
+        <description><![CDATA[<h3>脚木宗、窝冗噶伽</h3><p>第3—4章。牙披已补阿沛村地区参照；脚木宗和窝冗噶伽仍只有相对方位，不能共用牙披坐标。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_7">
-        <name>德摩、纳衣当噶、八浪登、京中、树枝、央噶【未定位】</name>
-        <description><![CDATA[<h3>德摩、纳衣当噶、八浪登、京中、树枝、央噶</h3><p>第5—7章。旧山名、聚落名与现代点位未逐一核准，保留原名供对读，未冒用现代公路折线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      <Placemark id="unlocated_11">
+        <name>纳衣当噶、八浪登、京中、树枝、央噶【未定位】</name>
+        <description><![CDATA[<h3>纳衣当噶、八浪登、京中、树枝、央噶</h3><p>第5—7章。德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_8">
+      <Placemark id="unlocated_12">
         <name>卡拖、八阶、夥若桥【未定位】</name>
         <description><![CDATA[<h3>卡拖、八阶、夥若桥</h3><p>第6—7章。具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_15">
+      <Placemark id="unlocated_19">
         <name>盐淖、青盐海【未定位】</name>
         <description><![CDATA[<h3>盐淖、青盐海</h3><p>第11章。盐沼及盐湖的具体范围未定。青盐海不同于随后到达的青海湖，不直接对应察尔汗、茶卡或柯柯盐湖。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_16">
+      <Placemark id="unlocated_20">
         <name>都兰【未定位】</name>
         <description><![CDATA[<h3>都兰</h3><p>第11章。校注56作地理推定，未核当时市场位置，不使用今日察汗乌苏县城作为旧市镇的确点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_17">
+      <Placemark id="unlocated_21">
         <name>分州、洪铺街寓所、西原墓【未定位】</name>
         <description><![CDATA[<h3>分州、洪铺街寓所、西原墓</h3><p>第12章。旧名或具体地点尚待考；地图止于西安，不另画一条书中未叙述的回凤凰路线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
+    </Folder>
+    <Folder id="minor_folder">
+      <name>08 小地名补充｜9处（含区域参照）</name>
+      <open>1</open>
+      <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位。腊左探险中间地名仍待考，不按里数造点。]]></description>
+      <LookAt>
+        <longitude>97.07278</longitude>
+        <latitude>31.18528</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>160000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Folder>
+        <name>昌都—恩达探险支线</name>
+        <open>0</open>
+        <Placemark id="minor_eluoqiao">
+          <name>俄洛桥〔地区参照，旧桥待考〕</name>
+          <description><![CDATA[<h3>俄洛桥〔地区参照，旧桥待考〕</h3><p><b>书中名：</b>俄洛桥／俄罗桥<br/><b>现代参照：</b>俄洛村、昂曲河谷一带<br/><b>章节：</b>第2—3章<br/><b>定位性质：</b>区域参照</p><p>坐标为KNAB地名库Guru／俄洛村代表点，资料保留旧称俄洛桥；不是清末桥址。现代公路环评也以俄洛桥命名起点，但新旧桥同址未经确认。另一个GeoNames俄洛桥点位明显偏离河谷且未交叉核实，本图不采用。正文先过西藏桥再到俄洛桥，而校注将两名关联；暂不合并成一座已确认古桥。</p><p><b>耗时：</b>原文自昌都出发当日到桥边军营留宿，次晨再行；书中三十里不直接按现代里制换算。</p><p><b>距昌都老城、强巴林寺一带代表点：直线约11 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>97.07278°E, 31.18528°N。小数位不代表古址精度。</p><a href="https://www.xizang.gov.cn/zwgk/xxgk_424/zxxxgk/201902/W020190223643737803015.pdf">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <LookAt>
+            <longitude>97.07278</longitude>
+            <latitude>31.18528</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>31.28528</north>
+              <south>31.085279999999997</south>
+              <east>97.19278</east>
+              <west>96.95277999999999</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>俄洛桥／俄罗桥</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>俄洛村、昂曲河谷一带</value>
+            </Data>
+            <Data name="chapter">
+              <value>第2—3章</value>
+            </Data>
+            <Data name="certainty">
+              <value>区域参照</value>
+            </Data>
+            <Data name="timing">
+              <value>原文自昌都出发当日到桥边军营留宿，次晨再行；书中三十里不直接按现代里制换算。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距昌都老城、强巴林寺一带代表点直线约11 km</value>
+            </Data>
+            <Data name="note">
+              <value>坐标为KNAB地名库Guru／俄洛村代表点，资料保留旧称俄洛桥；不是清末桥址。现代公路环评也以俄洛桥命名起点，但新旧桥同址未经确认。另一个GeoNames俄洛桥点位明显偏离河谷且未交叉核实，本图不采用。正文先过西藏桥再到俄洛桥，而校注将两名关联；暂不合并成一座已确认古桥。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.07278,31.18528,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="minor_enda">
+          <name>恩达〔今恩达村一带〕</name>
+          <description><![CDATA[<h3>恩达〔今恩达村一带〕</h3><p><b>书中名：</b>恩达／恩达寨<br/><b>现代参照：</b>类乌齐县桑多镇恩达村<br/><b>章节：</b>第2—3章<br/><b>定位性质：</b>村域参照</p><p>KNAB的Nganda／恩达村坐标。昌都市文旅局确认其为茶马古道驿站，与校注所述瓦合山以东、昌都之西的节点相符。不是俄洛镇，也不是堪布大营、汛署的精确遗址。</p><p><b>耗时：</b>后续恩达北行至拉里为月余；其间至三十九族二十余日属于同一大段。</p><p><b>距昌都老城、强巴林寺一带代表点：直线约48 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>96.67306°E, 31.12333°N。小数位不代表古址精度。</p><a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202412/d3cb10775c3c4bc089d8f2dcc3e8c1aa.shtml">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <LookAt>
+            <longitude>96.67306</longitude>
+            <latitude>31.12333</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>31.22333</north>
+              <south>31.023329999999998</south>
+              <east>96.79306000000001</east>
+              <west>96.55306</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>恩达／恩达寨</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>类乌齐县桑多镇恩达村</value>
+            </Data>
+            <Data name="chapter">
+              <value>第2—3章</value>
+            </Data>
+            <Data name="certainty">
+              <value>村域参照</value>
+            </Data>
+            <Data name="timing">
+              <value>后续恩达北行至拉里为月余；其间至三十九族二十余日属于同一大段。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距昌都老城、强巴林寺一带代表点直线约48 km</value>
+            </Data>
+            <Data name="note">
+              <value>KNAB的Nganda／恩达村坐标。昌都市文旅局确认其为茶马古道驿站，与校注所述瓦合山以东、昌都之西的节点相符。不是俄洛镇，也不是堪布大营、汛署的精确遗址。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.67306,31.12333,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>工布驻防与波密细部</name>
+        <open>0</open>
+        <Placemark id="minor_apei">
+          <name>牙披／阿丕〔阿沛村参照〕</name>
+          <description><![CDATA[<h3>牙披／阿丕〔阿沛村参照〕</h3><p><b>书中名：</b>牙披／牙丕／阿丕<br/><b>现代参照：</b>工布江达县阿沛村、阿沛庄园地区<br/><b>章节：</b>第3—4章<br/><b>定位性质：</b>区域参照</p><p>工布江达政府阿沛庄园介绍直接引用陈渠珍关于牙披的记述，可支持今名对应。点位只采用阿沛村地名点；村庄曾搬迁，不能将现代村点称作旧庄园、营官住宅的准确基址。</p><p><b>耗时：</b>正文自江达到牙披当日午后到达；校注24称一日可至。</p><p><b>距工布江达县江达村、太昭一带代表点：直线约25 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>93.31360°E, 29.89960°N。小数位不代表古址精度。</p><a href="https://gongbujiangda.gov.cn/gbjd/c100616/201901/3b3536d411bd4f4e8e658dce429c5ad5.shtml">今名／历史依据</a><br/><a href="https://www.fallingrain.com/world/CH/14/Apeicun.html">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <LookAt>
+            <longitude>93.3136</longitude>
+            <latitude>29.8996</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.9996</north>
+              <south>29.799599999999998</south>
+              <east>93.4336</east>
+              <west>93.19359999999999</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>牙披／牙丕／阿丕</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>工布江达县阿沛村、阿沛庄园地区</value>
+            </Data>
+            <Data name="chapter">
+              <value>第3—4章</value>
+            </Data>
+            <Data name="certainty">
+              <value>区域参照</value>
+            </Data>
+            <Data name="timing">
+              <value>正文自江达到牙披当日午后到达；校注24称一日可至。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距工布江达县江达村、太昭一带代表点直线约25 km</value>
+            </Data>
+            <Data name="note">
+              <value>工布江达政府阿沛庄园介绍直接引用陈渠珍关于牙披的记述，可支持今名对应。点位只采用阿沛村地名点；村庄曾搬迁，不能将现代村点称作旧庄园、营官住宅的准确基址。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.3136,29.8996,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="minor_demo">
+          <name>德摩〔第穆／德木地区参照〕</name>
+          <description><![CDATA[<h3>德摩〔第穆／德木地区参照〕</h3><p><b>书中名：</b>德摩／第穆／德木<br/><b>现代参照：</b>德木寺及周边地区<br/><b>章节：</b>第4—7章<br/><b>定位性质：</b>区域参照</p><p>巴宜区政府资料解释第穆、德木等异译；结合原文取其所在地区作德摩参照。使用现代德木寺坐标，不是旧军营，也不是旧寺原址。寺院有毁坏重建和旧址之别，不据此断言人物在今寺建筑处活动。</p><p><b>耗时：</b>校注27称窝冗噶伽至德摩四日程；正文另记绕行六日访野番后，再行四日至德摩，随后驻月余。</p><p><b>距鲁朗地区代表点：直线约26 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>94.63347°E, 29.51239°N。小数位不代表古址精度。</p><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">今名／历史依据</a><br/><a href="https://zh.wikipedia.org/wiki/德木寺">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <LookAt>
+            <longitude>94.63347</longitude>
+            <latitude>29.51239</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.61239</north>
+              <south>29.41239</south>
+              <east>94.75347000000001</east>
+              <west>94.51347</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>德摩／第穆／德木</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>德木寺及周边地区</value>
+            </Data>
+            <Data name="chapter">
+              <value>第4—7章</value>
+            </Data>
+            <Data name="certainty">
+              <value>区域参照</value>
+            </Data>
+            <Data name="timing">
+              <value>校注27称窝冗噶伽至德摩四日程；正文另记绕行六日访野番后，再行四日至德摩，随后驻月余。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距鲁朗地区代表点直线约26 km</value>
+            </Data>
+            <Data name="note">
+              <value>巴宜区政府资料解释第穆、德木等异译；结合原文取其所在地区作德摩参照。使用现代德木寺坐标，不是旧军营，也不是旧寺原址。寺院有毁坏重建和旧址之别，不据此断言人物在今寺建筑处活动。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.63347,29.51239,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="minor_dongjiu">
+          <name>冬九 → 东久村〔地区参照〕</name>
+          <description><![CDATA[<h3>冬九 → 东久村〔地区参照〕</h3><p><b>书中名：</b>冬九／东久<br/><b>现代参照：</b>东久村、旧东久宗一带<br/><b>章节：</b>第5—6章<br/><b>定位性质：</b>村域参照</p><p>人民日报转载西藏日报重述征波密时使用东久今名；KNAB地名库Dongjug条列东久村、曲尼玛、Tongjuk Dzong。点位用于辨认旧东久地区，不是已测定营官寨、长桥或阵地遗址。与更北的现代东久大桥位置分开。</p><p><b>耗时：</b>书中多次往返和驻守此处，未给可独立累计的完整日数。</p><p><b>距鲁朗地区代表点：直线约12 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>94.74056°E, 29.83167°N。小数位不代表古址精度。</p><a href="https://cpc.people.com.cn/pinglun/n/2013/0327/c78779-20937346.html">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <LookAt>
+            <longitude>94.74056</longitude>
+            <latitude>29.83167</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.93167</north>
+              <south>29.731669999999998</south>
+              <east>94.86056</east>
+              <west>94.62056</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>冬九／东久</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>东久村、旧东久宗一带</value>
+            </Data>
+            <Data name="chapter">
+              <value>第5—6章</value>
+            </Data>
+            <Data name="certainty">
+              <value>村域参照</value>
+            </Data>
+            <Data name="timing">
+              <value>书中多次往返和驻守此处，未给可独立累计的完整日数。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距鲁朗地区代表点直线约12 km</value>
+            </Data>
+            <Data name="note">
+              <value>人民日报转载西藏日报重述征波密时使用东久今名；KNAB地名库Dongjug条列东久村、曲尼玛、Tongjuk Dzong。点位用于辨认旧东久地区，不是已测定营官寨、长桥或阵地遗址。与更北的现代东久大桥位置分开。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.74056,29.83167,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="minor_songzong">
+          <name>松宗寺〔松宗镇地区参照〕</name>
+          <description><![CDATA[<h3>松宗寺〔松宗镇地区参照〕</h3><p><b>书中名：</b>松宗寺<br/><b>现代参照：</b>松宗镇、松宗寺地区<br/><b>章节：</b>第4—6章校注29、32<br/><b>定位性质：</b>事件区域参照</p><p>原文校注补充其他部队攻取松宗寺的行动。波密政府资料确认松宗镇存在松宗寺。这里使用现代镇区代表点，非寺院建筑实测点；作为相关事件地点，不认定陈渠珍本人亲到，不接入其个人行程连线。</p><p><b>耗时：</b>没有作者本人在此的明确行程和耗时，不分配天数。</p><p><b>距通麦、易贡藏布渡河地区代表点：直线约107 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>96.10032°E, 29.75355°N。小数位不代表古址精度。</p><a href="https://www.bomi.gov.cn/bmx/c100228/202010/06bf450aa87c447db072d7be3e473d5e.shtml">今名／历史依据</a><br/><a href="https://zh.wikipedia.org/wiki/松宗镇">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <LookAt>
+            <longitude>96.10032</longitude>
+            <latitude>29.75355</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.853550000000002</north>
+              <south>29.65355</south>
+              <east>96.22032</east>
+              <west>95.98031999999999</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>松宗寺</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>松宗镇、松宗寺地区</value>
+            </Data>
+            <Data name="chapter">
+              <value>第4—6章校注29、32</value>
+            </Data>
+            <Data name="certainty">
+              <value>事件区域参照</value>
+            </Data>
+            <Data name="timing">
+              <value>没有作者本人在此的明确行程和耗时，不分配天数。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距通麦、易贡藏布渡河地区代表点直线约107 km</value>
+            </Data>
+            <Data name="note">
+              <value>原文校注补充其他部队攻取松宗寺的行动。波密政府资料确认松宗镇存在松宗寺。这里使用现代镇区代表点，非寺院建筑实测点；作为相关事件地点，不认定陈渠珍本人亲到，不接入其个人行程连线。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.10032,29.75355,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>川西古道细部</name>
+        <open>0</open>
+        <Placemark id="minor_feiyueling">
+          <name>飞越岭垭口</name>
+          <description><![CDATA[<h3>飞越岭垭口</h3><p><b>书中名：</b>飞越岭<br/><b>现代参照：</b>汉源—泸定间飞越岭垭口<br/><b>章节：</b>第1章<br/><b>定位性质：</b>现代地形点参照</p><p>原文明记过飞越岭。OpenStreetMap将此点列为山口，汉源茶马古道资料亦记其经宜东、三交翻岭入泸定。用现代山口点定位所经岭段，不表示历史脚迹已测绘复原。</p><p><b>耗时：</b>属于雅州至泸定六日大段，单独翻岭耗时未明。</p><p><b>距泸定桥代表点：直线约25 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>102.31080°E, 29.70200°N。小数位不代表古址精度。</p><a href="https://zh.wikipedia.org/wiki/漢源茶馬古道">今名／历史依据</a><br/><a href="https://mapcarta.com/N8593680638">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <LookAt>
+            <longitude>102.3108</longitude>
+            <latitude>29.702</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_landmark</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.802000000000003</north>
+              <south>29.602</south>
+              <east>102.4308</east>
+              <west>102.1908</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>飞越岭</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>汉源—泸定间飞越岭垭口</value>
+            </Data>
+            <Data name="chapter">
+              <value>第1章</value>
+            </Data>
+            <Data name="certainty">
+              <value>现代地形点参照</value>
+            </Data>
+            <Data name="timing">
+              <value>属于雅州至泸定六日大段，单独翻岭耗时未明。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距泸定桥代表点直线约25 km</value>
+            </Data>
+            <Data name="note">
+              <value>原文明记过飞越岭。OpenStreetMap将此点列为山口，汉源茶马古道资料亦记其经宜东、三交翻岭入泸定。用现代山口点定位所经岭段，不表示历史脚迹已测绘复原。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.3108,29.702,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="minor_daxiang_oldroad">
+          <name>大相岭古道〔路桥碑一带〕</name>
+          <description><![CDATA[<h3>大相岭古道〔路桥碑一带〕</h3><p><b>书中名：</b>大相岭／丞相岭<br/><b>现代参照：</b>荥经崃麓村、大相岭旧道地区<br/><b>章节：</b>第1章<br/><b>定位性质：</b>古道附近参照</p><p>坐标取公开文物点重修大相岭桥路碑，不是作者翻越岭顶、果亲王摩崖诗或宿营地的坐标。雅安党史方志资料确认崃麓村、黄泥堡与大相岭官道关系，用于帮助定位旧道所在山地。</p><p><b>耗时：</b>属于雅州至泸定六日大段，未给此碑或山口单独分配时间。</p><p><b>距雅安市代表点：直线约49 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>102.68099°E, 29.65016°N。小数位不代表古址精度。</p><a href="https://www.yadsfz.org.cn/news/dsfz_0701/2021122/2917.html">今名／历史依据</a><br/><a href="https://zh.wikipedia.org/wiki/茶马古道">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <LookAt>
+            <longitude>102.68099</longitude>
+            <latitude>29.65016</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.75016</north>
+              <south>29.550159999999998</south>
+              <east>102.80099</east>
+              <west>102.56098999999999</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>大相岭／丞相岭</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>荥经崃麓村、大相岭旧道地区</value>
+            </Data>
+            <Data name="chapter">
+              <value>第1章</value>
+            </Data>
+            <Data name="certainty">
+              <value>古道附近参照</value>
+            </Data>
+            <Data name="timing">
+              <value>属于雅州至泸定六日大段，未给此碑或山口单独分配时间。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距雅安市代表点直线约49 km</value>
+            </Data>
+            <Data name="note">
+              <value>坐标取公开文物点重修大相岭桥路碑，不是作者翻越岭顶、果亲王摩崖诗或宿营地的坐标。雅安党史方志资料确认崃麓村、黄泥堡与大相岭官道关系，用于帮助定位旧道所在山地。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>102.68099,29.65016,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="minor_bamei_oldstations">
+          <name>上八美〔今八美地区参照〕</name>
+          <description><![CDATA[<h3>上八美〔今八美地区参照〕</h3><p><b>书中名：</b>上八美／下八美<br/><b>现代参照：</b>道孚八美地区<br/><b>章节：</b>第1章校注6<br/><b>定位性质：</b>区域参照</p><p>校注6补出上八美、少乌石等换乌拉站。点位只取今天八美镇，旧上、下八美的具体村界与塘站尚未逐一定位，不能把此点称作上八美驿站原址。该站来自校注，不是作者正文逐站亲记。</p><p><b>耗时：</b>属于折多塘至甘孜一带二十余日的行程，没有可靠独立站间日数。</p><p><b>距康定江巴村一带代表点：直线约35 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>101.48386°E, 30.48461°N。小数位不代表古址精度。</p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">今名／历史依据</a><br/><a href="https://zh.wikipedia.org/wiki/八美镇">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <LookAt>
+            <longitude>101.48386</longitude>
+            <latitude>30.48461</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>30.58461</north>
+              <south>30.38461</south>
+              <east>101.60386000000001</east>
+              <west>101.36386</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>上八美／下八美</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>道孚八美地区</value>
+            </Data>
+            <Data name="chapter">
+              <value>第1章校注6</value>
+            </Data>
+            <Data name="certainty">
+              <value>区域参照</value>
+            </Data>
+            <Data name="timing">
+              <value>属于折多塘至甘孜一带二十余日的行程，没有可靠独立站间日数。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距康定江巴村一带代表点直线约35 km</value>
+            </Data>
+            <Data name="note">
+              <value>校注6补出上八美、少乌石等换乌拉站。点位只取今天八美镇，旧上、下八美的具体村界与塘站尚未逐一定位，不能把此点称作上八美驿站原址。该站来自校注，不是作者正文逐站亲记。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.48386,30.48461,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
   </Document>
 </kml>

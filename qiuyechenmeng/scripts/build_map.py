@@ -12,6 +12,7 @@ import zlib
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
+MINOR_PLACES = json.loads((ROOT/'data'/'小地名.json').read_text(encoding='utf-8'))
 KML = 'http://www.opengis.net/kml/2.2'
 ET.register_namespace('', KML)
 BOOK = 'https://weread.qq.com/web/reader/c04325905e47adc0457d4a9'
@@ -92,12 +93,16 @@ DISTANCE_ROWS += [
 
 UNLOCATED = [
 ('第1章','曾科／甑科','校注10指白玉县甑科。与今赠科乡对应尚需进一步核实，暂不赋坐标。'),
-('第1章','大相岭、飞越岭','旧道与山口未逐段核定。成都—雅安—泸定连线只是地点顺序。'),
-('第2—3章','腊左塘、腊左、并达桥、林多坝','校注11订为浪荡沟、纳贡塘、甲木桥、梭罗坝等。不同旧名不可混作同一个点，支线暂不画。'),
-('第2—3章','恩达','可考至类乌齐桑多镇恩达村、瓦合山东侧一带；未核得可靠点位，未用俄洛镇代替。'),
+('第1章','大相岭旧山口、果亲王摩崖诗','已补大相岭古道的路桥碑地区参照及飞越岭垭口；作者登岭顶与摩崖诗的具体位置仍待考。'),
+('第2—3章','腊左塘 → 浪荡沟','校注11订正今旧称。位于俄洛桥与纳贡山之间，未查到可靠独立坐标，不按书中里数插值造点。'),
+('第2—3章','腊左 → 纳贡塘','校注11订正，与腊左塘／浪荡沟是不同地点；暂不赋假坐标。'),
+('第2—3章','并达桥／井达桥 → 甲木桥','校注11订正，位于纳贡塘与梭罗坝之间；未确认旧桥具体桥址。'),
+('第2—3章','林多坝 → 梭罗坝','校注11订正，在恩达与甲木桥之间；未查到可直接使用的现代点位。'),
+('第2—3章','西藏桥','正文出昌都先过西藏桥，再到俄洛桥；校注11将两者相联，存在称名差异。本图只补俄洛桥地区参照，不将两座桥直接合并。'),
+('第2—3章','恩达汛署／堪布营地','已补今桑多镇恩达村代表点，但汛署及堪布大营遗址未定位。'),
 ('第3章','三十九族','区域名称，不能当一座城镇。未知作者在该区域的逐站行迹。'),
-('第3—4章','牙披、脚木宗、窝冗噶伽','工布活动中的重要旧名，校注可提供相对方位，尚不足以确认现代精确点。'),
-('第5—7章','德摩、纳衣当噶、八浪登、京中、树枝、央噶','旧山名、聚落名与现代点位未逐一核准，保留原名供对读，未冒用现代公路折线。'),
+('第3—4章','脚木宗、窝冗噶伽','牙披已补阿沛村地区参照；脚木宗和窝冗噶伽仍只有相对方位，不能共用牙披坐标。'),
+('第5—7章','纳衣当噶、八浪登、京中、树枝、央噶','德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。'),
 ('第6—7章','卡拖、八阶、夥若桥','具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。'),
 ('第8章','凝多／凝多塘','北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。'),
 ('第8章','哈喇乌苏','按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。'),
@@ -175,11 +180,66 @@ def png(color, hollow=False):
     def chunk(t,b): return struct.pack('!I',len(b))+t+b+struct.pack('!I',zlib.crc32(t+b)&0xffffffff)
     return b'\x89PNG\r\n\x1a\n'+chunk(b'IHDR',struct.pack('!2I5B',n,n,8,6,0,0,0))+chunk(b'IDAT',zlib.compress(b''.join(rows)))+chunk(b'IEND',b'')
 
+def minor_styles(doc,bundled):
+    for style_id,color,hollow in [('minor_landmark','#89d8ff',False),('minor_reference','#ffd166',True)]:
+        st=el(doc,'Style',id=style_id)
+        iconstyle=el(st,'IconStyle');el(iconstyle,'color','ffffffff' if bundled else kcolor(color));el(iconstyle,'scale',0.85)
+        icon=el(iconstyle,'Icon');el(icon,'href',f'icons/{style_id}.png' if bundled else 'https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png')
+        lab=el(st,'LabelStyle');el(lab,'color','ffffffff');el(lab,'scale',0.85)
+
+def minor_folder(doc):
+    folder=el(doc,'Folder',id='minor_folder');el(folder,'name',f'08 小地名补充｜{len(MINOR_PLACES)}处（含区域参照）');el(folder,'open',1)
+    el(folder,'description','蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位。腊左探险中间地名仍待考，不按里数造点。')
+    view(folder,97.07278,31.18528,160000)
+    groups={}
+    for p in MINOR_PLACES:
+        if p['group'] not in groups:
+            f=el(folder,'Folder');el(f,'name',p['group']);el(f,'open',0);groups[p['group']]=f
+        pm=el(groups[p['group']],'Placemark',id='minor_'+p['id']);el(pm,'name',p['name'])
+        lon,lat=p['lon'],p['lat']
+        anchor=PLACE_BY_ID[p['reference']]
+        ax,ay=anchor[3:5]
+        phi1,phi2=map(math.radians,[lat,ay]);dphi=phi2-phi1;dl=math.radians(ax-lon)
+        h=math.sin(dphi/2)**2+math.cos(phi1)*math.cos(phi2)*math.sin(dl/2)**2
+        km=6371.0088*2*math.asin(math.sqrt(min(1,max(0,h))))
+        info=(f'<h3>{html.escape(p["name"])}</h3><p><b>书中名：</b>{html.escape(p["old_names"])}<br/>'
+              f'<b>现代参照：</b>{html.escape(p["modern"])}<br/><b>章节：</b>{html.escape(p["chapter"])}<br/>'
+              f'<b>定位性质：</b>{html.escape(p["certainty"])}</p><p>{html.escape(p["note"])}</p>'
+              f'<p><b>耗时：</b>{html.escape(p["timing"])}</p>'
+              f'<p><b>距{html.escape(anchor[2])}代表点：直线约{km:.0f} km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p>'
+              f'<p><b>经纬度：</b>{lon:.5f}°E, {lat:.5f}°N。小数位不代表古址精度。</p>'+links([
+                  ('今名／历史依据',p['identity_source']),('坐标参照',p['coordinate_source']),('原文及任乃强校注',TEXT)]))
+        el(pm,'description',info);view(pm,lon,lat,45000)
+        el(pm,'styleUrl','#'+('minor_landmark' if p['certainty']=='现代地形点参照' else 'minor_reference'))
+        # A display window, not an asserted historical territory or error ellipse.
+        reg=el(pm,'Region');box=el(reg,'LatLonAltBox')
+        for tag,value in [('north',lat+0.10),('south',lat-0.10),('east',lon+0.12),('west',lon-0.12)]: el(box,tag,value)
+        lod=el(reg,'Lod');el(lod,'minLodPixels',32);el(lod,'maxLodPixels',-1)
+        ed=el(pm,'ExtendedData')
+        for name,value in [('old_names',p['old_names']),('modern_reference',p['modern']),('chapter',p['chapter']),('certainty',p['certainty']),('timing',p['timing']),('reference_distance',f'距{anchor[2]}代表点直线约{km:.0f} km'),('note',p['note'])]:
+            d=el(ed,'Data',name=name);el(d,'value',value)
+        pt=el(pm,'Point');el(pt,'altitudeMode','clampToGround');el(pt,'coordinates',f'{lon},{lat},0')
+    return folder
+
+def serialize(root):
+    ET.indent(root,space='  ')
+    serialized=ET.tostring(root,encoding='utf-8',xml_declaration=True).decode('utf-8')
+    serialized=re.sub(r'<description>(.*?)</description>',lambda m:'<description><![CDATA['+html.unescape(m.group(1)).replace(']]>',']]]]><![CDATA[>')+']]></description>',serialized,flags=re.S)
+    return serialized.encode('utf-8')
+
+def make_supplement(bundled=False):
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='minor_supplement')
+    el(doc,'name','《艽野尘梦》小地名补充｜俄洛桥等');el(doc,'open',1)
+    el(doc,'description',f'新增{len(MINOR_PLACES)}处小地名，可叠加到已导入的耗时与距离版。村域、地区参照均有说明，旧桥、旧营地不冒作确点。')
+    view(doc,97.07278,31.18528,160000)
+    minor_styles(doc,bundled);minor_folder(doc)
+    return serialize(root)
+
 def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
     el(doc,'name','《艽野尘梦》阅读地图｜耗时与距离（km）')
     el(doc,'open',1)
-    el(doc,'description','29个地点，含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日，约7个多月。\n蓝：入藏；紫：工布；绿：波密；红：归途；橙：推定。\n虚线仅为行程示意；距离不是历史实走里程。点击地点查看明细。＊炉城至昌都50余日被校注质疑。农历日期未换算公历，交叠段不相加。')
+    el(doc,'description',f'{len(ROWS)}个主要地点及参照点，另补{len(MINOR_PLACES)}处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。\n小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。')
     view(doc,100.5,33.6,2000000)
     for key,(_,color,_) in PHASES.items():
         for uncertain in [False, True]:
@@ -195,6 +255,7 @@ def make_map(bundled=False):
             lab=el(st,'LabelStyle');el(lab,'color','ffffffff');el(lab,'scale',0.85)
             line=el(st,'LineStyle');el(line,'color',kcolor(color,'d8'));el(line,'width',3)
             balloon=el(st,'BalloonStyle');el(balloon,'bgColor','fffafafa');el(balloon,'textColor','ff222222')
+    minor_styles(doc,bundled)
     guide=el(doc,'Folder');el(guide,'name','00 耗时、距离总览与图例');el(guide,'open',0)
     pm=el(guide,'Placemark');el(pm,'name','地图用法、精度与来源');el(pm,'description',doc.find(f'{{{KML}}}description').text)
     pm=el(guide,'Placemark');el(pm,'name','各段耗时总览｜不能全部相加')
@@ -252,11 +313,8 @@ def make_map(bundled=False):
                 t0=seg/count;t1=(seg+0.58)/count
                 ls=el(mg,'LineString');el(ls,'tessellate',1);el(ls,'altitudeMode','clampToGround')
                 el(ls,'coordinates',f'{ax+(bx-ax)*t0:.6f},{ay+(by-ay)*t0:.6f},0 {ax+(bx-ax)*t1:.6f},{ay+(by-ay)*t1:.6f},0')
-    ET.indent(root,space='  ')
-    serialized=ET.tostring(root,encoding='utf-8',xml_declaration=True).decode('utf-8')
-    # CDATA preserves rich descriptions when imported by Google Earth Web.
-    serialized=re.sub(r'<description>(.*?)</description>',lambda m:'<description><![CDATA['+html.unescape(m.group(1)).replace(']]>',']]]]><![CDATA[>')+']]></description>',serialized,flags=re.S)
-    return serialized.encode('utf-8')
+    minor_folder(doc)
+    return serialize(root)
 
 def main():
     name='艽野尘梦_阅读地图'
@@ -266,6 +324,17 @@ def main():
         for phase,(_,color,_) in PHASES.items():
             z.writestr('icons/'+phase+'.png',png(color))
             z.writestr('icons/'+phase+'_uncertain.png',png('#ffb347',True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    supplement='艽野尘梦_小地名补充'
+    (ROOT/(supplement+'.kml')).write_bytes(make_supplement())
+    with zipfile.ZipFile(ROOT/(supplement+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    with (ROOT/'小地名对照与坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
+        fields=['id','name','old_names','modern','lon','lat','chapter','group','certainty','coordinate_source','identity_source','note','timing']
+        w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(MINOR_PLACES)
     headers=['id','地图标签','现代定位对象','经度','纬度','章节','图层','定位性质','坐标来源','说明','耗时','耗时依据']
     with (ROOT/'地名对照与坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.writer(f,lineterminator='\n');w.writerow(headers)
@@ -284,6 +353,8 @@ def main():
 
 一、打开方式
 推荐使用“艽野尘梦_阅读地图.kmz”：与KML包含相同地点和连线，并内置全部点标图标。
+若先前已导入耗时与距离版，仅导入“艽野尘梦_小地名补充.kmz”即可增加俄洛桥等小地名，避免重复主要地点。
+完整版和小地名补充版二选一；不要同时加载两者中的08小地名图层。
 Google Earth Pro：文件 → 打开，选择KML或KMZ；在左侧展开各章图层。
 Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版本入口文字可能不同。
 只导入其中一个文件即可，以免出现重复点标。
@@ -292,7 +363,11 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 “04 北返荒原”和“07 待考旧地名”包含无坐标的文字条目；网页版可能省略这些条目，完整内容亦在本说明下文。
 
 二、内容和图例
-29个地图点：27个书中地点或区域的代表点，2个默认隐藏的现代县城对照点。
+29个主要地图点：27个书中地点或区域的代表点，2个默认隐藏的现代县城对照点。
+另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美。
+08小地名层可在左侧列表点击，放大后更易读；金色空心点是村域或地区参照，不是确认古址。
+支持Region的客户端会按缩放显示小地名；网页版忽略Region，可手动开关08图层控制全景标注数量。
+俄洛桥用现代俄洛村参照，未认定清末桥位；西藏桥与俄洛桥的正文／校注差异在弹窗说明。
 4组虚线：蓝色川西入藏，紫色昌都至工布，绿色波密方向，红色青海至西安。
 虚线人为连接主要地点，只表示先后与大致方向，不是古道、现代公路或实测轨迹。
 橙色空心点：柴达木对应格尔木一带，为校注推定。
@@ -333,6 +408,8 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 行程耗时对照.csv：可核查各段行程、驻留与推算性质。
 行程距离对照_km.csv：相邻节点直距及补充起讫直距，单位km。
 data/行程耗时.json：耗时原始结构化数据。
+data/小地名.json：小地名、坐标、今旧名依据和耗时。
+小地名对照与坐标.csv：小地名定位来源；补充KML/KMZ可单独叠加。
 data/未定位地名.json：17条待考条目。
 scripts/build_map.py：可复现构建脚本，只使用Python标准库。
 
@@ -341,9 +418,12 @@ KML及KMZ内doc.kml均已通过OGC KML 2.2官方XSD校验。
 已检查坐标顺序和范围、样式引用、ID唯一性、KMZ完整性与内置图标引用。
 2026-10-30已在Google Earth网页版现有项目中实际导入，抽查丹噶尔标签、弹窗的223日、驻7日与1063 km直距，确认显示并保存到云端硬盘。
 网页版提示忽略maxLines和textColor两种样式字段；地点、时间、距离与弹窗可查看，底图精确对位和桌面客户端尚未逐点验收。
+同日已将九处小地名补充层叠加导入现有项目，抽查俄洛桥点、定位性质与弹窗并保存到云端硬盘。
+小地名层导入提示忽略Region缩放显示条件；九处地名及说明保留，可在地图和图层列表中查看。
 '''
+    readme=readme.replace('17条',f'{len(UNLOCATED)}条').replace('另加9处',f'另加{len(MINOR_PLACES)}处')
     (ROOT/'地图使用说明.txt').write_text(readme,encoding='utf-8')
-    print(f'Created: {len(ROWS)} point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
+    print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':
     main()
