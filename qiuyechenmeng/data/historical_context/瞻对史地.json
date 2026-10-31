@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-31",
+  "name": "瞻对／三瞻〔今新龙一带〕",
+  "scope": "瞻对为历史地区与土司称谓，上、中、下三部分合称三瞻，主要对应今四川甘孜州新龙县一带。今县域仅用于方位参照，不是清代三瞻、1896年战区或工布朗结势力范围的复原；三瞻内部边界尚未定位，不任意分割。",
+  "book_context": "来自第1章任乃强校注八解释霍尔章谷／炉霍的历史背景，不是陈渠珍此次亲经瞻对的行程记录。",
+  "chronology_correction": "校注八所述鹿传霖用兵、拟收瞻改流及最终仍交西藏地方管理，对应1896—1897年（光绪二十二至二十三年）的事件。校注写光绪初，年代有误；不能与乾隆年间战争或1848—1865年工布朗结事件混成一次。",
+  "timeline": [
+    {"date": "1728—1745年", "event": "上、中、下瞻对先后授土司职，合称三瞻。", "source": "county_history"},
+    {"date": "1848年", "event": "工布朗结控制全瞻对。", "source": "county_history"},
+    {"date": "1865年起", "event": "由西藏地方管理，后续归属反复议论。", "source": "county_history"},
+    {"date": "1896—1897年", "event": "鹿传霖主持收瞻及改流筹议，清廷最终仍交西藏地方管理；本书校注八所指事件。", "source": "ownership_study"},
+    {"date": "清末民初", "event": "瞻对设治委员、怀柔、瞻化等建置与县名相继出现，具体年份资料有异说，见说明。", "source": "county_current"},
+    {"date": "20世纪50年代初", "event": "县名改为新龙。县政府页面记1951年，用户引文记1952年，暂并列保留。", "source": "county_current"}
+  ],
+  "name_date_variants": "用户引文记1911设委员、辛亥后怀柔、1916瞻化、1952新龙。县政府2023历史沿革页记1911委员、1916瞻化、1951新龙；2026概况页记1911委员及5月怀柔、1912年8月瞻化、1951新龙。各口径未完全一致；本图不把某一页的所有细年直接认定为最终考定，也不臆造其分别代表提议、批准、实行的关系。",
+  "geometry": {"file": "xinlong_admin_raw.json", "source": "https://geo.datav.aliyun.com/areas_v3/bound/513329.json", "method": "原文件未声明CRS，沿用DataV资料的GCJ-02假定，作近似WGS84逆变换；数值位数不代表历史边界精度。", "license_note": "行政几何 © Alibaba Cloud DataV.GeoAtlas；未查见该数据的独立开放再分发许可，沿用data/regions/NOTICE.txt中的归属与限制。"},
+  "sources": {
+    "county_history": {"title": "新龙县历史沿革（2023）", "url": "https://www.gzxl.gov.cn/lsyg/article/470223"},
+    "county_current": {"title": "新龙县概况（2026）", "url": "https://www.gzxl.gov.cn/xlgk/article/731820"},
+    "ownership_study": {"title": "康欣平：从收回到赏给——1896至1897年瞻对归属事件（西藏研究，2013）", "url": "https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/5bb47e180476fc860c578af8b41fb3db"},
+    "regional_study": {"title": "王川、吴艾坪：光绪年间瞻对事件中成都将军与川督之间的权力斗争", "url": "https://zhctwh.sicnu.edu.cn/p/10/?StId=st_app_news_i_x638403941646367826"},
+    "book": {"title": "原书与任乃强校注八", "url": "https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"}
+  }
+}

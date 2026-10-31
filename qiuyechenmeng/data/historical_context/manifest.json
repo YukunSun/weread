@@ -1,0 +1,7 @@
+{
+  "retrieved_at": "2026-10-31",
+  "source_url": "https://geo.datav.aliyun.com/areas_v3/bound/513329.json",
+  "raw_sha256": "e9bef723f36b37cdcb2344f49164472275d439b9cca21a8fca2007f900d0a066",
+  "use": "Modern Xinlong administrative reference, not historical Zhandui or three-tusi boundaries",
+  "coordinate_method": "原文件未声明CRS，沿用DataV资料的GCJ-02假定，作近似WGS84逆变换；数值位数不代表历史边界精度。"
+}
