@@ -657,7 +657,8 @@ https://opendatacommons.org/licenses/odbl/1-0/
           '原文七十里、校注23二站、现代直距km分别保留；不换算出作者行走日数。\n'
           '完整版08小地名层和独立乌斯江补充图均含本点，选择一份显示。背景点不接入作者行军线。\n\n来源\n'
           +wusijiang['coordinate_source']+'\n'+wusijiang['identity_source']+'\n'
-          +'\n'.join(s['title']+'\n'+s['url'] for s in wusijiang['additional_sources'])+'\n')
+          +'\n'.join(s['title']+'\n'+s['url'] for s in wusijiang['additional_sources'])+'\n'
+          +'\n2026-11-01已在原Google Earth网页版项目中核验“《艽野尘梦》乌斯江｜拉萨东侧藏军防线背景”图层与乌斯江点标，点位为92.15611111°E、29.70972222°N。地图实际显示金色空心标记，弹窗保留现代地区参照、旧阵地确址未定、七十里与约99 km直距的区别。页面显示“已保存到Google云端硬盘”。本次复用已有标记，未重复导入。核验截图：data/place_checks/wusijiang_google_earth.jpg。\n')
     (ROOT/'乌斯江核对说明.txt').write_text(note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n十七、乌斯江／乌苏江藏军防线背景\n'+note)
