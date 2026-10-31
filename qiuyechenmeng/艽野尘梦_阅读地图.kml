@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document id="qiuyechenmeng">
-    <name>《艽野尘梦》阅读地图｜江达定位补充版</name>
+    <name>《艽野尘梦》阅读地图｜边坝背景补充版</name>
     <open>1</open>
-    <description><![CDATA[32个主要地点及参照点，另补11处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
+    <description><![CDATA[32个主要地点及参照点，另补12处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
 小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
     <LookAt>
       <longitude>100.5</longitude>
@@ -1203,7 +1203,7 @@
       <open>0</open>
       <Placemark>
         <name>地图用法、精度与来源</name>
-        <description><![CDATA[32个主要地点及参照点，另补11处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
+        <description><![CDATA[32个主要地点及参照点，另补12处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
 小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
       </Placemark>
       <Placemark>
@@ -4442,7 +4442,7 @@
       </Placemark>
     </Folder>
     <Folder id="minor_folder">
-      <name>08 小地名补充｜11处（含区域参照）</name>
+      <name>08 小地名补充｜12处（含区域参照）</name>
       <open>1</open>
       <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。]]></description>
       <LookAt>
@@ -4989,6 +4989,59 @@
           <Point>
             <altitudeMode>clampToGround</altitudeMode>
             <coordinates>98.5810914,31.8175808,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="minor_bianba">
+          <name>边坝〔今边坝镇夏林村；旧宗驻地区域〕</name>
+          <description><![CDATA[<h3>边坝〔今边坝镇夏林村；旧宗驻地区域〕</h3><p><b>书中名：</b>边坝<br/><b>现代参照：</b>西藏昌都市边坝县边坝镇夏林村一带<br/><b>章节：</b>第3章；校注16（边坝之役背景）<br/><b>定位性质：</b>镇村地区参照，旧宗署及战场确址未定</p><p>边坝县政府历史沿革确认，原边坝宗驻地在今边坝镇夏林村；1968年8月县址迁至草卡镇东马通村。KNAB将Banbar镇中心与Xarling／夏林村联系，坐标取该镇村地名代表点，只用于定位旧宗驻地所在区域，未测定宗署、寺院建筑、营垒或战场；地名库未明确坐标基准，小数位不代表古址精度。校注16叙述边军由大道趋边坝、拉里，陈渠珍所在钟颖部改由类乌齐、三十九族前进；本点作历史背景，不接入陈渠珍个人行军线。校注对登珠在边坝被擒的具体日期及次数保留异说，本标注不裁定该争议。与拉里只比较现代代表点直距，不表示两站古道实走距离。</p><p><b>耗时：</b>本点未有可靠的独立驻留或相邻段行军日数；不把校注中有争议的擒获日期换成作者行程耗时。</p><p><b>距嘉黎镇一带代表点：直线约144 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>94.84611°E, 30.82917°N。小数位不代表古址精度。</p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c105853/202101/77e3fb1cf995426f96df94dd346c69b0.shtml">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><b>书中节引：</b>边坝之役，非陈氏所知，故未记入。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c105851/zjcd.shtml">边坝县政府：原边坝宗驻地在边坝镇夏林村</a><br/><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">原书校注16：边坝之役与钟军北绕分述</a></p>]]></description>
+          <LookAt>
+            <longitude>94.84611111</longitude>
+            <latitude>30.82916667</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>30.92916667</north>
+              <south>30.729166669999998</south>
+              <east>94.96611111</east>
+              <west>94.72611110999999</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>边坝</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>西藏昌都市边坝县边坝镇夏林村一带</value>
+            </Data>
+            <Data name="chapter">
+              <value>第3章；校注16（边坝之役背景）</value>
+            </Data>
+            <Data name="certainty">
+              <value>镇村地区参照，旧宗署及战场确址未定</value>
+            </Data>
+            <Data name="timing">
+              <value>本点未有可靠的独立驻留或相邻段行军日数；不把校注中有争议的擒获日期换成作者行程耗时。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距嘉黎镇一带代表点直线约144 km</value>
+            </Data>
+            <Data name="note">
+              <value>边坝县政府历史沿革确认，原边坝宗驻地在今边坝镇夏林村；1968年8月县址迁至草卡镇东马通村。KNAB将Banbar镇中心与Xarling／夏林村联系，坐标取该镇村地名代表点，只用于定位旧宗驻地所在区域，未测定宗署、寺院建筑、营垒或战场；地名库未明确坐标基准，小数位不代表古址精度。校注16叙述边军由大道趋边坝、拉里，陈渠珍所在钟颖部改由类乌齐、三十九族前进；本点作历史背景，不接入陈渠珍个人行军线。校注对登珠在边坝被擒的具体日期及次数保留异说，本标注不裁定该争议。与拉里只比较现代代表点直距，不表示两站古道实走距离。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.84611111,30.82916667,0</coordinates>
           </Point>
         </Placemark>
       </Folder>

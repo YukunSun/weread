@@ -269,6 +269,14 @@ def make_wusijiang_supplement(bundled=False):
     view(doc,91.65,29.68,300000);minor_styles(doc,bundled);minor_folder(doc,[p])
     return serialize(root)
 
+def make_bianba_supplement(bundled=False):
+    p=next(p for p in MINOR_PLACES if p['id']=='bianba')
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='bianba_supplement')
+    el(doc,'name','《艽野尘梦》边坝｜旧宗驻地与战事背景');el(doc,'open',1)
+    el(doc,'description','今边坝镇夏林村地区参照，旧宗署及战场确址未定。校注16所述边军战事背景，不接入陈渠珍个人行军线。完整阅读地图与小地名补充版已含此点，选择一份显示。')
+    view(doc,p['lon'],p['lat'],65000);minor_styles(doc,bundled);minor_folder(doc,[p])
+    return serialize(root)
+
 def make_road_supplement():
     root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='modern_road_supplement')
     el(doc,'name','《艽野尘梦》现代道路对照｜G317等国道省道');el(doc,'open',1)
@@ -336,7 +344,7 @@ def make_jiangda_supplement(bundled=False):
 
 def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
-    el(doc,'name','《艽野尘梦》阅读地图｜江达定位补充版')
+    el(doc,'name','《艽野尘梦》阅读地图｜边坝背景补充版')
     el(doc,'open',1)
     el(doc,'description',f'{len(ROWS)}个主要地点及参照点，另补{len(MINOR_PLACES)}处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。\n小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。')
     view(doc,100.5,33.6,2000000)
@@ -493,6 +501,12 @@ def main():
         z.writestr('doc.kml',make_wusijiang_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    bianba='艽野尘梦_边坝历史背景'
+    (ROOT/(bianba+'.kml')).write_bytes(make_bianba_supplement())
+    with zipfile.ZipFile(ROOT/(bianba+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_bianba_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
     jiangda='艽野尘梦_江达定位'
     (ROOT/(jiangda+'.kml')).write_bytes(make_jiangda_supplement())
     with zipfile.ZipFile(ROOT/(jiangda+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -560,7 +574,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 
 二、内容和图例
 主要地图点：MAJOR_COUNT个，含书中地点、校注补充地区及2个默认隐藏的现代县城对照点。
-另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、乌斯江（藏军防线背景）。
+另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、边坝（旧宗驻地与战事背景）、乌斯江（藏军防线背景）。
 08小地名层可在左侧列表点击，放大后更易读；金色空心点是村域或地区参照，不是确认古址。
 支持Region的客户端会按缩放显示小地名；网页版忽略Region，可手动开关08图层控制全景标注数量。
 俄洛桥用现代俄洛村参照，未认定清末桥位；西藏桥与俄洛桥的正文、校注和书图差异在弹窗及14层说明。
@@ -664,6 +678,19 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n十七、乌斯江／乌苏江藏军防线背景\n'+note)
         f.write('\n十八、江达｜今太昭／江达村一带\n2026-11-01核对。主图02层的16号江达点已突出显示，标签为“江达〔今太昭／江达村一带〕”，点击先显示古今定位和精度说明，再显示耗时与距离。\n社科院考察记从工布江达现代县城沿318国道向西约20公里到江达村、太昭古城。此为书中北返青海的出发地区，与昌都市江达县、现代工布江达县城分别标识。\n沿用约93.08°E、30.00°N区域参照坐标，不指认旧驿站、陈部驻地或出发确址。\n完整阅读地图已包含此点；单独“艽野尘梦_江达定位.kmz”仅含江达，适合旧图补充。导入独立文件时隐藏旧版02层中的江达点；与新版完整图二选一显示，避免重复。\n定位依据：https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml\n')
         f.write('2026-11-01已将独立江达KMZ导入原Google Earth网页版项目，确认“江达｜今太昭／江达村一带”根目录与点标出现，旧版“校注十一地点落点版”02层中的江达点已隐藏。已抽查地标坐标、今名、区域参照和旧址未定说明，页面显示已保存到Google云端硬盘。\n')
+    bianba=next(p for p in MINOR_PLACES if p['id']=='bianba')
+    bianba_check=json.loads((ROOT/'data/place_checks/边坝核对.json').read_text(encoding='utf-8'))
+    bianba_note=('边坝｜旧宗驻地与战事背景\n核对日期：2026-11-01\n\n'+bianba['note']+'\n\n'
+                 f'图示镇村代表点：{bianba["lon"]}°E，{bianba["lat"]}°N。\n'
+                 'KNAB原表30°49′45″N、94°50′46″E，镇中心为Xarling／夏林村；未注明坐标基准，非宗署遗址测绘点。\n'
+                 '耗时：'+bianba['timing']+'\n\n'
+                 '08小地名层新增金色空心背景点。完整阅读地图、小地名补充图、独立“艽野尘梦_边坝历史背景.kmz”三者选择一份显示，避免重复。\n'
+                 'Google Earth核验：'+bianba_check['google_earth_import']['note']+'\n\n来源\n'
+                 +bianba['identity_source']+'\n'+bianba['coordinate_source']+'\n'
+                 +'\n'.join(s['title']+'\n'+s['url'] for s in bianba['additional_sources'])+'\n')
+    (ROOT/'边坝核对说明.txt').write_text(bianba_note,encoding='utf-8')
+    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+        f.write('\n十九、边坝｜旧宗驻地与战事背景\n'+bianba_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

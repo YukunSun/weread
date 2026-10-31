@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-11-01",
+  "place_id": "bianba",
+  "conclusion": "以今边坝镇夏林村一带代表旧边坝宗驻地所在区域，不指认旧宗署或边坝战场确址。",
+  "representative_point": {
+    "lon": 94.84611111,
+    "lat": 30.82916667,
+    "source_coordinates": "30°49′45″N–94°50′46″E",
+    "source": "https://arhiiv.eki.ee/knab/valik/cn54q.htm",
+    "source_names": ["Banbar", "Xarling", "夏林村"],
+    "source_feature_types": ["a41", "p0"],
+    "coordinate_basis": "KNAB未明确注明坐标基准；地名库镇村地区参照，非历史遗址测绘点"
+  },
+  "evidence": [
+    {
+      "title": "边坝县人民政府：边坝县历史沿革",
+      "url": "https://bianba.changdu.gov.cn/bbxrmzf/c105853/202101/77e3fb1cf995426f96df94dd346c69b0.shtml",
+      "supports": "原边坝宗以今边坝镇夏林村为驻地；1968年8月县址由此迁往草卡镇东马通村。"
+    },
+    {
+      "title": "KNAB昌都地名表",
+      "url": "https://arhiiv.eki.ee/knab/valik/cn54q.htm",
+      "supports": "Banbar镇中心与Xarling／夏林村相联系；镇村代表坐标和县级Banbar／Coka治所分列。"
+    },
+    {
+      "title": "《艽野尘梦》校注16",
+      "url": "https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6",
+      "supports": "边军向边坝、拉里进军，钟军改由三十九族；边坝之役与陈氏亲历分开。擒登珠的时日及次数仍有异说。"
+    }
+  ],
+  "map_role": "08小地名层金色空心背景点；不接入陈渠珍个人行军连线",
+  "timing": "不估填边坝驻留或相邻段行军日数",
+  "google_earth_import": {
+    "status": "imported_folder_verified",
+    "checked_at": "2026-11-01",
+    "project_name": "《艽野尘梦》阅读地图｜耗时与距离（km）",
+    "layer_name": "《艽野尘梦》边坝｜旧宗驻地与战事背景",
+    "cloud_save_visible": true,
+    "point_popup_verified": false,
+    "note": "已通过系统文件选择器上传独立KMZ并确认地图项导入，项目列表出现边坝根目录、08小地名补充一处与人物事件地点子目录，页面显示已保存到Google云端硬盘。浏览器控制随后中断，未完成点标弹窗及地图画面的现场核验；本地KML/KMZ已校验坐标和说明。云端导入文件的书中名字段另含地名库转写，仓库导出已将该字段简为边坝，不影响点位。"
+  }
+}
