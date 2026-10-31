@@ -199,12 +199,13 @@ def minor_styles(doc,bundled):
         icon=el(iconstyle,'Icon');el(icon,'href',f'icons/{style_id}.png' if bundled else 'https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png')
         lab=el(st,'LabelStyle');el(lab,'color','ffffffff');el(lab,'scale',0.85)
 
-def minor_folder(doc):
-    folder=el(doc,'Folder',id='minor_folder');el(folder,'name',f'08 小地名补充｜{len(MINOR_PLACES)}处（含区域参照）');el(folder,'open',1)
+def minor_folder(doc,places=None):
+    places=MINOR_PLACES if places is None else places
+    folder=el(doc,'Folder',id='minor_folder');el(folder,'name',f'08 小地名补充｜{len(places)}处（含区域参照）');el(folder,'open',1)
     el(folder,'description','蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位。腊左探险中间地名仍待考，不按里数造点。')
-    view(folder,97.07278,31.18528,160000)
+    view(folder,places[0]['lon'] if len(places)==1 else 97.07278,places[0]['lat'] if len(places)==1 else 31.18528,160000)
     groups={}
-    for p in MINOR_PLACES:
+    for p in places:
         if p['group'] not in groups:
             f=el(folder,'Folder');el(f,'name',p['group']);el(f,'open',0);groups[p['group']]=f
         pm=el(groups[p['group']],'Placemark',id='minor_'+p['id']);el(pm,'name',p['name'])
@@ -221,6 +222,8 @@ def minor_folder(doc):
               f'<p><b>距{html.escape(anchor[2])}代表点：直线约{km:.0f} km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p>'
               f'<p><b>经纬度：</b>{lon:.5f}°E, {lat:.5f}°N。小数位不代表古址精度。</p>'+links([
                   ('今名／历史依据',p['identity_source']),('坐标参照',p['coordinate_source']),('原文及任乃强校注',TEXT)]))
+        if p.get('literary_quote'): info+='<p><b>书中节引：</b>'+html.escape(p['literary_quote'])+'</p>'
+        if p.get('additional_sources'): info+='<p>'+links((s['title'],s['url']) for s in p['additional_sources'])+'</p>'
         el(pm,'description',info);view(pm,lon,lat,45000)
         el(pm,'styleUrl','#'+('minor_landmark' if p['certainty']=='现代地形点参照' else 'minor_reference'))
         # A display window, not an asserted historical territory or error ellipse.
@@ -245,6 +248,15 @@ def make_supplement(bundled=False):
     el(doc,'description',f'新增{len(MINOR_PLACES)}处小地名，可叠加到已导入的耗时与距离版。村域、地区参照均有说明，旧桥、旧营地不冒作确点。')
     view(doc,97.07278,31.18528,160000)
     minor_styles(doc,bundled);minor_folder(doc)
+    return serialize(root)
+
+def make_gengqing_supplement(bundled=False):
+    p=next(p for p in MINOR_PLACES if p['id']=='gengqing')
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='gengqing_supplement')
+    el(doc,'name','《艽野尘梦》更庆｜赵尔丰驻地背景');el(doc,'open',1)
+    el(doc,'description','仅新增更庆一处背景点，可叠加到校注十路线校对版。更庆用今德格更庆镇地区参照，赵尔丰驻营确址未定，不接入陈渠珍行军线。')
+    view(doc,p['lon'],p['lat'],95000)
+    minor_styles(doc,bundled);minor_folder(doc,[p])
     return serialize(root)
 
 def make_road_supplement():
@@ -393,6 +405,12 @@ def main():
         z.writestr('doc.kml',make_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    gengqing='艽野尘梦_更庆驻地'
+    (ROOT/(gengqing+'.kml')).write_bytes(make_gengqing_supplement())
+    with zipfile.ZipFile(ROOT/(gengqing+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_gengqing_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
     roads='艽野尘梦_现代道路对照'
     road_kml=make_road_supplement()
     (ROOT/(roads+'.kml')).write_bytes(road_kml)
@@ -455,7 +473,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 
 二、内容和图例
 主要地图点：MAJOR_COUNT个，含书中地点、校注补充地区及2个默认隐藏的现代县城对照点。
-另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美。
+另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）。
 08小地名层可在左侧列表点击，放大后更易读；金色空心点是村域或地区参照，不是确认古址。
 支持Region的客户端会按缩放显示小地名；网页版忽略Region，可手动开关08图层控制全景标注数量。
 俄洛桥用现代俄洛村参照，未认定清末桥位；西藏桥与俄洛桥的正文／校注差异在弹窗说明。
@@ -542,6 +560,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n十三、沿途主要河流\n13层显示现代真实河道片段和书中渡河地区，突出甘孜雅砻江、岗拖金沙江，另含泸定桥及通麦易贡相关渡水。\n北返通天河渡点不明，不以今桥定位；怒江南源阿克的河段对应、薄藏布古藤桥位置保留待考。\nOSM河道片段与Natural Earth概化背景分层，缺口不补直线。详见“沿途河流说明.txt”和“河流与渡河对照.csv”。已有云端地图可单独叠加“艽野尘梦_沿途河流.kmz”。\n')
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n十四、校注十甘孜至昌都路线校对\n主图R1与11B北路统一补入大金寺、甑科候选、麦学、八邦寺和同普方向；不经雀儿山大道／德格县城。\n11G有本次校注核对及打火沟、卡工、纳夺的待考说明；卡工以西野宿三日与作者逐段实测耗时分开，距离留空。\n详见“甘孜昌都路线校对说明.txt”及data/route_checks/甘孜昌都校注十.json。\n2026-10-31本校对版完整KMZ已导入原Google Earth项目并显示已保存到云端硬盘，当前启用“《艽野尘梦》阅读地图｜校注十路线校对版”根目录；上一版完整图及旧河流、历史背景补充根目录已隐藏。已抽查大金寺点及R1弹窗的路线顺序、46／33／19 km和卡工以西野宿三日限定。仅Region、maxLines、textColor显示字段被忽略。\n')
+        f.write('\n十五、更庆｜赵尔丰驻地背景\n第2章“赵尔丰驻更庆”对应今德格县更庆镇、德格旧城一带。08层新增更庆点，用现代镇区地名点作参照，不指认赵营、衙署或更庆寺内的具体建筑。\n钟颖未应邀前往，更庆不接入作者行军线，不给邀请虚构耗时；与岗拖代表点的距离只作直距比较。\n已有校注十云端图时，仅叠加“艽野尘梦_更庆驻地.kmz”即可。完整图、小地名补充图均含此点，三种文件中只显示一份更庆，避免重复。\n定位依据和原始OSM响应见data/小地名.json及data/place_checks/gengqing_osm_node.json。\n')
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

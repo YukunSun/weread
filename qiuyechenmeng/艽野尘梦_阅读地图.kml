@@ -3,7 +3,7 @@
   <Document id="qiuyechenmeng">
     <name>《艽野尘梦》阅读地图｜校注十路线校对版</name>
     <open>1</open>
-    <description><![CDATA[32个主要地点及参照点，另补9处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
+    <description><![CDATA[32个主要地点及参照点，另补10处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
 小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
     <LookAt>
       <longitude>100.5</longitude>
@@ -1186,7 +1186,7 @@
       <open>0</open>
       <Placemark>
         <name>地图用法、精度与来源</name>
-        <description><![CDATA[32个主要地点及参照点，另补9处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
+        <description><![CDATA[32个主要地点及参照点，另补10处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
 小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
       </Placemark>
       <Placemark>
@@ -4401,7 +4401,7 @@
       </Placemark>
     </Folder>
     <Folder id="minor_folder">
-      <name>08 小地名补充｜9处（含区域参照）</name>
+      <name>08 小地名补充｜10处（含区域参照）</name>
       <open>1</open>
       <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位。腊左探险中间地名仍待考，不按里数造点。]]></description>
       <LookAt>
@@ -4899,6 +4899,63 @@
           <Point>
             <altitudeMode>clampToGround</altitudeMode>
             <coordinates>101.48386,30.48461,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>人物事件地点｜不接陈渠珍行军线</name>
+        <open>0</open>
+        <Placemark id="minor_gengqing">
+          <name>更庆〔今德格更庆镇；赵尔丰驻地〕</name>
+          <description><![CDATA[<h3>更庆〔今德格更庆镇；赵尔丰驻地〕</h3><p><b>书中名：</b>更庆<br/><b>现代参照：</b>四川省德格县更庆镇、德格旧城一带<br/><b>章节：</b>第2章 腊左探险<br/><b>定位性质：</b>旧今对应较明确；镇区代表点，驻营确址未定</p><p>第2章记赵尔丰驻更庆，邀钟颖由甘孜前往相见，钟未往，后令大军集中昌都。地名研究直接对应今更庆镇；点位取OSM现代镇区地名点（WGS84），只用于定位德格旧城地区，不是赵尔丰营址或衙署遗址。更庆镇与更庆寺是不同定位对象，原文未说明赵驻于寺内。本点属赵尔丰活动背景，不把更庆接入陈渠珍、钟颖此次亲经路线；与南侧经麦学、八邦寺至岗拖的行军示意分开。今G317在镇区经过，只供地理比较。</p><p><b>耗时：</b>此段未记赵尔丰在更庆的独立驻留日数；邀请未成行，不虚构甘孜至更庆的行程耗时。</p><p><b>距金沙江岗托一带代表点：直线约21 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>98.58109°E, 31.81758°N。小数位不代表古址精度。</p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">今名／历史依据</a><br/><a href="https://www.openstreetmap.org/node/298229720">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><b>书中节引：</b>是时，赵尔丰驻更庆……邀钟颖由甘孜单骑往见。钟不敢往。赵遂令大军暂集中昌都。</p><p><a href="https://www.dege.gov.cn/xzqh/article/156411">德格县政府：更庆镇为老县城及县城驻地</a><br/><a href="https://www.dege.gov.cn/gzdgx/c101563/201104/e4b8c2df8c0c47c1999f6e52b887b965.shtml">德格县政府：更庆寺位于县城东欧普隆沟口</a></p>]]></description>
+          <LookAt>
+            <longitude>98.5810914</longitude>
+            <latitude>31.8175808</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>31.917580800000003</north>
+              <south>31.7175808</south>
+              <east>98.70109140000001</east>
+              <west>98.4610914</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>更庆</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>四川省德格县更庆镇、德格旧城一带</value>
+            </Data>
+            <Data name="chapter">
+              <value>第2章 腊左探险</value>
+            </Data>
+            <Data name="certainty">
+              <value>旧今对应较明确；镇区代表点，驻营确址未定</value>
+            </Data>
+            <Data name="timing">
+              <value>此段未记赵尔丰在更庆的独立驻留日数；邀请未成行，不虚构甘孜至更庆的行程耗时。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距金沙江岗托一带代表点直线约21 km</value>
+            </Data>
+            <Data name="note">
+              <value>第2章记赵尔丰驻更庆，邀钟颖由甘孜前往相见，钟未往，后令大军集中昌都。地名研究直接对应今更庆镇；点位取OSM现代镇区地名点（WGS84），只用于定位德格旧城地区，不是赵尔丰营址或衙署遗址。更庆镇与更庆寺是不同定位对象，原文未说明赵驻于寺内。本点属赵尔丰活动背景，不把更庆接入陈渠珍、钟颖此次亲经路线；与南侧经麦学、八邦寺至岗拖的行军示意分开。今G317在镇区经过，只供地理比较。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.5810914,31.8175808,0</coordinates>
           </Point>
         </Placemark>
       </Folder>
