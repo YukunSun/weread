@@ -1,0 +1,82 @@
+{
+  "retrieved_at_utc": "2026-10-30T16:05:13.831973+00:00",
+  "provider": "Alibaba Cloud DataV.GeoAtlas",
+  "api_documentation": "https://help.aliyun.com/zh/datav/datav-6-0/user-guide/choropleth-layer-of-v3-x",
+  "coordinate_documentation": "https://help.aliyun.com/en/datav/datav-7-0/user-guide/map-data-format-1",
+  "raw_crs_assumption": "GCJ-02, inferred from provider documentation; raw GeoJSON does not declare CRS",
+  "output_crs": "Approximate WGS84 longitude, latitude",
+  "conversion": "Iterative inverse of a common approximate GCJ02 forward offset formula; 10 iteration limit and 1e-9 degree residual target, rounded to 7 decimals",
+  "precision_limit": "Numerical residual is not survey accuracy. Source boundaries are generalized; historical/cultural-region proxy error dominates and may be many kilometres.",
+  "license_status": "No explicit standalone redistribution license found in inspected provider pages. Retain provider attribution; do not label these data as CC0, ODbL or public domain.",
+  "attribution": "Administrative geometry © Alibaba Cloud DataV.GeoAtlas; individual data license not stated in inspected documentation",
+  "administrative_version": "Not specified by raw endpoint; retrieved snapshot is not guaranteed to reflect all 2026 changes",
+  "feature_count": 25,
+  "sources": [
+    {
+      "file": "data/regions/raw/540000_full.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/540000_full.json",
+      "sha256": "ba95ab3f6b9183942c183d66d1258ac710dcdf9cb49c51f79915532379747c81",
+      "feature_count": 7
+    },
+    {
+      "file": "data/regions/raw/630000_full.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/630000_full.json",
+      "sha256": "42caf689c3c37630aa725bac2351153bac00fb626a01fbe5f141c3a279706936",
+      "feature_count": 8
+    },
+    {
+      "file": "data/regions/raw/540000.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/540000.json",
+      "sha256": "69db7032af12ff3df911f2a7770c151a27b44e415010fdc86d14d580ae2467e7",
+      "feature_count": 1
+    },
+    {
+      "file": "data/regions/raw/630000.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/630000.json",
+      "sha256": "a3552d5c82c13876eba254484d7806131ec56f7645f59543f2076377caed4d9f",
+      "feature_count": 1
+    },
+    {
+      "file": "data/regions/raw/513300.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/513300.json",
+      "sha256": "cadcffe3fc922d38f0690416f5c7da3e0e0cdf549290b94750fdde67d7627f61",
+      "feature_count": 1
+    },
+    {
+      "file": "data/regions/raw/513200.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/513200.json",
+      "sha256": "c01f78e670533c0f2f3019a66604f5ed8b2ad2c19fcdd662ff271d5b844262cd",
+      "feature_count": 1
+    },
+    {
+      "file": "data/regions/raw/533400.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/533400.json",
+      "sha256": "6bca4c7727381c70c49a316f1d562f39213e5b17b6a2f0fb2ec4aad41ac1a314",
+      "feature_count": 1
+    },
+    {
+      "file": "data/regions/raw/623000.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/623000.json",
+      "sha256": "b321bb7ce2b46f3c107bb1f7ccd679f59a76a9819fdb3e5c9bf3d3bc86913663",
+      "feature_count": 1
+    },
+    {
+      "file": "data/regions/raw/540400_full.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/540400_full.json",
+      "sha256": "27bef3f22a43499901c35d7835921397d35486c84bf09e388e52cd529d33f66a",
+      "feature_count": 7
+    },
+    {
+      "file": "data/regions/raw/542522.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/542522.json",
+      "sha256": "dc6306b95a2ea1b5a1b17aa2ceabff34ba5a35c88110910077eb5d0b915bb451",
+      "feature_count": 1
+    }
+  ],
+  "limits": [
+    "Administrative units are convenient modern reference extents, not reconstructed historical borders.",
+    "Ali, Qiangtang, Gongbo, Kham and Amdo are historical/cultural/natural geographical concepts whose limits do not generally follow whole modern prefectures.",
+    "No simplification or smoothing is applied here; only coordinate conversion. Source polygons may already be generalized.",
+    "Current international boundaries in these data may reflect the provider cartographic convention; no sovereignty inference is added."
+  ]
+}

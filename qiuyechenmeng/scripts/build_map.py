@@ -10,6 +10,8 @@ import xml.etree.ElementTree as ET
 import zipfile
 import zlib
 from modern_roads import add_roads, write_road_index
+from regional_ranges import add_ranges, write_range_index
+from post_routes import add_post_routes, write_post_indexes
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -45,7 +47,7 @@ ROWS = [
 ('daofu','07 道坞 → 道孚','道孚鲜水镇',101.1254,30.9777,'第1章','in','对应较明确',wiki('鲜水镇'),'旧称道坞，对应今道孚。使用现代县城聚落代表点。'),
 ('luhuo','08 霍尔章谷 → 炉霍','炉霍新都镇',100.6803,31.3937,'第1章；校注8','in','对应较明确',wiki('新都镇_(炉霍县)'),'按校注对应炉霍；现代聚落代表点。'),
 ('garze','09 甘孜','甘孜镇',99.9886,31.6273,'第1章；校注10','in','对应较明确',wiki('甘孜镇'),'校注记后续经打火沟、甑科、麦学、八邦寺，不走雀儿山大道。地图不把德格县城增列为作者亲经站。'),
-('maisux','10 麦削／麦学 → 麦宿一带','德格麦宿一带',98.9914,31.6329,'第1章；校注10','in','区域参照',wiki('麦宿镇'),'校注作麦学。使用现代麦宿聚落点概略定位，非旧驿站遗址；甘孜至此之间的曾科／甑科另列待考。'),
+('maisux','10 麦削／麦学 → 麦宿一带','德格麦宿一带',98.9914,31.6329,'第1章；校注10','in','区域参照',wiki('麦宿镇'),'校注作麦学。使用现代麦宿聚落点概略定位，非旧驿站遗址；曾科／甑科在11层补赠科乡候选参照，古今对应与旧站确址仍待考。'),
 ('palpung','11 八邦寺','八邦寺／八蚌寺',98.7960,31.6483,'第1章；校注10','in','对应较明确',wiki('八邦寺'),'原文行程的补充节点来自校注10；与作者正文亲记地点作来源区分。'),
 ('gangtuo','12 岗拖 → 岗托','金沙江岗托一带',98.5853,31.6326,'第1章','in','对应较明确',wiki('岗托镇'),'金沙江渡口地区。标的是现代岗托聚落，非确定的历史皮船下水点。'),
 ('chamdo','13 察木多 → 昌都','昌都老城、强巴林寺一带',97.1779,31.1435,'第1—3章','in','对应较明确',wiki('强巴林寺'),'用强巴林寺定位昌都老城，非作者营房遗址。第2章腊左探险支线未精确复原。'),
@@ -93,7 +95,7 @@ DISTANCE_ROWS += [
 ]
 
 UNLOCATED = [
-('第1章','曾科／甑科','校注10指白玉县甑科。与今赠科乡对应尚需进一步核实，暂不赋坐标。'),
+('第1章','曾科／甑科旧驿站确址','校注10指白玉县甑科。11层补赠科乡现代点作候选区域参照，古今对应未获直接史证，旧驿站确址仍未定位。'),
 ('第1章','大相岭旧山口、果亲王摩崖诗','已补大相岭古道的路桥碑地区参照及飞越岭垭口；作者登岭顶与摩崖诗的具体位置仍待考。'),
 ('第2—3章','腊左塘 → 浪荡沟','校注11订正今旧称。位于俄洛桥与纳贡山之间，未查到可靠独立坐标，不按书中里数插值造点。'),
 ('第2—3章','腊左 → 纳贡塘','校注11订正，与腊左塘／浪荡沟是不同地点；暂不赋假坐标。'),
@@ -244,9 +246,25 @@ def make_road_supplement():
     roads=add_roads(doc,el,view,kcolor);write_road_index(roads)
     return serialize(root)
 
+def make_range_supplement(bundled=False):
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='regional_range_supplement')
+    el(doc,'name','《艽野尘梦》藏区地理范围｜据知乎分区说明');el(doc,'open',1)
+    el(doc,'description','半透明范围层：前后藏、卫藏康安多、工布阿里及元明地域称谓。以现代政区作概略阅读参照，非精确史界。默认显示10A，其余套别可在左侧切换。')
+    view(doc,92,32.7,2300000)
+    add_ranges(doc,el,view,kcolor,bundled);write_range_index()
+    return serialize(root)
+
+def make_post_supplement(bundled=False):
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='post_road_supplement')
+    el(doc,'name','《艽野尘梦》南北驿路原文对照｜直距km与已知耗时');el(doc,'open',1)
+    el(doc,'description','按本段主要地名分南北路线。南路是背景，北路为作者进军主线；三十九族按区域，曾科为推定，丹达不冒认精确山口。距离是节点直距，非实走；耗时未记处不估填。')
+    view(doc,96.5,30.8,1200000)
+    add_post_routes(doc,el,view,kcolor,bundled,True);write_post_indexes()
+    return serialize(root)
+
 def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
-    el(doc,'name','《艽野尘梦》阅读地图｜耗时与距离（km）')
+    el(doc,'name','《艽野尘梦》阅读地图｜南北驿路、分区与耗时距离（已校核）')
     el(doc,'open',1)
     el(doc,'description',f'{len(ROWS)}个主要地点及参照点，另补{len(MINOR_PLACES)}处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。\n小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。')
     view(doc,100.5,33.6,2000000)
@@ -324,6 +342,8 @@ def make_map(bundled=False):
                 el(ls,'coordinates',f'{ax+(bx-ax)*t0:.6f},{ay+(by-ay)*t0:.6f},0 {ax+(bx-ax)*t1:.6f},{ay+(by-ay)*t1:.6f},0')
     minor_folder(doc)
     add_roads(doc,el,view,kcolor)
+    add_ranges(doc,el,view,kcolor,bundled)
+    add_post_routes(doc,el,view,kcolor,bundled,False)
     return serialize(root)
 
 def main():
@@ -336,6 +356,9 @@ def main():
             z.writestr('icons/'+phase+'_uncertain.png',png('#ffb347',True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
+        z.writestr('icons/region_label.png',png('#ffffff'))
+        for sid,color,hollow in [('point','#8ad4ff',False),('uncertain','#ffc66d',True),('measure','#cbd5e1',False)]:
+            z.writestr('icons/post_'+sid+'.png',png(color,hollow))
     supplement='艽野尘梦_小地名补充'
     (ROOT/(supplement+'.kml')).write_bytes(make_supplement())
     with zipfile.ZipFile(ROOT/(supplement+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -347,6 +370,17 @@ def main():
     (ROOT/(roads+'.kml')).write_bytes(road_kml)
     with zipfile.ZipFile(ROOT/(roads+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',road_kml)
+    ranges='艽野尘梦_藏区地理范围'
+    (ROOT/(ranges+'.kml')).write_bytes(make_range_supplement())
+    with zipfile.ZipFile(ROOT/(ranges+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_range_supplement(True))
+        z.writestr('icons/region_label.png',png('#ffffff'))
+    post='艽野尘梦_南北驿路对照'
+    (ROOT/(post+'.kml')).write_bytes(make_post_supplement())
+    with zipfile.ZipFile(ROOT/(post+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_post_supplement(True))
+        for sid,color,hollow in [('point','#8ad4ff',False),('uncertain','#ffc66d',True),('measure','#cbd5e1',False)]:
+            z.writestr('icons/post_'+sid+'.png',png(color,hollow))
     with (ROOT/'小地名对照与坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
         fields=['id','name','old_names','modern','lon','lat','chapter','group','certainty','coordinate_source','identity_source','note','timing']
         w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(MINOR_PLACES)
@@ -458,6 +492,9 @@ https://opendatacommons.org/licenses/odbl/1-0/
 '''
     readme=readme.replace('17条',f'{len(UNLOCATED)}条').replace('另加9处',f'另加{len(MINOR_PLACES)}处')
     (ROOT/'地图使用说明.txt').write_text(readme,encoding='utf-8')
+    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+        f.write('\n九、知乎回答的藏区地理范围\n核对日期2026-10-31。新增10范围层，以半透明色块表达文章地理称谓的概略范围。\n现代行政数据只是范围参照；文化地理、元明称谓、自然羌塘与现代政区分套，可单独开关。\n已导入旧版时，可单独叠加“艽野尘梦_藏区地理范围.kmz”，不重复地点或道路。\n2026-10-31已将含10、11层的完整阅读地图导入原Google Earth网页版项目，确认处理完成并保存到云端硬盘。当前显示“南北驿路、分区与耗时距离（已校核）”根目录，旧版根目录已隐藏。\n详细口径、坐标与来源见“藏区地理范围说明.txt”和“藏区范围对照.csv”。\n')
+        f.write('\n十、本段南北驿路对照\n新增11层，南路背景、北路进昌都、昌都后北绕及原文另列走法分色显示。\n新增理塘、巴塘、硕督、丹达地区、拉萨对照及曾科候选共6点，三十九族按核心方位区域显示。\n距离仍用代表点直距km；完整阅读图复用原有地点，单独南北驿路KMZ包含17个站点代表点。\n已知耗时按原文与校注保留，未记日数不分摊，南路不套现代G318。详见“南北驿路说明.txt”及两个南北驿路CSV。\n')
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

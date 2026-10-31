@@ -1,0 +1,37 @@
+{
+  "retrieved_at_utc": "2026-10-31T01:44:15.707065+00:00",
+  "sources": [
+    {
+      "adcode": "540324",
+      "name": "丁青县",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/540324.json",
+      "raw_sha256": "d243240fba5d39789ed86cef317f6aa511ecedeca23723c923c6a0bafc55cccc"
+    },
+    {
+      "adcode": "540628",
+      "name": "巴青县",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/540628.json",
+      "raw_sha256": "daffdae6fc85e25eee8f7b55e6e4faef6990278d7466d7f0356154dba0a6a514"
+    },
+    {
+      "adcode": "540626",
+      "name": "索县",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/540626.json",
+      "raw_sha256": "3635aa09c5a4347bff59e41d2d15a4e3ef704ee2d3402d56c7beb42702009439"
+    }
+  ],
+  "crs_assumption": "GCJ02 inferred from provider docs, transformed approximately to WGS84; source files do not declare CRS",
+  "administrative_snapshot": "Not specified by provider, retained raw current-endpoint names and codes",
+  "historical_sources": [
+    "https://www.nopss.gov.cn/GB/219506/219507/15272608.html",
+    "https://dingqing.changdu.gov.cn/dqx/c105853/202005/a735ff9a141c461790b6d3402c4d5fa5.shtml",
+    "https://rituxian.gov.cn/info/1911/175351.htm"
+  ],
+  "limits": [
+    "The three modern counties are locational proxies for the core Hor39 region, not its full 1909 boundary.",
+    "Later 1950s ten-zong administrative scope is not projected backwards into 1909.",
+    "No point here is assigned to the author as a confirmed camp or route station.",
+    "Source coordinate system is inferred and inverse transformation is approximate.",
+    "DataV independent open redistribution license not established; retain attribution."
+  ]
+}

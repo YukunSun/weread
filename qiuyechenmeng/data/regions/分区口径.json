@@ -1,0 +1,43 @@
+{
+  "article": {
+    "title": "能否详细的说一下西藏的世俗政权变迁史？",
+    "author": "剁椒芋头",
+    "url": "https://www.zhihu.com/question/279851608/answer/420641419",
+    "scope": "采用回答开头的地理分区说明；不把后文历代政权扩张叙述转画成已复原疆界。",
+    "read_at": "2026-10-31"
+  },
+  "groups": [
+    {"id":"culture","name":"10A 卫藏、康、安多等｜政区概略参照（默认显示）","visible":true,"note":"色块用现代政区组合帮助辨认大致方位，细轮廓继承行政数据，不代表历史文化边界。阿坝交错地带另标，羌塘另列自然地理层。"},
+    {"id":"frontback","name":"10B 前藏／后藏｜狭义核心参照（默认隐藏）","visible":false,"note":"按文章狭义用法，以拉萨、山南与日喀则分别参照。广义东西分法另列于10C，不能把拉萨经线当作史界。"},
+    {"id":"direction","name":"10C 广义前／后藏｜东西方向参照（默认隐藏）","visible":false,"note":"用东西两侧若干现代地市表达文章的方位说法；不画拉萨经线，也不把北部那曲强分两半。留白不代表该地不属西藏。"},
+    {"id":"historical","name":"10D 乌斯藏／朵思麻／朵甘思｜文章称谓参照（默认隐藏）","visible":false,"note":"这是文章所用名称与现代地名的概略对照，不是元代宣慰司、明代都司或历代政权疆界复原。三名的广狭义、年代范围不同，不能与现代文化区机械画等号。"},
+    {"id":"nature","name":"10E 羌塘｜自然地理方位范围（默认隐藏）","visible":false,"note":"羌塘另画示意外缘，区别于安多文化区及羌塘自然保护区边界。"},
+    {"id":"admin","name":"10F 现代行政轮廓｜数据快照（默认隐藏）","visible":false,"note":"西藏七地市及相邻青海、川滇甘政区轮廓供定位。数据时点未明且有旧名旧码，不声称是2026年最新法定界线。"}
+  ],
+  "sources": {
+    "traditional":"https://www.tibetology.ac.cn/2018-04/13/content_41706033.htm",
+    "definitions":"https://dfzb.abazhou.gov.cn/abzdfsbgs/c104049/201811/fbcd45bb718a40d2a594950ca045b86f.shtml",
+    "aba":"https://dfzb.abazhou.gov.cn/abzdfsbgs/c104048/202305/6daf75178805403d9dc3a7ad09729a50.shtml",
+    "gongbo":"https://www.xizang.gov.cn/xwzx_406/bmkx/202507/t20250702_487374.html",
+    "qiangtang":"https://igsnrr.cas.cn/cbkx/kpyd/kcsj/qtwrq/202009/t20200910_5693371.html",
+    "historical":"https://www.tibetology.ac.cn/2020-09/18/content_41699262.htm"
+  },
+  "ranges": [
+    {"id":"wei","group":"culture","name":"卫／前藏核心｜拉萨、山南参照","members":["540100","540500"],"label":[91.6,29.3],"color":"#71c5ed","article":"文章以拉萨、山南说明卫及狭义前藏。","note":"仅用两地市作核心方位参照。传统卫的外延还可能涉及其他地区，不将这两地市外缘认作文化边界。","sources":["traditional","definitions"]},
+    {"id":"tsang","group":"culture","name":"藏／后藏核心｜日喀则参照","members":["540200"],"label":[87.8,29.3],"color":"#f1b76e","article":"文章以日喀则一带说明藏及狭义后藏。","note":"色块沿现代日喀则数据轮廓，表示阅读定位范围，不是历代后藏史界。","sources":["traditional","definitions"]},
+    {"id":"kham","group":"culture","name":"康／康巴｜昌都、甘孜、玉树、迪庆参照","members":["540300","513300","632700","533400"],"label":[98.8,31.8],"color":"#b49bea","article":"文章称昌都及其以东藏区为康，另在朵甘思段涉及玉树、甘孜、阿坝、迪庆。","note":"用昌都、甘孜、玉树、迪庆作主要方位参照，不表示这些政区全部人口、土地都同属一种文化或方言。阿坝交错地带单列，不整州涂为康。","sources":["traditional","definitions","aba"]},
+    {"id":"amdo","group":"culture","name":"安多｜青海（除玉树）、甘南政区参照","members":["630100","630200","632200","632300","632500","632600","632800","623000"],"label":[99.2,35.8],"color":"#8acb9c","article":"文章将羌塘、青海和甘南并称安多；此概括过宽。","note":"色块采用青海除玉树的七个地市州及甘南作较宽的阅读政区参照，不是实际文化或方言分布边界，尤其不能按海西等整州轮廓推断人口分布。传统安多核心在高原东北；本图为回应文章地名，保留较宽政区参照。玉树归康的参照层，阿坝另作交错地区，羌塘另列自然地理层。","sources":["traditional","definitions","aba"]},
+    {"id":"gongbo","group":"culture","name":"工布核心｜巴宜、工布江达、米林参照","members":["540402","540421","540422"],"label":[93.9,29.6],"color":"#e997ac","article":"文章概称林芝为工布。","note":"依核查资料，以巴宜、工布江达、米林一带作核心参照，不将整个林芝市的波密、察隅、墨脱等地一并归入。沿用数据源米林县旧名旧码，只作地区定位，不声称是最新市界。","sources":["gongbo"]},
+    {"id":"ngari","group":"culture","name":"阿里｜现代地区范围参照","members":["542500"],"label":[82.1,32.3],"color":"#dfc47a","article":"文章将阿里与羊同、象雄、古格等历史称谓相联。","note":"这里仅绘现代阿里地区参照范围。羊同、象雄、古格的年代与外延并不相同，色块不表示它们均与整个阿里同界。","sources":["definitions"]},
+    {"id":"aba_transition","group":"culture","name":"阿坝｜文化交错区（州域参照）","members":["513200"],"label":[102.5,32.2],"color":"#c5c3b6","alpha":"22","article":"文章在康及朵甘思的叙述中提到阿坝。","note":"阿坝州内存在安多、嘉绒、白马等分布及交融，不能整州判成康或安多。本色块只提示交错地区所在，州界不是文化分界。","sources":["aba","definitions"]},
+    {"id":"qianzang","group":"frontback","name":"狭义前藏｜拉萨、山南参照","members":["540100","540500"],"label":[91.5,29.1],"color":"#71c5ed","article":"文章狭义前藏所指拉萨、山南一带。","note":"现代政区参照；与10A卫的核心色块相同，但保留不同称名的阅读入口。","sources":["traditional"]},
+    {"id":"houzang","group":"frontback","name":"狭义后藏｜日喀则参照","members":["540200"],"label":[87.8,29.3],"color":"#f1b76e","article":"文章狭义后藏所指日喀则一带。","note":"现代政区参照，不是历史疆界。","sources":["traditional"]},
+    {"id":"front_direction","group":"direction","name":"广义前藏方向｜拉萨及东侧参照","members":["540100","540500","540400","540300"],"label":[94.5,30.0],"color":"#71c5ed","alpha":"24","article":"文章广义说法以拉萨为东西方向参照，将拉萨及其以东称前藏。","note":"用拉萨、山南、林芝、昌都表达东侧方位。此画法未声称完整涵盖广义前藏；不沿经线切分，也不把四地市外缘当成历史分界。那曲北部在此保留空白。","sources":["traditional","definitions"]},
+    {"id":"back_direction","group":"direction","name":"广义后藏方向｜日喀则、阿里参照","members":["540200","542500"],"label":[84.8,31.0],"color":"#f1b76e","alpha":"24","article":"文章广义说法把拉萨以西称后藏。","note":"仅表达西侧方位。不能据此认定历史上阿里在所有语境中都归狭义后藏；北部没有强行沿拉萨经线分区。","sources":["definitions"]},
+    {"id":"wusizang","group":"historical","name":"乌斯藏／乌思藏｜文章核心地域参照","members":["540100","540500","540200"],"label":[90.2,29.6],"color":"#71c5ed","article":"文章以拉萨、当雄、山南及日喀则解释乌斯藏名称。","note":"按文章的核心地名作现代政区参照，含当雄的拉萨市数据范围。相关元明行政机构还涉及纳里速古鲁孙等名称，不能用此色块当宣慰司或都司辖界。","sources":["historical","traditional"]},
+    {"id":"duosima","group":"historical","name":"朵思麻｜青海除玉树、甘南方向参照","members":["630100","630200","632200","632300","632500","632600","632800","623000"],"label":[99.2,35.8],"color":"#8acb9c","article":"文章以青海除玉树及甘南说明朵思麻。","note":"以现代地市州组合辅助识别该说法，不是任何指定年份朵思麻政区的复原边界。与后世安多也不能完全等同。","sources":["historical","traditional"]},
+    {"id":"duogansi","group":"historical","name":"朵甘思｜藏东、川西、玉树、滇西北参照","members":["540300","513300","632700","533400"],"label":[98.8,31.8],"color":"#b49bea","article":"文章列昌都、玉树、甘孜、阿坝、迪庆。","note":"先画昌都、玉树、甘孜、迪庆的主要方位；阿坝作独立交错参照，不整州认作精确史界。朵甘思有广狭义，且不同时代范围有变，本图不画政权管辖界。","sources":["historical","definitions"]},
+    {"id":"duogansi_transition","group":"historical","name":"阿坝方向｜文章提及的交错参照","members":["513200"],"label":[102.5,32.2],"color":"#c5c3b6","alpha":"22","article":"文章在朵甘思范围中列入阿坝。","note":"保留文章地名入口，单列现代州域外框，表示这一带存在多种地域文化交错，不与朵甘思核心色块强行拼成一条史界。","sources":["aba","definitions"]},
+    {"id":"qiangtang","group":"nature","name":"羌塘／藏北高原｜外缘方向示意","schematic_ring":[[80.0,34.2],[81.0,35.0],[84.0,35.4],[87.0,35.7],[89.0,35.8],[91.4,34.2],[93.6,33.0],[94.0,31.6],[92.2,30.7],[90.7,30.9],[88.0,31.5],[85.0,31.6],[82.2,31.3],[80.0,32.0],[80.0,34.2]],"label":[87.0,33.5],"color":"#b3cad5","alpha":"24","article":"文章将羌塘放在安多的概括中；两者是不同类型的地理概念。","note":"按昆仑山以南、冈底斯—念青唐古拉山以北的文字方位手工概括，节点是制图示意点，未按山脊、流域或测绘边界拟合；外缘可相差数十至百余公里。不是羌塘自然保护区边界，更不能用作陈渠珍荒原路线或安多文化边界。","sources":["qiangtang"]}
+  ]
+}

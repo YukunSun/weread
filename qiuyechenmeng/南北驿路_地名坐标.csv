@@ -1,0 +1,18 @@
+﻿id,name,lon,lat,certainty,source,identity_source,note
+kangding,打箭炉 → 康定,101.955,30.0015,城市代表点,https://zh.wikipedia.org/wiki/康定市,,沿用本项目康定城域代表点，不指认清代粮台、出关门址。短段距离尤其受代表点选择影响。
+litang,里塘 → 理塘,100.26784,29.99562,现代高城镇代表点,https://www.openstreetmap.org/node/244081068,,原文巴、里塘作并称，图中按地理顺序先理塘、后巴塘。不是旧粮台遗址坐标。
+batang,巴塘,99.10849,30.00662,现代夏邛镇代表点,https://www.openstreetmap.org/node/244076628,https://www.batang.gov.cn/btjj1/article/650176,使用县城聚落代表点，不用全县行政区中心，不指认旧粮台遗址。
+chamdo,察木多／昌都,97.1779,31.1435,老城地区代表点,https://zh.wikipedia.org/wiki/强巴林寺,,用强巴林寺一带定位旧城，与本项目主图一致。
+enda,恩达〔恩达村一带〕,96.67306,31.12333,村域参照,https://arhiiv.eki.ee/knab/valik/cn54q.htm,https://lyfz.changdu.gov.cn/cdslyj4/c101252/202412/d3cb10775c3c4bc089d8f2dcc3e8c1aa.shtml,今类乌齐桑多镇恩达村。古驿站向西入洛隆，向北接草地道路；南北路线在此分岔。旧汛署和营地不据村点定位。
+shobando,硕板多／硕般多 → 硕督,95.65083,30.80861,镇村地区参照,https://arhiiv.eki.ee/knab/valik/cn54q.htm,https://luolong.changdu.gov.cn/llx/c100991/202101/b6c6254674874215b3815a7e32c537ff.shtml,KNAB的Xobando镇村代表点，今洛隆县硕督镇。政府资料确认旧名硕般多；不当作宗政府或驿署遗址精确点。
+danda,丹达〔丹达塘—丹达村地区参照〕,94.61222,30.85278,地区参照，旧站址待考,https://arhiiv.eki.ee/knab/valik/cn54q.htm,https://www.xzxw.com/lyrw/2015-03/21/content_1286485.html,采用地名库丹达村旧资料的地区点。丹达山、丹达塘旧站和搬迁后的丹达村不可混成一个精确点；本点不指认山口或原驿站。
+lhari,拉里 → 嘉黎旧镇,93.3458,30.7423,旧镇地区参照,https://zh.wikipedia.org/wiki/嘉黎镇,,沿用嘉黎旧镇参照，与今日阿扎县城分开。
+taizhao,江达 → 太昭／江达村,93.08,30.0,地区参照,https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml,,书中江达指今工布江达县太昭、江达村一带，不是昌都市江达县，也不是现代工布江达县城。
+lhasa,拉萨〔南路终点对照〕,91.132,29.65,城市代表点，路线对照,https://zh.wikipedia.org/wiki/拉萨市,,仅为这段所述驿路终点。陈渠珍本次叙事不因此被标成亲到拉萨。
+zheduo,折多塘,101.886,29.9949,村域代表点,https://www.fallingrain.com/world/CH/32/Zheduotang.html,,沿用主图地名代表点，不是折多山垭口，不是确考旧宿营点。
+changba,长坝春 → 江巴村一带,101.65,30.2,地区参照,https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm,,沿用主图江巴村区域参照；坐标只保留地区级定位。
+luhuo,霍尔章谷 → 炉霍,100.6803,31.3937,聚落代表点,https://zh.wikipedia.org/wiki/新都镇_(炉霍县),,现代炉霍县城地区代表点。
+garze,甘孜,99.9886,31.6273,聚落代表点,https://zh.wikipedia.org/wiki/甘孜镇,,本段简列主要地名。第1章及校注另补道孚、麦宿、八邦寺等节点，见原阅读地图；不可把简列点间连线当完整驿站链。
+zengke,曾科／甑科〔赠科乡地区参照，推定〕,99.2955,31.48291,对应推定,https://www.openstreetmap.org/node/1755809586,https://www.baiyu.gov.cn/jczwgkxzj/article/512763,校注10将甑科置白玉县，现代赠科乡与路线方位相合，但尚无直接同名史证。以OSM乡域地名点作候选参照，不认定旧驿站；相关分段直距受这一推定影响。
+gangtuo,岗拖 → 岗托,98.5853,31.6326,渡河地区参照,https://zh.wikipedia.org/wiki/岗托镇,,金沙江渡口地区代表点，非历史皮船下水点。
+riwoche,类乌齐〔旧寺镇〕,96.5036,31.3716,旧寺镇代表点,https://zh.wikipedia.org/wiki/类乌齐镇,,选旧寺镇，区分现代桑多县城。经三十九族至拉里的逐站路线未复原。

@@ -1,0 +1,19 @@
+行政区范围数据说明
+
+提供方：阿里云 DataV.GeoAtlas
+https://datav.aliyun.com/portal/school/atlas/area_selector
+公开接口形式：https://geo.datav.aliyun.com/areas_v3/bound/{adcode}.json
+接口与GeoJSON说明：https://help.aliyun.com/zh/datav/datav-6-0/user-guide/choropleth-layer-of-v3-x
+坐标说明：https://help.aliyun.com/en/datav/datav-7-0/user-guide/map-data-format-1
+
+原始文件在 raw/，不改写提供方内容。
+admin_regions_wgs84.geojson 是供本地Google Earth地图使用的坐标转换衍生文件。
+提供方文档称DataV地图常用GCJ-02；原始GeoJSON本身未声明CRS，因此本项目将其按GCJ-02处理，以常见近似偏移公式迭代逆变换至近似WGS84。
+数值收敛精度不代表测绘精度；边界原始概化、坐标源判断、历史区域参照口径都会带来误差。
+转换方法、提取时点、原始来源URL与SHA256见 manifest.json；重建脚本为 scripts/fetch_regions.py。
+
+署名：行政区几何数据 © 阿里云 DataV.GeoAtlas。
+检查过的提供方页面没有明确提供这些边界文件的独立开放再分发许可证；不将其标为CC0、ODbL或公有领域数据。
+
+这些是提供方现存行政区参考轮廓，原始接口未声明行政区划生效版本，不保证反映所有2026年变化。
+行政区范围可以作为宏观阅读参照，不能据此声称复原卫藏、康、安多、工布、羌塘、象雄、古格等概念的准确历史边界。
