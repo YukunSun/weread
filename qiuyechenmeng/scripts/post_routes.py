@@ -5,6 +5,7 @@ import html
 import json
 import math
 from regional_ranges import insert_styles, polygons, polygon
+from route_checks import CHECK, SEQUENCE, route_check_html
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'data/postroads'
@@ -12,7 +13,12 @@ DISTANCE_NOTE='距离为代表点间球面近似直距（km），不是历史实
 
 def load():
     cfg=json.loads((DATA/'南北驿路.json').read_text())
+    north=next(r for r in cfg['routes'] if r['id']=='north')
+    assert north['ids'][north['ids'].index('garze'):] == SEQUENCE
     return cfg,{p['id']:p for p in cfg['places']}
+
+def timing_endpoint(t, key, places):
+    return places[t[key]]['name'] if t[key] else t.get(key+'_label','区域／事项（无单点坐标）')
 
 def km(a,b):
     x1,y1,x2,y2=map(math.radians,[a['lon'],a['lat'],b['lon'],b['lat']])
@@ -83,6 +89,7 @@ def add_post_routes(doc,el,view,kcolor,bundled=False,include_existing=True):
     for route in cfg['routes']:
         edges=list(zip(route['ids'],route['ids'][1:]));total=sum(km(places[a],places[b]) for a,b in edges)
         body='<h3>'+html.escape(route['name'])+'</h3><p>'+html.escape(route['note'])+'</p><p><b>耗时：</b>'+html.escape(route['timing'])+'</p>'
+        if route['id']=='north': body+=route_check_html()
         body+='<h3>逐段直距与耗时</h3>'
         for a,b in edges: body+=f'<p><b>{html.escape(places[a]["name"])} → {html.escape(places[b]["name"])}：直线约{km(places[a],places[b]):.0f} km</b><br/>{html.escape(edge_time(cfg,a,b))}</p>'
         body+='<p>所选相邻点直距之和约'+f'{total:.0f}'+' km。'+DISTANCE_NOTE+'</p><p><a href="'+route['source']+'">文字依据</a></p>'
@@ -104,9 +111,13 @@ def add_post_routes(doc,el,view,kcolor,bundled=False,include_existing=True):
         for rings in polygons(f['geometry']): polygon(mg,rings,el)
     notes=el(top,'Folder');el(notes,'name','11E 耗时总览、原文与校注说明');el(notes,'open',0)
     for i,t in enumerate(cfg['timings']):
-        pm=el(notes,'Placemark',id=f'post_time_{i}');el(pm,'name',places[t['from']]['name']+' → '+(places[t['to']]['name'] if t['to'] else '区域／事项')+'｜'+t['time']);el(pm,'description',f'<p>{html.escape(t["basis"])}</p><p>{html.escape(t["kind"])}</p>')
+        pm=el(notes,'Placemark',id=f'post_time_{i}');el(pm,'name',timing_endpoint(t,'from',places)+' → '+timing_endpoint(t,'to',places)+'｜'+t['time']);el(pm,'description',f'<p>{html.escape(t["basis"])}</p><p>{html.escape(t["kind"])}</p>')
     pm=el(notes,'Placemark');el(pm,'name',cfg['historical_comparison']['label']);el(pm,'description','<p>'+cfg['historical_comparison']['text']+'</p><a href="'+cfg['historical_comparison']['source']+'">历史行旅对照来源</a>')
     add_changba_check(top,el,view)
+    check=el(top,'Folder',id='annotation10_check');el(check,'name','11G 校注十｜大金寺—甑科—麦学—八邦寺—同普');el(check,'open',0)
+    pm=el(check,'Placemark',id='annotation10_overview');el(pm,'name','甘孜至昌都路线核对｜卡工以西需野宿三日〔校注〕');el(pm,'description',route_check_html());view(pm,98.8,31.5,430000)
+    for i,item in enumerate(CHECK['unlocated']):
+        pm=el(check,'Placemark',id=f'annotation10_unlocated_{i}');el(pm,'name',item['name']+'【未定位，不造点】');el(pm,'description','<p>'+html.escape(item['note'])+'</p>'+route_check_html())
     return cfg
 
 def write_post_indexes():
@@ -120,10 +131,10 @@ def write_post_indexes():
         w=csv.writer(f,lineterminator='\n');w.writerow(['路线','起点','终点','直距_km','相邻段耗时','整段耗时说明','距离口径'])
         for route in cfg['routes']:
             for a,b in zip(route['ids'],route['ids'][1:]): w.writerow([route['name'],places[a]['name'],places[b]['name'],round(km(places[a],places[b])),edge_time(cfg,a,b),route['timing'],DISTANCE_NOTE])
-        for t in cfg['timings']: w.writerow(['耗时总览',places[t['from']]['name'],places[t['to']]['name'] if t['to'] else '区域／事项（无单点坐标）',round(km(places[t['from']],places[t['to']])) if t['to'] else '',t['time'],t['basis'],DISTANCE_NOTE])
+        for t in cfg['timings']: w.writerow(['耗时总览',timing_endpoint(t,'from',places),timing_endpoint(t,'to',places),round(km(places[t['from']],places[t['to']])) if t['from'] and t['to'] else '',t['time'],t['basis'],DISTANCE_NOTE])
     with (ROOT/'南北驿路_地名坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
         fields=['id','name','lon','lat','certainty','source','identity_source','note'];w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(cfg['places'])
-    (ROOT/'南北驿路说明.txt').write_text('''《艽野尘梦》本段南北驿路对照
+    guide='''《艽野尘梦》本段南北驿路对照
 核对日期2026-10-31。
 “艽野尘梦_南北驿路对照.kmz”可单独看本段全部17个地点及三十九族方位范围；新版完整阅读地图中的11层只新增6个点，复用已有地点，避免重复标注。
 橙色南路是背景对照，不表示作者亲经全程；蓝色北路经昌都，紫色为昌都后北绕；灰色为原文另列走法，不当作者本次绕过昌都。
@@ -137,5 +148,8 @@ def write_post_indexes():
 有泰约两个半月到拉萨仅为另年另人行旅对照，公文接力约11日也不是军队行程。
 开启11C可显示分段km文字；点击地点或路线可读距离与已知耗时。数据及逐点来源在data/postroads/南北驿路.json，CSV可直接查阅。
 11F另加新都桥现代对照点及约23 km位置比较线，不属于上述17个历史站点代表点，也不接入作者路线。长坝春保留江巴村一带，详见长坝春新都桥核对说明.txt。
-2026-10-31完整阅读地图已导入原Google Earth网页版项目并保存到云端。已抽查北路弹窗7 km/1日、32 km及162 km等分段文字；为适配网页版，分段内容使用逐条文字。仅Region、maxLines、textColor显示字段被忽略。
-'''+ '\n原文与校注\n'+cfg['source']+'\n')
+2026-10-31完整阅读地图已导入原Google Earth网页版项目并保存到云端。此前南北驿路版已抽查北路弹窗7 km/1日、32 km及162 km等分段文字；为适配网页版，分段内容使用逐条文字。仅Region、maxLines、textColor显示字段被忽略。
+'''
+    guide=guide.replace('全部17个地点',f'全部{len(places)}个地点').replace('新增6个点',f'新增{sum(not p["existing"] for p in places.values())}个点').replace('上述17个历史站点代表点','上述地点代表点')
+    guide+='\n校注十路线核对\n'+CHECK['text_sequence']+'\n'+CHECK['timing_note']+'\n11G有路线核对和未定位地名文字条目；主图R1与本层北路使用同一节点顺序。详见甘孜昌都路线校对说明.txt。\n'
+    (ROOT/'南北驿路说明.txt').write_text(guide+'\n原文与校注\n'+cfg['source']+'\n')

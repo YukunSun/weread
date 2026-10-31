@@ -159,7 +159,7 @@
         </Placemark>
         <Placemark id="post_point_chamdo">
           <name>察木多／昌都</name>
-          <description><![CDATA[<h3>察木多／昌都</h3><p><b>定位性质：</b>老城地区代表点</p><p>用强巴林寺一带定位旧城，与本项目主图一致。</p><p>经纬度：97.17790, 31.14350。存储小数位不代表古址精度。</p><p>巴塘 → 察木多／昌都：<b>直线约224 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>察木多／昌都 → 恩达〔恩达村一带〕：<b>直线约48 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>岗拖 → 岗托 → 察木多／昌都：<b>直线约144 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>察木多／昌都 → 恩达〔恩达村一带〕：<b>直线约48 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://zh.wikipedia.org/wiki/强巴林寺">坐标参照</a></p>]]></description>
+          <description><![CDATA[<h3>察木多／昌都</h3><p><b>定位性质：</b>老城地区代表点</p><p>用强巴林寺一带定位旧城，与本项目主图一致。</p><p>经纬度：97.17790, 31.14350。存储小数位不代表古址精度。</p><p>巴塘 → 察木多／昌都：<b>直线约224 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>察木多／昌都 → 恩达〔恩达村一带〕：<b>直线约48 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>同普〔同普大路地区参照〕 → 察木多／昌都：<b>直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>察木多／昌都 → 恩达〔恩达村一带〕：<b>直线约48 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://zh.wikipedia.org/wiki/强巴林寺">坐标参照</a></p>]]></description>
           <LookAt>
             <longitude>97.1779</longitude>
             <latitude>31.1435</latitude>
@@ -303,7 +303,7 @@
         </Placemark>
         <Placemark id="post_point_changba">
           <name>长坝春〔江巴村一带，考证参照〕</name>
-          <description><![CDATA[<h3>长坝春〔江巴村一带，考证参照〕</h3><p><b>定位性质：</b>考证对应，旧站确址未定</p><p>研究将长坝春、长霸冲对应江巴村。2021官方报告列塔公镇江巴村监测点，舍入作地区参照。论文的瓦泽乡表述不作现行政归属。尚不能直接等同新都桥镇中心，两处代表点直距约23 km；见11F及长坝春新都桥核对说明。</p><p>经纬度：101.65000, 30.20000。存储小数位不代表古址精度。</p><p>折多塘 → 长坝春〔江巴村一带，考证参照〕：<b>直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>长坝春〔江巴村一带，考证参照〕 → 霍尔章谷 → 炉霍：<b>直线约162 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf">坐标参照</a> · <a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">地名依据</a></p>]]></description>
+          <description><![CDATA[<h3>长坝春〔江巴村一带，考证参照〕</h3><p><b>定位性质：</b>考证对应，旧站确址未定</p><p>研究将长坝春、长霸冲对应江巴村。2021官方报告列塔公镇江巴村监测点，舍入作地区参照。论文的瓦泽乡表述不作现行政归属。尚不能直接等同新都桥镇中心，两处代表点直距约23 km；见11F及长坝春新都桥核对说明。</p><p>经纬度：101.65000, 30.20000。存储小数位不代表古址精度。</p><p>折多塘 → 长坝春〔江巴村一带，考证参照〕：<b>直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：<b>直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf">坐标参照</a> · <a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">地名依据</a></p>]]></description>
           <LookAt>
             <longitude>101.65</longitude>
             <latitude>30.2</latitude>
@@ -321,7 +321,7 @@
         </Placemark>
         <Placemark id="post_point_luhuo">
           <name>霍尔章谷 → 炉霍</name>
-          <description><![CDATA[<h3>霍尔章谷 → 炉霍</h3><p><b>定位性质：</b>聚落代表点</p><p>现代炉霍县城地区代表点。</p><p>经纬度：100.68030, 31.39370。存储小数位不代表古址精度。</p><p>长坝春〔江巴村一带，考证参照〕 → 霍尔章谷 → 炉霍：<b>直线约162 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>霍尔章谷 → 炉霍 → 甘孜：<b>直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://zh.wikipedia.org/wiki/新都镇_(炉霍县)">坐标参照</a></p>]]></description>
+          <description><![CDATA[<h3>霍尔章谷 → 炉霍</h3><p><b>定位性质：</b>聚落代表点</p><p>现代炉霍县城地区代表点。</p><p>经纬度：100.68030, 31.39370。存储小数位不代表古址精度。</p><p>道坞 → 道孚 → 霍尔章谷 → 炉霍：<b>直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>霍尔章谷 → 炉霍 → 甘孜：<b>直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://zh.wikipedia.org/wiki/新都镇_(炉霍县)">坐标参照</a></p>]]></description>
           <LookAt>
             <longitude>100.6803</longitude>
             <latitude>31.3937</latitude>
@@ -339,7 +339,7 @@
         </Placemark>
         <Placemark id="post_point_garze">
           <name>甘孜</name>
-          <description><![CDATA[<h3>甘孜</h3><p><b>定位性质：</b>聚落代表点</p><p>本段简列主要地名。第1章及校注另补道孚、麦宿、八邦寺等节点，见原阅读地图；不可把简列点间连线当完整驿站链。</p><p>经纬度：99.98860, 31.62730。存储小数位不代表古址精度。</p><p>霍尔章谷 → 炉霍 → 甘孜：<b>直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>甘孜 → 曾科／甑科〔赠科乡地区参照，推定〕：<b>直线约68 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://zh.wikipedia.org/wiki/甘孜镇">坐标参照</a></p>]]></description>
+          <description><![CDATA[<h3>甘孜</h3><p><b>定位性质：</b>聚落代表点</p><p>甘孜现代聚落代表点。校注十从大金寺进打火沟至甑科，经麦学、八邦寺至岗拖；主图和本层已统一节点，不接雀儿山或德格县城。</p><p>经纬度：99.98860, 31.62730。存储小数位不代表古址精度。</p><p>霍尔章谷 → 炉霍 → 甘孜：<b>直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：<b>直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://zh.wikipedia.org/wiki/甘孜镇">坐标参照</a></p>]]></description>
           <LookAt>
             <longitude>99.9886</longitude>
             <latitude>31.6273</latitude>
@@ -356,8 +356,8 @@
           </Point>
         </Placemark>
         <Placemark id="post_point_zengke">
-          <name>曾科／甑科〔赠科乡地区参照，推定〕</name>
-          <description><![CDATA[<h3>曾科／甑科〔赠科乡地区参照，推定〕</h3><p><b>定位性质：</b>对应推定</p><p>校注10将甑科置白玉县，现代赠科乡与路线方位相合，但尚无直接同名史证。以OSM乡域地名点作候选参照，不认定旧驿站；相关分段直距受这一推定影响。</p><p>经纬度：99.29550, 31.48291。存储小数位不代表古址精度。</p><p>甘孜 → 曾科／甑科〔赠科乡地区参照，推定〕：<b>直线约68 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>曾科／甑科〔赠科乡地区参照，推定〕 → 岗拖 → 岗托：<b>直线约69 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://www.openstreetmap.org/node/1755809586">坐标参照</a> · <a href="https://www.baiyu.gov.cn/jczwgkxzj/article/512763">地名依据</a></p>]]></description>
+          <name>甑科／曾科〔赠科乡地区候选，推定〕</name>
+          <description><![CDATA[<h3>甑科／曾科〔赠科乡地区候选，推定〕</h3><p><b>定位性质：</b>对应推定</p><p>校注10将甑科置白玉县，现代赠科乡与路线方位相合，但尚无直接同名史证。以OSM乡域地名点作候选参照，不认定旧驿站；相关分段直距受这一推定影响。 官方规划PDF中赠科乡扎马村水源地在附近，只印证现代地区位置，不能证实旧站身份；不把旧站移动到取水口。</p><p>经纬度：99.29550, 31.48291。存储小数位不代表古址精度。</p><p>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：<b>直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：<b>直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://www.openstreetmap.org/node/1755809586">坐标参照</a> · <a href="https://www.baiyu.gov.cn/jczwgkxzj/article/512763">地名依据</a></p>]]></description>
           <LookAt>
             <longitude>99.2955</longitude>
             <latitude>31.48291</latitude>
@@ -375,7 +375,7 @@
         </Placemark>
         <Placemark id="post_point_gangtuo">
           <name>岗拖 → 岗托</name>
-          <description><![CDATA[<h3>岗拖 → 岗托</h3><p><b>定位性质：</b>渡河地区参照</p><p>金沙江渡口地区代表点，非历史皮船下水点。</p><p>经纬度：98.58530, 31.63260。存储小数位不代表古址精度。</p><p>曾科／甑科〔赠科乡地区参照，推定〕 → 岗拖 → 岗托：<b>直线约69 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>岗拖 → 岗托 → 察木多／昌都：<b>直线约144 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>岗拖 → 岗托 → 类乌齐〔旧寺镇〕：<b>直线约199 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://zh.wikipedia.org/wiki/岗托镇">坐标参照</a></p>]]></description>
+          <description><![CDATA[<h3>岗拖 → 岗托</h3><p><b>定位性质：</b>渡河地区参照</p><p>金沙江渡口地区代表点，非历史皮船下水点。</p><p>经纬度：98.58530, 31.63260。存储小数位不代表古址精度。</p><p>八邦寺 → 岗拖 → 岗托：<b>直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>岗拖 → 岗托 → 同普〔同普大路地区参照〕：<b>直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>岗拖 → 岗托 → 类乌齐〔旧寺镇〕：<b>直线约199 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://zh.wikipedia.org/wiki/岗托镇">坐标参照</a></p>]]></description>
           <LookAt>
             <longitude>98.5853</longitude>
             <latitude>31.6326</latitude>
@@ -407,6 +407,96 @@
           <Point>
             <altitudeMode>clampToGround</altitudeMode>
             <coordinates>96.5036,31.3716,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_point_daofu">
+          <name>道坞 → 道孚</name>
+          <description><![CDATA[<h3>道坞 → 道孚</h3><p><b>定位性质：</b>聚落代表点</p><p>正文道坞，对应今道孚；主图同坐标地区参照，不是旧站址。</p><p>经纬度：101.12540, 30.97770。存储小数位不代表古址精度。</p><p>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：<b>直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>道坞 → 道孚 → 霍尔章谷 → 炉霍：<b>直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://zh.wikipedia.org/wiki/鲜水镇">坐标参照</a></p>]]></description>
+          <LookAt>
+            <longitude>101.1254</longitude>
+            <latitude>30.9777</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>100000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#post_point</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.1254,30.9777,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_point_dajin">
+          <name>大金寺〔扎西大金寺现代寺区参照〕</name>
+          <description><![CDATA[<h3>大金寺〔扎西大金寺现代寺区参照〕</h3><p><b>定位性质：</b>地区参照，坐标基准未明</p><p>校注十补充；大金寺与甘孜寺分开。机构条目坐标舍入至0.01°作寺区参照，不指认1909年建筑或营地；后经打火沟方向，具体越岭路线未定。</p><p>经纬度：99.73000, 31.67000。存储小数位不代表古址精度。</p><p>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：<b>直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：<b>直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">坐标参照</a> · <a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">地名依据</a></p>]]></description>
+          <LookAt>
+            <longitude>99.73</longitude>
+            <latitude>31.67</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>100000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#post_point</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.73,31.67,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_point_maisux">
+          <name>麦学／麦削 → 麦宿一带</name>
+          <description><![CDATA[<h3>麦学／麦削 → 麦宿一带</h3><p><b>定位性质：</b>现代地区参照</p><p>校注十明确属德格县；用现代德格麦宿地区点，不误取白玉同名麦学村，不指认旧驿站。</p><p>经纬度：98.99140, 31.63290。存储小数位不代表古址精度。</p><p>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：<b>直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>麦学／麦削 → 麦宿一带 → 八邦寺：<b>直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://zh.wikipedia.org/wiki/麦宿镇">坐标参照</a> · <a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">地名依据</a></p>]]></description>
+          <LookAt>
+            <longitude>98.9914</longitude>
+            <latitude>31.6329</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>100000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#post_point</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.9914,31.6329,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_point_palpung">
+          <name>八邦寺</name>
+          <description><![CDATA[<h3>八邦寺</h3><p><b>定位性质：</b>现代寺院参照</p><p>校注十补充的八邦寺方向，沿用主图现代寺院点，不认定陈部营地。</p><p>经纬度：98.79600, 31.64830。存储小数位不代表古址精度。</p><p>麦学／麦削 → 麦宿一带 → 八邦寺：<b>直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>八邦寺 → 岗拖 → 岗托：<b>直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">坐标参照</a></p>]]></description>
+          <LookAt>
+            <longitude>98.796</longitude>
+            <latitude>31.6483</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>100000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#post_point</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.796,31.6483,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_point_tongpu">
+          <name>同普〔同普大路地区参照〕</name>
+          <description><![CDATA[<h3>同普〔同普大路地区参照〕</h3><p><b>定位性质：</b>现代地区参照</p><p>校注十记岗拖至昌都循同普大路；用现代同普乡地名点参照走廊，不认定清末旧站／营地，也不直接认定为卡工。</p><p>经纬度：98.38735, 31.59292。存储小数位不代表古址精度。</p><p>岗拖 → 岗托 → 同普〔同普大路地区参照〕：<b>直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>同普〔同普大路地区参照〕 → 察木多／昌都：<b>直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://www.openstreetmap.org/node/3171594661">坐标参照</a> · <a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">地名依据</a></p>]]></description>
+          <LookAt>
+            <longitude>98.3873484</longitude>
+            <latitude>31.5929238</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>100000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#post_point</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.3873484,31.5929238,0</coordinates>
           </Point>
         </Placemark>
       </Folder>
@@ -1415,8 +1505,8 @@
           </MultiGeometry>
         </Placemark>
         <Placemark id="post_route_north">
-          <name>北路进昌都｜本段主要节点｜节点直距和约552 km</name>
-          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>按本段主要地名绘示意。曾科点为推定；校注10补麦宿、八邦寺等，不走雀儿山大道。各线为节点直连分段虚线，并非逐站古道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 霍尔章谷 → 炉霍：直线约162 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 曾科／甑科〔赠科乡地区参照，推定〕：直线约68 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>曾科／甑科〔赠科乡地区参照，推定〕 → 岗拖 → 岗托：直线约69 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 察木多／昌都：直线约144 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约552 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <name>北路进昌都｜本段主要节点｜节点直距和约560 km</name>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
           <LookAt>
             <longitude>96.5</longitude>
             <latitude>30.8</latitude>
@@ -1471,137 +1561,142 @@
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.650000,30.200000,0 101.631324,30.222990,0</coordinates>
+              <coordinates>101.650000,30.200000,0 101.633953,30.223788,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.614085,30.244211,0 101.595409,30.267201,0</coordinates>
+              <coordinates>101.619141,30.245747,0 101.603095,30.269536,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.578170,30.288422,0 101.559495,30.311412,0</coordinates>
+              <coordinates>101.588282,30.291494,0 101.572236,30.315283,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.542256,30.332633,0 101.523580,30.355623,0</coordinates>
+              <coordinates>101.557424,30.337241,0 101.541377,30.361030,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.506341,30.376844,0 101.487665,30.399834,0</coordinates>
+              <coordinates>101.526565,30.382988,0 101.510518,30.406777,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.470426,30.421056,0 101.451750,30.444045,0</coordinates>
+              <coordinates>101.495706,30.428735,0 101.479659,30.452524,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.434511,30.465267,0 101.415835,30.488256,0</coordinates>
+              <coordinates>101.464847,30.474482,0 101.448800,30.498271,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.398596,30.509478,0 101.379921,30.532468,0</coordinates>
+              <coordinates>101.433988,30.520229,0 101.417942,30.544018,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.362681,30.553689,0 101.344006,30.576679,0</coordinates>
+              <coordinates>101.403129,30.565976,0 101.387083,30.589765,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.326767,30.597900,0 101.308091,30.620890,0</coordinates>
+              <coordinates>101.372271,30.611724,0 101.356224,30.635512,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.290852,30.642111,0 101.272176,30.665101,0</coordinates>
+              <coordinates>101.341412,30.657471,0 101.325365,30.681259,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.254937,30.686322,0 101.236261,30.709312,0</coordinates>
+              <coordinates>101.310553,30.703218,0 101.294506,30.727006,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.219022,30.730533,0 101.200347,30.753523,0</coordinates>
+              <coordinates>101.279694,30.748965,0 101.263648,30.772753,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.183107,30.774744,0 101.164432,30.797734,0</coordinates>
+              <coordinates>101.248835,30.794712,0 101.232789,30.818500,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.147193,30.818956,0 101.128517,30.841945,0</coordinates>
+              <coordinates>101.217976,30.840459,0 101.201930,30.864247,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.111278,30.863167,0 101.092602,30.886156,0</coordinates>
+              <coordinates>101.187118,30.886206,0 101.171071,30.909994,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.075363,30.907378,0 101.056687,30.930368,0</coordinates>
+              <coordinates>101.156259,30.931953,0 101.140212,30.955741,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.039448,30.951589,0 101.020772,30.974579,0</coordinates>
+              <coordinates>101.125400,30.977700,0 101.104359,30.997365,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>101.003533,30.995800,0 100.984858,31.018790,0</coordinates>
+              <coordinates>101.084936,31.015518,0 101.063895,31.035184,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>100.967619,31.040011,0 100.948943,31.063001,0</coordinates>
+              <coordinates>101.044473,31.053336,0 101.023432,31.073002,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>100.931704,31.084222,0 100.913028,31.107212,0</coordinates>
+              <coordinates>101.004009,31.091155,0 100.982968,31.110820,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>100.895789,31.128433,0 100.877113,31.151423,0</coordinates>
+              <coordinates>100.963545,31.128973,0 100.942504,31.148638,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>100.859874,31.172644,0 100.841198,31.195634,0</coordinates>
+              <coordinates>100.923082,31.166791,0 100.902041,31.186456,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>100.823959,31.216856,0 100.805284,31.239845,0</coordinates>
+              <coordinates>100.882618,31.204609,0 100.861577,31.224275,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>100.788044,31.261067,0 100.769369,31.284056,0</coordinates>
+              <coordinates>100.842155,31.242427,0 100.821113,31.262093,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>100.752130,31.305278,0 100.733454,31.328268,0</coordinates>
+              <coordinates>100.801691,31.280245,0 100.780650,31.299911,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>100.716215,31.349489,0 100.697539,31.372479,0</coordinates>
+              <coordinates>100.761227,31.318064,0 100.740186,31.337729,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.720764,31.355882,0 100.699723,31.375547,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
@@ -1666,247 +1761,262 @@
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.988600,31.627300,0 99.958566,31.621043,0</coordinates>
+              <coordinates>99.988600,31.627300,0 99.961706,31.631741,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.930842,31.615268,0 99.900807,31.609011,0</coordinates>
+              <coordinates>99.936880,31.635840,0 99.909986,31.640281,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.873083,31.603235,0 99.843049,31.596978,0</coordinates>
+              <coordinates>99.885160,31.644380,0 99.858266,31.648821,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.815325,31.591203,0 99.785291,31.584946,0</coordinates>
+              <coordinates>99.833440,31.652920,0 99.806546,31.657361,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.757567,31.579170,0 99.727532,31.572913,0</coordinates>
+              <coordinates>99.781720,31.661460,0 99.754826,31.665901,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.699808,31.567138,0 99.669774,31.560881,0</coordinates>
+              <coordinates>99.730000,31.670000,0 99.701757,31.657839,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.642050,31.555105,0 99.612016,31.548848,0</coordinates>
+              <coordinates>99.675688,31.646614,0 99.647445,31.634453,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.584292,31.543073,0 99.554257,31.536816,0</coordinates>
+              <coordinates>99.621375,31.623228,0 99.593133,31.611067,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.526533,31.531040,0 99.496499,31.524783,0</coordinates>
+              <coordinates>99.567063,31.599841,0 99.538820,31.587680,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.468775,31.519008,0 99.438741,31.512751,0</coordinates>
+              <coordinates>99.512750,31.576455,0 99.484508,31.564294,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.411017,31.506975,0 99.380982,31.500718,0</coordinates>
+              <coordinates>99.458438,31.553069,0 99.430195,31.540908,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.353258,31.494943,0 99.323224,31.488686,0</coordinates>
+              <coordinates>99.404125,31.529682,0 99.375883,31.517522,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.295500,31.482910,0 99.264725,31.489397,0</coordinates>
+              <coordinates>99.349812,31.506296,0 99.321570,31.494135,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.236317,31.495384,0 99.205541,31.501871,0</coordinates>
+              <coordinates>99.295500,31.482910,0 99.269145,31.495909,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.177133,31.507858,0 99.146358,31.514345,0</coordinates>
+              <coordinates>99.244817,31.507908,0 99.218461,31.520907,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.117950,31.520333,0 99.087175,31.526819,0</coordinates>
+              <coordinates>99.194133,31.532907,0 99.167778,31.545906,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>99.058767,31.532807,0 99.027991,31.539293,0</coordinates>
+              <coordinates>99.143450,31.557905,0 99.117095,31.570904,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.999583,31.545281,0 98.968808,31.551767,0</coordinates>
+              <coordinates>99.092767,31.582903,0 99.066411,31.595902,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.940400,31.557755,0 98.909625,31.564242,0</coordinates>
+              <coordinates>99.042083,31.607902,0 99.015728,31.620901,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.881217,31.570229,0 98.850441,31.576716,0</coordinates>
+              <coordinates>98.991400,31.632900,0 98.965998,31.634902,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.822033,31.582703,0 98.791258,31.589190,0</coordinates>
+              <coordinates>98.942550,31.636750,0 98.917148,31.638752,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.762850,31.595177,0 98.732075,31.601664,0</coordinates>
+              <coordinates>98.893700,31.640600,0 98.868298,31.642602,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.703667,31.607652,0 98.672891,31.614138,0</coordinates>
+              <coordinates>98.844850,31.644450,0 98.819448,31.646452,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.644483,31.620126,0 98.613708,31.626612,0</coordinates>
+              <coordinates>98.796000,31.648300,0 98.768609,31.646259,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.585300,31.632600,0 98.556026,31.622427,0</coordinates>
+              <coordinates>98.743325,31.644375,0 98.715934,31.642334,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.529004,31.613036,0 98.499730,31.602863,0</coordinates>
+              <coordinates>98.690650,31.640450,0 98.663259,31.638409,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.472708,31.593472,0 98.443434,31.583299,0</coordinates>
+              <coordinates>98.637975,31.636525,0 98.610584,31.634484,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.416412,31.573908,0 98.387138,31.563735,0</coordinates>
+              <coordinates>98.585300,31.632600,0 98.559566,31.627442,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.360116,31.554344,0 98.330842,31.544171,0</coordinates>
+              <coordinates>98.535812,31.622681,0 98.510078,31.617523,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.303820,31.534780,0 98.274546,31.524607,0</coordinates>
+              <coordinates>98.486324,31.612762,0 98.460590,31.607604,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.247524,31.515216,0 98.218250,31.505043,0</coordinates>
+              <coordinates>98.436836,31.602843,0 98.411103,31.597685,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.191228,31.495652,0 98.161954,31.485479,0</coordinates>
+              <coordinates>98.387348,31.592924,0 98.357400,31.581795,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.134932,31.476088,0 98.105658,31.465915,0</coordinates>
+              <coordinates>98.329756,31.571523,0 98.299807,31.560394,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.078636,31.456524,0 98.049362,31.446351,0</coordinates>
+              <coordinates>98.272163,31.550122,0 98.242215,31.538993,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>98.022340,31.436960,0 97.993066,31.426787,0</coordinates>
+              <coordinates>98.214570,31.528720,0 98.184622,31.517592,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.966044,31.417396,0 97.936770,31.407223,0</coordinates>
+              <coordinates>98.156977,31.507319,0 98.127029,31.496191,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.909748,31.397832,0 97.880474,31.387659,0</coordinates>
+              <coordinates>98.099384,31.485918,0 98.069436,31.474790,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.853452,31.378268,0 97.824178,31.368095,0</coordinates>
+              <coordinates>98.041792,31.464517,0 98.011843,31.453388,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.797156,31.358704,0 97.767882,31.348531,0</coordinates>
+              <coordinates>97.984199,31.443116,0 97.954251,31.431987,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.740860,31.339140,0 97.711586,31.328967,0</coordinates>
+              <coordinates>97.926606,31.421715,0 97.896658,31.410586,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.684564,31.319576,0 97.655290,31.309403,0</coordinates>
+              <coordinates>97.869013,31.400314,0 97.839065,31.389185,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.628268,31.300012,0 97.598994,31.289839,0</coordinates>
+              <coordinates>97.811421,31.378912,0 97.781472,31.367784,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.571972,31.280448,0 97.542698,31.270275,0</coordinates>
+              <coordinates>97.753828,31.357511,0 97.723880,31.346383,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.515676,31.260884,0 97.486402,31.250711,0</coordinates>
+              <coordinates>97.696235,31.336110,0 97.666287,31.324982,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.459380,31.241320,0 97.430106,31.231147,0</coordinates>
+              <coordinates>97.638642,31.314709,0 97.608694,31.303580,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.403084,31.221756,0 97.373810,31.211583,0</coordinates>
+              <coordinates>97.581049,31.293308,0 97.551101,31.282179,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.346788,31.202192,0 97.317514,31.192019,0</coordinates>
+              <coordinates>97.523457,31.271907,0 97.493508,31.260778,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.290492,31.182628,0 97.261218,31.172455,0</coordinates>
+              <coordinates>97.465864,31.250506,0 97.435916,31.239377,0</coordinates>
             </LineString>
             <LineString>
               <tessellate>1</tessellate>
               <altitudeMode>clampToGround</altitudeMode>
-              <coordinates>97.234196,31.163064,0 97.204922,31.152891,0</coordinates>
+              <coordinates>97.408271,31.229105,0 97.378323,31.217976,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.350678,31.207703,0 97.320730,31.196575,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.293086,31.186302,0 97.263137,31.175174,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.235493,31.164901,0 97.205545,31.153773,0</coordinates>
             </LineString>
           </MultiGeometry>
         </Placemark>
@@ -2526,7 +2636,7 @@
         </Placemark>
         <Placemark id="post_measure_north_0">
           <name>打箭炉 → 康定→折多塘 直约7 km｜1日</name>
-          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>按本段主要地名绘示意。曾科点为推定；校注10补麦宿、八邦寺等，不走雀儿山大道。各线为节点直连分段虚线，并非逐站古道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 霍尔章谷 → 炉霍：直线约162 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 曾科／甑科〔赠科乡地区参照，推定〕：直线约68 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>曾科／甑科〔赠科乡地区参照，推定〕 → 岗拖 → 岗托：直线约69 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 察木多／昌都：直线约144 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约552 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
           <styleUrl>#post_measure</styleUrl>
           <Point>
             <coordinates>101.9205,29.9982,0</coordinates>
@@ -2534,50 +2644,90 @@
         </Placemark>
         <Placemark id="post_measure_north_1">
           <name>折多塘→长坝春 直约32 km</name>
-          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>按本段主要地名绘示意。曾科点为推定；校注10补麦宿、八邦寺等，不走雀儿山大道。各线为节点直连分段虚线，并非逐站古道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 霍尔章谷 → 炉霍：直线约162 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 曾科／甑科〔赠科乡地区参照，推定〕：直线约68 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>曾科／甑科〔赠科乡地区参照，推定〕 → 岗拖 → 岗托：直线约69 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 察木多／昌都：直线约144 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约552 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
           <styleUrl>#post_measure</styleUrl>
           <Point>
             <coordinates>101.768,30.097450000000002,0</coordinates>
           </Point>
         </Placemark>
         <Placemark id="post_measure_north_2">
-          <name>长坝春→霍尔章谷 → 炉霍 直约162 km</name>
-          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>按本段主要地名绘示意。曾科点为推定；校注10补麦宿、八邦寺等，不走雀儿山大道。各线为节点直连分段虚线，并非逐站古道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 霍尔章谷 → 炉霍：直线约162 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 曾科／甑科〔赠科乡地区参照，推定〕：直线约68 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>曾科／甑科〔赠科乡地区参照，推定〕 → 岗拖 → 岗托：直线约69 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 察木多／昌都：直线约144 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约552 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <name>长坝春→道坞 → 道孚 直约100 km</name>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
           <styleUrl>#post_measure</styleUrl>
           <Point>
-            <coordinates>101.16515000000001,30.79685,0</coordinates>
+            <coordinates>101.3877,30.58885,0</coordinates>
           </Point>
         </Placemark>
         <Placemark id="post_measure_north_3">
+          <name>道坞 → 道孚→霍尔章谷 → 炉霍 直约63 km</name>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <styleUrl>#post_measure</styleUrl>
+          <Point>
+            <coordinates>100.90285,31.185699999999997,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_measure_north_4">
           <name>霍尔章谷 → 炉霍→甘孜 直约71 km</name>
-          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>按本段主要地名绘示意。曾科点为推定；校注10补麦宿、八邦寺等，不走雀儿山大道。各线为节点直连分段虚线，并非逐站古道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 霍尔章谷 → 炉霍：直线约162 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 曾科／甑科〔赠科乡地区参照，推定〕：直线约68 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>曾科／甑科〔赠科乡地区参照，推定〕 → 岗拖 → 岗托：直线约69 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 察木多／昌都：直线约144 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约552 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
           <styleUrl>#post_measure</styleUrl>
           <Point>
             <coordinates>100.33445,31.5105,0</coordinates>
           </Point>
         </Placemark>
-        <Placemark id="post_measure_north_4">
-          <name>甘孜→曾科／甑科 直约68 km</name>
-          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>按本段主要地名绘示意。曾科点为推定；校注10补麦宿、八邦寺等，不走雀儿山大道。各线为节点直连分段虚线，并非逐站古道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 霍尔章谷 → 炉霍：直线约162 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 曾科／甑科〔赠科乡地区参照，推定〕：直线约68 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>曾科／甑科〔赠科乡地区参照，推定〕 → 岗拖 → 岗托：直线约69 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 察木多／昌都：直线约144 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约552 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
-          <styleUrl>#post_measure</styleUrl>
-          <Point>
-            <coordinates>99.64205000000001,31.555105,0</coordinates>
-          </Point>
-        </Placemark>
         <Placemark id="post_measure_north_5">
-          <name>曾科／甑科→岗拖 → 岗托 直约69 km</name>
-          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>按本段主要地名绘示意。曾科点为推定；校注10补麦宿、八邦寺等，不走雀儿山大道。各线为节点直连分段虚线，并非逐站古道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 霍尔章谷 → 炉霍：直线约162 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 曾科／甑科〔赠科乡地区参照，推定〕：直线约68 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>曾科／甑科〔赠科乡地区参照，推定〕 → 岗拖 → 岗托：直线约69 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 察木多／昌都：直线约144 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约552 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <name>甘孜→大金寺 直约25 km</name>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
           <styleUrl>#post_measure</styleUrl>
           <Point>
-            <coordinates>98.94040000000001,31.557755,0</coordinates>
+            <coordinates>99.8593,31.648650000000004,0</coordinates>
           </Point>
         </Placemark>
         <Placemark id="post_measure_north_6">
-          <name>岗拖 → 岗托→察木多／昌都 直约144 km</name>
-          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>按本段主要地名绘示意。曾科点为推定；校注10补麦宿、八邦寺等，不走雀儿山大道。各线为节点直连分段虚线，并非逐站古道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 霍尔章谷 → 炉霍：直线约162 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 曾科／甑科〔赠科乡地区参照，推定〕：直线约68 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>曾科／甑科〔赠科乡地区参照，推定〕 → 岗拖 → 岗托：直线约69 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 察木多／昌都：直线约144 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约552 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <name>大金寺→甑科／曾科 直约46 km</name>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
           <styleUrl>#post_measure</styleUrl>
           <Point>
-            <coordinates>97.88159999999999,31.38805,0</coordinates>
+            <coordinates>99.51275000000001,31.576455000000003,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_measure_north_7">
+          <name>甑科／曾科→麦学／麦削 → 麦宿一带 直约33 km</name>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <styleUrl>#post_measure</styleUrl>
+          <Point>
+            <coordinates>99.14345,31.557904999999998,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_measure_north_8">
+          <name>麦学／麦削 → 麦宿一带→八邦寺 直约19 km</name>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <styleUrl>#post_measure</styleUrl>
+          <Point>
+            <coordinates>98.8937,31.6406,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_measure_north_9">
+          <name>八邦寺→岗拖 → 岗托 直约20 km</name>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <styleUrl>#post_measure</styleUrl>
+          <Point>
+            <coordinates>98.69065,31.64045,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_measure_north_10">
+          <name>岗拖 → 岗托→同普 直约19 km</name>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <styleUrl>#post_measure</styleUrl>
+          <Point>
+            <coordinates>98.4863242,31.612761900000002,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="post_measure_north_11">
+          <name>同普→察木多／昌都 直约125 km</name>
+          <description><![CDATA[<h3>北路进昌都｜本段主要节点</h3><p>正文主要地名结合校注十补充节点。甑科／赠科乡仍为推定，大金寺和同普为现代地区参照；打火沟具体通道、卡工旧名和纳夺辖境待考，不放假点。未由雀儿山大道／德格县城。虚线只连代表点，非旧道测绘。</p><p><b>耗时：</b>康定至折多塘：1日；折多塘至甘孜一带：正文回顾20余日；炉城至昌都：正文记50余日，校注10存疑，另估常规17日、加停留约23—30日。以上段落互有包含，不能相加。 校注另述卡工以西至昌都需野宿三日（原书未记），不当作岗拖或同普至昌都全程耗时。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p><h3>逐段直距与耗时</h3><p><b>打箭炉 → 康定 → 折多塘：直线约7 km</b><br/>1日（原文明记）</p><p><b>折多塘 → 长坝春〔江巴村一带，考证参照〕：直线约32 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>长坝春〔江巴村一带，考证参照〕 → 道坞 → 道孚：直线约100 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>道坞 → 道孚 → 霍尔章谷 → 炉霍：直线约63 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>霍尔章谷 → 炉霍 → 甘孜：直线约71 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甘孜 → 大金寺〔扎西大金寺现代寺区参照〕：直线约25 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>大金寺〔扎西大金寺现代寺区参照〕 → 甑科／曾科〔赠科乡地区候选，推定〕：直线约46 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>甑科／曾科〔赠科乡地区候选，推定〕 → 麦学／麦削 → 麦宿一带：直线约33 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>麦学／麦削 → 麦宿一带 → 八邦寺：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>八邦寺 → 岗拖 → 岗托：直线约20 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>岗拖 → 岗托 → 同普〔同普大路地区参照〕：直线约19 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p><b>同普〔同普大路地区参照〕 → 察木多／昌都：直线约125 km</b><br/>该相邻段未明记；大段约数不按距离分摊</p><p>所选相邻点直距之和约560 km。距离为代表点间球面近似直距（km），不是历史实走或现代公路里程。主要地名间省略了中间站，分段直距和仅为所选节点的示意线长度；推定点会影响数值。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">文字依据</a></p>]]></description>
+          <styleUrl>#post_measure</styleUrl>
+          <Point>
+            <coordinates>97.78262419999999,31.3682119,0</coordinates>
           </Point>
         </Placemark>
         <Placemark id="post_measure_northwest_0">
@@ -2676,7 +2826,7 @@
           <description><![CDATA[<p>第1章及校注10；校注怀疑稽延或误记，不能拼成一个可靠日数区间。</p><p>正文与校注分歧</p>]]></description>
         </Placemark>
         <Placemark id="post_time_3">
-          <name>恩达〔恩达村一带〕 → 区域／事项｜经类乌齐至三十九族境内20余日（起算未精确明定）</name>
+          <name>恩达〔恩达村一带〕 → 区域／事项（无单点坐标）｜经类乌齐至三十九族境内20余日（起算未精确明定）</name>
           <description><![CDATA[<p>第3章自恩达北进后续叙类乌齐，再记行二十余日入境。区域无单一终点坐标，不算到区域中心距离。</p><p>正文约数，区域终点</p>]]></description>
         </Placemark>
         <Placemark id="post_time_4">
@@ -2688,8 +2838,12 @@
           <description><![CDATA[<p>第3章拉里出发两日至凝多，翌日抵江达；不含拉里等候乌拉的日子。</p><p>正文分日合并</p>]]></description>
         </Placemark>
         <Placemark id="post_time_6">
-          <name>岗拖 → 岗托 → 区域／事项｜渡河及驻江干数日；另记一营渡河费3日</name>
+          <name>岗拖 → 岗托 → 区域／事项（无单点坐标）｜渡河及驻江干数日；另记一营渡河费3日</name>
           <description><![CDATA[<p>第1章多次皮船渡河叙述；一营渡河三日不机械分配到每条河，也不与炉城至昌都50余日重复累加。</p><p>等待／渡河，非独立全程</p>]]></description>
+        </Placemark>
+        <Placemark id="post_time_7">
+          <name>卡工以西〔旧名对应待考〕 → 察木多／昌都｜需野宿三日</name>
+          <description><![CDATA[<p>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>校注路程与宿营条件说明；非正文实测</p>]]></description>
         </Placemark>
         <Placemark>
           <name>南路另一个历史行旅对照（不是陈部耗时）</name>
@@ -2822,6 +2976,35 @@
               <coordinates>101.5016911,30.0562934,0 101.4972418,30.0519822,0</coordinates>
             </LineString>
           </MultiGeometry>
+        </Placemark>
+      </Folder>
+      <Folder id="annotation10_check">
+        <name>11G 校注十｜大金寺—甑科—麦学—八邦寺—同普</name>
+        <open>0</open>
+        <Placemark id="annotation10_overview">
+          <name>甘孜至昌都路线核对｜卡工以西需野宿三日〔校注〕</name>
+          <description><![CDATA[<h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p>]]></description>
+          <LookAt>
+            <longitude>98.8</longitude>
+            <latitude>31.5</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>430000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation10_unlocated_0">
+          <name>打火沟通行路线【未定位，不造点】</name>
+          <description><![CDATA[<p>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation10_unlocated_1">
+          <name>卡工〔旧名对应待考〕【未定位，不造点】</name>
+          <description><![CDATA[<p>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation10_unlocated_2">
+          <name>纳夺土司支差辖境【未定位，不造点】</name>
+          <description><![CDATA[<p>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p>]]></description>
         </Placemark>
       </Folder>
     </Folder>

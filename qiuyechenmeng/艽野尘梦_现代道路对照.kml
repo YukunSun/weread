@@ -238,10 +238,10 @@
       <Folder id="modern_G317">
         <name>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</name>
         <open>0</open>
-        <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。作者甘孜之后经麦宿、八邦寺一带，并非自动沿今日雀儿山隧道—德格县城段。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
+        <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。校注十指甘孜大金寺经打火沟、甑科、麦学、八邦寺至岗拖，再循同普大路至昌都。作者此段未由雀儿山大道；今G317雀儿山隧道—德格县城段只作现代比较，不接入作者路线。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
         <Placemark id="modern_line_G317">
           <name>G317｜现代道路实线</name>
-          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。作者甘孜之后经麦宿、八邦寺一带，并非自动沿今日雀儿山隧道—德格县城段。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
+          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。校注十指甘孜大金寺经打火沟、甑科、麦学、八邦寺至岗拖，再循同普大路至昌都。作者此段未由雀儿山大道；今G317雀儿山隧道—德格县城段只作现代比较，不接入作者路线。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
           <LookAt>
             <longitude>96.72645</longitude>
             <latitude>31.115897</latitude>
@@ -1772,7 +1772,7 @@
         </Placemark>
         <Placemark id="modern_label_G317_0">
           <name>G317</name>
-          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。作者甘孜之后经麦宿、八邦寺一带，并非自动沿今日雀儿山隧道—德格县城段。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
+          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。校注十指甘孜大金寺经打火沟、甑科、麦学、八邦寺至岗拖，再循同普大路至昌都。作者此段未由雀儿山大道；今G317雀儿山隧道—德格县城段只作现代比较，不接入作者路线。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
           <LookAt>
             <longitude>100.2166382</longitude>
             <latitude>31.6171459</latitude>
@@ -1790,7 +1790,7 @@
         </Placemark>
         <Placemark id="modern_label_G317_1">
           <name>G317</name>
-          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。作者甘孜之后经麦宿、八邦寺一带，并非自动沿今日雀儿山隧道—德格县城段。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
+          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。校注十指甘孜大金寺经打火沟、甑科、麦学、八邦寺至岗拖，再循同普大路至昌都。作者此段未由雀儿山大道；今G317雀儿山隧道—德格县城段只作现代比较，不接入作者路线。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
           <LookAt>
             <longitude>98.9490361</longitude>
             <latitude>31.9131281</latitude>
@@ -1808,7 +1808,7 @@
         </Placemark>
         <Placemark id="modern_label_G317_2">
           <name>G317</name>
-          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。作者甘孜之后经麦宿、八邦寺一带，并非自动沿今日雀儿山隧道—德格县城段。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
+          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。校注十指甘孜大金寺经打火沟、甑科、麦学、八邦寺至岗拖，再循同普大路至昌都。作者此段未由雀儿山大道；今G317雀儿山隧道—德格县城段只作现代比较，不接入作者路线。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
           <LookAt>
             <longitude>97.7950485</longitude>
             <latitude>31.360904</latitude>
@@ -1826,7 +1826,7 @@
         </Placemark>
         <Placemark id="modern_label_G317_3">
           <name>G317</name>
-          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。作者甘孜之后经麦宿、八邦寺一带，并非自动沿今日雀儿山隧道—德格县城段。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
+          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。校注十指甘孜大金寺经打火沟、甑科、麦学、八邦寺至岗拖，再循同普大路至昌都。作者此段未由雀儿山大道；今G317雀儿山隧道—德格县城段只作现代比较，不接入作者路线。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
           <LookAt>
             <longitude>97.046123</longitude>
             <latitude>31.1927305</latitude>
@@ -1844,7 +1844,7 @@
         </Placemark>
         <Placemark id="modern_label_G317_4">
           <name>G317</name>
-          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。作者甘孜之后经麦宿、八邦寺一带，并非自动沿今日雀儿山隧道—德格县城段。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
+          <description><![CDATA[<h3>G317 炉霍—甘孜—德格—江达—昌都—类乌齐</h3><p>今川藏北线。校注十指甘孜大金寺经打火沟、甑科、麦学、八邦寺至岗拖，再循同普大路至昌都。作者此段未由雀儿山大道；今G317雀儿山隧道—德格县城段只作现代比较，不接入作者路线。昌都—类乌齐走廊有G214并行或共线标识；俄洛桥的历史桥址仍待考。</p><p>现代道路仅供与历史行进方向对照。实线来自OpenStreetMap已有道路几何，采用WGS84，经裁剪及约30米容差简化；数据缺口保留，不直连补路。路号结合交通部门资料核对；地图收录、规划编号不等于当前全部通车。历史虚线仅为地点顺序示意，不能据两线接近认定古今同道。</p><p>路号核实：<a href="https://www.ndrc.gov.cn/xxgk/zcfb/ghwb/202207/P020220712348051707026.pdf">依据1</a> · <a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202503/085ff666427c4c8ebe6de8e1f19a5197.shtml">依据2</a></p><p>几何：© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>，ODbL 1.0；数据提取日期2026-10-30。</p>]]></description>
           <LookAt>
             <longitude>96.4906239</longitude>
             <latitude>31.141079</latitude>

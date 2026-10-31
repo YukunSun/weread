@@ -12,7 +12,12 @@ lhasa,拉萨〔南路终点对照〕,91.132,29.65,城市代表点，路线对照
 zheduo,折多塘,101.886,29.9949,村域代表点,https://www.fallingrain.com/world/CH/32/Zheduotang.html,,沿用主图地名代表点，不是折多山垭口，不是确考旧宿营点。
 changba,长坝春〔江巴村一带，考证参照〕,101.65,30.2,考证对应，旧站确址未定,https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf,https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm,研究将长坝春、长霸冲对应江巴村。2021官方报告列塔公镇江巴村监测点，舍入作地区参照。论文的瓦泽乡表述不作现行政归属。尚不能直接等同新都桥镇中心，两处代表点直距约23 km；见11F及长坝春新都桥核对说明。
 luhuo,霍尔章谷 → 炉霍,100.6803,31.3937,聚落代表点,https://zh.wikipedia.org/wiki/新都镇_(炉霍县),,现代炉霍县城地区代表点。
-garze,甘孜,99.9886,31.6273,聚落代表点,https://zh.wikipedia.org/wiki/甘孜镇,,本段简列主要地名。第1章及校注另补道孚、麦宿、八邦寺等节点，见原阅读地图；不可把简列点间连线当完整驿站链。
-zengke,曾科／甑科〔赠科乡地区参照，推定〕,99.2955,31.48291,对应推定,https://www.openstreetmap.org/node/1755809586,https://www.baiyu.gov.cn/jczwgkxzj/article/512763,校注10将甑科置白玉县，现代赠科乡与路线方位相合，但尚无直接同名史证。以OSM乡域地名点作候选参照，不认定旧驿站；相关分段直距受这一推定影响。
+garze,甘孜,99.9886,31.6273,聚落代表点,https://zh.wikipedia.org/wiki/甘孜镇,,甘孜现代聚落代表点。校注十从大金寺进打火沟至甑科，经麦学、八邦寺至岗拖；主图和本层已统一节点，不接雀儿山或德格县城。
+zengke,甑科／曾科〔赠科乡地区候选，推定〕,99.2955,31.48291,对应推定,https://www.openstreetmap.org/node/1755809586,https://www.baiyu.gov.cn/jczwgkxzj/article/512763,校注10将甑科置白玉县，现代赠科乡与路线方位相合，但尚无直接同名史证。以OSM乡域地名点作候选参照，不认定旧驿站；相关分段直距受这一推定影响。 官方规划PDF中赠科乡扎马村水源地在附近，只印证现代地区位置，不能证实旧站身份；不把旧站移动到取水口。
 gangtuo,岗拖 → 岗托,98.5853,31.6326,渡河地区参照,https://zh.wikipedia.org/wiki/岗托镇,,金沙江渡口地区代表点，非历史皮船下水点。
 riwoche,类乌齐〔旧寺镇〕,96.5036,31.3716,旧寺镇代表点,https://zh.wikipedia.org/wiki/类乌齐镇,,选旧寺镇，区分现代桑多县城。经三十九族至拉里的逐站路线未复原。
+daofu,道坞 → 道孚,101.1254,30.9777,聚落代表点,https://zh.wikipedia.org/wiki/鲜水镇,,正文道坞，对应今道孚；主图同坐标地区参照，不是旧站址。
+dajin,大金寺〔扎西大金寺现代寺区参照〕,99.73,31.67,地区参照，坐标基准未明,https://treasuryoflives.org/en/institution/Dargye-Monastery,https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm,校注十补充；大金寺与甘孜寺分开。机构条目坐标舍入至0.01°作寺区参照，不指认1909年建筑或营地；后经打火沟方向，具体越岭路线未定。
+maisux,麦学／麦削 → 麦宿一带,98.9914,31.6329,现代地区参照,https://zh.wikipedia.org/wiki/麦宿镇,https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm,校注十明确属德格县；用现代德格麦宿地区点，不误取白玉同名麦学村，不指认旧驿站。
+palpung,八邦寺,98.796,31.6483,现代寺院参照,https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml,,校注十补充的八邦寺方向，沿用主图现代寺院点，不认定陈部营地。
+tongpu,同普〔同普大路地区参照〕,98.3873484,31.5929238,现代地区参照,https://www.openstreetmap.org/node/3171594661,https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm,校注十记岗拖至昌都循同普大路；用现代同普乡地名点参照走廊，不认定清末旧站／营地，也不直接认定为卡工。

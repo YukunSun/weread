@@ -14,6 +14,8 @@ from regional_ranges import add_ranges, write_range_index
 from post_routes import add_post_routes, write_post_indexes
 from historical_context import add_historical_context, write_historical_index
 from rivers import add_rivers, write_river_index
+from route_checks import SEQUENCE, CHECK, route_check_html, check_shared_places, write_route_check
+from post_routes import load as load_post_routes
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -50,9 +52,12 @@ ROWS = [
 ('daofu','07 道坞 → 道孚','道孚鲜水镇',101.1254,30.9777,'第1章','in','对应较明确',wiki('鲜水镇'),'旧称道坞，对应今道孚。使用现代县城聚落代表点。'),
 ('luhuo','08 霍尔章谷 → 炉霍','炉霍新都镇',100.6803,31.3937,'第1章；校注8','in','对应较明确',wiki('新都镇_(炉霍县)'),'按校注对应炉霍；现代聚落代表点。'),
 ('garze','09 甘孜','甘孜镇',99.9886,31.6273,'第1章；校注10','in','对应较明确',wiki('甘孜镇'),'校注记后续经打火沟、甑科、麦学、八邦寺，不走雀儿山大道。地图不把德格县城增列为作者亲经站。'),
-('maisux','10 麦削／麦学 → 麦宿一带','德格麦宿一带',98.9914,31.6329,'第1章；校注10','in','区域参照',wiki('麦宿镇'),'校注作麦学。使用现代麦宿聚落点概略定位，非旧驿站遗址；曾科／甑科在11层补赠科乡候选参照，古今对应与旧站确址仍待考。'),
+('dajin','09a 大金寺〔扎西大金寺现代寺区参照〕','甘孜县卡攻乡扎西大金寺一带',99.73,31.67,'第1章；校注10','in','地区参照，坐标基准未明','https://treasuryoflives.org/en/institution/Dargye-Monastery','校注记自甘孜大金寺进打火沟。大金寺与甘孜寺是不同寺院；用Dargye机构条目坐标舍入至0.01°，只作现代寺区参照，不认定1909年具体建筑和营地。打火沟具体支沟、山口未定位，至甑科虚线仅示方向。'),
+('zengke','09b 甑科／曾科〔赠科乡地区候选，推定〕','白玉县赠科乡扎马村一带（候选）',99.2955,31.48291,'第1章；校注10','in','古今对应推定','https://www.openstreetmap.org/node/1755809586','校注订曾科为甑科、属白玉县。现代赠科乡扎马村一带与路线方位相合，保留既有候选点；官方水源地坐标可印证现代地区位置，不能证明旧名对应或旧驿站确址。前接大金寺经打火沟方向，后接德格麦宿，均为代表点顺序示意。'),
+('maisux','10 麦削／麦学 → 麦宿一带','德格麦宿一带',98.9914,31.6329,'第1章；校注10','in','区域参照',wiki('麦宿镇'),'校注订麦削为麦学、属德格县；交通史研究联系德格麦宿地区。沿用现代麦宿聚落代表点，非旧驿站遗址，不误取白玉另一同名麦学村；前接甑科候选、后接八邦寺，不接德格县城或雀儿山大道。'),
 ('palpung','11 八邦寺','八邦寺／八蚌寺',98.7960,31.6483,'第1章；校注10','in','对应较明确',wiki('八邦寺'),'原文行程的补充节点来自校注10；与作者正文亲记地点作来源区分。'),
 ('gangtuo','12 岗拖 → 岗托','金沙江岗托一带',98.5853,31.6326,'第1章','in','对应较明确',wiki('岗托镇'),'金沙江渡口地区。标的是现代岗托聚落，非确定的历史皮船下水点。'),
+('tongpu','12a 同普〔同普大路地区参照〕','昌都市江达县同普乡地区',98.3873484,31.5929238,'第1章；校注10','in','现代地区参照','https://www.openstreetmap.org/node/3171594661','校注记岗拖至昌都循同普大路。以今同普乡地名点表示走廊方向，不认定清末旧站或营地。卡工旧名对应尚待考，不直接等同卡贡乡，也不强并同普；卡工以西野宿三日不标作本点至昌都耗时。'),
 ('chamdo','13 察木多 → 昌都','昌都老城、强巴林寺一带',97.1779,31.1435,'第1—3章','in','对应较明确',wiki('强巴林寺'),'用强巴林寺定位昌都老城，非作者营房遗址。第2章腊左探险支线未精确复原。'),
 ('riwoche','14 类乌齐','类乌齐旧寺镇',96.5036,31.3716,'第3章','west','对应较明确',wiki('类乌齐镇'),'选用旧寺镇，区分今县城桑多镇。恩达、三十九族等中间节点未强行定位。'),
 ('lhari','15 拉里 → 嘉黎旧镇','嘉黎镇一带',93.3458,30.7423,'第3章','west','区域参照',wiki('嘉黎镇'),'旧粮台所在地区的镇区参照；不是今日阿扎县城。原文回忆与部分史事在校注中有订正。'),
@@ -74,8 +79,9 @@ ROWS = [
 
 # Distances are between representative points, never reconstructed walking miles.
 PLACE_BY_ID = {r[0]: r for r in ROWS}
+check_shared_places(PLACE_BY_ID, load_post_routes()[1])
 ROUTES = [
-    ('in','R1 入藏地点顺序示意',['chengdu','yaan','luding','kangding','zheduo','changba','daofu','luhuo','garze','maisux','palpung','gangtuo','chamdo']),
+    ('in','R1 入藏地点顺序示意',['chengdu','yaan','luding','kangding','zheduo','changba','daofu','luhuo',*SEQUENCE]),
     ('west','R2 昌都—类乌齐—嘉黎—江达',['chamdo','riwoche','lhari','taizhao']),
     ('pome','R3 鲁朗—通麦—易贡方向',['lulang','tongmai','yigong']),
     ('return','R4 日月山—丹噶尔—西宁—兰州—西安',['riyue','huangyuan','xining','lanzhou','xian']),
@@ -97,8 +103,8 @@ DISTANCE_ROWS += [
     ('补充起讫对照','taizhao','huangyuan','北返223日全段起讫直线，不是荒原轨迹',distance_km('taizhao','huangyuan')),
 ]
 
-UNLOCATED = [
-('第1章','曾科／甑科旧驿站确址','校注10指白玉县甑科。11层补赠科乡现代点作候选区域参照，古今对应未获直接史证，旧驿站确址仍未定位。'),
+UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocated']] + [
+('第1章','曾科／甑科旧驿站确址','校注10指白玉县甑科。主图与11层以赠科乡扎马村一带作候选区域参照，古今对应未获直接史证，旧驿站确址仍未定位。'),
 ('第1章','大相岭旧山口、果亲王摩崖诗','已补大相岭古道的路桥碑地区参照及飞越岭垭口；作者登岭顶与摩崖诗的具体位置仍待考。'),
 ('第2—3章','腊左塘 → 浪荡沟','校注11订正今旧称。位于俄洛桥与纳贡山之间，未查到可靠独立坐标，不按书中里数插值造点。'),
 ('第2—3章','腊左 → 纳贡塘','校注11订正，与腊左塘／浪荡沟是不同地点；暂不赋假坐标。'),
@@ -267,7 +273,7 @@ def make_post_supplement(bundled=False):
 
 def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
-    el(doc,'name','《艽野尘梦》阅读地图｜路线、河流与历史背景')
+    el(doc,'name','《艽野尘梦》阅读地图｜校注十路线校对版')
     el(doc,'open',1)
     el(doc,'description',f'{len(ROWS)}个主要地点及参照点，另补{len(MINOR_PLACES)}处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。\n小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。')
     view(doc,100.5,33.6,2000000)
@@ -303,10 +309,11 @@ def make_map(bundled=False):
             el(f,'description',phase_timing)
     points={}
     for rid,label,modern,lon,lat,chapter,phase,certainty,coordsource,note in ROWS:
-        uncertain=certainty=='校注推定'
+        uncertain='推定' in certainty
         entries=[t for t in TIMINGS if t['anchor']==rid]
+        summary_entries=[t for t in entries if not t['kind'].startswith('校注路程与宿营条件')]
         pm=el(folders[phase],'Placemark',id='place_'+rid);el(pm,'name',display_label(rid,label))
-        el(pm,'visibility',int(PHASES[phase][2]));el(pm,'Snippet',(entries[-1]['duration']+' · ' if entries else '')+chapter+' · '+certainty,maxLines='2')
+        el(pm,'visibility',int(PHASES[phase][2]));el(pm,'Snippet',(summary_entries[-1]['duration']+' · ' if summary_entries else '')+chapter+' · '+certainty,maxLines='2')
         extra=[('地名与行程：原文、校注',TEXT),('坐标参照',coordsource)]
         if rid=='taizhao': extra.append(('江达与太昭：社科院考察',SOURCES['江达与太昭考证']))
         if rid=='changba': extra.extend([('长坝春今名考证',SOURCES['旧驿道与长坝春考证']),('江巴村现行政归属',SOURCES['江巴村现行政归属核查'])])
@@ -333,7 +340,7 @@ def make_map(bundled=False):
         distance_entries=[d for d in DISTANCE_ROWS if d[0]==name]
         total=sum(d[4] for d in distance_entries)
         p=el(folders[phase],'Placemark',id=f'route_{n}');el(p,'name',name+f'｜示意连线合计约{total:.0f} km')
-        el(p,'description',distance_html(distance_entries)+f'<p>各相邻点直距相加约{total:.0f} km。不是首尾直距，也不是古道实走总里程。此合计按未取整数值计算后取整；分段四舍五入数相加可能相差少量km。</p>'+time_html([t for t in TIMINGS if t['phase']==phase])+'<p>只显示主要地点先后及大致方向。虚线人为插值，未按旧道或公路拟合，不可测量历史里程。部分时间是内部子段或驻留，不能全部累加。未知路段留白。</p>')
+        el(p,'description',(route_check_html() if n==1 else '')+distance_html(distance_entries)+f'<p>各相邻点直距相加约{total:.0f} km。不是首尾直距，也不是古道实走总里程。此合计按未取整数值计算后取整；分段四舍五入数相加可能相差少量km。</p>'+time_html([t for t in TIMINGS if t['phase']==phase])+'<p>只显示主要地点先后及大致方向。虚线人为插值，未按旧道或公路拟合，不可测量历史里程。部分时间是内部子段或驻留，不能全部累加。未知路段留白。</p>')
         el(p,'styleUrl','#'+phase);mg=el(p,'MultiGeometry')
         for a,b in zip(ids,ids[1:]):
             ax,ay=points[a];bx,by=points[b]
@@ -415,6 +422,7 @@ def main():
         z.writestr('icons/river_label.png',png('#60d4ff'))
         z.writestr('icons/river_crossing.png',png('#ffdc7b',True))
     write_river_index()
+    write_route_check(PLACE_BY_ID,distance_km)
     with (ROOT/'小地名对照与坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
         fields=['id','name','old_names','modern','lon','lat','chapter','group','certainty','coordinate_source','identity_source','note','timing']
         w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(MINOR_PLACES)
@@ -446,14 +454,14 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 “04 北返荒原”和“07 待考旧地名”包含无坐标的文字条目；网页版可能省略这些条目，完整内容亦在本说明下文。
 
 二、内容和图例
-29个主要地图点：27个书中地点或区域的代表点，2个默认隐藏的现代县城对照点。
+主要地图点：MAJOR_COUNT个，含书中地点、校注补充地区及2个默认隐藏的现代县城对照点。
 另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美。
 08小地名层可在左侧列表点击，放大后更易读；金色空心点是村域或地区参照，不是确认古址。
 支持Region的客户端会按缩放显示小地名；网页版忽略Region，可手动开关08图层控制全景标注数量。
 俄洛桥用现代俄洛村参照，未认定清末桥位；西藏桥与俄洛桥的正文／校注差异在弹窗说明。
 4组虚线：蓝色川西入藏，紫色昌都至工布，绿色波密方向，红色青海至西安。
 虚线人为连接主要地点，只表示先后与大致方向，不是古道、现代公路或实测轨迹。
-橙色空心点：柴达木对应格尔木一带，为校注推定。
+橙色空心点：柴达木对应格尔木、甑科对应赠科乡候选等，属于推定。
 第2章探险支线、第4章工布活动、第5—7章反复进退未逐段完整复原。
 北返荒原，以及太昭至鲁朗、格尔木至青海湖等证据不足的路段，保留空白。
 书中江达对应今太昭／江达村一带，不是昌都江达县，也不是工布江达现代县城。
@@ -463,7 +471,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 三、精度
 这是“主要地点阅读地图”，不是全地名索引或历史GIS精确复原。
 现代城市、村镇、寺院或桥梁的代表坐标，不代表历史宿营点、旅店、旧桥、战场或墓地。
-坐标采用WGS84兼容地理来源；江巴村官方监测点未注明坐标系，特意舍入至0.01°，只用于粗略定位。
+坐标采用WGS84兼容地理来源；江巴村官方监测点、大金寺资料未注明坐标系，特意舍入至0.01°，只用于粗略定位。
 显示四位小数仅是统一存储格式，不能理解成历史位置精确到米。
 没有给未知行程编造日期或经纬度；农历日期未冒作公历。
 已补行程和驻留耗时：直接显示于主要点标标签、弹窗、图层和耗时总览。
@@ -487,7 +495,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
         readme+=f'\n{chapter}｜{name}\n{note}\n'
     readme+='''
 六、附带文件
-地名对照与坐标.csv：可用表格软件查看29个点的坐标、章节和来源。
+地名对照与坐标.csv：可用表格软件查看MAJOR_COUNT个点的坐标、章节和来源。
 行程耗时对照.csv：可核查各段行程、驻留与推算性质。
 行程距离对照_km.csv：相邻节点直距及补充起讫直距，单位km。
 data/行程耗时.json：耗时原始结构化数据。
@@ -524,14 +532,16 @@ https://opendatacommons.org/licenses/odbl/1-0/
 2026-10-30已将现代道路补充KMZ导入现有Google Earth项目，显示处理成功并保存到云端硬盘。
 已在俄洛桥—昌都视图抽查G317、G214实线与路号标签，以及历史行程虚线、小地名的同时显示。
 '''
-    readme=readme.replace('17条',f'{len(UNLOCATED)}条').replace('另加9处',f'另加{len(MINOR_PLACES)}处')
+    readme=readme.replace('MAJOR_COUNT',str(len(ROWS))).replace('17条',f'{len(UNLOCATED)}条').replace('另加9处',f'另加{len(MINOR_PLACES)}处')
     (ROOT/'地图使用说明.txt').write_text(readme,encoding='utf-8')
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
-        f.write('\n九、知乎回答的藏区地理范围\n核对日期2026-10-31。新增10范围层，以半透明色块表达文章地理称谓的概略范围。\n现代行政数据只是范围参照；文化地理、元明称谓、自然羌塘与现代政区分套，可单独开关。\n已导入旧版时，可单独叠加“艽野尘梦_藏区地理范围.kmz”，不重复地点或道路。\n2026-10-31已将含10、11层的完整阅读地图导入原Google Earth网页版项目，确认处理完成并保存到云端硬盘。当前显示“南北驿路、分区与耗时距离（长坝春核对版）”根目录，旧版根目录已隐藏。\n详细口径、坐标与来源见“藏区地理范围说明.txt”和“藏区范围对照.csv”。\n')
-        f.write('\n十、本段南北驿路对照\n新增11层，南路背景、北路进昌都、昌都后北绕及原文另列走法分色显示。\n新增理塘、巴塘、硕督、丹达地区、拉萨对照及曾科候选共6点，三十九族按核心方位区域显示。\n距离仍用代表点直距km；完整阅读图复用原有地点，单独南北驿路KMZ包含17个站点代表点。\n已知耗时按原文与校注保留，未记日数不分摊，南路不套现代G318。详见“南北驿路说明.txt”及两个南北驿路CSV。\n')
+        f.write('\n九、知乎回答的藏区地理范围\n核对日期2026-10-31。新增10范围层，以半透明色块表达文章地理称谓的概略范围。\n现代行政数据只是范围参照；文化地理、元明称谓、自然羌塘与现代政区分套，可单独开关。\n已导入旧版时，可单独叠加“艽野尘梦_藏区地理范围.kmz”，不重复地点或道路。\n2026-10-31已将含10、11层的完整阅读地图导入原Google Earth网页版项目，确认处理完成并保存到云端硬盘。当时显示“南北驿路、分区与耗时距离（长坝春核对版）”根目录，旧版根目录已隐藏。\n详细口径、坐标与来源见“藏区地理范围说明.txt”和“藏区范围对照.csv”。\n')
+        f.write('\n十、本段南北驿路对照\n新增11层，南路背景、北路进昌都、昌都后北绕及原文另列走法分色显示。\n11层新增理塘、巴塘、硕督、丹达地区、拉萨对照共5点；甑科候选已并入主图，三十九族按核心方位区域显示。\n距离仍用代表点直距km；完整阅读图复用原有地点，单独南北驿路KMZ包含22个地点代表点。\n已知耗时按原文与校注保留，未记日数不分摊，南路不套现代G318。详见“南北驿路说明.txt”及两个南北驿路CSV。\n')
         f.write('\n十一、长坝春与新都桥核对\n2026-10-31复核：现有史地研究支持江巴村一带，不能直接等同新都桥镇中心。现官方资料称塔公镇江巴村。\n历史点保留原地区参照坐标，旧驿站与营地确址未定；11F新增新都桥现代对照点及约23 km直距比较线，该线不属于作者行程。\n详见“长坝春新都桥核对说明.txt”与data/place_checks/长坝春核对.json。\n')
         f.write('\n十二、瞻对／三瞻历史背景\n12层以现代新龙县轮廓作瞻对方位参照，非三瞻旧界，不接入陈渠珍此次个人路线。\n校注八所述鹿传霖事件对应1896—1897年，光绪初的年代表述有误；各次瞻对战事不合并。\n县名沿革年份存在资料异说，详见“瞻对历史背景说明.txt”。已有云端地图可单独叠加“艽野尘梦_瞻对历史背景.kmz”。\n')
         f.write('\n十三、沿途主要河流\n13层显示现代真实河道片段和书中渡河地区，突出甘孜雅砻江、岗拖金沙江，另含泸定桥及通麦易贡相关渡水。\n北返通天河渡点不明，不以今桥定位；怒江南源阿克的河段对应、薄藏布古藤桥位置保留待考。\nOSM河道片段与Natural Earth概化背景分层，缺口不补直线。详见“沿途河流说明.txt”和“河流与渡河对照.csv”。已有云端地图可单独叠加“艽野尘梦_沿途河流.kmz”。\n')
+    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+        f.write('\n十四、校注十甘孜至昌都路线校对\n主图R1与11B北路统一补入大金寺、甑科候选、麦学、八邦寺和同普方向；不经雀儿山大道／德格县城。\n11G有本次校注核对及打火沟、卡工、纳夺的待考说明；卡工以西野宿三日与作者逐段实测耗时分开，距离留空。\n详见“甘孜昌都路线校对说明.txt”及data/route_checks/甘孜昌都校注十.json。\n2026-10-31本校对版完整KMZ已导入原Google Earth项目并显示已保存到云端硬盘，当前启用“《艽野尘梦》阅读地图｜校注十路线校对版”根目录；上一版完整图及旧河流、历史背景补充根目录已隐藏。已抽查大金寺点及R1弹窗的路线顺序、46／33／19 km和卡工以西野宿三日限定。仅Region、maxLines、textColor显示字段被忽略。\n')
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':
