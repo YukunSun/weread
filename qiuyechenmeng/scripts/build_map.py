@@ -397,7 +397,10 @@ def pack_annotation11_sources(archive):
         archive.write(ROOT/relative,relative)
 
 def main():
+    # ElementTree has one process-wide default namespace; inline HTML needs unprefixed SVG tags.
+    ET.register_namespace('', 'http://www.w3.org/2000/svg')
     write_figure()
+    ET.register_namespace('', KML)
     name='艽野尘梦_阅读地图'
     (ROOT/(name+'.kml')).write_bytes(make_map())
     with zipfile.ZipFile(ROOT/(name+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:

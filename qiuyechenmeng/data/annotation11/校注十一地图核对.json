@@ -11,14 +11,16 @@
       "title": "陈渠珍出藏路线图",
       "sha256": "f67d29a58021c4f6491d43ff183b735cf93eba38cfcd412bac178c52d71ea69b",
       "source": "用户本次提供的书页照片",
-      "processing": "原字节保存，不做地理配准或坐标反推"
+      "processing": "原字节保存，不做地理配准或坐标反推",
+      "external_url": "https://raw.githubusercontent.com/YukunSun/weread/4b493f9719153437edd7d425723fa2d8ead83ac6/qiuyechenmeng/data/annotation11/scans/%E5%87%BA%E8%97%8F%E8%B7%AF%E7%BA%BF%E5%9B%BE.jpg"
     },
     {
       "file": "scans/昌都恩达略图.jpg",
       "title": "昌都至恩达略图（功能描述）",
       "sha256": "622d835e726cfb76c0408ee884f74c0762093d5ef638772b74b5a675979cad1d",
       "source": "用户本次提供的书页照片",
-      "processing": "原字节保存，不做地理配准或坐标反推"
+      "processing": "原字节保存，不做地理配准或坐标反推",
+      "external_url": "https://raw.githubusercontent.com/YukunSun/weread/4b493f9719153437edd7d425723fa2d8ead83ac6/qiuyechenmeng/data/annotation11/scans/%E6%98%8C%E9%83%BD%E6%81%A9%E8%BE%BE%E7%95%A5%E5%9B%BE.jpg"
     }
   ],
   "places": [
@@ -250,5 +252,6 @@
     "fallback": "KML文字条目与CSV在图片不能显示时仍保留全部含义",
     "qa": "节点顺序/别名/无坐标缺口/距离单位断言，KML XSD，SVG文字与HTML窄屏检查，Google Earth实际导入",
     "fresh_review": "独立子代理分别读图、核对正文和现代地理；父任务整合"
-  }
+  },
+  "scan_display_note": "Google Earth网页版只支持外部图片，原图使用本仓库固定提交中的图片链接；本地书图原件仍保留在KMZ及对读页中，不作地理配准。"
 }

@@ -106,10 +106,10 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
     evidence=el(top,'Folder');el(evidence,'name','14E 两张书图原件与识读限制');el(evidence,'open',0)
     for i,source in enumerate(cfg['scans']):
         p=el(evidence,'Placemark',id='annotation11_scan_'+str(i));el(p,'name',source['title'])
-        src='data/annotation11/'+source['file']
+        src=source['external_url']
         text_body=paragraph(cfg['first_map_note'] if i==0 else '原照片侧置，已另附可转正阅读的HTML对读页。两图无可靠经纬网及比例尺，均未作地理配准。')
         text_body+='<p><img style="max-width:100%;height:auto" src="'+src+'" alt="'+html.escape(source['title'],quote=True)+'"/></p>'
-        text_body+=paragraph('图片无法显示时，可查看本地昌都恩达_校注十一对读.html及data/annotation11/scans/原图。')
+        text_body+=paragraph('Google Earth网页版原图需联网。图片无法显示时，可查看本地昌都恩达_校注十一对读.html及data/annotation11/scans/原图。')
         el(p,'description',text_body+body);view(p,96.92,31.16,155000)
     return cfg
 
@@ -134,5 +134,6 @@ def write_annotation11_indexes():
     for p in cfg['places']: notes+=p['name']+'｜'+p['status']+'\n'+p['role']+'\n\n'
     notes+='行程分日\n'+'\n'.join(t['relative_day']+'｜'+t['phase']+'：'+t['event']+' '+t['evidence_status'] for t in text['chronology'])+'\n\n'
     notes+='完整阅读地图已含14层。独立艽野尘梦_腊左探险校对.kmz另含三个现代参照点，供单独查看；不要与完整版重复显示这三个点。\n昌都恩达_校注十一顺序图.svg与对读HTML为非地理配准的顺序图；原书照片原字节保存在data/annotation11/scans/。\n\n'
+    notes+=cfg['scan_display_note']+'\n\n'
     notes+='来源\n'+'\n\n'.join(s['title']+'\n'+s['use']+'\n'+s['url'] for s in cfg['sources'])+'\n'
     (ROOT/'校注十一地图校对说明.txt').write_text(notes)
