@@ -1,0 +1,447 @@
+{
+  "checked_at": "2026-10-31",
+  "scope": "《艽野尘梦》第二章“腊左探险”正文及任乃强校注十一；本文件仅作文字核对，不分配历史地点坐标。",
+  "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt",
+  "source_note": "公开文本第77—96行为第二章；章节、原名和里数与用户提供校注交叉核对。在线文本可能有转录错字，不据网页个别错字否定用户书影。",
+  "alias_mappings": [
+    {
+      "id": "chamdo",
+      "canonical_name": "昌都",
+      "original_names": [
+        "察木多"
+      ],
+      "source": "正文／校注",
+      "note": "出发及返抵地点。"
+    },
+    {
+      "id": "eluoqiao",
+      "canonical_name": "俄洛桥",
+      "original_names": [
+        "俄罗桥"
+      ],
+      "source": "正文／校注",
+      "note": "作者往返均明记经过。校注称其番名西藏桥，但正文另叙出昌都先过西藏桥，桥名关系存在文本差异。"
+    },
+    {
+      "id": "langdanggou",
+      "canonical_name": "浪荡沟",
+      "original_names": [
+        "腊左塘"
+      ],
+      "source": "校注十一",
+      "note": "原书腊左塘订为浪荡沟；与原书腊左所指纳贡塘不同。塘房、塘兵所在地区，确址未由文本提供。"
+    },
+    {
+      "id": "nagongshan",
+      "canonical_name": "纳贡山",
+      "original_names": [
+        "腊左山"
+      ],
+      "source": "校注十一及上下文",
+      "note": "校注把纳贡塘至浪荡沟之间所越山称纳贡山；正文相应山段称腊左山。具体山口未给坐标。"
+    },
+    {
+      "id": "nagongtang",
+      "canonical_name": "纳贡塘",
+      "original_names": [
+        "腊左"
+      ],
+      "source": "校注十一",
+      "note": "原书腊左订为纳贡塘；作者薄暮到达、投宿并遭俘的聚落地区。民房及受袭现场确址未定。"
+    },
+    {
+      "id": "jiamuqiao",
+      "canonical_name": "甲木桥",
+      "original_names": [
+        "并达桥"
+      ],
+      "source": "校注十一",
+      "note": "原书并达桥订为甲木桥；被俘后押送途中明确经过，旧桥桥址未给坐标。"
+    },
+    {
+      "id": "suoluoba",
+      "canonical_name": "梭罗坝",
+      "original_names": [
+        "林多坝"
+      ],
+      "source": "校注十一",
+      "note": "原书林多坝订为梭罗坝；夜半被带到此处，翌晨离开赴恩达。"
+    },
+    {
+      "id": "enda",
+      "canonical_name": "恩达",
+      "original_names": [
+        "恩达寨"
+      ],
+      "source": "正文／校注",
+      "note": "登珠驻节地区，陈本人实际到达；营地和汛署建筑不能用现代村点精确定位。"
+    },
+    {
+      "id": "waheshan",
+      "canonical_name": "瓦合大山",
+      "original_names": [],
+      "source": "校注十一",
+      "note": "校注把恩达置于该山以东；本段不据此认定陈此行另翻越瓦合山。"
+    }
+  ],
+  "bridge_name_conflict": {
+    "annotation": "校注十一把俄洛桥的番名记为西藏桥。",
+    "narrative": "正文先叙由昌都出发过西藏桥，后又叙到俄洛桥留宿，返程也经过俄洛桥。",
+    "map_treatment": "保留一个俄洛桥地区参照点，标清校注别名关系及旧桥确址未定；正文先提的西藏桥另列无坐标差异说明，不凭文字制造第二座已定位古桥。",
+    "identity_status": "称名存在文本差异，不能仅据本段确定为同一古桥或两座不同古桥。"
+  },
+  "chronology": [
+    {
+      "order": 1,
+      "relative_day": "第1日（按相对分日推算）",
+      "phase": "自行侦探",
+      "from": "chamdo",
+      "to": "eluoqiao",
+      "via": [
+        "正文另提西藏桥（身份与确址待考）"
+      ],
+      "event": "陈渠珍偕通事张应明由昌都出发，薄暮到俄洛桥边军哨营，留宿一夜。",
+      "evidence_status": "正文明确叙述节点和留宿；日序编号为整理推算。",
+      "source": "正文",
+      "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    },
+    {
+      "order": 2,
+      "relative_day": "第2日早",
+      "phase": "自行侦探",
+      "from": "eluoqiao",
+      "to": "langdanggou",
+      "event": "次晨从俄洛桥出发到原书腊左塘，见塘兵准备撤走；校注对应浪荡沟。",
+      "evidence_status": "正文明确经过；今旧名按校注订正。",
+      "source": "正文＋校注十一",
+      "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    },
+    {
+      "order": 3,
+      "relative_day": "第2日",
+      "phase": "自行侦探",
+      "from": "langdanggou",
+      "to": "nagongtang",
+      "via": [
+        "nagongshan"
+      ],
+      "event": "翻越原书腊左山后下至平地，再沿小溪到原书腊左；薄暮后在民房投宿。",
+      "evidence_status": "正文明确经过；纳贡山／纳贡塘名称按校注和对应上下文整理。",
+      "source": "正文＋校注十一",
+      "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    },
+    {
+      "order": 4,
+      "relative_day": "第2日夜",
+      "phase": "被俘",
+      "from": "nagongtang",
+      "to": "nagongtang",
+      "event": "投宿后遭藏兵搜捕、受伤并被俘；具体民房、藏身处及受袭点无法定位。",
+      "evidence_status": "正文明确事件；校注将原书腊左对应纳贡塘。",
+      "source": "正文＋校注十一",
+      "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    },
+    {
+      "order": 5,
+      "relative_day": "第2日夜至夜半",
+      "phase": "押送",
+      "from": "nagongtang",
+      "to": "suoluoba",
+      "via": [
+        "jiamuqiao"
+      ],
+      "event": "被俘后被系于马背带走，经过原书并达桥，再沿河至原书林多坝，夜半受讯，后获松绑并在室内休息。",
+      "evidence_status": "正文明确经过桥及到达坝地；今旧名按校注订正。",
+      "source": "正文＋校注十一",
+      "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    },
+    {
+      "order": 6,
+      "relative_day": "第3日早至上午约10时",
+      "phase": "押送",
+      "from": "suoluoba",
+      "to": "enda",
+      "event": "天明后由藏兵扶上马带往恩达，正文记午前十时已到；恩达汛官迎接并导至堪布大营。",
+      "evidence_status": "正文明确实际到达恩达，不能画成只到纳贡塘或纳贡山折返。",
+      "source": "正文",
+      "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    },
+    {
+      "order": 7,
+      "relative_day": "第3日上午至下午约1时",
+      "phase": "获释",
+      "from": "enda",
+      "to": "enda",
+      "event": "与堪布交涉后获准返昌都，获赠物品、马匹并有四名藏兵护送；收拾启程时为午后一时。",
+      "evidence_status": "正文明确地点和时刻；大营建筑与营址未定。",
+      "source": "正文",
+      "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    },
+    {
+      "order": 8,
+      "relative_day": "第3日下午",
+      "phase": "获释返程",
+      "from": "enda",
+      "to": "nagongtang",
+      "event": "归途中再次经过原书腊左，即校注所订纳贡塘。",
+      "evidence_status": "正文明确再次经过纳贡塘；恩达至此之间未逐名重述甲木桥或梭罗坝。",
+      "possible_intermediate_places": [
+        {
+          "id": "suoluoba",
+          "status": "若沿同一旧道返程则可能再次经过；正文返程没有明记该站名，不能列为已逐站证实。"
+        },
+        {
+          "id": "jiamuqiao",
+          "status": "若沿同一旧道返程则可能再次经过；正文返程没有明记该桥名，不能列为已逐站证实。"
+        }
+      ],
+      "source": "正文＋校注十一",
+      "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    },
+    {
+      "order": 9,
+      "relative_day": "第3日下午",
+      "phase": "获释返程",
+      "from": "nagongtang",
+      "to": "langdanggou",
+      "via": [
+        "nagongshan"
+      ],
+      "event": "上原书腊左山、下山至腊左塘；塘房已空，在此遣返护送藏兵。",
+      "evidence_status": "正文明确复经山段和腊左塘；今旧名按校注订正。",
+      "source": "正文＋校注十一",
+      "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    },
+    {
+      "order": 10,
+      "relative_day": "第3日日暮至午夜",
+      "phase": "获释返程",
+      "from": "langdanggou",
+      "to": "chamdo",
+      "via": [
+        "eluoqiao"
+      ],
+      "event": "日暮到俄洛桥后未留宿，继续夜行，正文记晚十二时返抵昌都。",
+      "evidence_status": "正文明确复经俄洛桥并返抵昌都。",
+      "source": "正文",
+      "source_url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    }
+  ],
+  "distance_claims": [
+    {
+      "source": "校注十一",
+      "from": "enda",
+      "to": "suoluoba",
+      "via": [],
+      "original_li": "十余里",
+      "note": "校注从恩达沿河向东叙述。"
+    },
+    {
+      "source": "校注十一",
+      "from": "suoluoba",
+      "to": "jiamuqiao",
+      "via": [],
+      "original_li": "数里",
+      "note": "与正文被俘后该段十余里的记述有差异，分别保留。"
+    },
+    {
+      "source": "校注十一",
+      "from": "jiamuqiao",
+      "to": "nagongtang",
+      "via": [],
+      "original_li": "十里",
+      "note": "校注依次向东的下一段。"
+    },
+    {
+      "source": "校注十一",
+      "from": "nagongtang",
+      "to": "langdanggou",
+      "via": [
+        "nagongshan"
+      ],
+      "original_li": "约四十里",
+      "note": "经翻山的整体段落，不是纳贡山的垂直高差。"
+    },
+    {
+      "source": "校注十一",
+      "from": "langdanggou",
+      "to": "chamdo",
+      "via": [
+        "eluoqiao"
+      ],
+      "original_li": "六十里",
+      "note": "浪荡沟经俄洛桥至昌都的合计，不把桥前后各赋六十里。"
+    },
+    {
+      "source": "正文",
+      "from": "正文另提西藏桥（未定位）",
+      "to": "群鸦惊马处（未定位）",
+      "via": [],
+      "original_li": "三里许",
+      "note": "叙事相对位置，不为该事件另造坐标。"
+    },
+    {
+      "source": "正文",
+      "from": "chamdo",
+      "to": "eluoqiao",
+      "via": [],
+      "original_li": "三十里",
+      "note": "该句位于出昌都及群鸦事件之后，按本段行程通常理解为昌都至俄洛桥；具体量程起算点未另明，不与前句三里机械相加。"
+    },
+    {
+      "source": "正文",
+      "from": "eluoqiao",
+      "to": "langdanggou",
+      "via": [],
+      "original_li": "三十里",
+      "note": "次晨行至原书腊左塘，按校注名为浪荡沟。"
+    },
+    {
+      "source": "正文",
+      "from": "langdanggou",
+      "to": "nagongshan山巅（具体山口未定位）",
+      "via": [],
+      "original_li": "十余里",
+      "note": "原文以山高十余里描述登山过程；不当作已测垂直高差或现代道路长度。"
+    },
+    {
+      "source": "正文",
+      "from": "nagongshan山巅（具体山口未定位）",
+      "to": "下山平地（未定位）",
+      "via": [],
+      "original_li": "约八九里",
+      "note": "下山过程中的原述距离。"
+    },
+    {
+      "source": "正文",
+      "from": "下山平地（未定位）",
+      "to": "nagongtang",
+      "via": [],
+      "original_li": "二三里",
+      "note": "沿小溪抵原书腊左。"
+    },
+    {
+      "source": "正文",
+      "from": "nagongtang",
+      "to": "jiamuqiao",
+      "via": [],
+      "original_li": "十余里",
+      "note": "被俘后月夜押送段，非自行侦探段。"
+    },
+    {
+      "source": "正文",
+      "from": "jiamuqiao",
+      "to": "suoluoba",
+      "via": [],
+      "original_li": "十余里",
+      "note": "过桥后沿河到原书林多坝；与校注的数里分别保留，不取平均。"
+    },
+    {
+      "source": "正文",
+      "from": "suoluoba",
+      "to": "enda",
+      "via": [],
+      "original_li": "二十余里",
+      "note": "被俘后翌晨赴恩达段；与校注相应十余里有差异。"
+    }
+  ],
+  "distance_policy": "original_li均保留原文里数表述，不乘0.5换算km，不据里数插值经纬度，不据此复原精确旧道。现代已核实代表点间直距可另算km，但必须与这些原述里数分栏。",
+  "timing_claims": [
+    {
+      "id": "outing_total_inferred",
+      "source": "正文相对分日整理",
+      "from": "chamdo",
+      "to": "chamdo",
+      "via": [
+        "eluoqiao",
+        "langdanggou",
+        "nagongshan",
+        "nagongtang",
+        "jiamuqiao",
+        "suoluoba",
+        "enda"
+      ],
+      "time": "往返约3日、2夜",
+      "status": "推算",
+      "basis": "依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。"
+    },
+    {
+      "id": "eluoqiao_first_night",
+      "source": "正文",
+      "place": "eluoqiao",
+      "time": "首晚留宿；次晨出发",
+      "status": "正文明确",
+      "basis": "俄洛桥哨营款待后留宿，随后明确次晨再行。"
+    },
+    {
+      "id": "suoluoba_detention_night",
+      "source": "正文",
+      "place": "suoluoba",
+      "time": "夜半到达；天明后赴恩达",
+      "status": "正文明确",
+      "basis": "被俘后夜半到原书林多坝，在此受讯、松绑并短暂休息。"
+    },
+    {
+      "id": "enda_arrival_clock",
+      "source": "正文",
+      "place": "enda",
+      "time": "午前十时",
+      "status": "正文明确",
+      "basis": "该时刻为上午到恩达的叙述，不是耗时十小时。"
+    },
+    {
+      "id": "enda_return_departure_clock",
+      "source": "正文",
+      "place": "enda",
+      "time": "午后一时",
+      "status": "正文明确",
+      "basis": "收拾离开恩达返昌都时的叙述时刻。"
+    },
+    {
+      "id": "chamdo_return_clock",
+      "source": "正文",
+      "place": "chamdo",
+      "time": "晚十二时",
+      "status": "正文明确",
+      "basis": "经俄洛桥后继续夜行返抵昌都。可同时列离恩达与抵昌都时刻，不把二者时差当作无停歇行军实测。"
+    },
+    {
+      "id": "tibetan_troop_withdrawal_promise",
+      "source": "正文",
+      "from": "enda",
+      "to": null,
+      "time": "三日为期撤退藏兵",
+      "status": "撤兵承诺，非陈的行程耗时",
+      "basis": "堪布许诺的撤兵期限；不能当作陈探险三日或任一相邻站行程时间，与校注十卡工以西需野宿三日亦属不同事项。"
+    },
+    {
+      "id": "historic_post_stage_count",
+      "source": "校注十一",
+      "from": "chamdo",
+      "to": "enda",
+      "time": null,
+      "status": "驿站分段数，非耗时",
+      "original_post_stages": "两站",
+      "basis": "旧作两站不能直接理解为两日，也不能按现代距离平均分配为两个站点坐标。"
+    }
+  ],
+  "height_claims": [
+    {
+      "source": "校注十一",
+      "place": "nagongshan",
+      "original_height": "四千余米",
+      "status": "校注描述；未核对具体山峰／垭口及现代高程",
+      "note": "不把正文登山十余里转换为该山的垂直高差。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "《艽野尘梦》第二章腊左探险、任乃强校注十一及十二（公开转录）",
+      "url": "https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    },
+    {
+      "title": "公开文本仓库入口",
+      "url": "https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"
+    }
+  ]
+}

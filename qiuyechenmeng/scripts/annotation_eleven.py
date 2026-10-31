@@ -1,0 +1,138 @@
+"""Annotation 11: known geographic references and a separate, non-metric topology."""
+from pathlib import Path
+import csv
+import html
+import json
+import math
+
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT/'data/annotation11'
+
+
+def load():
+    cfg=json.loads((DATA/'校注十一地图核对.json').read_text())
+    text=json.loads((DATA/'探险文字核对.json').read_text())
+    scan=json.loads((DATA/'书图识读.json').read_text())
+    return cfg,text,scan,{p['id']:p for p in cfg['places']}
+
+
+def km(a,b):
+    x1,y1,x2,y2=map(math.radians,[a['lon'],a['lat'],b['lon'],b['lat']])
+    h=math.sin((y2-y1)/2)**2+math.cos(y1)*math.cos(y2)*math.sin((x2-x1)/2)**2
+    return 6371.0088*2*math.asin(min(1,math.sqrt(h)))
+
+
+def label(value,places):
+    if value in places: return places[value]['name']
+    for key in sorted(places,key=len,reverse=True):
+        value=value.replace(key,places[key]['name'])
+    return value
+
+
+def paragraph(text):
+    return '<p>'+html.escape(text)+'</p>'
+
+
+def distance_body(cfg,text,places):
+    body='<h3>距离：原书里数与现代直距分栏</h3>'+paragraph(cfg['distance_policy'])
+    for claim in text['distance_claims']:
+        via=('（经'+'、'.join(label(v,places) for v in claim['via'])+'）') if claim['via'] else ''
+        body+=paragraph(claim['source']+'：'+label(claim['from'],places)+' → '+label(claim['to'],places)+via+'｜'+claim['original_li']+'。'+claim['note'])
+    body+='<h3>现代地区代表点间直距（km）</h3>'
+    for a,b in cfg['known_distance_pairs']:
+        body+=paragraph(places[a]['name']+' → '+places[b]['name']+f'：约{km(places[a],places[b]):.0f} km。')
+    return body+paragraph('这些km只用于位置比较，不是古道里程，不计入全书实走总程。未知旧地名的km与经纬度留空。')
+
+
+def overview(cfg,text,scan,places):
+    body='<h3>校注十一与书中略图：昌都—恩达</h3>'+paragraph(cfg['claim'])
+    body+=paragraph('书图地点顺序：'+' → '.join(places[p]['name'] for p in cfg['main_sequence']))
+    body+=paragraph('腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。')
+    body+=paragraph(cfg['method'])
+    body+='<h3>桥名图文差异</h3>'+paragraph(cfg['bridge_conflict'])
+    total=next(t for t in text['timing_claims'] if t['id']=='outing_total_inferred')
+    body+='<h3>耗时</h3>'+paragraph(total['time']+'〔推算〕。'+total['basis'])
+    body+=paragraph('第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。')
+    body+='<h3>书图与现代地图的关系</h3>'+paragraph(cfg['first_map_note'])
+    body+=paragraph('14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。')
+    body+='<h3>依据</h3>'
+    for s in cfg['sources']:
+        name=html.escape(s['title'])
+        if s['url']: name='<a href="'+html.escape(s['url'],quote=True)+'">'+name+'</a>'
+        body+='<p>'+name+'<br/>'+html.escape(s['use'])+'</p>'
+    return body
+
+
+def unlocated_entries():
+    cfg,_,_,_=load()
+    return [('第2章；校注十一及书图',p['name']+('／'+'／'.join(p['aliases']) if p['aliases'] else ''),p['status']+'。'+p['role']) for p in cfg['places'] if not p['mapped']]
+
+
+def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
+    cfg,text,scan,places=load();body=overview(cfg,text,scan,places)
+    top=el(doc,'Folder',id='annotation11');el(top,'name','14 腊左探险｜校注十一与书中略图');el(top,'open',1);el(top,'description',body)
+    view(top,96.92,31.16,155000)
+    intro=el(top,'Folder',id='annotation11_intro');el(intro,'name','14A 核对总览｜确曾抵达恩达，桥名保留图文差异');el(intro,'open',1)
+    p=el(intro,'Placemark',id='annotation11_overview');el(p,'name','昌都—恩达探险｜约3日2夜〔分日推算〕');el(p,'description',body);view(p,96.92,31.16,155000)
+    ordered=el(top,'Folder',id='annotation11_places');el(ordered,'name','14B 书图地点顺序｜未定位者仅有文字条目');el(ordered,'open',0)
+    extras=el(top,'Folder',id='annotation11_context');el(extras,'name','14C 书图旁支、事件与山河背景｜不强接主链');el(extras,'open',0)
+    order={key:i+1 for i,key in enumerate(cfg['main_sequence'])}
+    for item in cfg['places']:
+        key=item['id'];parent=ordered if key in order else extras
+        p=el(parent,'Placemark',id='annotation11_place_'+key)
+        prefix=f'{order[key]:02d} ' if key in order else ''
+        el(p,'name',prefix+item['name']+('〔现代地区参照〕' if item['mapped'] else '【无坐标】'))
+        detail='<h3>'+html.escape(item['name'])+'</h3>'
+        if item['aliases']: detail+=paragraph('别名／正文原名：'+'、'.join(item['aliases']))
+        detail+=paragraph('定位性质：'+item['status'])+paragraph(item['role'])
+        if item['mapped']:
+            detail+=paragraph('沿用的现代定位对象：'+item['modern']+f'。经度{item["lon"]}，纬度{item["lat"]}；不是旧桥、营地或汛署确址。')
+            detail+='<p><a href="'+html.escape(item['coordinate_source'],quote=True)+'">现代坐标来源</a></p>'
+        else:
+            detail+=paragraph('没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。')
+        for claim in text['distance_claims']:
+            if key in [claim['from'],claim['to'],*claim['via']]:
+                detail+=paragraph(claim['source']+'：'+label(claim['from'],places)+' → '+label(claim['to'],places)+'｜'+claim['original_li']+'。'+claim['note'])
+        detail+=body
+        el(p,'description',detail)
+        view(p,item['lon'] if item['mapped'] else 96.92,item['lat'] if item['mapped'] else 31.16,70000 if item['mapped'] else 155000)
+        if item['mapped'] and include_anchors:
+            el(p,'styleUrl','#minor_reference');point=el(p,'Point');el(point,'altitudeMode','clampToGround');el(point,'coordinates',f'{item["lon"]},{item["lat"]},0')
+    notes=el(top,'Folder');el(notes,'name','14D 原书里数、直距km与行程分日');el(notes,'open',0)
+    p=el(notes,'Placemark',id='annotation11_distances');el(p,'name','里数分源保留；现代起讫直距约'+f'{km(places["chamdo"],places["enda"]):.0f}'+' km');el(p,'description',distance_body(cfg,text,places));view(p,96.92,31.16,155000)
+    for i,event in enumerate(text['chronology']):
+        p=el(notes,'Placemark',id='annotation11_time_'+str(i));el(p,'name',f'{i+1:02d} '+event['relative_day']+'｜'+event['phase']);el(p,'description',paragraph(event['event'])+paragraph(event['evidence_status']))
+    p=el(notes,'Placemark');el(p,'name','“旧作两站”及“三日撤兵”不能当行军用时');el(p,'description',paragraph(text['timing_claims'][-1]['basis'])+paragraph(next(t['basis'] for t in text['timing_claims'] if t['id']=='tibetan_troop_withdrawal_promise')))
+    evidence=el(top,'Folder');el(evidence,'name','14E 两张书图原件与识读限制');el(evidence,'open',0)
+    for i,source in enumerate(cfg['scans']):
+        p=el(evidence,'Placemark',id='annotation11_scan_'+str(i));el(p,'name',source['title'])
+        src='data/annotation11/'+source['file']
+        text_body=paragraph(cfg['first_map_note'] if i==0 else '原照片侧置，已另附可转正阅读的HTML对读页。两图无可靠经纬网及比例尺，均未作地理配准。')
+        text_body+='<p><img style="max-width:100%;height:auto" src="'+src+'" alt="'+html.escape(source['title'],quote=True)+'"/></p>'
+        text_body+=paragraph('图片无法显示时，可查看本地昌都恩达_校注十一对读.html及data/annotation11/scans/原图。')
+        el(p,'description',text_body+body);view(p,96.92,31.16,155000)
+    return cfg
+
+
+def write_annotation11_indexes():
+    cfg,text,scan,places=load()
+    with (ROOT/'昌都恩达_校注十一地名.csv').open('w',encoding='utf-8-sig',newline='') as f:
+        writer=csv.writer(f,lineterminator='\n');writer.writerow(['ID','书图主链顺序','名称','别名／正文原名','定位性质','现代参照经度','现代参照纬度','人物／路径性质','坐标来源'])
+        for p in cfg['places']:
+            writer.writerow([p['id'],cfg['main_sequence'].index(p['id'])+1 if p['id'] in cfg['main_sequence'] else '',p['name'],'；'.join(p['aliases']),p['status'],p.get('lon',''),p.get('lat',''),p['role'],p.get('coordinate_source','')])
+    with (ROOT/'昌都恩达_校注十一距离耗时.csv').open('w',encoding='utf-8-sig',newline='') as f:
+        writer=csv.writer(f,lineterminator='\n');writer.writerow(['类别','依据','起点','终点','经由','原书里数','现代直距_km','耗时或时刻','性质与限制'])
+        for d in text['distance_claims']:
+            writer.writerow(['原书距离',d['source'],label(d['from'],places),label(d['to'],places),'；'.join(label(v,places) for v in d['via']),d['original_li'],'','',d['note']])
+        for a,b in cfg['known_distance_pairs']:
+            writer.writerow(['现代代表点直距','既有地区坐标',places[a]['name'],places[b]['name'],'','',round(km(places[a],places[b])),'',cfg['distance_policy']])
+        for t in text['timing_claims']:
+            writer.writerow(['耗时／时刻',t['source'],label(t.get('from') or t.get('place',''),places),label(t.get('to') or '',places),'','','',t.get('time') or t.get('original_post_stages'),t['status']+'；'+t['basis']])
+    notes='校注十一与书图地图校对\n核对日期：'+cfg['checked_at']+'\n\n'+cfg['claim']+'\n\n'
+    notes+='主链（书图顺序，不编码地理距离）\n'+' → '.join(places[p]['name'] for p in cfg['main_sequence'])+'\n\n'
+    notes+=cfg['method']+'\n\n'+cfg['bridge_conflict']+'\n\n'+cfg['first_map_note']+'\n\n'+cfg['distance_policy']+'\n\n'
+    for p in cfg['places']: notes+=p['name']+'｜'+p['status']+'\n'+p['role']+'\n\n'
+    notes+='行程分日\n'+'\n'.join(t['relative_day']+'｜'+t['phase']+'：'+t['event']+' '+t['evidence_status'] for t in text['chronology'])+'\n\n'
+    notes+='完整阅读地图已含14层。独立艽野尘梦_腊左探险校对.kmz另含三个现代参照点，供单独查看；不要与完整版重复显示这三个点。\n昌都恩达_校注十一顺序图.svg与对读HTML为非地理配准的顺序图；原书照片原字节保存在data/annotation11/scans/。\n\n'
+    notes+='来源\n'+'\n\n'.join(s['title']+'\n'+s['use']+'\n'+s['url'] for s in cfg['sources'])+'\n'
+    (ROOT/'校注十一地图校对说明.txt').write_text(notes)

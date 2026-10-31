@@ -42,7 +42,7 @@
     <Folder id="minor_folder">
       <name>08 小地名补充｜1处（含区域参照）</name>
       <open>1</open>
-      <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位。腊左探险中间地名仍待考，不按里数造点。]]></description>
+      <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。]]></description>
       <LookAt>
         <longitude>98.5810914</longitude>
         <latitude>31.8175808</latitude>

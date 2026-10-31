@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document id="qiuyechenmeng">
-    <name>《艽野尘梦》阅读地图｜校注十路线校对版</name>
+    <name>《艽野尘梦》阅读地图｜校注十一与书图校对版</name>
     <open>1</open>
     <description><![CDATA[32个主要地点及参照点，另补10处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
 小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
@@ -1191,7 +1191,7 @@
       </Placemark>
       <Placemark>
         <name>各段耗时总览｜不能全部相加</name>
-        <description><![CDATA[<p>原文日期保留农历；约数、推算和正文与校注分歧分别标明。北返223日是江达到丹噶尔全段，不等于连续断粮或全在无人区。内部16日、5日等均包含在总段内。时间未明的地点不按距离猜测。</p><h3>行程与耗时</h3><p><b>成都启程：1909年农历七月既望</b><br/>原文日期。总叙：宣统元年秋七月既望；不换算公历日期。</p><p><b>成都 → 雅州：4日</b><br/>原文明记。第1章：自成都四日而至雅州。</p><p><b>雅州 → 泸定桥：6日</b><br/>原文明记。第1章过大相、飞越诸岭后记行六日抵泸定桥。</p><p><b>泸定桥 → 打箭炉：2日</b><br/>原文明记。第1章：又行二日至打箭炉。</p><p><b>打箭炉整备：约10日</b><br/>原文约数合并。第1章待命约一周、再准备三日；属于驻留，不是行军。</p><p><b>折多塘 → 甘孜一带：20余日</b><br/>原文回忆约数。第1章：此二十余日中。属于康定至昌都的大段，不能重复累加。</p><p><b>打箭炉 → 昌都：正文记50余日，校注存疑</b><br/>正文与校注意见不同。第1章记五十余日。校注10认为常规17日，加渡河停留约23—30日，疑有稽延或误记。校注是另一估计，不能拼成23—50日的可靠范围。</p><p><b>卡工以西 → 昌都〔校注十补述〕：需野宿三日</b><br/>校注路程与宿营条件说明；非正文实测。“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p><b>恩达北进、经类乌齐 → 三十九族境内：20余日（精确起算未另明）</b><br/>原文约数。第3章先记自恩达北进，叙类乌齐后记行二十余日到三十九族境内；不独断为类乌齐起算，包含于恩达至拉里月余段，不重复累加。</p><p><b>恩达 → 拉里／嘉黎：月余</b><br/>原文约数。第3章：由恩达北行月余，抵拉里为农历腊月二十八。</p><p><b>拉里 → 凝多 → 江达：约3日</b><br/>原文分日合并。第3章两日至凝多，翌日抵江达；并非含后续驻留的总时间。</p><p><b>江达首次驻留：约20日</b><br/>原文约数释义。第3章一驻兼旬；与后来北返出发分开。</p><p><b>工布安抚：约2个月</b><br/>原文约数。第4章历时两月；并不等于整个工布驻防时长，可能与后续活动叙事交叠。</p><p><b>脚木宗驻留：半月</b><br/>原文约数。第4章；地点未精确定位，保留文字条目。</p><p><b>脚木宗 → 窝冗噶伽：4日</b><br/>原文明记。第4章。</p><p><b>窝冗噶伽办理事务：2个月</b><br/>原文约数。第4章；为驻留办事，不是行军。</p><p><b>窝冗噶伽—德摩的相对程距：校注称四日程；正文另有绕行</b><br/>校注程距，非连续实走耗时。校注27称两地相距四日程；正文绕行六日访野番后，又行四日至德摩，随后驻月余，不把绕行省略为直接四日。</p><p><b>鲁朗等待援军：约1个月</b><br/>原文约数。第6章一住经月。</p><p><b>第6章越山至通麦附近：约3日</b><br/>原文明记。部队穷三日之力。另一处负重商旅需六日是一般路程说明，不是本队实际耗时。</p><p><b>通麦渡桥：全营约3日</b><br/>原文明记。第6章全营三日方渡毕；不是作者个人攀桥所需时间。</p><p><b>北返：江达 → 丹噶尔厅：223日，约7个多月</b><br/>作者自计总耗时。第12章：农历冬月十一出发，六月二十四到丹噶尔，自计二百二十三日。包含途中行走、停留及后段有居民区，不能写成连续断粮或全在无人区223日。</p><p><b>凝多北行 → 哈喇乌苏：7日</b><br/>原文明记。第8章起算点为凝多北行，不是从江达启程。</p><p><b>得猎户相助后 → 柴达木：16日</b><br/>原文明记。第11章行十六日至柴达木；该16日属于北返223日总段内。地名对应格尔木为校注推定。</p><p><b>穿过盐淖：5日</b><br/>原文明记。第11章；盐淖具体范围未确定，不据此造路线。</p><p><b>沿青海湖南岸行进：约2日</b><br/>原文明记。第11章二日海尽；不是环湖一圈，点标在湖面仅作区域参照。</p><p><b>日月山后 → 丹噶尔：2日（另有下山当天行程）</b><br/>原文明记。第11章下山止宿后再行两日至丹噶尔；不把整段翻越日月山写成仅2日。</p><p><b>北返抵丹噶尔：江达起223日；农历六月二十四到达</b><br/>作者自计总耗时与日期。第12章。与江达处标注为同一大段，不能相加。</p><p><b>丹噶尔驻留：7日</b><br/>原文明记。第12章制备衣物期间。</p><p><b>丹噶尔 → 西宁：未明记日数</b><br/>原文无明确耗时。第12章只记九十里，不按距离猜成1日。</p><p><b>西宁驻留：3日</b><br/>原文明记。第12章住西宁三日始行。</p><p><b>西宁 → 兰州：6日；兰州驻留日数未明</b><br/>原文明记。第12章乘骡车行六日始至。</p><p><b>分州 → 长安：7日；不是兰州至西安全程</b><br/>原文明记。第12章在分州过农历八月中旬节日，次晨启程，七日至长安。</p><p><b>西安停留：约2—3个月</b><br/>据叙事粗略推算。农历八月中旬在分州，随后七日至长安，叙事至冬月。非作者明记连续天数，不据此计算精确抵达或离开日。</p><h3>资料</h3><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注</a><br/><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">原文在线对读</a><br/><a href="https://weread.qq.com/web/reader/c04325905e47adc0457d4a9">微信读书版本与目录</a><br/><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">旧驿道与长坝春考证</a><br/><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">江达与太昭考证</a><br/><a href="https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html">鲁朗镇治迁移</a><br/><a href="https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf">江巴村地理参照</a><br/><a href="https://www.kangding.gov.cn/gsgg/article/569153">江巴村现行政归属核查</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">恩达与瓦合山旧驿道</a><br/><a href="https://developers.google.com/kml/documentation/kmlreference">KML格式规范</a>]]></description>
+        <description><![CDATA[<p>原文日期保留农历；约数、推算和正文与校注分歧分别标明。北返223日是江达到丹噶尔全段，不等于连续断粮或全在无人区。内部16日、5日等均包含在总段内。时间未明的地点不按距离猜测。</p><h3>行程与耗时</h3><p><b>成都启程：1909年农历七月既望</b><br/>原文日期。总叙：宣统元年秋七月既望；不换算公历日期。</p><p><b>成都 → 雅州：4日</b><br/>原文明记。第1章：自成都四日而至雅州。</p><p><b>雅州 → 泸定桥：6日</b><br/>原文明记。第1章过大相、飞越诸岭后记行六日抵泸定桥。</p><p><b>泸定桥 → 打箭炉：2日</b><br/>原文明记。第1章：又行二日至打箭炉。</p><p><b>打箭炉整备：约10日</b><br/>原文约数合并。第1章待命约一周、再准备三日；属于驻留，不是行军。</p><p><b>折多塘 → 甘孜一带：20余日</b><br/>原文回忆约数。第1章：此二十余日中。属于康定至昌都的大段，不能重复累加。</p><p><b>打箭炉 → 昌都：正文记50余日，校注存疑</b><br/>正文与校注意见不同。第1章记五十余日。校注10认为常规17日，加渡河停留约23—30日，疑有稽延或误记。校注是另一估计，不能拼成23—50日的可靠范围。</p><p><b>卡工以西 → 昌都〔校注十补述〕：需野宿三日</b><br/>校注路程与宿营条件说明；非正文实测。“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p><b>恩达北进、经类乌齐 → 三十九族境内：20余日（精确起算未另明）</b><br/>原文约数。第3章先记自恩达北进，叙类乌齐后记行二十余日到三十九族境内；不独断为类乌齐起算，包含于恩达至拉里月余段，不重复累加。</p><p><b>恩达 → 拉里／嘉黎：月余</b><br/>原文约数。第3章：由恩达北行月余，抵拉里为农历腊月二十八。</p><p><b>拉里 → 凝多 → 江达：约3日</b><br/>原文分日合并。第3章两日至凝多，翌日抵江达；并非含后续驻留的总时间。</p><p><b>江达首次驻留：约20日</b><br/>原文约数释义。第3章一驻兼旬；与后来北返出发分开。</p><p><b>工布安抚：约2个月</b><br/>原文约数。第4章历时两月；并不等于整个工布驻防时长，可能与后续活动叙事交叠。</p><p><b>脚木宗驻留：半月</b><br/>原文约数。第4章；地点未精确定位，保留文字条目。</p><p><b>脚木宗 → 窝冗噶伽：4日</b><br/>原文明记。第4章。</p><p><b>窝冗噶伽办理事务：2个月</b><br/>原文约数。第4章；为驻留办事，不是行军。</p><p><b>窝冗噶伽—德摩的相对程距：校注称四日程；正文另有绕行</b><br/>校注程距，非连续实走耗时。校注27称两地相距四日程；正文绕行六日访野番后，又行四日至德摩，随后驻月余，不把绕行省略为直接四日。</p><p><b>鲁朗等待援军：约1个月</b><br/>原文约数。第6章一住经月。</p><p><b>第6章越山至通麦附近：约3日</b><br/>原文明记。部队穷三日之力。另一处负重商旅需六日是一般路程说明，不是本队实际耗时。</p><p><b>通麦渡桥：全营约3日</b><br/>原文明记。第6章全营三日方渡毕；不是作者个人攀桥所需时间。</p><p><b>北返：江达 → 丹噶尔厅：223日，约7个多月</b><br/>作者自计总耗时。第12章：农历冬月十一出发，六月二十四到丹噶尔，自计二百二十三日。包含途中行走、停留及后段有居民区，不能写成连续断粮或全在无人区223日。</p><p><b>凝多北行 → 哈喇乌苏：7日</b><br/>原文明记。第8章起算点为凝多北行，不是从江达启程。</p><p><b>得猎户相助后 → 柴达木：16日</b><br/>原文明记。第11章行十六日至柴达木；该16日属于北返223日总段内。地名对应格尔木为校注推定。</p><p><b>穿过盐淖：5日</b><br/>原文明记。第11章；盐淖具体范围未确定，不据此造路线。</p><p><b>沿青海湖南岸行进：约2日</b><br/>原文明记。第11章二日海尽；不是环湖一圈，点标在湖面仅作区域参照。</p><p><b>日月山后 → 丹噶尔：2日（另有下山当天行程）</b><br/>原文明记。第11章下山止宿后再行两日至丹噶尔；不把整段翻越日月山写成仅2日。</p><p><b>北返抵丹噶尔：江达起223日；农历六月二十四到达</b><br/>作者自计总耗时与日期。第12章。与江达处标注为同一大段，不能相加。</p><p><b>丹噶尔驻留：7日</b><br/>原文明记。第12章制备衣物期间。</p><p><b>丹噶尔 → 西宁：未明记日数</b><br/>原文无明确耗时。第12章只记九十里，不按距离猜成1日。</p><p><b>西宁驻留：3日</b><br/>原文明记。第12章住西宁三日始行。</p><p><b>西宁 → 兰州：6日；兰州驻留日数未明</b><br/>原文明记。第12章乘骡车行六日始至。</p><p><b>分州 → 长安：7日；不是兰州至西安全程</b><br/>原文明记。第12章在分州过农历八月中旬节日，次晨启程，七日至长安。</p><p><b>西安停留：约2—3个月</b><br/>据叙事粗略推算。农历八月中旬在分州，随后七日至长安，叙事至冬月。非作者明记连续天数，不据此计算精确抵达或离开日。</p><p><b>第2章腊左探险：昌都 → 恩达 → 昌都：往返约3日、2夜（相对分日推算）</b><br/>正文分日整理推算。首夜宿俄洛桥，次日翻纳贡山至纳贡塘被俘，夜半到梭罗坝；第三日午前十时到恩达，午后一时启返，晚十二时回昌都。不是作者自计三日；堪布三日撤兵承诺、校注十卡工以西野宿三日是其他事项，不相加。不据时刻差当作无停歇行军实测。</p><h3>资料</h3><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注</a><br/><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">原文在线对读</a><br/><a href="https://weread.qq.com/web/reader/c04325905e47adc0457d4a9">微信读书版本与目录</a><br/><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">旧驿道与长坝春考证</a><br/><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">江达与太昭考证</a><br/><a href="https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html">鲁朗镇治迁移</a><br/><a href="https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf">江巴村地理参照</a><br/><a href="https://www.kangding.gov.cn/gsgg/article/569153">江巴村现行政归属核查</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">恩达与瓦合山旧驿道</a><br/><a href="https://developers.google.com/kml/documentation/kmlreference">KML格式规范</a>]]></description>
       </Placemark>
       <Placemark>
         <name>距离总览｜km，直线近似，非实走</name>
@@ -1987,7 +1987,7 @@
         <name>13 察木多 → 昌都｜炉城起50余日＊存疑；康定直距约475 km</name>
         <visibility>1</visibility>
         <Snippet maxLines="2">正文记50余日，校注存疑 · 第1—3章 · 对应较明确</Snippet>
-        <description><![CDATA[<h3>行程与耗时</h3><p><b>打箭炉 → 昌都：正文记50余日，校注存疑</b><br/>正文与校注意见不同。第1章记五十余日。校注10认为常规17日，加渡河停留约23—30日，疑有稽延或误记。校注是另一估计，不能拼成23—50日的可靠范围。</p><p><b>卡工以西 → 昌都〔校注十补述〕：需野宿三日</b><br/>校注路程与宿营条件说明；非正文实测。“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><h3>距离（km）</h3><p><b>昌都市江达县同普乡地区 → 昌都老城、强巴林寺一带：直线约 125 km</b><br/>相邻示意节点</p><p><b>昌都老城、强巴林寺一带 → 类乌齐旧寺镇：直线约 69 km</b><br/>相邻示意节点</p><p><b>康定老城区一带 → 昌都老城、强巴林寺一带：直线约 475 km</b><br/>康定至昌都起讫直线，不含绕行</p><p>代表点之间的球面近似直线距离，按平均地球半径6371.0088 km计算，取整。不是历史实走里程、现代公路里程或虚线短笔画长度；不确定位置会影响距离，不能当导航数据。</p><h3>13 察木多 → 昌都</h3><p><b>今名／定位对象：</b>昌都老城、强巴林寺一带<br/><b>对应章节：</b>第1—3章<br/><b>定位性质：</b>对应较明确<br/><b>经纬度：</b>97.1779°E, 31.1435°N</p><p>用强巴林寺定位昌都老城，非作者营房遗址。第2章腊左探险支线未精确复原。</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">地名与行程：原文、校注</a><br/><a href="https://zh.wikipedia.org/wiki/强巴林寺">坐标参照</a></p>]]></description>
+        <description><![CDATA[<h3>行程与耗时</h3><p><b>打箭炉 → 昌都：正文记50余日，校注存疑</b><br/>正文与校注意见不同。第1章记五十余日。校注10认为常规17日，加渡河停留约23—30日，疑有稽延或误记。校注是另一估计，不能拼成23—50日的可靠范围。</p><p><b>卡工以西 → 昌都〔校注十补述〕：需野宿三日</b><br/>校注路程与宿营条件说明；非正文实测。“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p><b>第2章腊左探险：昌都 → 恩达 → 昌都：往返约3日、2夜（相对分日推算）</b><br/>正文分日整理推算。首夜宿俄洛桥，次日翻纳贡山至纳贡塘被俘，夜半到梭罗坝；第三日午前十时到恩达，午后一时启返，晚十二时回昌都。不是作者自计三日；堪布三日撤兵承诺、校注十卡工以西野宿三日是其他事项，不相加。不据时刻差当作无停歇行军实测。</p><h3>距离（km）</h3><p><b>昌都市江达县同普乡地区 → 昌都老城、强巴林寺一带：直线约 125 km</b><br/>相邻示意节点</p><p><b>昌都老城、强巴林寺一带 → 类乌齐旧寺镇：直线约 69 km</b><br/>相邻示意节点</p><p><b>康定老城区一带 → 昌都老城、强巴林寺一带：直线约 475 km</b><br/>康定至昌都起讫直线，不含绕行</p><p>代表点之间的球面近似直线距离，按平均地球半径6371.0088 km计算，取整。不是历史实走里程、现代公路里程或虚线短笔画长度；不确定位置会影响距离，不能当导航数据。</p><h3>13 察木多 → 昌都</h3><p><b>今名／定位对象：</b>昌都老城、强巴林寺一带<br/><b>对应章节：</b>第1—3章<br/><b>定位性质：</b>对应较明确<br/><b>经纬度：</b>97.1779°E, 31.1435°N</p><p>用强巴林寺定位昌都老城，非作者营房遗址。第2章腊左探险确曾抵达恩达；14层按校注十一与书图补地点顺序和被俘、押送、获释过程，中间旧地名确址仍待考。</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">地名与行程：原文、校注</a><br/><a href="https://zh.wikipedia.org/wiki/强巴林寺">坐标参照</a></p>]]></description>
         <LookAt>
           <longitude>97.1779</longitude>
           <latitude>31.1435</latitude>
@@ -2018,13 +2018,13 @@
             <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
           </Data>
           <Data name="note">
-            <value>用强巴林寺定位昌都老城，非作者营房遗址。第2章腊左探险支线未精确复原。</value>
+            <value>用强巴林寺定位昌都老城，非作者营房遗址。第2章腊左探险确曾抵达恩达；14层按校注十一与书图补地点顺序和被俘、押送、获释过程，中间旧地名确址仍待考。</value>
           </Data>
           <Data name="travel_time">
-            <value>打箭炉 → 昌都：正文记50余日，校注存疑；卡工以西 → 昌都〔校注十补述〕：需野宿三日</value>
+            <value>打箭炉 → 昌都：正文记50余日，校注存疑；卡工以西 → 昌都〔校注十补述〕：需野宿三日；第2章腊左探险：昌都 → 恩达 → 昌都：往返约3日、2夜（相对分日推算）</value>
           </Data>
           <Data name="timing_basis">
-            <value>正文与校注意见不同：第1章记五十余日。校注10认为常规17日，加渡河停留约23—30日，疑有稽延或误记。校注是另一估计，不能拼成23—50日的可靠范围。；校注路程与宿营条件说明；非正文实测：“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</value>
+            <value>正文与校注意见不同：第1章记五十余日。校注10认为常规17日，加渡河停留约23—30日，疑有稽延或误记。校注是另一估计，不能拼成23—50日的可靠范围。；校注路程与宿营条件说明；非正文实测：“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。；正文分日整理推算：首夜宿俄洛桥，次日翻纳贡山至纳贡塘被俘，夜半到梭罗坝；第三日午前十时到恩达，午后一时启返，晚十二时回昌都。不是作者自计三日；堪布三日撤兵承诺、校注十卡工以西野宿三日是其他事项，不相加。不据时刻差当作无停歇行军实测。</value>
           </Data>
           <Data name="distance_km">
             <value>昌都市江达县同普乡地区→昌都老城、强巴林寺一带 直线约125 km；昌都老城、强巴林寺一带→类乌齐旧寺镇 直线约69 km；康定老城区一带→昌都老城、强巴林寺一带 直线约475 km</value>
@@ -3329,27 +3329,27 @@
         <range>1000000</range>
         <altitudeMode>clampToGround</altitudeMode>
       </LookAt>
-      <Placemark id="unlocated_16">
+      <Placemark id="unlocated_11">
         <name>凝多／凝多塘【未定位】</name>
         <description><![CDATA[<h3>凝多／凝多塘</h3><p>第8章。北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_17">
+      <Placemark id="unlocated_12">
         <name>哈喇乌苏【未定位】</name>
         <description><![CDATA[<h3>哈喇乌苏</h3><p>第8章。按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_18">
+      <Placemark id="unlocated_13">
         <name>酱通／绛通（羌塘）【未定位】</name>
         <description><![CDATA[<h3>酱通／绛通（羌塘）</h3><p>第8—10章。高原区域名称，并非一个可定位的沙漠景区。迷路行迹缺少足够空间约束，本图不复原其折线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_19">
+      <Placemark id="unlocated_14">
         <name>通天河渡点【未定位】</name>
         <description><![CDATA[<h3>通天河渡点</h3><p>第9章。跨河本身有文本依据；校注联系穆鲁乌苏水系，但渡点不详，未用现代沱沱河桥或通天河大桥充作历史渡口。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_20">
+      <Placemark id="unlocated_15">
         <name>冈天削【未定位】</name>
         <description><![CDATA[<h3>冈天削</h3><p>第8—10章。校注48推测与昆仑山口有关，此说不作为精确定位依据；不把现代公路山口写成已证实途经点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_21">
+      <Placemark id="unlocated_16">
         <name>遇蒙古喇嘛、遇猎户地点【未定位】</name>
         <description><![CDATA[<h3>遇蒙古喇嘛、遇猎户地点</h3><p>第10章。事件有原文，地点无可靠坐标，不另造营地。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
@@ -4348,62 +4348,94 @@
         <description><![CDATA[<h3>大相岭旧山口、果亲王摩崖诗</h3><p>第1章。已补大相岭古道的路桥碑地区参照及飞越岭垭口；作者登岭顶与摩崖诗的具体位置仍待考。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
       <Placemark id="unlocated_6">
-        <name>腊左塘 → 浪荡沟【未定位】</name>
-        <description><![CDATA[<h3>腊左塘 → 浪荡沟</h3><p>第2—3章。校注11订正今旧称。位于俄洛桥与纳贡山之间，未查到可靠独立坐标，不按书中里数插值造点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
-      </Placemark>
-      <Placemark id="unlocated_7">
-        <name>腊左 → 纳贡塘【未定位】</name>
-        <description><![CDATA[<h3>腊左 → 纳贡塘</h3><p>第2—3章。校注11订正，与腊左塘／浪荡沟是不同地点；暂不赋假坐标。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
-      </Placemark>
-      <Placemark id="unlocated_8">
-        <name>并达桥／井达桥 → 甲木桥【未定位】</name>
-        <description><![CDATA[<h3>并达桥／井达桥 → 甲木桥</h3><p>第2—3章。校注11订正，位于纳贡塘与梭罗坝之间；未确认旧桥具体桥址。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
-      </Placemark>
-      <Placemark id="unlocated_9">
-        <name>林多坝 → 梭罗坝【未定位】</name>
-        <description><![CDATA[<h3>林多坝 → 梭罗坝</h3><p>第2—3章。校注11订正，在恩达与甲木桥之间；未查到可直接使用的现代点位。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
-      </Placemark>
-      <Placemark id="unlocated_10">
-        <name>西藏桥【未定位】</name>
-        <description><![CDATA[<h3>西藏桥</h3><p>第2—3章。正文出昌都先过西藏桥，再到俄洛桥；校注11将两者相联，存在称名差异。本图只补俄洛桥地区参照，不将两座桥直接合并。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
-      </Placemark>
-      <Placemark id="unlocated_11">
         <name>恩达汛署／堪布营地【未定位】</name>
         <description><![CDATA[<h3>恩达汛署／堪布营地</h3><p>第2—3章。已补今桑多镇恩达村代表点，但汛署及堪布大营遗址未定位。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_12">
+      <Placemark id="unlocated_7">
         <name>三十九族【未定位】</name>
         <description><![CDATA[<h3>三十九族</h3><p>第3章。区域名称，不能当一座城镇。未知作者在该区域的逐站行迹。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_13">
+      <Placemark id="unlocated_8">
         <name>脚木宗、窝冗噶伽【未定位】</name>
         <description><![CDATA[<h3>脚木宗、窝冗噶伽</h3><p>第3—4章。牙披已补阿沛村地区参照；脚木宗和窝冗噶伽仍只有相对方位，不能共用牙披坐标。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_14">
+      <Placemark id="unlocated_9">
         <name>纳衣当噶、八浪登、京中、树枝、央噶【未定位】</name>
         <description><![CDATA[<h3>纳衣当噶、八浪登、京中、树枝、央噶</h3><p>第5—7章。德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_15">
+      <Placemark id="unlocated_10">
         <name>卡拖、八阶、夥若桥【未定位】</name>
         <description><![CDATA[<h3>卡拖、八阶、夥若桥</h3><p>第6—7章。具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_22">
+      <Placemark id="unlocated_17">
         <name>盐淖、青盐海【未定位】</name>
         <description><![CDATA[<h3>盐淖、青盐海</h3><p>第11章。盐沼及盐湖的具体范围未定。青盐海不同于随后到达的青海湖，不直接对应察尔汗、茶卡或柯柯盐湖。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_23">
+      <Placemark id="unlocated_18">
         <name>都兰【未定位】</name>
         <description><![CDATA[<h3>都兰</h3><p>第11章。校注56作地理推定，未核当时市场位置，不使用今日察汗乌苏县城作为旧市镇的确点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_24">
+      <Placemark id="unlocated_19">
         <name>分州、洪铺街寓所、西原墓【未定位】</name>
         <description><![CDATA[<h3>分州、洪铺街寓所、西原墓</h3><p>第12章。旧名或具体地点尚待考；地图止于西安，不另画一条书中未叙述的回凤凰路线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_20">
+        <name>西藏桥〔书图近城另列〕【未定位】</name>
+        <description><![CDATA[<h3>西藏桥〔书图近城另列〕</h3><p>第2章；校注十一及书图。桥名图文有异，旧桥确址待考。正文与略图先列于昌都附近；与俄洛桥名称冲突见总说明</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_21">
+        <name>甲令塘〔书图识读待核〕【未定位】</name>
+        <description><![CDATA[<h3>甲令塘〔书图识读待核〕</h3><p>第2章；校注十一及书图。仅据略图；令字识读中等置信度，现代对应待考。图示俄洛桥与浪荡沟之间，正文未逐名叙述，不认定在此宿营</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_22">
+        <name>浪荡沟／腊左塘【未定位】</name>
+        <description><![CDATA[<h3>浪荡沟／腊左塘</h3><p>第2章；校注十一及书图。校注订名，塘房确址未定。塘兵撤离处；在纳贡山的昌都一侧，与纳贡塘分开</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_23">
+        <name>纳贡山／腊左山／腊左大山／安初拉〔书图藏名识读〕【未定位】</name>
+        <description><![CDATA[<h3>纳贡山／腊左山／腊左大山／安初拉〔书图藏名识读〕</h3><p>第2章；校注十一及书图。越岭段与山口未定位；安初拉识读待原页复核。分隔昂曲与恩达河两条谷地的越岭段；校注四千余米，不按正文十余里推算垂直高度</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_24">
+        <name>纳贡塘／腊左【未定位】</name>
+        <description><![CDATA[<h3>纳贡塘／腊左</h3><p>第2章；校注十一及书图。校注订名；聚落与被擒现场确址未定。第二日薄暮投宿并在附近遭俘，返程正文再次明记经过</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_25">
+        <name>甲木桥／并达桥／伴达桥〔照片首字识读存疑〕【未定位】</name>
+        <description><![CDATA[<h3>甲木桥／并达桥／伴达桥〔照片首字识读存疑〕</h3><p>第2章；校注十一及书图。旧桥址待考，主名甲木桥清楚。被俘后押送途中经过；返程未逐名重述，不另作已证实返程点</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_26">
+        <name>梭罗坝／林多坝【未定位】</name>
+        <description><![CDATA[<h3>梭罗坝／林多坝</h3><p>第2章；校注十一及书图。校注订名，旧聚落确址未定。第二夜夜半被押到此受讯休息，天明赴恩达；返程未逐名重述</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_27">
+        <name>日雨娃〔书图识读待核〕【未定位】</name>
+        <description><![CDATA[<h3>日雨娃〔书图识读待核〕</h3><p>第2章；校注十一及书图。仅据略图，中等识读置信度；现代对应待考。图示梭罗坝与恩达之间；不当作正文明确的宿站</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_28">
+        <name>果角塘〔书图补充〕【未定位】</name>
+        <description><![CDATA[<h3>果角塘〔书图补充〕</h3><p>第2章；校注十一及书图。只识得书图地名与相对谷地；是否逐站亲经未定。浪荡沟通向纳贡山的谷地一带；不强插进主链或认作宿站</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_29">
+        <name>陈渠珍被擒处〔书图事件〕【未定位】</name>
+        <description><![CDATA[<h3>陈渠珍被擒处〔书图事件〕</h3><p>第2章；校注十一及书图。只知纳贡塘附近的相对位置。无具体民房、石后或受袭点坐标；不造精确事件点</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_30">
+        <name>云南桥〔书图背景〕【未定位】</name>
+        <description><![CDATA[<h3>云南桥〔书图背景〕</h3><p>第2章；校注十一及书图。图示昌都南侧澜沧江桥，旧桥址未定。不属于西行恩达主链，不据本图认定此次探险经过</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_31">
+        <name>瓦合大山〔背景〕／瓦合山／一柱拉【未定位】</name>
+        <description><![CDATA[<h3>瓦合大山〔背景〕／瓦合山／一柱拉</h3><p>第2章；校注十一及书图。恩达以西山系背景，通行山口未定位。不与纳贡山合并；本次第2章探险不据校注另翻瓦合山</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_32">
+        <name>恩达河〔图注子曲〕／子曲〔书图括注识读〕【未定位】</name>
+        <description><![CDATA[<h3>恩达河〔图注子曲〕／子曲〔书图括注识读〕</h3><p>第2章；校注十一及书图。书图水系关系已记录，现代河段对应待考。恩达—梭罗坝—甲木桥一侧河谷；不直接套成昂曲或按旧图画现代河线</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
     </Folder>
     <Folder id="minor_folder">
       <name>08 小地名补充｜10处（含区域参照）</name>
       <open>1</open>
-      <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位。腊左探险中间地名仍待考，不按里数造点。]]></description>
+      <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。]]></description>
       <LookAt>
         <longitude>97.07278</longitude>
         <latitude>31.18528</latitude>
@@ -4417,8 +4449,8 @@
         <name>昌都—恩达探险支线</name>
         <open>0</open>
         <Placemark id="minor_eluoqiao">
-          <name>俄洛桥〔地区参照，旧桥待考〕</name>
-          <description><![CDATA[<h3>俄洛桥〔地区参照，旧桥待考〕</h3><p><b>书中名：</b>俄洛桥／俄罗桥<br/><b>现代参照：</b>俄洛村、昂曲河谷一带<br/><b>章节：</b>第2—3章<br/><b>定位性质：</b>区域参照</p><p>坐标为KNAB地名库Guru／俄洛村代表点，资料保留旧称俄洛桥；不是清末桥址。现代公路环评也以俄洛桥命名起点，但新旧桥同址未经确认。另一个GeoNames俄洛桥点位明显偏离河谷且未交叉核实，本图不采用。正文先过西藏桥再到俄洛桥，而校注将两名关联；暂不合并成一座已确认古桥。</p><p><b>耗时：</b>原文自昌都出发当日到桥边军营留宿，次晨再行；书中三十里不直接按现代里制换算。</p><p><b>距昌都老城、强巴林寺一带代表点：直线约11 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>97.07278°E, 31.18528°N。小数位不代表古址精度。</p><a href="https://www.xizang.gov.cn/zwgk/xxgk_424/zxxxgk/201902/W020190223643737803015.pdf">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <name>俄洛桥〔俄洛村参照；桥名图文有异〕</name>
+          <description><![CDATA[<h3>俄洛桥〔俄洛村参照；桥名图文有异〕</h3><p><b>书中名：</b>俄洛桥／俄罗桥<br/><b>现代参照：</b>俄洛村、昂曲河谷一带<br/><b>章节：</b>第2—3章<br/><b>定位性质：</b>区域参照</p><p>坐标保留KNAB的Guru／俄洛村地区点，不是清末桥位。校注十一称俄洛桥番名西藏桥，但作者正文及用户书中略图均先列近昌都西藏桥、再列俄洛桥，保留图文称名矛盾，不合并为已确证的一座古桥，也不给第二古桥造坐标。第2章向西探险经浪荡沟翻纳贡山至恩达，不把整段套在今日G317沿昂曲。详见14层与昌都恩达_校注十一对读.html。</p><p><b>耗时：</b>第2章首日薄暮到哨营留宿，次晨出发；获释返程日暮复经俄洛桥，继续夜行午夜返昌都。整次约3日2夜是按相对分日整理，非作者自计；原文三十里与代表点直距不混算。</p><p><b>距昌都老城、强巴林寺一带代表点：直线约11 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>97.07278°E, 31.18528°N。小数位不代表古址精度。</p><a href="https://www.xizang.gov.cn/zwgk/xxgk_424/zxxxgk/201902/W020190223643737803015.pdf">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
           <LookAt>
             <longitude>97.07278</longitude>
             <latitude>31.18528</latitude>
@@ -4455,13 +4487,13 @@
               <value>区域参照</value>
             </Data>
             <Data name="timing">
-              <value>原文自昌都出发当日到桥边军营留宿，次晨再行；书中三十里不直接按现代里制换算。</value>
+              <value>第2章首日薄暮到哨营留宿，次晨出发；获释返程日暮复经俄洛桥，继续夜行午夜返昌都。整次约3日2夜是按相对分日整理，非作者自计；原文三十里与代表点直距不混算。</value>
             </Data>
             <Data name="reference_distance">
               <value>距昌都老城、强巴林寺一带代表点直线约11 km</value>
             </Data>
             <Data name="note">
-              <value>坐标为KNAB地名库Guru／俄洛村代表点，资料保留旧称俄洛桥；不是清末桥址。现代公路环评也以俄洛桥命名起点，但新旧桥同址未经确认。另一个GeoNames俄洛桥点位明显偏离河谷且未交叉核实，本图不采用。正文先过西藏桥再到俄洛桥，而校注将两名关联；暂不合并成一座已确认古桥。</value>
+              <value>坐标保留KNAB的Guru／俄洛村地区点，不是清末桥位。校注十一称俄洛桥番名西藏桥，但作者正文及用户书中略图均先列近昌都西藏桥、再列俄洛桥，保留图文称名矛盾，不合并为已确证的一座古桥，也不给第二古桥造坐标。第2章向西探险经浪荡沟翻纳贡山至恩达，不把整段套在今日G317沿昂曲。详见14层与昌都恩达_校注十一对读.html。</value>
             </Data>
           </ExtendedData>
           <Point>
@@ -4471,7 +4503,7 @@
         </Placemark>
         <Placemark id="minor_enda">
           <name>恩达〔今恩达村一带〕</name>
-          <description><![CDATA[<h3>恩达〔今恩达村一带〕</h3><p><b>书中名：</b>恩达／恩达寨<br/><b>现代参照：</b>类乌齐县桑多镇恩达村<br/><b>章节：</b>第2—3章<br/><b>定位性质：</b>村域参照</p><p>KNAB的Nganda／恩达村坐标。昌都市文旅局确认其为茶马古道驿站，与校注所述瓦合山以东、昌都之西的节点相符。不是俄洛镇，也不是堪布大营、汛署的精确遗址。</p><p><b>耗时：</b>后续恩达北行至拉里为月余；其间至三十九族二十余日属于同一大段。</p><p><b>距昌都老城、强巴林寺一带代表点：直线约48 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>96.67306°E, 31.12333°N。小数位不代表古址精度。</p><a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202412/d3cb10775c3c4bc089d8f2dcc3e8c1aa.shtml">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <description><![CDATA[<h3>恩达〔今恩达村一带〕</h3><p><b>书中名：</b>恩达／恩达寨<br/><b>现代参照：</b>类乌齐县桑多镇恩达村<br/><b>章节：</b>第2—3章<br/><b>定位性质：</b>村域参照</p><p>坐标保留KNAB的Nganda／恩达村地区点，结合官方旧驿站与瓦合山实地资料；不是昌都近郊另一个恩达／小恩达。第2章陈渠珍确曾被押到恩达，交涉获释后返昌都，不能画成仅到纳贡山或纳贡塘折返。登珠营地、汛署及受讯建筑确址均未定；14层补原书图和校注的地名顺序。</p><p><b>耗时：</b>第2章探险末日午前十时到恩达，午后一时启返，当晚十二时回昌都；非连续行走的实测用时。第3章另一次恩达北行至拉里为月余，20余日子段包含其中，不与第2章混并。</p><p><b>距昌都老城、强巴林寺一带代表点：直线约48 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>96.67306°E, 31.12333°N。小数位不代表古址精度。</p><a href="https://lyfz.changdu.gov.cn/cdslyj4/c101252/202412/d3cb10775c3c4bc089d8f2dcc3e8c1aa.shtml">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
           <LookAt>
             <longitude>96.67306</longitude>
             <latitude>31.12333</latitude>
@@ -4508,13 +4540,13 @@
               <value>村域参照</value>
             </Data>
             <Data name="timing">
-              <value>后续恩达北行至拉里为月余；其间至三十九族二十余日属于同一大段。</value>
+              <value>第2章探险末日午前十时到恩达，午后一时启返，当晚十二时回昌都；非连续行走的实测用时。第3章另一次恩达北行至拉里为月余，20余日子段包含其中，不与第2章混并。</value>
             </Data>
             <Data name="reference_distance">
               <value>距昌都老城、强巴林寺一带代表点直线约48 km</value>
             </Data>
             <Data name="note">
-              <value>KNAB的Nganda／恩达村坐标。昌都市文旅局确认其为茶马古道驿站，与校注所述瓦合山以东、昌都之西的节点相符。不是俄洛镇，也不是堪布大营、汛署的精确遗址。</value>
+              <value>坐标保留KNAB的Nganda／恩达村地区点，结合官方旧驿站与瓦合山实地资料；不是昌都近郊另一个恩达／小恩达。第2章陈渠珍确曾被押到恩达，交涉获释后返昌都，不能画成仅到纳贡山或纳贡塘折返。登珠营地、汛署及受讯建筑确址均未定；14层补原书图和校注的地名顺序。</value>
             </Data>
           </ExtendedData>
           <Point>
@@ -23791,6 +23823,344 @@
         <Placemark id="river_unlocated_2">
           <name>恩达河、冬九未名河流〔未设古渡点〕</name>
           <description><![CDATA[<p>第3章、第5—6章；正文有踏冰偷渡、过桥等事件，但现代河名与古桥对应未足证，本层不添精确河道或古渡点。</p><p>本条无几何；完整版说明和CSV也保留相同内容。</p>]]></description>
+        </Placemark>
+      </Folder>
+    </Folder>
+    <Folder id="annotation11">
+      <name>14 腊左探险｜校注十一与书中略图</name>
+      <open>1</open>
+      <description><![CDATA[<h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+      <LookAt>
+        <longitude>96.92</longitude>
+        <latitude>31.16</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>155000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Folder id="annotation11_intro">
+        <name>14A 核对总览｜确曾抵达恩达，桥名保留图文差异</name>
+        <open>1</open>
+        <Placemark id="annotation11_overview">
+          <name>昌都—恩达探险｜约3日2夜〔分日推算〕</name>
+          <description><![CDATA[<h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+      </Folder>
+      <Folder id="annotation11_places">
+        <name>14B 书图地点顺序｜未定位者仅有文字条目</name>
+        <open>0</open>
+        <Placemark id="annotation11_place_chamdo">
+          <name>01 昌都〔现代地区参照〕</name>
+          <description><![CDATA[<h3>昌都</h3><p>别名／正文原名：察木多</p><p>定位性质：旧城现代地标参照，非营房确址</p><p>探险起点与返抵地点</p><p>沿用的现代定位对象：昌都老城、强巴林寺一带。经度97.1779，纬度31.1435；不是旧桥、营地或汛署确址。</p><p><a href="https://zh.wikipedia.org/wiki/强巴林寺">现代坐标来源</a></p><p>校注十一：浪荡沟 → 昌都｜六十里。浪荡沟经俄洛桥至昌都的合计，不把桥前后各赋六十里。</p><p>正文：昌都 → 俄洛桥｜三十里。该句位于出昌都及群鸦事件之后，按本段行程通常理解为昌都至俄洛桥；具体量程起算点未另明，不与前句三里机械相加。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>97.1779</longitude>
+            <latitude>31.1435</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>70000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_xizangqiao">
+          <name>02 西藏桥〔书图近城另列〕【无坐标】</name>
+          <description><![CDATA[<h3>西藏桥〔书图近城另列〕</h3><p>定位性质：桥名图文有异，旧桥确址待考</p><p>正文与略图先列于昌都附近；与俄洛桥名称冲突见总说明</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_eluoqiao">
+          <name>03 俄洛桥〔现代地区参照〕</name>
+          <description><![CDATA[<h3>俄洛桥</h3><p>别名／正文原名：俄罗桥</p><p>定位性质：现代俄洛村地区参照，非旧桥址</p><p>首夜宿哨营；返程日暮复经；校注称番名西藏桥但书图另列</p><p>沿用的现代定位对象：俄洛村、昂曲河谷一带。经度97.07278，纬度31.18528；不是旧桥、营地或汛署确址。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">现代坐标来源</a></p><p>校注十一：浪荡沟 → 昌都｜六十里。浪荡沟经俄洛桥至昌都的合计，不把桥前后各赋六十里。</p><p>正文：昌都 → 俄洛桥｜三十里。该句位于出昌都及群鸦事件之后，按本段行程通常理解为昌都至俄洛桥；具体量程起算点未另明，不与前句三里机械相加。</p><p>正文：俄洛桥 → 浪荡沟｜三十里。次晨行至原书腊左塘，按校注名为浪荡沟。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>97.07278</longitude>
+            <latitude>31.18528</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>70000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_jialingtang">
+          <name>04 甲令塘〔书图识读待核〕【无坐标】</name>
+          <description><![CDATA[<h3>甲令塘〔书图识读待核〕</h3><p>定位性质：仅据略图；令字识读中等置信度，现代对应待考</p><p>图示俄洛桥与浪荡沟之间，正文未逐名叙述，不认定在此宿营</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_langdanggou">
+          <name>05 浪荡沟【无坐标】</name>
+          <description><![CDATA[<h3>浪荡沟</h3><p>别名／正文原名：腊左塘</p><p>定位性质：校注订名，塘房确址未定</p><p>塘兵撤离处；在纳贡山的昌都一侧，与纳贡塘分开</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><p>校注十一：纳贡塘 → 浪荡沟｜约四十里。经翻山的整体段落，不是纳贡山的垂直高差。</p><p>校注十一：浪荡沟 → 昌都｜六十里。浪荡沟经俄洛桥至昌都的合计，不把桥前后各赋六十里。</p><p>正文：俄洛桥 → 浪荡沟｜三十里。次晨行至原书腊左塘，按校注名为浪荡沟。</p><p>正文：浪荡沟 → 纳贡山山巅（具体山口未定位）｜十余里。原文以山高十余里描述登山过程；不当作已测垂直高差或现代道路长度。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_nagongshan">
+          <name>06 纳贡山【无坐标】</name>
+          <description><![CDATA[<h3>纳贡山</h3><p>别名／正文原名：腊左山、腊左大山、安初拉〔书图藏名识读〕</p><p>定位性质：越岭段与山口未定位；安初拉识读待原页复核</p><p>分隔昂曲与恩达河两条谷地的越岭段；校注四千余米，不按正文十余里推算垂直高度</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><p>校注十一：纳贡塘 → 浪荡沟｜约四十里。经翻山的整体段落，不是纳贡山的垂直高差。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_nagongtang">
+          <name>07 纳贡塘【无坐标】</name>
+          <description><![CDATA[<h3>纳贡塘</h3><p>别名／正文原名：腊左</p><p>定位性质：校注订名；聚落与被擒现场确址未定</p><p>第二日薄暮投宿并在附近遭俘，返程正文再次明记经过</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><p>校注十一：甲木桥 → 纳贡塘｜十里。校注依次向东的下一段。</p><p>校注十一：纳贡塘 → 浪荡沟｜约四十里。经翻山的整体段落，不是纳贡山的垂直高差。</p><p>正文：下山平地（未定位） → 纳贡塘｜二三里。沿小溪抵原书腊左。</p><p>正文：纳贡塘 → 甲木桥｜十余里。被俘后月夜押送段，非自行侦探段。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_jiamuqiao">
+          <name>08 甲木桥【无坐标】</name>
+          <description><![CDATA[<h3>甲木桥</h3><p>别名／正文原名：并达桥、伴达桥〔照片首字识读存疑〕</p><p>定位性质：旧桥址待考，主名甲木桥清楚</p><p>被俘后押送途中经过；返程未逐名重述，不另作已证实返程点</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><p>校注十一：梭罗坝 → 甲木桥｜数里。与正文被俘后该段十余里的记述有差异，分别保留。</p><p>校注十一：甲木桥 → 纳贡塘｜十里。校注依次向东的下一段。</p><p>正文：纳贡塘 → 甲木桥｜十余里。被俘后月夜押送段，非自行侦探段。</p><p>正文：甲木桥 → 梭罗坝｜十余里。过桥后沿河到原书林多坝；与校注的数里分别保留，不取平均。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_suoluoba">
+          <name>09 梭罗坝【无坐标】</name>
+          <description><![CDATA[<h3>梭罗坝</h3><p>别名／正文原名：林多坝</p><p>定位性质：校注订名，旧聚落确址未定</p><p>第二夜夜半被押到此受讯休息，天明赴恩达；返程未逐名重述</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><p>校注十一：恩达 → 梭罗坝｜十余里。校注从恩达沿河向东叙述。</p><p>校注十一：梭罗坝 → 甲木桥｜数里。与正文被俘后该段十余里的记述有差异，分别保留。</p><p>正文：甲木桥 → 梭罗坝｜十余里。过桥后沿河到原书林多坝；与校注的数里分别保留，不取平均。</p><p>正文：梭罗坝 → 恩达｜二十余里。被俘后翌晨赴恩达段；与校注相应十余里有差异。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_riyuwa">
+          <name>10 日雨娃〔书图识读待核〕【无坐标】</name>
+          <description><![CDATA[<h3>日雨娃〔书图识读待核〕</h3><p>定位性质：仅据略图，中等识读置信度；现代对应待考</p><p>图示梭罗坝与恩达之间；不当作正文明确的宿站</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_enda">
+          <name>11 恩达〔现代地区参照〕</name>
+          <description><![CDATA[<h3>恩达</h3><p>别名／正文原名：恩达寨</p><p>定位性质：现代恩达村参照，非登珠营地或汛署确址</p><p>陈本人实际到达；第三日午前十时抵，午后一时启返。与昌都近郊另一恩达／小恩达分开</p><p>沿用的现代定位对象：类乌齐县桑多镇恩达村一带。经度96.67306，纬度31.12333；不是旧桥、营地或汛署确址。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">现代坐标来源</a></p><p>校注十一：恩达 → 梭罗坝｜十余里。校注从恩达沿河向东叙述。</p><p>正文：梭罗坝 → 恩达｜二十余里。被俘后翌晨赴恩达段；与校注相应十余里有差异。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.67306</longitude>
+            <latitude>31.12333</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>70000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+      </Folder>
+      <Folder id="annotation11_context">
+        <name>14C 书图旁支、事件与山河背景｜不强接主链</name>
+        <open>0</open>
+        <Placemark id="annotation11_place_guojiaotang">
+          <name>果角塘〔书图补充〕【无坐标】</name>
+          <description><![CDATA[<h3>果角塘〔书图补充〕</h3><p>定位性质：只识得书图地名与相对谷地；是否逐站亲经未定</p><p>浪荡沟通向纳贡山的谷地一带；不强插进主链或认作宿站</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_capture_site">
+          <name>陈渠珍被擒处〔书图事件〕【无坐标】</name>
+          <description><![CDATA[<h3>陈渠珍被擒处〔书图事件〕</h3><p>定位性质：只知纳贡塘附近的相对位置</p><p>无具体民房、石后或受袭点坐标；不造精确事件点</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_yunnanqiao">
+          <name>云南桥〔书图背景〕【无坐标】</name>
+          <description><![CDATA[<h3>云南桥〔书图背景〕</h3><p>定位性质：图示昌都南侧澜沧江桥，旧桥址未定</p><p>不属于西行恩达主链，不据本图认定此次探险经过</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_waheshan">
+          <name>瓦合大山〔背景〕【无坐标】</name>
+          <description><![CDATA[<h3>瓦合大山〔背景〕</h3><p>别名／正文原名：瓦合山、一柱拉</p><p>定位性质：恩达以西山系背景，通行山口未定位</p><p>不与纳贡山合并；本次第2章探险不据校注另翻瓦合山</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_place_endahe">
+          <name>恩达河〔图注子曲〕【无坐标】</name>
+          <description><![CDATA[<h3>恩达河〔图注子曲〕</h3><p>别名／正文原名：子曲〔书图括注识读〕</p><p>定位性质：书图水系关系已记录，现代河段对应待考</p><p>恩达—梭罗坝—甲木桥一侧河谷；不直接套成昂曲或按旧图画现代河线</p><p>没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>14D 原书里数、直距km与行程分日</name>
+        <open>0</open>
+        <Placemark id="annotation11_distances">
+          <name>里数分源保留；现代起讫直距约48 km</name>
+          <description><![CDATA[<h3>距离：原书里数与现代直距分栏</h3><p>三个现代代表点间仅给球面近似直距km；原文和校注里数另列，不换算、不插值、不与直距相加；校注浪荡沟经俄洛桥至昌都六十里为组合段。</p><p>校注十一：恩达 → 梭罗坝｜十余里。校注从恩达沿河向东叙述。</p><p>校注十一：梭罗坝 → 甲木桥｜数里。与正文被俘后该段十余里的记述有差异，分别保留。</p><p>校注十一：甲木桥 → 纳贡塘｜十里。校注依次向东的下一段。</p><p>校注十一：纳贡塘 → 浪荡沟（经纳贡山）｜约四十里。经翻山的整体段落，不是纳贡山的垂直高差。</p><p>校注十一：浪荡沟 → 昌都（经俄洛桥）｜六十里。浪荡沟经俄洛桥至昌都的合计，不把桥前后各赋六十里。</p><p>正文：正文另提西藏桥（未定位） → 群鸦惊马处（未定位）｜三里许。叙事相对位置，不为该事件另造坐标。</p><p>正文：昌都 → 俄洛桥｜三十里。该句位于出昌都及群鸦事件之后，按本段行程通常理解为昌都至俄洛桥；具体量程起算点未另明，不与前句三里机械相加。</p><p>正文：俄洛桥 → 浪荡沟｜三十里。次晨行至原书腊左塘，按校注名为浪荡沟。</p><p>正文：浪荡沟 → 纳贡山山巅（具体山口未定位）｜十余里。原文以山高十余里描述登山过程；不当作已测垂直高差或现代道路长度。</p><p>正文：纳贡山山巅（具体山口未定位） → 下山平地（未定位）｜约八九里。下山过程中的原述距离。</p><p>正文：下山平地（未定位） → 纳贡塘｜二三里。沿小溪抵原书腊左。</p><p>正文：纳贡塘 → 甲木桥｜十余里。被俘后月夜押送段，非自行侦探段。</p><p>正文：甲木桥 → 梭罗坝｜十余里。过桥后沿河到原书林多坝；与校注的数里分别保留，不取平均。</p><p>正文：梭罗坝 → 恩达｜二十余里。被俘后翌晨赴恩达段；与校注相应十余里有差异。</p><h3>现代地区代表点间直距（km）</h3><p>昌都 → 俄洛桥：约11 km。</p><p>俄洛桥 → 恩达：约39 km。</p><p>昌都 → 恩达：约48 km。</p><p>这些km只用于位置比较，不是古道里程，不计入全书实走总程。未知旧地名的km与经纬度留空。</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_time_0">
+          <name>01 第1日（按相对分日推算）｜自行侦探</name>
+          <description><![CDATA[<p>陈渠珍偕通事张应明由昌都出发，薄暮到俄洛桥边军哨营，留宿一夜。</p><p>正文明确叙述节点和留宿；日序编号为整理推算。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation11_time_1">
+          <name>02 第2日早｜自行侦探</name>
+          <description><![CDATA[<p>次晨从俄洛桥出发到原书腊左塘，见塘兵准备撤走；校注对应浪荡沟。</p><p>正文明确经过；今旧名按校注订正。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation11_time_2">
+          <name>03 第2日｜自行侦探</name>
+          <description><![CDATA[<p>翻越原书腊左山后下至平地，再沿小溪到原书腊左；薄暮后在民房投宿。</p><p>正文明确经过；纳贡山／纳贡塘名称按校注和对应上下文整理。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation11_time_3">
+          <name>04 第2日夜｜被俘</name>
+          <description><![CDATA[<p>投宿后遭藏兵搜捕、受伤并被俘；具体民房、藏身处及受袭点无法定位。</p><p>正文明确事件；校注将原书腊左对应纳贡塘。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation11_time_4">
+          <name>05 第2日夜至夜半｜押送</name>
+          <description><![CDATA[<p>被俘后被系于马背带走，经过原书并达桥，再沿河至原书林多坝，夜半受讯，后获松绑并在室内休息。</p><p>正文明确经过桥及到达坝地；今旧名按校注订正。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation11_time_5">
+          <name>06 第3日早至上午约10时｜押送</name>
+          <description><![CDATA[<p>天明后由藏兵扶上马带往恩达，正文记午前十时已到；恩达汛官迎接并导至堪布大营。</p><p>正文明确实际到达恩达，不能画成只到纳贡塘或纳贡山折返。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation11_time_6">
+          <name>07 第3日上午至下午约1时｜获释</name>
+          <description><![CDATA[<p>与堪布交涉后获准返昌都，获赠物品、马匹并有四名藏兵护送；收拾启程时为午后一时。</p><p>正文明确地点和时刻；大营建筑与营址未定。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation11_time_7">
+          <name>08 第3日下午｜获释返程</name>
+          <description><![CDATA[<p>归途中再次经过原书腊左，即校注所订纳贡塘。</p><p>正文明确再次经过纳贡塘；恩达至此之间未逐名重述甲木桥或梭罗坝。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation11_time_8">
+          <name>09 第3日下午｜获释返程</name>
+          <description><![CDATA[<p>上原书腊左山、下山至腊左塘；塘房已空，在此遣返护送藏兵。</p><p>正文明确复经山段和腊左塘；今旧名按校注订正。</p>]]></description>
+        </Placemark>
+        <Placemark id="annotation11_time_9">
+          <name>10 第3日日暮至午夜｜获释返程</name>
+          <description><![CDATA[<p>日暮到俄洛桥后未留宿，继续夜行，正文记晚十二时返抵昌都。</p><p>正文明确复经俄洛桥并返抵昌都。</p>]]></description>
+        </Placemark>
+        <Placemark>
+          <name>“旧作两站”及“三日撤兵”不能当行军用时</name>
+          <description><![CDATA[<p>旧作两站不能直接理解为两日，也不能按现代距离平均分配为两个站点坐标。</p><p>堪布许诺的撤兵期限；不能当作陈探险三日或任一相邻站行程时间，与校注十卡工以西需野宿三日亦属不同事项。</p>]]></description>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>14E 两张书图原件与识读限制</name>
+        <open>0</open>
+        <Placemark id="annotation11_scan_0">
+          <name>陈渠珍出藏路线图</name>
+          <description><![CDATA[<p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p><img style="max-width:100%;height:auto" src="data/annotation11/scans/出藏路线图.jpg" alt="陈渠珍出藏路线图"/></p><p>图片无法显示时，可查看本地昌都恩达_校注十一对读.html及data/annotation11/scans/原图。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+        </Placemark>
+        <Placemark id="annotation11_scan_1">
+          <name>昌都至恩达略图（功能描述）</name>
+          <description><![CDATA[<p>原照片侧置，已另附可转正阅读的HTML对读页。两图无可靠经纬网及比例尺，均未作地理配准。</p><p><img style="max-width:100%;height:auto" src="data/annotation11/scans/昌都恩达略图.jpg" alt="昌都至恩达略图（功能描述）"/></p><p>图片无法显示时，可查看本地昌都恩达_校注十一对读.html及data/annotation11/scans/原图。</p><h3>校注十一与书中略图：昌都—恩达</h3><p>陈渠珍从昌都出发，越纳贡山，在纳贡塘附近被俘，随后被押至恩达并获释返昌都。</p><p>书图地点顺序：昌都 → 西藏桥〔书图近城另列〕 → 俄洛桥 → 甲令塘〔书图识读待核〕 → 浪荡沟 → 纳贡山 → 纳贡塘 → 甲木桥 → 梭罗坝 → 日雨娃〔书图识读待核〕 → 恩达</p><p>腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。</p><p>仅三个既有现代地区代表点有坐标；书图与校注补充的是拓扑顺序和名称。无比例尺顺序图不编码距离、方向或地形。未知旧站不按书图像素或里数插值，旧道全线不拟合G317。</p><h3>桥名图文差异</h3><p>校注称俄洛桥番名西藏桥；正文和用户第二张略图却先列近昌都西藏桥、再列俄洛桥。保留两条文字记录，只有俄洛村地区参照有坐标，不宣称已定位两座桥，也不径合为一座旧桥。</p><h3>耗时</h3><p>往返约3日、2夜〔推算〕。依据出发当日留宿俄洛桥、次晨继续前进及被俘、又次晨赴恩达且同日午夜返昌都的相对分日整理；原书没有自计全程三日，不换算公历日期。</p><p>第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。</p><h3>书图与现代地图的关系</h3><p>第一张标题为陈渠珍出藏路线图，是北返全局文献背景；图中西康省等为旧图称谓，不能作为1909年现代行政边界或精确轨迹。青盐海等仍未对应到确定现代湖泊，北返荒原不据本图补线。</p><p>14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。</p><h3>依据</h3><p>用户所引任乃强校注十一与两张书图<br/>地名订正、拓扑顺序、桥名冲突及书图识读；照片原样保存，文字不能读清处明确标识</p><p><a href="https://raw.githubusercontent.com/chaimol/chaimol.github.com/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">公开文本第2章与校注十一</a><br/>探险实际抵达恩达、被俘押送与相对分日；转录可能有错字，以用户书影交叉核对</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名库</a><br/>Nganda／恩达村与Guru／俄洛村地区坐标；不取近城Ngunda／小恩达代替旧驿恩达</p><p><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html">瓦合塘：绕过大山走通途（实地采访）</a><br/>恩达村西头的旧官道通向瓦合山和瓦合塘；不提供具体山口坐标</p><p><a href="https://www.tibetology.ac.cn/2024-01/04/content_42661621.htm">妥超群：唐蕃古道新探</a><br/>清代昌都—俄罗桥—浪荡沟—拉贡—恩达大顺序旁证，不据此直接等同拉贡与纳贡塘</p>]]></description>
+          <LookAt>
+            <longitude>96.92</longitude>
+            <latitude>31.16</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>155000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
         </Placemark>
       </Folder>
     </Folder>
