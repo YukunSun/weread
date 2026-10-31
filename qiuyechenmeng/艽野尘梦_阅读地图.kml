@@ -3,7 +3,7 @@
   <Document id="qiuyechenmeng">
     <name>《艽野尘梦》阅读地图｜边坝背景补充版</name>
     <open>1</open>
-    <description><![CDATA[32个主要地点及参照点，另补12处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
+    <description><![CDATA[32个主要地点及参照点，另补13处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
 小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
     <LookAt>
       <longitude>100.5</longitude>
@@ -1229,7 +1229,7 @@
       <open>0</open>
       <Placemark>
         <name>地图用法、精度与来源</name>
-        <description><![CDATA[32个主要地点及参照点，另补12处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
+        <description><![CDATA[32个主要地点及参照点，另补13处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
 小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
       </Placemark>
       <Placemark>
@@ -4459,12 +4459,12 @@
         <description><![CDATA[<h3>增巴〔两处现代同名候选，书中对应未定〕</h3><p>第4章。15层并列百巴镇、米瑞乡两个增巴村参照点；尚未选定书中对应，不表示作者到过两处。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
       <Placemark id="unlocated_30">
-        <name>脚木宗古今对应、旧驻地及窝冗噶伽【未定位】</name>
-        <description><![CDATA[<h3>脚木宗古今对应、旧驻地及窝冗噶伽</h3><p>第3—4章。15层已补觉木／Qomo地区作脚木宗候选，与校注27“牙丕附近”说的差异仍待核；候选不共用牙披坐标。脚木宗的具体营地、寺院及窝冗噶伽仍待考。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+        <name>脚木宗古今对应、旧驻地及窝冗噶伽旧庄园【未定位】</name>
+        <description><![CDATA[<h3>脚木宗古今对应、旧驻地及窝冗噶伽旧庄园</h3><p>第3—4章。15层已补觉木／Qomo地区作脚木宗候选，与校注27“牙丕附近”说的差异仍待核；候选不共用牙披坐标。08层已补窝冗噶伽的卧龙—嘎加地区参照，脚木宗的具体营地、寺院及窝冗噶伽旧庄园、藏经密室和陈部驻地仍未测定。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
     </Folder>
     <Folder id="minor_folder">
-      <name>08 小地名补充｜12处（含区域参照）</name>
+      <name>08 小地名补充｜13处（含区域参照）</name>
       <open>1</open>
       <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。]]></description>
       <LookAt>
@@ -4632,6 +4632,59 @@
           <Point>
             <altitudeMode>clampToGround</altitudeMode>
             <coordinates>93.3136,29.8996,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="minor_worang_kaga">
+          <name>窝冗噶伽〔卧龙—嘎加地区参照；旧庄园待考〕</name>
+          <description><![CDATA[<h3>窝冗噶伽〔卧龙—嘎加地区参照；旧庄园待考〕</h3><p><b>书中名：</b>窝冗噶伽／阿冗噶伽／窝冗嘎伽<br/><b>现代参照：</b>米林市卧龙镇、卧龙—嘎加地区（用现代卧龙地名点参照）<br/><b>章节：</b>第3—4章；校注27<br/><b>定位性质：</b>地区对应有研究依据；旧庄园及驻地确址未定</p><p>丁力2015年报道将书中窝冗嘎伽对应今卧龙镇并提及嘎加；KNAB列Orong为卧龙、卧绒，西藏文旅厅驻村记也记卧龙与嘎加两个村民小组。牛津Pitt Rivers夏扎传记记其1903年被贬至工布自家庄园O-rong。1913年行程报告（1914年刊）印刷第60页、8月13日条明确将Orong与Gacha记为隔溪相邻的两处庄园，Orong属于夏扎，Gacha属于拉鲁家族。这支持把书中名称理解为卧龙—嘎加地区连称的对应判断；两处庄园不是同一处的两个别名，也不能将嘎加庄园一并归为夏扎家产。点位只取现代卧龙镇、卧龙村地名点；不是夏扎旧宅、第巴家、查抄仓库、藏经密室或陈部营地的准确位置。历史卧龙地区范围不等于今日镇界，旧庄园基址、范围及作者在两处庄园间的具体活动仍待核。</p><p><b>耗时：</b>正文记从脚木宗行四日至此，清查家产、办理事务费时两个月；后者为驻留办事，不是行军耗时。与先前工布安抚约两个月不自动相加。校注27述与德摩相距四日程；正文后来先绕行六日访野番，再行四日至德摩，两种叙述分开，不省略绕行，也不以四日反推路线。</p><p><b>距工布江达县江达村、太昭一带代表点：直线约113 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>93.70056°E, 29.13806°N。小数位不代表古址精度。</p><a href="https://finance.sina.cn/sa/2015-10-11/detail-iiznezxt1395170.d.html?vt=4">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><a href="https://wlt.xizang.gov.cn/ztzl_69/60_years/202601/t20260106_517811.html">西藏文旅厅：深入基层锤炼自我</a><br/><a href="https://tibet.prm.ox.ac.uk/biography_541.html">牛津Pitt Rivers：Shatra Biography</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第4章原文</a><br/><a href="https://www.99csw.com/book/554/17570.htm">任乃强校注27</a><br/><a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913/page/n90/mode/1up">Bailey与Morshead行程报告：1913年8月13日，印刷第60页</a></p>]]></description>
+          <LookAt>
+            <longitude>93.70055556</longitude>
+            <latitude>29.13805556</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.238055560000003</north>
+              <south>29.03805556</south>
+              <east>93.82055556</east>
+              <west>93.58055556</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>窝冗噶伽／阿冗噶伽／窝冗嘎伽</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>米林市卧龙镇、卧龙—嘎加地区（用现代卧龙地名点参照）</value>
+            </Data>
+            <Data name="chapter">
+              <value>第3—4章；校注27</value>
+            </Data>
+            <Data name="certainty">
+              <value>地区对应有研究依据；旧庄园及驻地确址未定</value>
+            </Data>
+            <Data name="timing">
+              <value>正文记从脚木宗行四日至此，清查家产、办理事务费时两个月；后者为驻留办事，不是行军耗时。与先前工布安抚约两个月不自动相加。校注27述与德摩相距四日程；正文后来先绕行六日访野番，再行四日至德摩，两种叙述分开，不省略绕行，也不以四日反推路线。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距工布江达县江达村、太昭一带代表点直线约113 km</value>
+            </Data>
+            <Data name="note">
+              <value>丁力2015年报道将书中窝冗嘎伽对应今卧龙镇并提及嘎加；KNAB列Orong为卧龙、卧绒，西藏文旅厅驻村记也记卧龙与嘎加两个村民小组。牛津Pitt Rivers夏扎传记记其1903年被贬至工布自家庄园O-rong。1913年行程报告（1914年刊）印刷第60页、8月13日条明确将Orong与Gacha记为隔溪相邻的两处庄园，Orong属于夏扎，Gacha属于拉鲁家族。这支持把书中名称理解为卧龙—嘎加地区连称的对应判断；两处庄园不是同一处的两个别名，也不能将嘎加庄园一并归为夏扎家产。点位只取现代卧龙镇、卧龙村地名点；不是夏扎旧宅、第巴家、查抄仓库、藏经密室或陈部营地的准确位置。历史卧龙地区范围不等于今日镇界，旧庄园基址、范围及作者在两处庄园间的具体活动仍待核。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.70055556,29.13805556,0</coordinates>
           </Point>
         </Placemark>
         <Placemark id="minor_demo">

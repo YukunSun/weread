@@ -48,6 +48,44 @@
     "timing": "正文自江达到牙披当日午后到达；校注24称一日可至。"
   },
   {
+    "id": "worang_kaga",
+    "name": "窝冗噶伽〔卧龙—嘎加地区参照；旧庄园待考〕",
+    "old_names": "窝冗噶伽／阿冗噶伽／窝冗嘎伽",
+    "modern": "米林市卧龙镇、卧龙—嘎加地区（用现代卧龙地名点参照）",
+    "lon": 93.70055556,
+    "lat": 29.13805556,
+    "chapter": "第3—4章；校注27",
+    "group": "工布驻防与波密细部",
+    "certainty": "地区对应有研究依据；旧庄园及驻地确址未定",
+    "reference": "taizhao",
+    "coordinate_source": "https://arhiiv.eki.ee/knab/valik/cn54ny.htm",
+    "identity_source": "https://finance.sina.cn/sa/2015-10-11/detail-iiznezxt1395170.d.html?vt=4",
+    "note": "丁力2015年报道将书中窝冗嘎伽对应今卧龙镇并提及嘎加；KNAB列Orong为卧龙、卧绒，西藏文旅厅驻村记也记卧龙与嘎加两个村民小组。牛津Pitt Rivers夏扎传记记其1903年被贬至工布自家庄园O-rong。1913年行程报告（1914年刊）印刷第60页、8月13日条明确将Orong与Gacha记为隔溪相邻的两处庄园，Orong属于夏扎，Gacha属于拉鲁家族。这支持把书中名称理解为卧龙—嘎加地区连称的对应判断；两处庄园不是同一处的两个别名，也不能将嘎加庄园一并归为夏扎家产。点位只取现代卧龙镇、卧龙村地名点；不是夏扎旧宅、第巴家、查抄仓库、藏经密室或陈部营地的准确位置。历史卧龙地区范围不等于今日镇界，旧庄园基址、范围及作者在两处庄园间的具体活动仍待核。",
+    "timing": "正文记从脚木宗行四日至此，清查家产、办理事务费时两个月；后者为驻留办事，不是行军耗时。与先前工布安抚约两个月不自动相加。校注27述与德摩相距四日程；正文后来先绕行六日访野番，再行四日至德摩，两种叙述分开，不省略绕行，也不以四日反推路线。",
+    "additional_sources": [
+      {
+        "title": "西藏文旅厅：深入基层锤炼自我",
+        "url": "https://wlt.xizang.gov.cn/ztzl_69/60_years/202601/t20260106_517811.html"
+      },
+      {
+        "title": "牛津Pitt Rivers：Shatra Biography",
+        "url": "https://tibet.prm.ox.ac.uk/biography_541.html"
+      },
+      {
+        "title": "《艽野尘梦》第4章原文",
+        "url": "https://www.xuges.com/xdwx/qycm/12.htm"
+      },
+      {
+        "title": "任乃强校注27",
+        "url": "https://www.99csw.com/book/554/17570.htm"
+      },
+      {
+        "title": "Bailey与Morshead行程报告：1913年8月13日，印刷第60页",
+        "url": "https://archive.org/details/ExplorationOnTheNorthEastFrontier1913/page/n90/mode/1up"
+      }
+    ]
+  },
+  {
     "id": "demo",
     "name": "德摩〔第穆／德木地区参照〕",
     "old_names": "德摩／第穆／德木",

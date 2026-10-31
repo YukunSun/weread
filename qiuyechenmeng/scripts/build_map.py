@@ -277,6 +277,36 @@ def make_bianba_supplement(bundled=False):
     view(doc,p['lon'],p['lat'],65000);minor_styles(doc,bundled);minor_folder(doc,[p])
     return serialize(root)
 
+def make_worang_supplement(bundled=False):
+    p=next(p for p in MINOR_PLACES if p['id']=='worang_kaga')
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='worang_supplement')
+    el(doc,'name','《艽野尘梦》窝冗噶伽｜卧龙—嘎加地区参照');el(doc,'open',1)
+    el(doc,'description','用现代卧龙镇村地名点参照窝冗噶伽所在地区，旧庄园、藏经密室及陈营确址未定。从脚木宗行四日与本地办事两个月分开，不画推定行军路线。完整阅读图、小地名补充图与本文件选择一份显示。')
+    view(doc,p['lon'],p['lat'],70000);minor_styles(doc,bundled);minor_folder(doc,[p])
+    return serialize(root)
+
+
+def write_worang_index():
+    p=next(p for p in MINOR_PLACES if p['id']=='worang_kaga')
+    check=json.loads((ROOT/'data/place_checks/窝冗噶伽核对.json').read_text(encoding='utf-8'))
+    note=('窝冗噶伽｜卧龙—嘎加地区参照\n核对日期：'+check['checked_at']+'\n\n'
+          +p['note']+'\n\n耗时：'+p['timing']+'\n\n'
+          +f'现代地区参照：{p["lon"]}°E，{p["lat"]}°N。\n'+check['coordinate_note']+'\n\n'
+          +'完整阅读地图08层、小地名补充版和独立“艽野尘梦_窝冗噶伽.kmz”均包含本点，选择一份显示。新增金色空心地区点，不增画历史路线。\n\n来源及限度\n')
+    for source in check['sources']:
+        note+='\n'+source['title']+'\n'+source['supports']+'\n'+source['url']+'\n'
+    if check.get('pending_sources'):
+        note+='\n待核资料\n'
+        for source in check['pending_sources']:
+            note+='\n'+source['title']+'\n'+source['status']+'\n'+source['url']+'\n'
+    if check.get('google_earth_import'):
+        note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
+        if check['google_earth_import'].get('screenshot'):
+            note+='核验截图：'+check['google_earth_import']['screenshot']+'\n'
+    (ROOT/'窝冗噶伽核对说明.txt').write_text(note,encoding='utf-8')
+    return note
+
+
 def make_road_supplement():
     root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='modern_road_supplement')
     el(doc,'name','《艽野尘梦》现代道路对照｜G317等国道省道');el(doc,'open',1)
@@ -541,6 +571,13 @@ def main():
         z.writestr('doc.kml',make_bianba_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    worang='艽野尘梦_窝冗噶伽'
+    (ROOT/(worang+'.kml')).write_bytes(make_worang_supplement())
+    with zipfile.ZipFile(ROOT/(worang+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_worang_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    worang_note=write_worang_index()
     jiangda='艽野尘梦_江达定位'
     (ROOT/(jiangda+'.kml')).write_bytes(make_jiangda_supplement())
     with zipfile.ZipFile(ROOT/(jiangda+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -608,7 +645,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 
 二、内容和图例
 主要地图点：MAJOR_COUNT个，含书中地点、校注补充地区及2个默认隐藏的现代县城对照点。
-另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、边坝（旧宗驻地与战事背景）、乌斯江（藏军防线背景）。
+另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、边坝（旧宗驻地与战事背景）、乌斯江（藏军防线背景）、窝冗噶伽（卧龙—嘎加地区参照）。
 08小地名层可在左侧列表点击，放大后更易读；金色空心点是村域或地区参照，不是确认古址。
 支持Region的客户端会按缩放显示小地名；网页版忽略Region，可手动开关08图层控制全景标注数量。
 俄洛桥用现代俄洛村参照，未认定清末桥位；西藏桥与俄洛桥的正文、校注和书图差异在弹窗及14层说明。
@@ -727,6 +764,8 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n十九、边坝｜旧宗驻地与战事背景\n'+bianba_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n二十、工布安抚｜曲巴、增巴、脚木宗\n'+gongbu_note)
+    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+        f.write('\n二十一、窝冗噶伽｜卧龙—嘎加地区参照\n'+worang_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':
