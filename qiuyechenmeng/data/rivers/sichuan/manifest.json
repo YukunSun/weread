@@ -1,0 +1,172 @@
+{
+  "created_at_utc": "2026-10-31T02:58:35.853171+00:00",
+  "crs": "WGS84 longitude, latitude (GeoJSON RFC 7946)",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "data_role": "阅读地图的现代真实河流线背景；不是百年前水道复原或古渡点测绘",
+  "geometry_method": "使用OSM官方只读API /map小范围响应及/way/full.json；GeoJSON逐way保留所有原始节点，不拼接不同way，不补线，不简化。原始完整API响应以gzip压缩保存。",
+  "sources": [
+    {
+      "river_id": "dadu",
+      "name": "大渡河",
+      "reference_area": "泸定桥段",
+      "status": "success",
+      "osm_way_id": 988835158,
+      "osm_version": 1,
+      "osm_timestamp": "2021-10-02T11:24:20Z",
+      "source_api_url": "https://www.openstreetmap.org/api/0.6/map?bbox=102.225,29.91,102.235,29.92",
+      "source_cache": "raw/luding_discovery.osm.gz",
+      "source_sha256": "36a9057e5056231a3f398f5eff133626baefe8c9e13193552c871480832b8a68",
+      "uncompressed_bytes": 850224,
+      "cached_bytes": 69068,
+      "output": "dadu_luding.geojson",
+      "node_count": 146,
+      "length_km": 15.195,
+      "maximum_original_edge_km": 0.644,
+      "bbox_lonlat": [
+        102.2063899,
+        29.812842,
+        102.2308302,
+        29.9329944
+      ]
+    },
+    {
+      "river_id": "yalong",
+      "name": "雅砻江",
+      "reference_area": "甘孜镇南侧参照段",
+      "status": "success",
+      "osm_way_id": 326261351,
+      "osm_version": 13,
+      "osm_timestamp": "2025-06-21T03:15:18Z",
+      "source_api_url": "https://www.openstreetmap.org/api/0.6/way/326261351/full.json",
+      "source_cache": "raw/yalong_seed_full.json.gz",
+      "source_sha256": "ff6a91d93f2d1f7832b98b225c55d722d38318bfdce1f449101915d320fab316",
+      "uncompressed_bytes": 13765,
+      "cached_bytes": 2148,
+      "output": "yalong_garze_xinlong.geojson",
+      "node_count": 75,
+      "length_km": 19.456,
+      "maximum_original_edge_km": 0.612,
+      "bbox_lonlat": [
+        99.8797505,
+        31.5824638,
+        100.0400798,
+        31.6336713
+      ]
+    },
+    {
+      "river_id": "yalong",
+      "name": "雅砻江",
+      "reference_area": "新龙县城参照段",
+      "status": "success",
+      "osm_way_id": 49250113,
+      "osm_version": 11,
+      "osm_timestamp": "2024-05-06T14:15:51Z",
+      "source_api_url": "https://www.openstreetmap.org/api/0.6/map?bbox=100.307,30.932,100.316,30.941",
+      "source_cache": "raw/xinlong_discovery.osm.gz",
+      "source_sha256": "c113666edb8cc50979a2842ecd66764ab14e2f082b2b732db5278ce7ff282b56",
+      "uncompressed_bytes": 412560,
+      "cached_bytes": 38607,
+      "output": "yalong_garze_xinlong.geojson",
+      "node_count": 126,
+      "length_km": 30.506,
+      "maximum_original_edge_km": 0.666,
+      "bbox_lonlat": [
+        100.2740666,
+        30.9088595,
+        100.3234128,
+        31.1293708
+      ]
+    },
+    {
+      "river_id": "jinsha",
+      "name": "金沙江",
+      "reference_area": "岗托渡口地区参照段",
+      "status": "success",
+      "osm_way_id": 43049964,
+      "osm_version": 11,
+      "osm_timestamp": "2025-07-11T12:52:38Z",
+      "source_api_url": "https://www.openstreetmap.org/api/0.6/map?bbox=98.588,31.61,98.605,31.63",
+      "source_cache": "raw/gangtuo_discovery.osm.gz",
+      "source_sha256": "558c26d2891305e75506d6e0d9219ddff30a946457eda78edba63358b65d7ca7",
+      "uncompressed_bytes": 869706,
+      "cached_bytes": 90803,
+      "output": "jinsha_gangtuo.geojson",
+      "node_count": 94,
+      "length_km": 23.431,
+      "maximum_original_edge_km": 1.142,
+      "bbox_lonlat": [
+        98.5535808,
+        31.5251597,
+        98.7048993,
+        31.6613006
+      ]
+    }
+  ],
+  "official_geographic_references": [
+    {
+      "title": "雅砻江景观带",
+      "publisher": "甘孜县人民政府",
+      "date": "2016-03-03",
+      "url": "https://www.ganzi.gov.cn/gzfc/article/239460",
+      "supports": "雅砻江经甘孜镇绕城流过。支持甘孜附近河流识别，不确认陈渠珍古渡点。"
+    },
+    {
+      "title": "雅砻湾湿地",
+      "publisher": "甘孜县人民政府",
+      "date": "2022-05-13",
+      "url": "https://www.ganzi.gov.cn/ganzi/c102890/202205/22bbf06e5cee4203959d4c39bc0a14ba.shtml",
+      "supports": "湿地位于甘孜县城南部雅砻江沿岸，涉及甘孜镇南部、呷拉、拖坝、斯俄；提到雅砻江大桥与317国道交汇处。支持河线位于县城南侧的区域参照。"
+    },
+    {
+      "title": "雅砻江锦屏水电站6月蓄水",
+      "publisher": "国家能源局（来源：中国能源报）",
+      "date": "2012-06-07",
+      "url": "https://www.nea.gov.cn/2012-06/07/c_131636225.htm",
+      "supports": "地理背景说明雅砻江自甘孜以下沿大雪山西侧经新龙、雅江，支持新龙处水系参照。"
+    },
+    {
+      "title": "西藏江达：红色遗址为民凝心聚力",
+      "publisher": "西藏自治区文化和旅游厅（来源：新华社）",
+      "date": "2025-09-19",
+      "url": "https://wlt.xizang.gov.cn/ztzl_69/red_lvyou/202509/t20250919_500667.html",
+      "supports": "明确岗托村及金沙江渡口、317国道过江关系。仅证明渡口地区地理身份；1950年渡江遗址不直接等同陈渠珍的渡船下水点。"
+    }
+  ],
+  "gaps": [
+    {
+      "river_id": "yalong",
+      "status": "intentional_unfetched_gap",
+      "description": "只保留甘孜镇旁与新龙县城旁两个真实OSM河段，未获取两段之间的完整雅砻江；不得将两段端点直线相连。",
+      "unconnected_way_ids": [
+        326261351,
+        49250113
+      ]
+    },
+    {
+      "river_id": "dadu",
+      "status": "local_excerpt_only",
+      "description": "泸定桥局部原始way，未获取完整大渡河。"
+    },
+    {
+      "river_id": "jinsha",
+      "status": "local_excerpt_only",
+      "description": "岗托旁局部原始way，未获取完整金沙江。"
+    }
+  ],
+  "retrieval_notes": [
+    "Overpass主服务返回HTTP 406，备用服务超时；最终全部发布几何来自OSM官方API。",
+    "WaterwayMap仅用于发现甘孜旁的OSM节点；其无逐way编号的整河几何未用于输出。",
+    "河名和source=Yahoo等标签原样保留，OSM几何并非官方测绘成果。",
+    "官方文献证实河流与地区关系；本数据不声称识别了陈渠珍的精确古渡点。"
+  ],
+  "feature_count": 4,
+  "coordinate_count": 441,
+  "historical_text_reference": {
+    "title": "《艽野尘梦》校注十（网络整理文本，非政府资料）",
+    "url": "https://chanworld.org/wp-content/uploads/wpforo/default_attachments/1690486613-__JYCM_CWO-Google-Docs.pdf",
+    "page": 7,
+    "supports": "校注十明确将甘孜对应雅砻江、岗拖对应金沙江，并述皮船渡江。仅作文本交叉核对，不作为精确古渡坐标来源。"
+  }
+}

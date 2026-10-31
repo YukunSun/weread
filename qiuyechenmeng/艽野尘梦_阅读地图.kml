@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document id="qiuyechenmeng">
-    <name>《艽野尘梦》阅读地图｜南北驿路、分区与耗时距离（长坝春核对版）</name>
+    <name>《艽野尘梦》阅读地图｜路线、河流与历史背景</name>
     <open>1</open>
     <description><![CDATA[29个主要地点及参照点，另补9处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
 小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
@@ -991,6 +991,195 @@
         <color>ffffffff</color>
         <scale>1.0</scale>
       </LabelStyle>
+    </Style>
+    <Style id="river_dadu">
+      <LineStyle>
+        <color>ffffc840</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_dadu_overview">
+      <LineStyle>
+        <color>9affc840</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_yalong">
+      <LineStyle>
+        <color>ffe3d63b</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_yalong_overview">
+      <LineStyle>
+        <color>9ae3d63b</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_jinsha">
+      <LineStyle>
+        <color>ffffa14b</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_jinsha_overview">
+      <LineStyle>
+        <color>9affa14b</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_angqu">
+      <LineStyle>
+        <color>ffffdb96</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_angqu_overview">
+      <LineStyle>
+        <color>9affdb96</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_zaqu">
+      <LineStyle>
+        <color>ffffc977</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_zaqu_overview">
+      <LineStyle>
+        <color>9affc977</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_lancang">
+      <LineStyle>
+        <color>ffe88743</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_lancang_overview">
+      <LineStyle>
+        <color>9ae88743</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_nyang">
+      <LineStyle>
+        <color>ffbbd94d</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_nyang_overview">
+      <LineStyle>
+        <color>9abbd94d</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_yigong">
+      <LineStyle>
+        <color>ffddda33</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_yigong_overview">
+      <LineStyle>
+        <color>9addda33</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_palong">
+      <LineStyle>
+        <color>fff4ae37</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_palong_overview">
+      <LineStyle>
+        <color>9af4ae37</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_nu">
+      <LineStyle>
+        <color>fffab670</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_nu_overview">
+      <LineStyle>
+        <color>9afab670</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_tongtian">
+      <LineStyle>
+        <color>ffffb987</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_tongtian_overview">
+      <LineStyle>
+        <color>9affb987</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_tuotuo">
+      <LineStyle>
+        <color>ffffcfa0</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_tuotuo_overview">
+      <LineStyle>
+        <color>9affcfa0</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_yarlung">
+      <LineStyle>
+        <color>ffbad450</color>
+        <width>4.0</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_yarlung_overview">
+      <LineStyle>
+        <color>9abad450</color>
+        <width>2.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="river_label">
+      <IconStyle>
+        <scale>0.35</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1.05</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="river_crossing">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.95</scale>
+      </LabelStyle>
+      <LineStyle>
+        <color>d87bdcff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>147bdcff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
     </Style>
     <Folder>
       <name>00 耗时、距离总览与图例</name>
@@ -22124,6 +22313,1166 @@
           <coordinates>100.2460379,30.9708559,0</coordinates>
         </Point>
       </Placemark>
+    </Folder>
+    <Folder id="river_layers">
+      <name>13 沿途主要河流与渡河地区</name>
+      <open>1</open>
+      <description><![CDATA[<p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p>校注十的两次皮船渡河专指北道入昌都一段：甘孜雅砻江、岗拖金沙江。不是全书只渡两条河。</p>]]></description>
+      <LookAt>
+        <longitude>96.5</longitude>
+        <latitude>32</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>1900000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Folder>
+        <name>13A 主要河段｜现代河道实线，可单独开关</name>
+        <open>0</open>
+        <Folder id="river_group_dadu">
+          <name>大渡河｜已取现代河段</name>
+          <open>0</open>
+          <description><![CDATA[<h3>大渡河</h3><p><b>书中依据：</b>第1章；正文经泸定桥过大渡河。</p><p>本层绘泸定附近现代河道；泸定桥可定位，不按正文所述尺寸复原桥梁。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约15.2 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/way/988835158">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>102.2303796</longitude>
+            <latitude>29.9148994</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>95000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_dadu">
+            <name>大渡河〔现代河道片段〕</name>
+            <description><![CDATA[<h3>大渡河</h3><p><b>书中依据：</b>第1章；正文经泸定桥过大渡河。</p><p>本层绘泸定附近现代河道；泸定桥可定位，不按正文所述尺寸复原桥梁。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约15.2 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/way/988835158">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>102.2303796</longitude>
+              <latitude>29.9148994</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_dadu</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>102.2300148,29.9329944,0 102.2292852,29.9310604,0 102.2286266,29.9295837,0 102.2277832,29.9278712,0 102.2273755,29.9265230,0 102.2271073,29.9250631,0 102.2270858,29.9241147,0 102.2272897,29.9231383,0 102.2281265,29.9211763,0 102.2298646,29.9172335,0 102.2301435,29.9164059,0 102.2302508,29.9160339,0 102.2303796,29.9148994,0 102.2303152,29.9137835,0 102.2302723,29.9133743,0 102.2301221,29.9129837,0 102.2300793,29.9129170,0 102.2299985,29.9127908,0 102.2299075,29.9126489,0 102.2297144,29.9122769,0 102.2293710,29.9115516,0 102.2292208,29.9111982,0 102.2291136,29.9108076,0 102.2290492,29.9104170,0 102.2290063,29.9100264,0 102.2289848,29.9096358,0 102.2290492,29.9092266,0 102.2291994,29.9088360,0 102.2294140,29.9085012,0 102.2305512,29.9069574,0 102.2307443,29.9066040,0 102.2308302,29.9062134,0 102.2307873,29.9058228,0 102.2306371,29.9054508,0 102.2304010,29.9050973,0 102.2301650,29.9047625,0 102.2298646,29.9044649,0 102.2294569,29.9042045,0 102.2280407,29.9035256,0 102.2217321,29.9016283,0 102.2202945,29.9010981,0 102.2189856,29.9002564,0 102.2180199,29.8990706,0 102.2177839,29.8987171,0 102.2168183,29.8965035,0 102.2165716,29.8957594,0 102.2165394,29.8953780,0 102.2165394,29.8951920,0 102.2166145,29.8948107,0 102.2167539,29.8944293,0 102.2168505,29.8942526,0 102.2172367,29.8936666,0 102.2178697,29.8931457,0 102.2202086,29.8915738,0 102.2208202,29.8909878,0 102.2210455,29.8906994,0 102.2211850,29.8904390,0 102.2212922,29.8901599,0 102.2213781,29.8898809,0 102.2214103,29.8895925,0 102.2213995,29.8892948,0 102.2213459,29.8889972,0 102.2211313,29.8884112,0 102.2209918,29.8881321,0 102.2208202,29.8878717,0 102.2205198,29.8873414,0 102.2204018,29.8869880,0 102.2203481,29.8866810,0 102.2203267,29.8863833,0 102.2203374,29.8861043,0 102.2203910,29.8858159,0 102.2204769,29.8855275,0 102.2205841,29.8852578,0 102.2209811,29.8839090,0 102.2211420,29.8826997,0 102.2211528,29.8823090,0 102.2211420,29.8820299,0 102.2210884,29.8817415,0 102.2187710,29.8767273,0 102.2186428,29.8765097,0 102.2177410,29.8749784,0 102.2166252,29.8734526,0 102.2151124,29.8718339,0 102.2124624,29.8699173,0 102.2108424,29.8691172,0 102.2105634,29.8689591,0 102.2101986,29.8688195,0 102.2099090,29.8686613,0 102.2096085,29.8685218,0 102.2093725,29.8683171,0 102.2092116,29.8680659,0 102.2090828,29.8677961,0 102.2089970,29.8675077,0 102.2089863,29.8672099,0 102.2095656,29.8645583,0 102.2096514,29.8638326,0 102.2096944,29.8632557,0 102.2096944,29.8626789,0 102.2096514,29.8615624,0 102.2096514,29.8609669,0 102.2097158,29.8603156,0 102.2098231,29.8597201,0 102.2099733,29.8591246,0 102.2104239,29.8568728,0 102.2104883,29.8562959,0 102.2105098,29.8557190,0 102.2105098,29.8551421,0 102.2104668,29.8545652,0 102.2099733,29.8527414,0 102.2098446,29.8521831,0 102.2096085,29.8516620,0 102.2089863,29.8504895,0 102.2069692,29.8473256,0 102.2067332,29.8467859,0 102.2065830,29.8461903,0 102.2064757,29.8456134,0 102.2064113,29.8449247,0 102.2063899,29.8443478,0 102.2063899,29.8437522,0 102.2064972,29.8431938,0 102.2067332,29.8424679,0 102.2082996,29.8380381,0 102.2083425,29.8374611,0 102.2083425,29.8368841,0 102.2083640,29.8363071,0 102.2083640,29.8351716,0 102.2085249,29.8344178,0 102.2090077,29.8331427,0 102.2114754,29.8285822,0 102.2118616,29.8275630,0 102.2120976,29.8263484,0 102.2121835,29.8257155,0 102.2122049,29.8251198,0 102.2122049,29.8245427,0 102.2121191,29.8224763,0 102.2118187,29.8213593,0 102.2116256,29.8208009,0 102.2111320,29.8196280,0 102.2103381,29.8176360,0 102.2101235,29.8168541,0 102.2099948,29.8162956,0 102.2099733,29.8157185,0 102.2099948,29.8151599,0 102.2101450,29.8146014,0 102.2105956,29.8135402,0 102.2107780,29.8128420,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_dadu">
+            <name>大渡河</name>
+            <description><![CDATA[<h3>大渡河</h3><p><b>书中依据：</b>第1章；正文经泸定桥过大渡河。</p><p>本层绘泸定附近现代河道；泸定桥可定位，不按正文所述尺寸复原桥梁。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约15.2 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/way/988835158">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>102.2303796</longitude>
+              <latitude>29.9148994</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>102.2303796,29.9148994,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_yalong">
+          <name>雅砻江〔校注作雅珑江〕｜已取现代河段</name>
+          <open>0</open>
+          <description><![CDATA[<h3>雅砻江〔校注作雅珑江〕</h3><p><b>书中依据：</b>第1章校注10；校注明确甘孜渡雅珑江，使用皮船。</p><p>甘孜附近古渡址未定，不能以现代桥或1930年代渡江遗址代替1909年前后渡点。新龙段只是河流走向参照；甘孜至新龙未下载的中段留空。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约50.0 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/way/326261351">河道数据1</a> · <a href="https://www.openstreetmap.org/way/49250113">河道数据2</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>99.971674</longitude>
+            <latitude>31.6152345</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>95000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_yalong">
+            <name>雅砻江〔校注作雅珑江〕〔现代河道片段〕</name>
+            <description><![CDATA[<h3>雅砻江〔校注作雅珑江〕</h3><p><b>书中依据：</b>第1章校注10；校注明确甘孜渡雅珑江，使用皮船。</p><p>甘孜附近古渡址未定，不能以现代桥或1930年代渡江遗址代替1909年前后渡点。新龙段只是河流走向参照；甘孜至新龙未下载的中段留空。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约50.0 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/way/326261351">河道数据1</a> · <a href="https://www.openstreetmap.org/way/49250113">河道数据2</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>99.971674</longitude>
+              <latitude>31.6152345</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_yalong</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>99.8797505,31.6334051,0 99.8816469,31.6336713,0 99.8845040,31.6336126,0 99.8872506,31.6333203,0 99.8892491,31.6325689,0 99.8896788,31.6308152,0 99.8910293,31.6285828,0 99.8934162,31.6265501,0 99.8946645,31.6228624,0 99.8972476,31.6199926,0 99.8994611,31.6197990,0 99.9020135,31.6198729,0 99.9063255,31.6220125,0 99.9085124,31.6219057,0 99.9121779,31.6212974,0 99.9151810,31.6197675,0 99.9180709,31.6192009,0 99.9207340,31.6198242,0 99.9224339,31.6212407,0 99.9239638,31.6220907,0 99.9264003,31.6224873,0 99.9328599,31.6227140,0 99.9377902,31.6239003,0 99.9411839,31.6236125,0 99.9471028,31.6231106,0 99.9507748,31.6218482,0 99.9531449,31.6198537,0 99.9555149,31.6194757,0 99.9574516,31.6188042,0 99.9591515,31.6181809,0 99.9618576,31.6189351,0 99.9626080,31.6191442,0 99.9639679,31.6194842,0 99.9659511,31.6190309,0 99.9687276,31.6174443,0 99.9716740,31.6152345,0 99.9746205,31.6144412,0 99.9802302,31.6144412,0 99.9828933,31.6154044,0 99.9848480,31.6154342,0 99.9874407,31.6143207,0 99.9878753,31.6140423,0 99.9890193,31.6123882,0 99.9882061,31.6105396,0 99.9881522,31.6096907,0 99.9886084,31.6080710,0 99.9901947,31.6067727,0 99.9928787,31.6044348,0 99.9986751,31.6034963,0 100.0017201,31.6005681,0 100.0047432,31.6004233,0 100.0071062,31.6003101,0 100.0090159,31.5995148,0 100.0108449,31.5963600,0 100.0136395,31.5949588,0 100.0158901,31.5933230,0 100.0183151,31.5932815,0 100.0219430,31.5931975,0 100.0245718,31.5931095,0 100.0286060,31.5931650,0 100.0312237,31.5931089,0 100.0337678,31.5928388,0 100.0355380,31.5928786,0 100.0368369,31.5937689,0 100.0380624,31.5934469,0 100.0390196,31.5934448,0 100.0399501,31.5921370,0 100.0400798,31.5909464,0 100.0396049,31.5896572,0 100.0383859,31.5880592,0 100.0376942,31.5876899,0 100.0364691,31.5873417,0 100.0363347,31.5868266,0 100.0372892,31.5842068,0 100.0387338,31.5824638,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>100.3167558,31.1293708,0 100.3173108,31.1281800,0 100.3173476,31.1273039,0 100.3181430,31.1244100,0 100.3178603,31.1226355,0 100.3161407,31.1196165,0 100.3130926,31.1146968,0 100.3138754,31.1100050,0 100.3135423,31.1073952,0 100.3138588,31.1023607,0 100.3142086,31.0988806,0 100.3162573,31.0942166,0 100.3163722,31.0925809,0 100.3164046,31.0921198,0 100.3162358,31.0907389,0 100.3150653,31.0892557,0 100.3112124,31.0878397,0 100.3093115,31.0864712,0 100.3091677,31.0843026,0 100.3099019,31.0819616,0 100.3106299,31.0780511,0 100.3098938,31.0772235,0 100.3095942,31.0762398,0 100.3100039,31.0738228,0 100.3097990,31.0719879,0 100.3103910,31.0685600,0 100.3107923,31.0628961,0 100.3108958,31.0607143,0 100.3106830,31.0590880,0 100.3107900,31.0582254,0 100.3121646,31.0558707,0 100.3117966,31.0503460,0 100.3113985,31.0495837,0 100.3112885,31.0484118,0 100.3110819,31.0466818,0 100.3115594,31.0437331,0 100.3124987,31.0415380,0 100.3129220,31.0394862,0 100.3129974,31.0367485,0 100.3137305,31.0350558,0 100.3157824,31.0329099,0 100.3168475,31.0301953,0 100.3209445,31.0277713,0 100.3217331,31.0267513,0 100.3225630,31.0256778,0 100.3230407,31.0247363,0 100.3228846,31.0221758,0 100.3222858,31.0205171,0 100.3203402,31.0182812,0 100.3196187,31.0157015,0 100.3163251,31.0104201,0 100.3150119,31.0068663,0 100.3145390,31.0052431,0 100.3142374,31.0038071,0 100.3142253,31.0031597,0 100.3141791,31.0006984,0 100.3151494,30.9994663,0 100.3162148,30.9993489,0 100.3192184,30.9994868,0 100.3205470,30.9987218,0 100.3207756,30.9978240,0 100.3206468,30.9971816,0 100.3208664,30.9954393,0 100.3210832,30.9931743,0 100.3217184,30.9901114,0 100.3194917,30.9867063,0 100.3186941,30.9850475,0 100.3177714,30.9842364,0 100.3172061,30.9835722,0 100.3158737,30.9827768,0 100.3140587,30.9826173,0 100.3130272,30.9831213,0 100.3097749,30.9840086,0 100.3094076,30.9838755,0 100.3091711,30.9834541,0 100.3091870,30.9830016,0 100.3095444,30.9806590,0 100.3112873,30.9777702,0 100.3127726,30.9765791,0 100.3150479,30.9756732,0 100.3175375,30.9753891,0 100.3193032,30.9756362,0 100.3212742,30.9749660,0 100.3220574,30.9738012,0 100.3222612,30.9713390,0 100.3228952,30.9689784,0 100.3229526,30.9681257,0 100.3231308,30.9652936,0 100.3234128,30.9632784,0 100.3227077,30.9609609,0 100.3216502,30.9589255,0 100.3187178,30.9564390,0 100.3162335,30.9543096,0 100.3150577,30.9529309,0 100.3143551,30.9510689,0 100.3129527,30.9489860,0 100.3121640,30.9472825,0 100.3114700,30.9465569,0 100.3117223,30.9450427,0 100.3121431,30.9436610,0 100.3123552,30.9427766,0 100.3124413,30.9414063,0 100.3112491,30.9395220,0 100.3098204,30.9390173,0 100.3076057,30.9378382,0 100.3062246,30.9376153,0 100.3031101,30.9368721,0 100.3014381,30.9360519,0 100.2985989,30.9349793,0 100.2964222,30.9336859,0 100.2947289,30.9323247,0 100.2935154,30.9293924,0 100.2924626,30.9281519,0 100.2908814,30.9264774,0 100.2906631,30.9244970,0 100.2912906,30.9222448,0 100.2909521,30.9208907,0 100.2905561,30.9200246,0 100.2892334,30.9161485,0 100.2880776,30.9145801,0 100.2856860,30.9116129,0 100.2846908,30.9110236,0 100.2802047,30.9095411,0 100.2772918,30.9088595,0 100.2753100,30.9092988,0 100.2740666,30.9095744,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_yalong">
+            <name>雅砻江〔校注作雅珑江〕</name>
+            <description><![CDATA[<h3>雅砻江〔校注作雅珑江〕</h3><p><b>书中依据：</b>第1章校注10；校注明确甘孜渡雅珑江，使用皮船。</p><p>甘孜附近古渡址未定，不能以现代桥或1930年代渡江遗址代替1909年前后渡点。新龙段只是河流走向参照；甘孜至新龙未下载的中段留空。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约50.0 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/way/326261351">河道数据1</a> · <a href="https://www.openstreetmap.org/way/49250113">河道数据2</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>99.971674</longitude>
+              <latitude>31.6152345</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>99.971674,31.6152345,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_jinsha">
+          <name>金沙江〔岗拖河〕｜已取现代河段</name>
+          <open>0</open>
+          <description><![CDATA[<h3>金沙江〔岗拖河〕</h3><p><b>书中依据：</b>第1章；校注10；正文记渡岗拖河、宿江干数日；校注明确金沙江。</p><p>只定位岗拖／岗托附近渡河地区。1950年岗托渡江遗址和现代桥均不直接等于陈部古渡点。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约23.4 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/way/43049964">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>98.5881122</longitude>
+            <latitude>31.6328389</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>95000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_jinsha">
+            <name>金沙江〔岗拖河〕〔现代河道片段〕</name>
+            <description><![CDATA[<h3>金沙江〔岗拖河〕</h3><p><b>书中依据：</b>第1章；校注10；正文记渡岗拖河、宿江干数日；校注明确金沙江。</p><p>只定位岗拖／岗托附近渡河地区。1950年岗托渡江遗址和现代桥均不直接等于陈部古渡点。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约23.4 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/way/43049964">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>98.5881122</longitude>
+              <latitude>31.6328389</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_jinsha</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>98.5536344,31.6613006,0 98.5535808,31.6600626,0 98.5541577,31.6588004,0 98.5554521,31.6572204,0 98.5641308,31.6500898,0 98.5650393,31.6484724,0 98.5663534,31.6473387,0 98.5698337,31.6462923,0 98.5748195,31.6425336,0 98.5782501,31.6400074,0 98.5811655,31.6387925,0 98.5841962,31.6378411,0 98.5857311,31.6367413,0 98.5872756,31.6346207,0 98.5877620,31.6338084,0 98.5881122,31.6328389,0 98.5876962,31.6318684,0 98.5868740,31.6303007,0 98.5869307,31.6283890,0 98.5875376,31.6275856,0 98.5891153,31.6265092,0 98.5915131,31.6251595,0 98.5931667,31.6237281,0 98.5966599,31.6194463,0 98.5973493,31.6181052,0 98.5985687,31.6158556,0 98.6001413,31.6138435,0 98.6029332,31.6122202,0 98.6052659,31.6098145,0 98.6088125,31.6079922,0 98.6125545,31.6074695,0 98.6133567,31.6068523,0 98.6150550,31.6056650,0 98.6160642,31.6043640,0 98.6162768,31.6025922,0 98.6160245,31.5997348,0 98.6161308,31.5966968,0 98.6188520,31.5937626,0 98.6210722,31.5923726,0 98.6227622,31.5922303,0 98.6250160,31.5927293,0 98.6274542,31.5929107,0 98.6289145,31.5934443,0 98.6324248,31.5941183,0 98.6337166,31.5937555,0 98.6350022,31.5924652,0 98.6349194,31.5918059,0 98.6341162,31.5907184,0 98.6345275,31.5894871,0 98.6360306,31.5889137,0 98.6369948,31.5879512,0 98.6400286,31.5865529,0 98.6430123,31.5855108,0 98.6450374,31.5839296,0 98.6473840,31.5830952,0 98.6498493,31.5817995,0 98.6498566,31.5809366,0 98.6495322,31.5785528,0 98.6509163,31.5767098,0 98.6543729,31.5724495,0 98.6557496,31.5703036,0 98.6575478,31.5699286,0 98.6596426,31.5695580,0 98.6629484,31.5691940,0 98.6654409,31.5678798,0 98.6673088,31.5657634,0 98.6696331,31.5641599,0 98.6724864,31.5596381,0 98.6744252,31.5588657,0 98.6759670,31.5569015,0 98.6780445,31.5566186,0 98.6799192,31.5567463,0 98.6808815,31.5563863,0 98.6834649,31.5545855,0 98.6838622,31.5537865,0 98.6832015,31.5530666,0 98.6830624,31.5526533,0 98.6851184,31.5508016,0 98.6882123,31.5490613,0 98.6920399,31.5450136,0 98.6950606,31.5434698,0 98.6963532,31.5417059,0 98.6965216,31.5400859,0 98.6963808,31.5392233,0 98.6958769,31.5387563,0 98.6951369,31.5381272,0 98.6948379,31.5370467,0 98.6949599,31.5341434,0 98.6953471,31.5328127,0 98.6982930,31.5305275,0 98.6997904,31.5302975,0 98.7015189,31.5289297,0 98.7023444,31.5271279,0 98.7048993,31.5251597,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_jinsha">
+            <name>金沙江〔岗拖河〕</name>
+            <description><![CDATA[<h3>金沙江〔岗拖河〕</h3><p><b>书中依据：</b>第1章；校注10；正文记渡岗拖河、宿江干数日；校注明确金沙江。</p><p>只定位岗拖／岗托附近渡河地区。1950年岗托渡江遗址和现代桥均不直接等于陈部古渡点。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约23.4 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/way/43049964">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>98.5881122</longitude>
+              <latitude>31.6328389</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>98.5881122,31.6328389,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_angqu">
+          <name>昂曲〔昌都水系参照〕｜已取现代河段</name>
+          <open>0</open>
+          <description><![CDATA[<h3>昂曲〔昌都水系参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；现代昌都为昂曲、扎曲合流区。</p><p>原书西藏桥、四川桥等桥名与具体河段的对应待考，不据桥名断言陈部渡澜沧江干流。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约9.9 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/26303813/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>97.1496924</longitude>
+            <latitude>31.150216</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>95000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_angqu">
+            <name>昂曲〔昌都水系参照〕〔现代河道片段〕</name>
+            <description><![CDATA[<h3>昂曲〔昌都水系参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；现代昌都为昂曲、扎曲合流区。</p><p>原书西藏桥、四川桥等桥名与具体河段的对应待考，不据桥名断言陈部渡澜沧江干流。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约9.9 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/26303813/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>97.1496924</longitude>
+              <latitude>31.150216</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_angqu</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>97.1063415,31.1635995,0 97.1116040,31.1636803,0 97.1133449,31.1642050,0 97.1152363,31.1653772,0 97.1179471,31.1663875,0 97.1197573,31.1659809,0 97.1207611,31.1652704,0 97.1210360,31.1647599,0 97.1206446,31.1634252,0 97.1205262,31.1624548,0 97.1209546,31.1616964,0 97.1223134,31.1610060,0 97.1242389,31.1608371,0 97.1250834,31.1596885,0 97.1243110,31.1569567,0 97.1242848,31.1555041,0 97.1257128,31.1551793,0 97.1272453,31.1552296,0 97.1273818,31.1545151,0 97.1266667,31.1527176,0 97.1269233,31.1509726,0 97.1274415,31.1504059,0 97.1279953,31.1502409,0 97.1289518,31.1508154,0 97.1308998,31.1519392,0 97.1324156,31.1518964,0 97.1338764,31.1522872,0 97.1344978,31.1521439,0 97.1346118,31.1521177,0 97.1349171,31.1520474,0 97.1357323,31.1512275,0 97.1382796,31.1508528,0 97.1406397,31.1508903,0 97.1414962,31.1507779,0 97.1434271,31.1493234,0 97.1438391,31.1491533,0 97.1448174,31.1487493,0 97.1472345,31.1488225,0 97.1479036,31.1490519,0 97.1496924,31.1502160,0 97.1513305,31.1504979,0 97.1523326,31.1502581,0 97.1536012,31.1494293,0 97.1561860,31.1486426,0 97.1575685,31.1483232,0 97.1601857,31.1488450,0 97.1628992,31.1484339,0 97.1670872,31.1478934,0 97.1700552,31.1472435,0 97.1715931,31.1465541,0 97.1724642,31.1458554,0 97.1735451,31.1444098,0 97.1752804,31.1406616,0 97.1755673,31.1375963,0 97.1759949,31.1358732,0 97.1764342,31.1352526,0 97.1768134,31.1348077,0 97.1771040,31.1345273,0 97.1773189,31.1341966,0 97.1774668,31.1337216,0 97.1776921,31.1330508,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_angqu">
+            <name>昂曲〔昌都水系参照〕</name>
+            <description><![CDATA[<h3>昂曲〔昌都水系参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；现代昌都为昂曲、扎曲合流区。</p><p>原书西藏桥、四川桥等桥名与具体河段的对应待考，不据桥名断言陈部渡澜沧江干流。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约9.9 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/26303813/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>97.1496924</longitude>
+              <latitude>31.150216</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>97.1496924,31.150216,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_zaqu">
+          <name>扎曲〔昌都水系参照〕｜已取现代河段</name>
+          <open>0</open>
+          <description><![CDATA[<h3>扎曲〔昌都水系参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；现代昌都为昂曲、扎曲合流区。</p><p>这里的扎曲为昌都一带地名对象，不将其他流域同名河混入；古桥确址仍待考。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约6.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/401337798/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>97.1850202</longitude>
+            <latitude>31.1801511</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>95000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_zaqu">
+            <name>扎曲〔昌都水系参照〕〔现代河道片段〕</name>
+            <description><![CDATA[<h3>扎曲〔昌都水系参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；现代昌都为昂曲、扎曲合流区。</p><p>这里的扎曲为昌都一带地名对象，不将其他流域同名河混入；古桥确址仍待考。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约6.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/401337798/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>97.1850202</longitude>
+              <latitude>31.1801511</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_zaqu</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>97.1850202,31.1801511,0 97.1839924,31.1787840,0 97.1829420,31.1779380,0 97.1823302,31.1764829,0 97.1822640,31.1759021,0 97.1825903,31.1754952,0 97.1826595,31.1746988,0 97.1829358,31.1732591,0 97.1834677,31.1715302,0 97.1836986,31.1703988,0 97.1833941,31.1689346,0 97.1830488,31.1681234,0 97.1825489,31.1673570,0 97.1818955,31.1660741,0 97.1816612,31.1653512,0 97.1811151,31.1645590,0 97.1794072,31.1634655,0 97.1775935,31.1617657,0 97.1771093,31.1609995,0 97.1769601,31.1603038,0 97.1769226,31.1593903,0 97.1772430,31.1583232,0 97.1780008,31.1574373,0 97.1790099,31.1566079,0 97.1792251,31.1563252,0 97.1792835,31.1557506,0 97.1786126,31.1542556,0 97.1775733,31.1505861,0 97.1774546,31.1497538,0 97.1779020,31.1481193,0 97.1782896,31.1472606,0 97.1789334,31.1465640,0 97.1821679,31.1432986,0 97.1832811,31.1422793,0 97.1838451,31.1411804,0 97.1838625,31.1409865,0 97.1839239,31.1403003,0 97.1836155,31.1398450,0 97.1834087,31.1395396,0 97.1825127,31.1387108,0 97.1798510,31.1365881,0 97.1783860,31.1349834,0 97.1781620,31.1345818,0 97.1776921,31.1330508,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_zaqu">
+            <name>扎曲〔昌都水系参照〕</name>
+            <description><![CDATA[<h3>扎曲〔昌都水系参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；现代昌都为昂曲、扎曲合流区。</p><p>这里的扎曲为昌都一带地名对象，不将其他流域同名河混入；古桥确址仍待考。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约6.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/401337798/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>97.1850202</longitude>
+              <latitude>31.1801511</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>97.1850202,31.1801511,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_lancang">
+          <name>澜沧江〔昌都以下参照〕｜已取现代河段</name>
+          <open>0</open>
+          <description><![CDATA[<h3>澜沧江〔昌都以下参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；昌都附近昂曲、扎曲合流后下游水系参照。</p><p>河流经过行程地点，不等于作者明确渡过这条干流。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约7.8 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/26303815/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>97.1959698</longitude>
+            <latitude>31.0975473</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>95000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_lancang">
+            <name>澜沧江〔昌都以下参照〕〔现代河道片段〕</name>
+            <description><![CDATA[<h3>澜沧江〔昌都以下参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；昌都附近昂曲、扎曲合流后下游水系参照。</p><p>河流经过行程地点，不等于作者明确渡过这条干流。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约7.8 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/26303815/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>97.1959698</longitude>
+              <latitude>31.0975473</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_lancang</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>97.1776921,31.1330508,0 97.1781794,31.1314273,0 97.1790208,31.1296188,0 97.1797773,31.1266840,0 97.1800643,31.1253935,0 97.1800911,31.1251915,0 97.1800858,31.1249711,0 97.1800455,31.1247231,0 97.1799946,31.1244958,0 97.1798900,31.1242639,0 97.1798283,31.1240802,0 97.1797156,31.1237863,0 97.1796513,31.1235062,0 97.1796566,31.1232765,0 97.1796781,31.1230010,0 97.1797264,31.1228357,0 97.1798497,31.1224637,0 97.1801019,31.1219494,0 97.1802735,31.1216692,0 97.1804559,31.1213845,0 97.1806544,31.1211411,0 97.1809575,31.1208265,0 97.1812338,31.1206451,0 97.1815073,31.1204752,0 97.1819311,31.1202226,0 97.1823817,31.1199792,0 97.1835244,31.1193088,0 97.1844685,31.1187393,0 97.1862549,31.1177978,0 97.1866143,31.1176417,0 97.1869147,31.1175636,0 97.1873975,31.1174534,0 97.1877777,31.1174004,0 97.1885025,31.1173018,0 97.1893823,31.1172284,0 97.1904820,31.1171227,0 97.1926707,31.1169390,0 97.1935558,31.1168518,0 97.1946220,31.1167445,0 97.1954334,31.1166038,0 97.1958840,31.1165211,0 97.1961898,31.1164384,0 97.1965921,31.1162823,0 97.1970105,31.1160664,0 97.1973056,31.1158230,0 97.1975738,31.1155429,0 97.1978366,31.1150744,0 97.1979868,31.1145463,0 97.1980458,31.1141329,0 97.1979555,31.1137276,0 97.1977347,31.1131409,0 97.1974128,31.1123555,0 97.1972683,31.1119576,0 97.1966672,31.1105827,0 97.1964741,31.1101280,0 97.1962649,31.1096320,0 97.1960717,31.1090028,0 97.1958840,31.1084608,0 97.1956479,31.1079142,0 97.1954441,31.1076157,0 97.1953034,31.1074693,0 97.1949881,31.1072574,0 97.1946160,31.1070631,0 97.1933234,31.1066574,0 97.1928638,31.1065570,0 97.1923596,31.1065134,0 97.1918712,31.1064990,0 97.1912706,31.1065639,0 97.1907020,31.1066190,0 97.1901762,31.1066052,0 97.1891999,31.1063893,0 97.1888834,31.1062148,0 97.1886742,31.1060403,0 97.1884435,31.1058244,0 97.1882699,31.1056021,0 97.1878856,31.1050527,0 97.1876496,31.1046302,0 97.1874632,31.1042332,0 97.1874028,31.1040193,0 97.1874028,31.1037759,0 97.1874189,31.1034957,0 97.1875423,31.1031466,0 97.1878213,31.1026873,0 97.1882021,31.1020212,0 97.1890712,31.1010750,0 97.1895012,31.1007516,0 97.1904337,31.1003585,0 97.1913886,31.1000369,0 97.1926117,31.0996235,0 97.1936202,31.0993112,0 97.1946735,31.0988874,0 97.1950758,31.0986285,0 97.1955100,31.0981255,0 97.1959698,31.0975473,0 97.1962809,31.0970052,0 97.1964204,31.0965551,0 97.1965814,31.0959120,0 97.1967101,31.0951311,0 97.1968174,31.0945982,0 97.1969783,31.0941205,0 97.1971929,31.0936060,0 97.1974611,31.0930823,0 97.1977615,31.0924943,0 97.1986198,31.0909692,0 97.1997464,31.0893797,0 97.2000753,31.0889034,0 97.2014952,31.0869725,0 97.2027933,31.0852727,0 97.2034300,31.0844704,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_lancang">
+            <name>澜沧江〔昌都以下参照〕</name>
+            <description><![CDATA[<h3>澜沧江〔昌都以下参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；昌都附近昂曲、扎曲合流后下游水系参照。</p><p>河流经过行程地点，不等于作者明确渡过这条干流。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约7.8 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/26303815/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>97.1959698</longitude>
+              <latitude>31.0975473</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>97.1959698,31.0975473,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_nyang">
+          <name>尼洋河／尼洋曲｜已取现代河段</name>
+          <open>0</open>
+          <description><![CDATA[<h3>尼洋河／尼洋曲</h3><p><b>书中依据：</b>第3—4、7—8章地理参照；现代尼洋河流经工布江达；正文写牙披宅后大河、离江达过桥但未直接命名。</p><p>不把未名大河、江达桥与本河作已证实的一一对应。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约36.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/30960786/full">河道数据1</a> · <a href="https://www.openstreetmap.org/api/0.6/way/398222751/full">河道数据2</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>93.086446</longitude>
+            <latitude>29.9990888</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>95000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_nyang">
+            <name>尼洋河／尼洋曲〔现代河道片段〕</name>
+            <description><![CDATA[<h3>尼洋河／尼洋曲</h3><p><b>书中依据：</b>第3—4、7—8章地理参照；现代尼洋河流经工布江达；正文写牙披宅后大河、离江达过桥但未直接命名。</p><p>不把未名大河、江达桥与本河作已证实的一一对应。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约36.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/30960786/full">河道数据1</a> · <a href="https://www.openstreetmap.org/api/0.6/way/398222751/full">河道数据2</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>93.086446</longitude>
+              <latitude>29.9990888</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_nyang</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.0864460,29.9990888,0 93.0881383,29.9987851,0 93.0898430,29.9977103,0 93.0904305,29.9972322,0 93.0913977,29.9940568,0 93.0932375,29.9916474,0 93.0949361,29.9899339,0 93.0973903,29.9893162,0 93.1000306,29.9878187,0 93.1018294,29.9871807,0 93.1034334,29.9864713,0 93.1037283,29.9855532,0 93.1023300,29.9832872,0 93.1014753,29.9820098,0 93.1016050,29.9811007,0 93.1019832,29.9786466,0 93.1029171,29.9770132,0 93.1031557,29.9765959,0 93.1048310,29.9759797,0 93.1051725,29.9755287,0 93.1050169,29.9741912,0 93.1052321,29.9735678,0 93.1068005,29.9733381,0 93.1083105,29.9732603,0 93.1096837,29.9730408,0 93.1137312,29.9723131,0 93.1174510,29.9735576,0 93.1189152,29.9728736,0 93.1195907,29.9717757,0 93.1211278,29.9709699,0 93.1225377,29.9704475,0 93.1242702,29.9692059,0 93.1255911,29.9685361,0 93.1268465,29.9676618,0 93.1282589,29.9661373,0 93.1286897,29.9652416,0 93.1289441,29.9637882,0 93.1287004,29.9616172,0 93.1294832,29.9589907,0 93.1297515,29.9577522,0 93.1310474,29.9554971,0 93.1318760,29.9552320,0 93.1341192,29.9537594,0 93.1386259,29.9526814,0 93.1408378,29.9528331,0 93.1436696,29.9505066,0 93.1451383,29.9469303,0 93.1436283,29.9452436,0 93.1435708,29.9435169,0 93.1436293,29.9432005,0 93.1438025,29.9422638,0 93.1441429,29.9420686,0 93.1461428,29.9424797,0 93.1473498,29.9420361,0 93.1478763,29.9416340,0 93.1500050,29.9387641,0 93.1513446,29.9369646,0 93.1524042,29.9360819,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.1524042,29.9360819,0 93.1529346,29.9360339,0 93.1540474,29.9360183,0 93.1564096,29.9364136,0 93.1572475,29.9361241,0 93.1577368,29.9355712,0 93.1578119,29.9350240,0 93.1575153,29.9335182,0 93.1618089,29.9298727,0 93.1635235,29.9290120,0 93.1653033,29.9284271,0 93.1664690,29.9264991,0 93.1647448,29.9247397,0 93.1638665,29.9228313,0 93.1636785,29.9224228,0 93.1642409,29.9188788,0 93.1647836,29.9163221,0 93.1655350,29.9146799,0 93.1683712,29.9135317,0 93.1699602,29.9125260,0 93.1719407,29.9118281,0 93.1725392,29.9117707,0 93.1754544,29.9118854,0 93.1795100,29.9127588,0 93.1814004,29.9135176,0 93.1828617,29.9141041,0 93.1847164,29.9138306,0 93.1857628,29.9130282,0 93.1868113,29.9124166,0 93.1881656,29.9108439,0 93.1883403,29.9081352,0 93.1884714,29.9051208,0 93.1893015,29.9025869,0 93.1924892,29.9002018,0 93.1961167,29.8964269,0 93.1983304,29.8949409,0 93.2015317,29.8938978,0 93.2039523,29.8927458,0 93.2059902,29.8913155,0 93.2081533,29.8896472,0 93.2097888,29.8886251,0 93.2127499,29.8874438,0 93.2140930,29.8874785,0 93.2168162,29.8889693,0 93.2186827,29.8886526,0 93.2226205,29.8884856,0 93.2256139,29.8872763,0 93.2274804,29.8852901,0 93.2309619,29.8845327,0 93.2349372,29.8831090,0 93.2376969,29.8838832,0 93.2399835,29.8844361,0 93.2441613,29.8845924,0 93.2477104,29.8855910,0 93.2516962,29.8848381,0 93.2540469,29.8842045,0 93.2558096,29.8849524,0 93.2589017,29.8833357,0 93.2595078,29.8828678,0 93.2618478,29.8827794,0 93.2648284,29.8835473,0 93.2664796,29.8851914,0 93.2718855,29.8848970,0 93.2782856,29.8884560,0 93.2833308,29.8885330,0 93.2894094,29.8861721,0 93.2916703,29.8874453,0 93.2935084,29.8877033,0 93.2954614,29.8869728,0 93.2973074,29.8856509,0 93.3004878,29.8867784,0 93.3038695,29.8893051,0 93.3074317,29.8904108,0 93.3099140,29.8926903,0 93.3105151,29.8961073,0 93.3124333,29.8975842,0 93.3151047,29.8990093,0 93.3172504,29.8999303,0 93.3193269,29.8996369,0 93.3229093,29.8982662,0 93.3236134,29.8976469,0 93.3245415,29.8963223,0 93.3259582,29.8961200,0 93.3296117,29.8986047,0 93.3323475,29.8981784,0 93.3354050,29.8990450,0 93.3366489,29.8978972,0 93.3389455,29.8969776,0 93.3407339,29.8955762,0 93.3427940,29.8948389,0 93.3463401,29.8944148,0 93.3477516,29.8937878,0 93.3497140,29.8938522,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_nyang">
+            <name>尼洋河／尼洋曲</name>
+            <description><![CDATA[<h3>尼洋河／尼洋曲</h3><p><b>书中依据：</b>第3—4、7—8章地理参照；现代尼洋河流经工布江达；正文写牙披宅后大河、离江达过桥但未直接命名。</p><p>不把未名大河、江达桥与本河作已证实的一一对应。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约36.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/30960786/full">河道数据1</a> · <a href="https://www.openstreetmap.org/api/0.6/way/398222751/full">河道数据2</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>93.086446</longitude>
+              <latitude>29.9990888</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>93.086446,29.9990888,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_yigong">
+          <name>易贡藏布｜已取现代河段</name>
+          <open>0</open>
+          <description><![CDATA[<h3>易贡藏布</h3><p><b>书中依据：</b>第6章；通麦附近与帕隆藏布汇流；正文另记易贡海子下流徒涉、乘船偷渡湖面。</p><p>易贡湖渡水与薄藏布藤索渡河分列。现代通麦桥跨易贡藏布，但不能反推古汤买藤桥原址。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约49.3 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/398373303/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>95.0397349</longitude>
+            <latitude>30.1275307</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>95000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_yigong">
+            <name>易贡藏布〔现代河道片段〕</name>
+            <description><![CDATA[<h3>易贡藏布</h3><p><b>书中依据：</b>第6章；通麦附近与帕隆藏布汇流；正文另记易贡海子下流徒涉、乘船偷渡湖面。</p><p>易贡湖渡水与薄藏布藤索渡河分列。现代通麦桥跨易贡藏布，但不能反推古汤买藤桥原址。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约49.3 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/398373303/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>95.0397349</longitude>
+              <latitude>30.1275307</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_yigong</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>94.7284770,30.2986668,0 94.7310344,30.2980984,0 94.7322750,30.2969253,0 94.7330621,30.2953008,0 94.7325325,30.2929975,0 94.7310130,30.2909579,0 94.7303584,30.2889179,0 94.7308588,30.2875687,0 94.7320262,30.2865718,0 94.7334552,30.2858084,0 94.7351834,30.2853684,0 94.7376969,30.2858533,0 94.7402143,30.2870869,0 94.7414976,30.2876053,0 94.7443342,30.2874204,0 94.7457933,30.2866793,0 94.7471218,30.2857863,0 94.7483468,30.2845484,0 94.7488832,30.2838628,0 94.7490092,30.2829636,0 94.7517804,30.2797963,0 94.7533035,30.2788041,0 94.7553881,30.2785258,0 94.7627687,30.2774793,0 94.7650409,30.2780722,0 94.7668111,30.2795454,0 94.7677616,30.2798294,0 94.7695477,30.2807947,0 94.7717492,30.2812744,0 94.7759562,30.2784192,0 94.7787681,30.2770759,0 94.7812038,30.2749395,0 94.7836529,30.2715459,0 94.7854263,30.2711389,0 94.7882795,30.2714102,0 94.7930097,30.2684302,0 94.7959970,30.2669718,0 94.7966096,30.2652242,0 94.7999846,30.2622721,0 94.8029786,30.2611820,0 94.8088340,30.2594879,0 94.8115155,30.2570347,0 94.8157212,30.2531869,0 94.8224745,30.2504698,0 94.8256895,30.2514667,0 94.8267062,30.2531758,0 94.8289869,30.2553832,0 94.8343975,30.2558653,0 94.8391500,30.2584807,0 94.8451209,30.2597715,0 94.8543674,30.2628895,0 94.8631797,30.2425733,0 94.8691320,30.2383809,0 94.8779296,30.2398639,0 94.8834293,30.2420267,0 94.8903322,30.2398269,0 94.8944950,30.2333013,0 94.8944091,30.2272945,0 94.9043117,30.2148793,0 94.9118757,30.2068611,0 94.9115385,30.1984753,0 94.9138069,30.1943245,0 94.9174958,30.1910993,0 94.9208127,30.1906533,0 94.9235316,30.1897387,0 94.9275580,30.1883842,0 94.9291443,30.1873603,0 94.9299367,30.1865788,0 94.9323587,30.1849354,0 94.9350285,30.1838731,0 94.9360134,30.1820613,0 94.9377607,30.1790017,0 94.9384542,30.1767319,0 94.9384400,30.1759238,0 94.9384201,30.1747872,0 94.9393754,30.1733201,0 94.9406637,30.1727490,0 94.9424461,30.1723307,0 94.9441179,30.1707612,0 94.9462332,30.1695329,0 94.9478027,30.1683047,0 94.9498498,30.1674176,0 94.9532957,30.1657799,0 94.9542022,30.1655661,0 94.9571370,30.1649204,0 94.9586779,30.1648014,0 94.9608570,30.1643575,0 94.9641445,30.1632900,0 94.9677165,30.1626112,0 94.9701019,30.1627056,0 94.9728867,30.1630195,0 94.9749393,30.1629226,0 94.9771437,30.1623406,0 94.9788504,30.1616857,0 94.9824292,30.1610735,0 94.9868818,30.1586914,0 94.9905784,30.1566824,0 94.9950399,30.1551697,0 94.9970696,30.1538193,0 94.9979599,30.1527683,0 94.9985027,30.1508459,0 94.9991166,30.1488169,0 95.0028676,30.1470084,0 95.0047584,30.1466547,0 95.0107076,30.1459496,0 95.0173905,30.1451954,0 95.0192793,30.1447993,0 95.0205106,30.1433152,0 95.0202964,30.1395289,0 95.0200867,30.1383913,0 95.0209519,30.1355735,0 95.0215167,30.1305955,0 95.0230491,30.1297441,0 95.0286069,30.1289865,0 95.0339947,30.1281949,0 95.0358315,30.1289538,0 95.0373948,30.1285676,0 95.0397349,30.1275307,0 95.0426294,30.1259132,0 95.0459495,30.1247214,0 95.0490143,30.1244660,0 95.0518451,30.1249461,0 95.0538902,30.1250368,0 95.0556849,30.1252321,0 95.0569690,30.1244984,0 95.0574875,30.1229321,0 95.0578194,30.1206365,0 95.0591090,30.1189954,0 95.0603319,30.1174668,0 95.0626554,30.1171000,0 95.0644897,30.1171000,0 95.0667520,30.1179560,0 95.0695035,30.1183228,0 95.0703147,30.1184260,0 95.0712296,30.1180317,0 95.0712831,30.1177186,0 95.0709307,30.1173728,0 95.0703902,30.1168554,0 95.0704819,30.1161216,0 95.0721939,30.1140427,0 95.0720894,30.1109696,0 95.0710933,30.1083563,0 95.0693813,30.1064608,0 95.0675082,30.1036002,0 95.0661349,30.1012890,0 95.0651264,30.0989592,0 95.0639600,30.0960196,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_yigong">
+            <name>易贡藏布</name>
+            <description><![CDATA[<h3>易贡藏布</h3><p><b>书中依据：</b>第6章；通麦附近与帕隆藏布汇流；正文另记易贡海子下流徒涉、乘船偷渡湖面。</p><p>易贡湖渡水与薄藏布藤索渡河分列。现代通麦桥跨易贡藏布，但不能反推古汤买藤桥原址。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约49.3 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/398373303/full">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>95.0397349</longitude>
+              <latitude>30.1275307</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>95.0397349,30.1275307,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_palong">
+          <name>帕隆藏布｜已取现代河段</name>
+          <open>0</open>
+          <description><![CDATA[<h3>帕隆藏布</h3><p><b>书中依据：</b>第6章；校注33；正文汤买薄藏布江、校注波密河相关的现代水系背景。</p><p>与易贡藏布两支同时展示；古汤买藤桥具体落在哪支尚未独立考定，不以今桥套古桥。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约107.3 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/26407649/full">河道数据1</a> · <a href="https://www.openstreetmap.org/api/0.6/way/26407650/full">河道数据2</a> · <a href="https://www.openstreetmap.org/api/0.6/way/26407652/full">河道数据3</a> · <a href="https://www.openstreetmap.org/api/0.6/way/67605162/full">河道数据4</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>95.2205781</longitude>
+            <latitude>30.0377479</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>95000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_palong">
+            <name>帕隆藏布〔现代河道片段〕</name>
+            <description><![CDATA[<h3>帕隆藏布</h3><p><b>书中依据：</b>第6章；校注33；正文汤买薄藏布江、校注波密河相关的现代水系背景。</p><p>与易贡藏布两支同时展示；古汤买藤桥具体落在哪支尚未独立考定，不以今桥套古桥。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约107.3 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/26407649/full">河道数据1</a> · <a href="https://www.openstreetmap.org/api/0.6/way/26407650/full">河道数据2</a> · <a href="https://www.openstreetmap.org/api/0.6/way/26407652/full">河道数据3</a> · <a href="https://www.openstreetmap.org/api/0.6/way/67605162/full">河道数据4</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>95.2205781</longitude>
+              <latitude>30.0377479</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_palong</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>95.2686006,30.0370588,0 95.2676868,30.0368885,0 95.2668142,30.0360774,0 95.2661740,30.0354884,0 95.2650780,30.0349422,0 95.2629769,30.0346965,0 95.2608740,30.0333125,0 95.2588999,30.0326995,0 95.2564323,30.0337305,0 95.2538459,30.0339771,0 95.2529121,30.0347621,0 95.2514486,30.0368280,0 95.2503141,30.0379682,0 95.2478288,30.0394892,0 95.2464566,30.0399191,0 95.2432454,30.0402118,0 95.2421848,30.0401175,0 95.2394021,30.0394020,0 95.2370169,30.0378914,0 95.2356653,30.0378914,0 95.2328826,30.0359832,0 95.2308950,30.0349497,0 95.2296229,30.0348702,0 95.2274760,30.0352778,0 95.2257744,30.0360463,0 95.2236520,30.0349851,0 95.2226456,30.0348936,0 95.2218588,30.0353510,0 95.2205781,30.0377479,0 95.2205598,30.0387909,0 95.2205750,30.0390263,0 95.2206329,30.0399253,0 95.2200840,30.0408584,0 95.2185288,30.0428894,0 95.2160404,30.0448838,0 95.2153085,30.0457620,0 95.2131312,30.0472807,0 95.2121248,30.0483602,0 95.2116308,30.0518183,0 95.2102402,30.0535932,0 95.2077701,30.0549105,0 95.2037082,30.0556424,0 95.1999939,30.0566122,0 95.1970481,30.0569415,0 95.1960211,30.0573628,0 95.1949073,30.0578198,0 95.1938278,30.0585882,0 95.1902782,30.0619549,0 95.1881969,30.0633371,0 95.1865875,30.0644514,0 95.1859757,30.0647904,0 95.1857407,30.0649206,0 95.1836181,30.0654130,0 95.1826849,30.0652118,0 95.1808852,30.0640893,0 95.1789915,30.0641728,0 95.1767599,30.0653242,0 95.1746142,30.0663270,0 95.1718714,30.0667670,0 95.1683271,30.0661785,0 95.1661813,30.0651199,0 95.1639551,30.0654263,0 95.1627266,30.0650828,0 95.1608652,30.0635321,0 95.1595509,30.0630771,0 95.1579845,30.0629100,0 95.1561391,30.0631886,0 95.1528990,30.0644514,0 95.1514077,30.0651828,0 95.1509678,30.0653985,0 95.1499164,30.0660670,0 95.1494872,30.0669584,0 95.1489991,30.0690661,0 95.1479423,30.0699668,0 95.1471537,30.0705888,0 95.1462900,30.0708024,0 95.1448095,30.0709510,0 95.1423783,30.0711309,0 95.1399439,30.0696975,0 95.1373905,30.0694747,0 95.1364249,30.0687504,0 95.1356739,30.0682862,0 95.1341504,30.0686762,0 95.1336622,30.0699110,0 95.1333296,30.0716195,0 95.1326537,30.0726686,0 95.1315754,30.0733000,0 95.1287645,30.0733557,0 95.1246446,30.0747298,0 95.1205677,30.0752869,0 95.1180732,30.0757232,0 95.1159596,30.0771066,0 95.1138246,30.0783692,0 95.1117861,30.0787313,0 95.1103484,30.0796040,0 95.1096940,30.0803096,0 95.1093399,30.0814422,0 95.1091254,30.0829462,0 95.1081490,30.0858519,0 95.1082885,30.0884420,0 95.1083851,30.0913847,0 95.1086211,30.0927771,0 95.1097476,30.0947079,0 95.1103055,30.0959425,0 95.1099193,30.0965365,0 95.1091683,30.0972234,0 95.1083529,30.0981795,0 95.1068723,30.0986807,0 95.1046407,30.0986622,0 95.1024949,30.0990335,0 95.1016366,30.0999060,0 95.1004779,30.1008528,0 95.0981176,30.1010013,0 95.0952852,30.0999246,0 95.0941050,30.0989778,0 95.0924098,30.0985879,0 95.0913584,30.0989778,0 95.0903713,30.0995347,0 95.0886333,30.1005929,0 95.0848353,30.1010570,0 95.0823247,30.1013354,0 95.0804204,30.1015582,0 95.0777757,30.1003887,0 95.0766384,30.0993676,0 95.0753081,30.0977711,0 95.0734627,30.0965829,0 95.0725900,30.0964502,0 95.0711663,30.0965607,0 95.0689137,30.0960396,0 95.0672144,30.0955408,0 95.0658693,30.0955926,0 95.0639600,30.0960196,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>95.4333877,29.9119480,0 95.4311149,29.9115605,0 95.4298150,29.9117155,0 95.4281628,29.9129616,0 95.4274543,29.9132891,0 95.4231309,29.9156492,0 95.4217791,29.9169232,0 95.4181206,29.9188667,0 95.4169471,29.9200680,0 95.4156959,29.9224654,0 95.4149770,29.9242693,0 95.4152023,29.9266590,0 95.4138290,29.9279235,0 95.4124879,29.9285186,0 95.4099881,29.9294298,0 95.4052889,29.9307687,0 95.4026353,29.9312541,0 95.4010188,29.9315498,0 95.4005360,29.9325074,0 95.4004613,29.9328163,0 95.3998386,29.9353897,0 95.3985297,29.9366449,0 95.3964376,29.9378070,0 95.3951501,29.9385136,0 95.3928971,29.9396107,0 95.3907128,29.9406758,0 95.3884661,29.9420837,0 95.3864598,29.9428460,0 95.3849792,29.9439058,0 95.3845286,29.9448448,0 95.3843745,29.9494206,0 95.3838527,29.9510268,0 95.3835094,29.9524212,0 95.3824687,29.9533694,0 95.3806745,29.9542885,0 95.3792929,29.9549962,0 95.3766965,29.9564556,0 95.3742718,29.9578406,0 95.3719759,29.9585099,0 95.3706401,29.9589421,0 95.3695672,29.9588213,0 95.3691220,29.9590629,0 95.3678613,29.9602760,0 95.3666758,29.9610614,0 95.3656727,29.9612241,0 95.3634679,29.9603410,0 95.3620946,29.9607175,0 95.3610754,29.9609499,0 95.3594446,29.9628275,0 95.3592729,29.9643239,0 95.3599367,29.9653171,0 95.3611612,29.9665732,0 95.3620042,29.9680286,0 95.3623414,29.9698077,0 95.3617908,29.9711750,0 95.3615742,29.9717130,0 95.3596591,29.9771034,0 95.3594320,29.9792251,0 95.3593498,29.9801951,0 95.3590441,29.9812115,0 95.3585979,29.9819424,0 95.3579014,29.9827119,0 95.3570851,29.9831409,0 95.3561616,29.9833764,0 95.3547963,29.9833121,0 95.3534221,29.9831627,0 95.3526004,29.9837904,0 95.3524011,29.9839386,0 95.3499978,29.9863129,0 95.3484582,29.9876836,0 95.3470661,29.9889822,0 95.3452449,29.9900639,0 95.3418439,29.9910103,0 95.3394290,29.9914227,0 95.3369820,29.9919643,0 95.3354533,29.9921677,0 95.3332813,29.9922215,0 95.3306624,29.9914206,0 95.3283452,29.9899446,0 95.3273762,29.9885634,0 95.3236697,29.9869563,0 95.3230676,29.9871741,0 95.3224660,29.9873917,0 95.3210873,29.9880190,0 95.3189698,29.9893726,0 95.3172768,29.9901737,0 95.3112569,29.9919991,0 95.3056399,29.9948444,0 95.3047691,29.9962017,0 95.3036284,29.9980571,0 95.3021212,29.9997520,0 95.2998007,30.0015543,0 95.2971469,30.0030285,0 95.2958975,30.0040758,0 95.2954379,30.0050125,0 95.2950904,30.0062646,0 95.2957030,30.0098522,0 95.2959335,30.0111327,0 95.2946785,30.0126693,0 95.2930907,30.0135657,0 95.2911443,30.0139242,0 95.2902496,30.0150872,0 95.2889406,30.0176140,0 95.2888164,30.0177430,0 95.2869698,30.0196610,0 95.2835977,30.0217943,0 95.2819884,30.0228533,0 95.2806952,30.0236307,0 95.2793634,30.0240660,0 95.2779548,30.0235282,0 95.2766487,30.0236819,0 95.2758515,30.0246183,0 95.2743065,30.0266061,0 95.2731263,30.0274050,0 95.2712449,30.0280869,0 95.2691567,30.0295971,0 95.2687490,30.0306560,0 95.2685045,30.0321078,0 95.2698107,30.0346944,0 95.2699841,30.0355306,0 95.2698064,30.0364650,0 95.2686006,30.0370588,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>95.6279450,29.8964884,0 95.6266190,29.8961392,0 95.6244578,29.8947308,0 95.6211114,29.8912153,0 95.6185624,29.8897774,0 95.6171658,29.8882940,0 95.6172182,29.8867350,0 95.6161881,29.8862506,0 95.6156120,29.8859933,0 95.6139011,29.8864322,0 95.6081475,29.8873859,0 95.6064439,29.8882421,0 95.6060982,29.8901044,0 95.6054439,29.8914422,0 95.6043823,29.8916563,0 95.6036539,29.8917740,0 95.6018429,29.8933090,0 95.5999924,29.8935663,0 95.5977926,29.8933847,0 95.5944930,29.8907208,0 95.5923282,29.8899337,0 95.5904078,29.8900397,0 95.5871256,29.8913111,0 95.5849957,29.8911749,0 95.5817485,29.8913565,0 95.5791344,29.8900490,0 95.5755333,29.8868459,0 95.5723734,29.8865583,0 95.5697022,29.8876330,0 95.5641667,29.8878086,0 95.5616119,29.8867635,0 95.5573530,29.8847760,0 95.5557305,29.8857900,0 95.5527695,29.8866013,0 95.5517843,29.8862785,0 95.5482672,29.8836808,0 95.5474996,29.8831148,0 95.5471026,29.8808822,0 95.5426073,29.8793566,0 95.5376720,29.8793287,0 95.5347538,29.8790310,0 95.5325758,29.8798775,0 95.5293786,29.8816078,0 95.5267608,29.8831334,0 95.5262887,29.8854404,0 95.5266320,29.8877845,0 95.5300653,29.8917470,0 95.5297434,29.8931795,0 95.5288744,29.8938027,0 95.5259179,29.8945918,0 95.5240453,29.8951056,0 95.5220848,29.8969985,0 95.5203986,29.8969465,0 95.5180476,29.8960721,0 95.5176600,29.8959279,0 95.5160096,29.8944756,0 95.5139630,29.8938814,0 95.5122466,29.8944756,0 95.5096719,29.8947396,0 95.5084175,29.8934853,0 95.5084175,29.8918348,0 95.5076313,29.8900727,0 95.5067729,29.8891333,0 95.5061387,29.8890056,0 95.5054855,29.8890681,0 95.5041444,29.8899611,0 95.5014856,29.8926931,0 95.4982508,29.8951357,0 95.4969131,29.8963233,0 95.4939091,29.8964535,0 95.4929220,29.8967232,0 95.4914689,29.8991217,0 95.4892098,29.9009831,0 95.4863882,29.9015504,0 95.4851502,29.9021283,0 95.4820275,29.9035860,0 95.4779124,29.9036802,0 95.4736638,29.9012621,0 95.4681491,29.8982114,0 95.4647588,29.8994205,0 95.4633641,29.9009458,0 95.4596734,29.9061727,0 95.4572916,29.9068423,0 95.4517769,29.9062843,0 95.4461336,29.9078839,0 95.4422676,29.9083393,0 95.4389007,29.9094616,0 95.4358124,29.9108599,0 95.4349480,29.9112478,0 95.4333877,29.9119480,0 95.4309093,29.9133336,0 95.4287084,29.9136620,0 95.4274543,29.9132891,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>95.8531202,29.7966819,0 95.8510571,29.7971260,0 95.8501205,29.7980626,0 95.8496522,29.7990661,0 95.8497778,29.8001852,0 95.8512926,29.8002463,0 95.8522367,29.8011773,0 95.8528545,29.8026183,0 95.8509278,29.8038213,0 95.8500767,29.8053206,0 95.8491141,29.8083724,0 95.8487456,29.8087606,0 95.8480140,29.8089982,0 95.8471226,29.8091588,0 95.8449356,29.8094309,0 95.8436116,29.8093119,0 95.8427883,29.8095155,0 95.8411131,29.8104343,0 95.8397305,29.8113153,0 95.8389729,29.8114734,0 95.8383465,29.8114723,0 95.8379188,29.8112838,0 95.8367630,29.8107086,0 95.8360203,29.8102350,0 95.8351157,29.8094469,0 95.8344959,29.8089461,0 95.8342421,29.8085075,0 95.8336743,29.8082559,0 95.8330896,29.8079935,0 95.8327434,29.8077850,0 95.8314018,29.8064747,0 95.8299851,29.8044544,0 95.8280612,29.8035314,0 95.8233593,29.8021809,0 95.8218983,29.8025981,0 95.8210272,29.8028497,0 95.8189448,29.8033101,0 95.8175213,29.8038442,0 95.8156532,29.8056692,0 95.8146529,29.8066373,0 95.8139786,29.8070800,0 95.8128832,29.8076945,0 95.8116606,29.8080988,0 95.8109852,29.8080876,0 95.8102756,29.8080468,0 95.8095061,29.8077686,0 95.8074970,29.8068376,0 95.8051886,29.8051202,0 95.8045396,29.8048647,0 95.8034162,29.8050166,0 95.8022929,29.8057255,0 95.8013102,29.8066599,0 95.8009215,29.8070294,0 95.7994334,29.8073079,0 95.7970700,29.8086497,0 95.7947066,29.8095231,0 95.7927225,29.8095991,0 95.7910886,29.8105865,0 95.7874267,29.8119789,0 95.7870032,29.8123953,0 95.7868869,29.8131687,0 95.7864639,29.8143713,0 95.7861721,29.8162826,0 95.7861668,29.8170262,0 95.7861575,29.8183331,0 95.7854864,29.8207886,0 95.7851509,29.8226619,0 95.7851800,29.8242946,0 95.7855302,29.8258387,0 95.7864493,29.8284080,0 95.7874559,29.8303317,0 95.7888710,29.8326983,0 95.7889148,29.8342170,0 95.7884334,29.8357103,0 95.7877915,29.8367860,0 95.7845965,29.8388108,0 95.7835607,29.8403800,0 95.7826935,29.8425543,0 95.7824957,29.8430501,0 95.7810951,29.8458340,0 95.7798697,29.8479852,0 95.7790235,29.8495036,0 95.7788193,29.8514143,0 95.7781190,29.8528441,0 95.7761932,29.8541347,0 95.7739816,29.8548596,0 95.7711033,29.8553446,0 95.7689010,29.8563410,0 95.7686025,29.8569597,0 95.7680643,29.8580753,0 95.7660211,29.8595571,0 95.7648435,29.8602624,0 95.7633815,29.8615734,0 95.7612157,29.8634042,0 95.7585750,29.8647965,0 95.7569188,29.8652741,0 95.7541949,29.8660595,0 95.7520961,29.8673399,0 95.7471821,29.8692596,0 95.7454695,29.8701406,0 95.7449415,29.8706594,0 95.7422000,29.8734066,0 95.7391558,29.8756757,0 95.7373283,29.8762369,0 95.7337495,29.8786216,0 95.7305316,29.8784184,0 95.7291293,29.8778687,0 95.7274623,29.8770784,0 95.7239198,29.8763432,0 95.7227062,29.8745740,0 95.7201637,29.8726751,0 95.7177124,29.8723082,0 95.7118411,29.8727137,0 95.7102387,29.8734583,0 95.7097038,29.8737068,0 95.7081793,29.8741306,0 95.7062316,29.8752944,0 95.7035910,29.8752817,0 95.7021278,29.8763702,0 95.7007971,29.8806368,0 95.6990950,29.8811735,0 95.6982113,29.8815265,0 95.6966088,29.8818175,0 95.6951233,29.8815939,0 95.6938314,29.8820758,0 95.6929570,29.8829266,0 95.6923174,29.8849659,0 95.6886862,29.8880784,0 95.6852097,29.8899119,0 95.6848338,29.8911986,0 95.6843328,29.8925056,0 95.6815682,29.8938650,0 95.6809758,29.8945711,0 95.6810810,29.8956509,0 95.6806119,29.8969244,0 95.6795529,29.8970951,0 95.6767094,29.8967716,0 95.6746727,29.8962794,0 95.6727171,29.8953049,0 95.6706333,29.8951707,0 95.6696842,29.8956715,0 95.6677861,29.8972455,0 95.6643199,29.8977374,0 95.6604618,29.8982382,0 95.6595643,29.8980773,0 95.6569234,29.8958594,0 95.6548293,29.8937487,0 95.6529311,29.8934983,0 95.6513734,29.8941780,0 95.6483715,29.8940528,0 95.6453642,29.8922387,0 95.6426506,29.8919858,0 95.6399079,29.8923146,0 95.6372819,29.8932000,0 95.6339848,29.8951983,0 95.6312713,29.8960078,0 95.6279450,29.8964884,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_palong">
+            <name>帕隆藏布</name>
+            <description><![CDATA[<h3>帕隆藏布</h3><p><b>书中依据：</b>第6章；校注33；正文汤买薄藏布江、校注波密河相关的现代水系背景。</p><p>与易贡藏布两支同时展示；古汤买藤桥具体落在哪支尚未独立考定，不以今桥套古桥。</p><p><b>河线性质：</b>OpenStreetMap现代中心线片段，保持源数据分段，不补接未下载的中段；并非1909年前后河道复原。</p><p>本层所选片段线长合计约107.3 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://www.openstreetmap.org/api/0.6/way/26407649/full">河道数据1</a> · <a href="https://www.openstreetmap.org/api/0.6/way/26407650/full">河道数据2</a> · <a href="https://www.openstreetmap.org/api/0.6/way/26407652/full">河道数据3</a> · <a href="https://www.openstreetmap.org/api/0.6/way/67605162/full">河道数据4</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>95.2205781</longitude>
+              <latitude>30.0377479</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>95000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>95.2205781,30.0377479,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+      </Folder>
+      <Folder>
+        <name>13B 书中渡河｜甘孜雅砻江、岗拖金沙江等</name>
+        <open>1</open>
+        <Placemark id="river_crossing_luding">
+          <name>泸定桥过大渡河</name>
+          <description><![CDATA[<h3>泸定桥过大渡河</h3><p><b>依据：</b>第1章</p><p><b>过河方式：</b>铁索桥过河</p><p><b>耗时与口径：</b>单次过桥耗时未记。</p><p><b>定位性质：</b>桥梁地标可定位</p><p><b>限制：</b>借现存桥梁地标定位，非宿营地或桥尺寸复原。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书及任乃强校注</a></p><p>渡水的日数与全程行军约数互有包含，不重复累加。</p>]]></description>
+          <LookAt>
+            <longitude>102.2302</longitude>
+            <latitude>29.9145</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>35000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#river_crossing</styleUrl>
+          <MultiGeometry>
+            <Point>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>102.2302,29.9145,0</coordinates>
+            </Point>
+          </MultiGeometry>
+        </Placemark>
+        <Placemark id="river_crossing_garze">
+          <name>甘孜渡雅砻江〔地区示意〕</name>
+          <description><![CDATA[<h3>甘孜渡雅砻江〔地区示意〕</h3><p><b>依据：</b>第1章校注10</p><p><b>过河方式：</b>皮船</p><p><b>耗时与口径：</b>校注以每处约耽延3日估算；不是正文逐渡实记。</p><p><b>定位性质：</b>甘孜附近，古渡点未定</p><p><b>限制：</b>圆心沿用甘孜聚落代表点，半径8 km只用于包含附近河流的方位显示；不是考证所得古渡范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书及任乃强校注</a></p><p>渡水的日数与全程行军约数互有包含，不重复累加。</p>]]></description>
+          <LookAt>
+            <longitude>99.9886</longitude>
+            <latitude>31.6273</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>56000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#river_crossing</styleUrl>
+          <MultiGeometry>
+            <Point>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.9886,31.6273,0</coordinates>
+            </Point>
+            <Polygon>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>99.98860,31.69925,0 99.97756,31.69863,0 99.96671,31.69679,0 99.95624,31.69377,0 99.94632,31.68960,0 99.93713,31.68437,0 99.92882,31.67816,0 99.92153,31.67108,0 99.91540,31.66325,0 99.91051,31.65481,0 99.90697,31.64589,0 99.90482,31.63666,0 99.90410,31.62727,0 99.90484,31.61788,0 99.90700,31.60865,0 99.91056,31.59974,0 99.91545,31.59131,0 99.92160,31.58348,0 99.92889,31.57641,0 99.93719,31.57021,0 99.94638,31.56499,0 99.95629,31.56083,0 99.96675,31.55780,0 99.97758,31.55597,0 99.98860,31.55535,0 99.99962,31.55597,0 100.01045,31.55780,0 100.02091,31.56083,0 100.03082,31.56499,0 100.04001,31.57021,0 100.04831,31.57641,0 100.05560,31.58348,0 100.06175,31.59131,0 100.06664,31.59974,0 100.07020,31.60865,0 100.07236,31.61788,0 100.07310,31.62727,0 100.07238,31.63666,0 100.07023,31.64589,0 100.06669,31.65481,0 100.06180,31.66325,0 100.05567,31.67108,0 100.04838,31.67816,0 100.04007,31.68437,0 100.03088,31.68960,0 100.02096,31.69377,0 100.01049,31.69679,0 99.99964,31.69863,0 99.98860,31.69925,0</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </MultiGeometry>
+        </Placemark>
+        <Placemark id="river_crossing_gangtuo">
+          <name>岗拖渡金沙江〔地区示意〕</name>
+          <description><![CDATA[<h3>岗拖渡金沙江〔地区示意〕</h3><p><b>依据：</b>第1章；校注10</p><p><b>过河方式：</b>皮船</p><p><b>耗时与口径：</b>正文记宿江干数日；校注另以约3日估算，不能当作独立实测日数。</p><p><b>定位性质：</b>岗拖／岗托一带，古渡点未定</p><p><b>限制：</b>半径5 km仅为现代岗托周边位置示意；不套1950渡江遗址或现代桥址。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书及任乃强校注</a></p><p>渡水的日数与全程行军约数互有包含，不重复累加。</p>]]></description>
+          <LookAt>
+            <longitude>98.5853</longitude>
+            <latitude>31.6326</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>35000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#river_crossing</styleUrl>
+          <MultiGeometry>
+            <Point>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.5853,31.6326,0</coordinates>
+            </Point>
+            <Polygon>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>98.58530,31.67757,0 98.57840,31.67718,0 98.57162,31.67603,0 98.56508,31.67414,0 98.55888,31.67154,0 98.55314,31.66827,0 98.54794,31.66439,0 98.54339,31.65997,0 98.53955,31.65507,0 98.53650,31.64980,0 98.53428,31.64423,0 98.53294,31.63846,0 98.53249,31.63259,0 98.53294,31.62672,0 98.53429,31.62095,0 98.53652,31.61538,0 98.53957,31.61011,0 98.54341,31.60522,0 98.54797,31.60080,0 98.55316,31.59692,0 98.55890,31.59366,0 98.56510,31.59106,0 98.57164,31.58917,0 98.57841,31.58802,0 98.58530,31.58763,0 98.59219,31.58802,0 98.59896,31.58917,0 98.60550,31.59106,0 98.61170,31.59366,0 98.61744,31.59692,0 98.62263,31.60080,0 98.62719,31.60522,0 98.63103,31.61011,0 98.63408,31.61538,0 98.63631,31.62095,0 98.63766,31.62672,0 98.63811,31.63259,0 98.63766,31.63846,0 98.63632,31.64423,0 98.63410,31.64980,0 98.63105,31.65507,0 98.62721,31.65997,0 98.62266,31.66439,0 98.61746,31.66827,0 98.61172,31.67154,0 98.60552,31.67414,0 98.59898,31.67603,0 98.59220,31.67718,0 98.58530,31.67757,0</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </MultiGeometry>
+        </Placemark>
+        <Placemark id="river_crossing_tongmai">
+          <name>汤买薄藏布藤索渡〔通麦地区〕</name>
+          <description><![CDATA[<h3>汤买薄藏布藤索渡〔通麦地区〕</h3><p><b>依据：</b>第6章；校注33</p><p><b>过河方式：</b>重架藤索后逐人攀渡</p><p><b>耗时与口径：</b>正文记每人约10分钟、全营3日渡毕，含等候与组织。</p><p><b>定位性质：</b>通麦汇流地区参照，古桥所在支流待考</p><p><b>限制：</b>半径5 km为方位示意，保留薄藏布旧名；同时显示易贡、帕隆两支，不据现代通麦桥反推古桥。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书及任乃强校注</a></p><p>渡水的日数与全程行军约数互有包含，不重复累加。</p>]]></description>
+          <LookAt>
+            <longitude>95.0646</longitude>
+            <latitude>30.0976</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>35000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#river_crossing</styleUrl>
+          <MultiGeometry>
+            <Point>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.0646,30.0976,0</coordinates>
+            </Point>
+            <Polygon>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>95.06460,30.14257,0 95.05781,30.14218,0 95.05114,30.14103,0 95.04470,30.13914,0 95.03860,30.13654,0 95.03295,30.13327,0 95.02784,30.12939,0 95.02336,30.12497,0 95.01958,30.12008,0 95.01657,30.11480,0 95.01439,30.10923,0 95.01307,30.10346,0 95.01263,30.09759,0 95.01307,30.09172,0 95.01440,30.08595,0 95.01659,30.08038,0 95.01960,30.07511,0 95.02338,30.07022,0 95.02786,30.06580,0 95.03297,30.06192,0 95.03862,30.05866,0 95.04472,30.05606,0 95.05115,30.05417,0 95.05782,30.05302,0 95.06460,30.05263,0 95.07138,30.05302,0 95.07805,30.05417,0 95.08448,30.05606,0 95.09058,30.05866,0 95.09623,30.06192,0 95.10134,30.06580,0 95.10582,30.07022,0 95.10960,30.07511,0 95.11261,30.08038,0 95.11480,30.08595,0 95.11613,30.09172,0 95.11657,30.09759,0 95.11613,30.10346,0 95.11481,30.10923,0 95.11263,30.11480,0 95.10962,30.12008,0 95.10584,30.12497,0 95.10136,30.12939,0 95.09625,30.13327,0 95.09060,30.13654,0 95.08450,30.13914,0 95.07806,30.14103,0 95.07139,30.14218,0 95.06460,30.14257,0</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </MultiGeometry>
+        </Placemark>
+        <Placemark id="river_crossing_yigong_lake">
+          <name>易贡海子渡水〔湖岸与下流待考〕</name>
+          <description><![CDATA[<h3>易贡海子渡水〔湖岸与下流待考〕</h3><p><b>依据：</b>第6章</p><p><b>过河方式：</b>下流徒涉；另乘船偷渡湖面</p><p><b>耗时与口径：</b>未记统一渡水耗时。</p><p><b>定位性质：</b>易贡地区参照，具体湖岸与徒涉点未定位</p><p><b>限制：</b>两件渡水行动不能合成一次渡帕隆藏布；湖岸曾随堰塞与洪水变化。半径6 km只是显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书及任乃强校注</a></p><p>渡水的日数与全程行军约数互有包含，不重复累加。</p>]]></description>
+          <LookAt>
+            <longitude>94.8162</longitude>
+            <latitude>30.2699</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>42000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#river_crossing</styleUrl>
+          <MultiGeometry>
+            <Point>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.8162,30.2699,0</coordinates>
+            </Point>
+            <Polygon>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>94.81620,30.32386,0 94.80804,30.32340,0 94.80002,30.32202,0 94.79228,30.31975,0 94.78495,30.31663,0 94.77815,30.31270,0 94.77200,30.30805,0 94.76662,30.30274,0 94.76208,30.29687,0 94.75847,30.29054,0 94.75584,30.28385,0 94.75425,30.27693,0 94.75372,30.26989,0 94.75426,30.26284,0 94.75586,30.25592,0 94.75849,30.24924,0 94.76211,30.24291,0 94.76665,30.23704,0 94.77204,30.23174,0 94.77818,30.22709,0 94.78498,30.22317,0 94.79230,30.22005,0 94.80004,30.21778,0 94.80805,30.21640,0 94.81620,30.21594,0 94.82435,30.21640,0 94.83236,30.21778,0 94.84010,30.22005,0 94.84742,30.22317,0 94.85422,30.22709,0 94.86036,30.23174,0 94.86575,30.23704,0 94.87029,30.24291,0 94.87391,30.24924,0 94.87654,30.25592,0 94.87814,30.26284,0 94.87868,30.26989,0 94.87815,30.27693,0 94.87656,30.28385,0 94.87393,30.29054,0 94.87032,30.29687,0 94.86578,30.30274,0 94.86040,30.30805,0 94.85425,30.31270,0 94.84745,30.31663,0 94.84012,30.31975,0 94.83238,30.32202,0 94.82436,30.32340,0 94.81620,30.32386,0</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </MultiGeometry>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>13C 北返及雅鲁藏布背景｜概化河线，非古渡点</name>
+        <open>0</open>
+        <Folder id="river_group_nu_overview">
+          <name>怒江及上游水系〔概化参照〕｜概化水系</name>
+          <open>0</open>
+          <description><![CDATA[<h3>怒江及上游水系〔概化参照〕</h3><p><b>书中依据：</b>第8章；校注44；校注推定哈喇乌苏在怒江南源阿克河谷。</p><p>具体阿克河段与聚落未独立核定；没有把此处标成正文明确渡河事件。大范围河线不等于作者行迹。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约749.8 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>93.40219</longitude>
+            <latitude>31.54397</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>550000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_nu_overview">
+            <name>怒江及上游水系〔概化参照〕〔概化中心线〕</name>
+            <description><![CDATA[<h3>怒江及上游水系〔概化参照〕</h3><p><b>书中依据：</b>第8章；校注44；校注推定哈喇乌苏在怒江南源阿克河谷。</p><p>具体阿克河段与聚落未独立核定；没有把此处标成正文明确渡河事件。大范围河线不等于作者行迹。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约749.8 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>93.40219</longitude>
+              <latitude>31.54397</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_nu_overview</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.5183200,31.9430600,0 91.5322400,31.9097400,0 91.5366300,31.8914700,0 91.5380200,31.8587100,0 91.5404600,31.8503700,0 91.5450100,31.8406400,0 91.5454200,31.8321000,0 91.5444400,31.8161900,0 91.5450100,31.8064600,0 91.5486000,31.7872200,0 91.5547000,31.7720800,0 91.5655200,31.7622300,0 91.5832600,31.7586500,0 91.5951400,31.7532400,0 91.6286700,31.7293600,0 91.6594300,31.7188200,0 91.6695300,31.7068100,0 91.6783100,31.6929800,0 91.6889700,31.6824000,0 91.7057400,31.6771900,0 91.7222600,31.6754800,0 91.7358500,31.6706000,0 91.7436600,31.6556300,0 91.7441500,31.6457000,0 91.7419500,31.6394300,0 91.7387800,31.6343900,0 91.7362600,31.6283600,0 91.7312100,31.6072900,0 91.7307200,31.5972800,0 91.7763000,31.5692800,0 91.7846800,31.5563400,0 91.7900500,31.5428300,0 91.8008700,31.5265600,0 91.8088500,31.5089000,0 91.8057600,31.4911600,0 91.7975400,31.4912400,0 91.7910300,31.4871300,0 91.7865500,31.4800500,0 91.7846800,31.4713000,0 91.7876900,31.4573000,0 91.7950100,31.4482700,0 91.8022600,31.4410300,0 91.8130000,31.4142500,0 91.8306600,31.4031800,0 91.8530400,31.3992800,0 91.8740300,31.4024100,0 91.8886000,31.4118900,0 91.9028400,31.4256100,0 91.9188700,31.4380200,0 91.9389700,31.4433900,0 91.9763300,31.4392800,0 92.0126200,31.4287400,0 92.0197900,31.4254800,0 92.0269500,31.4212100,0 92.0332100,31.4158000,0 92.0376900,31.4091200,0 92.0394800,31.4011500,0 92.0385800,31.3930900,0 92.0346000,31.3770200,0 92.0388300,31.3408900,0 92.0588500,31.3133000,0 92.0898500,31.2964500,0 92.1262300,31.2925900,0 92.1836000,31.2942200,0 92.2097300,31.2893300,0 92.2187600,31.2892500,0 92.2414700,31.2951100,0 92.2644100,31.3067500,0 92.2851700,31.3220500,0 92.3084400,31.3467900,0 92.3213800,31.3645300,0 92.3262600,31.3740500,0 92.3314700,31.3930900,0 92.3325300,31.4033900,0 92.3320400,31.4126700,0 92.3296000,31.4201900,0 92.3225200,31.4346800,0 92.3205700,31.4426900,0 92.3218700,31.4535600,0 92.3277300,31.4632000,0 92.3368400,31.4697500,0 92.3479900,31.4715400,0 92.3573500,31.4673500,0 92.3711000,31.4531500,0 92.3813600,31.4513600,0 92.3871400,31.4539300,0 92.3906400,31.4582000,0 92.3936500,31.4629600,0 92.3973900,31.4667400,0 92.4056900,31.4694300,0 92.4132600,31.4683300,0 92.4294500,31.4638900,0 92.4384900,31.4643000,0 92.4454000,31.4666200,0 92.4604600,31.4736600,0 92.5025300,31.4844800,0 92.5160400,31.4905000,0 92.5274400,31.4997000,0 92.5319900,31.5019800,0 92.5399700,31.5032000,0 92.5638900,31.5019000,0 92.5769100,31.5051900,0 92.6020600,31.5159000,0 92.6154900,31.5185800,0 92.6515400,31.5150800,0 92.6642400,31.5159400,0 92.6745700,31.5192300,0 92.6925600,31.5290000,0 92.7026500,31.5327800,0 92.7100500,31.5358300,0 92.7237300,31.5443800,0 92.7309700,31.5478000,0 92.7653900,31.5532500,0 92.7807700,31.5498700,0 92.8300900,31.5523500,0 92.8404200,31.5563400,0 92.8437600,31.5639900,0 92.8517400,31.5642400,0 92.8711000,31.5594300,0 92.8769600,31.5615900,0 92.8794100,31.5662700,0 92.8811100,31.5709900,0 92.8845300,31.5731100,0 92.9240800,31.5725800,0 92.9304300,31.5688700,0 92.9326300,31.5642400,0 92.9338500,31.5528000,0 92.9364500,31.5475500,0 92.9487400,31.5403500,0 92.9629000,31.5423000,0 92.9767400,31.5493800,0 92.9967500,31.5639100,0 93.0031800,31.5664700,0 93.0099400,31.5652500,0 93.0268700,31.5561000,0 93.0406200,31.5459700,0 93.0461500,31.5401500,0 93.0492500,31.5346100,0 93.0515200,31.5290000,0 93.0547000,31.5242400,0 93.0608000,31.5211900,0 93.0712200,31.5225700,0 93.0917300,31.5363200,0 93.1015700,31.5413300,0 93.1294900,31.5459700,0 93.1435600,31.5459700,0 93.1880000,31.5386800,0 93.4021900,31.5439700,0 93.4284000,31.5503600,0 93.4421500,31.5520700,0 93.4555800,31.5509700,0 93.5072500,31.5320500,0 93.5171000,31.5303400,0 93.5473700,31.5296100,0 93.5638900,31.5255000,0 93.5946600,31.5123200,0 93.6113400,31.5094700,0 93.7168900,31.5080000,0 93.7500100,31.4938400,0 93.7680000,31.4885900,0 93.7881800,31.4902600,0 93.8476700,31.5127200,0 93.9170000,31.5106900,0 93.9253000,31.5121500,0 93.9341700,31.5155700,0 93.9417400,31.5203300,0 93.9556600,31.5317700,0 93.9636300,31.5359100,0 93.9732400,31.5376200,0 93.9804800,31.5351000,0 93.9953700,31.5263100,0 94.0048900,31.5244400,0 94.0327200,31.5255000,0 94.0418400,31.5231400,0 94.0484300,31.5187400,0 94.0612900,31.5077600,0 94.0703200,31.5028700,0 94.0785400,31.5011700,0 94.0976700,31.5010800,0 94.1071900,31.4993300,0 94.1307900,31.4881400,0 94.1389300,31.4870100,0 94.1552800,31.4875800,0 94.1635000,31.4869200,0 94.1684700,31.4854600,0 94.1782300,31.4814700,0 94.1832000,31.4800900,0 94.2008600,31.4804100,0 94.2157500,31.4859500,0 94.2431700,31.5040100,0 94.2573300,31.5097100,0 94.2675100,31.5071900,0 94.2860600,31.4883100,0 94.3012800,31.4796800,0 94.3192700,31.4780500,0 94.4486600,31.4811500,0 94.4702200,31.4842000,0 94.4876400,31.4844000,0 94.5042400,31.4805400,0 94.5420000,31.4656400,0 94.5615300,31.4616100,0 94.5798500,31.4555100,0 94.5944900,31.4428200,0 94.5990500,31.4299600,0 94.5952200,31.4192200,0 94.5796000,31.3980200,0 94.5725200,31.3818600,0 94.5693500,31.3673800,0 94.5694300,31.3212300,0 94.5679600,31.3147700,0 94.5647100,31.3087800,0 94.5524200,31.2980400,0 94.5232000,31.2813600,0 94.5109200,31.2705800,0 94.5054600,31.2578800,0 94.5119700,31.2511700,0 94.5395600,31.2449400,0 94.5936800,31.2387100,0 94.6084900,31.2294400,0 94.6137800,31.2217100,0 94.6216700,31.1954200,0 94.6324200,31.1701100,0 94.6342900,31.1610800,0 94.6342900,31.1435000,0 94.6351800,31.1349600,0 94.6391700,31.1274700,0 94.6446200,31.1232400,0 94.6657000,31.1129800,0 94.6811600,31.1010200,0 94.6891400,31.0960200,0 94.6988200,31.0926000,0 94.7173000,31.0913400,0 94.7234000,31.0889800,0 94.7273100,31.0852300,0 94.7330000,31.0758700,0 94.7368300,31.0727800,0 94.7542400,31.0703800,0 94.7727200,31.0747700,0 94.8820900,31.1265300,0 94.8879500,31.1274700,0 94.8945400,31.1277100,0 94.9006400,31.1285300,0 94.9057700,31.1316200,0 94.9087800,31.1376400,0 94.9106600,31.1523700,0 94.9131800,31.1590000,0 94.9216400,31.1670600,0 94.9336000,31.1742600,0 94.9580200,31.1834600,0 94.9673000,31.1851300,0 95.0083900,31.1828900,0 95.0327200,31.1776000,0 95.0451000,31.1726800,0 95.0582000,31.1697400,0 95.0699200,31.1723100,0 95.0930300,31.1840300,0 95.1120700,31.1887500,0 95.1706600,31.1862300,0 95.2248600,31.1904600,0 95.2519600,31.1889100,0 95.4323800,31.1289300,0 95.4475200,31.1189200,0 95.4575300,31.1036200,0 95.4726700,31.0696900,0 95.4967500,31.0381100,0 95.5186500,30.9939200,0 95.5279200,30.9808200,0 95.5361400,30.9737000,0 95.5891200,30.9448900,0 95.6015700,30.9398000,0 95.6152500,30.9380600,0 95.6306300,30.9398000,0 95.6457600,30.9438700,0 95.6604900,30.9499800,0 95.6738400,30.9576300,0 95.6937800,30.9660100,0 95.7123300,30.9663400,0 95.7605100,30.9531500,0 95.7705200,30.9525800,0 95.7802800,30.9539700,0 95.7890700,30.9573800,0 95.7944400,30.9607200,0 95.7990800,30.9643800,0 95.8024200,30.9688600,0 95.8051900,30.9746400,0 95.8073800,30.9844400,0 95.8088500,30.9889600,0 95.8120200,30.9934400,0 95.8227700,31.0009200,0 95.8366800,31.0055600,0 95.8514900,31.0073900,0 95.8648400,31.0066200,0 95.8713500,31.0049100,0 95.8767200,31.0020200,0 95.8806300,30.9978700,0 95.8833100,30.9921300,0 95.8843700,30.9848100,0 95.8857500,30.9823700,0 95.8899000,30.9795600,0 95.8952700,30.9791100,0 95.9045500,30.9857800,0 95.9104900,30.9864000,0 95.9155400,30.9832200,0 95.9189600,30.9753700,0 95.9239200,30.9727200,0 95.9463000,30.9681300,0 95.9687600,30.9658900,0 95.9758400,30.9637300,0 95.9971600,30.9528300,0 96.0034300,30.9485500,0 96.0548600,30.9454200,0 96.0720300,30.9381000,0 96.1027900,30.9208400,0 96.1195600,30.9175100,0 96.1641500,30.9141300,0 96.2549800,30.8924000,0 96.2719000,30.8863000,0 96.2778400,30.8819000,0 96.2798800,30.8769000,0 96.2811800,30.8711200,0 96.2841900,30.8643300,0 96.2907000,30.8598900,0 96.2990800,30.8606200,0 96.3082000,30.8632300,0 96.3173100,30.8642800,0 96.3300100,30.8627400,0 96.3357000,30.8607800,0 96.3410800,30.8570000,0 96.3452200,30.8516700,0 96.3513300,30.8393000,0 96.3550700,30.8335600,0 96.3618300,30.8253000,0 96.3677700,30.8162300,0 96.4174900,30.6687700,0 96.4243300,30.6277900,0 96.4361300,30.5926400,0 96.4380000,30.5831200,0 96.4439400,30.5661100,0 96.4857700,30.5167900,0 96.5063600,30.4826900,0 96.5307700,30.4599900,0 96.5404600,30.4335400,0 96.5556700,30.4326800,0 96.5956300,30.4479400,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>96.5956300,30.4479400,0 96.6159000,30.4509900,0 96.6815700,30.4496500,0 96.7017500,30.4417600,0 96.7038700,30.4229200,0 96.6918200,30.3807200,0 96.6917400,30.3702300,0 96.6948300,30.3496400,0 96.7098900,30.3095200,0 96.7153400,30.3013800,0 96.7221800,30.2970600,0 96.7304000,30.2962100,0 96.7471600,30.2973900,0 96.7559500,30.2965800,0 96.7645800,30.2947400,0 96.7725500,30.2914500,0 96.7798000,30.2862400,0 96.7934700,30.2729800,0 96.8008700,30.2678500,0 96.8266700,30.2585700,0 96.8498600,30.2432700,0 96.8574300,30.2399400,0 96.8654900,30.2390800,0 96.8965000,30.2440100,0 96.9179800,30.2417700,0 96.9384900,30.2342000,0 96.9826000,30.2017700,0 96.9919500,30.1975400,0 97.0034300,30.1946500,0 97.0093700,30.1940400,0 97.0153900,30.1940400,0 97.0332100,30.1972900,0 97.0395600,30.1974600,0 97.0534000,30.1959100,0 97.0603100,30.1942800,0 97.0669100,30.1916000,0 97.0790300,30.1826800,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_nu_overview">
+            <name>怒江及上游水系〔概化参照〕</name>
+            <description><![CDATA[<h3>怒江及上游水系〔概化参照〕</h3><p><b>书中依据：</b>第8章；校注44；校注推定哈喇乌苏在怒江南源阿克河谷。</p><p>具体阿克河段与聚落未独立核定；没有把此处标成正文明确渡河事件。大范围河线不等于作者行迹。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约749.8 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>93.40219</longitude>
+              <latitude>31.54397</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>93.40219,31.54397,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_tongtian_overview">
+          <name>通天河〔现代水系参照〕｜概化水系</name>
+          <open>0</open>
+          <description><![CDATA[<h3>通天河〔现代水系参照〕</h3><p><b>书中依据：</b>第9章；校注48；正文记腊月三十到通天河岸止宿，翌晨踏冰过河；又称穆鲁乌斯，校注作穆鲁乌苏。</p><p>古河名使用范围与现代河段划分有差别，不能凭本图确定古渡位于今通天河哪一处；未设置渡口坐标。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约563.4 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>93.79249</longitude>
+            <latitude>34.25182</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>550000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_tongtian_overview">
+            <name>通天河〔现代水系参照〕〔概化中心线〕</name>
+            <description><![CDATA[<h3>通天河〔现代水系参照〕</h3><p><b>书中依据：</b>第9章；校注48；正文记腊月三十到通天河岸止宿，翌晨踏冰过河；又称穆鲁乌斯，校注作穆鲁乌苏。</p><p>古河名使用范围与现代河段划分有差别，不能凭本图确定古渡位于今通天河哪一处；未设置渡口坐标。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约563.4 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>93.79249</longitude>
+              <latitude>34.25182</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_tongtian_overview</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.9927700,34.1002900,0 93.0117300,34.1085900,0 93.0192200,34.1243800,0 93.0243400,34.1450500,0 93.0341900,34.1630300,0 93.0561600,34.1706800,0 93.0703200,34.1788200,0 93.1126400,34.2158500,0 93.1284300,34.2259000,0 93.1704200,34.2322900,0 93.3481600,34.2321200,0 93.3598700,34.2292800,0 93.3825000,34.2203200,0 93.3920200,34.2184500,0 93.4142400,34.2205700,0 93.4548500,34.2299300,0 93.4773100,34.2321200,0 93.4992800,34.2300500,0 93.5429800,34.2206500,0 93.6628500,34.2117000,0 93.6996400,34.2178800,0 93.7486300,34.2322900,0 93.7924900,34.2518200,0 93.8137300,34.2730600,0 93.8115300,34.2903900,0 93.8065700,34.3057300,0 93.8111300,34.3167200,0 93.8375800,34.3209100,0 93.8498600,34.3273400,0 93.8608500,34.3421100,0 93.8750900,34.3693300,0 93.8930800,34.3914200,0 93.9003200,34.4036700,0 93.9068300,34.4412700,0 93.9172500,34.4535600,0 93.9502100,34.4723600,0 93.9731600,34.4713000,0 94.0010700,34.4917700,0 94.0576300,34.5526800,0 94.0681300,34.5613500,0 94.0822900,34.5667200,0 94.1206200,34.5714800,0 94.1521900,34.5849100,0 94.1694400,34.5890600,0 94.2051700,34.5873500,0 94.2372300,34.5822200,0 94.2645800,34.5837700,0 94.2866300,34.6020800,0 94.2958300,34.6206700,0 94.3003900,34.6336500,0 94.3076300,34.6411800,0 94.3242300,34.6436200,0 94.3371700,34.6511500,0 94.3444900,34.6646600,0 94.3511700,34.6709700,0 94.3623100,34.6566800,0 94.3755000,34.6765400,0 94.3923500,34.6843900,0 94.4336900,34.6846000,0 94.4517500,34.6876900,0 94.4758400,34.6953400,0 94.4967500,34.7051900,0 94.5057900,34.7150300,0 94.5214100,34.7447000,0 94.5584400,34.7640200,0 94.6024700,34.7675200,0 94.6389300,34.7498200,0 94.6523500,34.7412800,0 94.8833900,34.7009500,0 94.9179000,34.6863500,0 94.9439400,34.6635200,0 94.9674600,34.6706000,0 94.9777900,34.6500900,0 94.9823500,34.6226300,0 94.9890200,34.6089100,0 94.9978100,34.6046000,0 95.0067700,34.5858000,0 95.0162000,34.5816100,0 95.0381000,34.5811200,0 95.0468900,34.5791700,0 95.0538000,34.5747700,0 95.0576300,34.5661100,0 95.0611300,34.5426700,0 95.0674800,34.5338000,0 95.0795200,34.5298900,0 95.1010800,34.5344500,0 95.1115000,34.5307100,0 95.1562600,34.4926200,0 95.1699300,34.4860300,0 95.1791300,34.4881500,0 95.1884900,34.4943300,0 95.1989800,34.4997000,0 95.2114400,34.4996200,0 95.2188400,34.4925000,0 95.2285300,34.4697500,0 95.2353600,34.4649100,0 95.2466700,34.4660900,0 95.2661200,34.4712200,0 95.2763800,34.4723600,0 95.2876100,34.4695500,0 95.3039700,34.4588500,0 95.3139700,34.4586900,0 95.3161700,34.4632400,0 95.3155200,34.4715400,0 95.3175600,34.4802900,0 95.3275700,34.4860300,0 95.3383900,34.4859100,0 95.3447400,34.4810200,0 95.3479900,34.4726000,0 95.3486400,34.4617800,0 95.3579200,34.4595800,0 95.4101700,34.4177500,0 95.4450800,34.3796700,0 95.4665600,34.3626200,0 95.4926000,34.3488200,0 95.5559200,34.3299400,0 95.5780500,34.3111400,0 95.5678000,34.2805400,0 95.5749600,34.2758200,0 95.5888800,34.2594700,0 95.5829400,34.2539300,0 95.5747200,34.2437600,0 95.5678000,34.2389600,0 95.5754500,34.2316300,0 95.5854600,34.2261800,0 95.5962000,34.2246800,0 95.6176000,34.2338300,0 95.6278600,34.2294400,0 95.6373000,34.2222800,0 95.6465800,34.2184500,0 95.6666000,34.2136900,0 95.6802700,34.2007900,0 95.6880800,34.1822000,0 95.6906800,34.1601800,0 95.6953200,34.1426500,0 95.7066400,34.1291800,0 95.7888300,34.0634200,0 95.7943600,34.0533300,0 95.8258600,34.0518700,0 95.8484000,34.0150800,0 95.8650000,33.9717900,0 95.8796500,33.9509500,0 95.8896600,33.9494100,0 95.8947900,33.9448500,0 95.8965000,33.9374400,0 95.8982000,33.9143700,0 95.9023500,33.9125400,0 95.9087000,33.9138500,0 95.9172500,33.9099800,0 95.9338500,33.8946000,0 95.9511000,33.8824300,0 95.9701400,33.8737300,0 95.9929300,33.8690100,0 95.9870700,33.8432100,0 96.0077400,33.8338100,0 96.0347600,33.8291700,0 96.0481100,33.8174900,0 96.0669100,33.8102500,0 96.1019800,33.8059300,0 96.1220800,33.7979200,0 96.0958800,33.7796500,0 96.1306300,33.7648400,0 96.1470600,33.7627200,0 96.1607400,33.7697200,0 96.1672500,33.7708600,0 96.1753000,33.7680100,0 96.1818900,33.7677700,0 96.1848300,33.7765600,0 96.1887300,33.7817700,0 96.1981700,33.7849800,0 96.2092400,33.7864400,0 96.2182700,33.7864400,0 96.2142900,33.7798500,0 96.2114400,33.7734600,0 96.2204700,33.7725700,0 96.2269800,33.7685000,0 96.2304800,33.7614200,0 96.2319400,33.7517400,0 96.1977700,33.7461600,0 96.2050900,33.7355400,0 96.2273100,33.7385900,0 96.2319400,33.7287900,0 96.2346300,33.7179600,0 96.2414700,33.7205300,0 96.2492800,33.7281000,0 96.2561100,33.7324900,0 96.2939600,33.7387100,0 96.3064100,33.7371300,0 96.3104800,33.7331800,0 96.3147100,33.7318800,0 96.3281400,33.7387100,0 96.3516500,33.7620300,0 96.3590600,33.7659800,0 96.3720800,33.7628800,0 96.3923500,33.7492900,0 96.4000800,33.7461600,0 96.4057700,33.7391200,0 96.3977200,33.7017700,0 96.4038200,33.6841100,0 96.4301900,33.6908600,0 96.4559800,33.6795500,0 96.5000100,33.6431300,0 96.4878000,33.6356900,0 96.4721000,33.6288500,0 96.4721000,33.6226300,0 96.5222300,33.6206700,0 96.5775700,33.6111500,0 96.6177700,33.5884100,0 96.6235500,33.5469000,0 96.6366500,33.5518300,0 96.6518700,33.5537400,0 96.6815700,33.5537400,0 96.7006900,33.5473100,0 96.7089100,33.5332700,0 96.7067200,33.5191100,0 96.6952400,33.5127600,0 96.6894600,33.5061300,0 96.6940200,33.4916400,0 96.7055000,33.4717900,0 96.7070400,33.4655200,0 96.7067200,33.4612500,0 96.7085100,33.4563300,0 96.7227500,33.4394800,0 96.7221800,33.4341500,0 96.7158300,33.4315100,0 96.7055000,33.4308500,0 96.7055000,33.4234100,0 96.7146900,33.4192200,0 96.7219300,33.4131900,0 96.7279600,33.4056300,0 96.7328400,33.3966700,0 96.7346300,33.4054600,0 96.7373100,33.4092500,0 96.7430900,33.4099800,0 96.7533500,33.4097300,0 96.7465100,33.3966700,0 96.7649000,33.3974900,0 96.7727200,33.3887800,0 96.7741000,33.3738500,0 96.7736900,33.3557400,0 96.7850800,33.3640800,0 96.7891500,33.3861800,0 96.8009600,33.3898400,0 96.7935500,33.3755600,0 96.8029900,33.3675000,0 96.8283000,33.3135400,0 96.8326100,33.3211100,0 96.8374100,33.3262400,0 96.8488900,33.3345800,0 96.8534400,33.3250600,0 96.8589800,33.3221300,0 96.8656500,33.3245700,0 96.8730600,33.3308800,0 96.8807900,33.3327900,0 96.9177300,33.3271700,0 96.9365300,33.3329500,0 96.9508600,33.3426400,0 96.9639600,33.3482100,0 96.9793400,33.3414200,0 96.9767400,33.3371800,0 96.9767400,33.3362100,0 96.9780400,33.3343000,0 96.9793400,33.3271700,0 96.9856100,33.3343400,0 96.9914700,33.3379600,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_tongtian_overview">
+            <name>通天河〔现代水系参照〕</name>
+            <description><![CDATA[<h3>通天河〔现代水系参照〕</h3><p><b>书中依据：</b>第9章；校注48；正文记腊月三十到通天河岸止宿，翌晨踏冰过河；又称穆鲁乌斯，校注作穆鲁乌苏。</p><p>古河名使用范围与现代河段划分有差别，不能凭本图确定古渡位于今通天河哪一处；未设置渡口坐标。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约563.4 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>93.79249</longitude>
+              <latitude>34.25182</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>93.79249,34.25182,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_tuotuo_overview">
+          <name>沱沱河〔长江源方位参照〕｜概化水系</name>
+          <open>0</open>
+          <description><![CDATA[<h3>沱沱河〔长江源方位参照〕</h3><p><b>书中依据：</b>第9章相关水系参照；供辨认长江源与现代通天河不同河段，作为古今河名讨论的地理背景。</p><p>不认定本书穆鲁乌苏必等于此现代河段，也不以沱沱河桥或唐古拉镇充作作者渡点。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约225.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>92.32586</longitude>
+            <latitude>34.23896</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>550000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_tuotuo_overview">
+            <name>沱沱河〔长江源方位参照〕〔概化中心线〕</name>
+            <description><![CDATA[<h3>沱沱河〔长江源方位参照〕</h3><p><b>书中依据：</b>第9章相关水系参照；供辨认长江源与现代通天河不同河段，作为古今河名讨论的地理背景。</p><p>不认定本书穆鲁乌苏必等于此现代河段，也不以沱沱河桥或唐古拉镇充作作者渡点。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约225.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>92.32586</longitude>
+              <latitude>34.23896</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_tuotuo_overview</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>90.7946900,34.3004000,0 90.8418100,34.3036600,0 90.9232700,34.3270100,0 91.0665000,34.3413800,0 91.0908300,34.3383200,0 91.1275300,34.3241600,0 91.1515400,34.3209100,0 91.2193300,34.3245300,0 91.2598600,34.3166000,0 91.3051900,34.3013000,0 91.3222800,34.2908000,0 91.3404200,34.2851000,0 91.3916900,34.2934800,0 91.4146400,34.2942200,0 91.4253000,34.2912000,0 91.4448300,34.2832700,0 91.4563900,34.2805400,0 91.4684300,34.2806300,0 91.5006600,34.2873800,0 91.7048500,34.2565400,0 91.7505000,34.2594700,0 91.7927300,34.2707000,0 91.8115300,34.2681700,0 91.8194300,34.2495400,0 91.8242300,34.2284600,0 91.8366800,34.2159300,0 91.8740300,34.1980300,0 91.9398700,34.1532700,0 91.9775500,34.1365400,0 92.0180000,34.1365400,0 92.0305300,34.1399600,0 92.0351700,34.1422800,0 92.0575500,34.1790200,0 92.0649500,34.1876900,0 92.0990500,34.1971300,0 92.1163000,34.2111300,0 92.1318500,34.2270800,0 92.1484500,34.2389600,0 92.1670000,34.2450600,0 92.1918200,34.2498200,0 92.2163200,34.2500300,0 92.2339800,34.2427000,0 92.3258600,34.2389600,0 92.5114800,34.2117000,0 92.5606400,34.2128400,0 92.5854600,34.2103100,0 92.6040200,34.2011200,0 92.6312800,34.1741000,0 92.6395800,34.1627900,0 92.6441400,34.1399600,0 92.6486900,34.1291000,0 92.6805900,34.1009400,0 92.7225800,34.0872300,0 92.8132400,34.0813300,0 92.8392900,34.0829500,0 92.8864800,34.0926400,0 92.9927700,34.1002900,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_tuotuo_overview">
+            <name>沱沱河〔长江源方位参照〕</name>
+            <description><![CDATA[<h3>沱沱河〔长江源方位参照〕</h3><p><b>书中依据：</b>第9章相关水系参照；供辨认长江源与现代通天河不同河段，作为古今河名讨论的地理背景。</p><p>不认定本书穆鲁乌苏必等于此现代河段，也不以沱沱河桥或唐古拉镇充作作者渡点。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约225.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>92.32586</longitude>
+              <latitude>34.23896</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>92.32586,34.23896,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_yarlung_overview">
+          <name>雅鲁藏布江〔背景水系〕｜概化水系</name>
+          <open>0</open>
+          <description><![CDATA[<h3>雅鲁藏布江〔背景水系〕</h3><p><b>书中依据：</b>第4章校注27；第6章校注38等；工布、波密与墨脱关系及夥惹藤桥的地理背景。</p><p>夥惹桥段属书中他人见闻与地理叙述，不能标为陈渠珍本人亲渡。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约611.5 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>94.50245</longitude>
+            <latitude>29.43867</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>550000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_yarlung_overview">
+            <name>雅鲁藏布江〔背景水系〕〔概化中心线〕</name>
+            <description><![CDATA[<h3>雅鲁藏布江〔背景水系〕</h3><p><b>书中依据：</b>第4章校注27；第6章校注38等；工布、波密与墨脱关系及夥惹藤桥的地理背景。</p><p>夥惹桥段属书中他人见闻与地理叙述，不能标为陈渠珍本人亲渡。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约611.5 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>94.50245</longitude>
+              <latitude>29.43867</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_yarlung_overview</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.2710900,29.2520600,0 92.3451400,29.2374100,0 92.3569400,29.2368400,0 92.3703700,29.2422100,0 92.3908800,29.2656500,0 92.3982000,29.2710200,0 92.4221300,29.2693600,0 92.4502900,29.2639800,0 92.4737300,29.2544200,0 92.4836500,29.2399400,0 92.4877200,29.2241900,0 92.5239400,29.1640900,0 92.5250800,29.1588800,0 92.5297100,29.1567700,0 92.5456600,29.1548900,0 92.5564100,29.1555400,0 92.5805800,29.1607100,0 92.5934300,29.1611600,0 92.5840800,29.1415500,0 92.5811500,29.1311700,0 92.5835100,29.1232400,0 92.5943300,29.1172600,0 92.6019800,29.1212000,0 92.6081600,29.1288500,0 92.6145100,29.1338200,0 92.6377100,29.1381300,0 92.6636700,29.1401600,0 92.6884100,29.1360900,0 92.7072900,29.1222600,0 92.7159100,29.1087100,0 92.7211200,29.1030900,0 92.7294200,29.0982100,0 92.7364200,29.0960200,0 92.8703700,29.0970300,0 92.8889300,29.0926400,0 92.8979600,29.0828300,0 92.9063400,29.0786400,0 92.9199300,29.0684300,0 92.9283100,29.0635800,0 92.9387300,29.0596000,0 92.9595600,29.0552000,0 92.9951300,29.0535700,0 93.0196200,29.0565900,0 93.0425700,29.0645600,0 93.0620200,29.0788000,0 93.0736600,29.0932100,0 93.0888800,29.1179900,0 93.0967700,29.1260000,0 93.1062100,29.1294600,0 93.1163000,29.1251100,0 93.1215900,29.1160300,0 93.1217500,29.1053300,0 93.1203700,29.0942700,0 93.1210200,29.0837700,0 93.1237900,29.0764800,0 93.1278600,29.0698500,0 93.1408800,29.0525600,0 93.1459300,29.0423400,0 93.1490200,29.0376700,0 93.1591900,29.0312000,0 93.1714800,29.0305800,0 93.1845800,29.0319300,0 93.1967900,29.0313600,0 93.2075300,29.0263100,0 93.2248600,29.0125200,0 93.2344700,29.0096300,0 93.2832900,29.0041800,0 93.2989200,29.0049100,0 93.3167400,29.0101200,0 93.3329400,29.0187400,0 93.3476700,29.0298900,0 93.3934800,29.0837700,0 93.4043900,29.1050100,0 93.4111400,29.1146900,0 93.4192000,29.1220200,0 93.4362900,29.1341400,0 93.4431300,29.1422000,0 93.4613500,29.1750800,0 93.4745400,29.1858600,0 93.4906500,29.1896400,0 93.5080700,29.1891500,0 93.5571400,29.1822000,0 93.5903400,29.1837000,0 93.6062100,29.1818300,0 93.6164700,29.1828900,0 93.6213500,29.1822000,0 93.6263900,29.1773500,0 93.6281800,29.1638900,0 93.6318500,29.1611600,0 93.6545500,29.1631500,0 93.6872700,29.1697000,0 93.7038700,29.1679100,0 93.7138000,29.1636400,0 93.7221800,29.1587600,0 93.7309700,29.1555800,0 93.7424400,29.1566800,0 93.7666900,29.1665700,0 93.7784100,29.1695000,0 93.7922500,29.1679100,0 93.8230100,29.1561100,0 93.8342400,29.1546100,0 93.8488900,29.1557100,0 93.8647600,29.1592500,0 93.8794100,29.1654700,0 93.8908800,29.1746300,0 93.9003200,29.1866300,0 93.9052800,29.1918400,0 93.9118800,29.1958300,0 93.9307600,29.2008700,0 93.9692500,29.2047800,0 93.9880500,29.2103100,0 94.0160400,29.2237000,0 94.0263000,29.2259400,0 94.0609600,29.2283400,0 94.0788700,29.2276500,0 94.0953100,29.2249200,0 94.1182600,29.2167400,0 94.1262300,29.2149500,0 94.1611400,29.2145500,0 94.1796200,29.2171500,0 94.1948300,29.2218700,0 94.3559700,29.3095200,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>94.3559700,29.3095200,0 94.4165200,29.3537900,0 94.4248100,29.3623300,0 94.4454000,29.3926900,0 94.4629000,29.4119300,0 94.4826000,29.4284900,0 94.5024500,29.4386700,0 94.5407000,29.4482700,0 94.5524200,29.4545300,0 94.5734200,29.4763400,0 94.5822900,29.4818000,0 94.5962800,29.4860300,0 94.6278600,29.4895300,0 94.6545500,29.4890400,0 94.6636700,29.4863500,0 94.6719700,29.4817200,0 94.6807600,29.4748000,0 94.7065500,29.4641400,0 94.7305600,29.4695900,0 94.7544100,29.4802900,0 94.7800400,29.4851300,0 94.7949300,29.4845600,0 94.8068900,29.4861500,0 94.8173100,29.4917700,0 94.8358700,29.5112600,0 94.8434300,29.5172800,0 94.8617500,29.5282700,0 94.8752500,29.5405500,0 94.9240800,29.6095600,0 94.9262800,29.6219300,0 94.9131800,29.6272700,0 94.8859200,29.6330800,0 94.8901500,29.6462700,0 94.9166000,29.6688100,0 94.9113900,29.6841900,0 94.8986900,29.6901300,0 94.8916900,29.6972100,0 94.9035800,29.7160100,0 94.9548500,29.7569400,0 94.9686800,29.7581200,0 94.9961900,29.7636200,0 95.0663300,29.7655700,0 95.0849700,29.7637400,0 95.1058900,29.7586500,0 95.1162200,29.7586100,0 95.1245200,29.7642300,0 95.1272100,29.7735500,0 95.1241200,29.7822900,0 95.1176900,29.7896200,0 95.0997000,29.8010900,0 95.0938400,29.8065100,0 95.0924600,29.8136700,0 95.1076000,29.8581000,0 95.1130500,29.8678600,0 95.1288300,29.8801900,0 95.1509700,29.8890200,0 95.1749000,29.8935800,0 95.1950800,29.8929300,0 95.2065500,29.8740900,0 95.2241300,29.8665200,0 95.2450500,29.8659900,0 95.2758100,29.8684800,0 95.2863900,29.8668900,0 95.2964800,29.8631400,0 95.3039700,29.8568000,0 95.3068900,29.8502900,0 95.3075500,29.8435300,0 95.3059200,29.8369400,0 95.3022600,29.8309200,0 95.2982700,29.8280700,0 95.2870400,29.8218400,0 95.2841900,29.8185500,0 95.2882600,29.8112300,0 95.2994100,29.8051200,0 95.3691500,29.7844500,0 95.3840400,29.7711000,0 95.3862400,29.7444100,0 95.3799800,29.7236600,0 95.3798900,29.7171500,0 95.3822500,29.7112500,0 95.3907200,29.7012000,0 95.3942200,29.6956700,0 95.3965000,29.6878100,0 95.3964100,29.6802800,0 95.3928300,29.6572900,0 95.3938900,29.6350800,0 95.3886800,29.6072400,0 95.3881900,29.5949200,0 95.3931600,29.5797800,0 95.4021900,29.5627700,0 95.4061800,29.5576800,0 95.4221300,29.5435700,0 95.4259600,29.5371800,0 95.4279900,29.5294100,0 95.4287200,29.5055600,0 95.4309200,29.4986000,0 95.4372700,29.4856200,0 95.4391400,29.4787900,0 95.4372700,29.4638100,0 95.4287200,29.4509900,0 95.3160100,29.3372700,0 95.3125100,29.3301900,0 95.2546500,29.2884000,0 95.2422000,29.2846100,0 95.2148500,29.2825000,0 95.2017500,29.2788400,0 95.1547100,29.2522700,0 95.1123100,29.2185700,0 95.1013300,29.2119400,0 95.0647100,29.1963200,0 95.0539700,29.1883400,0 95.0477800,29.1800400,0 95.0444400,29.1765400,0 95.0391500,29.1739000,0 95.0323200,29.1730400,0 95.0175900,29.1744200,0 95.0105100,29.1739000,0 95.0009100,29.1682400,0 95.0002500,29.1597400,0 95.0028600,29.1495200,0 95.0029400,29.1388600,0 94.9975700,29.1304400,0 94.9698200,29.1106600,0 94.9346600,29.0721300,0 94.9166000,29.0589000,0 94.9087000,29.0510500,0 94.9048000,29.0412100,0 94.9052800,29.0362000,0 94.9067500,29.0316000,0 94.9072400,29.0267200,0 94.9048000,29.0209400,0 94.9006400,29.0167900,0 94.8696400,28.9975900,0 94.8632100,28.9920100,0 94.8571900,28.9846500,0 94.8432700,28.9612900,0 94.8375800,28.9556300,0 94.8311500,28.9504700,0 94.8169100,28.9425700,0 94.8056700,28.9397700,0 94.7961500,28.9385000,0 94.7885000,28.9346000,0 94.7832100,28.9240200,0 94.7797100,28.8999700,0 94.7788200,28.8754300,0 94.7734500,28.8544400,0 94.7746700,28.8455700,0 94.7846800,28.8418200,0 94.7854900,28.8325500,0 94.7881000,28.8269300,0 94.7934700,28.8240800,0 94.8999900,28.8245700,0 94.9154600,28.8209900,0 94.9240800,28.8116300,0 94.9243300,28.8064200,0 94.9221300,28.8036600,0 94.9187100,28.8017000,0 94.9156200,28.7987700,0 94.9135800,28.7956000,0 94.9125300,28.7930400,0 94.9120400,28.7898600,0 94.9140700,28.7739500,0 94.9169200,28.7630100,0 94.9213200,28.7525100,0 94.9268500,28.7429900,0 94.9377500,28.7333400,0 94.9653400,28.7210200,0 94.9756000,28.7122300,0 94.9779600,28.7053900,0 94.9767400,28.6900100,0 94.9773100,28.6827300,0 94.9825100,28.6754000,0 94.9902500,28.6753600,0 94.9967500,28.6787800,0 94.9991200,28.6819500,0 95.0215000,28.6313700,0 95.0319900,28.6160300,0 95.0790300,28.5672100,0 95.0979900,28.5393700,0 95.1035300,28.5073500,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_yarlung_overview">
+            <name>雅鲁藏布江〔背景水系〕</name>
+            <description><![CDATA[<h3>雅鲁藏布江〔背景水系〕</h3><p><b>书中依据：</b>第4章校注27；第6章校注38等；工布、波密与墨脱关系及夥惹藤桥的地理背景。</p><p>夥惹桥段属书中他人见闻与地理叙述，不能标为陈渠珍本人亲渡。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约611.5 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>94.50245</longitude>
+              <latitude>29.43867</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>94.50245,29.43867,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+      </Folder>
+      <Folder>
+        <name>13D 大范围水系补充｜概化，默认隐藏</name>
+        <visibility>0</visibility>
+        <open>0</open>
+        <description><![CDATA[<p>用于远景查看主要河流方向。与13A对应的高精度片段有概化偏移，近景请关闭本层。未下载中段可用概化河线理解大致走向，但不是补接的精确河道。</p>]]></description>
+        <Folder id="river_group_dadu_overview">
+          <name>大渡河｜概化水系</name>
+          <open>0</open>
+          <description><![CDATA[<h3>大渡河</h3><p><b>书中依据：</b>第1章；正文经泸定桥过大渡河。</p><p>本层绘泸定附近现代河道；泸定桥可定位，不按正文所述尺寸复原桥梁。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约516.7 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>102.22079</longitude>
+            <latitude>29.92044</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>550000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_dadu_overview">
+            <name>大渡河〔概化中心线〕</name>
+            <description><![CDATA[<h3>大渡河</h3><p><b>书中依据：</b>第1章；正文经泸定桥过大渡河。</p><p>本层绘泸定附近现代河道；泸定桥可定位，不按正文所述尺寸复原桥梁。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约516.7 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>102.22079</longitude>
+              <latitude>29.92044</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_dadu_overview</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>101.0048900,31.9995800,0 101.0054600,31.9823700,0 101.0093700,31.9709700,0 101.0239400,31.9573400,0 101.0638900,31.9483500,0 101.0810600,31.9399700,0 101.1662700,31.8338500,0 101.1921500,31.8144000,0 101.2412200,31.8021900,0 101.2722300,31.7834700,0 101.2861400,31.7791600,0 101.3292700,31.7861600,0 101.3444900,31.7860000,0 101.3612600,31.7815600,0 101.3916100,31.7689900,0 101.4058500,31.7654900,0 101.4248100,31.7650800,0 101.4428000,31.7680900,0 101.4559800,31.7757000,0 101.4611900,31.7891300,0 101.4775500,31.8029200,0 101.5139300,31.8051200,0 101.5515200,31.8000800,0 101.5710600,31.7922600,0 101.5874900,31.8015800,0 101.6274500,31.8159400,0 101.6466600,31.8195200,0 101.6495100,31.8161100,0 101.6539000,31.8093500,0 101.6606600,31.8052400,0 101.6701000,31.8098800,0 101.6888900,31.8287200,0 101.6945900,31.8332000,0 101.7256000,31.8466200,0 101.8305800,31.8611100,0 101.8409100,31.8529700,0 101.8570300,31.8288000,0 101.8652500,31.8195200,0 101.8785100,31.8126100,0 101.9030900,31.8064600,0 101.9131000,31.7996300,0 101.9062600,31.7996300,0 101.9336000,31.7896600,0 102.0263800,31.7105200,0 102.0298000,31.7040500,0 102.0309300,31.6941200,0 102.0282500,31.6883000,0 102.0244200,31.6850000,0 102.0229600,31.6824000,0 102.0307700,31.6669400,0 102.0509600,31.6465900,0 102.0503000,31.6352000,0 102.0659300,31.6195700,0 102.0715400,31.6013900,0 102.0781400,31.4713000,0 102.0767500,31.4538000,0 102.0708900,31.4420800,0 101.9970800,31.3786100,0 101.9887800,31.3677000,0 101.9933400,31.3513900,0 102.0073300,31.3310000,0 102.0249100,31.3135800,0 102.0402900,31.3062200,0 102.0487600,31.2984500,0 102.0404600,31.2803000,0 102.0161200,31.2441700,0 102.0010700,31.2029500,0 101.9880500,31.1887900,0 101.9432900,31.1789000,0 101.9240800,31.1675500,0 101.9072400,31.1519600,0 101.8925900,31.1348700,0 101.8799800,31.1116800,0 101.8740300,31.0836000,0 101.8720800,31.0150800,0 101.8744400,30.9984000,0 101.8842100,30.9630000,0 101.8857500,30.9431400,0 101.8803800,30.9078200,0 101.8858300,30.8946000,0 101.9062600,30.8884900,0 101.9199300,30.8677000,0 101.9330400,30.8205000,0 101.9440200,30.8025200,0 101.9541900,30.7980400,0 101.9639600,30.7976800,0 101.9714500,30.7944600,0 101.9745400,30.7817700,0 101.9756800,30.7698400,0 101.9795000,30.7628000,0 101.9956200,30.7506800,0 102.0024500,30.7466900,0 102.0166100,30.7414800,0 102.0229600,30.7376600,0 102.0298000,30.7284600,0 102.0405400,30.7070600,0 102.0471300,30.7029100,0 102.0548600,30.6993300,0 102.0552700,30.6908600,0 102.0503000,30.6724700,0 102.0517700,30.6609100,0 102.0554300,30.6544100,0 102.0600700,30.6492400,0 102.0644600,30.6414700,0 102.0675600,30.6246200,0 102.0649500,30.5366900,0 102.0687800,30.5238700,0 102.0986400,30.4974200,0 102.1159000,30.4778900,0 102.1213500,30.4622300,0 102.1191500,30.4186500,0 102.1230600,30.3981400,0 102.1438900,30.3548400,0 102.1698500,30.3134200,0 102.1804300,30.2908400,0 102.1862900,30.2670300,0 102.1880000,30.2367600,0 102.1989800,30.2226000,0 102.2030500,30.2134900,0 102.1923900,30.2053500,0 102.1875900,30.1854900,0 102.1786400,30.1668100,0 102.1728600,30.0650100,0 102.1706600,30.0586600,0 102.1777500,30.0505600,0 102.2085100,30.0040100,0 102.2133900,29.9894500,0 102.2143700,29.9822400,0 102.2146900,29.9732500,0 102.2168100,29.9650300,0 102.2260800,29.9610100,0 102.2282800,29.9524600,0 102.2256800,29.9359000,0 102.2207900,29.9204400,0 102.2180300,29.9063600,0 102.2221800,29.8941100,0 102.2119200,29.8720200,0 102.2094000,29.8489400,0 102.2160800,29.7747300,0 102.2131400,29.7639800,0 102.2046800,29.7538500,0 102.1997200,29.7423000,0 102.2020800,29.7111300,0 102.1976800,29.6989200,0 102.1945900,29.6933000,0 102.1953200,29.6811800,0 102.1942700,29.6750800,0 102.1909300,29.6707200,0 102.1828700,29.6641700,0 102.1805900,29.6614000,0 102.1689600,29.6414700,0 102.1655400,29.6285300,0 102.1706600,29.6170100,0 102.1772600,29.5935700,0 102.1579700,29.5430400,0 102.1743300,29.5242400,0 102.1668400,29.5009200,0 102.1770100,29.4823700,0 102.1958900,29.4729300,0 102.2146900,29.4770800,0 102.2221800,29.4695900,0 102.2201400,29.4551500,0 102.2358500,29.3907300,0 102.2529400,29.3528900,0 102.2613200,29.3505300,0 102.2652300,29.3441800,0 102.2784100,29.2940100,0 102.2836200,29.2846100,0 102.2937900,29.2779000,0 102.3073800,29.2720800,0 102.3193500,29.2649200,0 102.3244700,29.2539300,0 102.3334300,29.2566600,0 102.4162700,29.2667100,0 102.4557400,29.2757400,0 102.4787700,29.2777800,0 102.5012300,29.2830300,0 102.5188900,29.2957600,0 102.5503900,29.3256300,0 102.5667400,29.3323000,0 102.5803300,29.3328300,0 102.5954700,29.3357600,0 102.6157300,29.3494700,0 102.6254200,29.3502900,0 102.6470600,29.3308400,0 102.6569900,29.3256300,0 102.7014300,29.3256300,0 102.7772700,29.3163500,0 102.8077100,29.3008500,0 102.8044500,29.2710200,0 102.8186100,29.2574300,0 102.8334300,29.2331800,0 102.8496200,29.2150300,0 102.8691500,29.2197900,0 102.8783500,29.2238200,0 102.8908800,29.2265100,0 102.9019500,29.2308200,0 102.9067500,29.2399400,0 102.9089500,29.2509200,0 102.9209100,29.2749700,0 102.9272600,29.2846100,0 102.9425600,29.3001200,0 102.9582600,29.3033300,0 102.9992800,29.2982800,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_dadu_overview">
+            <name>大渡河</name>
+            <description><![CDATA[<h3>大渡河</h3><p><b>书中依据：</b>第1章；正文经泸定桥过大渡河。</p><p>本层绘泸定附近现代河道；泸定桥可定位，不按正文所述尺寸复原桥梁。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约516.7 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>102.22079</longitude>
+              <latitude>29.92044</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>102.22079,29.92044,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_yalong_overview">
+          <name>雅砻江〔校注作雅珑江〕｜概化水系</name>
+          <open>0</open>
+          <description><![CDATA[<h3>雅砻江〔校注作雅珑江〕</h3><p><b>书中依据：</b>第1章校注10；校注明确甘孜渡雅珑江，使用皮船。</p><p>甘孜附近古渡址未定，不能以现代桥或1930年代渡江遗址代替1909年前后渡点。新龙段只是河流走向参照；甘孜至新龙未下载的中段留空。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约476.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>99.97022</longitude>
+            <latitude>31.62885</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>550000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_yalong_overview">
+            <name>雅砻江〔校注作雅珑江〕〔概化中心线〕</name>
+            <description><![CDATA[<h3>雅砻江〔校注作雅珑江〕</h3><p><b>书中依据：</b>第1章校注10；校注明确甘孜渡雅珑江，使用皮船。</p><p>甘孜附近古渡址未定，不能以现代桥或1930年代渡江遗址代替1909年前后渡点。新龙段只是河流走向参照；甘孜至新龙未下载的中段留空。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约476.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>99.97022</longitude>
+              <latitude>31.62885</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_yalong_overview</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>98.9959400,32.2999900,0 99.0132800,32.2909600,0 99.0315000,32.2862400,0 99.0412700,32.2851000,0 99.0622700,32.2799800,0 99.0727700,32.2788400,0 99.0822900,32.2827800,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>99.2031400,32.2930800,0 99.2255200,32.2924300,0 99.2457000,32.2890100,0 99.2644100,32.2806300,0 99.2819900,32.2651600,0 99.3023400,32.2316300,0 99.3236600,32.1869600,0 99.3266700,32.1753600,0 99.3337500,32.1702700,0 99.3408300,32.1683200,0 99.3440000,32.1658400,0 99.3451400,32.1507000,0 99.3484000,32.1471600,0 99.3547500,32.1470800,0 99.3645100,32.1422800,0 99.3950300,32.1176200,0 99.4122000,32.1106200,0 99.4362900,32.1081800,0 99.4553300,32.1029700,0 99.4638800,32.0893000,0 99.4674600,32.0467000,0 99.4714500,32.0279000,0 99.4804800,32.0073500,0 99.4941500,31.9907900,0 99.5118100,31.9840000,0 99.5285800,31.9751700,0 99.5610500,31.9321600,0 99.5761800,31.9163300,0 99.6358300,31.8967500,0 99.6450300,31.8850400,0 99.6472300,31.8753500,0 99.6566700,31.8536200,0 99.6587000,31.8440200,0 99.6567500,31.8225800,0 99.6583800,31.8170000,0 99.6655400,31.8064600,0 99.6821400,31.7908800,0 99.7207100,31.7728900,0 99.7376400,31.7621500,0 99.7520400,31.7434400,0 99.7816700,31.6761300,0 99.8061600,31.6517200,0 99.8413200,31.6409400,0 99.9702200,31.6288500,0 100.0178300,31.6160300,0 100.0605600,31.5955700,0 100.0900200,31.5662700,0 100.0969300,31.5451900,0 100.1023100,31.5006000,0 100.1140200,31.4809800,0 100.1405500,31.4602700,0 100.1555300,31.4536800,0 100.1591900,31.4458700,0 100.1616300,31.4366300,0 100.1651300,31.4291400,0 100.1831200,31.4166100,0 100.2061500,31.4057100,0 100.2261700,31.3921200,0 100.2347900,31.3714000,0 100.2392700,31.3496800,0 100.2688900,31.2987700,0 100.2823200,31.2572700,0 100.2915200,31.1919200,0 100.3051900,31.1504600,0 100.3098300,31.1280400,0 100.3098300,31.0645200,0 100.3064100,31.0523100,0 100.3086000,31.0408400,0 100.3088500,30.9592500,0 100.3078700,30.9507900,0 100.3062400,30.9436700,0 100.3029900,30.9363100,0 100.2789000,30.9187300,0 100.2662000,30.8960200,0 100.2451300,30.8887400,0 100.1999600,30.8816600,0 100.1638300,30.8567200,0 100.1498300,30.8211100,0 100.1521900,30.7798900,0 100.1970300,30.6579900,0 100.2177000,30.6263300,0 100.2484600,30.6004500,0 100.2719800,30.5845800,0 100.2888300,30.5702600,0 100.3167400,30.5384000,0 100.3327700,30.5250100,0 100.3557200,30.5144300,0 100.3823300,30.5073900,0 100.4094300,30.5049100,0 100.4401200,30.4633200,0 100.4536200,30.4488000,0 100.4631400,30.4440400,0 100.5329700,30.4386700,0 100.5625100,30.4305300,0 100.5774000,30.4149000,0 100.5879800,30.4207600,0 100.5940000,30.4197900,0 100.6045800,30.4080700,0 100.6052300,30.4052200,0 100.6045800,30.3913000,0 100.6064600,30.3871500,0 100.6103600,30.3874800,0 100.6148400,30.3888600,0 100.6182600,30.3875600,0 100.6286700,30.3748600,0 100.6397400,30.3668100,0 100.6661100,30.3540700,0 100.6809200,30.3433700,0 100.6910100,30.3306300,0 100.7070400,30.2988500,0 100.7165600,30.2854300,0 100.7280400,30.2723200,0 100.7377200,30.2579200,0 100.7417900,30.2405000,0 100.7502500,30.2259000,0 100.7873600,30.2210500,0 100.8042100,30.1934300,0 100.8228500,30.1940400,0 100.8428700,30.1990400,0 100.8545000,30.1995300,0 100.8630500,30.1897200,0 100.8662200,30.1870400,0 100.9157000,30.1960700,0 100.9367000,30.2075900,0 100.9566400,30.2106400,0 100.9779600,30.2090900,0 100.9957000,30.2032300,0 101.0022100,30.1800400,0 100.9987900,30.1572900,0 100.9919500,30.1360100,0 100.9882100,30.1172600,0 100.9943900,30.1104600,0 101.0061100,30.1070000,0 101.0131900,30.1018300,0 101.0056300,30.0899500,0 101.0019600,30.0822200,0 101.0035100,30.0731100,0 101.0072500,30.0630600,0 101.0093700,30.0524400,0 101.0030200,30.0069000,0 101.0030200,29.9811500,0 101.0124600,29.9698300,0 101.0271900,29.9604800,0 101.0619400,29.9161200,0 101.0708100,29.9015600,0 101.0869200,29.8591600,0 101.0903400,29.8391800,0 101.0883900,29.7537700,0 101.0844000,29.7364400,0 101.0723600,29.7123500,0 101.0708100,29.7023400,0 101.0741500,29.6914700,0 101.0881400,29.6717000,0 101.0912400,29.6651100,0 101.0899400,29.6605900,0 101.0837500,29.6478900,0 101.0810600,29.6439900,0 101.0800900,29.6404900,0 101.0834300,29.6298300,0 101.0844000,29.6238500,0 101.0866800,29.6173800,0 101.1183400,29.5756300,0 101.1250900,29.5698900,0 101.1322500,29.5657800,0 101.1247700,29.5279400,0 101.1523500,29.4646700,0 101.1396600,29.4285700,0 101.1071900,29.3997300,0 101.0875800,29.3860500,0 101.0742300,29.3801900,0 101.0725200,29.3783600,0 101.0586000,29.3696600,0 101.0503000,29.3665200,0 101.0398100,29.3670500,0 101.0305300,29.3706700,0 101.0210900,29.3721400,0 101.0093700,29.3665200,0 101.0093700,29.3597300,0 101.0158800,29.3502900,0 101.0181600,29.3454900,0 101.0156400,29.3460500,0 101.0215000,29.3445100,0 101.0293100,29.3452400,0 101.0354900,29.3480900,0 101.0360600,29.3528900,0 101.0407000,29.3423500,0 101.0429800,29.3319800,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_yalong_overview">
+            <name>雅砻江〔校注作雅珑江〕</name>
+            <description><![CDATA[<h3>雅砻江〔校注作雅珑江〕</h3><p><b>书中依据：</b>第1章校注10；校注明确甘孜渡雅珑江，使用皮船。</p><p>甘孜附近古渡址未定，不能以现代桥或1930年代渡江遗址代替1909年前后渡点。新龙段只是河流走向参照；甘孜至新龙未下载的中段留空。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约476.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>99.97022</longitude>
+              <latitude>31.62885</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>99.97022,31.62885,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_jinsha_overview">
+          <name>金沙江〔岗拖河〕｜概化水系</name>
+          <open>0</open>
+          <description><![CDATA[<h3>金沙江〔岗拖河〕</h3><p><b>书中依据：</b>第1章；校注10；正文记渡岗拖河、宿江干数日；校注明确金沙江。</p><p>只定位岗拖／岗托附近渡河地区。1950年岗托渡江遗址和现代桥均不直接等于陈部古渡点。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约197.2 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>98.56886</longitude>
+            <latitude>31.63178</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>550000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_jinsha_overview">
+            <name>金沙江〔岗拖河〕〔概化中心线〕</name>
+            <description><![CDATA[<h3>金沙江〔岗拖河〕</h3><p><b>书中依据：</b>第1章；校注10；正文记渡岗拖河、宿江干数日；校注明确金沙江。</p><p>只定位岗拖／岗托附近渡河地区。1950年岗托渡江遗址和现代桥均不直接等于陈部古渡点。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约197.2 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>98.56886</longitude>
+              <latitude>31.63178</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_jinsha_overview</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>98.5415200,31.6897700,0 98.5477800,31.6846400,0 98.5532300,31.6812600,0 98.5585200,31.6770300,0 98.5632400,31.6693000,0 98.5656800,31.6605900,0 98.5688600,31.6317800,0 98.5756900,31.6159100,0 98.5918900,31.5987400,0 98.8408300,31.3968000,0 98.8642700,31.3677000,0 98.8674400,31.3648500,0 98.8847800,31.3540300,0 98.8742800,31.3411700,0 98.8305800,31.2982800,0 98.8027500,31.2578400,0 98.7817500,31.2389600,0 98.7675900,31.2302900,0 98.7612400,31.2342000,0 98.7559500,31.2444100,0 98.7313700,31.2779000,0 98.7236400,31.2851000,0 98.7136300,31.2909600,0 98.6825500,31.3158600,0 98.6650500,31.3205000,0 98.6489400,31.3166000,0 98.6376200,31.3091900,0 98.6209400,31.2888400,0 98.6111000,31.2561300,0 98.6198800,31.1878500,0 98.6035300,31.1696200,0 98.6128000,31.1648600,0 98.6384400,31.1597400,0 98.6513800,31.1553800,0 98.6928800,31.1246200,0 98.7208800,31.0663500,0 98.7260000,31.0596400,0 98.7450500,31.0405500,0 98.7646600,31.0150800,0 98.7749100,31.0074300,0 98.7968000,30.9971000,0 98.8027500,30.9909100,0 98.8051000,30.9662500,0 98.7978600,30.9407800,0 98.7860600,30.9182400,0 98.7749100,30.9021700,0 98.7873600,30.8808000,0 98.8007900,30.8677800,0 98.8331000,30.8435300,0 98.8803000,30.7930800,0 98.8984500,30.7786300,0 98.9382400,30.7602000,0 98.9541100,30.7478300,0 98.9604600,30.7271200,0 98.9528900,30.7081200,0 98.9359600,30.7004700,0 98.9174100,30.6948900,0 98.9052800,30.6824400,0 98.9050400,30.6636800,0 98.9218900,30.6236400,0 98.9262800,30.6038700,0 98.9272600,30.5937000,0 98.9315700,30.5794500,0 98.9309200,30.5000300,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_jinsha_overview">
+            <name>金沙江〔岗拖河〕</name>
+            <description><![CDATA[<h3>金沙江〔岗拖河〕</h3><p><b>书中依据：</b>第1章；校注10；正文记渡岗拖河、宿江干数日；校注明确金沙江。</p><p>只定位岗拖／岗托附近渡河地区。1950年岗托渡江遗址和现代桥均不直接等于陈部古渡点。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约197.2 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>98.56886</longitude>
+              <latitude>31.63178</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>98.56886,31.63178,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_zaqu_overview">
+          <name>扎曲〔昌都水系参照〕｜概化水系</name>
+          <open>0</open>
+          <description><![CDATA[<h3>扎曲〔昌都水系参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；现代昌都为昂曲、扎曲合流区。</p><p>这里的扎曲为昌都一带地名对象，不将其他流域同名河混入；古桥确址仍待考。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约9.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>96.91773</longitude>
+            <latitude>31.95734</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>550000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_zaqu_overview">
+            <name>扎曲〔昌都水系参照〕〔概化中心线〕</name>
+            <description><![CDATA[<h3>扎曲〔昌都水系参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；现代昌都为昂曲、扎曲合流区。</p><p>这里的扎曲为昌都一带地名对象，不将其他流域同名河混入；古桥确址仍待考。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约9.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>96.91773</longitude>
+              <latitude>31.95734</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_zaqu_overview</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>96.8513300,31.9761000,0 96.8730600,31.9665000,0 96.8982000,31.9634500,0 96.9177300,31.9573400,0 96.9413300,31.9655200,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_zaqu_overview">
+            <name>扎曲〔昌都水系参照〕</name>
+            <description><![CDATA[<h3>扎曲〔昌都水系参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；现代昌都为昂曲、扎曲合流区。</p><p>这里的扎曲为昌都一带地名对象，不将其他流域同名河混入；古桥确址仍待考。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约9.1 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>96.91773</longitude>
+              <latitude>31.95734</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>96.91773,31.95734,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Folder id="river_group_lancang_overview">
+          <name>澜沧江〔昌都以下参照〕｜概化水系</name>
+          <open>0</open>
+          <description><![CDATA[<h3>澜沧江〔昌都以下参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；昌都附近昂曲、扎曲合流后下游水系参照。</p><p>河流经过行程地点，不等于作者明确渡过这条干流。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约222.2 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+          <LookAt>
+            <longitude>97.19817</longitude>
+            <latitude>31.08523</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>550000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Placemark id="river_line_lancang_overview">
+            <name>澜沧江〔昌都以下参照〕〔概化中心线〕</name>
+            <description><![CDATA[<h3>澜沧江〔昌都以下参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；昌都附近昂曲、扎曲合流后下游水系参照。</p><p>河流经过行程地点，不等于作者明确渡过这条干流。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约222.2 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>97.19817</longitude>
+              <latitude>31.08523</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_lancang_overview</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>96.9413300,31.9655200,0 96.9594800,31.9520900,0 96.9747000,31.9324800,0 96.9897600,31.9225500,0 96.9948800,31.9136800,0 96.9921200,31.8706700,0 96.9929300,31.8549300,0 96.9991200,31.8459700,0 97.0158800,31.8341700,0 97.0207600,31.8269700,0 97.0145800,31.7999900,0 97.0132800,31.7891300,0 97.0175900,31.7671200,0 97.0287400,31.7523900,0 97.0617000,31.7239400,0 97.0721900,31.7107600,0 97.0807400,31.6946100,0 97.0868400,31.6751600,0 97.0891200,31.6112700,0 97.0931900,31.6006500,0 97.1027900,31.5975200,0 97.1140200,31.5969900,0 97.1231400,31.5942700,0 97.1280200,31.5875100,0 97.1357500,31.5688700,0 97.1436500,31.5594300,0 97.1679800,31.5488500,0 97.1801000,31.5409600,0 97.1884900,31.5223200,0 97.2026500,31.5042200,0 97.2057400,31.4945700,0 97.2038700,31.4827300,0 97.1945900,31.4625900,0 97.1915000,31.4495700,0 97.2080200,31.3924000,0 97.2160800,31.3782400,0 97.2190000,31.3712800,0 97.2207100,31.3598900,0 97.2207100,31.3480100,0 97.2194900,31.3397100,0 97.2118400,31.3284000,0 97.2038700,31.3254700,0 97.1952400,31.3247700,0 97.1853100,31.3205000,0 97.1610600,31.2891700,0 97.1572400,31.2816800,0 97.1596000,31.2701300,0 97.1694400,31.2508000,0 97.1743300,31.2305800,0 97.1806700,31.2212200,0 97.1952400,31.2068900,0 97.2002100,31.1964000,0 97.1983300,31.1854900,0 97.1938600,31.1749900,0 97.1915000,31.1659600,0 97.1921500,31.1296600,0 97.1981700,31.0852300,0 97.2154200,31.0476800,0 97.2500900,31.0318500,0 97.2692200,31.0281000,0 97.2890700,31.0189900,0 97.3217900,30.9971000,0 97.3614200,30.9529500,0 97.3769600,30.9431400,0 97.3720000,30.9331700,0 97.3702100,30.9021700,0 97.3576000,30.8707100,0 97.3559700,30.8571200,0 97.3574300,30.7943000,0 97.3628000,30.7718000,0 97.3785100,30.7318800,0 97.3991000,30.7014800,0 97.4273400,30.6771900,0 97.4821900,30.6453700,0 97.5241000,30.6038700,0 97.5546200,30.5831200,0 97.5576300,30.5818100,0 97.6294100,30.4524200,0 97.6644800,30.4058300,0 97.6706600,30.4000900,0 97.6787200,30.3950500,0 97.7134700,30.3889400,0 97.7230700,30.3841400,0 97.7817500,30.3323400,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="river_text_lancang_overview">
+            <name>澜沧江〔昌都以下参照〕</name>
+            <description><![CDATA[<h3>澜沧江〔昌都以下参照〕</h3><p><b>书中依据：</b>第2—3章地理参照；昌都附近昂曲、扎曲合流后下游水系参照。</p><p>河流经过行程地点，不等于作者明确渡过这条干流。</p><p><b>河线性质：</b>Natural Earth小比例尺概化中心线；放大后不能作河岸、古渡点或工程定位。</p><p>本层所选片段线长合计约222.2 km，只说明下载覆盖长度，不是整条河长、渡河宽度或作者行走距离。</p><p>沿途现代河道参照与书中渡河事件分别显示。河线采用有来源的现代中心线；未下载的中段留空，不以直线补接。渡河地区示意圈不是考定古渡口，圆圈大小仅为显示范围。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原书与校注</a></p><p><a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson">河道数据1</a></p><p><a href="https://linzhi.gov.cn/linzhi/zmlz/201812/ab53f2adc76b4af981fd2fb072c805b8.shtml">linzhi</a> · <a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202411/t20241111_446337.html">tongmai</a> · <a href="https://zrzy.changdu.gov.cn/gtzyj/c101252/201008/e4951e5184a6480d8b753f656203b4df.shtml">chamdo</a> · <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">natural_earth</a> · <a href="https://www.openstreetmap.org/copyright">osm_license</a></p>]]></description>
+            <LookAt>
+              <longitude>97.19817</longitude>
+              <latitude>31.08523</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>550000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <styleUrl>#river_label</styleUrl>
+            <Point>
+              <coordinates>97.19817,31.08523,0</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+      </Folder>
+      <Folder>
+        <name>13E 河名／渡点待考｜不造坐标</name>
+        <open>0</open>
+        <Placemark id="river_unlocated_0">
+          <name>通天河／穆鲁乌苏踏冰渡河〔未设古渡点〕</name>
+          <description><![CDATA[<p>第9章；校注48；渡河确有文本，渡点无可靠坐标；只展示现代通天河、沱沱河水系方位，不造渡口。</p><p>本条无几何；完整版说明和CSV也保留相同内容。</p>]]></description>
+        </Placemark>
+        <Placemark id="river_unlocated_1">
+          <name>哈喇乌苏／阿克河谷〔未设古渡点〕</name>
+          <description><![CDATA[<p>第8章；校注44；校注推定怒江南源地区，具体河段待考；正文未明确在此渡河。</p><p>本条无几何；完整版说明和CSV也保留相同内容。</p>]]></description>
+        </Placemark>
+        <Placemark id="river_unlocated_2">
+          <name>恩达河、冬九未名河流〔未设古渡点〕</name>
+          <description><![CDATA[<p>第3章、第5—6章；正文有踏冰偷渡、过桥等事件，但现代河名与古桥对应未足证，本层不添精确河道或古渡点。</p><p>本条无几何；完整版说明和CSV也保留相同内容。</p>]]></description>
+        </Placemark>
+      </Folder>
     </Folder>
   </Document>
 </kml>

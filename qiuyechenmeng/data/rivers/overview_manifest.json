@@ -1,0 +1,102 @@
+{
+  "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson",
+  "retrieved_at": "2026-10-31",
+  "source_sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a",
+  "license": "Natural Earth public domain",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "method": "Keep consecutive source vertices within selected boxes, never join separated parts; only featurecla River, excluding artificial lake centerlines",
+  "feature_count": 11,
+  "scope": {
+    "Dadu": [
+      "dadu",
+      [
+        101,
+        29,
+        103,
+        32
+      ]
+    ],
+    "Yalong": [
+      "yalong",
+      [
+        98.8,
+        29.3,
+        101.2,
+        32.3
+      ]
+    ],
+    "Jinsha": [
+      "jinsha",
+      [
+        97.8,
+        30.5,
+        99.2,
+        32.4
+      ]
+    ],
+    "Lancang": [
+      "lancang",
+      [
+        96.1,
+        30.3,
+        97.8,
+        32
+      ]
+    ],
+    "Za": [
+      "zaqu",
+      [
+        96.1,
+        30.3,
+        97.8,
+        32
+      ]
+    ],
+    "Nu": [
+      "nu",
+      [
+        90.5,
+        29.5,
+        97.1,
+        33.1
+      ]
+    ],
+    "Tongtian": [
+      "tongtian",
+      [
+        89.5,
+        32.2,
+        97,
+        35.5
+      ]
+    ],
+    "Tuotuo": [
+      "tuotuo",
+      [
+        89.5,
+        33.4,
+        93.5,
+        35.5
+      ]
+    ],
+    "Yarlung": [
+      "yarlung",
+      [
+        92.2,
+        28.5,
+        96.1,
+        30.3
+      ]
+    ],
+    "Dihang": [
+      "yarlung",
+      [
+        92.2,
+        28.5,
+        96.1,
+        30.3
+      ]
+    ]
+  },
+  "limitations": "Cartographic generalized reference. Not historical river reconstruction, bank survey, route or crossing identification."
+}

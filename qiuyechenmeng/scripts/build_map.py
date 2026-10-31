@@ -13,6 +13,7 @@ from modern_roads import add_roads, write_road_index
 from regional_ranges import add_ranges, write_range_index
 from post_routes import add_post_routes, write_post_indexes
 from historical_context import add_historical_context, write_historical_index
+from rivers import add_rivers, write_river_index
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -266,7 +267,7 @@ def make_post_supplement(bundled=False):
 
 def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
-    el(doc,'name','《艽野尘梦》阅读地图｜南北驿路、分区与耗时距离（长坝春核对版）')
+    el(doc,'name','《艽野尘梦》阅读地图｜路线、河流与历史背景')
     el(doc,'open',1)
     el(doc,'description',f'{len(ROWS)}个主要地点及参照点，另补{len(MINOR_PLACES)}处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。\n小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。')
     view(doc,100.5,33.6,2000000)
@@ -347,6 +348,7 @@ def make_map(bundled=False):
     add_ranges(doc,el,view,kcolor,bundled)
     add_post_routes(doc,el,view,kcolor,bundled,False)
     add_historical_context(doc,el,view,kcolor,bundled)
+    add_rivers(doc,el,view,kcolor,bundled)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -354,6 +356,13 @@ def make_history_supplement(bundled=False):
     el(doc,'name','《艽野尘梦》瞻对历史背景｜今新龙范围参照');el(doc,'open',1)
     el(doc,'description','历史背景范围，不接入作者个人行程。今县界只作方位参照，三瞻旧界未复原。')
     add_historical_context(doc,el,view,kcolor,bundled)
+    return serialize(root)
+
+def make_river_supplement(bundled=False):
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='river_supplement')
+    el(doc,'name','《艽野尘梦》沿途河流｜甘孜雅砻江、岗拖金沙江等');el(doc,'open',1)
+    el(doc,'description','河流中心线与渡河地区分别显示；没有给未定位古渡点造坐标。')
+    add_rivers(doc,el,view,kcolor,bundled)
     return serialize(root)
 
 def main():
@@ -367,6 +376,8 @@ def main():
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
         z.writestr('icons/region_label.png',png('#ffffff'))
+        z.writestr('icons/river_label.png',png('#60d4ff'))
+        z.writestr('icons/river_crossing.png',png('#ffdc7b',True))
         for sid,color,hollow in [('point','#8ad4ff',False),('uncertain','#ffc66d',True),('measure','#cbd5e1',False)]:
             z.writestr('icons/post_'+sid+'.png',png(color,hollow))
     supplement='艽野尘梦_小地名补充'
@@ -397,6 +408,13 @@ def main():
         z.writestr('doc.kml',make_history_supplement(True))
         z.writestr('icons/region_label.png',png('#ffffff'))
     write_historical_index()
+    rivers='艽野尘梦_沿途河流'
+    (ROOT/(rivers+'.kml')).write_bytes(make_river_supplement())
+    with zipfile.ZipFile(ROOT/(rivers+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_river_supplement(True))
+        z.writestr('icons/river_label.png',png('#60d4ff'))
+        z.writestr('icons/river_crossing.png',png('#ffdc7b',True))
+    write_river_index()
     with (ROOT/'小地名对照与坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
         fields=['id','name','old_names','modern','lon','lat','chapter','group','certainty','coordinate_source','identity_source','note','timing']
         w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(MINOR_PLACES)
@@ -513,6 +531,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n十、本段南北驿路对照\n新增11层，南路背景、北路进昌都、昌都后北绕及原文另列走法分色显示。\n新增理塘、巴塘、硕督、丹达地区、拉萨对照及曾科候选共6点，三十九族按核心方位区域显示。\n距离仍用代表点直距km；完整阅读图复用原有地点，单独南北驿路KMZ包含17个站点代表点。\n已知耗时按原文与校注保留，未记日数不分摊，南路不套现代G318。详见“南北驿路说明.txt”及两个南北驿路CSV。\n')
         f.write('\n十一、长坝春与新都桥核对\n2026-10-31复核：现有史地研究支持江巴村一带，不能直接等同新都桥镇中心。现官方资料称塔公镇江巴村。\n历史点保留原地区参照坐标，旧驿站与营地确址未定；11F新增新都桥现代对照点及约23 km直距比较线，该线不属于作者行程。\n详见“长坝春新都桥核对说明.txt”与data/place_checks/长坝春核对.json。\n')
         f.write('\n十二、瞻对／三瞻历史背景\n12层以现代新龙县轮廓作瞻对方位参照，非三瞻旧界，不接入陈渠珍此次个人路线。\n校注八所述鹿传霖事件对应1896—1897年，光绪初的年代表述有误；各次瞻对战事不合并。\n县名沿革年份存在资料异说，详见“瞻对历史背景说明.txt”。已有云端地图可单独叠加“艽野尘梦_瞻对历史背景.kmz”。\n')
+        f.write('\n十三、沿途主要河流\n13层显示现代真实河道片段和书中渡河地区，突出甘孜雅砻江、岗拖金沙江，另含泸定桥及通麦易贡相关渡水。\n北返通天河渡点不明，不以今桥定位；怒江南源阿克的河段对应、薄藏布古藤桥位置保留待考。\nOSM河道片段与Natural Earth概化背景分层，缺口不补直线。详见“沿途河流说明.txt”和“河流与渡河对照.csv”。已有云端地图可单独叠加“艽野尘梦_沿途河流.kmz”。\n')
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

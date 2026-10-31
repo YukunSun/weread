@@ -1,0 +1,258 @@
+{
+  "retrieved_at_utc": "2026-10-31T02:57:41.077714+00:00",
+  "crs": "WGS84 longitude, latitude (EPSG:4326)",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "geometry_file": "osm_rivers_tibet.geojson",
+  "geometry_bytes": 36410,
+  "feature_count": 10,
+  "groups": [
+    {
+      "name": "易贡藏布：易贡湖—通麦汇流口上游",
+      "purpose": "通麦两支水系及易贡方向的现代地理参照；不认定古渡点",
+      "rectangles_lonlat": [
+        [
+          94.73,
+          30.085,
+          95.085,
+          30.33
+        ]
+      ],
+      "way_ids": [
+        398373303
+      ],
+      "gaps": [
+        "未覆盖易贡湖北方完整上游与南方全河段。",
+        "汇流口以下way67604115仍标易贡藏布；异名未核清，最终GeoJSON排除该对象，不据此裁断历史薄藏布江所指。"
+      ],
+      "id": "yigong_tongmai",
+      "feature_count": 1,
+      "vertex_count": 147,
+      "actual_bounds_lonlat": [
+        94.728477,
+        30.0960196,
+        95.0721939,
+        30.2986668
+      ]
+    },
+    {
+      "name": "帕隆藏布：通麦汇流区—波密",
+      "purpose": "与易贡藏布分支同时显示的现代河道参照；不认定古渡点",
+      "rectangles_lonlat": [
+        [
+          95.05,
+          29.79,
+          95.86,
+          30.12
+        ]
+      ],
+      "way_ids": [
+        26407649,
+        26407650,
+        26407652,
+        67605162
+      ],
+      "relation_id": 15708490,
+      "gaps": [
+        "波密以东帕隆藏布完整上游未纳入。"
+      ],
+      "id": "palong_tongmai_bomi",
+      "feature_count": 4,
+      "vertex_count": 504,
+      "actual_bounds_lonlat": [
+        95.06396,
+        29.7966819,
+        95.8531202,
+        30.1015582
+      ]
+    },
+    {
+      "name": "尼洋河／尼洋曲：太昭—工布江达—阿沛方向",
+      "purpose": "现代方位参照；不标示作者确切渡河处",
+      "rectangles_lonlat": [
+        [
+          93.0,
+          29.87,
+          93.36,
+          30.06
+        ]
+      ],
+      "way_ids": [
+        398222751,
+        30960786
+      ],
+      "relation_id": 399036,
+      "gaps": [
+        "只取太昭至工布江达附近；未覆盖全尼洋河。"
+      ],
+      "id": "nyang_gongbo",
+      "feature_count": 2,
+      "vertex_count": 151,
+      "actual_bounds_lonlat": [
+        93.086446,
+        29.8827794,
+        93.349714,
+        29.9990888
+      ]
+    },
+    {
+      "name": "昌都昂曲、扎曲及会合后的澜沧江",
+      "purpose": "昌都现代汇流区的方位参照；不认定正文西藏桥或俄洛桥位置",
+      "rectangles_lonlat": [
+        [
+          97.11,
+          31.085,
+          97.23,
+          31.18
+        ]
+      ],
+      "way_ids": [
+        26303813,
+        401337798,
+        26303815
+      ],
+      "gaps": [
+        "只取昌都短河段；昂曲、扎曲分别保留名称，未将会合前两支统称澜沧江。"
+      ],
+      "id": "lancang_chamdo",
+      "feature_count": 3,
+      "vertex_count": 214,
+      "actual_bounds_lonlat": [
+        97.1063415,
+        31.0844704,
+        97.20343,
+        31.1801511
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "osm_way_id": 398373303,
+      "url": "https://www.openstreetmap.org/api/0.6/way/398373303/full",
+      "xml_bytes": 40762,
+      "xml_sha256": "a7586efe04959693858aca9202a7ab8ef7adc7aad095810c723074498ca84b30",
+      "osm_version": 19,
+      "osm_timestamp": "2025-09-11T07:49:44Z"
+    },
+    {
+      "osm_way_id": 26407649,
+      "url": "https://www.openstreetmap.org/api/0.6/way/26407649/full",
+      "xml_bytes": 26635,
+      "xml_sha256": "3c3720673785b0546f8ba48bf5cdda3a898abb65022512e1992f6f472fb583da",
+      "osm_version": 15,
+      "osm_timestamp": "2025-09-10T08:20:47Z"
+    },
+    {
+      "osm_way_id": 26407650,
+      "url": "https://www.openstreetmap.org/api/0.6/way/26407650/full",
+      "xml_bytes": 24787,
+      "xml_sha256": "9bf185250c9d2f67586d800a72c1e6cc5af2f4102365a68dc3527fa4e3ae048d",
+      "osm_version": 14,
+      "osm_timestamp": "2025-11-21T04:25:29Z"
+    },
+    {
+      "osm_way_id": 26407652,
+      "url": "https://www.openstreetmap.org/api/0.6/way/26407652/full",
+      "xml_bytes": 19139,
+      "xml_sha256": "feadf52ff49149fbad872e8422072c489bbf51c1e53af534070582838396705c",
+      "osm_version": 11,
+      "osm_timestamp": "2023-11-12T13:51:23Z"
+    },
+    {
+      "osm_way_id": 67605162,
+      "url": "https://www.openstreetmap.org/api/0.6/way/67605162/full",
+      "xml_bytes": 31786,
+      "xml_sha256": "b760bdcdf1a18f615150dd2773a544cc9e71e6d2bf100dd5cee50939d166835e",
+      "osm_version": 15,
+      "osm_timestamp": "2023-11-12T13:52:20Z"
+    },
+    {
+      "osm_way_id": 398222751,
+      "url": "https://www.openstreetmap.org/api/0.6/way/398222751/full",
+      "xml_bytes": 12366,
+      "xml_sha256": "2459781478329c0a2210ea222bb14a98e3aecfd681912d46037e95309fa67135",
+      "osm_version": 8,
+      "osm_timestamp": "2026-08-27T01:41:09Z"
+    },
+    {
+      "osm_way_id": 30960786,
+      "url": "https://www.openstreetmap.org/api/0.6/way/30960786/full",
+      "xml_bytes": 19116,
+      "xml_sha256": "67cfa1450c20c1e69156945a30377ab3ef7f1781a789deb187bfc46d6832a725",
+      "osm_version": 15,
+      "osm_timestamp": "2026-09-22T02:52:11Z"
+    },
+    {
+      "osm_way_id": 26303813,
+      "url": "https://www.openstreetmap.org/api/0.6/way/26303813/full",
+      "xml_bytes": 22227,
+      "xml_sha256": "2324e40f89be62d1cf03770d9b34a36186b0ddd424f062392369026e00fdb59e",
+      "osm_version": 15,
+      "osm_timestamp": "2026-05-04T08:48:15Z"
+    },
+    {
+      "osm_way_id": 401337798,
+      "url": "https://www.openstreetmap.org/api/0.6/way/401337798/full",
+      "xml_bytes": 21107,
+      "xml_sha256": "890f7fbc35ab0a8a4876fcd39fc20b57ae6c75f38406651015db23a9713b957d",
+      "osm_version": 7,
+      "osm_timestamp": "2026-05-04T08:48:15Z"
+    },
+    {
+      "osm_way_id": 26303815,
+      "url": "https://www.openstreetmap.org/api/0.6/way/26303815/full",
+      "xml_bytes": 60734,
+      "xml_sha256": "f09bef5ac25fdd5dc26fc0530a2570574a2e46ccdf4cbbb510619a5ea2151524",
+      "osm_version": 25,
+      "osm_timestamp": "2025-12-06T07:16:41Z"
+    }
+  ],
+  "discovery_sources": [
+    "https://www.openstreetmap.org/api/0.6/map?bbox=95.05,30.085,95.08,30.11",
+    "https://www.openstreetmap.org/api/0.6/relation/15708490/full",
+    "https://www.openstreetmap.org/api/0.6/map?bbox=93.24,29.88,93.26,29.90",
+    "https://www.openstreetmap.org/api/0.6/map?bbox=97.172,31.122,97.187,31.134"
+  ],
+  "method": [
+    "Only selected OSM waterway=river ways are fetched; regional XML is not saved.",
+    "Keep original adjacent OSM node pairs if either node is within the group's selection rectangle; keep contiguous runs separately.",
+    "Every output vertex is an original OSM node coordinate. No interpolation, gap joining, smoothing, simplification, fabricated historical route or projected offset.",
+    "Rectangle boundary runs can retain one adjacent original node outside the rectangle; actual bounds are recorded per group.",
+    "OSM names describe the current dataset, not a resolution of historical river names or crossing locations."
+  ],
+  "historical_limits": [
+    "汤买／汤木与薄藏布江渡河有文本关联；古桥在通麦汇流口哪一支、哪一位置未由这些现代中心线证实。",
+    "现代通麦桥不能直接充作古藤桥位置。河道迁移、2000年易贡事件及现代工程影响未重建。",
+    "尼洋河与昌都澜沧江数据只作地理参照，不新增正文渡河断言。",
+    "怒江南源阿克与穆鲁乌苏／通天河古渡点均未在本包定位或画出。"
+  ],
+  "missing_geometry": [
+    {
+      "subject": "怒江南源阿克／哈喇乌苏",
+      "status": "not_downloaded",
+      "reason": "当前任务未取得可核验河段与古称对应；保留未定位。"
+    },
+    {
+      "subject": "穆鲁乌苏／通天河渡点",
+      "status": "not_downloaded",
+      "reason": "未核实具体河段及古渡点；不以现代桥代替。"
+    }
+  ],
+  "rebuild": "python3 data/rivers/tibet/fetch_tibet_rivers.py",
+  "excluded_geometry": [
+    {
+      "osm_way_id": 67604115,
+      "osm_name_observed": "易贡藏布",
+      "source_url": "https://www.openstreetmap.org/api/0.6/way/67604115/full",
+      "checked_date": "2026-10-31",
+      "osm_version": 15,
+      "osm_timestamp": "2026-10-11T11:25:11Z",
+      "scope": "通麦汇流口以南；原始对象范围95.0129092,29.8748535至95.1323155,30.0960196",
+      "reason": "OSM仍标易贡藏布；下游水系称名口径未核清，排除其几何以免河线误名。"
+    }
+  ],
+  "source_topology_notes": [
+    "帕隆藏布way26407650与26407652在95.4333877,29.911948和95.4274543,29.9132891共享原始节点，两点之间两条原始河道线略有不同；保留源数据两支，不将它们重画成单一直线。"
+  ]
+}
