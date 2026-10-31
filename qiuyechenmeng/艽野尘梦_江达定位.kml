@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="jiangda_supplement">
+    <name>《艽野尘梦》江达｜今太昭／江达村一带</name>
+    <open>1</open>
+    <description><![CDATA[仅含江达一处区域参照点，点击查看今名、定位依据及北返耗时。可供旧版地图单独导入；请隐藏旧版02层中的江达点，或与新版完整阅读地图二选一，避免同地点重复显示。旧驿站、陈部驻地及出发确址未定。]]></description>
+    <LookAt>
+      <longitude>93.08</longitude>
+      <latitude>30.0</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>45000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="jiangda">
+      <IconStyle>
+        <scale>1.35</scale>
+        <color>ffff92b6</color>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1.05</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <bgColor>fffafafa</bgColor>
+        <textColor>ff222222</textColor>
+      </BalloonStyle>
+    </Style>
+    <Placemark id="place_taizhao">
+      <name>16 江达〔今太昭／江达村一带〕｜北返起点；至丹噶尔223日</name>
+      <visibility>1</visibility>
+      <Snippet maxLines="2">223日，约7个多月 · 第3、7、8章 · 区域参照</Snippet>
+      <description><![CDATA[<h3>16 江达〔今太昭／江达村一带〕</h3><p><b>今名／定位对象：</b>工布江达县江达村、太昭一带<br/><b>对应章节：</b>第3、7、8章<br/><b>定位性质：</b>区域参照<br/><b>经纬度：</b>93.0800°E, 30.0000°N</p><p>社科院实地考察将书中江达对应今林芝市工布江达县江达村、太昭古城一带，记述从现代县城沿318国道向西约20公里抵达。此处为北返青海的出发地；不是昌都市江达县，也不是工布江达现代县城。沿用地名表及太昭大桥附近区域的粗略坐标，旧驿站、陈部驻地及出发确址未定。</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">地名与行程：原文、校注</a><br/><a href="https://www.fallingrain.com/world/a/T/a/i/z/h/index.html">坐标参照</a><br/><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">江达与太昭：社科院考察</a></p><h3>行程与耗时</h3><p><b>拉里 → 凝多 → 江达：约3日</b><br/>原文分日合并。第3章两日至凝多，翌日抵江达；并非含后续驻留的总时间。</p><p><b>江达首次驻留：约20日</b><br/>原文约数释义。第3章一驻兼旬；与后来北返出发分开。</p><p><b>北返：江达 → 丹噶尔厅：223日，约7个多月</b><br/>作者自计总耗时。第12章：农历冬月十一出发，六月二十四到丹噶尔，自计二百二十三日。包含途中行走、停留及后段有居民区，不能写成连续断粮或全在无人区223日。</p><h3>距离（km）</h3><p><b>嘉黎镇一带 → 工布江达县江达村、太昭一带：直线约 86 km</b><br/>相邻示意节点</p><p><b>工布江达县江达村、太昭一带 → 丹噶尔古城一带：直线约 1063 km</b><br/>北返223日全段起讫直线，不是荒原轨迹</p><p>代表点之间的球面近似直线距离，按平均地球半径6371.0088 km计算，取整。不是历史实走里程、现代公路里程或虚线短笔画长度；不确定位置会影响距离，不能当导航数据。</p>]]></description>
+      <LookAt>
+        <longitude>93.08</longitude>
+        <latitude>30.0</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>45000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#jiangda</styleUrl>
+      <ExtendedData>
+        <Data name="book_name">
+          <value>16 江达〔今太昭／江达村一带〕</value>
+        </Data>
+        <Data name="modern_name">
+          <value>工布江达县江达村、太昭一带</value>
+        </Data>
+        <Data name="chapter">
+          <value>第3、7、8章</value>
+        </Data>
+        <Data name="certainty">
+          <value>区域参照</value>
+        </Data>
+        <Data name="coordinate_reference">
+          <value>https://www.fallingrain.com/world/a/T/a/i/z/h/index.html</value>
+        </Data>
+        <Data name="literary_source">
+          <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+        </Data>
+        <Data name="note">
+          <value>社科院实地考察将书中江达对应今林芝市工布江达县江达村、太昭古城一带，记述从现代县城沿318国道向西约20公里抵达。此处为北返青海的出发地；不是昌都市江达县，也不是工布江达现代县城。沿用地名表及太昭大桥附近区域的粗略坐标，旧驿站、陈部驻地及出发确址未定。</value>
+        </Data>
+        <Data name="travel_time">
+          <value>拉里 → 凝多 → 江达：约3日；江达首次驻留：约20日；北返：江达 → 丹噶尔厅：223日，约7个多月</value>
+        </Data>
+        <Data name="timing_basis">
+          <value>原文分日合并：第3章两日至凝多，翌日抵江达；并非含后续驻留的总时间。；原文约数释义：第3章一驻兼旬；与后来北返出发分开。；作者自计总耗时：第12章：农历冬月十一出发，六月二十四到丹噶尔，自计二百二十三日。包含途中行走、停留及后段有居民区，不能写成连续断粮或全在无人区223日。</value>
+        </Data>
+        <Data name="distance_km">
+          <value>嘉黎镇一带→工布江达县江达村、太昭一带 直线约86 km；工布江达县江达村、太昭一带→丹噶尔古城一带 直线约1063 km</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>93.08,30.0,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

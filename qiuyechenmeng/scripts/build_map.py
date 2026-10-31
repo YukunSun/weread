@@ -63,7 +63,7 @@ ROWS = [
 ('chamdo','13 察木多 → 昌都','昌都老城、强巴林寺一带',97.1779,31.1435,'第1—3章','in','对应较明确',wiki('强巴林寺'),'用强巴林寺定位昌都老城，非作者营房遗址。第2章腊左探险确曾抵达恩达；14层按校注十一与书图补地点顺序和被俘、押送、获释过程，中间旧地名确址仍待考。'),
 ('riwoche','14 类乌齐','类乌齐旧寺镇',96.5036,31.3716,'第3章','west','对应较明确',wiki('类乌齐镇'),'选用旧寺镇，区分今县城桑多镇。恩达、三十九族等中间节点未强行定位。'),
 ('lhari','15 拉里 → 嘉黎旧镇','嘉黎镇一带',93.3458,30.7423,'第3章','west','区域参照',wiki('嘉黎镇'),'旧粮台所在地区的镇区参照；不是今日阿扎县城。原文回忆与部分史事在校注中有订正。'),
-('taizhao','16 江达 → 太昭古城一带','工布江达县江达村、太昭一带',93.08,30.00,'第3、7、8章','west','区域参照','https://www.fallingrain.com/world/a/T/a/i/z/h/index.html','依据社科院实地考察对应太昭／江达村。采用地名表及太昭大桥附近区域的粗略坐标；不是昌都市江达县，也不是工布江达现代县城。'),
+('taizhao','16 江达〔今太昭／江达村一带〕','工布江达县江达村、太昭一带',93.08,30.00,'第3、7、8章','west','区域参照','https://www.fallingrain.com/world/a/T/a/i/z/h/index.html','社科院实地考察将书中江达对应今林芝市工布江达县江达村、太昭古城一带，记述从现代县城沿318国道向西约20公里抵达。此处为北返青海的出发地；不是昌都市江达县，也不是工布江达现代县城。沿用地名表及太昭大桥附近区域的粗略坐标，旧驿站、陈部驻地及出发确址未定。'),
 ('lulang','17 鲁朗','鲁朗地区',94.7332,29.7257,'第5—7章','pome','区域参照','https://mapcarta.com/N12238762005','使用现代镇驻地作地区参照。镇治曾由东久迁移，旅游小镇与书中驻营地不能直接等同；未确认作者每次驻地。'),
 ('tongmai','18 汤买／汤木 → 通麦一带','通麦、易贡藏布渡河地区',95.0646,30.0976,'第6章；校注33','pome','区域参照','https://www.upc.pbs.bridgemeister.com/bridge.php?bid=6161','现代通麦桥坐标仅用于定位渡河地区，不认定旧藤桥与今桥重合。'),
 ('yigong','19 彝贡 → 易贡地区','易贡乡一带',94.8162,30.2699,'第6章','pome','区域参照','https://mapcarta.com/29837964','现代易贡乡聚落代表点，用于查看易贡河谷；不等同书中的军营、登岸点或具体战场。'),
@@ -293,9 +293,50 @@ def make_post_supplement(bundled=False):
     add_post_routes(doc,el,view,kcolor,bundled,True);write_post_indexes()
     return serialize(root)
 
+def jiangda_style(doc,bundled):
+    st=el(doc,'Style',id='jiangda')
+    ic=el(st,'IconStyle');el(ic,'scale',1.35)
+    el(ic,'color','ffffffff' if bundled else kcolor(PHASES['west'][1]))
+    icon=el(ic,'Icon');el(icon,'href','icons/west.png' if bundled else 'https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png')
+    lab=el(st,'LabelStyle');el(lab,'color','ffffffff');el(lab,'scale',1.05)
+    balloon=el(st,'BalloonStyle');el(balloon,'bgColor','fffafafa');el(balloon,'textColor','ff222222')
+
+def major_place(parent,row):
+    rid,label,modern,lon,lat,chapter,phase,certainty,coordsource,note=row
+    uncertain='推定' in certainty
+    entries=[t for t in TIMINGS if t['anchor']==rid]
+    summary_entries=[t for t in entries if t.get('summary',True) and not t['kind'].startswith('校注路程与宿营条件')]
+    pm=el(parent,'Placemark',id='place_'+rid);el(pm,'name',display_label(rid,label))
+    el(pm,'visibility',int(PHASES[phase][2]));el(pm,'Snippet',(summary_entries[-1]['duration']+' · ' if summary_entries else '')+chapter+' · '+certainty,maxLines='2')
+    extra=[('地名与行程：原文、校注',TEXT),('坐标参照',coordsource)]
+    if rid=='taizhao': extra.append(('江达与太昭：社科院考察',SOURCES['江达与太昭考证']))
+    if rid=='changba': extra.extend([('长坝春今名考证',SOURCES['旧驿道与长坝春考证']),('江巴村现行政归属',SOURCES['江巴村现行政归属核查'])])
+    if rid=='lulang': extra.append(('鲁朗镇治迁移',SOURCES['鲁朗镇治迁移']))
+    body=f'<h3>{html.escape(label)}</h3><p><b>今名／定位对象：</b>{html.escape(modern)}<br/><b>对应章节：</b>{html.escape(chapter)}<br/><b>定位性质：</b>{certainty}<br/><b>经纬度：</b>{lon:.4f}°E, {lat:.4f}°N</p><p>{html.escape(note)}</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p>'+links(extra)+'</p>'
+    related_distances=[d for d in DISTANCE_ROWS if d[1]==rid or d[2]==rid]
+    travel=time_html(entries)+(distance_html(related_distances) if related_distances else '')
+    el(pm,'description',body+travel if rid=='taizhao' else travel+body)
+    view(pm,lon,lat,180000 if rid in ['golmud','qinghai'] else 45000 if rid=='taizhao' else 65000)
+    el(pm,'styleUrl','#jiangda' if rid=='taizhao' else '#'+phase+('_uncertain' if uncertain else ''))
+    ed=el(pm,'ExtendedData')
+    for name,value in [('book_name',label),('modern_name',modern),('chapter',chapter),('certainty',certainty),('coordinate_reference',coordsource),('literary_source',TEXT),('note',note),('travel_time','；'.join(t['segment']+'：'+t['duration'] for t in entries)),('timing_basis','；'.join(t['kind']+'：'+t['basis'] for t in entries))]:
+        d=el(ed,'Data',name=name);el(d,'value',value)
+    if related_distances:
+        d=el(ed,'Data',name='distance_km');el(d,'value','；'.join(PLACE_BY_ID[a][2]+'→'+PLACE_BY_ID[b][2]+f' 直线约{km:.0f} km' for _,a,b,_,km in related_distances))
+    pt=el(pm,'Point');el(pt,'altitudeMode','clampToGround');el(pt,'coordinates',f'{lon},{lat},0')
+
+def make_jiangda_supplement(bundled=False):
+    row=PLACE_BY_ID['taizhao']
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='jiangda_supplement')
+    el(doc,'name','《艽野尘梦》江达｜今太昭／江达村一带');el(doc,'open',1)
+    el(doc,'description','仅含江达一处区域参照点，点击查看今名、定位依据及北返耗时。可供旧版地图单独导入；请隐藏旧版02层中的江达点，或与新版完整阅读地图二选一，避免同地点重复显示。旧驿站、陈部驻地及出发确址未定。')
+    view(doc,row[3],row[4],45000)
+    jiangda_style(doc,bundled);major_place(doc,row)
+    return serialize(root)
+
 def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
-    el(doc,'name','《艽野尘梦》阅读地图｜浪荡沟与纳贡三地深查版')
+    el(doc,'name','《艽野尘梦》阅读地图｜江达定位补充版')
     el(doc,'open',1)
     el(doc,'description',f'{len(ROWS)}个主要地点及参照点，另补{len(MINOR_PLACES)}处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。\n小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。')
     view(doc,100.5,33.6,2000000)
@@ -313,6 +354,7 @@ def make_map(bundled=False):
             lab=el(st,'LabelStyle');el(lab,'color','ffffffff');el(lab,'scale',0.85)
             line=el(st,'LineStyle');el(line,'color',kcolor(color,'d8'));el(line,'width',3)
             balloon=el(st,'BalloonStyle');el(balloon,'bgColor','fffafafa');el(balloon,'textColor','ff222222')
+    jiangda_style(doc,bundled)
     minor_styles(doc,bundled)
     guide=el(doc,'Folder');el(guide,'name','00 耗时、距离总览与图例');el(guide,'open',0)
     pm=el(guide,'Placemark');el(pm,'name','地图用法、精度与来源');el(pm,'description',doc.find(f'{{{KML}}}description').text)
@@ -330,26 +372,9 @@ def make_map(bundled=False):
         else:
             el(f,'description',phase_timing)
     points={}
-    for rid,label,modern,lon,lat,chapter,phase,certainty,coordsource,note in ROWS:
-        uncertain='推定' in certainty
-        entries=[t for t in TIMINGS if t['anchor']==rid]
-        summary_entries=[t for t in entries if t.get('summary',True) and not t['kind'].startswith('校注路程与宿营条件')]
-        pm=el(folders[phase],'Placemark',id='place_'+rid);el(pm,'name',display_label(rid,label))
-        el(pm,'visibility',int(PHASES[phase][2]));el(pm,'Snippet',(summary_entries[-1]['duration']+' · ' if summary_entries else '')+chapter+' · '+certainty,maxLines='2')
-        extra=[('地名与行程：原文、校注',TEXT),('坐标参照',coordsource)]
-        if rid=='taizhao': extra.append(('江达与太昭：社科院考察',SOURCES['江达与太昭考证']))
-        if rid=='changba': extra.extend([('长坝春今名考证',SOURCES['旧驿道与长坝春考证']),('江巴村现行政归属',SOURCES['江巴村现行政归属核查'])])
-        if rid=='lulang': extra.append(('鲁朗镇治迁移',SOURCES['鲁朗镇治迁移']))
-        body=f'<h3>{html.escape(label)}</h3><p><b>今名／定位对象：</b>{html.escape(modern)}<br/><b>对应章节：</b>{html.escape(chapter)}<br/><b>定位性质：</b>{certainty}<br/><b>经纬度：</b>{lon:.4f}°E, {lat:.4f}°N</p><p>{html.escape(note)}</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p>'+links(extra)+'</p>'
-        related_distances=[d for d in DISTANCE_ROWS if d[1]==rid or d[2]==rid]
-        el(pm,'description',time_html(entries)+(distance_html(related_distances) if related_distances else '')+body);view(pm,lon,lat,180000 if rid in ['golmud','qinghai'] else 65000)
-        el(pm,'styleUrl','#'+phase+('_uncertain' if uncertain else ''))
-        ed=el(pm,'ExtendedData')
-        for name,value in [('book_name',label),('modern_name',modern),('chapter',chapter),('certainty',certainty),('coordinate_reference',coordsource),('literary_source',TEXT),('note',note),('travel_time','；'.join(t['segment']+'：'+t['duration'] for t in entries)),('timing_basis','；'.join(t['kind']+'：'+t['basis'] for t in entries))]:
-            d=el(ed,'Data',name=name);el(d,'value',value)
-        if related_distances:
-            d=el(ed,'Data',name='distance_km');el(d,'value','；'.join(PLACE_BY_ID[a][2]+'→'+PLACE_BY_ID[b][2]+f' 直线约{km:.0f} km' for _,a,b,_,km in related_distances))
-        pt=el(pm,'Point');el(pt,'altitudeMode','clampToGround');el(pt,'coordinates',f'{lon},{lat},0');points[rid]=(lon,lat)
+    for row in ROWS:
+        major_place(folders[row[6]],row)
+        points[row[0]]=row[3:5]
     # Geometry-free entries are deliberately not dropped: available in the Places tree.
     other=el(doc,'Folder');el(other,'name','07 待考旧地名｜无坐标，不在地球上造点');el(other,'open',0)
     for n,(chapter,name,note) in enumerate(UNLOCATED,1):
@@ -468,6 +493,11 @@ def main():
         z.writestr('doc.kml',make_wusijiang_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    jiangda='艽野尘梦_江达定位'
+    (ROOT/(jiangda+'.kml')).write_bytes(make_jiangda_supplement())
+    with zipfile.ZipFile(ROOT/(jiangda+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_jiangda_supplement(True))
+        z.writestr('icons/west.png',png(PHASES['west'][1]))
     roads='艽野尘梦_现代道路对照'
     road_kml=make_road_supplement()
     (ROOT/(roads+'.kml')).write_bytes(road_kml)
@@ -631,6 +661,8 @@ https://opendatacommons.org/licenses/odbl/1-0/
     (ROOT/'乌斯江核对说明.txt').write_text(note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n十七、乌斯江／乌苏江藏军防线背景\n'+note)
+        f.write('\n十八、江达｜今太昭／江达村一带\n2026-11-01核对。主图02层的16号江达点已突出显示，标签为“江达〔今太昭／江达村一带〕”，点击先显示古今定位和精度说明，再显示耗时与距离。\n社科院考察记从工布江达现代县城沿318国道向西约20公里到江达村、太昭古城。此为书中北返青海的出发地区，与昌都市江达县、现代工布江达县城分别标识。\n沿用约93.08°E、30.00°N区域参照坐标，不指认旧驿站、陈部驻地或出发确址。\n完整阅读地图已包含此点；单独“艽野尘梦_江达定位.kmz”仅含江达，适合旧图补充。导入独立文件时隐藏旧版02层中的江达点；与新版完整图二选一显示，避免重复。\n定位依据：https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml\n')
+        f.write('2026-11-01已将独立江达KMZ导入原Google Earth网页版项目，确认“江达｜今太昭／江达村一带”根目录与点标出现，旧版“校注十一地点落点版”02层中的江达点已隐藏。已抽查地标坐标、今名、区域参照和旧址未定说明，页面显示已保存到Google云端硬盘。\n')
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':
