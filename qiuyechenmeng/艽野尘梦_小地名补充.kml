@@ -489,7 +489,7 @@
         </Placemark>
         <Placemark id="minor_bamei_oldstations">
           <name>上八美〔今八美地区参照〕</name>
-          <description><![CDATA[<h3>上八美〔今八美地区参照〕</h3><p><b>书中名：</b>上八美／下八美<br/><b>现代参照：</b>道孚八美地区<br/><b>章节：</b>第1章校注6<br/><b>定位性质：</b>区域参照</p><p>校注6补出上八美、少乌石等换乌拉站。点位只取今天八美镇，旧上、下八美的具体村界与塘站尚未逐一定位，不能把此点称作上八美驿站原址。该站来自校注，不是作者正文逐站亲记。</p><p><b>耗时：</b>属于折多塘至甘孜一带二十余日的行程，没有可靠独立站间日数。</p><p><b>距康定江巴村一带代表点：直线约35 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>101.48386°E, 30.48461°N。小数位不代表古址精度。</p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">今名／历史依据</a><br/><a href="https://zh.wikipedia.org/wiki/八美镇">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
+          <description><![CDATA[<h3>上八美〔今八美地区参照〕</h3><p><b>书中名：</b>上八美／下八美<br/><b>现代参照：</b>道孚八美地区<br/><b>章节：</b>第1章校注6<br/><b>定位性质：</b>区域参照</p><p>校注6补出上八美、少乌石等换乌拉站。点位只取今天八美镇，旧上、下八美的具体村界与塘站尚未逐一定位，不能把此点称作上八美驿站原址。该站来自校注，不是作者正文逐站亲记。</p><p><b>耗时：</b>属于折多塘至甘孜一带二十余日的行程，没有可靠独立站间日数。</p><p><b>距康定市塔公镇江巴村一带代表点：直线约35 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>101.48386°E, 30.48461°N。小数位不代表古址精度。</p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">今名／历史依据</a><br/><a href="https://zh.wikipedia.org/wiki/八美镇">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a>]]></description>
           <LookAt>
             <longitude>101.48386</longitude>
             <latitude>30.48461</latitude>
@@ -529,7 +529,7 @@
               <value>属于折多塘至甘孜一带二十余日的行程，没有可靠独立站间日数。</value>
             </Data>
             <Data name="reference_distance">
-              <value>距康定江巴村一带代表点直线约35 km</value>
+              <value>距康定市塔公镇江巴村一带代表点直线约35 km</value>
             </Data>
             <Data name="note">
               <value>校注6补出上八美、少乌石等换乌拉站。点位只取今天八美镇，旧上、下八美的具体村界与塘站尚未逐一定位，不能把此点称作上八美驿站原址。该站来自校注，不是作者正文逐站亲记。</value>

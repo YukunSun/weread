@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-31",
+  "question": "长坝春是否就是今日新都桥镇中心？",
+  "conclusion": "现有证据不支持直接等同新都桥镇中心。旧驿道研究将长坝春、长霸冲、长坝仲对应江巴村；现官方资料将江巴村列在塔公镇。保留江巴村一带的地区参照，不将历史点移到新都桥镇中心，旧驿站与营地确址仍未定。",
+  "historical_place": {"id": "changba", "name": "长坝春〔江巴村一带，考证参照〕", "lon": 101.65, "lat": 30.2},
+  "modern_comparison": {"name": "现代对照：新都桥镇〔非作者站点〕", "lon": 101.4918038, "lat": 30.0467130, "source": "https://www.openstreetmap.org/node/817325348", "source_timestamp": "2025-08-24T07:35:23Z"},
+  "evidence": [
+    {"title": "张钦：察炉道里考所载川藏交通探微", "url": "https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm", "supports": "明确将长霸冲、长坝春、长坝仲对应江巴村；论文所写瓦泽乡不作为现行政归属。"},
+    {"title": "2021年度甘孜州生态环境质量报告书", "url": "https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf", "supports": "PDF第52页表8-2，塔公镇江巴村监测点101.6525、30.20108。图示点舍入至0.01度，保留原监测点未标坐标系的限制。"},
+    {"title": "康定市乡村振兴局2024年审计整改公告", "url": "https://www.kangding.gov.cn/gsgg/article/569153", "supports": "明确称塔公镇江巴村，并与新都桥镇的村庄分别列举。"},
+    {"title": "原书与任乃强校注六", "url": "https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt", "supports": "校注称上木雅农村名，清末站序折多塘—长坝春—上八美；不以现代G318或平原景观单独判定历史站址。"}
+  ],
+  "distance_note": "两处代表点的球面近似直距约23 km，用于位置比较；不是道路、镇界间距离或历史实走里程。官方监测点未标坐标系，不能据此作米级对位。",
+  "attribution": "新都桥现代地名点 © OpenStreetMap contributors，ODbL 1.0；原始响应保存在xinduqiao_osm_node.json。"
+}

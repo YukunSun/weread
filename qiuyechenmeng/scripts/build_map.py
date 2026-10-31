@@ -28,6 +28,7 @@ SOURCES = {
     '江达与太昭考证': 'https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml',
     '鲁朗镇治迁移': 'https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html',
     '江巴村地理参照': 'https://files.gzz.gov.cn/upload/file/zhengwen/f97d93545fb34a3bb6138fa6901b7116.pdf',
+    '江巴村现行政归属核查': 'https://www.kangding.gov.cn/gsgg/article/569153',
     '恩达与瓦合山旧驿道': 'https://www.xzxw.com/lyrw/2015-03/21/content_1286490.html',
     'KML格式规范': 'https://developers.google.com/kml/documentation/kmlreference',
 }
@@ -43,7 +44,7 @@ ROWS = [
 ('luding','03 沪定桥 → 泸定桥','泸定桥',102.2302,29.9145,'第1章','in','对应较明确',wiki('泸定桥'),'书中大渡河渡桥地点。使用现桥地标坐标；不据原文估计桥长、宽度。'),
 ('kangding','04 打箭炉 → 康定','康定老城区一带',101.9550,30.0015,'第1章','in','对应较明确',wiki('康定市'),'北路入藏的整备地点。现代城区代表点。'),
 ('zheduo','05 折多塘','折多塘一带',101.8860,29.9949,'第1章','in','对应较明确','https://www.fallingrain.com/world/CH/32/Zheduotang.html','离开打箭炉后的首站；使用地名代表点，非宿营遗址。'),
-('changba','06 长坝春 → 江巴村一带','康定江巴村一带',101.65,30.20,'第1章；校注6','in','区域参照',SOURCES['江巴村地理参照'],'长坝春又作长霸冲、长坝仲。中国藏学研究中心论文对应为江巴村。坐标取官方报告江巴村监测点并舍入至0.01°；报告未注明坐标系，故只作村域阅读定位，不作精确坐标。'),
+('changba','06 长坝春〔江巴村一带，考证参照〕','康定市塔公镇江巴村一带',101.65,30.20,'第1章；校注6','in','考证对应，旧站确址未定',SOURCES['江巴村地理参照'],'长坝春又作长霸冲、长坝仲。张钦旧驿道研究对应江巴村；论文写瓦泽乡，但现官方资料列塔公镇，已区分历史地名考证与现行政归属。尚无充分证据直接等同新都桥镇中心，两处代表点直距约23 km，见11F对照层。坐标取2021年度官方生态报告PDF第52页表8-2江巴村监测点101.6525、30.20108并舍入至0.01°；原表未注明坐标系，只作地区参照，不指认古驿站或营地。'),
 ('daofu','07 道坞 → 道孚','道孚鲜水镇',101.1254,30.9777,'第1章','in','对应较明确',wiki('鲜水镇'),'旧称道坞，对应今道孚。使用现代县城聚落代表点。'),
 ('luhuo','08 霍尔章谷 → 炉霍','炉霍新都镇',100.6803,31.3937,'第1章；校注8','in','对应较明确',wiki('新都镇_(炉霍县)'),'按校注对应炉霍；现代聚落代表点。'),
 ('garze','09 甘孜','甘孜镇',99.9886,31.6273,'第1章；校注10','in','对应较明确',wiki('甘孜镇'),'校注记后续经打火沟、甑科、麦学、八邦寺，不走雀儿山大道。地图不把德格县城增列为作者亲经站。'),
@@ -264,7 +265,7 @@ def make_post_supplement(bundled=False):
 
 def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
-    el(doc,'name','《艽野尘梦》阅读地图｜南北驿路、分区与耗时距离（已校核）')
+    el(doc,'name','《艽野尘梦》阅读地图｜南北驿路、分区与耗时距离（长坝春核对版）')
     el(doc,'open',1)
     el(doc,'description',f'{len(ROWS)}个主要地点及参照点，另补{len(MINOR_PLACES)}处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。\n小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。')
     view(doc,100.5,33.6,2000000)
@@ -306,7 +307,7 @@ def make_map(bundled=False):
         el(pm,'visibility',int(PHASES[phase][2]));el(pm,'Snippet',(entries[-1]['duration']+' · ' if entries else '')+chapter+' · '+certainty,maxLines='2')
         extra=[('地名与行程：原文、校注',TEXT),('坐标参照',coordsource)]
         if rid=='taizhao': extra.append(('江达与太昭：社科院考察',SOURCES['江达与太昭考证']))
-        if rid=='changba': extra.append(('长坝春今名考证',SOURCES['旧驿道与长坝春考证']))
+        if rid=='changba': extra.extend([('长坝春今名考证',SOURCES['旧驿道与长坝春考证']),('江巴村现行政归属',SOURCES['江巴村现行政归属核查'])])
         if rid=='lulang': extra.append(('鲁朗镇治迁移',SOURCES['鲁朗镇治迁移']))
         body=f'<h3>{html.escape(label)}</h3><p><b>今名／定位对象：</b>{html.escape(modern)}<br/><b>对应章节：</b>{html.escape(chapter)}<br/><b>定位性质：</b>{certainty}<br/><b>经纬度：</b>{lon:.4f}°E, {lat:.4f}°N</p><p>{html.escape(note)}</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p>'+links(extra)+'</p>'
         related_distances=[d for d in DISTANCE_ROWS if d[1]==rid or d[2]==rid]
@@ -493,8 +494,9 @@ https://opendatacommons.org/licenses/odbl/1-0/
     readme=readme.replace('17条',f'{len(UNLOCATED)}条').replace('另加9处',f'另加{len(MINOR_PLACES)}处')
     (ROOT/'地图使用说明.txt').write_text(readme,encoding='utf-8')
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
-        f.write('\n九、知乎回答的藏区地理范围\n核对日期2026-10-31。新增10范围层，以半透明色块表达文章地理称谓的概略范围。\n现代行政数据只是范围参照；文化地理、元明称谓、自然羌塘与现代政区分套，可单独开关。\n已导入旧版时，可单独叠加“艽野尘梦_藏区地理范围.kmz”，不重复地点或道路。\n2026-10-31已将含10、11层的完整阅读地图导入原Google Earth网页版项目，确认处理完成并保存到云端硬盘。当前显示“南北驿路、分区与耗时距离（已校核）”根目录，旧版根目录已隐藏。\n详细口径、坐标与来源见“藏区地理范围说明.txt”和“藏区范围对照.csv”。\n')
+        f.write('\n九、知乎回答的藏区地理范围\n核对日期2026-10-31。新增10范围层，以半透明色块表达文章地理称谓的概略范围。\n现代行政数据只是范围参照；文化地理、元明称谓、自然羌塘与现代政区分套，可单独开关。\n已导入旧版时，可单独叠加“艽野尘梦_藏区地理范围.kmz”，不重复地点或道路。\n2026-10-31已将含10、11层的完整阅读地图导入原Google Earth网页版项目，确认处理完成并保存到云端硬盘。当前显示“南北驿路、分区与耗时距离（长坝春核对版）”根目录，旧版根目录已隐藏。\n详细口径、坐标与来源见“藏区地理范围说明.txt”和“藏区范围对照.csv”。\n')
         f.write('\n十、本段南北驿路对照\n新增11层，南路背景、北路进昌都、昌都后北绕及原文另列走法分色显示。\n新增理塘、巴塘、硕督、丹达地区、拉萨对照及曾科候选共6点，三十九族按核心方位区域显示。\n距离仍用代表点直距km；完整阅读图复用原有地点，单独南北驿路KMZ包含17个站点代表点。\n已知耗时按原文与校注保留，未记日数不分摊，南路不套现代G318。详见“南北驿路说明.txt”及两个南北驿路CSV。\n')
+        f.write('\n十一、长坝春与新都桥核对\n2026-10-31复核：现有史地研究支持江巴村一带，不能直接等同新都桥镇中心。现官方资料称塔公镇江巴村。\n历史点保留原地区参照坐标，旧驿站与营地确址未定；11F新增新都桥现代对照点及约23 km直距比较线，该线不属于作者行程。\n详见“长坝春新都桥核对说明.txt”与data/place_checks/长坝春核对.json。\n')
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

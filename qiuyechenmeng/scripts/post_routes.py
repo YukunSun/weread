@@ -24,6 +24,26 @@ def edge_time(cfg,a,b):
         if t['from']==a and t['to']==b: return t['time']+'（'+t['kind']+'）'
     return '该相邻段未明记；大段约数不按距离分摊'
 
+def place_check():
+    return json.loads((ROOT/'data/place_checks/长坝春核对.json').read_text())
+
+def add_changba_check(parent,el,view):
+    check=place_check();a=check['historical_place'];b=check['modern_comparison'];distance=km(a,b)
+    body='<h3>长坝春与新都桥的位置核对</h3><p>'+html.escape(check['conclusion'])+'</p>'
+    body+=f'<p><b>江巴村图示点与新都桥镇代表点：直距约{distance:.0f} km。</b></p><p>'+html.escape(check['distance_note'])+'</p>'
+    body+='<p>宽阔平原和G318沿线风景不能单独证明旧地名。此层新都桥点仅用于现代位置比较，不接入作者行程；相邻段耗时仍按原文保留。</p>'
+    for e in check['evidence']:
+        body+='<p><a href="'+html.escape(e['url'],quote=True)+'">'+html.escape(e['title'])+'</a><br/>'+html.escape(e['supports'])+'</p>'
+    body+='<p><a href="'+b['source']+'">新都桥OSM地名点</a><br/>'+html.escape(check['attribution'])+'</p>'
+    f=el(parent,'Folder',id='changba_comparison');el(f,'name',f'11F 长坝春／新都桥核对｜两点直距约{distance:.0f} km');el(f,'open',1);el(f,'description',body);view(f,101.57,30.12,65000)
+    p=el(f,'Placemark',id='modern_xinduqiao_comparison');el(p,'name',b['name']);el(p,'description',body);view(p,101.57,30.12,65000);el(p,'styleUrl','#post_point')
+    point=el(p,'Point');el(point,'altitudeMode','clampToGround');el(point,'coordinates',f'{b["lon"]},{b["lat"]},0')
+    p=el(f,'Placemark',id='changba_xinduqiao_distance');el(p,'name',f'位置比较直距约{distance:.0f} km〔非作者路线〕');el(p,'description',body);view(p,101.57,30.12,65000);el(p,'styleUrl','#post_line_alternative')
+    mg=el(p,'MultiGeometry');count=math.ceil(distance/1.5)
+    for j in range(count):
+        line=el(mg,'LineString');el(line,'tessellate',1);el(line,'altitudeMode','clampToGround')
+        el(line,'coordinates',' '.join(f'{a["lon"]+(b["lon"]-a["lon"])*t:.7f},{a["lat"]+(b["lat"]-a["lat"])*t:.7f},0' for t in [j/count,(j+0.45)/count]))
+
 def add_post_routes(doc,el,view,kcolor,bundled=False,include_existing=True):
     cfg,places=load();styles=[]
     for r in cfg['routes']:
@@ -86,10 +106,16 @@ def add_post_routes(doc,el,view,kcolor,bundled=False,include_existing=True):
     for i,t in enumerate(cfg['timings']):
         pm=el(notes,'Placemark',id=f'post_time_{i}');el(pm,'name',places[t['from']]['name']+' → '+(places[t['to']]['name'] if t['to'] else '区域／事项')+'｜'+t['time']);el(pm,'description',f'<p>{html.escape(t["basis"])}</p><p>{html.escape(t["kind"])}</p>')
     pm=el(notes,'Placemark');el(pm,'name',cfg['historical_comparison']['label']);el(pm,'description','<p>'+cfg['historical_comparison']['text']+'</p><a href="'+cfg['historical_comparison']['source']+'">历史行旅对照来源</a>')
+    add_changba_check(top,el,view)
     return cfg
 
 def write_post_indexes():
     cfg,places=load()
+    check=place_check();a=check['historical_place'];b=check['modern_comparison']
+    explanation='长坝春与新都桥核对\n核对日期：'+check['checked_at']+'\n\n'+check['conclusion']+f'\n\n图示长坝春/江巴村地区点：{a["lon"]}, {a["lat"]}。\n新都桥OSM镇区代表点：{b["lon"]}, {b["lat"]}。\n两点球面近似直距约{km(a,b):.0f} km。'+check['distance_note']+'\n\n11F显示现代新都桥点和位置比较虚线；比较线不接入作者行程。主图与南北驿路补充图的长坝春点均保留江巴村地区参照，更新证据与精度说明。\n\n'
+    explanation+='\n\n'.join(e['title']+'\n'+e['supports']+'\n'+e['url'] for e in check['evidence'])
+    explanation+='\n\n新都桥点来源：'+b['source']+'\n数据原更新时间：'+b['source_timestamp']+'\n'+check['attribution']+'\n'
+    (ROOT/'长坝春新都桥核对说明.txt').write_text(explanation)
     with (ROOT/'南北驿路_地点距离耗时.csv').open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.writer(f,lineterminator='\n');w.writerow(['路线','起点','终点','直距_km','相邻段耗时','整段耗时说明','距离口径'])
         for route in cfg['routes']:
@@ -110,5 +136,6 @@ def write_post_indexes():
 拉里到江达据后文行军分日约3日；南路其余逐站日数未明。荒僻“一二日无人烟”不等于各站走一二日。
 有泰约两个半月到拉萨仅为另年另人行旅对照，公文接力约11日也不是军队行程。
 开启11C可显示分段km文字；点击地点或路线可读距离与已知耗时。数据及逐点来源在data/postroads/南北驿路.json，CSV可直接查阅。
+11F另加新都桥现代对照点及约23 km位置比较线，不属于上述17个历史站点代表点，也不接入作者路线。长坝春保留江巴村一带，详见长坝春新都桥核对说明.txt。
 2026-10-31完整阅读地图已导入原Google Earth网页版项目并保存到云端。已抽查北路弹窗7 km/1日、32 km及162 km等分段文字；为适配网页版，分段内容使用逐条文字。仅Region、maxLines、textColor显示字段被忽略。
 '''+ '\n原文与校注\n'+cfg['source']+'\n')
