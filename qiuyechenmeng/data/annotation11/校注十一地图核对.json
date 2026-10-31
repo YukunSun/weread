@@ -36,7 +36,9 @@
       "modern": "昌都老城、强巴林寺一带",
       "coordinate_source": "https://zh.wikipedia.org/wiki/强巴林寺",
       "status": "旧城现代地标参照，非营房确址",
-      "role": "探险起点与返抵地点"
+      "role": "探险起点与返抵地点",
+      "legacy_placemark_id": "place_chamdo",
+      "map_label": "昌都〔老城参照；探险起讫〕"
     },
     {
       "id": "xizangqiao",
@@ -58,7 +60,9 @@
       "modern": "俄洛村、昂曲河谷一带",
       "coordinate_source": "https://arhiiv.eki.ee/knab/valik/cn54q.htm",
       "status": "现代俄洛村地区参照，非旧桥址",
-      "role": "首夜宿哨营；返程日暮复经；校注称番名西藏桥但书图另列"
+      "role": "首夜宿哨营；返程日暮复经；校注称番名西藏桥但书图另列",
+      "legacy_placemark_id": "minor_eluoqiao",
+      "map_label": "俄洛桥〔俄洛村地区参照〕"
     },
     {
       "id": "jialingtang",
@@ -141,7 +145,9 @@
       "modern": "类乌齐县桑多镇恩达村一带",
       "coordinate_source": "https://arhiiv.eki.ee/knab/valik/cn54q.htm",
       "status": "现代恩达村参照，非登珠营地或汛署确址",
-      "role": "陈本人实际到达；第三日午前十时抵，午后一时启返。与昌都近郊另一恩达／小恩达分开"
+      "role": "陈本人实际到达；第三日午前十时抵，午后一时启返。与昌都近郊另一恩达／小恩达分开",
+      "legacy_placemark_id": "minor_enda",
+      "map_label": "恩达〔今恩达村参照〕"
     },
     {
       "id": "guojiaotang",
@@ -253,5 +259,6 @@
     "qa": "节点顺序/别名/无坐标缺口/距离单位断言，KML XSD，SVG文字与HTML窄屏检查，Google Earth实际导入",
     "fresh_review": "独立子代理分别读图、核对正文和现代地理；父任务整合"
   },
-  "scan_display_note": "Google Earth网页版只支持外部图片，原图使用本仓库固定提交中的图片链接；本地书图原件仍保留在KMZ及对读页中，不作地理配准。"
+  "scan_display_note": "Google Earth网页版只支持外部图片，原图使用本仓库固定提交中的图片链接；本地书图原件仍保留在KMZ及对读页中，不作地理配准。",
+  "map_point_policy": "14B直接显示昌都、俄洛桥〔俄洛村地区参照〕、恩达〔今恩达村参照〕三个地图点。可以确定的是现代地标或地区对应；旧桥、营地、汛署确址仍未确定。其余旧地名仅列文字条目，不给未知旧站插值坐标。"
 }

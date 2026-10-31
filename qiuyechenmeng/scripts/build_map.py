@@ -283,7 +283,7 @@ def make_post_supplement(bundled=False):
 
 def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
-    el(doc,'name','《艽野尘梦》阅读地图｜校注十一与书图校对版')
+    el(doc,'name','《艽野尘梦》阅读地图｜校注十一地点落点版')
     el(doc,'open',1)
     el(doc,'description',f'{len(ROWS)}个主要地点及参照点，另补{len(MINOR_PLACES)}处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。\n小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。')
     view(doc,100.5,33.6,2000000)
@@ -366,7 +366,7 @@ def make_map(bundled=False):
     add_post_routes(doc,el,view,kcolor,bundled,False)
     add_historical_context(doc,el,view,kcolor,bundled)
     add_rivers(doc,el,view,kcolor,bundled)
-    add_annotation11(doc,el,view,bundled,False)
+    add_annotation11(doc,el,view,bundled,True)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -385,7 +385,7 @@ def make_river_supplement(bundled=False):
 
 def make_annotation11_supplement(bundled=False):
     root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='annotation11_supplement')
-    el(doc,'name','《艽野尘梦》腊左探险｜校注十一与书中略图');el(doc,'open',1)
+    el(doc,'name','《艽野尘梦》腊左探险｜可定位地点落点版');el(doc,'open',1)
     el(doc,'description','地点拓扑顺序与现代地理参照分开；陈渠珍确至恩达，旧桥称名图文有异。仅三个现代地区代表点有坐标，未知旧站不按图或里数插值。')
     view(doc,96.92,31.16,155000);minor_styles(doc,bundled)
     add_annotation11(doc,el,view,bundled,True)
@@ -586,7 +586,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n十四、校注十甘孜至昌都路线校对\n主图R1与11B北路统一补入大金寺、甑科候选、麦学、八邦寺和同普方向；不经雀儿山大道／德格县城。\n11G有本次校注核对及打火沟、卡工、纳夺的待考说明；卡工以西野宿三日与作者逐段实测耗时分开，距离留空。\n详见“甘孜昌都路线校对说明.txt”及data/route_checks/甘孜昌都校注十.json。\n2026-10-31本校对版完整KMZ已导入原Google Earth项目并显示已保存到云端硬盘，当时启用“《艽野尘梦》阅读地图｜校注十路线校对版”根目录；上一版完整图及旧河流、历史背景补充根目录已隐藏。已抽查大金寺点及R1弹窗的路线顺序、46／33／19 km和卡工以西野宿三日限定。仅Region、maxLines、textColor显示字段被忽略。\n')
         f.write('\n十五、更庆｜赵尔丰驻地背景\n第2章“赵尔丰驻更庆”对应今德格县更庆镇、德格旧城一带。08层新增更庆点，用现代镇区地名点作参照，不指认赵营、衙署或更庆寺内的具体建筑。\n钟颖未应邀前往，更庆不接入作者行军线，不给邀请虚构耗时；与岗拖代表点的距离只作直距比较。\n已有校注十云端图时，仅叠加“艽野尘梦_更庆驻地.kmz”即可。完整图、小地名补充图均含此点，三种文件中只显示一份更庆，避免重复。\n定位依据和原始OSM响应见data/小地名.json及data/place_checks/gengqing_osm_node.json。\n')
-        f.write('\n十六、校注十一与书图对读\n新增14层，按第二张书图逐项补昌都、近城西藏桥、俄洛桥、甲令塘、浪荡沟、纳贡山、纳贡塘、甲木桥、梭罗坝、日雨娃、恩达的顺序。果角塘、被擒处、云南桥、瓦合山及恩达河另列背景。\n陈确至恩达，被俘押送与自行侦探分开；约3日2夜为相对分日推算，不把撤兵三日期限当作行程。\n仅三个既有现代地区点可定位；未知旧站保留无几何文字条目，CSV坐标及km留空，顺序图不编码地理距离。\n校注浪荡沟经俄洛桥至昌都六十里是组合段；正文和校注里数分源列示，不乘0.5换km。\n第一张是出藏全局图；第二张为昌都恩达略图，均不据像素配准。详见“校注十一地图校对说明.txt”、两个“昌都恩达_校注十一”CSV与SVG／HTML对读页。\n独立“艽野尘梦_腊左探险校对.kmz”含三个参照点，完整版14层复用既有点，二选一避免重复。\n')
+        f.write('\n十六、校注十一与书图对读\n新增14层，按第二张书图逐项补昌都、近城西藏桥、俄洛桥、甲令塘、浪荡沟、纳贡山、纳贡塘、甲木桥、梭罗坝、日雨娃、恩达的顺序。果角塘、被擒处、云南桥、瓦合山及恩达河另列背景。\n陈确至恩达，被俘押送与自行侦探分开；约3日2夜为相对分日推算，不把撤兵三日期限当作行程。\n仅三个既有现代地区点可定位；未知旧站保留无几何文字条目，CSV坐标及km留空，顺序图不编码地理距离。\n校注浪荡沟经俄洛桥至昌都六十里是组合段；正文和校注里数分源列示，不乘0.5换km。\n第一张是出藏全局图；第二张为昌都恩达略图，均不据像素配准。详见“校注十一地图校对说明.txt”、两个“昌都恩达_校注十一”CSV与SVG／HTML对读页。\n独立“艽野尘梦_腊左探险校对.kmz”和完整版均在14B直接显示昌都、俄洛村地区、恩达村三个参照点；原章节说明仍保留，物理点标集中至14B，二选一导入避免重复。\n')
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

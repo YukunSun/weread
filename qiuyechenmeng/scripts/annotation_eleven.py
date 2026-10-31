@@ -49,6 +49,7 @@ def overview(cfg,text,scan,places):
     body+=paragraph('书图地点顺序：'+' → '.join(places[p]['name'] for p in cfg['main_sequence']))
     body+=paragraph('腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。')
     body+=paragraph(cfg['method'])
+    body+=paragraph(cfg['map_point_policy'])
     body+='<h3>桥名图文差异</h3>'+paragraph(cfg['bridge_conflict'])
     total=next(t for t in text['timing_claims'] if t['id']=='outing_total_inferred')
     body+='<h3>耗时</h3>'+paragraph(total['time']+'〔推算〕。'+total['basis'])
@@ -74,20 +75,26 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
     view(top,96.92,31.16,155000)
     intro=el(top,'Folder',id='annotation11_intro');el(intro,'name','14A 核对总览｜确曾抵达恩达，桥名保留图文差异');el(intro,'open',1)
     p=el(intro,'Placemark',id='annotation11_overview');el(p,'name','昌都—恩达探险｜约3日2夜〔分日推算〕');el(p,'description',body);view(p,96.92,31.16,155000)
-    ordered=el(top,'Folder',id='annotation11_places');el(ordered,'name','14B 书图地点顺序｜未定位者仅有文字条目');el(ordered,'open',0)
+    ordered=el(top,'Folder',id='annotation11_places');el(ordered,'name','14B 地点顺序｜3处可定位点，其余为待考条目');el(ordered,'open',1)
+    el(ordered,'description',paragraph(cfg['map_point_policy']))
     extras=el(top,'Folder',id='annotation11_context');el(extras,'name','14C 书图旁支、事件与山河背景｜不强接主链');el(extras,'open',0)
     order={key:i+1 for i,key in enumerate(cfg['main_sequence'])}
     for item in cfg['places']:
         key=item['id'];parent=ordered if key in order else extras
         p=el(parent,'Placemark',id='annotation11_place_'+key)
         prefix=f'{order[key]:02d} ' if key in order else ''
-        el(p,'name',prefix+item['name']+('〔现代地区参照〕' if item['mapped'] else '【无坐标】'))
+        el(p,'name',prefix+(item.get('map_label',item['name']) if item['mapped'] else item['name']+'【无坐标】'))
         detail='<h3>'+html.escape(item['name'])+'</h3>'
         if item['aliases']: detail+=paragraph('别名／正文原名：'+'、'.join(item['aliases']))
         detail+=paragraph('定位性质：'+item['status'])+paragraph(item['role'])
         if item['mapped']:
             detail+=paragraph('沿用的现代定位对象：'+item['modern']+f'。经度{item["lon"]}，纬度{item["lat"]}；不是旧桥、营地或汛署确址。')
             detail+='<p><a href="'+html.escape(item['coordinate_source'],quote=True)+'">现代坐标来源</a></p>'
+            detail+='<h3>与本段其他已定位点的直距（km）</h3>'
+            for a,b in cfg['known_distance_pairs']:
+                if key in (a,b):
+                    other=places[b if key==a else a]
+                    detail+=paragraph('至'+other['name']+f'代表点：约{km(item,other):.0f} km；非古道实走里程。')
         else:
             detail+=paragraph('没有赋予经纬度或测距。打开此文字条目只查看全段方位，不代表已定位到该旧站。')
         for claim in text['distance_claims']:
@@ -97,7 +104,25 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
         el(p,'description',detail)
         view(p,item['lon'] if item['mapped'] else 96.92,item['lat'] if item['mapped'] else 31.16,70000 if item['mapped'] else 155000)
         if item['mapped'] and include_anchors:
+            el(p,'visibility',1)
+            # KML Feature order puts visibility before description and view.
+            visibility=p[-1];p.remove(visibility);p.insert(1,visibility)
             el(p,'styleUrl','#minor_reference');point=el(p,'Point');el(point,'altitudeMode','clampToGround');el(point,'coordinates',f'{item["lon"]},{item["lat"]},0')
+            # In the full map, keep the original chapter entry as a text card,
+            # and put the only physical marker in the ordered expedition layer.
+            ns=doc.tag.rsplit('}',1)[0]+'}'
+            legacy=doc.find('.//'+ns+'Placemark[@id="'+item['legacy_placemark_id']+'"]')
+            if legacy is not None:
+                old_point=legacy.find(ns+'Point')
+                if old_point is None:
+                    raise ValueError('Missing existing reference point: '+item['id'])
+                old_coords=old_point.findtext(ns+'coordinates').split(',')
+                assert abs(float(old_coords[0])-item['lon'])<0.00001 and abs(float(old_coords[1])-item['lat'])<0.00001
+                legacy.remove(old_point)
+                old_description=legacy.find(ns+'description')
+                p.find(ns+'description').text+='<h3>原章节条目的耗时、距离与依据</h3>'+old_description.text
+                old_description.text=paragraph('本地点的地图点已集中至「14B 地点顺序」。本条保留原章节说明；双击仍可定位到同一现代参照地区。')+old_description.text
+                legacy.find(ns+'name').text+='〔点标见14B〕'
     notes=el(top,'Folder');el(notes,'name','14D 原书里数、直距km与行程分日');el(notes,'open',0)
     p=el(notes,'Placemark',id='annotation11_distances');el(p,'name','里数分源保留；现代起讫直距约'+f'{km(places["chamdo"],places["enda"]):.0f}'+' km');el(p,'description',distance_body(cfg,text,places));view(p,96.92,31.16,155000)
     for i,event in enumerate(text['chronology']):
@@ -133,7 +158,7 @@ def write_annotation11_indexes():
     notes+=cfg['method']+'\n\n'+cfg['bridge_conflict']+'\n\n'+cfg['first_map_note']+'\n\n'+cfg['distance_policy']+'\n\n'
     for p in cfg['places']: notes+=p['name']+'｜'+p['status']+'\n'+p['role']+'\n\n'
     notes+='行程分日\n'+'\n'.join(t['relative_day']+'｜'+t['phase']+'：'+t['event']+' '+t['evidence_status'] for t in text['chronology'])+'\n\n'
-    notes+='完整阅读地图已含14层。独立艽野尘梦_腊左探险校对.kmz另含三个现代参照点，供单独查看；不要与完整版重复显示这三个点。\n昌都恩达_校注十一顺序图.svg与对读HTML为非地理配准的顺序图；原书照片原字节保存在data/annotation11/scans/。\n\n'
+    notes+=cfg['map_point_policy']+'\n完整阅读地图与独立艽野尘梦_腊左探险校对.kmz均在14B直接显示三个现代参照点；二者选一导入。完整版原章节条目仍可阅读，物理点标集中至14B，同一位置只显示一个点。\n昌都恩达_校注十一顺序图.svg与对读HTML为非地理配准的顺序图；原书照片原字节保存在data/annotation11/scans/。\n\n'
     notes+=cfg['scan_display_note']+'\n\n'
     notes+='来源\n'+'\n\n'.join(s['title']+'\n'+s['use']+'\n'+s['url'] for s in cfg['sources'])+'\n'
     (ROOT/'校注十一地图校对说明.txt').write_text(notes)
