@@ -7,6 +7,8 @@ import math
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT/'data/annotation11'
+APPROX_IDS = ('suoluoba', 'jiamuqiao', 'nagongtang')
+APPROX_NOTE = '橙色空心点是按旧地名相对顺序与现代谷地方位设置的阅读示意中心，古今对应及旧址仍未考定。参考圈仅提示查找尺度，不是历史边界、统计误差范围或旧址必在圈内的保证。'
 
 
 def load():
@@ -33,6 +35,62 @@ def paragraph(text):
     return '<p>'+html.escape(text)+'</p>'
 
 
+def approximate_body(item):
+    body=(paragraph('大概位置／推定，非旧址确点。')
+            +paragraph(item['placement_basis'])
+            +paragraph(f'阅读示意中心：{item["lon"]}°E，{item["lat"]}°N。')
+            +paragraph(APPROX_NOTE)
+            +paragraph(f'可开关参考圈半径约{item["reference_radius_km"]:g} km，按阅读展示选定，不参与古道里程或耗时计算。'))
+    body+=paragraph('依据：任乃强校注十一给出的地名顺序与方位；现代G214/G317走廊仅辅助判断谷地方向，不代表旧道。')
+    if item['id']=='nagongtang':
+        body+='<p><a href="https://www.tibetcul.com/zhuanti/whzt/48256.html">柔克义路线研究</a>：下拉位于滨达以东约2公里的线索，不能单独证明纳贡塘＝下拉。</p>'
+    return body
+
+
+def approximate_style(p,el,bundled):
+    style=el(p,'Style');icon=el(style,'IconStyle')
+    if not bundled: el(icon,'color','ff47b3ff')
+    el(icon,'scale',1.25)
+    image=el(icon,'Icon');el(image,'href','icons/annotation11_approximate.png' if bundled else 'https://maps.google.com/mapfiles/kml/shapes/open-diamond.png')
+    labels=el(style,'LabelStyle');el(labels,'scale',1.0)
+
+
+def add_approximate_ranges(parent,el,view,places):
+    folder=el(parent,'Folder',id='annotation11_approximate_ranges')
+    el(folder,'name','14G 三处大概位置参考圈｜可开关，非考定边界');el(folder,'visibility',0);el(folder,'open',0)
+    el(folder,'description',paragraph(APPROX_NOTE))
+    view(folder,96.766,31.12,45000)
+    for key in APPROX_IDS:
+        item=places[key]
+        p=el(folder,'Placemark',id='annotation11_range_'+key)
+        el(p,'name',item['name']+'〔方位参考圈，约3km〕');el(p,'description',approximate_body(item))
+        style=el(p,'Style');line=el(style,'LineStyle');el(line,'color','b347b3ff');el(line,'width',1.5)
+        poly=el(style,'PolyStyle');el(poly,'color','1247b3ff')
+        polygon=el(p,'Polygon');el(polygon,'tessellate',1);el(polygon,'altitudeMode','clampToGround')
+        ring=el(el(polygon,'outerBoundaryIs'),'LinearRing')
+        lon,lat=map(math.radians,[item['lon'],item['lat']]);distance=item['reference_radius_km']/6371.0088
+        coords=[]
+        for index in range(73):
+            bearing=-2*math.pi*index/72
+            y=math.asin(math.sin(lat)*math.cos(distance)+math.cos(lat)*math.sin(distance)*math.cos(bearing))
+            x=lon+math.atan2(math.sin(bearing)*math.sin(distance)*math.cos(lat),math.cos(distance)-math.sin(lat)*math.sin(y))
+            coords.append(f'{math.degrees(x):.6f},{math.degrees(y):.6f},0')
+        coords[-1]=coords[0]
+        el(ring,'coordinates',' '.join(coords))
+    return folder
+
+
+def add_approximate_places(doc,el,view,bundled=False):
+    _,_,_,places=load()
+    for key in APPROX_IDS:
+        item=places[key]
+        p=el(doc,'Placemark',id='annotation11_place_'+key)
+        el(p,'name',item['map_label']);el(p,'description',approximate_body(item)+paragraph('别名／正文原名：'+'、'.join(item['aliases'])))
+        view(p,item['lon'],item['lat'],30000);approximate_style(p,el,bundled)
+        point=el(p,'Point');el(point,'altitudeMode','clampToGround');el(point,'coordinates',f'{item["lon"]},{item["lat"]},0')
+    add_approximate_ranges(doc,el,view,places)
+
+
 def distance_body(cfg,text,places):
     body='<h3>距离：原书里数与现代直距分栏</h3>'+paragraph(cfg['distance_policy'])
     for claim in text['distance_claims']:
@@ -41,7 +99,7 @@ def distance_body(cfg,text,places):
     body+='<h3>现代地区代表点间直距（km）</h3>'
     for a,b in cfg['known_distance_pairs']:
         body+=paragraph(places[a]['name']+' → '+places[b]['name']+f'：约{km(places[a],places[b]):.0f} km。')
-    return body+paragraph('这些km只用于位置比较，不是古道里程，不计入全书实走总程。未知旧地名的km与经纬度留空。')
+    return body+paragraph('这些km只用于位置比较，不是古道里程，不计入全书实走总程。三个大概位置只显示示意中心，不加入距离表；其他未定位旧地名的经纬度与km留空。')
 
 
 def overview(cfg,text,scan,places):
@@ -50,12 +108,13 @@ def overview(cfg,text,scan,places):
     body+=paragraph('腊左塘＝浪荡沟；腊左＝纳贡塘；腊左山／腊左大山＝纳贡山。三者分别处理，不放在同一坐标。')
     body+=paragraph(cfg['method'])
     body+=paragraph(cfg['map_point_policy'])
+    body+=paragraph(APPROX_NOTE)
     body+='<h3>桥名图文差异</h3>'+paragraph(cfg['bridge_conflict'])
     total=next(t for t in text['timing_claims'] if t['id']=='outing_total_inferred')
     body+='<h3>耗时</h3>'+paragraph(total['time']+'〔推算〕。'+total['basis'])
     body+=paragraph('第三日午前十时到恩达，午后一时启返，晚十二时回昌都；时刻差不是连续行走的实测用时。堪布“三日撤兵”承诺与此处推算、校注十“野宿三日”是三个不同事项。')
     body+='<h3>书图与现代地图的关系</h3>'+paragraph(cfg['first_map_note'])
-    body+=paragraph('14B的无坐标旧地名仍可在地图列表中逐项打开；它们没有地球点标。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。')
+    body+=paragraph('14B保留其他无坐标旧地名的文字条目；梭罗坝、甲木桥、纳贡塘已按用户要求补大概位置。离开昂曲翻山进入恩达河谷的方向关系，不用今日G317代替旧道。')
     body+='<h3>依据</h3>'
     for s in cfg['sources']:
         name=html.escape(s['title'])
@@ -75,8 +134,9 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
     view(top,96.92,31.16,155000)
     intro=el(top,'Folder',id='annotation11_intro');el(intro,'name','14A 核对总览｜确曾抵达恩达，桥名保留图文差异');el(intro,'open',1)
     p=el(intro,'Placemark',id='annotation11_overview');el(p,'name','昌都—恩达探险｜约3日2夜〔分日推算〕');el(p,'description',body);view(p,96.92,31.16,155000)
-    count=sum(p['mapped'] for p in cfg['places'])
-    ordered=el(top,'Folder',id='annotation11_places');el(ordered,'name',f'14B 地点顺序｜{count}处地区点，其余待考');el(ordered,'open',1)
+    count=sum(p['mapped'] and not p.get('approximate') for p in cfg['places'])
+    approx_count=sum(bool(p.get('approximate')) for p in cfg['places'])
+    ordered=el(top,'Folder',id='annotation11_places');el(ordered,'name',f'14B 地点顺序｜{count}处地区参照＋{approx_count}处大概位置');el(ordered,'open',1)
     el(ordered,'description',paragraph(cfg['map_point_policy']))
     extras=el(top,'Folder',id='annotation11_context');el(extras,'name','14C 书图旁支、事件与山河背景｜不强接主链');el(extras,'open',0)
     order={key:i+1 for i,key in enumerate(cfg['main_sequence'])}
@@ -89,7 +149,9 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
         if item['aliases']: detail+=paragraph('别名／正文原名：'+'、'.join(item['aliases']))
         detail+=paragraph('定位性质：'+item['status'])+paragraph(item['role'])
         if item.get('identity_basis'): detail+=paragraph(item['identity_basis'])
-        if item['mapped']:
+        if item.get('approximate'):
+            detail+=approximate_body(item)
+        elif item['mapped']:
             detail+=paragraph('沿用的现代定位对象：'+item['modern']+f'。经度{item["lon"]}，纬度{item["lat"]}；不是旧桥、营地或汛署确址。')
             detail+='<p><a href="'+html.escape(item['coordinate_source'],quote=True)+'">现代坐标来源</a></p>'
             detail+='<h3>与本段其他已定位点的直距（km）</h3>'
@@ -109,7 +171,9 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
             el(p,'visibility',1)
             # KML Feature order puts visibility before description and view.
             visibility=p[-1];p.remove(visibility);p.insert(1,visibility)
-            el(p,'styleUrl','#minor_reference');point=el(p,'Point');el(point,'altitudeMode','clampToGround');el(point,'coordinates',f'{item["lon"]},{item["lat"]},0')
+            if item.get('approximate'): approximate_style(p,el,bundled)
+            else: el(p,'styleUrl','#minor_reference')
+            point=el(p,'Point');el(point,'altitudeMode','clampToGround');el(point,'coordinates',f'{item["lon"]},{item["lat"]},0')
             # In the full map, keep the original chapter entry as a text card,
             # and put the only physical marker in the ordered expedition layer.
             ns=doc.tag.rsplit('}',1)[0]+'}'
@@ -139,12 +203,13 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
         text_body+=paragraph('Google Earth网页版原图需联网。图片无法显示时，可查看本地昌都恩达_校注十一对读.html及data/annotation11/scans/原图。')
         el(p,'description',text_body+body);view(p,96.92,31.16,155000)
     add_deep_research(top,el,view,False)
+    add_approximate_ranges(top,el,view,places)
     return cfg
 
 
 def add_deep_research(parent,el,view,include_langda=False):
     research=json.loads((DATA/'三地深查.json').read_text())
-    folder=el(parent,'Folder',id='annotation11_deep_research');el(folder,'name','14F 三地深查｜浪荡沟落实，纳贡山候选，纳贡塘待考');el(folder,'open',1)
+    folder=el(parent,'Folder',id='annotation11_deep_research');el(folder,'name','14F 三地深查｜浪荡沟落实，纳贡山候选，纳贡塘旧址待考');el(folder,'open',1)
     el(folder,'description',paragraph(research['summary'])+paragraph('金色点为现代地区参照，橙色较大空心点为候选山口；二者证据等级不同。'))
     view(folder,96.91,31.16,110000)
     refs='<h3>核对资料</h3>'+''.join('<p><a href="'+html.escape(s['url'],quote=True)+'">'+html.escape(s['title'])+'</a>：'+html.escape(s['use'])+'</p>' for s in research['sources'])
@@ -159,7 +224,7 @@ def add_deep_research(parent,el,view,include_langda=False):
     labels=el(style,'LabelStyle');el(labels,'scale',1.0)
     point=el(p,'Point');el(point,'altitudeMode','clampToGround');el(point,'coordinates',f'{item["lon"]},{item["lat"]},0')
     item=research['nagongtang']
-    p=el(folder,'Placemark',id='deep_nagongtang_research');el(p,'name','纳贡塘｜下拉谷与温泉线索〔仍待定位〕');el(p,'description',paragraph(item['certainty'])+''.join(paragraph(s) for s in item['basis'])+paragraph(item['limit'])+refs);view(p,96.86,31.12,100000)
+    p=el(folder,'Placemark',id='deep_nagongtang_research');el(p,'name','纳贡塘｜旧址待考，另附大概位置');el(p,'description',paragraph(item['certainty'])+''.join(paragraph(s) for s in item['basis'])+paragraph(item['limit'])+paragraph('大概位置点见新版14B，或独立“恩达河谷三处约位”补充图；本研究卡片不另造重复点。')+refs);view(p,96.825,31.113,45000)
     report='三地深查：浪荡沟、纳贡山、纳贡塘\n核对日期：'+research['checked_at']+'\n\n'+research['summary']+'\n\n'
     report+='浪荡沟\n'+research['langdanggou']['conclusion']+'\n\n'
     for key in ['nagongshan','nagongtang']:
@@ -172,9 +237,9 @@ def add_deep_research(parent,el,view,include_langda=False):
 def write_annotation11_indexes():
     cfg,text,scan,places=load()
     with (ROOT/'昌都恩达_校注十一地名.csv').open('w',encoding='utf-8-sig',newline='') as f:
-        writer=csv.writer(f,lineterminator='\n');writer.writerow(['ID','书图主链顺序','名称','别名／正文原名','定位性质','现代参照经度','现代参照纬度','人物／路径性质','坐标来源'])
+        writer=csv.writer(f,lineterminator='\n');writer.writerow(['ID','书图主链顺序','名称','别名／正文原名','定位性质','地图显示经度','地图显示纬度','人物／路径性质','坐标来源','是否大概位置','展示参考圈半径_km','约位依据'])
         for p in cfg['places']:
-            writer.writerow([p['id'],cfg['main_sequence'].index(p['id'])+1 if p['id'] in cfg['main_sequence'] else '',p['name'],'；'.join(p['aliases']),p['status'],p.get('lon',''),p.get('lat',''),p['role'],p.get('coordinate_source','')])
+            writer.writerow([p['id'],cfg['main_sequence'].index(p['id'])+1 if p['id'] in cfg['main_sequence'] else '',p['name'],'；'.join(p['aliases']),p['status'],p.get('lon',''),p.get('lat',''),p['role'],p.get('coordinate_source',''),'是，阅读示意中心' if p.get('approximate') else '',p.get('reference_radius_km',''),p.get('placement_basis','')])
     with (ROOT/'昌都恩达_校注十一距离耗时.csv').open('w',encoding='utf-8-sig',newline='') as f:
         writer=csv.writer(f,lineterminator='\n');writer.writerow(['类别','依据','起点','终点','经由','原书里数','现代直距_km','耗时或时刻','性质与限制'])
         for d in text['distance_claims']:
@@ -188,7 +253,7 @@ def write_annotation11_indexes():
     notes+=cfg['method']+'\n\n'+cfg['bridge_conflict']+'\n\n'+cfg['first_map_note']+'\n\n'+cfg['distance_policy']+'\n\n'
     for p in cfg['places']: notes+=p['name']+'｜'+p['status']+'\n'+p['role']+'\n\n'
     notes+='行程分日\n'+'\n'.join(t['relative_day']+'｜'+t['phase']+'：'+t['event']+' '+t['evidence_status'] for t in text['chronology'])+'\n\n'
-    notes+=cfg['map_point_policy']+'\n完整阅读地图与独立艽野尘梦_腊左探险校对.kmz均在14B显示已核实地区点，14F另列候选与深查依据；二者选一导入。完整版原章节条目仍可阅读，同一已核实位置只显示一个点。\n昌都恩达_校注十一顺序图.svg与对读HTML为非地理配准的顺序图；原书照片原字节保存在data/annotation11/scans/。\n\n'
+    notes+=cfg['map_point_policy']+'\n'+APPROX_NOTE+'\n完整阅读地图与独立艽野尘梦_腊左探险校对.kmz均在14B显示四处地区参照与三处大概位置，14G有默认关闭的三个参考圈；二者选一导入。旧云端地图可仅叠加“艽野尘梦_恩达河谷三处约位.kmz”，勿与新版完整图重复显示。\n昌都恩达_校注十一顺序图.svg与对读HTML为非地理配准的顺序图；原书照片原字节保存在data/annotation11/scans/。\n\n'
     notes+=cfg['scan_display_note']+'\n\n'
     notes+='来源\n'+'\n\n'.join(s['title']+'\n'+s['use']+'\n'+s['url'] for s in cfg['sources'])+'\n'
     (ROOT/'校注十一地图校对说明.txt').write_text(notes)

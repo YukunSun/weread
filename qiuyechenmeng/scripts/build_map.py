@@ -16,7 +16,7 @@ from historical_context import add_historical_context, write_historical_index
 from rivers import add_rivers, write_river_index
 from route_checks import SEQUENCE, CHECK, route_check_html, check_shared_places, write_route_check
 from post_routes import load as load_post_routes
-from annotation_eleven import add_annotation11, add_deep_research, write_annotation11_indexes, unlocated_entries, load as load_annotation11
+from annotation_eleven import add_annotation11, add_deep_research, add_approximate_places, write_annotation11_indexes, unlocated_entries, load as load_annotation11
 from annotation11_figure import write_figure
 from gongbu_pacification import add_gongbu_pacification, write_gongbu_indexes, unlocated_entries as gongbu_unlocated_entries
 
@@ -433,9 +433,17 @@ def make_river_supplement(bundled=False):
 def make_annotation11_supplement(bundled=False):
     root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='annotation11_supplement')
     el(doc,'name','《艽野尘梦》腊左探险｜可定位地点落点版');el(doc,'open',1)
-    el(doc,'description','地点拓扑顺序与现代地理参照分开。14B有四处已核实地区点；14F另有纳贡山候选山口，不计入已核实地点。未知旧站不按图或里数插值。')
+    el(doc,'description','14B显示四处现代地区参照与梭罗坝、甲木桥、纳贡塘三处大概位置。橙色空心点为推定阅读中心；14G参考圈可开关，不是考定边界。14F另有纳贡山候选；原述里数不固定换算。')
     view(doc,96.92,31.16,155000);minor_styles(doc,bundled)
     add_annotation11(doc,el,view,bundled,True)
+    return serialize(root)
+
+def make_enda_approximate_supplement(bundled=False):
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='enda_approximate_supplement')
+    el(doc,'name','《艽野尘梦》恩达河谷三处｜大概位置·推定');el(doc,'open',1)
+    el(doc,'description','梭罗坝／林多坝、甲木桥／并达桥、纳贡塘／腊左的阅读约位。橙色空心点按恩达以东的相对顺序与谷地方向设置；旧址未考定。参考圈默认关闭，半径3km仅为查找尺度。新版完整阅读地图已包含三点，二选一显示。')
+    view(doc,96.766,31.12,45000)
+    add_approximate_places(doc,el,view,bundled)
     return serialize(root)
 
 def make_deep_research_supplement(bundled=False):
@@ -473,6 +481,7 @@ def main():
             z.writestr('icons/'+phase+'_uncertain.png',png('#ffb347',True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
+        z.writestr('icons/annotation11_approximate.png',png('#ffb347',True))
         z.writestr('icons/gongbu_candidate.png',png('#ffb347',True))
         z.writestr('icons/gongbu_reference.png',png('#89d8ff'))
         z.writestr('icons/region_label.png',png('#ffffff'))
@@ -494,8 +503,14 @@ def main():
         z.writestr('doc.kml',make_annotation11_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
+        z.writestr('icons/annotation11_approximate.png',png('#ffb347',True))
         pack_annotation11_sources(z)
     write_annotation11_indexes()
+    approximate='艽野尘梦_恩达河谷三处约位'
+    (ROOT/(approximate+'.kml')).write_bytes(make_enda_approximate_supplement())
+    with zipfile.ZipFile(ROOT/(approximate+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_enda_approximate_supplement(True))
+        z.writestr('icons/annotation11_approximate.png',png('#ffb347',True))
     deep='艽野尘梦_浪荡沟与纳贡深查'
     (ROOT/(deep+'.kml')).write_bytes(make_deep_research_supplement())
     with zipfile.ZipFile(ROOT/(deep+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -681,7 +696,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n十四、校注十甘孜至昌都路线校对\n主图R1与11B北路统一补入大金寺、甑科候选、麦学、八邦寺和同普方向；不经雀儿山大道／德格县城。\n11G有本次校注核对及打火沟、卡工、纳夺的待考说明；卡工以西野宿三日与作者逐段实测耗时分开，距离留空。\n详见“甘孜昌都路线校对说明.txt”及data/route_checks/甘孜昌都校注十.json。\n2026-10-31本校对版完整KMZ已导入原Google Earth项目并显示已保存到云端硬盘，当时启用“《艽野尘梦》阅读地图｜校注十路线校对版”根目录；上一版完整图及旧河流、历史背景补充根目录已隐藏。已抽查大金寺点及R1弹窗的路线顺序、46／33／19 km和卡工以西野宿三日限定。仅Region、maxLines、textColor显示字段被忽略。\n')
         f.write('\n十五、更庆｜赵尔丰驻地背景\n第2章“赵尔丰驻更庆”对应今德格县更庆镇、德格旧城一带。08层新增更庆点，用现代镇区地名点作参照，不指认赵营、衙署或更庆寺内的具体建筑。\n钟颖未应邀前往，更庆不接入作者行军线，不给邀请虚构耗时；与岗拖代表点的距离只作直距比较。\n已有校注十云端图时，仅叠加“艽野尘梦_更庆驻地.kmz”即可。完整图、小地名补充图均含此点，三种文件中只显示一份更庆，避免重复。\n定位依据和原始OSM响应见data/小地名.json及data/place_checks/gengqing_osm_node.json。\n')
-        f.write('\n十六、校注十一与书图对读\n新增14层，按第二张书图逐项补昌都、近城西藏桥、俄洛桥、甲令塘、浪荡沟、纳贡山、纳贡塘、甲木桥、梭罗坝、日雨娃、恩达的顺序。果角塘、被擒处、云南桥、瓦合山及恩达河另列背景。\n陈确至恩达，被俘押送与自行侦探分开；约3日2夜为相对分日推算，不把撤兵三日期限当作行程。\n四个现代地区点可定位，浪荡沟新据Lamda—Langda落实到朗达村地区；另有纳贡山候选点在14F明确分级；未知旧站保留无几何文字条目，CSV坐标及km留空，顺序图不编码地理距离。\n校注浪荡沟经俄洛桥至昌都六十里是组合段；正文和校注里数分源列示，不乘0.5换km。\n第一张是出藏全局图；第二张为昌都恩达略图，均不据像素配准。详见“校注十一地图校对说明.txt”、两个“昌都恩达_校注十一”CSV与SVG／HTML对读页。\n独立“艽野尘梦_腊左探险校对.kmz”和完整版均在14B直接显示昌都、俄洛村地区、浪荡沟〔朗达村〕、恩达村四个参照点；原章节说明仍保留，物理点标集中至14B，二选一导入避免重复。\n')
+        f.write('\n十六、校注十一与书图对读\n新增14层，按第二张书图逐项补昌都、近城西藏桥、俄洛桥、甲令塘、浪荡沟、纳贡山、纳贡塘、甲木桥、梭罗坝、日雨娃、恩达的顺序。果角塘、被擒处、云南桥、瓦合山及恩达河另列背景。\n陈确至恩达，被俘押送与自行侦探分开；约3日2夜为相对分日推算，不把撤兵三日期限当作行程。\n四个现代地区参照继续显示；2026-11-01按用户要求，14B另补梭罗坝、甲木桥、纳贡塘三个橙色空心大概位置。14G的3km参考圈默认关闭，只表示查找尺度；三点不计入古道距离或耗时，其他未知旧站仍留文字条目。纳贡山候选在14F单列，顺序图不编码地理距离。\n校注浪荡沟经俄洛桥至昌都六十里是组合段；正文和校注里数分源列示，不乘0.5换km。\n第一张是出藏全局图；第二张为昌都恩达略图，均不据像素配准。详见“校注十一地图校对说明.txt”、两个“昌都恩达_校注十一”CSV与SVG／HTML对读页。\n独立“艽野尘梦_腊左探险校对.kmz”和完整版均在14B显示四处地区参照与三处大概位置，二选一导入。已有旧云端图时，仅叠加“艽野尘梦_恩达河谷三处约位.kmz”即可；旧图中三处原为无坐标文字条目，不会重复点标。\n')
     wusijiang=next(p for p in MINOR_PLACES if p['id']=='wusijiang')
     check=json.loads((ROOT/'data/place_checks/乌斯江核对.json').read_text())
     note=('乌斯江／乌苏江核对\n\n'+wusijiang['note']+'\n\n耗时：'+wusijiang['timing']+'\n\n'
