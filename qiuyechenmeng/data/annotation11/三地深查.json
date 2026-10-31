@@ -1,0 +1,87 @@
+{
+  "checked_at": "2026-10-31",
+  "summary": "浪荡沟可落实朗达村地区；纳贡山有可显示的候选山口；纳贡塘仍未确定现代聚落。",
+  "langdanggou": {
+    "conclusion": "Rockhill1891刊本第57页第40—41段脚注将浪荡沟写作Lamda；KNAB Langda条并列Lamda及郎达村。官方宗通卡环评的朗达村监测点与地名库点相距约0.2km，仅采用现代村域代表点。",
+    "lon": 96.96917,
+    "lat": 31.21889,
+    "modern": "卡若区俄洛镇朗达／郎达村地区",
+    "certainty": "地区对应较可信：旧藏名Lamda对应今Langda；塘房基址未定"
+  },
+  "nagongshan": {
+    "label": "纳贡山候选〔雪佩拉／Namts’o La，待核〕",
+    "lon": 96.95111,
+    "lat": 31.07667,
+    "modern": "Xoipê La／雪佩拉山口地区",
+    "certainty": "候选参照，未证实纳贡山／安初拉与该现代山口完全等同",
+    "basis": [
+      "Rockhill1894旅行记第309—310页：往昌都官道由下拉La-ma谷东端翻Namts’o La。作者本人改走另一山口，不能套用其亲走轨迹。",
+      "Coales1919实地报告第245页：Namts’o La海拔15200英尺（约4633m），分隔昂曲与子曲；符合校注所述两河谷间的越岭功能。",
+      "KNAB列Xoipê La坐标及旧别名Namtso Pass，但旧别名本身带疑问标记。1950年口述史也出现Lagong La与Namtso的事件称名联系，未给出严格同义定义。"
+    ],
+    "limit": "两重对应尚缺直接桥接：纳贡山／安初拉→Namts’o La，以及旧名Namtso→现代雪佩拉。此点只帮助读者查看候选地形，不宣称陈渠珍实际由此垭口经过；不画确定古道，不计算该候选点的行军km。"
+  },
+  "nagongtang": {
+    "certainty": "未确定现代聚落，不落确定点",
+    "basis": [
+      "Rockhill1894第309页记拉贡地区有上拉La-stod与其东约5英里的下拉La-ma，说明拉贡是地区名，不能直接把宾达点写成纳贡塘。",
+      "马丽华《如意高地》将纳贡塘与其外宾达分开叙述；属后出的叙事改写，只作线索，不能独立证明现代村址。",
+      "另见纳贡塘温泉及有泰日记引述；尚未取得温泉与现代坐标的可靠对应。",
+      "国图藏《西藏记》卷二亦记纳贡塘，在浪荡沟、果角山根之后，恩达之前。该旧名有独立史料支持，但原图无现代经纬度。"
+    ],
+    "limit": "目前能缩小研究方向到宾达以东的下拉谷及其翻山通道，但范围尚不稳定，不画貌似精确的候选聚落边界。",
+    "rejected_lead": "宗通卡环评中的恩达曲焦日卡温泉位于尚卡乡上游系统，距本次路线较远；不能因同名恩达曲就套为纳贡塘温泉。"
+  },
+  "sources": [
+    {
+      "title": "Rockhill：Tibet，JRAS1891刊本第57页",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Journal_of_the_Royal_Asiatic_Society_of_Great_Britain_and_Ireland_1891.pdf",
+      "use": "第40—41段：浪荡沟旧藏名Lamda，与郎达村地区对应的关键桥接；不据里数插值"
+    },
+    {
+      "title": "卡若区政府：俄洛镇朗达村环境整治实施方案",
+      "url": "https://karuo.changdu.gov.cn/krqrmzf/c101746/202504/aaf3966f520f45fb9e939261b5786ad4.shtml",
+      "use": "核对朗达村位于俄洛镇、距市区约27公里并临昂曲"
+    },
+    {
+      "title": "生态环境部：昂曲宗通卡工程环评",
+      "url": "https://www.mee.gov.cn/ywdt/gsgg/gongshi/wqgs_1/201808/W020180824577698033170.pdf",
+      "use": "朗达村监测点坐标31°13′5.47″N、96°58′1.91″E，校核现代地名库村点"
+    },
+    {
+      "title": "KNAB：Langda、Xoipê La与Pênda条",
+      "url": "https://arhiiv.eki.ee/knab/valik/cn54q.htm",
+      "use": "现代坐标和旧异名；注意Namtso别名的疑问标记"
+    },
+    {
+      "title": "Rockhill：Diary of a journey through Mongolia and Tibet（1894）",
+      "url": "https://archive.org/download/diaryofjourneyt00rock/diaryofjourneyt00rock.pdf",
+      "use": "印刷页309—310及卷末原图；下拉谷与官道Namts’o La"
+    },
+    {
+      "title": "Oliver Coales：Eastern Tibet（1919）",
+      "url": "https://pahar.in/pahar/Journals/Royal%20Geographical%20Society%201830-1954/Geographical%20Journal%201893-1954/1919%20Geographical%20Journal%20Vol%2053%20asia%20part%20s.pdf",
+      "use": "印刷页245，山口高度及昂曲—子曲分水关系"
+    },
+    {
+      "title": "美国国会图书馆：西藏口述史M_0004_01",
+      "url": "https://tile.loc.gov/storage-services/service/asian/asiantoha/M_0004_01_Transcriptions/M_0004_01.pdf",
+      "use": "Lagong La与Namtso的事件称名旁证；不是1909行程实录"
+    },
+    {
+      "title": "纳贡塘温泉与有泰日记引述",
+      "url": "https://www.toppk.net/agqh/mjjt/202411/t20241108_75585.html",
+      "use": "温泉旧名线索；未证实现代泉址"
+    },
+    {
+      "title": "马丽华《如意高地》",
+      "url": "https://idl.hbdlib.cn/book/00000000000000/pdfbook2/009/003/150892.pdf",
+      "use": "后出叙事改写，仅作区分纳贡塘与宾达的线索"
+    },
+    {
+      "title": "国家图书馆藏《西藏记》卷二原件",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/NLC403-312001078923-42168_%E8%A5%BF%E8%97%8F%E8%A8%98_%E5%8D%B7%E4%BA%8C.pdf",
+      "use": "纳贡塘旧名及浪荡沟—果角山根—纳贡塘—恩达顺序的独立史料；不提供现代坐标"
+    }
+  ]
+}

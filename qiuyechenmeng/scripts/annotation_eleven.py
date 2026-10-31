@@ -75,7 +75,8 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
     view(top,96.92,31.16,155000)
     intro=el(top,'Folder',id='annotation11_intro');el(intro,'name','14A 核对总览｜确曾抵达恩达，桥名保留图文差异');el(intro,'open',1)
     p=el(intro,'Placemark',id='annotation11_overview');el(p,'name','昌都—恩达探险｜约3日2夜〔分日推算〕');el(p,'description',body);view(p,96.92,31.16,155000)
-    ordered=el(top,'Folder',id='annotation11_places');el(ordered,'name','14B 地点顺序｜3处可定位点，其余为待考条目');el(ordered,'open',1)
+    count=sum(p['mapped'] for p in cfg['places'])
+    ordered=el(top,'Folder',id='annotation11_places');el(ordered,'name',f'14B 地点顺序｜{count}处地区点，其余待考');el(ordered,'open',1)
     el(ordered,'description',paragraph(cfg['map_point_policy']))
     extras=el(top,'Folder',id='annotation11_context');el(extras,'name','14C 书图旁支、事件与山河背景｜不强接主链');el(extras,'open',0)
     order={key:i+1 for i,key in enumerate(cfg['main_sequence'])}
@@ -87,6 +88,7 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
         detail='<h3>'+html.escape(item['name'])+'</h3>'
         if item['aliases']: detail+=paragraph('别名／正文原名：'+'、'.join(item['aliases']))
         detail+=paragraph('定位性质：'+item['status'])+paragraph(item['role'])
+        if item.get('identity_basis'): detail+=paragraph(item['identity_basis'])
         if item['mapped']:
             detail+=paragraph('沿用的现代定位对象：'+item['modern']+f'。经度{item["lon"]}，纬度{item["lat"]}；不是旧桥、营地或汛署确址。')
             detail+='<p><a href="'+html.escape(item['coordinate_source'],quote=True)+'">现代坐标来源</a></p>'
@@ -111,7 +113,7 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
             # In the full map, keep the original chapter entry as a text card,
             # and put the only physical marker in the ordered expedition layer.
             ns=doc.tag.rsplit('}',1)[0]+'}'
-            legacy=doc.find('.//'+ns+'Placemark[@id="'+item['legacy_placemark_id']+'"]')
+            legacy=doc.find('.//'+ns+'Placemark[@id="'+item['legacy_placemark_id']+'"]') if item.get('legacy_placemark_id') else None
             if legacy is not None:
                 old_point=legacy.find(ns+'Point')
                 if old_point is None:
@@ -136,7 +138,35 @@ def add_annotation11(doc,el,view,bundled=False,include_anchors=False):
         text_body+='<p><img style="max-width:100%;height:auto" src="'+src+'" alt="'+html.escape(source['title'],quote=True)+'"/></p>'
         text_body+=paragraph('Google Earth网页版原图需联网。图片无法显示时，可查看本地昌都恩达_校注十一对读.html及data/annotation11/scans/原图。')
         el(p,'description',text_body+body);view(p,96.92,31.16,155000)
+    add_deep_research(top,el,view,False)
     return cfg
+
+
+def add_deep_research(parent,el,view,include_langda=False):
+    research=json.loads((DATA/'三地深查.json').read_text())
+    folder=el(parent,'Folder',id='annotation11_deep_research');el(folder,'name','14F 三地深查｜浪荡沟落实，纳贡山候选，纳贡塘待考');el(folder,'open',1)
+    el(folder,'description',paragraph(research['summary'])+paragraph('金色点为现代地区参照，橙色较大空心点为候选山口；二者证据等级不同。'))
+    view(folder,96.91,31.16,110000)
+    refs='<h3>核对资料</h3>'+''.join('<p><a href="'+html.escape(s['url'],quote=True)+'">'+html.escape(s['title'])+'</a>：'+html.escape(s['use'])+'</p>' for s in research['sources'])
+    if include_langda:
+        item=research['langdanggou']
+        p=el(folder,'Placemark',id='deep_langdanggou');el(p,'name','浪荡沟〔今朗达村地区参照〕');el(p,'description',paragraph(item['certainty'])+paragraph(item['conclusion'])+refs);view(p,item['lon'],item['lat'],55000);el(p,'styleUrl','#minor_reference')
+        point=el(p,'Point');el(point,'altitudeMode','clampToGround');el(point,'coordinates',f'{item["lon"]},{item["lat"]},0')
+    item=research['nagongshan']
+    p=el(folder,'Placemark',id='deep_nagongshan_candidate');el(p,'name',item['label']);el(p,'description',paragraph(item['certainty'])+''.join(paragraph(s) for s in item['basis'])+paragraph(item['limit'])+refs);view(p,item['lon'],item['lat'],80000)
+    style=el(p,'Style')
+    icon=el(style,'IconStyle');el(icon,'color','ff00a5ff');el(icon,'scale',1.35);image=el(icon,'Icon');el(image,'href','https://maps.google.com/mapfiles/kml/shapes/open-diamond.png')
+    labels=el(style,'LabelStyle');el(labels,'scale',1.0)
+    point=el(p,'Point');el(point,'altitudeMode','clampToGround');el(point,'coordinates',f'{item["lon"]},{item["lat"]},0')
+    item=research['nagongtang']
+    p=el(folder,'Placemark',id='deep_nagongtang_research');el(p,'name','纳贡塘｜下拉谷与温泉线索〔仍待定位〕');el(p,'description',paragraph(item['certainty'])+''.join(paragraph(s) for s in item['basis'])+paragraph(item['limit'])+refs);view(p,96.86,31.12,100000)
+    report='三地深查：浪荡沟、纳贡山、纳贡塘\n核对日期：'+research['checked_at']+'\n\n'+research['summary']+'\n\n'
+    report+='浪荡沟\n'+research['langdanggou']['conclusion']+'\n\n'
+    for key in ['nagongshan','nagongtang']:
+        item=research[key];report+=key+'｜'+item['certainty']+'\n'+'\n'.join(item['basis'])+'\n'+item['limit']+'\n\n'
+    report+='来源\n'+'\n\n'.join(s['title']+'\n'+s['url']+'\n'+s['use'] for s in research['sources'])+'\n'
+    (ROOT/'浪荡沟纳贡三地深查说明.txt').write_text(report)
+    return folder
 
 
 def write_annotation11_indexes():
@@ -158,7 +188,7 @@ def write_annotation11_indexes():
     notes+=cfg['method']+'\n\n'+cfg['bridge_conflict']+'\n\n'+cfg['first_map_note']+'\n\n'+cfg['distance_policy']+'\n\n'
     for p in cfg['places']: notes+=p['name']+'｜'+p['status']+'\n'+p['role']+'\n\n'
     notes+='行程分日\n'+'\n'.join(t['relative_day']+'｜'+t['phase']+'：'+t['event']+' '+t['evidence_status'] for t in text['chronology'])+'\n\n'
-    notes+=cfg['map_point_policy']+'\n完整阅读地图与独立艽野尘梦_腊左探险校对.kmz均在14B直接显示三个现代参照点；二者选一导入。完整版原章节条目仍可阅读，物理点标集中至14B，同一位置只显示一个点。\n昌都恩达_校注十一顺序图.svg与对读HTML为非地理配准的顺序图；原书照片原字节保存在data/annotation11/scans/。\n\n'
+    notes+=cfg['map_point_policy']+'\n完整阅读地图与独立艽野尘梦_腊左探险校对.kmz均在14B显示已核实地区点，14F另列候选与深查依据；二者选一导入。完整版原章节条目仍可阅读，同一已核实位置只显示一个点。\n昌都恩达_校注十一顺序图.svg与对读HTML为非地理配准的顺序图；原书照片原字节保存在data/annotation11/scans/。\n\n'
     notes+=cfg['scan_display_note']+'\n\n'
     notes+='来源\n'+'\n\n'.join(s['title']+'\n'+s['use']+'\n'+s['url'] for s in cfg['sources'])+'\n'
     (ROOT/'校注十一地图校对说明.txt').write_text(notes)
