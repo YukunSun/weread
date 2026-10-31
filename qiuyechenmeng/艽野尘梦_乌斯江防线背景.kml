@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="wusijiang_supplement">
+    <name>《艽野尘梦》乌斯江｜拉萨东侧藏军防线背景</name>
+    <open>1</open>
+    <description><![CDATA[乌斯江现代聚落地区参照，清末防线确址未定。正文七十里、校注二站及现代直距约99km分列；此处是敌情消息，未接入陈渠珍个人路线。]]></description>
+    <LookAt>
+      <longitude>91.65</longitude>
+      <latitude>29.68</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>300000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="minor_landmark">
+      <IconStyle>
+        <color>ffffd889</color>
+        <scale>0.85</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="minor_reference">
+      <IconStyle>
+        <color>ff66d1ff</color>
+        <scale>0.85</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Folder id="minor_folder">
+      <name>08 小地名补充｜1处（含区域参照）</name>
+      <open>1</open>
+      <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。]]></description>
+      <LookAt>
+        <longitude>92.15611111</longitude>
+        <latitude>29.70972222</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>160000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Folder>
+        <name>拉萨东侧｜藏军驻守背景</name>
+        <open>0</open>
+        <Placemark id="minor_wusijiang">
+          <name>乌斯江／乌苏江〔旧防线地区参照；七十里存疑〕</name>
+          <description><![CDATA[<h3>乌斯江／乌苏江〔旧防线地区参照；七十里存疑〕</h3><p><b>书中名：</b>乌斯江／乌苏江；Oisêrkyang／Özergyang／Oise Kyang<br/><b>现代参照：</b>墨竹工卡县东南部、日多以西的乌斯江聚落地区；不是墨竹工卡县城<br/><b>章节：</b>第3章；校注23<br/><b>定位性质：</b>现代聚落地区参照，旧阵地确址未定</p><p>这是作者在拉里收到的藏军动向消息，不表示陈渠珍亲到乌斯江。KNAB将乌斯江列作Oisêrkyang，坐标取现代聚落地区点；县政府政区沿革另载1964年巴洛区下属乌斯江乡，可证该地名在墨竹工卡地方延续。正文“距拉萨七十里”原样保留，任乃强校注23另称乌苏江“距拉萨二站”。按本点与项目拉萨代表点的现代球面直距约99 km，三者不能直接相互换算；里程或称名口径仍待核，未据七十里将点移到拉萨近郊。驻守阵地、营垒、旧谿治所及范围尚未测定。《东方杂志》第8卷第12期《边藏最近之闻见》讨论川边藏分界时另记乌斯江距拉萨三百十里，作为独立距离异说保留；该期网页题年与正文语境有异，暂不据网页标题断定公历刊日。</p><p><b>耗时：</b>原文报告约二千余人固守，未记在此驻守多久，也未记作者前往此地的用时；“二站”不换作“两日”。消息时序属拉里年末叙事，不强配公历日期。</p><p><b>距拉萨〔南路终点对照〕代表点：直线约99 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>92.15611°E, 29.70972°N。小数位不代表古址精度。</p><a href="https://www.xzmzgk.gov.cn/mzfkxzf/lsyg/202108/f244c1c875e9433bae7b535c3436d4ab.shtml?userInfo=notlogin">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ls.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><b>书中节引：</b>其先头一部约二千余人，在距拉萨七十里之乌斯江固守。</p><p><a href="https://www.99csw.com/book/554/17568.htm">第3章正文与校注23对读</a><br/><a href="https://www.fallingrain.com/world/CH/14/Wusijiang.html">GeoNames数据的现代同名聚落交叉核对</a><br/><a href="https://wikisource.org/wiki/東方雜誌/一九一一年八卷十二期">《东方杂志》第8卷第12期：边藏最近之闻见</a></p>]]></description>
+          <LookAt>
+            <longitude>92.15611111</longitude>
+            <latitude>29.70972222</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.80972222</north>
+              <south>29.60972222</south>
+              <east>92.27611111</east>
+              <west>92.03611111</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>乌斯江／乌苏江；Oisêrkyang／Özergyang／Oise Kyang</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>墨竹工卡县东南部、日多以西的乌斯江聚落地区；不是墨竹工卡县城</value>
+            </Data>
+            <Data name="chapter">
+              <value>第3章；校注23</value>
+            </Data>
+            <Data name="certainty">
+              <value>现代聚落地区参照，旧阵地确址未定</value>
+            </Data>
+            <Data name="timing">
+              <value>原文报告约二千余人固守，未记在此驻守多久，也未记作者前往此地的用时；“二站”不换作“两日”。消息时序属拉里年末叙事，不强配公历日期。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距拉萨〔南路终点对照〕代表点直线约99 km</value>
+            </Data>
+            <Data name="note">
+              <value>这是作者在拉里收到的藏军动向消息，不表示陈渠珍亲到乌斯江。KNAB将乌斯江列作Oisêrkyang，坐标取现代聚落地区点；县政府政区沿革另载1964年巴洛区下属乌斯江乡，可证该地名在墨竹工卡地方延续。正文“距拉萨七十里”原样保留，任乃强校注23另称乌苏江“距拉萨二站”。按本点与项目拉萨代表点的现代球面直距约99 km，三者不能直接相互换算；里程或称名口径仍待核，未据七十里将点移到拉萨近郊。驻守阵地、营垒、旧谿治所及范围尚未测定。《东方杂志》第8卷第12期《边藏最近之闻见》讨论川边藏分界时另记乌斯江距拉萨三百十里，作为独立距离异说保留；该期网页题年与正文语境有异，暂不据网页标题断定公历刊日。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.15611111,29.70972222,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

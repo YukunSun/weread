@@ -208,8 +208,12 @@ def minor_folder(doc,places=None):
             f=el(folder,'Folder');el(f,'name',p['group']);el(f,'open',0);groups[p['group']]=f
         pm=el(groups[p['group']],'Placemark',id='minor_'+p['id']);el(pm,'name',p['name'])
         lon,lat=p['lon'],p['lat']
-        anchor=PLACE_BY_ID[p['reference']]
-        ax,ay=anchor[3:5]
+        if p['reference'] in PLACE_BY_ID:
+            anchor=PLACE_BY_ID[p['reference']]
+            anchor_name=anchor[2];ax,ay=anchor[3:5]
+        else:
+            anchor=load_post_routes()[1][p['reference']]
+            anchor_name=anchor['name'];ax,ay=anchor['lon'],anchor['lat']
         phi1,phi2=map(math.radians,[lat,ay]);dphi=phi2-phi1;dl=math.radians(ax-lon)
         h=math.sin(dphi/2)**2+math.cos(phi1)*math.cos(phi2)*math.sin(dl/2)**2
         km=6371.0088*2*math.asin(math.sqrt(min(1,max(0,h))))
@@ -217,7 +221,7 @@ def minor_folder(doc,places=None):
               f'<b>现代参照：</b>{html.escape(p["modern"])}<br/><b>章节：</b>{html.escape(p["chapter"])}<br/>'
               f'<b>定位性质：</b>{html.escape(p["certainty"])}</p><p>{html.escape(p["note"])}</p>'
               f'<p><b>耗时：</b>{html.escape(p["timing"])}</p>'
-              f'<p><b>距{html.escape(anchor[2])}代表点：直线约{km:.0f} km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p>'
+              f'<p><b>距{html.escape(anchor_name)}代表点：直线约{km:.0f} km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p>'
               f'<p><b>经纬度：</b>{lon:.5f}°E, {lat:.5f}°N。小数位不代表古址精度。</p>'+links([
                   ('今名／历史依据',p['identity_source']),('坐标参照',p['coordinate_source']),('原文及任乃强校注',TEXT)]))
         if p.get('literary_quote'): info+='<p><b>书中节引：</b>'+html.escape(p['literary_quote'])+'</p>'
@@ -229,7 +233,7 @@ def minor_folder(doc,places=None):
         for tag,value in [('north',lat+0.10),('south',lat-0.10),('east',lon+0.12),('west',lon-0.12)]: el(box,tag,value)
         lod=el(reg,'Lod');el(lod,'minLodPixels',32);el(lod,'maxLodPixels',-1)
         ed=el(pm,'ExtendedData')
-        for name,value in [('old_names',p['old_names']),('modern_reference',p['modern']),('chapter',p['chapter']),('certainty',p['certainty']),('timing',p['timing']),('reference_distance',f'距{anchor[2]}代表点直线约{km:.0f} km'),('note',p['note'])]:
+        for name,value in [('old_names',p['old_names']),('modern_reference',p['modern']),('chapter',p['chapter']),('certainty',p['certainty']),('timing',p['timing']),('reference_distance',f'距{anchor_name}代表点直线约{km:.0f} km'),('note',p['note'])]:
             d=el(ed,'Data',name=name);el(d,'value',value)
         pt=el(pm,'Point');el(pt,'altitudeMode','clampToGround');el(pt,'coordinates',f'{lon},{lat},0')
     return folder
@@ -255,6 +259,14 @@ def make_gengqing_supplement(bundled=False):
     el(doc,'description','仅新增更庆一处背景点，可叠加到校注十路线校对版。更庆用今德格更庆镇地区参照，赵尔丰驻营确址未定，不接入陈渠珍行军线。')
     view(doc,p['lon'],p['lat'],95000)
     minor_styles(doc,bundled);minor_folder(doc,[p])
+    return serialize(root)
+
+def make_wusijiang_supplement(bundled=False):
+    p=next(p for p in MINOR_PLACES if p['id']=='wusijiang')
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='wusijiang_supplement')
+    el(doc,'name','《艽野尘梦》乌斯江｜拉萨东侧藏军防线背景');el(doc,'open',1)
+    el(doc,'description','乌斯江现代聚落地区参照，清末防线确址未定。正文七十里、校注二站及现代直距约99km分列；此处是敌情消息，未接入陈渠珍个人路线。')
+    view(doc,91.65,29.68,300000);minor_styles(doc,bundled);minor_folder(doc,[p])
     return serialize(root)
 
 def make_road_supplement():
@@ -450,6 +462,12 @@ def main():
         z.writestr('doc.kml',make_gengqing_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    wusijiang='艽野尘梦_乌斯江防线背景'
+    (ROOT/(wusijiang+'.kml')).write_bytes(make_wusijiang_supplement())
+    with zipfile.ZipFile(ROOT/(wusijiang+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_wusijiang_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
     roads='艽野尘梦_现代道路对照'
     road_kml=make_road_supplement()
     (ROOT/(roads+'.kml')).write_bytes(road_kml)
@@ -512,7 +530,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 
 二、内容和图例
 主要地图点：MAJOR_COUNT个，含书中地点、校注补充地区及2个默认隐藏的现代县城对照点。
-另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）。
+另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、乌斯江（藏军防线背景）。
 08小地名层可在左侧列表点击，放大后更易读；金色空心点是村域或地区参照，不是确认古址。
 支持Region的客户端会按缩放显示小地名；网页版忽略Region，可手动开关08图层控制全景标注数量。
 俄洛桥用现代俄洛村参照，未认定清末桥位；西藏桥与俄洛桥的正文、校注和书图差异在弹窗及14层说明。
@@ -601,6 +619,18 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n十四、校注十甘孜至昌都路线校对\n主图R1与11B北路统一补入大金寺、甑科候选、麦学、八邦寺和同普方向；不经雀儿山大道／德格县城。\n11G有本次校注核对及打火沟、卡工、纳夺的待考说明；卡工以西野宿三日与作者逐段实测耗时分开，距离留空。\n详见“甘孜昌都路线校对说明.txt”及data/route_checks/甘孜昌都校注十.json。\n2026-10-31本校对版完整KMZ已导入原Google Earth项目并显示已保存到云端硬盘，当时启用“《艽野尘梦》阅读地图｜校注十路线校对版”根目录；上一版完整图及旧河流、历史背景补充根目录已隐藏。已抽查大金寺点及R1弹窗的路线顺序、46／33／19 km和卡工以西野宿三日限定。仅Region、maxLines、textColor显示字段被忽略。\n')
         f.write('\n十五、更庆｜赵尔丰驻地背景\n第2章“赵尔丰驻更庆”对应今德格县更庆镇、德格旧城一带。08层新增更庆点，用现代镇区地名点作参照，不指认赵营、衙署或更庆寺内的具体建筑。\n钟颖未应邀前往，更庆不接入作者行军线，不给邀请虚构耗时；与岗拖代表点的距离只作直距比较。\n已有校注十云端图时，仅叠加“艽野尘梦_更庆驻地.kmz”即可。完整图、小地名补充图均含此点，三种文件中只显示一份更庆，避免重复。\n定位依据和原始OSM响应见data/小地名.json及data/place_checks/gengqing_osm_node.json。\n')
         f.write('\n十六、校注十一与书图对读\n新增14层，按第二张书图逐项补昌都、近城西藏桥、俄洛桥、甲令塘、浪荡沟、纳贡山、纳贡塘、甲木桥、梭罗坝、日雨娃、恩达的顺序。果角塘、被擒处、云南桥、瓦合山及恩达河另列背景。\n陈确至恩达，被俘押送与自行侦探分开；约3日2夜为相对分日推算，不把撤兵三日期限当作行程。\n四个现代地区点可定位，浪荡沟新据Lamda—Langda落实到朗达村地区；另有纳贡山候选点在14F明确分级；未知旧站保留无几何文字条目，CSV坐标及km留空，顺序图不编码地理距离。\n校注浪荡沟经俄洛桥至昌都六十里是组合段；正文和校注里数分源列示，不乘0.5换km。\n第一张是出藏全局图；第二张为昌都恩达略图，均不据像素配准。详见“校注十一地图校对说明.txt”、两个“昌都恩达_校注十一”CSV与SVG／HTML对读页。\n独立“艽野尘梦_腊左探险校对.kmz”和完整版均在14B直接显示昌都、俄洛村地区、浪荡沟〔朗达村〕、恩达村四个参照点；原章节说明仍保留，物理点标集中至14B，二选一导入避免重复。\n')
+    wusijiang=next(p for p in MINOR_PLACES if p['id']=='wusijiang')
+    check=json.loads((ROOT/'data/place_checks/乌斯江核对.json').read_text())
+    note=('乌斯江／乌苏江核对\n\n'+wusijiang['note']+'\n\n耗时：'+wusijiang['timing']+'\n\n'
+          f'现代地区参照：{wusijiang["lon"]}°E，{wusijiang["lat"]}°N。\n'
+          f'距项目拉萨代表点直线约{check["modern_straight_distance_km"]:.0f} km；非古道或公路里程。\n\n'
+          '原文七十里、校注23二站、现代直距km分别保留；不换算出作者行走日数。\n'
+          '完整版08小地名层和独立乌斯江补充图均含本点，选择一份显示。背景点不接入作者行军线。\n\n来源\n'
+          +wusijiang['coordinate_source']+'\n'+wusijiang['identity_source']+'\n'
+          +'\n'.join(s['title']+'\n'+s['url'] for s in wusijiang['additional_sources'])+'\n')
+    (ROOT/'乌斯江核对说明.txt').write_text(note)
+    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+        f.write('\n十七、乌斯江／乌苏江藏军防线背景\n'+note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

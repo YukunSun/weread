@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-11-01",
+  "place": {
+    "id": "wusijiang",
+    "name": "乌斯江／乌苏江〔旧防线地区参照；七十里存疑〕",
+    "old_names": "乌斯江／乌苏江；Oisêrkyang／Özergyang／Oise Kyang",
+    "modern": "墨竹工卡县东南部、日多以西的乌斯江聚落地区；不是墨竹工卡县城",
+    "lon": 92.15611111,
+    "lat": 29.70972222,
+    "chapter": "第3章；校注23",
+    "group": "拉萨东侧｜藏军驻守背景",
+    "certainty": "现代聚落地区参照，旧阵地确址未定",
+    "reference": "lhasa",
+    "coordinate_source": "https://arhiiv.eki.ee/knab/valik/cn54ls.htm",
+    "identity_source": "https://www.xzmzgk.gov.cn/mzfkxzf/lsyg/202108/f244c1c875e9433bae7b535c3436d4ab.shtml?userInfo=notlogin",
+    "note": "这是作者在拉里收到的藏军动向消息，不表示陈渠珍亲到乌斯江。KNAB将乌斯江列作Oisêrkyang，坐标取现代聚落地区点；县政府政区沿革另载1964年巴洛区下属乌斯江乡，可证该地名在墨竹工卡地方延续。正文“距拉萨七十里”原样保留，任乃强校注23另称乌苏江“距拉萨二站”。按本点与项目拉萨代表点的现代球面直距约99 km，三者不能直接相互换算；里程或称名口径仍待核，未据七十里将点移到拉萨近郊。驻守阵地、营垒、旧谿治所及范围尚未测定。《东方杂志》第8卷第12期《边藏最近之闻见》讨论川边藏分界时另记乌斯江距拉萨三百十里，作为独立距离异说保留；该期网页题年与正文语境有异，暂不据网页标题断定公历刊日。",
+    "timing": "原文报告约二千余人固守，未记在此驻守多久，也未记作者前往此地的用时；“二站”不换作“两日”。消息时序属拉里年末叙事，不强配公历日期。",
+    "literary_quote": "其先头一部约二千余人，在距拉萨七十里之乌斯江固守。",
+    "additional_sources": [
+      {
+        "title": "第3章正文与校注23对读",
+        "url": "https://www.99csw.com/book/554/17568.htm"
+      },
+      {
+        "title": "GeoNames数据的现代同名聚落交叉核对",
+        "url": "https://www.fallingrain.com/world/CH/14/Wusijiang.html"
+      },
+      {
+        "title": "《东方杂志》第8卷第12期：边藏最近之闻见",
+        "url": "https://wikisource.org/wiki/東方雜誌/一九一一年八卷十二期"
+      }
+    ]
+  },
+  "lhasa_reference": {
+    "id": "lhasa",
+    "name": "拉萨〔南路终点对照〕",
+    "lon": 91.132,
+    "lat": 29.65,
+    "existing": false,
+    "certainty": "城市代表点，路线对照",
+    "source": "https://zh.wikipedia.org/wiki/拉萨市",
+    "note": "仅为这段所述驿路终点。陈渠珍本次叙事不因此被标成亲到拉萨。"
+  },
+  "modern_straight_distance_km": 99.15850108157773,
+  "distance_policy": "正文七十里、校注23二站、《东方杂志》三百十里、现代直距km分别保留；不据单一旧里数反推点位，不以站数估日数。",
+  "scope": "藏军防线背景，不接陈渠珍个人行军线；现代聚落参照不等于清末阵地或谿治所。"
+}
