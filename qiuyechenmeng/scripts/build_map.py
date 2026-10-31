@@ -111,6 +111,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第1章','大相岭旧山口、果亲王摩崖诗','已补大相岭古道的路桥碑地区参照及飞越岭垭口；作者登岭顶与摩崖诗的具体位置仍待考。'),
 ('第2—3章','恩达汛署／堪布营地','已补今桑多镇恩达村代表点，但汛署及堪布大营遗址未定位。'),
 ('第3章','三十九族','区域名称，不能当一座城镇。未知作者在该区域的逐站行迹。'),
+('第4章；校注27','百马岗召询现场及绕行路线','08层以现代墨脱镇、墨脱村地区点参照校注所指百马岗／白马岗。该点不是召询现场或陈部驻地，历史地区不直接等同现代县界，不能据此断言作者到今县城；正文从窝冗绕行六日、后行四日至德摩与受访者自述路程分别保留，具体路线未定位。'),
 ('第5—7章','纳衣当噶、八浪登、京中、树枝、央噶','德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。'),
 ('第6—7章','卡拖、八阶、夥若桥','具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。'),
 ('第8章','凝多／凝多塘','北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。'),
@@ -201,7 +202,7 @@ def minor_folder(doc,places=None):
     places=MINOR_PLACES if places is None else places
     folder=el(doc,'Folder',id='minor_folder');el(folder,'name',f'08 小地名补充｜{len(places)}处（含区域参照）');el(folder,'open',1)
     el(folder,'description','蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。')
-    view(folder,places[0]['lon'] if len(places)==1 else 97.07278,places[0]['lat'] if len(places)==1 else 31.18528,160000)
+    view(folder,places[0]['lon'] if len(places)==1 else 97.07278,places[0]['lat'] if len(places)==1 else 31.18528,places[0].get('view_range',160000) if len(places)==1 else 160000)
     groups={}
     for p in places:
         if p['group'] not in groups:
@@ -226,7 +227,7 @@ def minor_folder(doc,places=None):
                   ('今名／历史依据',p['identity_source']),('坐标参照',p['coordinate_source']),('原文及任乃强校注',TEXT)]))
         if p.get('literary_quote'): info+='<p><b>书中节引：</b>'+html.escape(p['literary_quote'])+'</p>'
         if p.get('additional_sources'): info+='<p>'+links((s['title'],s['url']) for s in p['additional_sources'])+'</p>'
-        el(pm,'description',info);view(pm,lon,lat,45000)
+        el(pm,'description',info);view(pm,lon,lat,p.get('view_range',45000))
         el(pm,'styleUrl','#'+('minor_landmark' if p['certainty']=='现代地形点参照' else 'minor_reference'))
         # A display window, not an asserted historical territory or error ellipse.
         reg=el(pm,'Region');box=el(reg,'LatLonAltBox')
@@ -304,6 +305,32 @@ def write_worang_index():
         if check['google_earth_import'].get('screenshot'):
             note+='核验截图：'+check['google_earth_import']['screenshot']+'\n'
     (ROOT/'窝冗噶伽核对说明.txt').write_text(note,encoding='utf-8')
+    return note
+
+
+def make_baimagang_supplement(bundled=False):
+    p=next(p for p in MINOR_PLACES if p['id']=='baimagang')
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='baimagang_supplement')
+    el(doc,'name','《艽野尘梦》百马岗／白马岗｜墨脱地区参照');el(doc,'open',1)
+    el(doc,'description','校注27的地望背景；以现代墨脱镇村地区点帮助辨认百马岗／白马岗所指地区，不是召询现场或作者到今县城的证据。历史地区不直接套现代县界，不画绕行路线。完整阅读图、小地名补充图和本文件选择一份显示。')
+    view(doc,p['lon'],p['lat'],p['view_range']);minor_styles(doc,bundled);minor_folder(doc,[p])
+    return serialize(root)
+
+
+def write_baimagang_index():
+    p=next(p for p in MINOR_PLACES if p['id']=='baimagang')
+    check=json.loads((ROOT/'data/place_checks/百马岗墨脱核对.json').read_text(encoding='utf-8'))
+    note=('百马岗／白马岗｜墨脱地区参照\n核对日期：'+check['checked_at']+'\n\n'
+          +p['note']+'\n\n耗时：'+p['timing']+'\n\n'
+          +f'现代地区参照：{p["lon"]}°E，{p["lat"]}°N。\n'+check['coordinate_note']+'\n\n'
+          +'完整阅读地图08层、小地名补充版和独立“艽野尘梦_百马岗墨脱.kmz”均包含本点，选择一份显示。金色空心点仅作地区背景，不绘县界、召询现场或作者到此路线。\n\n来源及限度\n')
+    for source in check['sources']:
+        note+='\n'+source['title']+'\n'+source['supports']+'\n'+source['url']+'\n'
+    if check.get('google_earth_import'):
+        note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
+        if check['google_earth_import'].get('screenshot'):
+            note+='核验截图：'+check['google_earth_import']['screenshot']+'\n'
+    (ROOT/'百马岗墨脱核对说明.txt').write_text(note,encoding='utf-8')
     return note
 
 
@@ -578,6 +605,13 @@ def main():
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     worang_note=write_worang_index()
+    baimagang='艽野尘梦_百马岗墨脱'
+    (ROOT/(baimagang+'.kml')).write_bytes(make_baimagang_supplement())
+    with zipfile.ZipFile(ROOT/(baimagang+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_baimagang_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    baimagang_note=write_baimagang_index()
     jiangda='艽野尘梦_江达定位'
     (ROOT/(jiangda+'.kml')).write_bytes(make_jiangda_supplement())
     with zipfile.ZipFile(ROOT/(jiangda+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -645,7 +679,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 
 二、内容和图例
 主要地图点：MAJOR_COUNT个，含书中地点、校注补充地区及2个默认隐藏的现代县城对照点。
-另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、边坝（旧宗驻地与战事背景）、乌斯江（藏军防线背景）、窝冗噶伽（卧龙—嘎加地区参照）。
+另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、边坝（旧宗驻地与战事背景）、乌斯江（藏军防线背景）、窝冗噶伽（卧龙—嘎加地区参照）、百马岗／白马岗（墨脱地区背景参照）。
 08小地名层可在左侧列表点击，放大后更易读；金色空心点是村域或地区参照，不是确认古址。
 支持Region的客户端会按缩放显示小地名；网页版忽略Region，可手动开关08图层控制全景标注数量。
 俄洛桥用现代俄洛村参照，未认定清末桥位；西藏桥与俄洛桥的正文、校注和书图差异在弹窗及14层说明。
@@ -766,6 +800,8 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n二十、工布安抚｜曲巴、增巴、脚木宗\n'+gongbu_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n二十一、窝冗噶伽｜卧龙—嘎加地区参照\n'+worang_note)
+    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+        f.write('\n二十二、百马岗／白马岗｜墨脱地区参照\n'+baimagang_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

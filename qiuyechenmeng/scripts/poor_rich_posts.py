@@ -139,8 +139,8 @@ def add_poor_rich_posts(parent, el, view, kcolor, bundled=False,
     _styles(parent, el, kcolor, bundled, cfg['routes'])
     top = el(parent, 'Folder', id='poor_rich_posts')
     el(top, 'name', '11H 穷八站与富八站｜锚点方向示意，凝多未定位')
-    el(top, 'open', 1)
     el(top, 'visibility', 1)
+    el(top, 'open', 1)
     el(top, 'description', overview_html(cfg))
     _view_places(top, cfg['places'], view)
     overview = el(top, 'Placemark', id='poor_rich_overview')
@@ -164,6 +164,8 @@ def add_poor_rich_posts(parent, el, view, kcolor, bundled=False,
         target = known_folder if known_folder is not None and place.get('existing') else point_folder
         pm = el(target, 'Placemark', id='poor_rich_place_' + place['id'])
         el(pm, 'name', place['name'] + suffix)
+        if has_coordinate and not reuse:
+            el(pm, 'visibility', 1)
         body = ('<h3>' + html.escape(place['name']) + '</h3><p><b>今名／定位对象：</b>' +
                 html.escape(prose(place.get('modern', ''))) + '<br/><b>定位性质：</b>' +
                 html.escape(place['certainty']) + '</p>')
@@ -181,9 +183,8 @@ def add_poor_rich_posts(parent, el, view, kcolor, bundled=False,
         if has_coordinate and not reuse:
             uncertain = (not place.get('existing') or
                          any(word in place['certainty'] for word in ('推定', '候选', '待考')))
-            el(pm, 'visibility', 1)
-            el(pm, 'styleUrl', '#poor_rich_' + ('uncertain' if uncertain else 'point'))
             view(pm, place['lon'], place['lat'], 85000)
+            el(pm, 'styleUrl', '#poor_rich_' + ('uncertain' if uncertain else 'point'))
             point = el(pm, 'Point')
             el(point, 'altitudeMode', 'clampToGround')
             el(point, 'coordinates', f'{place["lon"]},{place["lat"]},0')
@@ -204,11 +205,12 @@ def add_poor_rich_posts(parent, el, view, kcolor, bundled=False,
         body += source_html(cfg['sources'])
         pm = el(routes_folder, 'Placemark', id='poor_rich_route_' + route['id'])
         el(pm, 'name', route['name'])
+        if len(anchors) >= 2:
+            el(pm, 'visibility', 1)
         el(pm, 'description', body)
         if len(anchors) < 2:
             continue
         _view_places(pm, anchors, view)
-        el(pm, 'visibility', 1)
         el(pm, 'styleUrl', '#poor_rich_line_' + route['id'])
         geometry = el(pm, 'MultiGeometry')
         for a, b in zip(anchors, anchors[1:]):

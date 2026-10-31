@@ -3,7 +3,7 @@
   <Document id="minor_supplement">
     <name>《艽野尘梦》小地名补充｜俄洛桥等</name>
     <open>1</open>
-    <description><![CDATA[新增13处小地名，可叠加到已导入的耗时与距离版。村域、地区参照均有说明，旧桥、旧营地不冒作确点。]]></description>
+    <description><![CDATA[新增14处小地名，可叠加到已导入的耗时与距离版。村域、地区参照均有说明，旧桥、旧营地不冒作确点。]]></description>
     <LookAt>
       <longitude>97.07278</longitude>
       <latitude>31.18528</latitude>
@@ -40,7 +40,7 @@
       </LabelStyle>
     </Style>
     <Folder id="minor_folder">
-      <name>08 小地名补充｜13处（含区域参照）</name>
+      <name>08 小地名补充｜14处（含区域参照）</name>
       <open>1</open>
       <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。]]></description>
       <LookAt>
@@ -428,6 +428,63 @@
           <Point>
             <altitudeMode>clampToGround</altitudeMode>
             <coordinates>96.10032,29.75355,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>工布—墨脱召询地区背景</name>
+        <open>0</open>
+        <Placemark id="minor_baimagang">
+          <name>百马岗／白马岗〔墨脱地区参照；召询确址未定〕</name>
+          <description><![CDATA[<h3>百马岗／白马岗〔墨脱地区参照；召询确址未定〕</h3><p><b>书中名：</b>百马岗／白马岗／博隅白玛岗（旧称参照）<br/><b>现代参照：</b>墨脱地区；坐标仅取现代墨脱镇、墨脱村地名地区点作方位参照<br/><b>章节：</b>第4章；校注27<br/><b>定位性质：</b>现代地区背景参照；召询事件确址未定</p><p>任乃强校注27将陈渠珍召询书中所谓“野番”之处判断为百马岗、今墨脱县；林芝文旅资料亦称墨脱古称白马岗。县政府沿革记博隅白玛岗等旧称、地东宗后迁墨脱村及1959年建县，表明历史地区、现代县制与县城地名不能混为同一定位层级。本图只用KNAB的现代墨脱镇、墨脱村地名点帮助辨认校注所指地区，未将历史百马岗范围直接等同现代县界。正文记的是抵达贸易地区召询，不据这个现代点断言陈渠珍到过今墨脱县城。召询现场、作者驻地与绕行路线均未定位；不绘县界或通往此点的作者行军线。“野番”是书中历史称谓，仅在引述中保留，不作为现代族群分类。</p><p><b>耗时：</b>正文从窝冗绕行六日抵达召询地区，后又行四日至德摩；这不是到现代墨脱镇的实测用时。受访者自述其家相距六日、到所谓更远地区尚需二十余日，属于他人陈述，不累计为作者路线。此地单独驻留日数未明，不按现代路程或直距km分摊日数。</p><p><b>距工布江达县江达村、太昭一带代表点：直线约230 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>95.33028°E, 29.32750°N。小数位不代表古址精度。</p><a href="https://www.motuo.gov.cn/mtx/c102488/201901/0a518352da6b4628a461c12bbed79ac2.shtml">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><a href="https://www.xuges.com/xdwx/qycm/13.htm">任乃强校注27：百马岗、今墨脱县</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第4章原文：窝冗绕行</a><br/><a href="https://wlj.linzhi.gov.cn/lzslyfzwyh/c103820/202401/6b48b53be1494fd0b44dec822efb573c.shtml">林芝文旅局：墨脱古称白马岗</a></p>]]></description>
+          <LookAt>
+            <longitude>95.33027778</longitude>
+            <latitude>29.3275</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>260000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.427500000000002</north>
+              <south>29.2275</south>
+              <east>95.45027778000001</east>
+              <west>95.21027778</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>百马岗／白马岗／博隅白玛岗（旧称参照）</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>墨脱地区；坐标仅取现代墨脱镇、墨脱村地名地区点作方位参照</value>
+            </Data>
+            <Data name="chapter">
+              <value>第4章；校注27</value>
+            </Data>
+            <Data name="certainty">
+              <value>现代地区背景参照；召询事件确址未定</value>
+            </Data>
+            <Data name="timing">
+              <value>正文从窝冗绕行六日抵达召询地区，后又行四日至德摩；这不是到现代墨脱镇的实测用时。受访者自述其家相距六日、到所谓更远地区尚需二十余日，属于他人陈述，不累计为作者路线。此地单独驻留日数未明，不按现代路程或直距km分摊日数。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距工布江达县江达村、太昭一带代表点直线约230 km</value>
+            </Data>
+            <Data name="note">
+              <value>任乃强校注27将陈渠珍召询书中所谓“野番”之处判断为百马岗、今墨脱县；林芝文旅资料亦称墨脱古称白马岗。县政府沿革记博隅白玛岗等旧称、地东宗后迁墨脱村及1959年建县，表明历史地区、现代县制与县城地名不能混为同一定位层级。本图只用KNAB的现代墨脱镇、墨脱村地名点帮助辨认校注所指地区，未将历史百马岗范围直接等同现代县界。正文记的是抵达贸易地区召询，不据这个现代点断言陈渠珍到过今墨脱县城。召询现场、作者驻地与绕行路线均未定位；不绘县界或通往此点的作者行军线。“野番”是书中历史称谓，仅在引述中保留，不作为现代族群分类。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.33027778,29.3275,0</coordinates>
           </Point>
         </Placemark>
       </Folder>
