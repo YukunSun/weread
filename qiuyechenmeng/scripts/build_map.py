@@ -334,6 +334,36 @@ def write_baimagang_index():
     return note
 
 
+def make_demo_supplement(bundled=False):
+    p=next(p for p in MINOR_PLACES if p['id']=='demo')
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='demo_supplement')
+    el(doc,'name','《艽野尘梦》德摩｜赴此4日；驻月余');el(doc,'open',1)
+    el(doc,'description','沿用现代德木寺代表点参照林芝市巴宜区米瑞乡德摩地区，旧寺原址、第巴住宅与陈部驻地确址未定。正文从未定位的访野番处赴此四日、驻月余；此前绕行六日及校注27的四日程另列，不画未知出发点或古道。完整阅读图、小地名补充图和本文件选择一份显示；叠加旧图时隐藏旧08层德摩点，避免重复。')
+    view(doc,p['lon'],p['lat'],65000);minor_styles(doc,bundled);minor_folder(doc,[p])
+    return serialize(root)
+
+
+def write_demo_index():
+    p=next(p for p in MINOR_PLACES if p['id']=='demo')
+    check=json.loads((ROOT/'data/place_checks/德摩核对.json').read_text(encoding='utf-8'))
+    note=('德摩｜赴此4日；驻月余\n核对日期：'+check['checked_at']+'\n\n'
+          +p['note']+'\n\n耗时：'+p['timing']+'\n\n'
+          +f'现代寺院代表点：{p["lon"]}°E，{p["lat"]}°N。\n'+check['coordinate_note']+'\n\n'
+          +'原有08层德摩点已强化标签，不新增重复点。完整阅读地图、小地名补充图、独立“艽野尘梦_德摩定位.kmz”三者选择一份显示；叠加旧图时隐藏原08层德摩点。没有补画未定位的访野番处或历史行军线。\n\n耗时分别列示\n')
+    for item in check['timing_distinctions']:
+        note+='\n'+item['segment']+'：'+item['duration']+'\n'+item['basis']+'；'+item['scope']+'\n'
+    note+='\n来源及限度\n'
+    for source in check['sources']:
+        note+='\n'+source['title']+'\n'+source['supports']+'\n'+source['url']+'\n'
+    if check.get('pending_sources'):
+        note+='\n待核资料\n'
+        for source in check['pending_sources']:
+            note+='\n'+source['title']+'\n'+source['status']+'\n'+source['url']+'\n'
+    note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
+    (ROOT/'德摩核对说明.txt').write_text(note,encoding='utf-8')
+    return note
+
+
 def make_road_supplement():
     root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='modern_road_supplement')
     el(doc,'name','《艽野尘梦》现代道路对照｜G317等国道省道');el(doc,'open',1)
@@ -612,6 +642,13 @@ def main():
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     baimagang_note=write_baimagang_index()
+    demo='艽野尘梦_德摩定位'
+    (ROOT/(demo+'.kml')).write_bytes(make_demo_supplement())
+    with zipfile.ZipFile(ROOT/(demo+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_demo_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    demo_note=write_demo_index()
     jiangda='艽野尘梦_江达定位'
     (ROOT/(jiangda+'.kml')).write_bytes(make_jiangda_supplement())
     with zipfile.ZipFile(ROOT/(jiangda+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -802,6 +839,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n二十一、窝冗噶伽｜卧龙—嘎加地区参照\n'+worang_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n二十二、百马岗／白马岗｜墨脱地区参照\n'+baimagang_note)
+        f.write('\n二十三、德摩｜赴此4日；驻月余\n'+demo_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

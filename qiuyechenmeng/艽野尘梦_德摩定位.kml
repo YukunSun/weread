@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="demo_supplement">
+    <name>《艽野尘梦》德摩｜赴此4日；驻月余</name>
+    <open>1</open>
+    <description><![CDATA[沿用现代德木寺代表点参照林芝市巴宜区米瑞乡德摩地区，旧寺原址、第巴住宅与陈部驻地确址未定。正文从未定位的访野番处赴此四日、驻月余；此前绕行六日及校注27的四日程另列，不画未知出发点或古道。完整阅读图、小地名补充图和本文件选择一份显示；叠加旧图时隐藏旧08层德摩点，避免重复。]]></description>
+    <LookAt>
+      <longitude>94.63347</longitude>
+      <latitude>29.51239</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>65000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="minor_landmark">
+      <IconStyle>
+        <color>ffffd889</color>
+        <scale>0.85</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="minor_reference">
+      <IconStyle>
+        <color>ff66d1ff</color>
+        <scale>0.85</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Folder id="minor_folder">
+      <name>08 小地名补充｜1处（含区域参照）</name>
+      <open>1</open>
+      <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。]]></description>
+      <LookAt>
+        <longitude>94.63347</longitude>
+        <latitude>29.51239</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>160000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Folder>
+        <name>工布驻防与波密细部</name>
+        <open>0</open>
+        <Placemark id="minor_demo">
+          <name>德摩〔第穆／德木地区参照〕｜赴此4日；驻月余</name>
+          <description><![CDATA[<h3>德摩〔第穆／德木地区参照〕｜赴此4日；驻月余</h3><p><b>书中名：</b>德摩／第穆／德木<br/><b>现代参照：</b>林芝市巴宜区米瑞乡德木寺周边地区（现代寺院代表点参照）<br/><b>章节：</b>第4—7章<br/><b>定位性质：</b>地名异译有官方依据；地区参照，旧驻地确址未定</p><p>巴宜区政府资料明确第穆作为地名也译为德摩或德木，支持书中地名与这一地区对应。点位沿用现代德木寺代表坐标，不指认陈部军营、第巴住宅、书中大喇嘛寺建筑或旧寺原址。官方资料记德木寺由鲁朗德木北沟迁至米瑞德木南沟，并曾几度兴废；迁址年代和书中所见建筑仍须另核。正文的二百余户、田野和住宅为作者当时见闻，不是现代人口或现状统计；工布极东是书中历史区域叙述，不等同今日行政区边界。KNAB的Têmo／Têmogoin／Demu对应带¿疑问符号，且与今寺坐标不同，仅留作待核线索，不据此移动本点。</p><p><b>耗时：</b>正文先从窝冗噶伽绕行六日至访野番处（今址未定），访问后由该处赴德摩，行4日到达，随后驻留月余。赴此4日的起点是未定位的访野番处，不是已确认的窝冗至德摩直达段。校注27另述窝冗噶伽与德摩相距四日程，是相对程距说；与正文绕行6日、后来赴德摩4日及驻留月余分开保留，不按代表点直距反推路线或日数。</p><p><b>距鲁朗地区代表点：直线约26 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>94.63347°E, 29.51239°N。小数位不代表古址精度。</p><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">今名／历史依据</a><br/><a href="https://www.openstreetmap.org/node/3316890527">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><b>书中节引：</b>行四日始至。……余驻此月余。</p><p><a href="https://www.99csw.com/book/554/17570.htm">《艽野尘梦》第4章：绕行、赴德摩与驻留；校注27另述相对程距</a><br/><a href="https://zh.wikipedia.org/wiki/德木寺">维基百科：德木寺（既有代表坐标对照）</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB：Têmo／Têmogoin疑似对应带¿，仅作待核线索</a></p>]]></description>
+          <LookAt>
+            <longitude>94.63347</longitude>
+            <latitude>29.51239</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.61239</north>
+              <south>29.41239</south>
+              <east>94.75347000000001</east>
+              <west>94.51347</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>德摩／第穆／德木</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>林芝市巴宜区米瑞乡德木寺周边地区（现代寺院代表点参照）</value>
+            </Data>
+            <Data name="chapter">
+              <value>第4—7章</value>
+            </Data>
+            <Data name="certainty">
+              <value>地名异译有官方依据；地区参照，旧驻地确址未定</value>
+            </Data>
+            <Data name="timing">
+              <value>正文先从窝冗噶伽绕行六日至访野番处（今址未定），访问后由该处赴德摩，行4日到达，随后驻留月余。赴此4日的起点是未定位的访野番处，不是已确认的窝冗至德摩直达段。校注27另述窝冗噶伽与德摩相距四日程，是相对程距说；与正文绕行6日、后来赴德摩4日及驻留月余分开保留，不按代表点直距反推路线或日数。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距鲁朗地区代表点直线约26 km</value>
+            </Data>
+            <Data name="note">
+              <value>巴宜区政府资料明确第穆作为地名也译为德摩或德木，支持书中地名与这一地区对应。点位沿用现代德木寺代表坐标，不指认陈部军营、第巴住宅、书中大喇嘛寺建筑或旧寺原址。官方资料记德木寺由鲁朗德木北沟迁至米瑞德木南沟，并曾几度兴废；迁址年代和书中所见建筑仍须另核。正文的二百余户、田野和住宅为作者当时见闻，不是现代人口或现状统计；工布极东是书中历史区域叙述，不等同今日行政区边界。KNAB的Têmo／Têmogoin／Demu对应带¿疑问符号，且与今寺坐标不同，仅留作待核线索，不据此移动本点。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.63347,29.51239,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>
