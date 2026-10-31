@@ -6,6 +6,7 @@ import json
 import math
 from regional_ranges import insert_styles, polygons, polygon
 from route_checks import CHECK, SEQUENCE, route_check_html
+from post_supply import add_post_supply, write_supply_outputs
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'data/postroads'
@@ -118,6 +119,7 @@ def add_post_routes(doc,el,view,kcolor,bundled=False,include_existing=True):
     pm=el(check,'Placemark',id='annotation10_overview');el(pm,'name','甘孜至昌都路线核对｜卡工以西需野宿三日〔校注〕');el(pm,'description',route_check_html());view(pm,98.8,31.5,430000)
     for i,item in enumerate(CHECK['unlocated']):
         pm=el(check,'Placemark',id=f'annotation10_unlocated_{i}');el(pm,'name',item['name']+'【未定位，不造点】');el(pm,'description','<p>'+html.escape(item['note'])+'</p>'+route_check_html())
+    add_post_supply(top,el,view)
     return cfg
 
 def write_post_indexes():
@@ -152,4 +154,6 @@ def write_post_indexes():
 '''
     guide=guide.replace('全部17个地点',f'全部{len(places)}个地点').replace('新增6个点',f'新增{sum(not p["existing"] for p in places.values())}个点').replace('上述17个历史站点代表点','上述地点代表点')
     guide+='\n校注十路线核对\n'+CHECK['text_sequence']+'\n'+CHECK['timing_note']+'\n11G有路线核对和未定位地名文字条目；主图R1与本层北路使用同一节点顺序。详见甘孜昌都路线校对说明.txt。\n'
+    guide+='\n11H 穷八站／富八站\n按校注二十一以凝多塘为分界，分别说明甲贡塘—凝多塘、凝多塘—拉萨的供应差异。甲贡塘旧站、凝多塘今址和完整八站名单待核；只加文字说明，不画分界或新增坐标，不把大道背景接入作者北绕路线。较晚拉如／太昭分段说另列。详见穷富八站核对说明.txt及data/postroads/穷富八站.json。独立穷富八站KMZ只含说明，部分客户端可能省略无坐标条目，可查看文件夹说明或TXT。\n'
     (ROOT/'南北驿路说明.txt').write_text(guide+'\n原文与校注\n'+cfg['source']+'\n')
+    write_supply_outputs()
