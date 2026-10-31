@@ -5,6 +5,7 @@ import html
 import json
 import xml.etree.ElementTree as ET
 import zipfile
+from poor_rich_posts import add_poor_rich_posts, write_poor_rich_files
 
 ROOT = Path(__file__).resolve().parents[1]
 KML = 'http://www.opengis.net/kml/2.2'
@@ -40,7 +41,11 @@ def overview_html(cfg):
             +source_links(cfg))
 
 
-def add_post_supply(parent, el, view):
+def add_post_supply(parent, el, view, kcolor, bundled=False, reuse_ids=None):
+    return add_poor_rich_posts(parent, el, view, kcolor, bundled, reuse_ids=reuse_ids)
+
+
+def _add_supply_text(parent, el, view):
     cfg = load()
     folder = el(parent, 'Folder', id='post_supply_eight_stages')
     el(folder, 'name', '11H 穷八站／富八站｜凝多分界，范围与站址待核')
@@ -86,7 +91,7 @@ def write_supply_outputs():
     el(doc, 'name', '《艽野尘梦》穷八站与富八站｜说明，无精确分界')
     el(doc, 'open', 1)
     el(doc, 'description', overview_html(cfg))
-    add_post_supply(doc, el, view)
+    _add_supply_text(doc, el, view)
     ET.indent(root, space='  ')
     raw = ET.tostring(root, encoding='utf-8', xml_declaration=True)
     name = '艽野尘梦_穷富八站说明'
@@ -114,6 +119,7 @@ def write_supply_outputs():
         for segment in cfg['segments']:
             writer.writerow([segment['name'], segment['from'], segment['to'], segment['via'],
                              segment['description'], segment['time'], cfg['limits'][-1], cfg['source']])
+    write_poor_rich_files()
 
 
 if __name__ == '__main__':

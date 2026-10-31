@@ -100,6 +100,50 @@
         <range>1200000</range>
         <altitudeMode>clampToGround</altitudeMode>
       </LookAt>
+      <Style id="poor_rich_point">
+        <IconStyle>
+          <color>ffffd48a</color>
+          <scale>1.0</scale>
+          <Icon>
+            <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+          </Icon>
+        </IconStyle>
+        <LabelStyle>
+          <color>ffffffff</color>
+          <scale>0.95</scale>
+        </LabelStyle>
+      </Style>
+      <Style id="poor_rich_uncertain">
+        <IconStyle>
+          <color>ff6dc6ff</color>
+          <scale>1.15</scale>
+          <Icon>
+            <href>https://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+          </Icon>
+        </IconStyle>
+        <LabelStyle>
+          <color>ffffffff</color>
+          <scale>0.95</scale>
+        </LabelStyle>
+      </Style>
+      <Style id="poor_rich_line_poor">
+        <LineStyle>
+          <color>e06aa6d9</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
+      <Style id="poor_rich_line_transition">
+        <LineStyle>
+          <color>e0c9beb7</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
+      <Style id="poor_rich_line_rich">
+        <LineStyle>
+          <color>e09dc859</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
       <Folder id="post_points">
         <name>11A 地点｜橙色空心为对应推定／待考</name>
         <open>0</open>
@@ -3007,39 +3051,422 @@
           <description><![CDATA[<p>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><h3>校注十：甘孜至昌都路线校对</h3><p><b>文字顺序：</b>甘孜大金寺 → 打火沟方向 → 甑科（原作曾科，白玉县）→ 麦学（原作麦削，德格县）→ 八邦寺 → 岗拖河 → 同普大路 → 卡工以西牧场 → 昌都</p><p>主图R1和11B北路统一采用可定位节点的顺序。大金寺用扎西大金寺现代寺区作粗略参照，与甘孜寺分开；甑科保留赠科乡扎马村一带候选，古今对应推定；麦学用德格麦宿地区点；八邦寺保留寺院点；同普用今江达县同普乡地区点表示同普大路方向，不认定清末旧驿站或宿营处。此段不经过雀儿山大道／德格县城；现代G317只作位置比较。甘孜镇点仍为上文地区参照，甘孜镇至大金寺的连接不表示正文另记了一段行军。</p><p><b>打火沟通行路线：</b>官方水电资料可确认甘孜境内打火沟（又称打柯）流域，但沟谷不是单一驿站。陈部进入的具体支沟、越岭口和旧道尚未核定；不放假点、不按水流方向还原步行方向。大金寺至甑科虚线只表示跨过这一待考走廊。</p><p><b>卡工〔旧名对应待考〕：</b>今同普的地名资料含K’a-kung，今卡贡乡亦有相近音名；缺少直接史地对应证据，暂不等同卡贡乡，也不把卡工强行并入同普。故卡工至昌都不计算距离。</p><p><b>纳夺土司支差辖境：</b>这里只记录校注所述由纳夺土司支差直送昌都的制度背景。辖境及纳夺／纳多／拉多异名对应未精确核定，不给土司辖境中心造点，不改道今拉多乡。</p><p><b>耗时：</b>“需野宿三日”是校注对卡工以西至昌都的路程与宿营条件说明，原书无记载；不是作者实测日数，不表示岗拖至昌都全程三日，也不能改挂到同普至昌都。卡工无可靠坐标，这一段距离留空。其余新补相邻段未明记日数，不按km分摊。</p><p>距离只按所选现代代表点间球面近似直距计算，单位km；其中有推定地区点、无坐标缺口及省略旧站，分段或合计均不等于历史实走、公路里程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与任乃强校注十</a><br/>本文本和用户给出的校注用于地点顺序、不走雀儿山、循同普大路及卡工以西野宿三日的来源分类。</p><p><a href="https://www.tibetology.ac.cn/2023-08/30/content_42502959.htm">霍尔人的历史遗产：甘孜霍尔十三寺</a><br/>实地调查将甘孜寺与大金寺分别列示；大金寺即卡攻乡扎西大金寺，不能将两寺合成同一点。现代重建寺区不等于1909年具体建筑或营地。</p><p><a href="https://treasuryoflives.org/en/institution/Dargye-Monastery">The Treasury of Lives：Dargye Monastery</a><br/>寺院机构条目给31.66667,99.73333；地图采用99.73,31.67粗略参照。原源未声明坐标基准及测量精度；未使用地图相机中心坐标。</p><p><a href="https://www.ganzi.gov.cn/ganzi/c102818/202105/e3d0f7ecaf8d41888e38901c62797ea2.shtml">甘孜县打火沟流域水利水电开发环境影响回顾性评价报告公示</a><br/>确认打火沟又称打柯，为雅砻江支流和沟谷流域。资料中的水流方向不直接当作陈部行路方向，也不足以定位穿行支沟和翻山口。</p><p><a href="https://www.tibetology.ac.cn/2023-05/03/content_42353852.htm">张钦：〈察炉道里考〉所载川藏交通探微</a><br/>川藏交通研究支持陈渠珍经曾科、麦宿至岗托的绒坝岔走廊；麦学用德格麦宿地区参照，不误取白玉另一同名麦学村。清末台站表不全部增列为作者亲经地点。</p><p><a href="https://files.gzz.gov.cn/upload/file/9/zhengwen/5d6909942d7b4c74b2305da56ecfdc9a.pdf">白玉县农村生活污水治理专项规划（2020—2022）</a><br/>PDF第33页、印刷页25表2-3列赠科乡扎马村水源地99°17′43.27″、31°28′51.11″，在既有候选点附近。该点仅印证现代地区位置，非甑科旧驿站身份和确址的证据，地图不移动到取水口。</p><p><a href="https://www.dege.gov.cn/gzdgx/c101563/201103/82a33f86c8e54d25b27ea9fd42cfc71b.shtml">德格县：康巴古建筑典范——德格八帮寺</a><br/>官方介绍八帮寺位于八帮乡政府北300米，支持保留现寺院地区点；不据此确定陈部营地。</p><p><a href="https://www.openstreetmap.org/node/3171594661">同普现代地名点（OpenStreetMap）</a><br/>同普现代地名点98.3873484,31.5929238，WGS84，位于岗托以西、昌都以东；作为同普大路的地区参照。旧别名资料不足以单独判定卡工确址。</p><p><a href="https://catweb.ncl.edu.tw/class2007/b11_table07.pdf">国家图书馆：中国图书分类法旧地名索引</a><br/>卡工等旧地名与江达相关的分类线索不能直接当作现代乡村坐标对应证据。</p>]]></description>
         </Placemark>
       </Folder>
-      <Folder id="post_supply_eight_stages">
-        <name>11H 穷八站／富八站｜凝多分界，范围与站址待核</name>
-        <open>0</open>
-        <description><![CDATA[<h3>穷八站、富八站｜校注二十一的驿道供应分段</h3><p>任乃强校注二十一；不是陈渠珍正文的逐站行程表</p><p>按校注二十一，以凝多塘为穷、富两段的分界。穷富描述沿途人烟、农田及住宿和粮运条件的相对差异；拉里因设粮台、有市肆，是穷段中的供应节点。</p><p>八站保留校注原说，不另行裁定起点、终点是否计入，不据其他时代的站名表凑出八站。</p><p>八站不直接换成八天或固定公里数；富段的平坦温和是相对描述，不表示全程没有山口。</p><p>边坝所辖、江达所辖是历史管辖表述，不套用今天的县界；这里的江达为太昭、江达村一带，不是昌都市江达县。</p><p>甲贡塘旧站确址、凝多塘今址及两段全部中间站尚未核定。地图只增加说明，不给未定位地名赋坐标，也不画推测分界线。</p><h3>穷八站</h3><p>甲贡塘〔边坝所辖，旧站确址待考〕 → 凝多塘〔江达所辖，今址待考〕</p><p>经拉里；其余站点不补凑</p><p>沿途多荒山、少村舍，住宿和补给困难。拉里有粮台及市肆，是这一段的例外与供应节点。</p><p>校注称八站，实际行军日数未记</p><h3>富八站</h3><p>凝多塘〔与穷段共用的分界，今址待考〕 → 拉萨</p><p>经江达一带向拉萨；不据本注补全逐站名单</p><p>相较前段，地势较平缓、气候较温和，村庄及农田较密，沿途供应条件较好。</p><p>校注称八站，实际行军日数未记</p><p>甲贡塘〔今加贡乡一带候选〕：今边坝县加贡乡的甲贡弄巴河保留甲贡地名，现代地名库亦有甲贡、甲贡乡异名，可作为地区候选。现代乡驻地、河流名称均不能直接证明清末塘站遗址。</p><p>凝多塘／宁多〔太昭以北古道走廊，待考〕：清代行程资料将宁多放在常多与江达之间。《江达历史考》引旧志记江达北上娘曲、经拉松多至宁多，可沿太昭以北通向娘蒲的娘曲古道考察。此为研究走廊，不把宁多等同娘蒲、拉如或太昭，也不按里程内插坐标。</p><p>陈渠珍此次由恩达北绕类乌齐、三十九族，抵拉里后接回大道，再经凝多到江达。甲贡至拉里不能因此补进作者个人路线；凝多至拉萨也不表示作者此次亲走全段。</p><p>张向明记述1950年侦察进藏时，将穷八站概括为甲贡至太昭以北的拉如，富八站为太昭至拉萨，并强调穷富只是相对而言。它与校注二十一以凝多塘为界的口径并列保留；不据此认定拉如就是凝多，也不合并成一份确定的八站名单。</p><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章、校注二十一</a><br/><a href="https://bianba.changdu.gov.cn/bbxrmzf/c102062/202503/4a9f1f9c47774cb6b4ae949e4a6cc10f.shtml">边坝县政府工作报告：加贡乡甲贡弄巴河地名延续</a><br/><a href="https://mapcarta.com/28398864">现代Jaggong地名与甲贡、甲贡乡异名（仅现代地区参照）</a><br/><a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m">清《西藏记》下卷：宁多、常多与江达行程次序</a><br/><a href="https://www.xizanglywh.com/a1article-587313-1.html">巴桑旺堆《江达历史考》：江达北上娘曲的古道线索</a><br/><a href="https://www.weizhenhealth.com/news_detail-727.html">张向明《十八军先遣侦察科进藏纪实》转载：较晚分段口径</a></p>]]></description>
+      <Folder id="poor_rich_posts">
+        <name>11H 穷八站与富八站｜锚点方向示意，凝多未定位</name>
+        <open>1</open>
+        <visibility>1</visibility>
+        <description><![CDATA[<h3>校注二十一：穷八站与富八站</h3><p><b>核对日期：</b>2026-11-01</p><blockquote>自边坝所辖甲贡塘凡八站至江达所辖之凝多塘。沿途多荒山乏庄房。除拉里以粮台所在、有市肆外，极目荒凉，号为穷八站。自凝多塘至拉萨，地势平坦，气候温和，庄房繁密，农田衔连，号为富八站。</blockquote><p>这段是任乃强校注二十一的驿路与补给条件说明，不是陈渠珍逐站亲历记录；原文所称穷、富是历史道路条件的相对称呼，不评价今天的地方发展。</p><p>穷八站的文字范围为甲贡塘至凝多塘，拉里在其中；富八站从凝多塘至拉萨，包含江达向拉萨的方向。边坝是甲贡所属辖境的参照，不是把甲贡塘放在旧边坝宗驻地。</p><p>甲贡塘暂以今边坝加贡乡地区作候选；凝多塘只可约束在嘉黎旧镇到太昭的旧驿路方向、太昭以北，尚无可靠现代村名与坐标。不给凝多塘虚构点位，也不将穷富分界硬切在江达。</p><p>棕色虚线只示甲贡候选至拉里的穷八站内部方向；灰色虚线示拉里至江达之间凝多待考的过渡方向；绿色虚线只示江达至拉萨的富八站内部方向。三线均为代表点直连示意，不是完整八站、历史古道或现代导航路线。</p><p>八站不自动换作八日。正文另记拉里出发两日至凝多塘、翌日抵江达；与北返从江达经凝多后绕避拉里的路线分开。古籍里数、现代锚点直距与实走路程分列，不用古里机械乘0.5换算。</p><p>张向明记述1950年侦察进藏时，将穷八站概括为甲贡至太昭以北的拉如，富八站为太昭至拉萨，并强调穷富只是相对而言。它与校注二十一以凝多塘为界的口径并列保留；不据此认定拉如就是凝多，也不合并成一份确定的八站名单。</p><h3>清代《西藏记》八站顺序对读</h3><p><b>1 甲贡塘</b><br/>今加贡乡一带候选；旧塘站确址未定。</p><p><b>2 多洞塘</b><br/>仅录古籍站名，现代点位未考。</p><p><b>3 萨竹卡〔另见插竹卡／叉杵卡〕</b><br/>不同资料的异写线索，旧站现代对应未核，不赋坐标。</p><p><b>4 拉里台</b><br/>用嘉黎旧镇地区参照，粮台建筑确址未定。</p><p><b>5 阿咱塘〔另见阿杂〕</b><br/>现代对应未核，不直接等同今日阿扎县城。</p><p><b>6 山湾塘</b><br/>仅录古籍站名，现代点位未考。</p><p><b>7 常多塘</b><br/>位于宁多之前的旧站，现代点位未考。</p><p><b>8 宁多塘〔凝多塘对应线索〕</b><br/>与本书凝多塘作旧名对读，方位可约束，确切村点未定。</p><p>以上为文字顺序对读，不表示八个旧站已全部定位。富八站保留校注的概称，不用今村名或其他时期站表硬凑八站。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章及任乃强校注二十一</a><br/>用户所引穷八站、富八站的范围；正文拉里两日至凝多、翌日江达。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c102062/202403/b9493ccd07064ac09c03ae3bbbfedf10.shtml">边坝县政府：政府工作报告（2024年3月发布）</a><br/>加贡乡霞曲支流甲贡弄巴河道治理工程，印证甲贡、加贡在当地的称名联系，未指认旧驿站。</p><p><a href="https://mapcarta.com/28398864">现代Jaggong地名与甲贡、甲贡乡异名（仅现代地区参照）</a><br/></p><p><a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m">清代《西藏记》下卷：程途</a><br/>甲贡、多洞、萨竹卡、拉里、阿咱、山湾、常多、宁多的文字顺序；另书对照，不等于已完成现代定位。宁多至江达古里数不转换现代直距。</p><p><a href="https://www.xizanglywh.com/a1article-587313-1.html">巴桑旺堆《江达历史考》：江达北上娘曲的古道线索</a><br/></p><p><a href="https://www.weizhenhealth.com/news_detail-727.html">张向明《十八军先遣侦察科进藏纪实》转载：较晚分段口径</a><br/></p><p><a href="https://read.99csw.com/book/554/17574.html">《艽野尘梦》第八章及校注四十四</a><br/>北返江达先宿凝多，随后避过拉里；不与前次进军路线混画。</p><p><a href="https://www.tibetol.cn/2013/03/07/d736a1b2ba8e11eeb3d00c42a1e8003a.html">西藏在线：驿传制度</a><br/>康藏驿道中甲贡至宁多、江达至拉萨的旧名顺序及部分异写。站制、时代和小站数不同，不硬凑富八个现代点。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名表：Jaggong／加贡与Banbar／夏林</a><br/>加贡乡、加贡村现代地名代表坐标30°41′31″N、93°57′20″E；不证明历史塘铺遗址。旧边坝宗所在镇村地区点亦见此表。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c105853/202101/77e3fb1cf995426f96df94dd346c69b0.shtml">边坝县政府：边坝县历史沿革</a><br/>原边坝宗以今边坝镇夏林村为驻地，1968年县址迁移；辖境与驻地点分开。</p><p><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">中国社会科学院：西藏林芝工布江达寻古</a><br/>旧江达与今太昭／江达村的对应，现代工布江达县城向西约20公里。</p>]]></description>
         <LookAt>
-          <longitude>93.0</longitude>
-          <latitude>30.2</latitude>
+          <longitude>92.989055555</longitude>
+          <latitude>30.239583335</latitude>
           <altitude>0</altitude>
           <heading>0</heading>
           <tilt>0</tilt>
-          <range>550000</range>
+          <range>457340</range>
           <altitudeMode>clampToGround</altitudeMode>
         </LookAt>
-        <Placemark id="post_supply_poor">
-          <name>穷八站｜甲贡塘〔边坝所辖，旧站确址待考〕 → 凝多塘〔江达所辖，今址待考〕</name>
-          <description><![CDATA[<h3>穷八站</h3><p>甲贡塘〔边坝所辖，旧站确址待考〕 → 凝多塘〔江达所辖，今址待考〕</p><p>经拉里；其余站点不补凑</p><p>沿途多荒山、少村舍，住宿和补给困难。拉里有粮台及市肆，是这一段的例外与供应节点。</p><p>校注称八站，实际行军日数未记</p><p>八站保留校注原说，不另行裁定起点、终点是否计入，不据其他时代的站名表凑出八站。</p><p>八站不直接换成八天或固定公里数；富段的平坦温和是相对描述，不表示全程没有山口。</p><p>边坝所辖、江达所辖是历史管辖表述，不套用今天的县界；这里的江达为太昭、江达村一带，不是昌都市江达县。</p><p>甲贡塘旧站确址、凝多塘今址及两段全部中间站尚未核定。地图只增加说明，不给未定位地名赋坐标，也不画推测分界线。</p><p>陈渠珍此次由恩达北绕类乌齐、三十九族，抵拉里后接回大道，再经凝多到江达。甲贡至拉里不能因此补进作者个人路线；凝多至拉萨也不表示作者此次亲走全段。</p><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章、校注二十一</a></p>]]></description>
+        <Placemark id="poor_rich_overview">
+          <name>校注、八站文字顺序与定位限制〔点击阅读〕</name>
+          <description><![CDATA[<h3>校注二十一：穷八站与富八站</h3><p><b>核对日期：</b>2026-11-01</p><blockquote>自边坝所辖甲贡塘凡八站至江达所辖之凝多塘。沿途多荒山乏庄房。除拉里以粮台所在、有市肆外，极目荒凉，号为穷八站。自凝多塘至拉萨，地势平坦，气候温和，庄房繁密，农田衔连，号为富八站。</blockquote><p>这段是任乃强校注二十一的驿路与补给条件说明，不是陈渠珍逐站亲历记录；原文所称穷、富是历史道路条件的相对称呼，不评价今天的地方发展。</p><p>穷八站的文字范围为甲贡塘至凝多塘，拉里在其中；富八站从凝多塘至拉萨，包含江达向拉萨的方向。边坝是甲贡所属辖境的参照，不是把甲贡塘放在旧边坝宗驻地。</p><p>甲贡塘暂以今边坝加贡乡地区作候选；凝多塘只可约束在嘉黎旧镇到太昭的旧驿路方向、太昭以北，尚无可靠现代村名与坐标。不给凝多塘虚构点位，也不将穷富分界硬切在江达。</p><p>棕色虚线只示甲贡候选至拉里的穷八站内部方向；灰色虚线示拉里至江达之间凝多待考的过渡方向；绿色虚线只示江达至拉萨的富八站内部方向。三线均为代表点直连示意，不是完整八站、历史古道或现代导航路线。</p><p>八站不自动换作八日。正文另记拉里出发两日至凝多塘、翌日抵江达；与北返从江达经凝多后绕避拉里的路线分开。古籍里数、现代锚点直距与实走路程分列，不用古里机械乘0.5换算。</p><p>张向明记述1950年侦察进藏时，将穷八站概括为甲贡至太昭以北的拉如，富八站为太昭至拉萨，并强调穷富只是相对而言。它与校注二十一以凝多塘为界的口径并列保留；不据此认定拉如就是凝多，也不合并成一份确定的八站名单。</p><h3>清代《西藏记》八站顺序对读</h3><p><b>1 甲贡塘</b><br/>今加贡乡一带候选；旧塘站确址未定。</p><p><b>2 多洞塘</b><br/>仅录古籍站名，现代点位未考。</p><p><b>3 萨竹卡〔另见插竹卡／叉杵卡〕</b><br/>不同资料的异写线索，旧站现代对应未核，不赋坐标。</p><p><b>4 拉里台</b><br/>用嘉黎旧镇地区参照，粮台建筑确址未定。</p><p><b>5 阿咱塘〔另见阿杂〕</b><br/>现代对应未核，不直接等同今日阿扎县城。</p><p><b>6 山湾塘</b><br/>仅录古籍站名，现代点位未考。</p><p><b>7 常多塘</b><br/>位于宁多之前的旧站，现代点位未考。</p><p><b>8 宁多塘〔凝多塘对应线索〕</b><br/>与本书凝多塘作旧名对读，方位可约束，确切村点未定。</p><p>以上为文字顺序对读，不表示八个旧站已全部定位。富八站保留校注的概称，不用今村名或其他时期站表硬凑八站。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章及任乃强校注二十一</a><br/>用户所引穷八站、富八站的范围；正文拉里两日至凝多、翌日江达。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c102062/202403/b9493ccd07064ac09c03ae3bbbfedf10.shtml">边坝县政府：政府工作报告（2024年3月发布）</a><br/>加贡乡霞曲支流甲贡弄巴河道治理工程，印证甲贡、加贡在当地的称名联系，未指认旧驿站。</p><p><a href="https://mapcarta.com/28398864">现代Jaggong地名与甲贡、甲贡乡异名（仅现代地区参照）</a><br/></p><p><a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m">清代《西藏记》下卷：程途</a><br/>甲贡、多洞、萨竹卡、拉里、阿咱、山湾、常多、宁多的文字顺序；另书对照，不等于已完成现代定位。宁多至江达古里数不转换现代直距。</p><p><a href="https://www.xizanglywh.com/a1article-587313-1.html">巴桑旺堆《江达历史考》：江达北上娘曲的古道线索</a><br/></p><p><a href="https://www.weizhenhealth.com/news_detail-727.html">张向明《十八军先遣侦察科进藏纪实》转载：较晚分段口径</a><br/></p><p><a href="https://read.99csw.com/book/554/17574.html">《艽野尘梦》第八章及校注四十四</a><br/>北返江达先宿凝多，随后避过拉里；不与前次进军路线混画。</p><p><a href="https://www.tibetol.cn/2013/03/07/d736a1b2ba8e11eeb3d00c42a1e8003a.html">西藏在线：驿传制度</a><br/>康藏驿道中甲贡至宁多、江达至拉萨的旧名顺序及部分异写。站制、时代和小站数不同，不硬凑富八个现代点。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名表：Jaggong／加贡与Banbar／夏林</a><br/>加贡乡、加贡村现代地名代表坐标30°41′31″N、93°57′20″E；不证明历史塘铺遗址。旧边坝宗所在镇村地区点亦见此表。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c105853/202101/77e3fb1cf995426f96df94dd346c69b0.shtml">边坝县政府：边坝县历史沿革</a><br/>原边坝宗以今边坝镇夏林村为驻地，1968年县址迁移；辖境与驻地点分开。</p><p><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">中国社会科学院：西藏林芝工布江达寻古</a><br/>旧江达与今太昭／江达村的对应，现代工布江达县城向西约20公里。</p>]]></description>
         </Placemark>
-        <Placemark id="post_supply_rich">
-          <name>富八站｜凝多塘〔与穷段共用的分界，今址待考〕 → 拉萨</name>
-          <description><![CDATA[<h3>富八站</h3><p>凝多塘〔与穷段共用的分界，今址待考〕 → 拉萨</p><p>经江达一带向拉萨；不据本注补全逐站名单</p><p>相较前段，地势较平缓、气候较温和，村庄及农田较密，沿途供应条件较好。</p><p>校注称八站，实际行军日数未记</p><p>八站保留校注原说，不另行裁定起点、终点是否计入，不据其他时代的站名表凑出八站。</p><p>八站不直接换成八天或固定公里数；富段的平坦温和是相对描述，不表示全程没有山口。</p><p>边坝所辖、江达所辖是历史管辖表述，不套用今天的县界；这里的江达为太昭、江达村一带，不是昌都市江达县。</p><p>甲贡塘旧站确址、凝多塘今址及两段全部中间站尚未核定。地图只增加说明，不给未定位地名赋坐标，也不画推测分界线。</p><p>陈渠珍此次由恩达北绕类乌齐、三十九族，抵拉里后接回大道，再经凝多到江达。甲贡至拉里不能因此补进作者个人路线；凝多至拉萨也不表示作者此次亲走全段。</p><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章、校注二十一</a></p>]]></description>
-        </Placemark>
-        <Placemark id="post_supply_jiagong">
-          <name>甲贡塘〔今加贡乡一带候选〕【未定位】</name>
-          <description><![CDATA[<p>地名延续线索；旧塘站未定位</p><p>今边坝县加贡乡的甲贡弄巴河保留甲贡地名，现代地名库亦有甲贡、甲贡乡异名，可作为地区候选。现代乡驻地、河流名称均不能直接证明清末塘站遗址。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c102062/202503/4a9f1f9c47774cb6b4ae949e4a6cc10f.shtml">边坝县政府工作报告：加贡乡甲贡弄巴河地名延续</a><br/><a href="https://mapcarta.com/28398864">现代Jaggong地名与甲贡、甲贡乡异名（仅现代地区参照）</a></p>]]></description>
-        </Placemark>
-        <Placemark id="post_supply_ningduo">
-          <name>凝多塘／宁多〔太昭以北古道走廊，待考〕【未定位】</name>
-          <description><![CDATA[<p>旧译名与行程关系线索；具体今址未定</p><p>清代行程资料将宁多放在常多与江达之间。《江达历史考》引旧志记江达北上娘曲、经拉松多至宁多，可沿太昭以北通向娘蒲的娘曲古道考察。此为研究走廊，不把宁多等同娘蒲、拉如或太昭，也不按里程内插坐标。</p><p><a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m">清《西藏记》下卷：宁多、常多与江达行程次序</a><br/><a href="https://www.xizanglywh.com/a1article-587313-1.html">巴桑旺堆《江达历史考》：江达北上娘曲的古道线索</a></p>]]></description>
-        </Placemark>
-        <Placemark id="post_supply_later_comparison">
-          <name>另一个时段的分段记述｜不合并边界</name>
-          <description><![CDATA[<p>张向明记述1950年侦察进藏时，将穷八站概括为甲贡至太昭以北的拉如，富八站为太昭至拉萨，并强调穷富只是相对而言。它与校注二十一以凝多塘为界的口径并列保留；不据此认定拉如就是凝多，也不合并成一份确定的八站名单。</p><p><a href="https://www.weizhenhealth.com/news_detail-727.html">张向明《十八军先遣侦察科进藏纪实》转载：较晚分段口径</a></p>]]></description>
-        </Placemark>
+        <Folder id="poor_rich_places">
+          <name>地点｜甲贡为候选，凝多无坐标，已有地点复用主图</name>
+          <open>1</open>
+          <Placemark id="poor_rich_place_bianba">
+            <name>边坝〔旧宗驻地所在地区；辖境背景〕</name>
+            <description><![CDATA[<h3>边坝〔旧宗驻地所在地区；辖境背景〕</h3><p><b>今名／定位对象：</b>昌都市边坝县边坝镇夏林村一带<br/><b>定位性质：</b>旧宗驻地的现代镇村地区参照</p><p>复用08小地名层的边坝参照点。县政府确认原边坝宗驻地在今夏林村；本点只帮助读懂“边坝所辖”，不是甲贡塘本身，不把边坝至甲贡另算入校注的穷八站，也不接入陈渠珍个人行军线。</p><p>区域／代表点坐标：94.8461°E，30.8292°N。小数位是存储格式，不代表旧驿站或营地已精确定位。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c105853/202101/77e3fb1cf995426f96df94dd346c69b0.shtml">边坝县政府：边坝县历史沿革</a><br/>原边坝宗以今边坝镇夏林村为驻地，1968年县址迁移；辖境与驻地点分开。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名表：Jaggong／加贡与Banbar／夏林</a><br/>加贡乡、加贡村现代地名代表坐标30°41′31″N、93°57′20″E；不证明历史塘铺遗址。旧边坝宗所在镇村地区点亦见此表。</p>]]></description>
+            <visibility>1</visibility>
+            <styleUrl>#poor_rich_point</styleUrl>
+            <LookAt>
+              <longitude>94.84611111</longitude>
+              <latitude>30.82916667</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>85000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <Point>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.84611111,30.82916667,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark id="poor_rich_place_jiagong">
+            <name>甲贡塘〔今加贡乡一带候选，旧站未定〕</name>
+            <description><![CDATA[<h3>甲贡塘〔今加贡乡一带候选，旧站未定〕</h3><p><b>今名／定位对象：</b>昌都市边坝县加贡乡、加贡村一带（候选）<br/><b>定位性质：</b>古今对应候选，现代地区点，旧塘址未证实</p><p>KNAB将Jaggong／Chakgong对应加贡乡、加贡村；县政府报告所记加贡乡甲贡弄巴河道可交叉印证称名及地域关系。该地区在阿兰多以西、嘉黎旧镇以东，与清代站序相合。以上仍不足以证明旧甲贡塘的具体建筑位置；坐标取现代乡村地名点，基准未明确，不能当古站测绘点，也不误取嘉黎西部另一Chagong。</p><p>区域／代表点坐标：93.9556°E，30.6919°N。小数位是存储格式，不代表旧驿站或营地已精确定位。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名表：Jaggong／加贡与Banbar／夏林</a><br/>加贡乡、加贡村现代地名代表坐标30°41′31″N、93°57′20″E；不证明历史塘铺遗址。旧边坝宗所在镇村地区点亦见此表。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c102062/202403/b9493ccd07064ac09c03ae3bbbfedf10.shtml">边坝县政府：政府工作报告（2024年3月发布）</a><br/>加贡乡霞曲支流甲贡弄巴河道治理工程，印证甲贡、加贡在当地的称名联系，未指认旧驿站。</p><p><a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m">清代《西藏记》下卷：程途</a><br/>甲贡、多洞、萨竹卡、拉里、阿咱、山湾、常多、宁多的文字顺序；另书对照，不等于已完成现代定位。宁多至江达古里数不转换现代直距。</p><p><a href="https://www.tibetol.cn/2013/03/07/d736a1b2ba8e11eeb3d00c42a1e8003a.html">西藏在线：驿传制度</a><br/>康藏驿道中甲贡至宁多、江达至拉萨的旧名顺序及部分异写。站制、时代和小站数不同，不硬凑富八个现代点。</p>]]></description>
+            <visibility>1</visibility>
+            <styleUrl>#poor_rich_uncertain</styleUrl>
+            <LookAt>
+              <longitude>93.95556</longitude>
+              <latitude>30.69194</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>85000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <Point>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.95556,30.69194,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark id="poor_rich_place_lhari">
+            <name>拉里〔嘉黎旧镇一带；粮台所在地区〕【复用主图原点】</name>
+            <description><![CDATA[<h3>拉里〔嘉黎旧镇一带；粮台所在地区〕</h3><p><b>今名／定位对象：</b>那曲市嘉黎县嘉黎镇一带<br/><b>定位性质：</b>旧镇地区参照，粮台建筑确址未定</p><p>复用主图15号点，区分嘉黎旧镇与现代阿扎县城。校注二十一将拉里列为穷八站沿途有粮台、市肆的例外；正文从拉里出发两日至凝多塘、翌日抵江达，未给本段其余各站逐站耗时。</p><p>区域／代表点坐标：93.3458°E，30.7423°N。小数位是存储格式，不代表旧驿站或营地已精确定位。</p><p>本图层复用完整阅读地图原有地点；此条仅为对读说明，点击主图原点查看位置。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章及任乃强校注二十一</a><br/>用户所引穷八站、富八站的范围；正文拉里两日至凝多、翌日江达。</p><p><a href="https://www.tibetol.cn/2013/03/07/d736a1b2ba8e11eeb3d00c42a1e8003a.html">西藏在线：驿传制度</a><br/>康藏驿道中甲贡至宁多、江达至拉萨的旧名顺序及部分异写。站制、时代和小站数不同，不硬凑富八个现代点。</p>]]></description>
+          </Placemark>
+          <Placemark id="poor_rich_place_ningdo">
+            <name>凝多塘／宁多塘【站址未定位；穷富分界待考】【未定位，无几何】</name>
+            <description><![CDATA[<h3>凝多塘／宁多塘【站址未定位；穷富分界待考】</h3><p><b>今名／定位对象：</b>嘉黎旧镇至太昭之间的旧驿路方向，太昭以北；具体村点待考<br/><b>定位性质：</b>仅有站序及相对方位约束，不赋坐标</p><p>正文拉里→两日到凝多→翌日江达；第8章江达出发首宿凝多，继而北行避过拉里。古籍所列拉里→阿咱→山湾→常多→宁多→江达可作旧名顺序对照。宁多／凝多的异写对应为研究判断，确切现代村落尚未核定；不用娘蒲乡驻地、拉如村或线段中点冒认旧站。灰线只提示所在走廊，不给分界点坐标。</p><p>此条不含坐标和地图几何，不在两锚点之间插值造点。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章及任乃强校注二十一</a><br/>用户所引穷八站、富八站的范围；正文拉里两日至凝多、翌日江达。</p><p><a href="https://read.99csw.com/book/554/17574.html">《艽野尘梦》第八章及校注四十四</a><br/>北返江达先宿凝多，随后避过拉里；不与前次进军路线混画。</p><p><a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m">清代《西藏记》下卷：程途</a><br/>甲贡、多洞、萨竹卡、拉里、阿咱、山湾、常多、宁多的文字顺序；另书对照，不等于已完成现代定位。宁多至江达古里数不转换现代直距。</p><p><a href="https://www.tibetol.cn/2013/03/07/d736a1b2ba8e11eeb3d00c42a1e8003a.html">西藏在线：驿传制度</a><br/>康藏驿道中甲贡至宁多、江达至拉萨的旧名顺序及部分异写。站制、时代和小站数不同，不硬凑富八个现代点。</p>]]></description>
+          </Placemark>
+          <Placemark id="poor_rich_place_taizhao">
+            <name>江达〔今太昭／江达村一带〕【复用主图原点】</name>
+            <description><![CDATA[<h3>江达〔今太昭／江达村一带〕</h3><p><b>今名／定位对象：</b>林芝市工布江达县江达村、太昭古城一带<br/><b>定位性质：</b>区域参照，旧站及陈部驻地确址未定</p><p>复用主图16号江达点。社科院考察将旧江达对应今太昭／江达村，区别昌都市江达县与工布江达现代县城。按校注的凝多分界，江达是富八站方向中的已知锚点，不将它写成穷八站的已证实终点。</p><p>区域／代表点坐标：93.0800°E，30.0000°N。小数位是存储格式，不代表旧驿站或营地已精确定位。</p><p>本图层复用完整阅读地图原有地点；此条仅为对读说明，点击主图原点查看位置。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">中国社会科学院：西藏林芝工布江达寻古</a><br/>旧江达与今太昭／江达村的对应，现代工布江达县城向西约20公里。</p><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章及任乃强校注二十一</a><br/>用户所引穷八站、富八站的范围；正文拉里两日至凝多、翌日江达。</p><p><a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m">清代《西藏记》下卷：程途</a><br/>甲贡、多洞、萨竹卡、拉里、阿咱、山湾、常多、宁多的文字顺序；另书对照，不等于已完成现代定位。宁多至江达古里数不转换现代直距。</p>]]></description>
+          </Placemark>
+          <Placemark id="poor_rich_place_lhasa">
+            <name>拉萨〔富八站西端；驿路背景〕【复用主图原点】</name>
+            <description><![CDATA[<h3>拉萨〔富八站西端；驿路背景〕</h3><p><b>今名／定位对象：</b>拉萨旧城方向的城市代表点<br/><b>定位性质：</b>城市代表点，非驿署遗址</p><p>复用11A南路对照点，表示校注富八站西端，不据此把陈渠珍本次行程画为亲至拉萨。绿色直连江达至拉萨省略途中诸站，只示向西的大致方向，不能沿线测量古道。</p><p>区域／代表点坐标：91.1320°E，29.6500°N。小数位是存储格式，不代表旧驿站或营地已精确定位。</p><p>本图层复用完整阅读地图原有地点；此条仅为对读说明，点击主图原点查看位置。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章及任乃强校注二十一</a><br/>用户所引穷八站、富八站的范围；正文拉里两日至凝多、翌日江达。</p><p><a href="https://www.tibetol.cn/2013/03/07/d736a1b2ba8e11eeb3d00c42a1e8003a.html">西藏在线：驿传制度</a><br/>康藏驿道中甲贡至宁多、江达至拉萨的旧名顺序及部分异写。站制、时代和小站数不同，不硬凑富八个现代点。</p>]]></description>
+          </Placemark>
+        </Folder>
+        <Folder id="poor_rich_routes">
+          <name>三段方向示意｜灰色过渡带不确定穷富分界</name>
+          <open>1</open>
+          <Placemark id="poor_rich_route_poor">
+            <name>穷八站内部方向｜甲贡候选→拉里〔非全段〕</name>
+            <description><![CDATA[<h3>穷八站内部方向｜甲贡候选→拉里〔非全段〕</h3><p>校注穷八站为甲贡塘至凝多塘。此线只连接可粗定位的甲贡候选与拉里，省略多洞、萨竹卡等待考旧站；凝多尚未定位，不能将这条线当作完整八站或全程里数。</p><p><b>文字顺序：</b>甲贡塘〔今加贡乡一带候选，旧站未定〕 → 拉里〔嘉黎旧镇一带；粮台所在地区〕</p><h3>可定位锚点的直距</h3><p>甲贡塘〔今加贡乡一带候选，旧站未定〕 → 拉里〔嘉黎旧镇一带；粮台所在地区〕：锚点直距约 59 km。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章及任乃强校注二十一</a><br/>用户所引穷八站、富八站的范围；正文拉里两日至凝多、翌日江达。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c102062/202403/b9493ccd07064ac09c03ae3bbbfedf10.shtml">边坝县政府：政府工作报告（2024年3月发布）</a><br/>加贡乡霞曲支流甲贡弄巴河道治理工程，印证甲贡、加贡在当地的称名联系，未指认旧驿站。</p><p><a href="https://mapcarta.com/28398864">现代Jaggong地名与甲贡、甲贡乡异名（仅现代地区参照）</a><br/></p><p><a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m">清代《西藏记》下卷：程途</a><br/>甲贡、多洞、萨竹卡、拉里、阿咱、山湾、常多、宁多的文字顺序；另书对照，不等于已完成现代定位。宁多至江达古里数不转换现代直距。</p><p><a href="https://www.xizanglywh.com/a1article-587313-1.html">巴桑旺堆《江达历史考》：江达北上娘曲的古道线索</a><br/></p><p><a href="https://www.weizhenhealth.com/news_detail-727.html">张向明《十八军先遣侦察科进藏纪实》转载：较晚分段口径</a><br/></p><p><a href="https://read.99csw.com/book/554/17574.html">《艽野尘梦》第八章及校注四十四</a><br/>北返江达先宿凝多，随后避过拉里；不与前次进军路线混画。</p><p><a href="https://www.tibetol.cn/2013/03/07/d736a1b2ba8e11eeb3d00c42a1e8003a.html">西藏在线：驿传制度</a><br/>康藏驿道中甲贡至宁多、江达至拉萨的旧名顺序及部分异写。站制、时代和小站数不同，不硬凑富八个现代点。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名表：Jaggong／加贡与Banbar／夏林</a><br/>加贡乡、加贡村现代地名代表坐标30°41′31″N、93°57′20″E；不证明历史塘铺遗址。旧边坝宗所在镇村地区点亦见此表。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c105853/202101/77e3fb1cf995426f96df94dd346c69b0.shtml">边坝县政府：边坝县历史沿革</a><br/>原边坝宗以今边坝镇夏林村为驻地，1968年县址迁移；辖境与驻地点分开。</p><p><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">中国社会科学院：西藏林芝工布江达寻古</a><br/>旧江达与今太昭／江达村的对应，现代工布江达县城向西约20公里。</p>]]></description>
+            <LookAt>
+              <longitude>93.65068</longitude>
+              <latitude>30.71712</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>90000</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <visibility>1</visibility>
+            <styleUrl>#poor_rich_line_poor</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.955560,30.691940,0 93.923852,30.694559,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.894584,30.696976,0 93.862876,30.699595,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.833608,30.702012,0 93.801900,30.704631,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.772632,30.707048,0 93.740924,30.709667,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.711656,30.712084,0 93.679948,30.714703,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.650680,30.717120,0 93.618972,30.719739,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.589704,30.722156,0 93.557996,30.724775,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.528728,30.727192,0 93.497020,30.729811,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.467752,30.732228,0 93.436044,30.734847,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.406776,30.737264,0 93.375068,30.739883,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="poor_rich_route_transition">
+            <name>凝多塘待考走廊｜拉里→江达〔不精划穷富界〕</name>
+            <description><![CDATA[<h3>凝多塘待考走廊｜拉里→江达〔不精划穷富界〕</h3><p>仅表示凝多所在旧驿路的前后关系。拉里到江达之间的旧道、凝多站位与穷富分界未落实；直线并未经过已知凝多坐标，不能按这条线的中点或长度比例给凝多落点。此线跨越文字上的穷富分界，故不涂作完整穷八站或富八站。</p><p><b>文字顺序：</b>拉里〔嘉黎旧镇一带；粮台所在地区〕 → 江达〔今太昭／江达村一带〕</p><h3>可定位锚点的直距</h3><p>拉里〔嘉黎旧镇一带；粮台所在地区〕 → 江达〔今太昭／江达村一带〕：锚点直距约 86 km。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章及任乃强校注二十一</a><br/>用户所引穷八站、富八站的范围；正文拉里两日至凝多、翌日江达。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c102062/202403/b9493ccd07064ac09c03ae3bbbfedf10.shtml">边坝县政府：政府工作报告（2024年3月发布）</a><br/>加贡乡霞曲支流甲贡弄巴河道治理工程，印证甲贡、加贡在当地的称名联系，未指认旧驿站。</p><p><a href="https://mapcarta.com/28398864">现代Jaggong地名与甲贡、甲贡乡异名（仅现代地区参照）</a><br/></p><p><a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m">清代《西藏记》下卷：程途</a><br/>甲贡、多洞、萨竹卡、拉里、阿咱、山湾、常多、宁多的文字顺序；另书对照，不等于已完成现代定位。宁多至江达古里数不转换现代直距。</p><p><a href="https://www.xizanglywh.com/a1article-587313-1.html">巴桑旺堆《江达历史考》：江达北上娘曲的古道线索</a><br/></p><p><a href="https://www.weizhenhealth.com/news_detail-727.html">张向明《十八军先遣侦察科进藏纪实》转载：较晚分段口径</a><br/></p><p><a href="https://read.99csw.com/book/554/17574.html">《艽野尘梦》第八章及校注四十四</a><br/>北返江达先宿凝多，随后避过拉里；不与前次进军路线混画。</p><p><a href="https://www.tibetol.cn/2013/03/07/d736a1b2ba8e11eeb3d00c42a1e8003a.html">西藏在线：驿传制度</a><br/>康藏驿道中甲贡至宁多、江达至拉萨的旧名顺序及部分异写。站制、时代和小站数不同，不硬凑富八个现代点。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名表：Jaggong／加贡与Banbar／夏林</a><br/>加贡乡、加贡村现代地名代表坐标30°41′31″N、93°57′20″E；不证明历史塘铺遗址。旧边坝宗所在镇村地区点亦见此表。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c105853/202101/77e3fb1cf995426f96df94dd346c69b0.shtml">边坝县政府：边坝县历史沿革</a><br/>原边坝宗以今边坝镇夏林村为驻地，1968年县址迁移；辖境与驻地点分开。</p><p><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">中国社会科学院：西藏林芝工布江达寻古</a><br/>旧江达与今太昭／江达村的对应，现代工布江达县城向西约20公里。</p>]]></description>
+            <LookAt>
+              <longitude>93.21289999999999</longitude>
+              <latitude>30.37115</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>103684</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <visibility>1</visibility>
+            <styleUrl>#poor_rich_line_transition</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.345800,30.742300,0 93.336586,30.716567,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.328080,30.692813,0 93.318866,30.667080,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.310360,30.643327,0 93.301146,30.617594,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.292640,30.593840,0 93.283426,30.568107,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.274920,30.544353,0 93.265706,30.518620,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.257200,30.494867,0 93.247986,30.469134,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.239480,30.445380,0 93.230266,30.419647,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.221760,30.395893,0 93.212546,30.370160,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.204040,30.346407,0 93.194826,30.320674,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.186320,30.296920,0 93.177106,30.271187,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.168600,30.247433,0 93.159386,30.221700,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.150880,30.197947,0 93.141666,30.172214,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.133160,30.148460,0 93.123946,30.122727,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.115440,30.098973,0 93.106226,30.073240,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.097720,30.049487,0 93.088506,30.023754,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+          <Placemark id="poor_rich_route_rich">
+            <name>富八站内部方向｜江达→拉萨〔起点凝多未定〕</name>
+            <description><![CDATA[<h3>富八站内部方向｜江达→拉萨〔起点凝多未定〕</h3><p>校注富八站从凝多塘起至拉萨。此线仅连接江达、拉萨两个已知地区锚点，起始凝多至江达段及中间驿站未复原；绿色线不表示江达就是分界，不套现代G318轨迹，也不作为陈渠珍本次亲走的完整路线。</p><p><b>文字顺序：</b>江达〔今太昭／江达村一带〕 → 拉萨〔富八站西端；驿路背景〕</p><h3>可定位锚点的直距</h3><p>江达〔今太昭／江达村一带〕 → 拉萨〔富八站西端；驿路背景〕：锚点直距约 192 km。</p><p>虚线只连接可定位的代表锚点，表示大致方向，不是古道轨迹、现代公路或完整驿站段。锚点直距不是历史实走里程；不据站数、旧里数或直距推算行走日数。凝多塘位置及穷富分界未定，未把直线上的任何位置认定为凝多塘。</p><h3>依据与来源</h3><p><a href="https://www.99csw.com/book/554/17568.htm">《艽野尘梦》第三章及任乃强校注二十一</a><br/>用户所引穷八站、富八站的范围；正文拉里两日至凝多、翌日江达。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c102062/202403/b9493ccd07064ac09c03ae3bbbfedf10.shtml">边坝县政府：政府工作报告（2024年3月发布）</a><br/>加贡乡霞曲支流甲贡弄巴河道治理工程，印证甲贡、加贡在当地的称名联系，未指认旧驿站。</p><p><a href="https://mapcarta.com/28398864">现代Jaggong地名与甲贡、甲贡乡异名（仅现代地区参照）</a><br/></p><p><a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m">清代《西藏记》下卷：程途</a><br/>甲贡、多洞、萨竹卡、拉里、阿咱、山湾、常多、宁多的文字顺序；另书对照，不等于已完成现代定位。宁多至江达古里数不转换现代直距。</p><p><a href="https://www.xizanglywh.com/a1article-587313-1.html">巴桑旺堆《江达历史考》：江达北上娘曲的古道线索</a><br/></p><p><a href="https://www.weizhenhealth.com/news_detail-727.html">张向明《十八军先遣侦察科进藏纪实》转载：较晚分段口径</a><br/></p><p><a href="https://read.99csw.com/book/554/17574.html">《艽野尘梦》第八章及校注四十四</a><br/>北返江达先宿凝多，随后避过拉里；不与前次进军路线混画。</p><p><a href="https://www.tibetol.cn/2013/03/07/d736a1b2ba8e11eeb3d00c42a1e8003a.html">西藏在线：驿传制度</a><br/>康藏驿道中甲贡至宁多、江达至拉萨的旧名顺序及部分异写。站制、时代和小站数不同，不硬凑富八个现代点。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm">KNAB昌都地名表：Jaggong／加贡与Banbar／夏林</a><br/>加贡乡、加贡村现代地名代表坐标30°41′31″N、93°57′20″E；不证明历史塘铺遗址。旧边坝宗所在镇村地区点亦见此表。</p><p><a href="https://bianba.changdu.gov.cn/bbxrmzf/c105853/202101/77e3fb1cf995426f96df94dd346c69b0.shtml">边坝县政府：边坝县历史沿革</a><br/>原边坝宗以今边坝镇夏林村为驻地，1968年县址迁移；辖境与驻地点分开。</p><p><a href="https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml">中国社会科学院：西藏林芝工布江达寻古</a><br/>旧江达与今太昭／江达村的对应，现代工布江达县城向西约20公里。</p>]]></description>
+            <LookAt>
+              <longitude>92.106</longitude>
+              <latitude>29.825</latitude>
+              <altitude>0</altitude>
+              <heading>0</heading>
+              <tilt>0</tilt>
+              <range>230479</range>
+              <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <visibility>1</visibility>
+            <styleUrl>#poor_rich_line_rich</styleUrl>
+            <MultiGeometry>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.080000,30.000000,0 93.048345,29.994312,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>93.019125,29.989062,0 92.987470,29.983375,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.958250,29.978125,0 92.926595,29.972438,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.897375,29.967188,0 92.865720,29.961500,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.836500,29.956250,0 92.804845,29.950563,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.775625,29.945312,0 92.743970,29.939625,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.714750,29.934375,0 92.683095,29.928687,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.653875,29.923437,0 92.622220,29.917750,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.593000,29.912500,0 92.561345,29.906813,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.532125,29.901563,0 92.500470,29.895875,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.471250,29.890625,0 92.439595,29.884937,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.410375,29.879687,0 92.378720,29.874000,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.349500,29.868750,0 92.317845,29.863062,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.288625,29.857812,0 92.256970,29.852125,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.227750,29.846875,0 92.196095,29.841188,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.166875,29.835938,0 92.135220,29.830250,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.106000,29.825000,0 92.074345,29.819312,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>92.045125,29.814062,0 92.013470,29.808375,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.984250,29.803125,0 91.952595,29.797438,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.923375,29.792188,0 91.891720,29.786500,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.862500,29.781250,0 91.830845,29.775562,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.801625,29.770312,0 91.769970,29.764625,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.740750,29.759375,0 91.709095,29.753687,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.679875,29.748437,0 91.648220,29.742750,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.619000,29.737500,0 91.587345,29.731813,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.558125,29.726562,0 91.526470,29.720875,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.497250,29.715625,0 91.465595,29.709937,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.436375,29.704687,0 91.404720,29.699000,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.375500,29.693750,0 91.343845,29.688062,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.314625,29.682812,0 91.282970,29.677125,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.253750,29.671875,0 91.222095,29.666187,0</coordinates>
+              </LineString>
+              <LineString>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>91.192875,29.660937,0 91.161220,29.655250,0</coordinates>
+              </LineString>
+            </MultiGeometry>
+          </Placemark>
+        </Folder>
       </Folder>
     </Folder>
   </Document>
