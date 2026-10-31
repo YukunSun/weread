@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="gongbu_pacification_supplement">
+    <name>《艽野尘梦》工布安抚｜曲巴、增巴、脚木宗</name>
+    <open>1</open>
+    <description><![CDATA[脚木宗为觉木地区候选；两个增巴均为现代同名候选，尚未选定书中对应。曲巴无坐标，牙披背景参照默认隐藏。整段安抚约2月，脚木宗驻半月不自动相加；未画地理路线。]]></description>
+    <LookAt>
+      <longitude>93.98</longitude>
+      <latitude>29.73</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>190000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="gongbu_candidate">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="gongbu_reference">
+      <IconStyle>
+        <color>ffffd889</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+    <Folder id="gongbu_pacification">
+      <name>15 工布安抚｜曲巴、增巴、脚木宗</name>
+      <open>1</open>
+      <description><![CDATA[<h3>工布安抚：曲巴、增巴、脚木宗</h3><p><b>原句：</b>余乃从事安抚，逐渐向曲巴、增巴、脚木宗推进。</p><p>本层对应陈渠珍驻牙披后开展工布安抚的叙述。牙披作驻地背景参照，不能据此证明一次连续行军以牙披为起点。脚木宗是觉木／Qomo地区候选；增巴有两个现代同名村，尚未选定书中对应；曲巴仍待考。</p><p>原句列举活动地名，没有给出逐段方向、里程和日数。本层不将列举顺序画成已核实的地理路线，不把两处增巴候选当作作者均曾到达的地点。</p><p>工布安抚约2个月，是整段安抚活动的约数；后文另记脚木宗驻半月。两者的叙事时间可能交叠，不自动相加，也不把2个月分摊给各处；曲巴、增巴单独耗时未明。</p><p>坐标为现代地名地区参照，不是清末驻军、宗署、寺院建筑的测绘点。KNAB原表未明确坐标基准，显示的小数位不代表古址精度。</p><p>橙色空心点为候选；牙披为蓝色驻地背景参照，默认隐藏。曲巴没有几何坐标。</p><p>新版完整阅读地图已包含15层；已有云端旧图可单独叠加“艽野尘梦_工布安抚三地.kmz”，两种版本选择一份显示。</p><p><b>云端核验：</b>2026-11-01已将独立工布安抚KMZ导入原Google Earth网页版项目，确认15层、脚木宗候选及百巴镇和米瑞乡两处增巴候选均出现。已逐项打开三个候选点及曲巴无坐标条目，核对今名、坐标和古今对应未定说明；牙披背景参照保持隐藏。整层说明保留安抚约2月与脚木宗驻半月不自动相加。界面显示“已保存到Google云端硬盘”。</p><p><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第4章原文</a><br/><a href="https://www.99csw.com/book/554/17570.htm">任乃强校注27</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名库</a><br/><a href="https://iqh.ruc.edu.cn/old/zglsdlyj/lsdl_xsdt/qyyj/955b7062aab247d98b99127b73743d5e.htm">刘洁：古代林芝“四洲四门”历史地名考释</a><br/><a href="https://www.linzhi.gov.cn/linzhi/zwgk/202102/be64a01da2a74bdeb21c10650eed5726.shtml">林芝市政府征地区片公告</a></p>]]></description>
+      <LookAt>
+        <longitude>93.98</longitude>
+        <latitude>29.73</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>190000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="gongbu_pacification_guide">
+        <name>本段说明｜安抚约2月；候选与待考分开</name>
+        <description><![CDATA[<h3>工布安抚：曲巴、增巴、脚木宗</h3><p><b>原句：</b>余乃从事安抚，逐渐向曲巴、增巴、脚木宗推进。</p><p>本层对应陈渠珍驻牙披后开展工布安抚的叙述。牙披作驻地背景参照，不能据此证明一次连续行军以牙披为起点。脚木宗是觉木／Qomo地区候选；增巴有两个现代同名村，尚未选定书中对应；曲巴仍待考。</p><p>原句列举活动地名，没有给出逐段方向、里程和日数。本层不将列举顺序画成已核实的地理路线，不把两处增巴候选当作作者均曾到达的地点。</p><p>工布安抚约2个月，是整段安抚活动的约数；后文另记脚木宗驻半月。两者的叙事时间可能交叠，不自动相加，也不把2个月分摊给各处；曲巴、增巴单独耗时未明。</p><p>坐标为现代地名地区参照，不是清末驻军、宗署、寺院建筑的测绘点。KNAB原表未明确坐标基准，显示的小数位不代表古址精度。</p><p>橙色空心点为候选；牙披为蓝色驻地背景参照，默认隐藏。曲巴没有几何坐标。</p><p>新版完整阅读地图已包含15层；已有云端旧图可单独叠加“艽野尘梦_工布安抚三地.kmz”，两种版本选择一份显示。</p><p><b>云端核验：</b>2026-11-01已将独立工布安抚KMZ导入原Google Earth网页版项目，确认15层、脚木宗候选及百巴镇和米瑞乡两处增巴候选均出现。已逐项打开三个候选点及曲巴无坐标条目，核对今名、坐标和古今对应未定说明；牙披背景参照保持隐藏。整层说明保留安抚约2月与脚木宗驻半月不自动相加。界面显示“已保存到Google云端硬盘”。</p><p><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第4章原文</a><br/><a href="https://www.99csw.com/book/554/17570.htm">任乃强校注27</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名库</a><br/><a href="https://iqh.ruc.edu.cn/old/zglsdlyj/lsdl_xsdt/qyyj/955b7062aab247d98b99127b73743d5e.htm">刘洁：古代林芝“四洲四门”历史地名考释</a><br/><a href="https://www.linzhi.gov.cn/linzhi/zwgk/202102/be64a01da2a74bdeb21c10650eed5726.shtml">林芝市政府征地区片公告</a></p>]]></description>
+      </Placemark>
+      <Folder id="gongbu_residence_background">
+        <name>驻地背景参照｜牙披，默认隐藏</name>
+        <visibility>0</visibility>
+        <open>0</open>
+        <Placemark id="gongbu_apei_background">
+          <name>牙披／阿丕〔阿沛村驻地背景参照；默认隐藏〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>牙披／阿丕〔阿沛村驻地背景参照；默认隐藏〕</h3><p><b>书中名：</b>牙披／阿丕<br/><b>现代参照：</b>工布江达县阿沛村、阿沛庄园地区<br/><b>定位性质：</b>旧今地名有依据，具体旧营地未定</p><p>沿用现有阅读地图阿沛村地区点。只为辨认本段驻牙披后的活动背景，不代表已核定单次行军起点。08小地名层已有牙披点，本层默认隐藏该参照，避免重复。</p><p><b>耗时：</b>本段安抚活动的驻地背景；不新增从此到任一候选点的行程日数。</p><p><b>地区参照坐标：</b>93.31360°E，29.89960°N。坐标为现代地名地区参照，不是清末驻军、宗署、寺院建筑的测绘点。KNAB原表未明确坐标基准，显示的小数位不代表古址精度。</p><p><a href="https://gongbujiangda.gov.cn/gbjd/c100616/201901/3b3536d411bd4f4e8e658dce429c5ad5.shtml">工布江达县主要景区介绍：阿沛庄园</a><br/><a href="https://www.fallingrain.com/world/CH/14/Apeicun.html">阿沛村地区坐标参照</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第4章原文</a></p>]]></description>
+          <LookAt>
+            <longitude>93.3136</longitude>
+            <latitude>29.8996</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>45000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#gongbu_reference</styleUrl>
+          <ExtendedData>
+            <Data name="book_name">
+              <value>牙披／阿丕</value>
+            </Data>
+            <Data name="modern_name">
+              <value>工布江达县阿沛村、阿沛庄园地区</value>
+            </Data>
+            <Data name="certainty">
+              <value>旧今地名有依据，具体旧营地未定</value>
+            </Data>
+            <Data name="timing">
+              <value>本段安抚活动的驻地背景；不新增从此到任一候选点的行程日数。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.3136,29.8996,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Placemark id="gongbu_jiaomuzong_qomo_candidate">
+        <name>脚木宗候选〔觉木／Qomo地区；旧校注有异〕</name>
+        <visibility>1</visibility>
+        <description><![CDATA[<h3>脚木宗候选〔觉木／Qomo地区；旧校注有异〕</h3><p><b>书中名：</b>脚木宗<br/><b>现代参照：</b>林芝市巴宜区八一城区西南、觉木／巴果绕一带（候选）<br/><b>定位性质：</b>觉木宗地区可定位；书中脚木宗与之对应仍待核</p><p>KNAB列Qomo／Jomo、Juemu／觉木及Chomo Dzong；史地研究将觉木宗旧址放在八一镇西南、巴果绕村下觉木自然村附近。书中脚木宗的音译及工布区域背景与之相容，但尚缺直接史证连通两种汉字写法。任乃强校注27另据叙述推测脚木宗在牙丕附近，此说与阿沛村地区定位有出入，差异保留。此点取KNAB的觉木地区坐标，不是宗堡、陈部营地或所访喇嘛寺的确址。</p><p><b>耗时：</b>后文记脚木宗驻半月；工布安抚约2个月是整段活动，两者可能交叠，不自动相加。</p><p><b>地区参照坐标：</b>94.31111°E，29.67056°N。坐标为现代地名地区参照，不是清末驻军、宗署、寺院建筑的测绘点。KNAB原表未明确坐标基准，显示的小数位不代表古址精度。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名库</a><br/><a href="https://iqh.ruc.edu.cn/old/zglsdlyj/lsdl_xsdt/qyyj/955b7062aab247d98b99127b73743d5e.htm">刘洁：古代林芝“四洲四门”历史地名考释</a><br/><a href="https://www.99csw.com/book/554/17570.htm">任乃强校注27</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第4章原文</a></p>]]></description>
+        <LookAt>
+          <longitude>94.31111111</longitude>
+          <latitude>29.67055556</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>45000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#gongbu_candidate</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>脚木宗</value>
+          </Data>
+          <Data name="modern_name">
+            <value>林芝市巴宜区八一城区西南、觉木／巴果绕一带（候选）</value>
+          </Data>
+          <Data name="certainty">
+            <value>觉木宗地区可定位；书中脚木宗与之对应仍待核</value>
+          </Data>
+          <Data name="timing">
+            <value>后文记脚木宗驻半月；工布安抚约2个月是整段活动，两者可能交叠，不自动相加。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.31111111,29.67055556,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="gongbu_zengba_baiba_candidate">
+        <name>增巴候选A〔百巴镇同名村；书中对应未定〕</name>
+        <visibility>1</visibility>
+        <description><![CDATA[<h3>增巴候选A〔百巴镇同名村；书中对应未定〕</h3><p><b>书中名：</b>增巴<br/><b>现代参照：</b>林芝市巴宜区百巴镇增巴村（现代同名候选）<br/><b>定位性质：</b>现代村名与位置有据，尚未选定书中对应</p><p>KNAB列Zinba／Dzinpa、增巴村，注明属Bêba town（百巴镇）；政府资料亦列此村。该村在尼洋河沿线，与牙披至觉木方向的地理背景相容，但地理相容不是古今对应证明。米瑞乡另有同名增巴村，地图将两者并列为候选，未选定书中指哪一处，也不表示陈渠珍到过两处。A、B仅用于区分同名点，不表示先后或置信度排序。</p><p><b>耗时：</b>原文未明记本处单独耗时；不分摊整段安抚约2个月。</p><p><b>地区参照坐标：</b>93.91333°E，29.77667°N。坐标为现代地名地区参照，不是清末驻军、宗署、寺院建筑的测绘点。KNAB原表未明确坐标基准，显示的小数位不代表古址精度。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名库</a><br/><a href="https://www.linzhi.gov.cn/linzhi/zwgk/202102/be64a01da2a74bdeb21c10650eed5726.shtml">林芝市政府征地区片公告</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第4章原文</a></p>]]></description>
+        <LookAt>
+          <longitude>93.91333333</longitude>
+          <latitude>29.77666667</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>45000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#gongbu_candidate</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>增巴</value>
+          </Data>
+          <Data name="modern_name">
+            <value>林芝市巴宜区百巴镇增巴村（现代同名候选）</value>
+          </Data>
+          <Data name="certainty">
+            <value>现代村名与位置有据，尚未选定书中对应</value>
+          </Data>
+          <Data name="timing">
+            <value>原文未明记本处单独耗时；不分摊整段安抚约2个月。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.91333333,29.77666667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="gongbu_zengba_mirui_candidate">
+        <name>增巴候选B〔米瑞乡同名村；书中对应未定〕</name>
+        <visibility>1</visibility>
+        <description><![CDATA[<h3>增巴候选B〔米瑞乡同名村；书中对应未定〕</h3><p><b>书中名：</b>增巴<br/><b>现代参照：</b>林芝市巴宜区米瑞乡增巴村（现代同名候选）<br/><b>定位性质：</b>现代村名与位置有据，尚未选定书中对应</p><p>KNAB另列Zinba／Dzinpa、增巴村，注明属Mainri township（米瑞乡）；政府资料亦列此村。百巴镇也有同名增巴村。当前没有足够材料确定陈渠珍书中的增巴对应哪一处，故只作同名候选展示，不据地名相同认定作者到此。A、B仅用于区分同名点，不表示先后或置信度排序。</p><p><b>耗时：</b>原文未明记本处单独耗时；不分摊整段安抚约2个月。</p><p><b>地区参照坐标：</b>94.60889°E，29.48944°N。坐标为现代地名地区参照，不是清末驻军、宗署、寺院建筑的测绘点。KNAB原表未明确坐标基准，显示的小数位不代表古址精度。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名库</a><br/><a href="https://www.linzhi.gov.cn/linzhi/zwgk/202102/be64a01da2a74bdeb21c10650eed5726.shtml">林芝市政府征地区片公告</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第4章原文</a></p>]]></description>
+        <LookAt>
+          <longitude>94.60888889</longitude>
+          <latitude>29.48944444</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>45000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#gongbu_candidate</styleUrl>
+        <ExtendedData>
+          <Data name="book_name">
+            <value>增巴</value>
+          </Data>
+          <Data name="modern_name">
+            <value>林芝市巴宜区米瑞乡增巴村（现代同名候选）</value>
+          </Data>
+          <Data name="certainty">
+            <value>现代村名与位置有据，尚未选定书中对应</value>
+          </Data>
+          <Data name="timing">
+            <value>原文未明记本处单独耗时；不分摊整段安抚约2个月。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.60888889,29.48944444,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="gongbu_quba_unlocated">
+        <name>曲巴〔古今对应待考；无坐标〕</name>
+        <visibility>1</visibility>
+        <description><![CDATA[<h3>曲巴〔古今对应待考；无坐标〕</h3><p><b>书中名：</b>曲巴<br/><b>现代参照：</b>未确定<br/><b>定位性质：</b>正文有名，现代对应未定</p><p>原文在工布安抚段列曲巴、增巴、脚木宗。现有资料尚未建立曲巴的可靠古今对应，不凭近音改认秀巴、久巴等地，也不按列举顺序或里数在牙披和候选点之间插值造点。</p><p><b>耗时：</b>单独耗时与相邻段里程未明，坐标与距离留空。</p><p>本条无坐标，仅在图层列表保留说明。</p><p><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第4章原文</a></p>]]></description>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

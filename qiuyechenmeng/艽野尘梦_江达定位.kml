@@ -15,8 +15,8 @@
     </LookAt>
     <Style id="jiangda">
       <IconStyle>
-        <scale>1.35</scale>
         <color>ffff92b6</color>
+        <scale>1.35</scale>
         <Icon>
           <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
         </Icon>

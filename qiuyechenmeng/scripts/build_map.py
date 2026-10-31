@@ -18,6 +18,7 @@ from route_checks import SEQUENCE, CHECK, route_check_html, check_shared_places,
 from post_routes import load as load_post_routes
 from annotation_eleven import add_annotation11, add_deep_research, write_annotation11_indexes, unlocated_entries, load as load_annotation11
 from annotation11_figure import write_figure
+from gongbu_pacification import add_gongbu_pacification, write_gongbu_indexes, unlocated_entries as gongbu_unlocated_entries
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -110,7 +111,6 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第1章','大相岭旧山口、果亲王摩崖诗','已补大相岭古道的路桥碑地区参照及飞越岭垭口；作者登岭顶与摩崖诗的具体位置仍待考。'),
 ('第2—3章','恩达汛署／堪布营地','已补今桑多镇恩达村代表点，但汛署及堪布大营遗址未定位。'),
 ('第3章','三十九族','区域名称，不能当一座城镇。未知作者在该区域的逐站行迹。'),
-('第3—4章','脚木宗、窝冗噶伽','牙披已补阿沛村地区参照；脚木宗和窝冗噶伽仍只有相对方位，不能共用牙披坐标。'),
 ('第5—7章','纳衣当噶、八浪登、京中、树枝、央噶','德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。'),
 ('第6—7章','卡拖、八阶、夥若桥','具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。'),
 ('第8章','凝多／凝多塘','北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。'),
@@ -123,7 +123,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第11章','都兰','校注56作地理推定，未核当时市场位置，不使用今日察汗乌苏县城作为旧市镇的确点。'),
 ('第12章','分州、洪铺街寓所、西原墓','旧名或具体地点尚待考；地图止于西安，不另画一条书中未叙述的回凤凰路线。'),
 ]
-UNLOCATED += unlocated_entries()
+UNLOCATED += unlocated_entries() + gongbu_unlocated_entries()
 
 PHASES = {
  'in': ('01 川西入藏｜成都至康定行约12日；炉城至昌都记50余日＊', '#49a7ff', True),
@@ -303,8 +303,9 @@ def make_post_supplement(bundled=False):
 
 def jiangda_style(doc,bundled):
     st=el(doc,'Style',id='jiangda')
-    ic=el(st,'IconStyle');el(ic,'scale',1.35)
+    ic=el(st,'IconStyle')
     el(ic,'color','ffffffff' if bundled else kcolor(PHASES['west'][1]))
+    el(ic,'scale',1.35)
     icon=el(ic,'Icon');el(icon,'href','icons/west.png' if bundled else 'https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png')
     lab=el(st,'LabelStyle');el(lab,'color','ffffffff');el(lab,'scale',1.05)
     balloon=el(st,'BalloonStyle');el(balloon,'bgColor','fffafafa');el(balloon,'textColor','ff222222')
@@ -412,6 +413,7 @@ def make_map(bundled=False):
     add_historical_context(doc,el,view,kcolor,bundled)
     add_rivers(doc,el,view,kcolor,bundled)
     add_annotation11(doc,el,view,bundled,True)
+    add_gongbu_pacification(doc,el,view,kcolor,bundled)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -444,6 +446,14 @@ def make_deep_research_supplement(bundled=False):
     add_deep_research(doc,el,view,True)
     return serialize(root)
 
+def make_gongbu_supplement(bundled=False):
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='gongbu_pacification_supplement')
+    el(doc,'name','《艽野尘梦》工布安抚｜曲巴、增巴、脚木宗');el(doc,'open',1)
+    el(doc,'description','脚木宗为觉木地区候选；两个增巴均为现代同名候选，尚未选定书中对应。曲巴无坐标，牙披背景参照默认隐藏。整段安抚约2月，脚木宗驻半月不自动相加；未画地理路线。')
+    view(doc,93.98,29.73,190000)
+    add_gongbu_pacification(doc,el,view,kcolor,bundled)
+    return serialize(root)
+
 def pack_annotation11_sources(archive):
     for scan in load_annotation11()[0]['scans']:
         relative='data/annotation11/'+scan['file']
@@ -463,12 +473,21 @@ def main():
             z.writestr('icons/'+phase+'_uncertain.png',png('#ffb347',True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
+        z.writestr('icons/gongbu_candidate.png',png('#ffb347',True))
+        z.writestr('icons/gongbu_reference.png',png('#89d8ff'))
         z.writestr('icons/region_label.png',png('#ffffff'))
         z.writestr('icons/river_label.png',png('#60d4ff'))
         z.writestr('icons/river_crossing.png',png('#ffdc7b',True))
         for sid,color,hollow in [('point','#8ad4ff',False),('uncertain','#ffc66d',True),('measure','#cbd5e1',False)]:
             z.writestr('icons/post_'+sid+'.png',png(color,hollow))
         pack_annotation11_sources(z)
+    gongbu='艽野尘梦_工布安抚三地'
+    (ROOT/(gongbu+'.kml')).write_bytes(make_gongbu_supplement())
+    with zipfile.ZipFile(ROOT/(gongbu+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_gongbu_supplement(True))
+        z.writestr('icons/gongbu_candidate.png',png('#ffb347',True))
+        z.writestr('icons/gongbu_reference.png',png('#89d8ff'))
+    gongbu_note=write_gongbu_indexes()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -691,6 +710,8 @@ https://opendatacommons.org/licenses/odbl/1-0/
     (ROOT/'边坝核对说明.txt').write_text(bianba_note,encoding='utf-8')
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n十九、边坝｜旧宗驻地与战事背景\n'+bianba_note)
+    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+        f.write('\n二十、工布安抚｜曲巴、增巴、脚木宗\n'+gongbu_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

@@ -1,0 +1,142 @@
+{
+  "checked_at": "2026-11-01",
+  "chapter": "第4章；校注27",
+  "quote": "余乃从事安抚，逐渐向曲巴、增巴、脚木宗推进。",
+  "scope": "本层对应陈渠珍驻牙披后开展工布安抚的叙述。牙披作驻地背景参照，不能据此证明一次连续行军以牙披为起点。脚木宗是觉木／Qomo地区候选；增巴有两个现代同名村，尚未选定书中对应；曲巴仍待考。",
+  "route_note": "原句列举活动地名，没有给出逐段方向、里程和日数。本层不将列举顺序画成已核实的地理路线，不把两处增巴候选当作作者均曾到达的地点。",
+  "timing_note": "工布安抚约2个月，是整段安抚活动的约数；后文另记脚木宗驻半月。两者的叙事时间可能交叠，不自动相加，也不把2个月分摊给各处；曲巴、增巴单独耗时未明。",
+  "coordinate_note": "坐标为现代地名地区参照，不是清末驻军、宗署、寺院建筑的测绘点。KNAB原表未明确坐标基准，显示的小数位不代表古址精度。",
+  "sources": {
+    "text": {
+      "title": "《艽野尘梦》第4章原文",
+      "url": "https://www.xuges.com/xdwx/qycm/12.htm",
+      "supports": "曲巴、增巴、脚木宗的列举，工布安抚约两个月及脚木宗驻半月。"
+    },
+    "annotation27": {
+      "title": "任乃强校注27",
+      "url": "https://www.99csw.com/book/554/17570.htm",
+      "supports": "校注据叙述推测脚木宗在牙丕附近；这是推测，与觉木候选的区域定位存在待解差异。"
+    },
+    "knab": {
+      "title": "KNAB林芝地名库",
+      "url": "https://arhiiv.eki.ee/knab/valik/cn54ny.htm",
+      "supports": "Qomo／Jomo／Juemu／觉木／Chomo Dzong及地区坐标；两条Zinba／Dzinpa／增巴村条目，分别属百巴镇和米瑞乡。不能单凭这些条目证明书中旧名对应。"
+    },
+    "qomo_research": {
+      "title": "刘洁：古代林芝“四洲四门”历史地名考释",
+      "url": "https://iqh.ruc.edu.cn/old/zglsdlyj/lsdl_xsdt/qyyj/955b7062aab247d98b99127b73743d5e.htm",
+      "supports": "《中国边疆史地研究》2021年第4期，定位觉木宗旧址在八一镇西南、巴果绕村下觉木自然村附近；未直接证明陈渠珍书中的脚木宗等同该宗。"
+    },
+    "two_zengba": {
+      "title": "林芝市政府征地区片公告",
+      "url": "https://www.linzhi.gov.cn/linzhi/zwgk/202102/be64a01da2a74bdeb21c10650eed5726.shtml",
+      "supports": "分别列出百巴镇增巴村和米瑞乡增巴村，证明现行同名村歧义。"
+    },
+    "apei_identity": {
+      "title": "工布江达县主要景区介绍：阿沛庄园",
+      "url": "https://gongbujiangda.gov.cn/gbjd/c100616/201901/3b3536d411bd4f4e8e658dce429c5ad5.shtml",
+      "supports": "阿沛庄园介绍引用陈渠珍关于牙披的记述，支持现代地区参照；村落搬迁，不能认定旧营地确址。"
+    },
+    "apei_coordinate": {
+      "title": "阿沛村地区坐标参照",
+      "url": "https://www.fallingrain.com/world/CH/14/Apeicun.html",
+      "supports": "沿用阅读地图中阿沛村现代地名地区点。"
+    }
+  },
+  "places": [
+    {
+      "id": "apei_background",
+      "book_name": "牙披／阿丕",
+      "label": "牙披／阿丕〔阿沛村驻地背景参照；默认隐藏〕",
+      "modern": "工布江达县阿沛村、阿沛庄园地区",
+      "lon": 93.3136,
+      "lat": 29.8996,
+      "status": "驻地背景参照",
+      "certainty": "旧今地名有依据，具体旧营地未定",
+      "visible": false,
+      "note": "沿用现有阅读地图阿沛村地区点。只为辨认本段驻牙披后的活动背景，不代表已核定单次行军起点。08小地名层已有牙披点，本层默认隐藏该参照，避免重复。",
+      "timing": "本段安抚活动的驻地背景；不新增从此到任一候选点的行程日数。",
+      "source_ids": [
+        "apei_identity",
+        "apei_coordinate",
+        "text"
+      ]
+    },
+    {
+      "id": "jiaomuzong_qomo_candidate",
+      "book_name": "脚木宗",
+      "label": "脚木宗候选〔觉木／Qomo地区；旧校注有异〕",
+      "modern": "林芝市巴宜区八一城区西南、觉木／巴果绕一带（候选）",
+      "lon": 94.31111111,
+      "lat": 29.67055556,
+      "status": "古今对应候选",
+      "certainty": "觉木宗地区可定位；书中脚木宗与之对应仍待核",
+      "visible": true,
+      "note": "KNAB列Qomo／Jomo、Juemu／觉木及Chomo Dzong；史地研究将觉木宗旧址放在八一镇西南、巴果绕村下觉木自然村附近。书中脚木宗的音译及工布区域背景与之相容，但尚缺直接史证连通两种汉字写法。任乃强校注27另据叙述推测脚木宗在牙丕附近，此说与阿沛村地区定位有出入，差异保留。此点取KNAB的觉木地区坐标，不是宗堡、陈部营地或所访喇嘛寺的确址。",
+      "timing": "后文记脚木宗驻半月；工布安抚约2个月是整段活动，两者可能交叠，不自动相加。",
+      "source_ids": [
+        "knab",
+        "qomo_research",
+        "annotation27",
+        "text"
+      ]
+    },
+    {
+      "id": "zengba_baiba_candidate",
+      "book_name": "增巴",
+      "label": "增巴候选A〔百巴镇同名村；书中对应未定〕",
+      "modern": "林芝市巴宜区百巴镇增巴村（现代同名候选）",
+      "lon": 93.91333333,
+      "lat": 29.77666667,
+      "status": "现代同名候选A",
+      "certainty": "现代村名与位置有据，尚未选定书中对应",
+      "visible": true,
+      "note": "KNAB列Zinba／Dzinpa、增巴村，注明属Bêba town（百巴镇）；政府资料亦列此村。该村在尼洋河沿线，与牙披至觉木方向的地理背景相容，但地理相容不是古今对应证明。米瑞乡另有同名增巴村，地图将两者并列为候选，未选定书中指哪一处，也不表示陈渠珍到过两处。A、B仅用于区分同名点，不表示先后或置信度排序。",
+      "timing": "原文未明记本处单独耗时；不分摊整段安抚约2个月。",
+      "source_ids": [
+        "knab",
+        "two_zengba",
+        "text"
+      ]
+    },
+    {
+      "id": "zengba_mirui_candidate",
+      "book_name": "增巴",
+      "label": "增巴候选B〔米瑞乡同名村；书中对应未定〕",
+      "modern": "林芝市巴宜区米瑞乡增巴村（现代同名候选）",
+      "lon": 94.60888889,
+      "lat": 29.48944444,
+      "status": "现代同名候选B",
+      "certainty": "现代村名与位置有据，尚未选定书中对应",
+      "visible": true,
+      "note": "KNAB另列Zinba／Dzinpa、增巴村，注明属Mainri township（米瑞乡）；政府资料亦列此村。百巴镇也有同名增巴村。当前没有足够材料确定陈渠珍书中的增巴对应哪一处，故只作同名候选展示，不据地名相同认定作者到此。A、B仅用于区分同名点，不表示先后或置信度排序。",
+      "timing": "原文未明记本处单独耗时；不分摊整段安抚约2个月。",
+      "source_ids": [
+        "knab",
+        "two_zengba",
+        "text"
+      ]
+    },
+    {
+      "id": "quba_unlocated",
+      "book_name": "曲巴",
+      "label": "曲巴〔古今对应待考；无坐标〕",
+      "modern": "未确定",
+      "lon": null,
+      "lat": null,
+      "status": "待考，无几何",
+      "certainty": "正文有名，现代对应未定",
+      "visible": true,
+      "note": "原文在工布安抚段列曲巴、增巴、脚木宗。现有资料尚未建立曲巴的可靠古今对应，不凭近音改认秀巴、久巴等地，也不按列举顺序或里数在牙披和候选点之间插值造点。",
+      "timing": "单独耗时与相邻段里程未明，坐标与距离留空。",
+      "source_ids": [
+        "text"
+      ]
+    }
+  ],
+  "google_earth_import": {
+    "verified_at": "2026-11-01",
+    "note": "2026-11-01已将独立工布安抚KMZ导入原Google Earth网页版项目，确认15层、脚木宗候选及百巴镇和米瑞乡两处增巴候选均出现。已逐项打开三个候选点及曲巴无坐标条目，核对今名、坐标和古今对应未定说明；牙披背景参照保持隐藏。整层说明保留安抚约2月与脚木宗驻半月不自动相加。界面显示“已保存到Google云端硬盘”。",
+    "screenshot": "data/place_checks/gongbu_google_earth.jpg"
+  }
+}
