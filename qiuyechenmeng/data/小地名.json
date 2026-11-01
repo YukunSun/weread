@@ -148,6 +148,54 @@
     ]
   },
   {
+    "id": "gongjue",
+    "name": "贡觉〔米瑞广久一带候选；旧宅未定〕",
+    "old_names": "贡觉；与广久、贡久的旧译名关系待核",
+    "modern": "林芝市巴宜区米瑞乡广久村一带（地区候选，村名对应及旧宅确址未定）",
+    "lon": 94.55,
+    "lat": 29.48,
+    "view_range": 35000,
+    "chapter": "第4章：加瓜彭错邀宴、初见西原",
+    "group": "工布驻防与波密细部",
+    "certainty": "现代广久村地区候选，旧宅与古今对应未完全核定",
+    "reference": "demo",
+    "coordinate_source": "https://www.geonames.org/10264377/guangjiucun.html",
+    "identity_source": "https://www.xzxw.com/lyrw/2015-03/21/content_1285909.html",
+    "note": "书中贡觉是德摩附近营官加瓜彭错所在地区，陈渠珍应邀赴宴，在骑射表演中初见西原；这里与昌都市贡觉县分开。西藏新闻网所载实访文章明确到米瑞乡贡觉村寻访，但村民对可能旧宅的辨认仍属线索，文章没有证明房址。刘鹏程署名寻访文章另在广久访问西原相关口述，提供地域线索，但亲属及旧宅认定未获独立证实。林芝市政府2020年工作报道使用米瑞乡广久村之名，地名库亦有广久村地区坐标，本图据此仅作贡觉—广久一带的对应候选。区政府另载贡久与玛尔多的合村记录，贡觉、贡久、广久之间的异写和合并后村落关系仍待核实。官方旅游介绍又把西原故乡写为玉容增村，不能因此认定玉容增与贡觉同村。点标为粗舍入的现代地区参照，不认定加瓜彭错旧宅、西原故居、渡口或营官辖境。",
+    "timing": "原文是在德摩驻留期间受邀赴宴，当天薄暮返营。去程先行十余里，渡小河后又行二里许；旧里数原样保留，不换算km，不确定历史渡点与小路。距德摩的显示距离只是现代两地区代表点的球面直距，不作为这次赴宴的实走距离或耗时。",
+    "literary_quote": "此即侄女西原。",
+    "additional_sources": [
+      {
+        "title": "《艽野尘梦》第4章：加瓜彭错邀宴与骑射相识",
+        "url": "https://www.99csw.com/book/554/17570.htm"
+      },
+      {
+        "title": "刘鹏程署名寻访文章（转载）：在广久访问西原相关口述",
+        "url": "https://m.sohu.com/a/1036494158_121124703/"
+      },
+      {
+        "title": "林芝市政府2020年报道：米瑞乡广久村",
+        "url": "https://www.linzhi.gov.cn/linzhi/xwzx/202009/f588052b54434f1ea26f27c78597e87a.shtml"
+      },
+      {
+        "title": "巴宜区政府政区沿革：贡久、玛尔多合村记录",
+        "url": "https://www.bayiqu.gov.cn/byq/zjby/xzqh.shtml"
+      },
+      {
+        "title": "巴宜区旅游介绍：西原故乡玉容增的另一说法，关系待核",
+        "url": "https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml"
+      },
+      {
+        "title": "GeoNames广久村原始RDF记录",
+        "url": "https://sws.geonames.org/10264377/about.rdf"
+      },
+      {
+        "title": "Fallingrain：广久村地区坐标对照",
+        "url": "https://www.fallingrain.com/world/CH/14/Guangjiucun.html"
+      }
+    ]
+  },
+  {
     "id": "dongjiu",
     "name": "冬九 → 东久村〔地区参照〕",
     "old_names": "冬九／东久",

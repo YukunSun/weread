@@ -204,6 +204,7 @@ def minor_folder(doc,places=None):
     el(folder,'description','蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。')
     view(folder,places[0]['lon'] if len(places)==1 else 97.07278,places[0]['lat'] if len(places)==1 else 31.18528,places[0].get('view_range',160000) if len(places)==1 else 160000)
     groups={}
+    minor_by_id={p['id']:p for p in MINOR_PLACES}
     for p in places:
         if p['group'] not in groups:
             f=el(folder,'Folder');el(f,'name',p['group']);el(f,'open',0);groups[p['group']]=f
@@ -212,6 +213,9 @@ def minor_folder(doc,places=None):
         if p['reference'] in PLACE_BY_ID:
             anchor=PLACE_BY_ID[p['reference']]
             anchor_name=anchor[2];ax,ay=anchor[3:5]
+        elif p['reference'] in minor_by_id:
+            anchor=minor_by_id[p['reference']]
+            anchor_name=anchor['modern'];ax,ay=anchor['lon'],anchor['lat']
         else:
             anchor=load_post_routes()[1][p['reference']]
             anchor_name=anchor['name'];ax,ay=anchor['lon'],anchor['lat']
@@ -361,6 +365,34 @@ def write_demo_index():
             note+='\n'+source['title']+'\n'+source['status']+'\n'+source['url']+'\n'
     note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
     (ROOT/'德摩核对说明.txt').write_text(note,encoding='utf-8')
+    return note
+
+
+def make_gongjue_supplement(bundled=False):
+    p=next(p for p in MINOR_PLACES if p['id']=='gongjue')
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='gongjue_supplement')
+    el(doc,'name','《艽野尘梦》贡觉｜米瑞广久一带候选');el(doc,'open',1)
+    el(doc,'description','书中德摩附近加瓜彭错所在贡觉的地区对应候选；用米瑞乡广久村地名点粗舍入帮助辨认，不是营官旧宅或西原故居坐标，与昌都市贡觉县分开。不画德摩连线、赴宴小路或旧渡点。完整阅读图、小地名补充图和本文件选择一份显示，避免重复。')
+    view(doc,p['lon'],p['lat'],p['view_range']);minor_styles(doc,bundled);minor_folder(doc,[p])
+    return serialize(root)
+
+
+def write_gongjue_index():
+    p=next(p for p in MINOR_PLACES if p['id']=='gongjue')
+    check=json.loads((ROOT/'data/place_checks/贡觉核对.json').read_text(encoding='utf-8'))
+    note=('贡觉｜米瑞广久一带候选；旧宅未定\n核对日期：'+check['checked_at']+'\n\n'
+          +p['note']+'\n\n赴宴与返营：'+p['timing']+'\n\n'
+          +f'地图粗地区参照：{p["lon"]}°E，{p["lat"]}°N。\n'+check['coordinate_note']+'\n\n'
+          +'08层新增金色空心候选点，独立“艽野尘梦_贡觉定位.kmz”、完整阅读图、小地名补充图选择一份显示。德摩参照距离仅为现代两地区代表点直距，未新增相连古道、渡点或私人房屋位置。\n\n地名差异与待核关系\n')
+    for item in check['name_ambiguities']:
+        note+='\n'+item['name']+'\n'+item['note']+'\n'
+        if item.get('source'): note+=item['source']+'\n'
+    note+='\n来源及限度\n'
+    for source in check['sources']:
+        note+='\n'+source['title']+'\n'+source['supports']+'\n'+source['url']+'\n'
+    note+='\n原始坐标记录\n'+check['coordinate_record']['local_snapshot']+'\n'
+    note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
+    (ROOT/'贡觉核对说明.txt').write_text(note,encoding='utf-8')
     return note
 
 
@@ -649,6 +681,13 @@ def main():
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     demo_note=write_demo_index()
+    gongjue='艽野尘梦_贡觉定位'
+    (ROOT/(gongjue+'.kml')).write_bytes(make_gongjue_supplement())
+    with zipfile.ZipFile(ROOT/(gongjue+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_gongjue_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    gongjue_note=write_gongjue_index()
     jiangda='艽野尘梦_江达定位'
     (ROOT/(jiangda+'.kml')).write_bytes(make_jiangda_supplement())
     with zipfile.ZipFile(ROOT/(jiangda+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -716,7 +755,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 
 二、内容和图例
 主要地图点：MAJOR_COUNT个，含书中地点、校注补充地区及2个默认隐藏的现代县城对照点。
-另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、边坝（旧宗驻地与战事背景）、乌斯江（藏军防线背景）、窝冗噶伽（卧龙—嘎加地区参照）、百马岗／白马岗（墨脱地区背景参照）。
+另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、贡觉（米瑞广久地区候选）、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、边坝（旧宗驻地与战事背景）、乌斯江（藏军防线背景）、窝冗噶伽（卧龙—嘎加地区参照）、百马岗／白马岗（墨脱地区背景参照）。
 08小地名层可在左侧列表点击，放大后更易读；金色空心点是村域或地区参照，不是确认古址。
 支持Region的客户端会按缩放显示小地名；网页版忽略Region，可手动开关08图层控制全景标注数量。
 俄洛桥用现代俄洛村参照，未认定清末桥位；西藏桥与俄洛桥的正文、校注和书图差异在弹窗及14层说明。
@@ -840,6 +879,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n二十二、百马岗／白马岗｜墨脱地区参照\n'+baimagang_note)
         f.write('\n二十三、德摩｜赴此4日；驻月余\n'+demo_note)
+        f.write('\n二十四、贡觉｜米瑞广久一带候选；旧宅未定\n'+gongjue_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':
