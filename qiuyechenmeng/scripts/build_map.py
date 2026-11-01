@@ -28,6 +28,7 @@ from ningduo_muster import add_ningduo_muster, write_ningduo_outputs
 from build_three_mountains import add_horse_retrospective, main as write_three_mountains_outputs
 from current_qiangtang import add_current_qiangtang, write_current_qiangtang_outputs
 from qaidam_kunlun import add_qaidam_kunlun, write_outputs as write_qaidam_kunlun_outputs
+from yushu_context import add_yushu_context, write_yushu_outputs
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -137,6 +138,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 UNLOCATED += unlocated_entries() + gongbu_unlocated_entries()
 UNLOCATED += [('第6章','八噶山、其南大雪山与金珠山旧驻兵地','八噶山未与今八卡村、巴卡寺闭合，大雪山未具专名，均无坐标。金珠山另以金珠拉山口作地形候选，旧驻兵地未定；八百余里的承接对象仍待核，不赋现代km，不绘作者亲到或该队撤退路线。')]
 UNLOCATED += [('第7章','甑巴旧宿处与范玉昆住宅','百巴镇增巴村为本段行程较相容候选，甑巴与增巴异写及古今对应仍待考；不指认清末住宅、宿营点或后来遇害处。新增留宿说明，复用15层村落参照，不按一日行程造点或复原古道。')]
+UNLOCATED += [('第8章；校注48','玉树草原西部、玉树族住牧范围与陈氏所在高地','任乃强的事后区域推测，无精确边界或陈氏坐标；玉树族不能等同今玉树市或州界。穆鲁乌苏旧名范围与现代河段不一一重合；复用现代水系作方向参照，不造古渡、牧场或顺谷脱困路线。')]
 
 PHASES = {
  'in': ('01 川西入藏｜成都至康定行约12日；炉城至昌都记50余日＊', '#49a7ff', True),
@@ -620,6 +622,7 @@ def make_map(bundled=False):
     add_horse_retrospective(doc,el)
     add_current_qiangtang(doc,el,view,kcolor,bundled)
     add_qaidam_kunlun(doc,el,view,kcolor,bundled)
+    add_yushu_context(doc,el,view)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -778,6 +781,7 @@ def main():
     horse_note=write_three_mountains_outputs()
     current_qiangtang_note=write_current_qiangtang_outputs()
     qaidam_kunlun_note=write_qaidam_kunlun_outputs()
+    yushu_note=write_yushu_outputs()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1068,6 +1072,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n枣骝马与三山｜第8章追叙；山址待考\n'+horse_note)
         f.write('\n现代羌塘无人区｜保护区公开轮廓参照\n'+current_qiangtang_note)
         f.write('\n柴达木盆地与昆仑山口｜现代地理参照\n'+qaidam_kunlun_note)
+        f.write('\n玉树草原西部与穆鲁乌苏｜任注48的区域推测\n'+yushu_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 
 if __name__=='__main__':
