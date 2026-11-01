@@ -1,0 +1,621 @@
+《艽野尘梦》河湟谷地与石堡城｜河谷背景与古城约位
+
+核对日期：2026-11-01
+
+河湟谷地作为青海东部区域背景补充；石堡城对应第十一章青藏交通历史议论及校注54中的古城。两个对象分别为广域河谷地区与历史军事据点，不能都当作陈渠珍抵达的具体站点。
+
+河湟以黄河与湟水得名，通常围绕青海东部黄河河谷、湟水及大通河相关谷地理解，广义文化地理口径还延伸到甘肃兰州以西。不同研究对范围有所取舍；不能用三个完整流域、整州县边界或一幅经纬矩形替代唯一的河湟谷地外缘。本层以有来源的现代河线和地形帮助辨方向，不绘一条自定自然地理边界。
+
+湟源县文旅局将大小方台称为石堡城，又名铁仞城，位于日月藏族乡大茶石浪村、日月山东侧药水河谷山地。本层采用大小方台一带作地区参照；官方页面没有给出城址经纬度，现有资料还不足以测定城墙、两个方台或唐代守军营址。不是甘肃肃北石包城，也不与其他同名石堡城混用。
+
+石堡城地区点采用101.15°E、36.48°N。出处为简锦松2025年论文第63页所引天地图标点36°28′48.86″N、101°8′48.96″E，十进制36.48023889、101.14693333，舍入至0.01°；论文未说明该地图标点坐标基准，不擅自进行GCJ-02、BD-09或WGS84转换。它是公开地图标点的阅读参照，不是考古测量。作者2012年论文另指莫多吉村东山隘口36°26′33.19″N、101°5′38.33″E，与2025年标点相差约6公里；此差异保留待考，不以文献较新为由认定确址，不拆点或连接成城址范围。
+
+校注54称石堡城为唐哥舒翰筑，须与史书区分。《旧唐书》吐蕃传在开元十七年（729）已记李祎拔石堡城，哥舒翰于天宝八载（749）攻取见相关史记与研究。因此本层写唐蕃反复争夺、749年哥舒翰攻取，不把该年或哥舒翰认作已经核实的初建年代、始建者。亦不把文成公主进藏或唐代古道讨论画成陈渠珍的亲历路线。
+
+第十一章东道则石堡一城，素极天险是陈氏比较青藏交通险阻的历史议论，校注54又补古城位置及东道背景；不是陈氏自记登城或宿城。河湟谷地也不新增为一个到达事件。原有日月山—丹噶尔—西宁的个人行程与地区代表点保持原样，不为经过这些地区自动增加石堡城一站。
+
+石堡城没有可分配的陈氏到达日期、驻留天数或绕行里数。既有第十一章下日月山后再行两日至丹噶尔、第十二章丹噶尔至西宁等耗时属于各自正文路段，不转作石堡城的用时。唐代729、749年是历史事件年代，不是1911—1912年北返时间线中的行军日。现代河线选段长度不当作谷地尺度、古道距离或陈氏实走里程。
+
+橙色空心点为石堡城大小方台地区约位；蓝色、青色河线及小标签为现代水系背景。河线按源数据分段，缺口不补直线；未取得的支流不猜画，河名标签坐标只用于识别现代河流。完整阅读地图与独立河湟谷地与石堡城KMZ含同一补层，二选一显示。没有河湟精确外缘、唐代国界、古城轮廓或新的个人行军线。
+
+石堡城〔大小方台一带约位；历史背景〕
+
+湟源县日月乡大茶石浪村附近药水河谷山地，采用2025年文献所引现代地图标点的舍入坐标。精确遗址及与早期文献坐标的差异未闭合；不认定陈渠珍到过城址。
+
+黄河河湟附近选段〔现代水系背景〕
+
+只展示河湟附近有来源的河段，帮助辨认青海东部黄河河谷方向；不以整条黄河流域定义河湟，也不是陈氏行军或某处渡黄河记录。
+
+保留源线分段；名称标签落在已载源线顶点。
+
+湟水选段〔现代河谷参照〕
+
+湟水沿湟源、西宁及海东方向向东流，最终入黄河；本层仅绘已取得的现代源线，未表示陈氏始终沿此河岸行走。
+
+保留源线分段；名称标签落在已载源线顶点。
+
+大通河选段〔现代河谷参照〕
+
+这里是湟水水系的大通河，不是大通县城区北川河的替称；只作河湟北部相关谷地的方向背景，不能据河名认定陈氏亲至。
+
+保留源线分段；名称标签落在已载源线顶点。
+
+河湟谷地〔黄河—湟水—大通河相关谷地；无统一精确外缘〕
+这是青海东部的重要河谷区域，广义还涉及甘肃兰州以西；自然地理、文化地理和论文研究区口径并不相同。以现代真实河线和地形显示大方向，保留来源缺口；不将整个三个流域、全西宁海东或经纬矩形画成谷地边界。
+
+石堡城与大小方台〔日月山东侧地区参照；确址坐标待考〕
+县文旅局确认大小方台、石堡城、铁仞城的名称联系与大茶石浪村所在。地图点只沿用2025年论文引用的地图位置舍入至101.15°E、36.48°N；与2012年论文的另一隘口定位差异尚未解决，不绘城墙或拆分两个方台。
+
+哥舒翰攻取与始建分读〔729年已有城；749年再攻取〕
+本书校注称哥舒翰筑，不能直接当作初建结论。旧唐书已有729年唐军攻取石堡城的记录，749年为哥舒翰攻取事件；本层标注争夺史与该次攻取，不指定已经核实的创建年代。
+
+阅读关系与耗时〔石堡属历史议论；不新增陈氏到站〕
+陈氏在第十一章比较青藏三道时提到石堡天险，校注补其日月山下位置及古代通道；这不等于记述本人到城或宿城。河湟为区域背景，石堡为古城约位，两者均不新增个人到达日期或驻留时间。
+
+来源与证据限度
+
+《艽野尘梦》第十一章（1）及校注54：石堡天险与青藏三道
+https://www.xuges.com/xdwx/qycm/30.htm
+正文历史议论与校注的古城位置、哥舒翰筑等原说；不构成陈氏亲临石堡城的叙事。
+
+湟源县文旅局：省级文物保护单位大小方台（石堡城）
+https://www.huangyuan.gov.cn/index.php?c=show&id=1523&s=special
+大小方台、石堡城、铁仞城名义及大茶石浪村、赤岭东侧的地区对应。2023-04-10发布；本轮直开404，搜索缓存可读正文，未提供坐标，不凭此声称已核精确城址。
+
+简锦松：从天而视——以卫星视角论剑南西山八州定位与唐蕃百年得失，2025，第63页
+https://see.org.tw/wp-content/uploads/2025/08/20250821jiannan.pdf#page=35
+该文所引天地图石堡城标点36°28′48.86″N、101°8′48.96″E；本图只舍入为地区参照，不采纳为遗址实测点。
+
+简锦松：杜甫八哀诗所见高丽人王思礼之现地研究，2012，第236页
+https://journal.kci.go.kr/ksclc/archive/articlePdf?artiId=ART001637638#page=22
+莫多吉村东山隘口另一定位36°26′33.19″N、101°5′38.33″E，保留约6公里差异，不自行合并两套坐标；亦论749年攻取。
+
+《旧唐书》卷196上：开元十七年李祎拔石堡城
+https://www.shidianguji.com/book/NGJ89241200000288715107/chapter/1lvx1ot1avm7i
+729年城已存在且被攻取，不能直接把749年哥舒翰攻取认作最初建城；转录中的后段纪年不能未经核对采用。
+
+青海省委党校：河湟文化——黄河源头流淌的民族记忆
+https://www.waterconserving.cn/universal/detail/6446
+河湟名称、黄河湟水大通河相关地区及甘肃兰州以西的广义口径；本图不将该广义文字当成测绘外缘。
+
+资源科学：青藏高原东部生态敏感区生境质量时空演变特征——以青海省河湟谷地为例
+https://www.resci.cn/CN/abstract/article/1007-7588/47703
+青海省内论文研究区口径与三河相关谷地地理；研究区经纬跨度、面积不等于整个广义河湟的唯一外缘，本图不复制其研究区边界。
+
+Natural Earth：1:10m河流数据
+https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/
+黄河现代概化线来源。具体提取、覆盖与公有领域许可见data/regions/hehuang/manifest.json及NOTICE；近景不用于河岸定位。
+
+OpenStreetMap版权与ODbL许可
+https://www.openstreetmap.org/copyright
+本补层采用OSM湟水、大通河河线，逐项标明源对象、获取日期、分段缺口及© OpenStreetMap contributors署名；派生数据库遵循ODbL。
+
+河线数据清单：data/regions/hehuang/manifest.json
+
+{
+  "dataset": "河湟谷地现代三河背景选段：黄河、湟水、大通河",
+  "source_url": "https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_lake_centerlines.zip",
+  "license": "Natural Earth features: public domain; OpenStreetMap-derived features: Open Database License (ODbL) 1.0. Each feature retains its own source and license.",
+  "attribution": "Made with Natural Earth; © OpenStreetMap contributors",
+  "processing_note": "河湟谷地为广域地理阅读背景，不绘外缘Polygon，不以三河流域/行政边界充作谷地自然外缘。黄河为Natural Earth概化原顶点选段，湟水、大通河为OSM已命名独立way原坐标。三河的数据精度不同；保留分段及缺口，绝不跨数据间隙/不同精度河线画连接线。现代水道含可能的人工改变，不复原唐代或陈渠珍时代河道，也不代表陈氏行迹。",
+  "retrieved_at_utc": "2026-11-01T13:46:56+00:00",
+  "coordinate_reference_system": "WGS84 longitude, latitude (NE original WGS84 .prj; OSM API coordinates)",
+  "files": [
+    {
+      "file": "rivers.geojson",
+      "sha256": "c4dd2641af89517390701566a9535a182abbf1e06852b06f165fd99d3555bac4",
+      "feature_count": 99,
+      "geometry_type": "LineString",
+      "river_ids": {
+        "yellow": 1,
+        "huangshui": 44,
+        "datong": 54
+      }
+    }
+  ],
+  "rivers": [
+    {
+      "river_id": "yellow",
+      "name": "黄河",
+      "status": "available_generalized_fragments",
+      "source": "https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_lake_centerlines.zip",
+      "source_id": 1159124959,
+      "source_version": "5.0.0",
+      "line_feature_count": 1,
+      "limitations": "Natural Earth 1:10,000,000概化选段；仅选River，排除人工Lake Centerline。近景河岸有概化偏移，水库/选取范围造成的缺口未连线；不是完整黄河、古河道、古渡点或河湟谷地边界。"
+    },
+    {
+      "river_id": "huangshui",
+      "name": "湟水",
+      "status": "available_osm_named_segments",
+      "source": "https://www.openstreetmap.org/relation/6049104",
+      "source_id": 6049104,
+      "source_version": 9,
+      "source_timestamp": "2024-01-08T19:01:36Z",
+      "line_feature_count": 44,
+      "limitations": "所列OSM关系中具有匹配河名及waterway=river的way；保留独立way，不跨缺口连线；不声称现代标注绝对完整。 只显示现代河线；源头完整性和历史河道未核验，不作河湟外缘或作者路线。",
+      "coverage": {
+        "river_id": "huangshui",
+        "name": "湟水",
+        "source_api_url": "https://api.openstreetmap.org/api/0.6/relation/6049104/full",
+        "source_url": "https://www.openstreetmap.org/relation/6049104",
+        "relation_id": 6049104,
+        "relation_type": "waterway",
+        "relation_version": 9,
+        "relation_timestamp": "2024-01-08T19:01:36Z",
+        "source_bytes": 886451,
+        "source_sha256": "7ec8adbd531f6a3f59b9fbe8c702d56bee877cb7c4b44ddc8dfe52f625819a57",
+        "selected_way_count": 44,
+        "vertex_count": 4438,
+        "bbox_wgs84": [
+          100.8671453,
+          36.1199503,
+          103.3647562,
+          36.9842714
+        ],
+        "ignored_nonmatching_member_ways": [],
+        "missing_geometry": [],
+        "coverage_note": "所列OSM关系中具有匹配河名及waterway=river的way；保留独立way，不跨缺口连线；不声称现代标注绝对完整。",
+        "coordinate_connectivity_components": 1,
+        "component_vertex_counts": [
+          4394
+        ],
+        "degree_one_endpoint_coordinates": [
+          [
+            103.3647562,
+            36.1199503
+          ],
+          [
+            100.8683663,
+            36.9842714
+          ]
+        ]
+      }
+    },
+    {
+      "river_id": "datong",
+      "name": "大通河",
+      "status": "available_osm_named_segments",
+      "source": "https://www.openstreetmap.org/relation/2082530",
+      "source_id": 2082530,
+      "source_version": 22,
+      "source_timestamp": "2021-11-21T02:01:04Z",
+      "line_feature_count": 54,
+      "limitations": "从大通河流域watershed关系筛选name=大通河且waterway=river的way，只取河线；不导出流域边界或其他支流，不把该关系误称完整河道waterway关系。 只显示现代河线；源头完整性和历史河道未核验，不作河湟外缘或作者路线。",
+      "coverage": {
+        "river_id": "datong",
+        "name": "大通河",
+        "source_api_url": "https://api.openstreetmap.org/api/0.6/relation/2082530/full",
+        "source_url": "https://www.openstreetmap.org/relation/2082530",
+        "relation_id": 2082530,
+        "relation_type": "watershed",
+        "relation_version": 22,
+        "relation_timestamp": "2021-11-21T02:01:04Z",
+        "source_bytes": 1195361,
+        "source_sha256": "94530b57a7c01ed4dd441a2940f48ecdd0fe1ed84b730e571e9579524c54c89d",
+        "selected_way_count": 54,
+        "vertex_count": 4139,
+        "bbox_wgs84": [
+          99.5118367,
+          36.3387782,
+          102.8844476,
+          38.1153645
+        ],
+        "ignored_nonmatching_member_ways": [
+          {
+            "id": 154993637,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 154993639,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 154993641,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 154993642,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 154993643,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 154993644,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 201604726,
+            "name": null,
+            "waterway": "river"
+          },
+          {
+            "id": 323508089,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 323508093,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 323508094,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 324216976,
+            "name": "讨拉沟",
+            "waterway": "river"
+          },
+          {
+            "id": 324216996,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 324238687,
+            "name": null,
+            "waterway": "river"
+          },
+          {
+            "id": 324238688,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 324238689,
+            "name": null,
+            "waterway": "river"
+          },
+          {
+            "id": 324238704,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 324238705,
+            "name": null,
+            "waterway": "river"
+          },
+          {
+            "id": 324238711,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 325495805,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 325495810,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 325495811,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 409708640,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 409805998,
+            "name": null,
+            "waterway": "river"
+          },
+          {
+            "id": 435435135,
+            "name": null,
+            "waterway": "stream"
+          },
+          {
+            "id": 869049897,
+            "name": null,
+            "waterway": "river"
+          }
+        ],
+        "missing_geometry": [],
+        "coverage_note": "从大通河流域watershed关系筛选name=大通河且waterway=river的way，只取河线；不导出流域边界或其他支流，不把该关系误称完整河道waterway关系。",
+        "coordinate_connectivity_components": 1,
+        "component_vertex_counts": [
+          4065
+        ],
+        "degree_one_endpoint_coordinates": [
+          [
+            102.8379371,
+            36.3387782
+          ],
+          [
+            99.5118367,
+            38.1142527
+          ]
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "dataset": "Natural Earth 10m rivers and lake centerlines",
+      "source_url": "https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_lake_centerlines.zip",
+      "source_version": "5.0.0",
+      "version_evidence": "Read ne_10m_rivers_lake_centerlines.VERSION.txt inside the downloaded official ZIP",
+      "retrieved_at_utc": "2026-11-01T13:46:56+00:00",
+      "archive_sha256": "ded71b01870855ccfe19b51f2ec14c9bb48fae23c0e9f3c11974d426433b5c38",
+      "shp_sha256": "f9a1cf6d9f58c0a6f182a7f25771a03e0a48026253d4484aab782b2586354d78",
+      "dbf_sha256": "68079fde5fde6167d0c7c4f03e498164badcc3b687a93c436278ade83882b564",
+      "crs_wkt": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "source_feature_count": 1473,
+      "selected_source_features": [
+        {
+          "name": "Huang",
+          "name_en": "Yellow",
+          "ne_id": 1159124959,
+          "rivernum": 66,
+          "featurecla": "River"
+        }
+      ],
+      "display_selection_bbox_lonlat": [
+        100.3,
+        35.0,
+        104.1,
+        38.3
+      ],
+      "selection_is_not_valley_boundary": true,
+      "selected_line_parts": 1,
+      "selected_vertices": 182,
+      "excluded_feature_classes": [
+        "Lake Centerline"
+      ],
+      "method": "Select featurecla=River and rivernum=66. Retain consecutive source vertices within bbox; runs under 2 vertices discarded. No inserted clipping intersections or gap connectors.",
+      "license": "Natural Earth public domain",
+      "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "attribution": "Made with Natural Earth"
+    },
+    {
+      "dataset": "OpenStreetMap named waterway segments for Huangshui and Datong",
+      "source_url": "https://www.openstreetmap.org/copyright",
+      "license": "Open Database License (ODbL) 1.0",
+      "license_url": "https://www.openstreetmap.org/copyright",
+      "attribution": "© OpenStreetMap contributors",
+      "retrieved_at_utc": "2026-11-01T13:44:02+00:00",
+      "method": "OSM API 0.6 relation/full原响应内存解析；仅提取有明确匹配河名的河流way，逐way保留原节点坐标、版本、时间戳，不简化、不补点、不连接不同way。",
+      "limitations": [
+        "仅为现代河道位置背景，不复原近代或更早河道，不代表行军路线、古驿路或河湟区域边界。",
+        "湟水关系包含少数现代隧涵段，原标签已保留，不能解释为历史明渠。",
+        "大通河来自watershed分组内的同名河线筛选，其他同名缺段或源头是否已完整绘制尚未经全程实地核查。"
+      ],
+      "relation_records": [
+        {
+          "river_id": "huangshui",
+          "name": "湟水",
+          "source_api_url": "https://api.openstreetmap.org/api/0.6/relation/6049104/full",
+          "source_url": "https://www.openstreetmap.org/relation/6049104",
+          "relation_id": 6049104,
+          "relation_type": "waterway",
+          "relation_version": 9,
+          "relation_timestamp": "2024-01-08T19:01:36Z",
+          "source_bytes": 886451,
+          "source_sha256": "7ec8adbd531f6a3f59b9fbe8c702d56bee877cb7c4b44ddc8dfe52f625819a57",
+          "selected_way_count": 44,
+          "vertex_count": 4438,
+          "bbox_wgs84": [
+            100.8671453,
+            36.1199503,
+            103.3647562,
+            36.9842714
+          ],
+          "ignored_nonmatching_member_ways": [],
+          "missing_geometry": [],
+          "coverage_note": "所列OSM关系中具有匹配河名及waterway=river的way；保留独立way，不跨缺口连线；不声称现代标注绝对完整。",
+          "coordinate_connectivity_components": 1,
+          "component_vertex_counts": [
+            4394
+          ],
+          "degree_one_endpoint_coordinates": [
+            [
+              103.3647562,
+              36.1199503
+            ],
+            [
+              100.8683663,
+              36.9842714
+            ]
+          ]
+        },
+        {
+          "river_id": "datong",
+          "name": "大通河",
+          "source_api_url": "https://api.openstreetmap.org/api/0.6/relation/2082530/full",
+          "source_url": "https://www.openstreetmap.org/relation/2082530",
+          "relation_id": 2082530,
+          "relation_type": "watershed",
+          "relation_version": 22,
+          "relation_timestamp": "2021-11-21T02:01:04Z",
+          "source_bytes": 1195361,
+          "source_sha256": "94530b57a7c01ed4dd441a2940f48ecdd0fe1ed84b730e571e9579524c54c89d",
+          "selected_way_count": 54,
+          "vertex_count": 4139,
+          "bbox_wgs84": [
+            99.5118367,
+            36.3387782,
+            102.8844476,
+            38.1153645
+          ],
+          "ignored_nonmatching_member_ways": [
+            {
+              "id": 154993637,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 154993639,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 154993641,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 154993642,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 154993643,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 154993644,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 201604726,
+              "name": null,
+              "waterway": "river"
+            },
+            {
+              "id": 323508089,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 323508093,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 323508094,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 324216976,
+              "name": "讨拉沟",
+              "waterway": "river"
+            },
+            {
+              "id": 324216996,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 324238687,
+              "name": null,
+              "waterway": "river"
+            },
+            {
+              "id": 324238688,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 324238689,
+              "name": null,
+              "waterway": "river"
+            },
+            {
+              "id": 324238704,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 324238705,
+              "name": null,
+              "waterway": "river"
+            },
+            {
+              "id": 324238711,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 325495805,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 325495810,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 325495811,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 409708640,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 409805998,
+              "name": null,
+              "waterway": "river"
+            },
+            {
+              "id": 435435135,
+              "name": null,
+              "waterway": "stream"
+            },
+            {
+              "id": 869049897,
+              "name": null,
+              "waterway": "river"
+            }
+          ],
+          "missing_geometry": [],
+          "coverage_note": "从大通河流域watershed关系筛选name=大通河且waterway=river的way，只取河线；不导出流域边界或其他支流，不把该关系误称完整河道waterway关系。",
+          "coordinate_connectivity_components": 1,
+          "component_vertex_counts": [
+            4065
+          ],
+          "degree_one_endpoint_coordinates": [
+            [
+              102.8379371,
+              36.3387782
+            ],
+            [
+              99.5118367,
+              38.1142527
+            ]
+          ]
+        }
+      ],
+      "access_notes": [
+        "Overpass主站POST读取超时，private.coffee POST发生SSL EOF；未采用失败响应。",
+        "先用OSM原API两处河口小bbox识别湟水relation6049104、大通河口way126899248，再由该way父关系找到大通河流域relation2082530。"
+      ]
+    }
+  ],
+  "excluded_geometry": [
+    "Hehuang outer boundary",
+    "historical tribal/administrative boundary",
+    "historical route",
+    "point interpolated from historical distance",
+    "connector across missing river data"
+  ],
+  "geometry_gaps_policy": "No fabricated connecting lines; absence of a segment is not proof that a river stops there. OSM selected segments are connected within each river relation, but full headwater coverage is not asserted. NE lake centerline sections are excluded."
+}
+
+Google Earth核验：verified
+
+已从设备将独立KMZ导入现有云端项目；处理面板显示已成功完成。已打开新根层，核对石堡城约位、两份文献坐标差异、历史背景与非亲历说明；核对湟水弹窗含现代隧涵限制及OSM署名。已在河湟总览画布看到黄河、湟水、大通河与石堡地区点，确认卫星图像100%及已保存到Google云端硬盘。截图留存；没有以导入成功替代实际显示核验。
