@@ -20,6 +20,7 @@ from annotation_eleven import add_annotation11, add_deep_research, add_approxima
 from annotation11_figure import write_figure
 from gongbu_pacification import add_gongbu_pacification, write_gongbu_indexes, unlocated_entries as gongbu_unlocated_entries
 from demo_lulang import add_demo_lulang, write_demo_lulang_index
+from bomi_campaign_plan import add_campaign_plan, anchor_html as campaign_anchor_html, write_campaign_indexes
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -69,7 +70,7 @@ ROWS = [
 ('lulang','17 鲁朗','鲁朗地区',94.7332,29.7257,'第5—7章','pome','区域参照','https://mapcarta.com/N12238762005','使用现代镇驻地作地区参照。镇治曾由东久迁移，旅游小镇与书中驻营地不能直接等同；未确认作者每次驻地。'),
 ('tongmai','18 汤买／汤木 → 通麦一带','通麦、易贡藏布渡河地区',95.0646,30.0976,'第6章；校注33','pome','区域参照','https://www.upc.pbs.bridgemeister.com/bridge.php?bid=6161','现代通麦桥坐标仅用于定位渡河地区，不认定旧藤桥与今桥重合。'),
 ('yigong','19 彝贡 → 易贡地区','易贡乡一带',94.8162,30.2699,'第6章','pome','区域参照','https://mapcarta.com/29837964','现代易贡乡聚落代表点，用于查看易贡河谷；不等同书中的军营、登岸点或具体战场。'),
-('qundo','20 春多寺 → 倾多寺一带','倾多镇、倾多寺地区',95.6022,30.0577,'第6—7章；校注35','pome','事件区域','https://mapcarta.com/N3017464360','校注将春多寺、春倾寺对应倾多寺。坐标取现代倾多聚落点，非寺院测绘坐标；主要作为书中部队和人物活动的事件地点，不认定作者本人亲到，未接入个人行程连线。'),
+('qundo','20 春多寺 → 倾多寺一带','倾多镇、倾多寺地区',95.6022,30.0577,'第5—7章；校注35','pome','地区参照；作者后来亲到，旧寺确址未定','https://mapcarta.com/N3017464360','校注35将春多寺对应倾多寺，解释春倾寺为混写。第5章为钟颖部署中的第二步目标，不等于已完成行程。第7章另记罗长裿急召陈渠珍至春多寺，陈见密函后辞归卡拖，可认定作者后来到过该地区；不能反推陈参与边军先行攻取或与边军同行。本点取现代倾多聚落代表坐标，非旧寺建筑、会见内室或营地确址；往返卡拖的逐站路线未定，未新增连线。'),
 ('golmud','21 柴达木 → 格尔木一带（推定）','格尔木地区',94.9042,36.4028,'第11章；校注55','return','校注推定',wiki('格尔木市'),'任乃强按程站推为格尔木一带，不是作者明确写出的今名。使用现代城市代表点；不是当时城市已建成的断言，也不能据此反推羌塘精确轨迹。'),
 ('qinghai','22 青海 → 青海湖（区域）','青海湖',100.2,36.9,'第11章；校注57','return','区域参照','https://en.wikipedia.org/wiki/Qinghai_Lake','湖面代表点，仅定位整湖。原文及校注记行海南路；不代表到湖心，也不是确定的岸边营地。书中另有“青盐海”，与青海湖分开处理。'),
 ('riyue','23 日月山','日月山一带',101.0939,36.4431,'第11章；校注58','return','区域参照','https://mapcarta.com/W1425740804','使用日月山景区代表点，未确认旧道具体翻越位置。'),
@@ -83,6 +84,7 @@ ROWS = [
 
 # Distances are between representative points, never reconstructed walking miles.
 PLACE_BY_ID = {r[0]: r for r in ROWS}
+CAMPAIGN_ANCHORS = {**{r[0]: r[3:5] for r in ROWS}, **{p['id']: (p['lon'], p['lat']) for p in MINOR_PLACES}}
 check_shared_places(PLACE_BY_ID, load_post_routes()[1])
 ROUTES = [
     ('in','R1 入藏地点顺序示意',['chengdu','yaan','luding','kangding','zheduo','changba','daofu','luhuo',*SEQUENCE]),
@@ -232,6 +234,7 @@ def minor_folder(doc,places=None):
                   ('今名／历史依据',p['identity_source']),('坐标参照',p['coordinate_source']),('原文及任乃强校注',TEXT)]))
         if p.get('literary_quote'): info+='<p><b>书中节引：</b>'+html.escape(p['literary_quote'])+'</p>'
         if p.get('additional_sources'): info+='<p>'+links((s['title'],s['url']) for s in p['additional_sources'])+'</p>'
+        if p['id']=='dongjiu': info+=campaign_anchor_html('dongjiu',CAMPAIGN_ANCHORS)
         el(pm,'description',info);view(pm,lon,lat,p.get('view_range',45000))
         el(pm,'styleUrl','#'+('minor_landmark' if p['certainty']=='现代地形点参照' else 'minor_reference'))
         # A display window, not an asserted historical territory or error ellipse.
@@ -492,6 +495,7 @@ def major_place(parent,row):
     if rid=='bomi': extra.extend([('校注33：波部、上波与下波','https://www.xuges.com/xdwx/qycm/17.htm'),('波密县历史沿革','https://bomi.gov.cn/bmx/zjbm/201901/6e18ca202e204e23a572f56f2b17dfd4.shtml'),('县政府驻扎木镇：官方简介','https://www.bomi.gov.cn/bmx/newxz/202012/ee7bcc2e5e7143c59d7f4725fa059033.shtml')])
     coordinate_note=('KNAB原表为29°51′33″N、95°46′14″E，未明确坐标基准；本点仅为现代扎木镇代表点，显示位数不代表历史地区中心或古址精度。' if rid=='bomi' else '坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。')
     body=f'<h3>{html.escape(label)}</h3><p><b>今名／定位对象：</b>{html.escape(modern)}<br/><b>对应章节：</b>{html.escape(chapter)}<br/><b>定位性质：</b>{certainty}<br/><b>经纬度：</b>{lon:.4f}°E, {lat:.4f}°N</p><p>{html.escape(note)}</p><p>{coordinate_note}</p><p>'+links(extra)+'</p>'
+    if rid in ['tongmai','qundo']: body+=campaign_anchor_html(rid,CAMPAIGN_ANCHORS)
     related_distances=[d for d in DISTANCE_ROWS if d[1]==rid or d[2]==rid]
     travel=time_html(entries)+(distance_html(related_distances) if related_distances else '')
     el(pm,'description',body+travel if rid in ['taizhao','bomi'] else travel+body)
@@ -599,6 +603,7 @@ def make_map(bundled=False):
     add_annotation11(doc,el,view,bundled,True)
     add_gongbu_pacification(doc,el,view,kcolor,bundled)
     add_demo_lulang(doc,el,view,reuse_endpoints=True)
+    add_campaign_plan(doc,el,view,kcolor,CAMPAIGN_ANCHORS,bundled)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -660,6 +665,15 @@ def pack_annotation11_sources(archive):
         relative='data/annotation11/'+scan['file']
         archive.write(ROOT/relative,relative)
 
+def make_campaign_supplement(bundled=False):
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='bomi_campaign_plan_supplement')
+    el(doc,'name','《艽野尘梦》波密进军三步部署｜计划与待考')
+    el(doc,'open',1)
+    el(doc,'description','第5章的三阶段计划：复用冬九、通麦、倾多三个现代地区点，纳衣当噶、八浪登、卡拖及酋长所在地保留无坐标条目。不是三天或已完成的全程，无路线；叠加旧图时隐藏旧版同名点。')
+    view(doc,95.17,29.98,175000)
+    add_campaign_plan(doc,el,view,kcolor,CAMPAIGN_ANCHORS,bundled,True)
+    return serialize(root)
+
 def main():
     # ElementTree has one process-wide default namespace; inline HTML needs unprefixed SVG tags.
     ET.register_namespace('', 'http://www.w3.org/2000/svg')
@@ -697,6 +711,12 @@ def main():
         z.writestr('icons/gongbu_candidate.png',png('#ffb347',True))
         z.writestr('icons/gongbu_reference.png',png('#89d8ff'))
     gongbu_note=write_gongbu_indexes()
+    campaign='艽野尘梦_波密三步部署'
+    (ROOT/(campaign+'.kml')).write_bytes(make_campaign_supplement())
+    with zipfile.ZipFile(ROOT/(campaign+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_campaign_supplement(True))
+        z.writestr('icons/campaign_reference.png',png('#ffd166',True))
+    campaign_note=write_campaign_indexes(CAMPAIGN_ANCHORS)
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -977,9 +997,10 @@ https://opendatacommons.org/licenses/odbl/1-0/
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n二十五、波密｜历史地区；今扎木镇方位参照\n'+bomi_note)
         f.write('\n二十六、大吉岭｜达赖、夏扎赴印背景\n'+darjeeling_note)
+        f.write('\n波密进军三步部署｜计划与待考\n'+campaign_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n德摩—鲁朗越岭｜16层\n'+crossing_note)
-    print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer.')
+    print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 
 if __name__=='__main__':
     main()
