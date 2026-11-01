@@ -578,8 +578,8 @@ def make_map(bundled=False):
 
 def make_balangdeng_supplement():
     root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='balangdeng_supplement')
-    el(doc,'name','《艽野尘梦》八浪登旧山路核对｜确址待考');el(doc,'open',1)
-    el(doc,'description','无几何的山路区段核对卡。镜头只供查看现代东久—通麦方向，不代表八浪登坐标、旧道、古界或误差范围。')
+    el(doc,'name','《艽野尘梦》八浪登与四重山核对｜校注33');el(doc,'open',1)
+    el(doc,'description','无几何的山路区段核对卡。镜头只供查看现代东久—通麦方向，不代表四重山中任一山的坐标、旧道、古界或误差范围。')
     view(doc,94.90258,29.964635,180000)
     add_balangdeng(doc,el,view)
     return serialize(root)
@@ -955,7 +955,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n二十四、贡觉｜米瑞广久一带候选；旧宅未定\n'+gongjue_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n二十五、波密｜历史地区；今扎木镇方位参照\n'+bomi_note)
-        f.write('\n二十六、八浪登旧山路核对｜确址待考\n'+balangdeng_note)
+        f.write('\n二十六、八浪登与四重山核对｜确址待考\n'+balangdeng_note)
         f.write('\n二十七、边军攻取上波密三寺｜并列战果\n'+three_temples_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 

@@ -1,4 +1,4 @@
-"""Geometry-free reading cards for the unlocated Balangdeng mountain pass."""
+"""Geometry-free reading cards for Balangdeng and the four mountain barriers."""
 from pathlib import Path
 import html
 import json
@@ -26,7 +26,7 @@ def card_html(cfg, card):
 def add_folder(doc, el, view):
     cfg = load()
     folder = el(doc, 'Folder', id='balangdeng_check')
-    el(folder, 'name', '17 八浪登旧山路核对｜确址待考')
+    el(folder, 'name', '17 八浪登与四重山核对｜确址待考')
     el(folder, 'open', 1)
     el(folder, 'description', cfg['summary'] + ' ' + cfg['look_at']['note'])
     camera = cfg['look_at']
@@ -41,12 +41,12 @@ def add_folder(doc, el, view):
 
 def write_index():
     cfg = load()
-    note = ('八浪登旧山路核对｜确址待考\n核对日期：' + cfg['checked_at'] + '\n\n'
+    note = ('八浪登与四重山核对｜确址待考\n核对日期：' + cfg['checked_at'] + '\n\n'
             + cfg['summary'] + '\n\n')
     for card in cfg['cards']:
         note += card['name'] + '\n' + '\n'.join(card['paragraphs']) + '\n\n'
     note += '镜头参照\n' + cfg['look_at']['note'] + '\n\n'
-    note += ('完整阅读地图17层与独立“艽野尘梦_八浪登山路核对.kmz”均有两张可点击说明卡，选择一份显示。'
+    note += (f'完整阅读地图17层与独立“艽野尘梦_八浪登山路核对.kmz”均有{len(cfg["cards"])}张可点击说明卡，选择一份显示。'
              '卡片只移动镜头，不含地点、路线、范围或搜索圈几何；没有新增物理点，不参与路线距离及耗时合计。\n\n来源及限度\n')
     for source in cfg['sources']:
         note += '\n' + source['title'] + '\n' + source['supports'] + '\n' + source['url'] + '\n'
