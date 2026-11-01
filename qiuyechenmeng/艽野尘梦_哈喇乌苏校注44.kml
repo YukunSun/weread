@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="hala_wusu_annotation44_supplement">
+    <name>《艽野尘梦》哈喇乌苏｜河谷推定与官道分读</name>
+    <open>1</open>
+    <description>正文记凝多改道北进，七日至哈喇乌苏；任乃强据河谷、村落和旧官道背景推其为怒江上游阿克河谷。具体河段、台站、聚落及陈氏宿处仍待考，沿河西行或经拉里的官道均为校注对照，不是作者实走路线。</description>
+    <LookAt>
+      <longitude>92.5</longitude>
+      <latitude>32.0</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>900000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Folder id="hala_wusu_annotation44">
+      <name>校注44 哈喇乌苏｜河谷推定与官道分读</name>
+      <open>1</open>
+      <description>正文记凝多改道北进，七日至哈喇乌苏；任乃强据河谷、村落和旧官道背景推其为怒江上游阿克河谷。具体河段、台站、聚落及陈氏宿处仍待考，沿河西行或经拉里的官道均为校注对照，不是作者实走路线。</description>
+      <LookAt>
+        <longitude>92.5</longitude>
+        <latitude>32.0</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>900000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="hala_wusu_valley">
+        <name>哈喇乌苏〔任注推阿克河谷；旧站与河段待考〕</name>
+        <description>&lt;h3&gt;哈喇乌苏〔任注推阿克河谷；旧站与河段待考〕&lt;/h3&gt;&lt;p&gt;校注44将陈氏所经哈喇乌苏考为怒江上游的阿克河谷，依据包括河谷有村落、下游三十九族与旧官道背景。这是任乃强的地理考订；本轮未取得可将旧阿克河谷、台站和书中大镇与现代具体河段或聚落一一对应的直接证据。&lt;/p&gt;&lt;p&gt;校注使用怒江南源阿克、北源索克的旧地理框架。现代西藏水利规划把索曲列为怒江左岸一级支流，但这不能单独证明旧索克与现代索曲的完整对应，也不能反推阿克河就是某条现代主流。旧名与现代水系仍须分别核定，不径套今日那曲城区或现行政边界。&lt;/p&gt;&lt;p&gt;&lt;b&gt;镜头与定位：&lt;/b&gt;编辑选取的青藏高原东南部900km广域概览镜头，仅辅助阅读地理背景；不是哈喇乌苏旧台站、陈氏宿处、阿克河具体河段、战场或古道坐标，也不是候选点、误差范围或搜索区。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;《艽野尘梦》第8章及校注44：七日到站、河谷考订与官道对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikisource.org/zh-hans/清史稿/卷80"&gt;《清史稿》卷80：喀喇乌苏词义及清代地理概述&lt;/a&gt;&lt;br/&gt;&lt;a href="https://slt.xizang.gov.cn/zwgk/tzgg/201612/t20161201_222663.html"&gt;西藏自治区水利厅：现代索曲水系规划&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>92.5</longitude>
+          <latitude>32.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>900000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="hala_wusu_seven_days">
+        <name>凝多北行七日到达〔原文段耗时；当晚留宿〕</name>
+        <description>&lt;h3&gt;凝多北行七日到达〔原文段耗时；当晚留宿〕&lt;/h3&gt;&lt;p&gt;正文明确先由凝多改道北进，再行七日至哈喇乌苏。七日从凝多北行起算，不是从江达启程起算，也不换成168小时；它属于江达至丹噶尔223日大段之内，不另加到全程。沿途日行七八十里是作者概述，不用乘法补造准确总里程、速度、逐日营地或终点坐标。&lt;/p&gt;&lt;p&gt;作者原拟补粮休息，交涉后仅获准一宿，夜间戒备，天明即起程。地图只记当晚宿营及次晨离开，未给出精确小时数、完整休整日或第二夜。大镇、寺院、三间小屋与后续交战、无名宿处均没有因此取得坐标。&lt;/p&gt;&lt;p&gt;&lt;b&gt;镜头与定位：&lt;/b&gt;编辑选取的青藏高原东南部900km广域概览镜头，仅辅助阅读地理背景；不是哈喇乌苏旧台站、陈氏宿处、阿克河具体河段、战场或古道坐标，也不是候选点、误差范围或搜索区。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;《艽野尘梦》第8章及校注44：七日到站、河谷考订与官道对照&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>92.5</longitude>
+          <latitude>32.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>900000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="hala_wusu_roads">
+        <name>沿河西行与经拉里大道〔校注未走方案〕</name>
+        <description>&lt;h3&gt;沿河西行与经拉里大道〔校注未走方案〕&lt;/h3&gt;&lt;p&gt;任注所说如沿此河谷西行即可入当拉岭官道，是对另一种走法的条件性判断；自凝多入三十九族须经拉里的大道，也用来对照作者北行避过拉里的选择。两者不能改写成陈氏已经沿河西行、到过当拉岭或此次再经拉里。&lt;/p&gt;&lt;p&gt;旧台站与官道背景能帮助理解迷途风险，不能恢复陈氏实际逐站路线。本层不新增西行、经拉里或翻岭连线；当拉岭、三十九族的历史地域与现代山口、行政范围也不直接套合。&lt;/p&gt;&lt;p&gt;&lt;b&gt;镜头与定位：&lt;/b&gt;编辑选取的青藏高原东南部900km广域概览镜头，仅辅助阅读地理背景；不是哈喇乌苏旧台站、陈氏宿处、阿克河具体河段、战场或古道坐标，也不是候选点、误差范围或搜索区。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;《艽野尘梦》第8章及校注44：七日到站、河谷考订与官道对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikisource.org/zh-hans/清史稿/卷80"&gt;《清史稿》卷80：喀喇乌苏词义及清代地理概述&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>92.5</longitude>
+          <latitude>32.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>900000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="hala_wusu_names">
+        <name>哈喇乌苏词义〔蒙古语黑水；版本字形分读〕</name>
+        <description>&lt;h3&gt;哈喇乌苏词义〔蒙古语黑水；版本字形分读〕&lt;/h3&gt;&lt;p&gt;《清史稿》卷80直释蒙古语喀喇为黑、乌苏为水，合为黑水之名，可与校注说明合读。用户所据校注转录写哈喇为黑水、乌苏为河；本图保留这一版本差异，并采用黑与水的语素分解。&lt;/p&gt;&lt;p&gt;校注列天湖的朗错、胜格里诺尔等为蒙古地名沿用的文化例证。现代官方纳木错介绍可提供天湖异语名称的对读，但未核任注原刊影像前，不据现代名称擅改用户引文的朗错、胜格里等字形；天湖、炉霍、定乡也不因此加入这段北返途经点。&lt;/p&gt;&lt;p&gt;&lt;b&gt;镜头与定位：&lt;/b&gt;编辑选取的青藏高原东南部900km广域概览镜头，仅辅助阅读地理背景；不是哈喇乌苏旧台站、陈氏宿处、阿克河具体河段、战场或古道坐标，也不是候选点、误差范围或搜索区。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;《艽野尘梦》第8章及校注44：七日到站、河谷考订与官道对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikisource.org/zh-hans/清史稿/卷80"&gt;《清史稿》卷80：喀喇乌苏词义及清代地理概述&lt;/a&gt;&lt;br/&gt;&lt;a href="https://wlt.xizang.gov.cn/xwzx_69/jdxw/201811/t20181120_119877.html"&gt;西藏自治区旅游部门：纳木错名称介绍&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>92.5</longitude>
+          <latitude>32.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>900000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="hala_wusu_history">
+        <name>清军史事年代核对〔任注58年；史料记57年战殁〕</name>
+        <description>&lt;h3&gt;清军史事年代核对〔任注58年；史料记57年战殁〕&lt;/h3&gt;&lt;p&gt;校注将相关覆军史事写为康熙五十八年。《清史稿》卷281的额伦特传与康泰传则把喀喇乌苏战殁记在康熙五十七年（1718），五十八年另记额伦特丧还。这里并列年代差异，保留校注引文字形，不把五十八年直接写成已经核准的战役日期。&lt;/p&gt;&lt;p&gt;康泰并非凭空误名：该卷确有康泰传，记其此前夺官、后从额伦特军并战死。因此不把校注中的康泰擅自改成额伦特，也不据提督旧职称认定当次军职。清初战地、后来的台站和陈氏所经聚落仍需分别定位，不能仅凭同名就视为同一确点。&lt;/p&gt;&lt;p&gt;&lt;b&gt;镜头与定位：&lt;/b&gt;编辑选取的青藏高原东南部900km广域概览镜头，仅辅助阅读地理背景；不是哈喇乌苏旧台站、陈氏宿处、阿克河具体河段、战场或古道坐标，也不是候选点、误差范围或搜索区。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;《艽野尘梦》第8章及校注44：七日到站、河谷考订与官道对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://zh.wikisource.org/zh-hans/清史稿/卷281"&gt;《清史稿》卷281：额伦特与康泰传&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>92.5</longitude>
+          <latitude>32.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>900000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
