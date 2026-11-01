@@ -67,4 +67,4 @@ Survey of India 1919：Tibet and Adjacent Countries原图影像
 https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg
 
 Google Earth核验
-待卡拖候选点及野人山文字说明实际导入和云端保存核验。
+已将独立卡拖与野人山KMZ按地图项导入原Google Earth阅读地图。实际核对金色空心卡拖候选点、标签、弹窗及位置字段95.64°E、29.91°N；说明保留Kata／Kardag候选、旧驻所未定、休息1日与行程2日分开，约89km仅现代两代表点直距。野人山、格布沟等为无坐标说明面板，已打开核对，不显示人物追入路线。另已直接修正云端旧三步部署中的卡拖文字：‡为旧名，并指向本次候选地区说明。页面显示已保存到Google云端硬盘。导入日志仅提示Region缩放条件不受支持；Google Earth忽略该显示条件，点位、文字和目录均已实际核验。
