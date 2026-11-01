@@ -1,0 +1,38 @@
+{
+  "title": "邠州地名、节日句与七日后续行程：1937印本影像核对",
+  "edition": "南京图书馆藏1937年铅印本，0096958-0001",
+  "checked_at": "2026-11-01",
+  "catalogue_url": "https://commons.wikimedia.org/wiki/File:NJlib-0096958-0001_艽野塵夢不分卷.pdf",
+  "files": [
+    {
+      "file": "1937_p139.jpg",
+      "printed_page": 139,
+      "pdf_page_1_based": 159,
+      "sha256": "ebb7614a86cc84802cd487458737572ecee778130016b6ee23bbf62640a9c12b",
+      "bytes": 583336,
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/NJlib-0096958-0001_%E8%89%BD%E9%87%8E%E5%A1%B5%E5%A4%A2%E4%B8%8D%E5%88%86%E5%8D%B7.pdf/page159-1920px-NJlib-0096958-0001_%E8%89%BD%E9%87%8E%E5%A1%B5%E5%A4%A2%E4%B8%8D%E5%88%86%E5%8D%B7.pdf.jpg"
+    },
+    {
+      "file": "1937_p141.jpg",
+      "printed_page": 141,
+      "pdf_page_1_based": 161,
+      "sha256": "183f5820c66e546b518e3fc82cca3a5e5385a3fd28cb493346069a878c577f46",
+      "bytes": 562656,
+      "source_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/NJlib-0096958-0001_%E8%89%BD%E9%87%8E%E5%A1%B5%E5%A4%A2%E4%B8%8D%E5%88%86%E5%8D%B7.pdf/page161-1920px-NJlib-0096958-0001_%E8%89%BD%E9%87%8E%E5%A1%B5%E5%A4%A2%E4%B8%8D%E5%88%86%E5%8D%B7.pdf.jpg"
+    }
+  ],
+  "readings": [
+    {
+      "printed_page": 139,
+      "text": "一日行至邠州時已八月十四日矣明日即為中秋節停車休息一日",
+      "punctuation": "原页无现代标点；说明文字补加标点。"
+    },
+    {
+      "printed_page": 141,
+      "text": "次日詰早乘車前進行七日至長安",
+      "punctuation": "原页无现代标点；说明文字补加标点。"
+    }
+  ],
+  "license": "Public domain original and mechanical scan, as identified on Commons; full page images copied without editing.",
+  "limits": "影像证明该版用字与叙述顺序，不能定位停车、会饮、店铺或推算绝对抵离日期。"
+}

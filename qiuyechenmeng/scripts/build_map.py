@@ -32,6 +32,7 @@ from yushu_context import add_yushu_context, write_yushu_outputs
 from hehuang_shibao import add_hehuang_shibao, write_hehuang_outputs
 from dulan_golmud import add_dulan_golmud, write_dulan_outputs
 from dangaer_context import add_dangaer_context, point_html as dangaer_point_html, write_dangaer_outputs
+from binzhou_context import add_binzhou_context, point_html as binzhou_point_html, write_binzhou_outputs
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -88,6 +89,7 @@ ROWS = [
 ('huangyuan','24 丹噶尔厅〔今湟源古城一带〕','丹噶尔古城一带',101.2643,36.6890,'第11—12章；校注59','return','对应较明确',wiki('城隍庙_(湟源县)'),'用古城内城隍庙代表丹噶尔老城，非作者旅店或厅署确址。农历六月二十四到达；所读本记北返223日，1937印本作193日，异文分列，未换公历。'),
 ('xining','25 西宁','西宁城区',101.7781,36.6169,'第12章','return','对应较明确',wiki('西宁市'),'现代城市代表点，不指认张镇军衙署或作者所住旅店。'),
 ('lanzhou','26 兰州','兰州城区',103.8320,36.0610,'第12章','return','对应较明确',wiki('兰州市'),'现代城市代表点；旧炭市街旅店位置未核。'),
+('binzhou','26a 邠州〔今陕西彬州城区〕','陕西彬州市城区一带',108.0798,35.0363,'第12章','return','地区对应较明确；现代城市参照','https://www.openstreetmap.org/node/244076935','1937印本及用户所读本均作邠州，旧电子转录分州在此更正。农历八月十四日到，停车休息一日，与西原共饮；1937本有明日即为中秋节，不改到达日。现代城市点非停车、共饮或旧旅店确址。'),
 ('xian','27 长安 → 西安','西安老城一带',108.9453,34.2592,'第12章','return','对应较明确',wiki('西安市'),'全书叙事终点。使用老城范围代表点；洪铺街寓所及墓葬均未精确定位。'),
 ('gongbo','参照 工布江达现代县城','工布江达县城',93.2462,29.8868,'地理对照','context','背景参照',wiki('工布江达县'),'供辨认今地名。与西北方向的太昭／江达村分开；本图不把现代县城当书中“江达”。'),
 ('bomi','波密〔历史地区；今扎木镇方位参照〕','今波密县扎木镇，仅作历史波密地区的现代方位参照',95.77055556,29.85916667,'第5—7章；校注33','context','现代镇区方位参照；历史地区范围未复原','https://arhiiv.eki.ee/knab/valik/cn54ny.htm','任乃强校注33区分东北上波（波堆）与西南下波（波密），并说明波部常被汉文统称波密；这是对书中历史地区的地理解释，不将历史范围直接套成今县界。现代波密县1959年设县，县政府驻扎木镇。本点以KNAB扎木镇代表坐标辨认地区方位，不是卡拖、春多寺、嘎朗王宫或具体战场，也不接入作者行军线。第5—7章含多地进退、驻防与等待，不能合并成该点的一次到站或统一用时。'),
@@ -101,7 +103,7 @@ ROUTES = [
     ('in','R1 入藏地点顺序示意',['chengdu','yaan','luding','kangding','zheduo','changba','daofu','luhuo',*SEQUENCE]),
     ('west','R2 昌都—类乌齐—嘉黎—江达',['chamdo','riwoche','lhari','taizhao']),
     ('pome','R3 鲁朗—通麦—易贡方向',['lulang','tongmai','yigong']),
-    ('return','R4 日月山—丹噶尔—西宁—兰州—西安',['riyue','huangyuan','xining','lanzhou','xian']),
+    ('return','R4 日月山—丹噶尔—西宁—兰州—邠州—西安',['riyue','huangyuan','xining','lanzhou','binzhou','xian']),
 ]
 DISTANCE_NOTE = '代表点之间的球面近似直线距离，按平均地球半径6371.0088 km计算，取整。不是历史实走里程、现代公路里程或虚线短笔画长度；不确定位置会影响距离，不能当导航数据。'
 
@@ -136,7 +138,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第10章','遇蒙古喇嘛、遇猎户地点','正文能约束事件先后和大方向，但不足以确定营地坐标。地图另以橙色空心标记显示区域推测锚点；锚点不是历史坐标，极低置信，不连成路线。'),
 ('第11章','盐淖、青盐海','盐沼及盐湖的具体范围未定。青盐海不同于随后到达的青海湖，不直接对应察尔汗、茶卡或柯柯盐湖。'),
 ('第11章；校注56','都兰旧市场、百余户聚落与湘阴老人住宅','旧都兰寺地区以98.6°E、37.0°N粗位作候选参照，未核陈氏当时聚落、市场或住宅确址；今察汗乌苏县城另标现代点。1917设理事公署、1930正式设县，不能把校注时已设县套回1911—1912年北返。又行两日从取盐后蒙古包起算，不是格尔木至都兰两日，不绘历史路线。'),
-('第12章','分州、洪铺街寓所、西原墓','旧名或具体地点尚待考；地图止于西安，不另画一条书中未叙述的回凤凰路线。'),
+('第12章','邠州旧停车、会饮处、洪铺街寓所与西原墓','邠州已据用户本及1937印本核为今陕西彬州，并加现代城市代表点；此前分州为转录异写。具体停车、共饮、旅店、寓所及墓址仍未核，不能用城市点代确址；地图止于西安，不另画书中未叙述的回凤凰路线。'),
 ]
 UNLOCATED += unlocated_entries() + gongbu_unlocated_entries()
 UNLOCATED += [('第6章','八噶山、其南大雪山与金珠山旧驻兵地','八噶山未与今八卡村、巴卡寺闭合，大雪山未具专名，均无坐标。金珠山另以金珠拉山口作地形候选，旧驻兵地未定；八百余里的承接对象仍待核，不赋现代km，不绘作者亲到或该队撤退路线。')]
@@ -582,9 +584,10 @@ def major_place(parent,row):
     body=f'<h3>{html.escape(label)}</h3><p><b>今名／定位对象：</b>{html.escape(modern)}<br/><b>对应章节：</b>{html.escape(chapter)}<br/><b>定位性质：</b>{certainty}<br/><b>经纬度：</b>{lon:.4f}°E, {lat:.4f}°N</p><p>{html.escape(note)}</p><p>{coordinate_note}</p><p>'+links(extra)+'</p>'
     if rid in ['tongmai','qundo']: body+=campaign_anchor_html(rid,CAMPAIGN_ANCHORS)
     if rid=='huangyuan': body+=dangaer_point_html()
+    if rid=='binzhou': body+=binzhou_point_html()
     related_distances=[d for d in DISTANCE_ROWS if d[1]==rid or d[2]==rid]
     travel=time_html(entries)+(distance_html(related_distances) if related_distances else '')
-    el(pm,'description',body+travel if rid in ['taizhao','bomi','huangyuan'] else travel+body)
+    el(pm,'description',body+travel if rid in ['taizhao','bomi','huangyuan','binzhou'] else travel+body)
     view(pm,lon,lat,240000 if rid=='bomi' else 180000 if rid in ['golmud','qinghai'] else 45000 if rid=='taizhao' else 65000)
     el(pm,'styleUrl','#jiangda' if rid=='taizhao' else '#'+phase+('_uncertain' if uncertain else ''))
     ed=el(pm,'ExtendedData')
@@ -702,6 +705,7 @@ def make_map(bundled=False):
     add_hehuang_shibao(doc,el,view,kcolor,bundled)
     add_dulan_golmud(doc,el,view,kcolor,bundled)
     add_dangaer_context(doc,el,view)
+    add_binzhou_context(doc,el,view)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -895,6 +899,7 @@ def main():
     hehuang_note=write_hehuang_outputs()
     dulan_note=write_dulan_outputs()
     dangaer_note=write_dangaer_outputs()
+    binzhou_note=write_binzhou_outputs()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1068,7 +1073,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 没有给未知行程编造日期或经纬度；农历日期未冒作公历。
 已补行程和驻留耗时：直接显示于主要点标标签、弹窗、图层和耗时总览。
 江达至丹噶尔按所读本记223日；南京图书馆藏1937年铅印本p133作193日，版本异文分列保留，未由历法重算。此为整个北返大段；猎户处至柴达木16日等是子段，不重复相加。
-康定至昌都正文50余日被校注质疑，保留分歧；分州至长安7日不误写为兰州至西安7日。
+康定至昌都正文50余日被校注质疑，保留分歧；邠州至长安7日不误写为兰州至西安7日（旧电子转录分州已订）。
 西安停留约2—3个月为叙事粗略推算；其余未明记的时间不按现代距离猜测。
 距离统一用km：按代表点的球面近似直线计算，取整，不是历史实际步行或公路里程。
 示意线的合计为各相邻点直距之和，既不是首尾直距，也不是全书完整行程。
@@ -1189,6 +1194,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n河湟谷地与石堡城｜河谷背景与古城约位\n'+hehuang_note)
         f.write('\n都兰与格尔木｜旧地名候选与现代参照\n'+dulan_note)
         f.write('\n丹噶尔厅与抵达日序｜所读本223日与1937印本异文\n'+dangaer_note)
+        f.write('\n邠州与中秋停留｜十四日、明日中秋与后续七日\n'+binzhou_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n\n二十七、北返荒原事件区域推测\n'+ '\n'.join(event_note))
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
