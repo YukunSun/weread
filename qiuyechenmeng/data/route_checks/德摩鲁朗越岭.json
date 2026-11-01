@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-11-01",
+  "title": "德摩—德摩大山—拉佐—鲁朗｜越岭与宿营",
+  "chapter": "第5章 进击波密",
+  "quote": "德摩至鲁朗，计七十里，经德摩大山，山高十五里。余率队前进，行十余里，即见高峰插天，危崖峻壁，冰雪遍山，道路泞滑，竭蹶而过。经拉佐至鲁朗，再进即波密境矣。遂就鲁朗宿营。",
+  "sequence": ["demo", "demu_la", "lazuo", "lulang"],
+  "summary": "原文明记作者自德摩率队越山，经拉佐至鲁朗并宿营。德摩大山可与德木拉古道走廊联系，但现代山口标记不是清末越岭确点的证明。拉佐今名未核，保留无坐标条目。",
+  "scope": "地图标出现有德摩、鲁朗两端代表点和可追溯的现代德木拉山口。只表达地点与原文顺序，不按代表点插值绘制古道，不给拉佐赋坐标。",
+  "points": [
+    {
+      "id": "demo",
+      "name": "德摩〔米瑞德木地区参照；此次越岭出发地〕",
+      "lon": 94.63347,
+      "lat": 29.51239,
+      "shared_marker_id": "minor_demo",
+      "certainty": "现代寺院及周边地区参照，旧军营未定",
+      "note": "沿用主图德摩代表点。官方明确第穆、德摩、德木为地名异译；现代德木寺曾迁址，不能将现寺建筑等同陈部营地或书中寺院。这里是后来从德摩前往鲁朗的一次行动，与此前赴德摩四日、驻留月余分别记录。",
+      "source_keys": ["official", "demo_osm", "book"]
+    },
+    {
+      "id": "demu_la",
+      "name": "德木拉山口〔现代山口；德摩大山对应候选〕",
+      "lon": 94.6788032,
+      "lat": 29.5858302,
+      "certainty": "现代地图山口参照；清末越岭确点未定",
+      "note": "OpenStreetMap节点3315765280明确标记德木拉山口／Temo La，类型mountain_pass=yes。巴宜区政府记载由米瑞德木寺翻越德木拉山口可达鲁朗，为德摩大山的古道走廊对应提供依据。采用现代地图节点，不据此宣称已测定陈部实际越岭点、山峰峰顶或历史道路。原文山高十五里不作现代海拔或垂直高差；不采用另一个约94.6°E、29.6°N的粗略地名库点。",
+      "source_keys": ["pass_osm", "official", "travel_corridor", "book"]
+    },
+    {
+      "id": "lulang",
+      "name": "鲁朗〔此次越岭抵达并宿营；旧营地未定〕",
+      "lon": 94.7332,
+      "lat": 29.7257,
+      "shared_marker_id": "place_lulang",
+      "certainty": "现代镇区代表点，旧宿营地未定",
+      "note": "沿用主图鲁朗地区点；现代OSM参照节点12238762005为鲁朗镇人民政府，不是书中宿营地。镇治曾由东久搬迁，现代镇区及旅游小镇不能直接当作清末驻地。此段原文已明确作者本人抵鲁朗宿营，区别于前文仅推荐鲁朗第巴出使的叙述。再进即波密境是作者对当时地域关系的说明，不画现代行政边界。",
+      "source_keys": ["lulang_osm", "lulang_history", "book"]
+    }
+  ],
+  "unlocated": [
+    {
+      "id": "lazuo",
+      "name": "拉佐〔德摩越岭至鲁朗之间，今址未定〕",
+      "note": "原文给出经拉佐至鲁朗的顺序，但尚无可靠现代对应；不从拉则、拉措等近音地名选点，不按七十里或示意线比例插值定位。亦不与觉拉沟、觉泥巴合并。"
+    }
+  ],
+  "distances": [
+    {"segment": "德摩至鲁朗全段", "original": "七十里", "meaning": "作者对本段路程的记述；原样保留，不乘固定系数换成km，不作为两代表点直距。"},
+    {"segment": "出发后开始遇险山的一段", "original": "行十余里", "meaning": "包含在全程七十里之内，不另加成八十余里，也不据此固定山口位置。"},
+    {"segment": "德摩大山", "original": "山高十五里", "meaning": "旧式山高描述，未明确现代测量口径；不换算为海拔、垂直高差或额外十五里路程。"}
+  ],
+  "timing": "原文记本次前进后宿鲁朗；随后遣第巴与一名传骑赴冬九，作者率部返回德摩。作者行动与使者行动分开，不把此次到鲁朗直接延伸为作者本次亲到冬九。此前赴德摩四日、德摩驻月余均为另段。",
+  "sources": {
+    "book": {"title": "《艽野尘梦》正文与任乃强校注", "url": "https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt"},
+    "official": {"title": "巴宜区政府：德木寺与德木拉—鲁朗线路", "url": "https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml"},
+    "travel_corridor": {"title": "西藏新闻网：德木寺—德木拉山口—鲁朗历史线路", "url": "https://www.xzxw.com/lyrw/2015-03/21/content_1160015.html"},
+    "pass_osm": {"title": "OSM现代德木拉山口节点3315765280", "url": "https://www.openstreetmap.org/node/3315765280"},
+    "demo_osm": {"title": "OSM现德木寺节点3316890527", "url": "https://www.openstreetmap.org/node/3316890527"},
+    "lulang_osm": {"title": "OSM现代鲁朗镇政府节点12238762005（地区参照）", "url": "https://www.openstreetmap.org/node/12238762005"},
+    "lulang_history": {"title": "鲁朗镇治迁移与旅游小镇建设沿革", "url": "https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html"}
+  },
+  "coordinate_provenance": "德木拉山口采用OSM WGS84节点3315765280的version 4，timestamp 2025-06-21T11:13:30Z；原始API响应见data/place_checks/demu_la_osm_node.json。两端坐标沿用既有主图代表点，不代表旧营地已定位。",
+  "google_earth_import": {
+    "status": "verified",
+    "project_id": "13kFLqFR-hXU21HBQK4FDOmsitZMJmw0n",
+    "checked_at": "2026-11-01",
+    "screenshot": "data/route_checks/demo_lulang_google_earth.png",
+    "note": "已将独立越岭补充导入既有Google Earth云端阅读地图，核对三处参照、山口候选弹窗、拉佐无坐标说明与原文里数，页面显示已保存到Google云端硬盘。云端隐藏补充层的德摩、鲁朗重复点，复用原有两端点显示；新山口保持显示。核验截图见data/route_checks/demo_lulang_google_earth.png。"
+  }
+}

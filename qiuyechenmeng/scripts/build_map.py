@@ -19,6 +19,7 @@ from post_routes import load as load_post_routes
 from annotation_eleven import add_annotation11, add_deep_research, add_approximate_places, write_annotation11_indexes, unlocated_entries, load as load_annotation11
 from annotation11_figure import write_figure
 from gongbu_pacification import add_gongbu_pacification, write_gongbu_indexes, unlocated_entries as gongbu_unlocated_entries
+from demo_lulang import add_demo_lulang, write_demo_lulang_index
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -597,6 +598,7 @@ def make_map(bundled=False):
     add_rivers(doc,el,view,kcolor,bundled)
     add_annotation11(doc,el,view,bundled,True)
     add_gongbu_pacification(doc,el,view,kcolor,bundled)
+    add_demo_lulang(doc,el,view,reuse_endpoints=True)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -645,6 +647,14 @@ def make_gongbu_supplement(bundled=False):
     add_gongbu_pacification(doc,el,view,kcolor,bundled)
     return serialize(root)
 
+def make_demo_lulang_supplement(bundled=False):
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='demo_lulang_supplement')
+    el(doc,'name','《艽野尘梦》德摩—鲁朗越岭｜七十里与宿营');el(doc,'open',1)
+    el(doc,'description','德摩、现代德木拉山口、鲁朗三处参照点；拉佐仍未定位。山口为德摩大山的对应候选，旧越岭确点及古道未测定，不画插值路线。独立文件含两端点，若叠加旧图请隐藏原德摩与鲁朗点；新版完整图已复用两端点，二选一显示。')
+    minor_styles(doc,bundled)
+    add_demo_lulang(doc,el,view)
+    return serialize(root)
+
 def pack_annotation11_sources(archive):
     for scan in load_annotation11()[0]['scans']:
         relative='data/annotation11/'+scan['file']
@@ -673,6 +683,13 @@ def main():
         for sid,color,hollow in [('point','#8ad4ff',False),('uncertain','#ffc66d',True),('measure','#cbd5e1',False)]:
             z.writestr('icons/post_'+sid+'.png',png(color,hollow))
         pack_annotation11_sources(z)
+    crossing='艽野尘梦_德摩鲁朗越岭'
+    (ROOT/(crossing+'.kml')).write_bytes(make_demo_lulang_supplement())
+    with zipfile.ZipFile(ROOT/(crossing+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_demo_lulang_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    crossing_note=write_demo_lulang_index()
     gongbu='艽野尘梦_工布安抚三地'
     (ROOT/(gongbu+'.kml')).write_bytes(make_gongbu_supplement())
     with zipfile.ZipFile(ROOT/(gongbu+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -960,7 +977,9 @@ https://opendatacommons.org/licenses/odbl/1-0/
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n二十五、波密｜历史地区；今扎木镇方位参照\n'+bomi_note)
         f.write('\n二十六、大吉岭｜达赖、夏扎赴印背景\n'+darjeeling_note)
-    print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
+    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+        f.write('\n德摩—鲁朗越岭｜16层\n'+crossing_note)
+    print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer.')
 
 if __name__=='__main__':
     main()
