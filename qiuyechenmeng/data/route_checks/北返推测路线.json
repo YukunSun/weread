@@ -1,0 +1,727 @@
+{
+  "checked_at": "2026-11-01",
+  "title": "第8—11章 北返推测路线｜按河谷与叙事线索",
+  "route_name": "江达→青海湖→丹噶尔〔主候选假说·整体低把握〕",
+  "summary": "这是一种可修订的阅读路线草案：以正文事件先后、任乃强地理考订和现代河谷地形拼合大方向。多数橙色空心点是地理走廊或事件区的工作锚，不表示发现了旧寺、营地、泉眼或渡口。细虚线只连接候选地区，不复原古道、逐日走法或实际绕折。",
+  "methodology": "主候选把握整体较低。较相容指在任注格尔木与旧都兰组合假设内可以接续，并非经过比较已证实优于其他路线。哈喇乌苏出河谷方向未写，入荒原后曾西北、向东又转北；第10章末选西北的关系以两事件区表达，但经纬线仍是假设。日数、里数、河流、小寺只用于叙事约束，不按速度插值坐标。",
+  "scope": "从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。",
+  "overview": {
+    "lon": 96.8,
+    "lat": 33.5,
+    "range_m": 1400000
+  },
+  "nodes": [
+    {
+      "id": "taizhao",
+      "name": "江达〔太昭地区参照〕",
+      "lon": 93.08,
+      "lat": 30,
+      "certainty": "地区较明",
+      "role": "existing",
+      "basis": "从江达北返，复用原图点，旧驻地确址未定。",
+      "source_keys": [
+        "ch8"
+      ]
+    },
+    {
+      "id": "ningduo",
+      "name": "凝多首宿〔古道下谷候选·低〕",
+      "lon": 93.12,
+      "lat": 30.2,
+      "certainty": "低",
+      "role": "candidate",
+      "basis": "按江达首宿、太昭以北娘曲古道线索选下谷方向作工作锚；不是已考定的凝多村，也不由一日路程反推。",
+      "source_keys": [
+        "ch8",
+        "ningduo",
+        "postroads"
+      ]
+    },
+    {
+      "id": "hala",
+      "name": "哈喇乌苏〔河谷约位·推定〕",
+      "lon": 93.1,
+      "lat": 31.54,
+      "certainty": "低",
+      "role": "shared_hala",
+      "basis": "复用哈喇大概位置点；任注推阿克河谷，旧站、宿处待考。",
+      "source_keys": [
+        "ch8",
+        "natural_earth"
+      ]
+    },
+    {
+      "id": "temple8",
+      "name": "小喇嘛寺宿处〔事件区·极低〕",
+      "lon": 93.1,
+      "lat": 31.9,
+      "certainty": "极低",
+      "role": "event",
+      "basis": "哈喇次晨离开后曾交战，晚宿十余帐幕和小寺。正文未写出河谷方位；此锚仅按后续北返大方向假设，不认现代寺，不按四十余里定位。",
+      "source_keys": [
+        "ch8"
+      ]
+    },
+    {
+      "id": "qiangtang",
+      "name": "羌塘入口〔过渡区假说·低〕",
+      "lon": 92.9,
+      "lat": 32.4,
+      "certainty": "低",
+      "role": "corridor",
+      "basis": "小寺后行三日、次晨入酱通，任注释羌塘。为广域过渡锚，不划荒原边界。",
+      "source_keys": [
+        "ch8"
+      ]
+    },
+    {
+      "id": "tanggula",
+      "name": "唐古拉东侧〔分水岭走廊·极低〕",
+      "lon": 93,
+      "lat": 33.1,
+      "certainty": "极低",
+      "role": "control",
+      "basis": "为怒江上游向长江上源接续的宽走廊假说，只作线折点，不宣称正文翻过此山口。入荒原曾西北、东、北变向。",
+      "source_keys": [
+        "ch8",
+        "ch9",
+        "tongtian"
+      ]
+    },
+    {
+      "id": "tongtian",
+      "name": "通天河上源〔渡河候选·低〕",
+      "lon": 93,
+      "lat": 34.1,
+      "certainty": "低",
+      "role": "candidate",
+      "basis": "正文抵河后踏冰过河，任注联系穆鲁乌苏。以NE Tuotuo概化河线交接附近作区域候选，不指认现代桥或界牌。",
+      "source_keys": [
+        "ch8",
+        "ch9",
+        "natural_earth",
+        "tongtian"
+      ]
+    },
+    {
+      "id": "palm",
+      "name": "掌形孤山与泉水〔事件区·极低〕",
+      "lon": 93.2,
+      "lat": 34.8,
+      "certainty": "极低",
+      "role": "event",
+      "basis": "第9章记掌形小山、清泉及矮树，明言不是冈天削。本点为工作事件区，不认现代山峰或泉眼。",
+      "source_keys": [
+        "ch9"
+      ]
+    },
+    {
+      "id": "lama",
+      "name": "蒙古喇嘛事件〔大方向区·极低〕",
+      "lon": 94.3,
+      "lat": 35.2,
+      "certainty": "极低",
+      "role": "event",
+      "basis": "南缘情节锚，表示遇蒙古喇嘛及其后事件的大方向；不是发现喇嘛居处或遇害地。与猎户事件分开。",
+      "source_keys": [
+        "ch10"
+      ]
+    },
+    {
+      "id": "hunter",
+      "name": "溪流矮树与猎户〔事件区·极低〕",
+      "lon": 94,
+      "lat": 35.4,
+      "certainty": "极低",
+      "role": "event",
+      "basis": "依第10章末分东北、西北而选西北的关系设工作锚，连接溪流、矮树与猎户相助的大方向；不同事件不是同一确点。",
+      "source_keys": [
+        "ch10",
+        "ch10b"
+      ]
+    },
+    {
+      "id": "kunlun",
+      "name": "昆仑北出〔果纳河谷假说·低〕",
+      "lon": 94.3,
+      "lat": 35.85,
+      "certainty": "低",
+      "role": "corridor",
+      "basis": "任注55以西斜入果纳河谷解释到格尔木；旧名与现代具体支谷尚未闭合，此为南北出谷走廊。",
+      "source_keys": [
+        "ch11",
+        "ch11a",
+        "golmud"
+      ]
+    },
+    {
+      "id": "golmud",
+      "name": "柴达木到达处〔格尔木地区·任注推定〕",
+      "lon": 94.9042,
+      "lat": 36.4028,
+      "certainty": "任注推定",
+      "role": "existing",
+      "basis": "正文称柴达木，任注按程站推噶尔木／格尔木。复用原图点，保留柴旦、柴达木河谷称名差别。",
+      "source_keys": [
+        "ch11",
+        "ch11a",
+        "golmud"
+      ]
+    },
+    {
+      "id": "saltswamp",
+      "name": "盐淖〔格尔木下游盐沼·低〕",
+      "lon": 95.2,
+      "lat": 36.9,
+      "certainty": "低",
+      "role": "corridor",
+      "basis": "以察尔汗—南霍鲁逊及格尔木下游盐沼地区作地貌锚。原文5日过盐淖，不给湿地边界与穿越确点。",
+      "source_keys": [
+        "ch11",
+        "ch11a",
+        "qaidam"
+      ]
+    },
+    {
+      "id": "temple11",
+      "name": "盐淖后小寺所在走廊〔事件示意·极低〕",
+      "lon": 96.9,
+      "lat": 36.65,
+      "certainty": "极低",
+      "role": "event",
+      "basis": "盐淖后小寺旁宿、寺外蒙古包和陇商，是向东推进的编辑区域锚，不认任何现代寺或旧商站。",
+      "source_keys": [
+        "ch11",
+        "ch11b"
+      ]
+    },
+    {
+      "id": "keke",
+      "name": "青盐海〔柯柯候选·低〕",
+      "lon": 98.25,
+      "lat": 36.97,
+      "certainty": "低",
+      "role": "candidate",
+      "basis": "将现代柯柯盐湖作一种主候选，以任注格尔木—旧都兰组合假说接续；现代采样点不证明旧取盐湖、岸宿处。",
+      "source_keys": [
+        "ch11",
+        "ch11b",
+        "salt",
+        "wulan"
+      ]
+    },
+    {
+      "id": "dulan",
+      "name": "都兰旧市场〔乌兰东部候选·低〕",
+      "lon": 98.65,
+      "lat": 37,
+      "certainty": "低",
+      "role": "candidate",
+      "basis": "任注56称湘阴老人聚落为都兰。取乌兰东部旧都兰地域候选，不套今都兰县城、不指旧寺精址；任注时已设县仍有年代疑点。",
+      "source_keys": [
+        "ch11",
+        "ch11b",
+        "dulan",
+        "wulan"
+      ]
+    },
+    {
+      "id": "heimah",
+      "name": "青海湖西南岸〔黑马河地区参照〕",
+      "lon": 99.75,
+      "lat": 36.73,
+      "certainty": "地区参照",
+      "role": "reference",
+      "basis": "校注57指海南路，黑马河仅作现代西南岸方向参照，不证明当晚宿此镇。",
+      "source_keys": [
+        "ch11",
+        "ch11b"
+      ]
+    },
+    {
+      "id": "southlake",
+      "name": "青海湖南侧通道〔方向示意〕",
+      "lon": 100.25,
+      "lat": 36.55,
+      "certainty": "地区参照",
+      "role": "reference",
+      "basis": "正文沿海南行、二日海尽，用湖南岸表达东进方向，不认岸宿、废协城或末次小寺。",
+      "source_keys": [
+        "ch11",
+        "ch11b"
+      ]
+    },
+    {
+      "id": "riyue",
+      "name": "日月山〔复用原图地区参照〕",
+      "lon": 101.0939,
+      "lat": 36.4431,
+      "certainty": "地区较明",
+      "role": "existing",
+      "basis": "原文过日月山，复用原图地区点，旧道与停留处未精定。",
+      "source_keys": [
+        "ch11",
+        "ch11b"
+      ]
+    },
+    {
+      "id": "huangyuan",
+      "name": "丹噶尔〔今湟源地区参照〕",
+      "lon": 101.2643,
+      "lat": 36.689,
+      "certainty": "地区较明",
+      "role": "existing",
+      "basis": "复用原图古城地区点，旅店未定位。223日为江达到此大段总时长。",
+      "source_keys": [
+        "ch11",
+        "ch11b"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "taizhao_to_ningduo",
+      "from": "taizhao",
+      "to": "ningduo",
+      "name": "江达→凝多首宿〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；按江达首宿、太昭以北娘曲古道线索选下谷方向作工作锚；不是已考定的凝多村，也不由一日路程反推。",
+      "duration": "离江达当晚首宿；不是固定24小时。",
+      "source_keys": [
+        "ch8",
+        "ningduo",
+        "postroads"
+      ]
+    },
+    {
+      "id": "ningduo_to_hala",
+      "from": "ningduo",
+      "to": "hala",
+      "name": "凝多首宿→哈喇乌苏〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；复用哈喇大概位置点；任注推阿克河谷，旧站、宿处待考。",
+      "duration": "凝多北行7日，含在223日内。",
+      "source_keys": [
+        "ch8",
+        "ningduo",
+        "postroads",
+        "natural_earth"
+      ]
+    },
+    {
+      "id": "hala_to_temple8",
+      "from": "hala",
+      "to": "temple8",
+      "name": "哈喇乌苏→小喇嘛寺宿处〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；哈喇次晨离开后曾交战，晚宿十余帐幕和小寺。正文未写出河谷方位；此锚仅按后续北返大方向假设，不认现代寺，不按四十余里定位。",
+      "duration": "哈喇次晨离开，交战后晚宿；四十余里不换成坐标。",
+      "source_keys": [
+        "ch8",
+        "natural_earth"
+      ]
+    },
+    {
+      "id": "temple8_to_qiangtang",
+      "from": "temple8",
+      "to": "qiangtang",
+      "name": "小喇嘛寺宿处→羌塘入口〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；小寺后行三日、次晨入酱通，任注释羌塘。为广域过渡锚，不划荒原边界。",
+      "duration": "小寺后3日，次晨接入荒原。",
+      "source_keys": [
+        "ch8"
+      ]
+    },
+    {
+      "id": "qiangtang_to_tanggula",
+      "from": "qiangtang",
+      "to": "tanggula",
+      "name": "羌塘入口→唐古拉东侧〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；为怒江上游向长江上源接续的宽走廊假说，只作线折点，不宣称正文翻过此山口。入荒原曾西北、东、北变向。",
+      "duration": "未载或起讫不足以分段；不按坐标推算日数。",
+      "source_keys": [
+        "ch8",
+        "ch9",
+        "tongtian"
+      ]
+    },
+    {
+      "id": "tanggula_to_tongtian",
+      "from": "tanggula",
+      "to": "tongtian",
+      "name": "唐古拉东侧→通天河上源〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；正文抵河后踏冰过河，任注联系穆鲁乌苏。以NE Tuotuo概化河线交接附近作区域候选，不指认现代桥或界牌。",
+      "duration": "抵河为腊月三十前后，未换公历或定全段日数。",
+      "source_keys": [
+        "ch8",
+        "ch9",
+        "tongtian",
+        "natural_earth"
+      ]
+    },
+    {
+      "id": "tongtian_to_palm",
+      "from": "tongtian",
+      "to": "palm",
+      "name": "通天河上源→掌形孤山与泉水〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；第9章记掌形小山、清泉及矮树，明言不是冈天削。本点为工作事件区，不认现代山峰或泉眼。",
+      "duration": "候兴武约10日是等待；后述7/8日及又2日不强定为渡河至此总行期。",
+      "source_keys": [
+        "ch8",
+        "ch9",
+        "natural_earth",
+        "tongtian"
+      ]
+    },
+    {
+      "id": "palm_to_lama",
+      "from": "palm",
+      "to": "lama",
+      "name": "掌形孤山与泉水→蒙古喇嘛事件〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；南缘情节锚，表示遇蒙古喇嘛及其后事件的大方向；不是发现喇嘛居处或遇害地。与猎户事件分开。",
+      "duration": "未载或起讫不足以分段；不按坐标推算日数。",
+      "source_keys": [
+        "ch9",
+        "ch10"
+      ]
+    },
+    {
+      "id": "lama_to_hunter",
+      "from": "lama",
+      "to": "hunter",
+      "name": "蒙古喇嘛事件→溪流矮树与猎户〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；依第10章末分东北、西北而选西北的关系设工作锚，连接溪流、矮树与猎户相助的大方向；不同事件不是同一确点。",
+      "duration": "未载或起讫不足以分段；不按坐标推算日数。",
+      "source_keys": [
+        "ch10",
+        "ch10b"
+      ]
+    },
+    {
+      "id": "hunter_to_kunlun",
+      "from": "hunter",
+      "to": "kunlun",
+      "name": "溪流矮树与猎户→昆仑北出〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；任注55以西斜入果纳河谷解释到格尔木；旧名与现代具体支谷尚未闭合，此为南北出谷走廊。",
+      "duration": "未载或起讫不足以分段；不按坐标推算日数。",
+      "source_keys": [
+        "ch10",
+        "ch10b",
+        "ch11",
+        "ch11a",
+        "golmud"
+      ]
+    },
+    {
+      "id": "kunlun_to_golmud",
+      "from": "kunlun",
+      "to": "golmud",
+      "name": "昆仑北出→柴达木到达处〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；正文称柴达木，任注按程站推噶尔木／格尔木。复用原图点，保留柴旦、柴达木河谷称名差别。",
+      "duration": "猎户处至柴达木实走16日，覆盖猎户—出谷—格尔木大段，非本短线独占16日。",
+      "source_keys": [
+        "ch11",
+        "ch11a",
+        "golmud"
+      ]
+    },
+    {
+      "id": "golmud_to_saltswamp",
+      "from": "golmud",
+      "to": "saltswamp",
+      "name": "柴达木到达处→盐淖〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；以察尔汗—南霍鲁逊及格尔木下游盐沼地区作地貌锚。原文5日过盐淖，不给湿地边界与穿越确点。",
+      "duration": "5日是过盐淖大段，不定格尔木到此锚行期。",
+      "source_keys": [
+        "ch11",
+        "ch11a",
+        "golmud",
+        "qaidam"
+      ]
+    },
+    {
+      "id": "saltswamp_to_temple11",
+      "from": "saltswamp",
+      "to": "temple11",
+      "name": "盐淖→盐淖后小寺所在走廊〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；盐淖后小寺旁宿、寺外蒙古包和陇商，是向东推进的编辑区域锚，不认任何现代寺或旧商站。",
+      "duration": "当一日宿小寺，与盐淖边缘的确切相隔日数未载。",
+      "source_keys": [
+        "ch11",
+        "ch11a",
+        "qaidam",
+        "ch11b"
+      ]
+    },
+    {
+      "id": "temple11_to_keke",
+      "from": "temple11",
+      "to": "keke",
+      "name": "盐淖后小寺所在走廊→青盐海〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；将现代柯柯盐湖作一种主候选，以任注格尔木—旧都兰组合假说接续；现代采样点不证明旧取盐湖、岸宿处。",
+      "duration": "青盐海岸取盐一宿，次日取盐后短行，非固定24小时停留。",
+      "source_keys": [
+        "ch11",
+        "ch11b",
+        "salt",
+        "wulan"
+      ]
+    },
+    {
+      "id": "keke_to_dulan",
+      "from": "keke",
+      "to": "dulan",
+      "name": "青盐海→都兰旧市场〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；任注56称湘阴老人聚落为都兰。取乌兰东部旧都兰地域候选，不套今都兰县城、不指旧寺精址；任注时已设县仍有年代疑点。",
+      "duration": "取盐后次日短行再宿，又行2日到老人处；不以日数插值。",
+      "source_keys": [
+        "ch11",
+        "ch11b",
+        "salt",
+        "wulan",
+        "dulan"
+      ]
+    },
+    {
+      "id": "dulan_to_heimah",
+      "from": "dulan",
+      "to": "heimah",
+      "name": "都兰旧市场→青海湖西南岸〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；校注57指海南路，黑马河仅作现代西南岸方向参照，不证明当晚宿此镇。 茶卡盆地只作地形转接控制点，不另标青盐海已至茶卡。",
+      "duration": "未载或起讫不足以分段；不按坐标推算日数。",
+      "source_keys": [
+        "ch11",
+        "ch11b",
+        "dulan",
+        "wulan"
+      ],
+      "via": [
+        [
+          99.08,
+          36.75
+        ]
+      ]
+    },
+    {
+      "id": "heimah_to_southlake",
+      "from": "heimah",
+      "to": "southlake",
+      "name": "青海湖西南岸→青海湖南侧通道〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；正文沿海南行、二日海尽，用湖南岸表达东进方向，不认岸宿、废协城或末次小寺。",
+      "duration": "沿海南行2日海尽，不均分到沿岸现代点。",
+      "source_keys": [
+        "ch11",
+        "ch11b"
+      ]
+    },
+    {
+      "id": "southlake_to_riyue",
+      "from": "southlake",
+      "to": "riyue",
+      "name": "青海湖南侧通道→日月山〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；原文过日月山，复用原图地区点，旧道与停留处未精定。",
+      "duration": "未载或起讫不足以分段；不按坐标推算日数。",
+      "source_keys": [
+        "ch11",
+        "ch11b"
+      ]
+    },
+    {
+      "id": "riyue_to_huangyuan",
+      "from": "riyue",
+      "to": "huangyuan",
+      "name": "日月山→丹噶尔〔主候选假说〕",
+      "certainty": "整体低把握的可修订假说",
+      "basis": "根据章节先后和地区关系连接；复用原图古城地区点，旅店未定位。223日为江达到此大段总时长。",
+      "duration": "过日月山下山宿后，原文随后行2日到丹噶尔。",
+      "source_keys": [
+        "ch11",
+        "ch11b"
+      ]
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "gangtian_target",
+      "name": "冈天削〔任注昆仑山口目标·未证到达〕",
+      "lon": 94.05,
+      "lat": 35.65,
+      "certainty": "任注目标候选",
+      "basis": "任注48联系昆仑山口；只是向导所述目标的候选地区。掌形山不是冈天削，不串入已走线。",
+      "source_keys": [
+        "ch9",
+        "ch11a"
+      ]
+    },
+    {
+      "id": "chaka_alternative",
+      "name": "青盐海备选〔茶卡盐湖·低〕",
+      "lon": 99.08,
+      "lat": 36.75,
+      "certainty": "低",
+      "basis": "茶卡作为青盐海另一候选仅供比较。默认关闭，不将柯柯和茶卡写成两次到湖，也不另画茶卡到旧都兰折返线。",
+      "source_keys": [
+        "ch11",
+        "ch11b",
+        "wulan",
+        "salt"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "method",
+      "name": "读图方法〔主候选假说，可修订〕",
+      "paragraphs": [
+        "原文可核的是事件先后；多数现代坐标仍是工作假说。小寺、掌形山与泉水、遇喇嘛与猎户的点尤其低把握，不能当作可导航的遗址。",
+        "只设20个稀疏地区锚，唐古拉东侧仅作线折点。江达、格尔木、日月山、丹噶尔复用原图地区点；哈喇乌苏复用大概位置点，不另重复到站。"
+      ],
+      "source_keys": [
+        "ch8",
+        "ch9",
+        "ch10",
+        "ch11"
+      ]
+    },
+    {
+      "id": "time",
+      "name": "时日分读〔7日、等待、16日、5日与223日〕",
+      "paragraphs": [
+        "凝多北行7日至哈喇乌苏，小寺后3日接入荒原；冻河后约10日为候兴武。后续7/8日和又2日不强定为某两个现代点间完整行期。",
+        "猎户引路到柴达木实走16日，过盐淖5日，青盐海取盐一宿后次日短行再加2日到老人处，沿海南行2日海尽。90日口粮可供期不是实际行期；日数不换精确小时或坐标速度，也不另加到223日总段。"
+      ],
+      "source_keys": [
+        "ch8",
+        "ch9",
+        "ch10",
+        "ch11"
+      ]
+    },
+    {
+      "id": "unlocated",
+      "name": "未另定位的寺院、鱼沟与废协城",
+      "paragraphs": [
+        "第8章河谷后小寺和第11章盐淖后小寺分作低把握事件区，不能合并。湖东末次小寺、鱼沟、废协城继续只留文字，不冒认现代寺院、城址或溪沟。",
+        "蒙古喇嘛与猎户事件分别设大方向区；同一区域内不同情节仍不是同一确点。青盐海主取柯柯候选，茶卡默认关闭；旧都兰不套今天察汗乌苏县城。"
+      ],
+      "source_keys": [
+        "ch8",
+        "ch10",
+        "ch11",
+        "ch11b"
+      ]
+    }
+  ],
+  "sources": {
+    "ch8": {
+      "title": "第8章及校注44—48",
+      "url": "https://www.xuges.com/xdwx/qycm/23.htm",
+      "supports": "凝多北行、哈喇乌苏与羌塘叙事；不提供事件区现代坐标。"
+    },
+    "ch9": {
+      "title": "第9章：过通天河",
+      "url": "https://read.99csw.com/book/554/17575.html",
+      "supports": "冻河后等待兴武及掌形孤山与泉水；掌形山不是冈天削。"
+    },
+    "ch9b": {
+      "title": "第9章在线对读",
+      "url": "https://www.xuges.com/xdwx/qycm/26.htm",
+      "supports": "第9章叙事次序对读。"
+    },
+    "ch10": {
+      "title": "第10章：喇嘛与猎户",
+      "url": "https://read.99csw.com/book/554/17576.html",
+      "supports": "遇蒙古喇嘛、岔路选西北、溪流矮树及猎户相助；不同事件确址未载。"
+    },
+    "ch10b": {
+      "title": "第10章后半",
+      "url": "https://www.xuges.com/xdwx/qycm/29.htm",
+      "supports": "胡玉林与猎户前后的次序及西北方向线索。"
+    },
+    "ch11": {
+      "title": "第11章及校注54—59",
+      "url": "https://read.99csw.com/book/554/17577.html",
+      "supports": "16日至柴达木、5日过盐淖、青盐海、旧都兰、海南路、日月山及丹噶尔。"
+    },
+    "ch11a": {
+      "title": "第11章前段",
+      "url": "https://www.xuges.com/xdwx/qycm/30.htm",
+      "supports": "任注果纳河谷及格尔木推定，盐淖记述。"
+    },
+    "ch11b": {
+      "title": "第11章后段",
+      "url": "https://www.xuges.com/xdwx/qycm/31.htm",
+      "supports": "青盐海、旧都兰市场、海南路及丹噶尔；小寺和鱼沟未定位。"
+    },
+    "ningduo": {
+      "title": "江达历史考：娘曲古道",
+      "url": "https://www.xizanglywh.com/a1article-587313-1.html",
+      "supports": "太昭以北娘曲古道线索，不能证明本层候选坐标为凝多旧站。"
+    },
+    "postroads": {
+      "title": "清代《西藏记》程途",
+      "url": "https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m",
+      "supports": "宁多、江达站序；不以古里数插值现代坐标。"
+    },
+    "natural_earth": {
+      "title": "Natural Earth概化河线",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson",
+      "supports": "哈喇约位取nu134顶点；渡河候选取Tuotuo末端92.99277、34.10029舍入。不是古渡口测绘。"
+    },
+    "golmud": {
+      "title": "格尔木市政府地理背景",
+      "url": "https://www.geermu.gov.cn/details?id=ff80808191c740bd0192d64333af057b",
+      "supports": "格尔木及南侧山地背景，不证明作者逐站走法。"
+    },
+    "tongtian": {
+      "title": "长江流域机构：通天河上源",
+      "url": "https://www.tba.gov.cn/slbthlyglj/mtjj/content/225950f2-184d-41e2-b1ee-7fad4ea8849c.html",
+      "supports": "现代水系地理参照，不以现代桥位冒作旧渡点。"
+    },
+    "qaidam": {
+      "title": "中科院：柴达木盆地",
+      "url": "https://igsnrr.cas.cn/cbkx/kpyd/zgdl/cndm/202009/t20200910_5692364.html",
+      "supports": "盆地盐沼的现代地貌背景，未考定历史穿越线。"
+    },
+    "salt": {
+      "title": "现代盐湖研究采样资料",
+      "url": "https://www.biodiversity-science.net/fileup/1005-0094/SUPPL/supplFile_art_20220509094717.pdf",
+      "supports": "柯柯等现代盐湖地区参照，不证明青盐海旧今等同。"
+    },
+    "dulan": {
+      "title": "旧都兰寺地区研究：国博馆刊文章转载",
+      "url": "https://www.thepaper.cn/newsDetail_forward_30552389",
+      "supports": "旧都兰地域线索，不给旧市场精址。"
+    },
+    "wulan": {
+      "title": "青海人大：乌兰地区资料",
+      "url": "https://www.qhrd.gov.cn/yajy/202206/t20220606_203915.html",
+      "supports": "柯柯盐湖、都兰寺、茶卡的现代地区背景，不确定青盐海唯一对应。"
+    }
+  },
+  "google_earth_import": {
+    "verified_at": "2026-11-01",
+    "project_id": "13kFLqFR-hXU21HBQK4FDOmsitZMJmw0n",
+    "project_name": "《艽野尘梦》阅读地图｜耗时与距离（km）",
+    "imported_file": "艽野尘梦_北返推测路线.kmz",
+    "screenshot": "data/route_checks/north_return_google_earth.jpg",
+    "status": "已导入并核验",
+    "note": "2026-11-01：已将最终内嵌样式综合包导入原Google Earth云端项目，替换本次首次导入的默认图标副本。确认主候选路线层、19段推测连接、橙色空心候选点及蓝色现代地区参照、2个默认关闭备选；打开哈喇约位、小寺事件区、总览方法卡核对原文依据和把握程度。完整候选走廊及云端保存已目视核验。"
+  },
+  "legend": "橙色空心点＝推定地区或事件区；蓝色空心点＝现代地区参照，仍非旧营址确证。所有细虚线均为推测连接。冈天削目标和茶卡备选默认关闭，不接主线。"
+}

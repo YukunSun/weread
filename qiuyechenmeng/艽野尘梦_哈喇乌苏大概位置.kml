@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="hala_wusu_approx_supplement">
+    <name>《艽野尘梦》哈喇乌苏｜大概位置·怒江上游河谷</name>
+    <open>1</open>
+    <description>以怒江上游那曲—比如之间河谷作阅读约位，显示哈喇乌苏的大概方向。任乃强将书中所经地考为阿克河谷；旧阿克河谷的具体对应、哈喇乌苏台站与陈氏宿处仍待考。</description>
+    <LookAt>
+      <longitude>93.1</longitude>
+      <latitude>31.54</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>200000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Folder id="hala_wusu_approx_context">
+      <name>哈喇乌苏｜大概位置·怒江上游河谷，推定</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <description>以怒江上游那曲—比如之间河谷作阅读约位，显示哈喇乌苏的大概方向。任乃强将书中所经地考为阿克河谷；旧阿克河谷的具体对应、哈喇乌苏台站与陈氏宿处仍待考。</description>
+      <LookAt>
+        <longitude>93.1</longitude>
+        <latitude>31.54</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>200000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Style id="hala_wusu_approx_style">
+        <IconStyle>
+          <color>ffffffff</color>
+          <scale>1.2</scale>
+          <Icon>
+            <href>icons/hala_wusu_approx.png</href>
+          </Icon>
+        </IconStyle>
+        <LabelStyle>
+          <color>ffffffff</color>
+          <scale>0.95</scale>
+        </LabelStyle>
+      </Style>
+      <Placemark id="hala_wusu_approx">
+        <name>哈喇乌苏〔大概位置·怒江上游河谷，推定〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;哈喇乌苏〔大概位置·怒江上游河谷，推定〕&lt;/h3&gt;&lt;p&gt;以怒江上游那曲—比如之间河谷作阅读约位，显示哈喇乌苏的大概方向。任乃强将书中所经地考为阿克河谷；旧阿克河谷的具体对应、哈喇乌苏台站与陈氏宿处仍待考。&lt;/p&gt;&lt;p&gt;参照现有Natural Earth概化怒江河线（river_id=nu，rivernum=134）的顶点93.10157°E、31.54133°N，舍入到93.10°E、31.54°N作为河谷阅读中心。该数据为1:1000万概化水系，不能据此认定达塘就是旧站或提供古址精度。&lt;/p&gt;&lt;p&gt;本点只作大概地区参照，不接入陈渠珍个人行军线，不参与行程距离或耗时合计。原校注44五张说明卡及其无几何性质保持不变。&lt;/p&gt;&lt;p&gt;&lt;b&gt;大概地区参照：&lt;/b&gt;93.10°E，31.54°N。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;《艽野尘梦》第8章及校注44：哈喇乌苏与阿克河谷考订&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.igsnrr.cas.cn/cbkx/kpyd/zgdl/cnszy/202009/t20200910_5692417.html"&gt;中国科学院地理资源所：怒江概述&lt;/a&gt;&lt;br/&gt;&lt;a href="https://slt.xizang.gov.cn/zwgk/zbxx/202408/t20240822_431985.html"&gt;西藏自治区水利厅：现代怒江达塘段资料&lt;/a&gt;&lt;br/&gt;&lt;a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson"&gt;Natural Earth 1:1000万河流水系：Nu河线&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>93.1</longitude>
+          <latitude>31.54</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#hala_wusu_approx_style</styleUrl>
+        <ExtendedData>
+          <Data name="coordinate_role">
+            <value>阅读约位／现代河谷地区参照；历史确址未定</value>
+          </Data>
+          <Data name="historical_identity">
+            <value>阿克河谷、台站与宿处具体对应待考</value>
+          </Data>
+          <Data name="coordinate_method">
+            <value>参照现有Natural Earth概化怒江河线（river_id=nu，rivernum=134）的顶点93.10157°E、31.54133°N，舍入到93.10°E、31.54°N作为河谷阅读中心。该数据为1:1000万概化水系，不能据此认定达塘就是旧站或提供古址精度。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.10,31.54,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

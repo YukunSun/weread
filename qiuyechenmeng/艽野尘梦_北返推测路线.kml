@@ -1,0 +1,3044 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="north_return_hypothesis_supplement">
+    <name>《艽野尘梦》第8—11章 北返推测路线｜按河谷与叙事线索</name>
+    <open>1</open>
+    <description>&lt;h3&gt;第8—11章 北返推测路线｜按河谷与叙事线索&lt;/h3&gt;&lt;p&gt;这是一种可修订的阅读路线草案：以正文事件先后、任乃强地理考订和现代河谷地形拼合大方向。多数橙色空心点是地理走廊或事件区的工作锚，不表示发现了旧寺、营地、泉眼或渡口。细虚线只连接候选地区，不复原古道、逐日走法或实际绕折。&lt;/p&gt;&lt;p&gt;橙色空心点＝推定地区或事件区；蓝色空心点＝现代地区参照，仍非旧营址确证。所有细虚线均为推测连接。冈天削目标和茶卡备选默认关闭，不接主线。&lt;/p&gt;&lt;p&gt;主候选把握整体较低。较相容指在任注格尔木与旧都兰组合假设内可以接续，并非经过比较已证实优于其他路线。哈喇乌苏出河谷方向未写，入荒原后曾西北、向东又转北；第10章末选西北的关系以两事件区表达，但经纬线仍是假设。日数、里数、河流、小寺只用于叙事约束，不按速度插值坐标。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;</description>
+    <LookAt>
+      <longitude>96.8</longitude>
+      <latitude>33.5</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>1400000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Folder id="north_return_hypothesis">
+      <name>第8—11章 北返推测路线｜按河谷与叙事线索</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <description>&lt;h3&gt;第8—11章 北返推测路线｜按河谷与叙事线索&lt;/h3&gt;&lt;p&gt;这是一种可修订的阅读路线草案：以正文事件先后、任乃强地理考订和现代河谷地形拼合大方向。多数橙色空心点是地理走廊或事件区的工作锚，不表示发现了旧寺、营地、泉眼或渡口。细虚线只连接候选地区，不复原古道、逐日走法或实际绕折。&lt;/p&gt;&lt;p&gt;橙色空心点＝推定地区或事件区；蓝色空心点＝现代地区参照，仍非旧营址确证。所有细虚线均为推测连接。冈天削目标和茶卡备选默认关闭，不接主线。&lt;/p&gt;&lt;p&gt;主候选把握整体较低。较相容指在任注格尔木与旧都兰组合假设内可以接续，并非经过比较已证实优于其他路线。哈喇乌苏出河谷方向未写，入荒原后曾西北、向东又转北；第10章末选西北的关系以两事件区表达，但经纬线仍是假设。日数、里数、河流、小寺只用于叙事约束，不按速度插值坐标。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>96.8</longitude>
+        <latitude>33.5</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>1400000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="north_return_overview">
+        <name>江达→青海湖→丹噶尔〔主候选假说·整体低把握〕</name>
+        <description>&lt;h3&gt;第8—11章 北返推测路线｜按河谷与叙事线索&lt;/h3&gt;&lt;p&gt;这是一种可修订的阅读路线草案：以正文事件先后、任乃强地理考订和现代河谷地形拼合大方向。多数橙色空心点是地理走廊或事件区的工作锚，不表示发现了旧寺、营地、泉眼或渡口。细虚线只连接候选地区，不复原古道、逐日走法或实际绕折。&lt;/p&gt;&lt;p&gt;橙色空心点＝推定地区或事件区；蓝色空心点＝现代地区参照，仍非旧营址确证。所有细虚线均为推测连接。冈天削目标和茶卡备选默认关闭，不接主线。&lt;/p&gt;&lt;p&gt;主候选把握整体较低。较相容指在任注格尔木与旧都兰组合假设内可以接续，并非经过比较已证实优于其他路线。哈喇乌苏出河谷方向未写，入荒原后曾西北、向东又转北；第10章末选西北的关系以两事件区表达，但经纬线仍是假设。日数、里数、河流、小寺只用于叙事约束，不按速度插值坐标。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="north_return_taizhao">
+        <name>江达〔太昭地区参照〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;江达〔太昭地区参照〕&lt;/h3&gt;&lt;p&gt;把握程度：地区较明&lt;/p&gt;&lt;p&gt;从江达北返，复用原图点，旧驻地确址未定。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>93.08</longitude>
+          <latitude>30</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/north_return_reference.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>地区较明</value>
+          </Data>
+          <Data name="basis">
+            <value>从江达北返，复用原图点，旧驻地确址未定。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.080000,30.000000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_ningduo">
+        <name>凝多首宿〔古道下谷候选·低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;凝多首宿〔古道下谷候选·低〕&lt;/h3&gt;&lt;p&gt;把握程度：低&lt;/p&gt;&lt;p&gt;按江达首宿、太昭以北娘曲古道线索选下谷方向作工作锚；不是已考定的凝多村，也不由一日路程反推。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xizanglywh.com/a1article-587313-1.html"&gt;江达历史考：娘曲古道&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m"&gt;清代《西藏记》程途&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>93.12</longitude>
+          <latitude>30.2</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>低</value>
+          </Data>
+          <Data name="basis">
+            <value>按江达首宿、太昭以北娘曲古道线索选下谷方向作工作锚；不是已考定的凝多村，也不由一日路程反推。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8,ningduo,postroads</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.120000,30.200000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_temple8">
+        <name>小喇嘛寺宿处〔事件区·极低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;小喇嘛寺宿处〔事件区·极低〕&lt;/h3&gt;&lt;p&gt;把握程度：极低&lt;/p&gt;&lt;p&gt;哈喇次晨离开后曾交战，晚宿十余帐幕和小寺。正文未写出河谷方位；此锚仅按后续北返大方向假设，不认现代寺，不按四十余里定位。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>93.1</longitude>
+          <latitude>31.9</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>极低</value>
+          </Data>
+          <Data name="basis">
+            <value>哈喇次晨离开后曾交战，晚宿十余帐幕和小寺。正文未写出河谷方位；此锚仅按后续北返大方向假设，不认现代寺，不按四十余里定位。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.100000,31.900000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_qiangtang">
+        <name>羌塘入口〔过渡区假说·低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;羌塘入口〔过渡区假说·低〕&lt;/h3&gt;&lt;p&gt;把握程度：低&lt;/p&gt;&lt;p&gt;小寺后行三日、次晨入酱通，任注释羌塘。为广域过渡锚，不划荒原边界。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>92.9</longitude>
+          <latitude>32.4</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>低</value>
+          </Data>
+          <Data name="basis">
+            <value>小寺后行三日、次晨入酱通，任注释羌塘。为广域过渡锚，不划荒原边界。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>92.900000,32.400000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_tongtian">
+        <name>通天河上源〔渡河候选·低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;通天河上源〔渡河候选·低〕&lt;/h3&gt;&lt;p&gt;把握程度：低&lt;/p&gt;&lt;p&gt;正文抵河后踏冰过河，任注联系穆鲁乌苏。以NE Tuotuo概化河线交接附近作区域候选，不指认现代桥或界牌。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17575.html"&gt;第9章：过通天河&lt;/a&gt;&lt;br/&gt;&lt;a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson"&gt;Natural Earth概化河线&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.tba.gov.cn/slbthlyglj/mtjj/content/225950f2-184d-41e2-b1ee-7fad4ea8849c.html"&gt;长江流域机构：通天河上源&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>93</longitude>
+          <latitude>34.1</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>低</value>
+          </Data>
+          <Data name="basis">
+            <value>正文抵河后踏冰过河，任注联系穆鲁乌苏。以NE Tuotuo概化河线交接附近作区域候选，不指认现代桥或界牌。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8,ch9,natural_earth,tongtian</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.000000,34.100000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_palm">
+        <name>掌形孤山与泉水〔事件区·极低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;掌形孤山与泉水〔事件区·极低〕&lt;/h3&gt;&lt;p&gt;把握程度：极低&lt;/p&gt;&lt;p&gt;第9章记掌形小山、清泉及矮树，明言不是冈天削。本点为工作事件区，不认现代山峰或泉眼。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17575.html"&gt;第9章：过通天河&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>93.2</longitude>
+          <latitude>34.8</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>极低</value>
+          </Data>
+          <Data name="basis">
+            <value>第9章记掌形小山、清泉及矮树，明言不是冈天削。本点为工作事件区，不认现代山峰或泉眼。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch9</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.200000,34.800000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_lama">
+        <name>蒙古喇嘛事件〔大方向区·极低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;蒙古喇嘛事件〔大方向区·极低〕&lt;/h3&gt;&lt;p&gt;把握程度：极低&lt;/p&gt;&lt;p&gt;南缘情节锚，表示遇蒙古喇嘛及其后事件的大方向；不是发现喇嘛居处或遇害地。与猎户事件分开。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17576.html"&gt;第10章：喇嘛与猎户&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>94.3</longitude>
+          <latitude>35.2</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>极低</value>
+          </Data>
+          <Data name="basis">
+            <value>南缘情节锚，表示遇蒙古喇嘛及其后事件的大方向；不是发现喇嘛居处或遇害地。与猎户事件分开。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch10</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.300000,35.200000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_hunter">
+        <name>溪流矮树与猎户〔事件区·极低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;溪流矮树与猎户〔事件区·极低〕&lt;/h3&gt;&lt;p&gt;把握程度：极低&lt;/p&gt;&lt;p&gt;依第10章末分东北、西北而选西北的关系设工作锚，连接溪流、矮树与猎户相助的大方向；不同事件不是同一确点。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17576.html"&gt;第10章：喇嘛与猎户&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/29.htm"&gt;第10章后半&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>94</longitude>
+          <latitude>35.4</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>极低</value>
+          </Data>
+          <Data name="basis">
+            <value>依第10章末分东北、西北而选西北的关系设工作锚，连接溪流、矮树与猎户相助的大方向；不同事件不是同一确点。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch10,ch10b</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.000000,35.400000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_kunlun">
+        <name>昆仑北出〔果纳河谷假说·低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;昆仑北出〔果纳河谷假说·低〕&lt;/h3&gt;&lt;p&gt;把握程度：低&lt;/p&gt;&lt;p&gt;任注55以西斜入果纳河谷解释到格尔木；旧名与现代具体支谷尚未闭合，此为南北出谷走廊。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/30.htm"&gt;第11章前段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.geermu.gov.cn/details?id=ff80808191c740bd0192d64333af057b"&gt;格尔木市政府地理背景&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>94.3</longitude>
+          <latitude>35.85</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>低</value>
+          </Data>
+          <Data name="basis">
+            <value>任注55以西斜入果纳河谷解释到格尔木；旧名与现代具体支谷尚未闭合，此为南北出谷走廊。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11a,golmud</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.300000,35.850000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_golmud">
+        <name>柴达木到达处〔格尔木地区·任注推定〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;柴达木到达处〔格尔木地区·任注推定〕&lt;/h3&gt;&lt;p&gt;把握程度：任注推定&lt;/p&gt;&lt;p&gt;正文称柴达木，任注按程站推噶尔木／格尔木。复用原图点，保留柴旦、柴达木河谷称名差别。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/30.htm"&gt;第11章前段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.geermu.gov.cn/details?id=ff80808191c740bd0192d64333af057b"&gt;格尔木市政府地理背景&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>94.9042</longitude>
+          <latitude>36.4028</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>任注推定</value>
+          </Data>
+          <Data name="basis">
+            <value>正文称柴达木，任注按程站推噶尔木／格尔木。复用原图点，保留柴旦、柴达木河谷称名差别。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11a,golmud</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.904200,36.402800,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_saltswamp">
+        <name>盐淖〔格尔木下游盐沼·低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;盐淖〔格尔木下游盐沼·低〕&lt;/h3&gt;&lt;p&gt;把握程度：低&lt;/p&gt;&lt;p&gt;以察尔汗—南霍鲁逊及格尔木下游盐沼地区作地貌锚。原文5日过盐淖，不给湿地边界与穿越确点。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/30.htm"&gt;第11章前段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://igsnrr.cas.cn/cbkx/kpyd/zgdl/cndm/202009/t20200910_5692364.html"&gt;中科院：柴达木盆地&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>95.2</longitude>
+          <latitude>36.9</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>低</value>
+          </Data>
+          <Data name="basis">
+            <value>以察尔汗—南霍鲁逊及格尔木下游盐沼地区作地貌锚。原文5日过盐淖，不给湿地边界与穿越确点。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11a,qaidam</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.200000,36.900000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_temple11">
+        <name>盐淖后小寺所在走廊〔事件示意·极低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;盐淖后小寺所在走廊〔事件示意·极低〕&lt;/h3&gt;&lt;p&gt;把握程度：极低&lt;/p&gt;&lt;p&gt;盐淖后小寺旁宿、寺外蒙古包和陇商，是向东推进的编辑区域锚，不认任何现代寺或旧商站。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.9</longitude>
+          <latitude>36.65</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>极低</value>
+          </Data>
+          <Data name="basis">
+            <value>盐淖后小寺旁宿、寺外蒙古包和陇商，是向东推进的编辑区域锚，不认任何现代寺或旧商站。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.900000,36.650000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_keke">
+        <name>青盐海〔柯柯候选·低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;青盐海〔柯柯候选·低〕&lt;/h3&gt;&lt;p&gt;把握程度：低&lt;/p&gt;&lt;p&gt;将现代柯柯盐湖作一种主候选，以任注格尔木—旧都兰组合假说接续；现代采样点不证明旧取盐湖、岸宿处。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.biodiversity-science.net/fileup/1005-0094/SUPPL/supplFile_art_20220509094717.pdf"&gt;现代盐湖研究采样资料&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qhrd.gov.cn/yajy/202206/t20220606_203915.html"&gt;青海人大：乌兰地区资料&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>98.25</longitude>
+          <latitude>36.97</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>低</value>
+          </Data>
+          <Data name="basis">
+            <value>将现代柯柯盐湖作一种主候选，以任注格尔木—旧都兰组合假说接续；现代采样点不证明旧取盐湖、岸宿处。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b,salt,wulan</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>98.250000,36.970000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_dulan">
+        <name>都兰旧市场〔乌兰东部候选·低〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;都兰旧市场〔乌兰东部候选·低〕&lt;/h3&gt;&lt;p&gt;把握程度：低&lt;/p&gt;&lt;p&gt;任注56称湘阴老人聚落为都兰。取乌兰东部旧都兰地域候选，不套今都兰县城、不指旧寺精址；任注时已设县仍有年代疑点。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.thepaper.cn/newsDetail_forward_30552389"&gt;旧都兰寺地区研究：国博馆刊文章转载&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qhrd.gov.cn/yajy/202206/t20220606_203915.html"&gt;青海人大：乌兰地区资料&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>98.65</longitude>
+          <latitude>37</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/hala_wusu_approx.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>低</value>
+          </Data>
+          <Data name="basis">
+            <value>任注56称湘阴老人聚落为都兰。取乌兰东部旧都兰地域候选，不套今都兰县城、不指旧寺精址；任注时已设县仍有年代疑点。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b,dulan,wulan</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>98.650000,37.000000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_heimah">
+        <name>青海湖西南岸〔黑马河地区参照〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;青海湖西南岸〔黑马河地区参照〕&lt;/h3&gt;&lt;p&gt;把握程度：地区参照&lt;/p&gt;&lt;p&gt;校注57指海南路，黑马河仅作现代西南岸方向参照，不证明当晚宿此镇。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>99.75</longitude>
+          <latitude>36.73</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/north_return_reference.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>地区参照</value>
+          </Data>
+          <Data name="basis">
+            <value>校注57指海南路，黑马河仅作现代西南岸方向参照，不证明当晚宿此镇。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>99.750000,36.730000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_southlake">
+        <name>青海湖南侧通道〔方向示意〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;青海湖南侧通道〔方向示意〕&lt;/h3&gt;&lt;p&gt;把握程度：地区参照&lt;/p&gt;&lt;p&gt;正文沿海南行、二日海尽，用湖南岸表达东进方向，不认岸宿、废协城或末次小寺。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>100.25</longitude>
+          <latitude>36.55</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/north_return_reference.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>地区参照</value>
+          </Data>
+          <Data name="basis">
+            <value>正文沿海南行、二日海尽，用湖南岸表达东进方向，不认岸宿、废协城或末次小寺。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>100.250000,36.550000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_riyue">
+        <name>日月山〔复用原图地区参照〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;日月山〔复用原图地区参照〕&lt;/h3&gt;&lt;p&gt;把握程度：地区较明&lt;/p&gt;&lt;p&gt;原文过日月山，复用原图地区点，旧道与停留处未精定。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.0939</longitude>
+          <latitude>36.4431</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/north_return_reference.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>地区较明</value>
+          </Data>
+          <Data name="basis">
+            <value>原文过日月山，复用原图地区点，旧道与停留处未精定。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>101.093900,36.443100,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_huangyuan">
+        <name>丹噶尔〔今湟源地区参照〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;丹噶尔〔今湟源地区参照〕&lt;/h3&gt;&lt;p&gt;把握程度：地区较明&lt;/p&gt;&lt;p&gt;复用原图古城地区点，旅店未定位。223日为江达到此大段总时长。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.2643</longitude>
+          <latitude>36.689</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <IconStyle>
+            <color>ffffffff</color>
+            <scale>1.05</scale>
+            <Icon>
+              <href>icons/north_return_reference.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>0.8</scale>
+          </LabelStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>地区较明</value>
+          </Data>
+          <Data name="basis">
+            <value>复用原图古城地区点，旅店未定位。223日为江达到此大段总时长。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b</value>
+          </Data>
+          <Data name="coordinate_role">
+            <value>阅读工作锚；非历史确址</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>101.264300,36.689000,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="north_return_segment_taizhao_to_ningduo">
+        <name>江达→凝多首宿〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;江达→凝多首宿〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；按江达首宿、太昭以北娘曲古道线索选下谷方向作工作锚；不是已考定的凝多村，也不由一日路程反推。&lt;/p&gt;&lt;p&gt;时日：离江达当晚首宿；不是固定24小时。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xizanglywh.com/a1article-587313-1.html"&gt;江达历史考：娘曲古道&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m"&gt;清代《西藏记》程途&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>taizhao</value>
+          </Data>
+          <Data name="to">
+            <value>ningduo</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；按江达首宿、太昭以北娘曲古道线索选下谷方向作工作锚；不是已考定的凝多村，也不由一日路程反推。</value>
+          </Data>
+          <Data name="duration">
+            <value>离江达当晚首宿；不是固定24小时。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8,ningduo,postroads</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.080000,30.000000,0 93.081667,30.008333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.083333,30.016667,0 93.085000,30.025000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.086667,30.033333,0 93.088333,30.041667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.090000,30.050000,0 93.091667,30.058333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.093333,30.066667,0 93.095000,30.075000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.096667,30.083333,0 93.098333,30.091667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,30.100000,0 93.101667,30.108333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.103333,30.116667,0 93.105000,30.125000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.106667,30.133333,0 93.108333,30.141667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.110000,30.150000,0 93.111667,30.158333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.113333,30.166667,0 93.115000,30.175000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.116667,30.183333,0 93.118333,30.191667,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_ningduo_to_hala">
+        <name>凝多首宿→哈喇乌苏〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;凝多首宿→哈喇乌苏〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；复用哈喇大概位置点；任注推阿克河谷，旧站、宿处待考。&lt;/p&gt;&lt;p&gt;时日：凝多北行7日，含在223日内。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xizanglywh.com/a1article-587313-1.html"&gt;江达历史考：娘曲古道&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.shidianguji.com/book/NLG312001078923/chapter/1ljlwy6z9027m"&gt;清代《西藏记》程途&lt;/a&gt;&lt;br/&gt;&lt;a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson"&gt;Natural Earth概化河线&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>ningduo</value>
+          </Data>
+          <Data name="to">
+            <value>hala</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；复用哈喇大概位置点；任注推阿克河谷，旧站、宿处待考。</value>
+          </Data>
+          <Data name="duration">
+            <value>凝多北行7日，含在223日内。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8,ningduo,postroads,natural_earth</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.120000,30.200000,0 93.119167,30.255833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.118333,30.311667,0 93.117500,30.367500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.116667,30.423333,0 93.115833,30.479167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.115000,30.535000,0 93.114167,30.590833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.113333,30.646667,0 93.112500,30.702500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.111667,30.758333,0 93.110833,30.814167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.110000,30.870000,0 93.109167,30.925833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.108333,30.981667,0 93.107500,31.037500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.106667,31.093333,0 93.105833,31.149167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.105000,31.205000,0 93.104167,31.260833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.103333,31.316667,0 93.102500,31.372500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.101667,31.428333,0 93.100833,31.484167,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_hala_to_temple8">
+        <name>哈喇乌苏→小喇嘛寺宿处〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;哈喇乌苏→小喇嘛寺宿处〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；哈喇次晨离开后曾交战，晚宿十余帐幕和小寺。正文未写出河谷方位；此锚仅按后续北返大方向假设，不认现代寺，不按四十余里定位。&lt;/p&gt;&lt;p&gt;时日：哈喇次晨离开，交战后晚宿；四十余里不换成坐标。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson"&gt;Natural Earth概化河线&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>hala</value>
+          </Data>
+          <Data name="to">
+            <value>temple8</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；哈喇次晨离开后曾交战，晚宿十余帐幕和小寺。正文未写出河谷方位；此锚仅按后续北返大方向假设，不认现代寺，不按四十余里定位。</value>
+          </Data>
+          <Data name="duration">
+            <value>哈喇次晨离开，交战后晚宿；四十余里不换成坐标。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8,natural_earth</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.540000,0 93.100000,31.555000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.570000,0 93.100000,31.585000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.600000,0 93.100000,31.615000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.630000,0 93.100000,31.645000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.660000,0 93.100000,31.675000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.690000,0 93.100000,31.705000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.720000,0 93.100000,31.735000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.750000,0 93.100000,31.765000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.780000,0 93.100000,31.795000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.810000,0 93.100000,31.825000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.840000,0 93.100000,31.855000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.870000,0 93.100000,31.885000,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_temple8_to_qiangtang">
+        <name>小喇嘛寺宿处→羌塘入口〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;小喇嘛寺宿处→羌塘入口〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；小寺后行三日、次晨入酱通，任注释羌塘。为广域过渡锚，不划荒原边界。&lt;/p&gt;&lt;p&gt;时日：小寺后3日，次晨接入荒原。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>temple8</value>
+          </Data>
+          <Data name="to">
+            <value>qiangtang</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；小寺后行三日、次晨入酱通，任注释羌塘。为广域过渡锚，不划荒原边界。</value>
+          </Data>
+          <Data name="duration">
+            <value>小寺后3日，次晨接入荒原。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,31.900000,0 93.091667,31.920833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.083333,31.941667,0 93.075000,31.962500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.066667,31.983333,0 93.058333,32.004167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.050000,32.025000,0 93.041667,32.045833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.033333,32.066667,0 93.025000,32.087500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.016667,32.108333,0 93.008333,32.129167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,32.150000,0 92.991667,32.170833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.983333,32.191667,0 92.975000,32.212500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.966667,32.233333,0 92.958333,32.254167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.950000,32.275000,0 92.941667,32.295833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.933333,32.316667,0 92.925000,32.337500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.916667,32.358333,0 92.908333,32.379167,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_qiangtang_to_tanggula">
+        <name>羌塘入口→唐古拉东侧〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;羌塘入口→唐古拉东侧〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；为怒江上游向长江上源接续的宽走廊假说，只作线折点，不宣称正文翻过此山口。入荒原曾西北、东、北变向。&lt;/p&gt;&lt;p&gt;时日：未载或起讫不足以分段；不按坐标推算日数。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17575.html"&gt;第9章：过通天河&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.tba.gov.cn/slbthlyglj/mtjj/content/225950f2-184d-41e2-b1ee-7fad4ea8849c.html"&gt;长江流域机构：通天河上源&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>qiangtang</value>
+          </Data>
+          <Data name="to">
+            <value>tanggula</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；为怒江上游向长江上源接续的宽走廊假说，只作线折点，不宣称正文翻过此山口。入荒原曾西北、东、北变向。</value>
+          </Data>
+          <Data name="duration">
+            <value>未载或起讫不足以分段；不按坐标推算日数。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8,ch9,tongtian</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.900000,32.400000,0 92.904167,32.429167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.908333,32.458333,0 92.912500,32.487500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.916667,32.516667,0 92.920833,32.545833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.925000,32.575000,0 92.929167,32.604167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.933333,32.633333,0 92.937500,32.662500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.941667,32.691667,0 92.945833,32.720833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.950000,32.750000,0 92.954167,32.779167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.958333,32.808333,0 92.962500,32.837500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.966667,32.866667,0 92.970833,32.895833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.975000,32.925000,0 92.979167,32.954167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.983333,32.983333,0 92.987500,33.012500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>92.991667,33.041667,0 92.995833,33.070833,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_tanggula_to_tongtian">
+        <name>唐古拉东侧→通天河上源〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;唐古拉东侧→通天河上源〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；正文抵河后踏冰过河，任注联系穆鲁乌苏。以NE Tuotuo概化河线交接附近作区域候选，不指认现代桥或界牌。&lt;/p&gt;&lt;p&gt;时日：抵河为腊月三十前后，未换公历或定全段日数。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17575.html"&gt;第9章：过通天河&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.tba.gov.cn/slbthlyglj/mtjj/content/225950f2-184d-41e2-b1ee-7fad4ea8849c.html"&gt;长江流域机构：通天河上源&lt;/a&gt;&lt;br/&gt;&lt;a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson"&gt;Natural Earth概化河线&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>tanggula</value>
+          </Data>
+          <Data name="to">
+            <value>tongtian</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；正文抵河后踏冰过河，任注联系穆鲁乌苏。以NE Tuotuo概化河线交接附近作区域候选，不指认现代桥或界牌。</value>
+          </Data>
+          <Data name="duration">
+            <value>抵河为腊月三十前后，未换公历或定全段日数。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8,ch9,tongtian,natural_earth</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.100000,0 93.000000,33.141667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.183333,0 93.000000,33.225000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.266667,0 93.000000,33.308333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.350000,0 93.000000,33.391667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.433333,0 93.000000,33.475000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.516667,0 93.000000,33.558333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.600000,0 93.000000,33.641667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.683333,0 93.000000,33.725000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.766667,0 93.000000,33.808333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.850000,0 93.000000,33.891667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,33.933333,0 93.000000,33.975000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,34.016667,0 93.000000,34.058333,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_tongtian_to_palm">
+        <name>通天河上源→掌形孤山与泉水〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;通天河上源→掌形孤山与泉水〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；第9章记掌形小山、清泉及矮树，明言不是冈天削。本点为工作事件区，不认现代山峰或泉眼。&lt;/p&gt;&lt;p&gt;时日：候兴武约10日是等待；后述7/8日及又2日不强定为渡河至此总行期。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17575.html"&gt;第9章：过通天河&lt;/a&gt;&lt;br/&gt;&lt;a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson"&gt;Natural Earth概化河线&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.tba.gov.cn/slbthlyglj/mtjj/content/225950f2-184d-41e2-b1ee-7fad4ea8849c.html"&gt;长江流域机构：通天河上源&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>tongtian</value>
+          </Data>
+          <Data name="to">
+            <value>palm</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；第9章记掌形小山、清泉及矮树，明言不是冈天削。本点为工作事件区，不认现代山峰或泉眼。</value>
+          </Data>
+          <Data name="duration">
+            <value>候兴武约10日是等待；后述7/8日及又2日不强定为渡河至此总行期。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch8,ch9,natural_earth,tongtian</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.000000,34.100000,0 93.008333,34.129167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.016667,34.158333,0 93.025000,34.187500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.033333,34.216667,0 93.041667,34.245833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.050000,34.275000,0 93.058333,34.304167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.066667,34.333333,0 93.075000,34.362500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.083333,34.391667,0 93.091667,34.420833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.100000,34.450000,0 93.108333,34.479167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.116667,34.508333,0 93.125000,34.537500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.133333,34.566667,0 93.141667,34.595833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.150000,34.625000,0 93.158333,34.654167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.166667,34.683333,0 93.175000,34.712500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.183333,34.741667,0 93.191667,34.770833,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_palm_to_lama">
+        <name>掌形孤山与泉水→蒙古喇嘛事件〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;掌形孤山与泉水→蒙古喇嘛事件〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；南缘情节锚，表示遇蒙古喇嘛及其后事件的大方向；不是发现喇嘛居处或遇害地。与猎户事件分开。&lt;/p&gt;&lt;p&gt;时日：未载或起讫不足以分段；不按坐标推算日数。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17575.html"&gt;第9章：过通天河&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17576.html"&gt;第10章：喇嘛与猎户&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>palm</value>
+          </Data>
+          <Data name="to">
+            <value>lama</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；南缘情节锚，表示遇蒙古喇嘛及其后事件的大方向；不是发现喇嘛居处或遇害地。与猎户事件分开。</value>
+          </Data>
+          <Data name="duration">
+            <value>未载或起讫不足以分段；不按坐标推算日数。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch9,ch10</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.200000,34.800000,0 93.245833,34.816667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.291667,34.833333,0 93.337500,34.850000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.383333,34.866667,0 93.429167,34.883333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.475000,34.900000,0 93.520833,34.916667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.566667,34.933333,0 93.612500,34.950000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.658333,34.966667,0 93.704167,34.983333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.750000,35.000000,0 93.795833,35.016667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.841667,35.033333,0 93.887500,35.050000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.933333,35.066667,0 93.979167,35.083333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.025000,35.100000,0 94.070833,35.116667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.116667,35.133333,0 94.162500,35.150000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.208333,35.166667,0 94.254167,35.183333,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_lama_to_hunter">
+        <name>蒙古喇嘛事件→溪流矮树与猎户〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;蒙古喇嘛事件→溪流矮树与猎户〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；依第10章末分东北、西北而选西北的关系设工作锚，连接溪流、矮树与猎户相助的大方向；不同事件不是同一确点。&lt;/p&gt;&lt;p&gt;时日：未载或起讫不足以分段；不按坐标推算日数。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17576.html"&gt;第10章：喇嘛与猎户&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/29.htm"&gt;第10章后半&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>lama</value>
+          </Data>
+          <Data name="to">
+            <value>hunter</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；依第10章末分东北、西北而选西北的关系设工作锚，连接溪流、矮树与猎户相助的大方向；不同事件不是同一确点。</value>
+          </Data>
+          <Data name="duration">
+            <value>未载或起讫不足以分段；不按坐标推算日数。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch10,ch10b</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.300000,35.200000,0 94.287500,35.208333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.275000,35.216667,0 94.262500,35.225000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.250000,35.233333,0 94.237500,35.241667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.225000,35.250000,0 94.212500,35.258333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.200000,35.266667,0 94.187500,35.275000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.175000,35.283333,0 94.162500,35.291667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.150000,35.300000,0 94.137500,35.308333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.125000,35.316667,0 94.112500,35.325000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.100000,35.333333,0 94.087500,35.341667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.075000,35.350000,0 94.062500,35.358333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.050000,35.366667,0 94.037500,35.375000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.025000,35.383333,0 94.012500,35.391667,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_hunter_to_kunlun">
+        <name>溪流矮树与猎户→昆仑北出〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;溪流矮树与猎户→昆仑北出〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；任注55以西斜入果纳河谷解释到格尔木；旧名与现代具体支谷尚未闭合，此为南北出谷走廊。&lt;/p&gt;&lt;p&gt;时日：未载或起讫不足以分段；不按坐标推算日数。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17576.html"&gt;第10章：喇嘛与猎户&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/29.htm"&gt;第10章后半&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/30.htm"&gt;第11章前段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.geermu.gov.cn/details?id=ff80808191c740bd0192d64333af057b"&gt;格尔木市政府地理背景&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>hunter</value>
+          </Data>
+          <Data name="to">
+            <value>kunlun</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；任注55以西斜入果纳河谷解释到格尔木；旧名与现代具体支谷尚未闭合，此为南北出谷走廊。</value>
+          </Data>
+          <Data name="duration">
+            <value>未载或起讫不足以分段；不按坐标推算日数。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch10,ch10b,ch11,ch11a,golmud</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.000000,35.400000,0 94.012500,35.418750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.025000,35.437500,0 94.037500,35.456250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.050000,35.475000,0 94.062500,35.493750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.075000,35.512500,0 94.087500,35.531250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.100000,35.550000,0 94.112500,35.568750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.125000,35.587500,0 94.137500,35.606250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.150000,35.625000,0 94.162500,35.643750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.175000,35.662500,0 94.187500,35.681250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.200000,35.700000,0 94.212500,35.718750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.225000,35.737500,0 94.237500,35.756250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.250000,35.775000,0 94.262500,35.793750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.275000,35.812500,0 94.287500,35.831250,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_kunlun_to_golmud">
+        <name>昆仑北出→柴达木到达处〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;昆仑北出→柴达木到达处〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；正文称柴达木，任注按程站推噶尔木／格尔木。复用原图点，保留柴旦、柴达木河谷称名差别。&lt;/p&gt;&lt;p&gt;时日：猎户处至柴达木实走16日，覆盖猎户—出谷—格尔木大段，非本短线独占16日。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/30.htm"&gt;第11章前段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.geermu.gov.cn/details?id=ff80808191c740bd0192d64333af057b"&gt;格尔木市政府地理背景&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>kunlun</value>
+          </Data>
+          <Data name="to">
+            <value>golmud</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；正文称柴达木，任注按程站推噶尔木／格尔木。复用原图点，保留柴旦、柴达木河谷称名差别。</value>
+          </Data>
+          <Data name="duration">
+            <value>猎户处至柴达木实走16日，覆盖猎户—出谷—格尔木大段，非本短线独占16日。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11a,golmud</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.300000,35.850000,0 94.325175,35.873033,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.350350,35.896067,0 94.375525,35.919100,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.400700,35.942133,0 94.425875,35.965167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.451050,35.988200,0 94.476225,36.011233,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.501400,36.034267,0 94.526575,36.057300,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.551750,36.080333,0 94.576925,36.103367,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.602100,36.126400,0 94.627275,36.149433,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.652450,36.172467,0 94.677625,36.195500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.702800,36.218533,0 94.727975,36.241567,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.753150,36.264600,0 94.778325,36.287633,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.803500,36.310667,0 94.828675,36.333700,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.853850,36.356733,0 94.879025,36.379767,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_golmud_to_saltswamp">
+        <name>柴达木到达处→盐淖〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;柴达木到达处→盐淖〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；以察尔汗—南霍鲁逊及格尔木下游盐沼地区作地貌锚。原文5日过盐淖，不给湿地边界与穿越确点。&lt;/p&gt;&lt;p&gt;时日：5日是过盐淖大段，不定格尔木到此锚行期。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/30.htm"&gt;第11章前段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.geermu.gov.cn/details?id=ff80808191c740bd0192d64333af057b"&gt;格尔木市政府地理背景&lt;/a&gt;&lt;br/&gt;&lt;a href="https://igsnrr.cas.cn/cbkx/kpyd/zgdl/cndm/202009/t20200910_5692364.html"&gt;中科院：柴达木盆地&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>golmud</value>
+          </Data>
+          <Data name="to">
+            <value>saltswamp</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；以察尔汗—南霍鲁逊及格尔木下游盐沼地区作地貌锚。原文5日过盐淖，不给湿地边界与穿越确点。</value>
+          </Data>
+          <Data name="duration">
+            <value>5日是过盐淖大段，不定格尔木到此锚行期。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11a,golmud,qaidam</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.904200,36.402800,0 94.916525,36.423517,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.928850,36.444233,0 94.941175,36.464950,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.953500,36.485667,0 94.965825,36.506383,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.978150,36.527100,0 94.990475,36.547817,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.002800,36.568533,0 95.015125,36.589250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.027450,36.609967,0 95.039775,36.630683,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.052100,36.651400,0 95.064425,36.672117,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.076750,36.692833,0 95.089075,36.713550,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.101400,36.734267,0 95.113725,36.754983,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.126050,36.775700,0 95.138375,36.796417,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.150700,36.817133,0 95.163025,36.837850,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.175350,36.858567,0 95.187675,36.879283,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_saltswamp_to_temple11">
+        <name>盐淖→盐淖后小寺所在走廊〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;盐淖→盐淖后小寺所在走廊〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；盐淖后小寺旁宿、寺外蒙古包和陇商，是向东推进的编辑区域锚，不认任何现代寺或旧商站。&lt;/p&gt;&lt;p&gt;时日：当一日宿小寺，与盐淖边缘的确切相隔日数未载。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/30.htm"&gt;第11章前段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://igsnrr.cas.cn/cbkx/kpyd/zgdl/cndm/202009/t20200910_5692364.html"&gt;中科院：柴达木盆地&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>saltswamp</value>
+          </Data>
+          <Data name="to">
+            <value>temple11</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；盐淖后小寺旁宿、寺外蒙古包和陇商，是向东推进的编辑区域锚，不认任何现代寺或旧商站。</value>
+          </Data>
+          <Data name="duration">
+            <value>当一日宿小寺，与盐淖边缘的确切相隔日数未载。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11a,qaidam,ch11b</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.200000,36.900000,0 95.270833,36.889583,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.341667,36.879167,0 95.412500,36.868750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.483333,36.858333,0 95.554167,36.847917,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.625000,36.837500,0 95.695833,36.827083,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.766667,36.816667,0 95.837500,36.806250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.908333,36.795833,0 95.979167,36.785417,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.050000,36.775000,0 96.120833,36.764583,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.191667,36.754167,0 96.262500,36.743750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.333333,36.733333,0 96.404167,36.722917,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.475000,36.712500,0 96.545833,36.702083,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.616667,36.691667,0 96.687500,36.681250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.758333,36.670833,0 96.829167,36.660417,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_temple11_to_keke">
+        <name>盐淖后小寺所在走廊→青盐海〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;盐淖后小寺所在走廊→青盐海〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；将现代柯柯盐湖作一种主候选，以任注格尔木—旧都兰组合假说接续；现代采样点不证明旧取盐湖、岸宿处。&lt;/p&gt;&lt;p&gt;时日：青盐海岸取盐一宿，次日取盐后短行，非固定24小时停留。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.biodiversity-science.net/fileup/1005-0094/SUPPL/supplFile_art_20220509094717.pdf"&gt;现代盐湖研究采样资料&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qhrd.gov.cn/yajy/202206/t20220606_203915.html"&gt;青海人大：乌兰地区资料&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>temple11</value>
+          </Data>
+          <Data name="to">
+            <value>keke</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；将现代柯柯盐湖作一种主候选，以任注格尔木—旧都兰组合假说接续；现代采样点不证明旧取盐湖、岸宿处。</value>
+          </Data>
+          <Data name="duration">
+            <value>青盐海岸取盐一宿，次日取盐后短行，非固定24小时停留。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b,salt,wulan</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.900000,36.650000,0 96.956250,36.663333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.012500,36.676667,0 97.068750,36.690000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.125000,36.703333,0 97.181250,36.716667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.237500,36.730000,0 97.293750,36.743333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.350000,36.756667,0 97.406250,36.770000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.462500,36.783333,0 97.518750,36.796667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.575000,36.810000,0 97.631250,36.823333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.687500,36.836667,0 97.743750,36.850000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.800000,36.863333,0 97.856250,36.876667,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>97.912500,36.890000,0 97.968750,36.903333,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.025000,36.916667,0 98.081250,36.930000,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.137500,36.943333,0 98.193750,36.956667,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_keke_to_dulan">
+        <name>青盐海→都兰旧市场〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;青盐海→都兰旧市场〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；任注56称湘阴老人聚落为都兰。取乌兰东部旧都兰地域候选，不套今都兰县城、不指旧寺精址；任注时已设县仍有年代疑点。&lt;/p&gt;&lt;p&gt;时日：取盐后次日短行再宿，又行2日到老人处；不以日数插值。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.biodiversity-science.net/fileup/1005-0094/SUPPL/supplFile_art_20220509094717.pdf"&gt;现代盐湖研究采样资料&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qhrd.gov.cn/yajy/202206/t20220606_203915.html"&gt;青海人大：乌兰地区资料&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.thepaper.cn/newsDetail_forward_30552389"&gt;旧都兰寺地区研究：国博馆刊文章转载&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>keke</value>
+          </Data>
+          <Data name="to">
+            <value>dulan</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；任注56称湘阴老人聚落为都兰。取乌兰东部旧都兰地域候选，不套今都兰县城、不指旧寺精址；任注时已设县仍有年代疑点。</value>
+          </Data>
+          <Data name="duration">
+            <value>取盐后次日短行再宿，又行2日到老人处；不以日数插值。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b,salt,wulan,dulan</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.250000,36.970000,0 98.266667,36.971250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.283333,36.972500,0 98.300000,36.973750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.316667,36.975000,0 98.333333,36.976250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.350000,36.977500,0 98.366667,36.978750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.383333,36.980000,0 98.400000,36.981250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.416667,36.982500,0 98.433333,36.983750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.450000,36.985000,0 98.466667,36.986250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.483333,36.987500,0 98.500000,36.988750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.516667,36.990000,0 98.533333,36.991250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.550000,36.992500,0 98.566667,36.993750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.583333,36.995000,0 98.600000,36.996250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.616667,36.997500,0 98.633333,36.998750,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_dulan_to_heimah">
+        <name>都兰旧市场→青海湖西南岸〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;都兰旧市场→青海湖西南岸〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；校注57指海南路，黑马河仅作现代西南岸方向参照，不证明当晚宿此镇。 茶卡盆地只作地形转接控制点，不另标青盐海已至茶卡。&lt;/p&gt;&lt;p&gt;时日：未载或起讫不足以分段；不按坐标推算日数。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.thepaper.cn/newsDetail_forward_30552389"&gt;旧都兰寺地区研究：国博馆刊文章转载&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qhrd.gov.cn/yajy/202206/t20220606_203915.html"&gt;青海人大：乌兰地区资料&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>dulan</value>
+          </Data>
+          <Data name="to">
+            <value>heimah</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；校注57指海南路，黑马河仅作现代西南岸方向参照，不证明当晚宿此镇。 茶卡盆地只作地形转接控制点，不另标青盐海已至茶卡。</value>
+          </Data>
+          <Data name="duration">
+            <value>未载或起讫不足以分段；不按坐标推算日数。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b,dulan,wulan</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.650000,37.000000,0 98.667917,36.989583,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.685833,36.979167,0 98.703750,36.968750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.721667,36.958333,0 98.739583,36.947917,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.757500,36.937500,0 98.775417,36.927083,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.793333,36.916667,0 98.811250,36.906250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.829167,36.895833,0 98.847083,36.885417,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.865000,36.875000,0 98.882917,36.864583,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.900833,36.854167,0 98.918750,36.843750,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.936667,36.833333,0 98.954583,36.822917,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>98.972500,36.812500,0 98.990417,36.802083,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.008333,36.791667,0 99.026250,36.781250,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.044167,36.770833,0 99.062083,36.760417,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.080000,36.750000,0 99.107917,36.749167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.135833,36.748333,0 99.163750,36.747500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.191667,36.746667,0 99.219583,36.745833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.247500,36.745000,0 99.275417,36.744167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.303333,36.743333,0 99.331250,36.742500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.359167,36.741667,0 99.387083,36.740833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.415000,36.740000,0 99.442917,36.739167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.470833,36.738333,0 99.498750,36.737500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.526667,36.736667,0 99.554583,36.735833,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.582500,36.735000,0 99.610417,36.734167,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.638333,36.733333,0 99.666250,36.732500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.694167,36.731667,0 99.722083,36.730833,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_heimah_to_southlake">
+        <name>青海湖西南岸→青海湖南侧通道〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;青海湖西南岸→青海湖南侧通道〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；正文沿海南行、二日海尽，用湖南岸表达东进方向，不认岸宿、废协城或末次小寺。&lt;/p&gt;&lt;p&gt;时日：沿海南行2日海尽，不均分到沿岸现代点。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>heimah</value>
+          </Data>
+          <Data name="to">
+            <value>southlake</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；正文沿海南行、二日海尽，用湖南岸表达东进方向，不认岸宿、废协城或末次小寺。</value>
+          </Data>
+          <Data name="duration">
+            <value>沿海南行2日海尽，不均分到沿岸现代点。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.750000,36.730000,0 99.770833,36.722500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.791667,36.715000,0 99.812500,36.707500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.833333,36.700000,0 99.854167,36.692500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.875000,36.685000,0 99.895833,36.677500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.916667,36.670000,0 99.937500,36.662500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.958333,36.655000,0 99.979167,36.647500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.000000,36.640000,0 100.020833,36.632500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.041667,36.625000,0 100.062500,36.617500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.083333,36.610000,0 100.104167,36.602500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.125000,36.595000,0 100.145833,36.587500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.166667,36.580000,0 100.187500,36.572500,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.208333,36.565000,0 100.229167,36.557500,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_southlake_to_riyue">
+        <name>青海湖南侧通道→日月山〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;青海湖南侧通道→日月山〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；原文过日月山，复用原图地区点，旧道与停留处未精定。&lt;/p&gt;&lt;p&gt;时日：未载或起讫不足以分段；不按坐标推算日数。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>southlake</value>
+          </Data>
+          <Data name="to">
+            <value>riyue</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；原文过日月山，复用原图地区点，旧道与停留处未精定。</value>
+          </Data>
+          <Data name="duration">
+            <value>未载或起讫不足以分段；不按坐标推算日数。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.250000,36.550000,0 100.285162,36.545546,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.320325,36.541092,0 100.355487,36.536637,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.390650,36.532183,0 100.425813,36.527729,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.460975,36.523275,0 100.496138,36.518821,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.531300,36.514367,0 100.566463,36.509912,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.601625,36.505458,0 100.636787,36.501004,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.671950,36.496550,0 100.707113,36.492096,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.742275,36.487642,0 100.777438,36.483187,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.812600,36.478733,0 100.847763,36.474279,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.882925,36.469825,0 100.918087,36.465371,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>100.953250,36.460917,0 100.988413,36.456463,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.023575,36.452008,0 101.058738,36.447554,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="north_return_segment_riyue_to_huangyuan">
+        <name>日月山→丹噶尔〔主候选假说〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;日月山→丹噶尔〔主候选假说〕&lt;/h3&gt;&lt;p&gt;整体低把握的可修订假说&lt;/p&gt;&lt;p&gt;根据章节先后和地区关系连接；复用原图古城地区点，旅店未定位。223日为江达到此大段总时长。&lt;/p&gt;&lt;p&gt;时日：过日月山下山宿后，原文随后行2日到丹噶尔。&lt;/p&gt;&lt;p&gt;细虚线为地区间推测连接，省略实际绕折；未恢复古道，未计历史实走公里数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Style>
+          <LineStyle>
+            <color>c03399ff</color>
+            <width>2</width>
+          </LineStyle>
+        </Style>
+        <ExtendedData>
+          <Data name="from">
+            <value>riyue</value>
+          </Data>
+          <Data name="to">
+            <value>huangyuan</value>
+          </Data>
+          <Data name="certainty">
+            <value>整体低把握的可修订假说</value>
+          </Data>
+          <Data name="basis">
+            <value>根据章节先后和地区关系连接；复用原图古城地区点，旅店未定位。223日为江达到此大段总时长。</value>
+          </Data>
+          <Data name="duration">
+            <value>过日月山下山宿后，原文随后行2日到丹噶尔。</value>
+          </Data>
+          <Data name="source_keys">
+            <value>ch11,ch11b</value>
+          </Data>
+        </ExtendedData>
+        <MultiGeometry>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.093900,36.443100,0 101.101000,36.453346,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.108100,36.463592,0 101.115200,36.473838,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.122300,36.484083,0 101.129400,36.494329,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.136500,36.504575,0 101.143600,36.514821,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.150700,36.525067,0 101.157800,36.535313,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.164900,36.545558,0 101.172000,36.555804,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.179100,36.566050,0 101.186200,36.576296,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.193300,36.586542,0 101.200400,36.596787,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.207500,36.607033,0 101.214600,36.617279,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.221700,36.627525,0 101.228800,36.637771,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.235900,36.648017,0 101.243000,36.658262,0</coordinates>
+          </LineString>
+          <LineString>
+            <tessellate>1</tessellate>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.250100,36.668508,0 101.257200,36.678754,0</coordinates>
+          </LineString>
+        </MultiGeometry>
+      </Placemark>
+      <Folder id="north_return_alternatives">
+        <name>备选与未到目标〔默认关闭；不接主线〕</name>
+        <visibility>0</visibility>
+        <Placemark id="north_return_gangtian_target">
+          <name>冈天削〔任注昆仑山口目标·未证到达〕</name>
+          <visibility>1</visibility>
+          <description>&lt;h3&gt;冈天削〔任注昆仑山口目标·未证到达〕&lt;/h3&gt;&lt;p&gt;把握程度：任注目标候选&lt;/p&gt;&lt;p&gt;任注48联系昆仑山口；只是向导所述目标的候选地区。掌形山不是冈天削，不串入已走线。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17575.html"&gt;第9章：过通天河&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/30.htm"&gt;第11章前段&lt;/a&gt;&lt;/p&gt;</description>
+          <LookAt>
+            <longitude>94.05</longitude>
+            <latitude>35.65</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>200000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <IconStyle>
+              <color>ffffffff</color>
+              <scale>1.05</scale>
+              <Icon>
+                <href>icons/hala_wusu_approx.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ffffffff</color>
+              <scale>0.8</scale>
+            </LabelStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="certainty">
+              <value>任注目标候选</value>
+            </Data>
+            <Data name="basis">
+              <value>任注48联系昆仑山口；只是向导所述目标的候选地区。掌形山不是冈天削，不串入已走线。</value>
+            </Data>
+            <Data name="source_keys">
+              <value>ch9,ch11a</value>
+            </Data>
+            <Data name="coordinate_role">
+              <value>备选地区；默认关闭</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>94.050000,35.650000,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="north_return_chaka_alternative">
+          <name>青盐海备选〔茶卡盐湖·低〕</name>
+          <visibility>1</visibility>
+          <description>&lt;h3&gt;青盐海备选〔茶卡盐湖·低〕&lt;/h3&gt;&lt;p&gt;把握程度：低&lt;/p&gt;&lt;p&gt;茶卡作为青盐海另一候选仅供比较。默认关闭，不将柯柯和茶卡写成两次到湖，也不另画茶卡到旧都兰折返线。&lt;/p&gt;&lt;p&gt;从第8章离江达到第11章丹噶尔，属于江达至丹噶尔223日大段。此层不改原个人行程线、距离与耗时统计，不把新虚线长度当历史实走里程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qhrd.gov.cn/yajy/202206/t20220606_203915.html"&gt;青海人大：乌兰地区资料&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.biodiversity-science.net/fileup/1005-0094/SUPPL/supplFile_art_20220509094717.pdf"&gt;现代盐湖研究采样资料&lt;/a&gt;&lt;/p&gt;</description>
+          <LookAt>
+            <longitude>99.08</longitude>
+            <latitude>36.75</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>200000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <IconStyle>
+              <color>ffffffff</color>
+              <scale>1.05</scale>
+              <Icon>
+                <href>icons/hala_wusu_approx.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ffffffff</color>
+              <scale>0.8</scale>
+            </LabelStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="certainty">
+              <value>低</value>
+            </Data>
+            <Data name="basis">
+              <value>茶卡作为青盐海另一候选仅供比较。默认关闭，不将柯柯和茶卡写成两次到湖，也不另画茶卡到旧都兰折返线。</value>
+            </Data>
+            <Data name="source_keys">
+              <value>ch11,ch11b,wulan,salt</value>
+            </Data>
+            <Data name="coordinate_role">
+              <value>备选地区；默认关闭</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.080000,36.750000,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Placemark id="north_return_card_method">
+        <name>读图方法〔主候选假说，可修订〕</name>
+        <description>&lt;h3&gt;读图方法〔主候选假说，可修订〕&lt;/h3&gt;&lt;p&gt;原文可核的是事件先后；多数现代坐标仍是工作假说。小寺、掌形山与泉水、遇喇嘛与猎户的点尤其低把握，不能当作可导航的遗址。&lt;/p&gt;&lt;p&gt;只设20个稀疏地区锚，唐古拉东侧仅作线折点。江达、格尔木、日月山、丹噶尔复用原图地区点；哈喇乌苏复用大概位置点，不另重复到站。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17575.html"&gt;第9章：过通天河&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17576.html"&gt;第10章：喇嘛与猎户&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="north_return_card_time">
+        <name>时日分读〔7日、等待、16日、5日与223日〕</name>
+        <description>&lt;h3&gt;时日分读〔7日、等待、16日、5日与223日〕&lt;/h3&gt;&lt;p&gt;凝多北行7日至哈喇乌苏，小寺后3日接入荒原；冻河后约10日为候兴武。后续7/8日和又2日不强定为某两个现代点间完整行期。&lt;/p&gt;&lt;p&gt;猎户引路到柴达木实走16日，过盐淖5日，青盐海取盐一宿后次日短行再加2日到老人处，沿海南行2日海尽。90日口粮可供期不是实际行期；日数不换精确小时或坐标速度，也不另加到223日总段。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17575.html"&gt;第9章：过通天河&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17576.html"&gt;第10章：喇嘛与猎户&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="north_return_card_unlocated">
+        <name>未另定位的寺院、鱼沟与废协城</name>
+        <description>&lt;h3&gt;未另定位的寺院、鱼沟与废协城&lt;/h3&gt;&lt;p&gt;第8章河谷后小寺和第11章盐淖后小寺分作低把握事件区，不能合并。湖东末次小寺、鱼沟、废协城继续只留文字，不冒认现代寺院、城址或溪沟。&lt;/p&gt;&lt;p&gt;蒙古喇嘛与猎户事件分别设大方向区；同一区域内不同情节仍不是同一确点。青盐海主取柯柯候选，茶卡默认关闭；旧都兰不套今天察汗乌苏县城。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;第8章及校注44—48&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17576.html"&gt;第10章：喇嘛与猎户&lt;/a&gt;&lt;br/&gt;&lt;a href="https://read.99csw.com/book/554/17577.html"&gt;第11章及校注54—59&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;第11章后段&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>96.8</longitude>
+          <latitude>33.5</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1400000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+    </Folder>
+    <Folder id="hala_wusu_approx_context">
+      <name>哈喇乌苏｜大概位置·怒江上游河谷，推定</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <description>以怒江上游那曲—比如之间河谷作阅读约位，显示哈喇乌苏的大概方向。任乃强将书中所经地考为阿克河谷；旧阿克河谷的具体对应、哈喇乌苏台站与陈氏宿处仍待考。</description>
+      <LookAt>
+        <longitude>93.1</longitude>
+        <latitude>31.54</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>200000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Style id="hala_wusu_approx_style">
+        <IconStyle>
+          <color>ffffffff</color>
+          <scale>1.2</scale>
+          <Icon>
+            <href>icons/hala_wusu_approx.png</href>
+          </Icon>
+        </IconStyle>
+        <LabelStyle>
+          <color>ffffffff</color>
+          <scale>0.95</scale>
+        </LabelStyle>
+      </Style>
+      <Placemark id="hala_wusu_approx">
+        <name>哈喇乌苏〔大概位置·怒江上游河谷，推定〕</name>
+        <visibility>1</visibility>
+        <description>&lt;h3&gt;哈喇乌苏〔大概位置·怒江上游河谷，推定〕&lt;/h3&gt;&lt;p&gt;以怒江上游那曲—比如之间河谷作阅读约位，显示哈喇乌苏的大概方向。任乃强将书中所经地考为阿克河谷；旧阿克河谷的具体对应、哈喇乌苏台站与陈氏宿处仍待考。&lt;/p&gt;&lt;p&gt;参照现有Natural Earth概化怒江河线（river_id=nu，rivernum=134）的顶点93.10157°E、31.54133°N，舍入到93.10°E、31.54°N作为河谷阅读中心。该数据为1:1000万概化水系，不能据此认定达塘就是旧站或提供古址精度。&lt;/p&gt;&lt;p&gt;本点只作大概地区参照，不接入陈渠珍个人行军线，不参与行程距离或耗时合计。原校注44五张说明卡及其无几何性质保持不变。&lt;/p&gt;&lt;p&gt;&lt;b&gt;大概地区参照：&lt;/b&gt;93.10°E，31.54°N。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/23.htm"&gt;《艽野尘梦》第8章及校注44：哈喇乌苏与阿克河谷考订&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.igsnrr.cas.cn/cbkx/kpyd/zgdl/cnszy/202009/t20200910_5692417.html"&gt;中国科学院地理资源所：怒江概述&lt;/a&gt;&lt;br/&gt;&lt;a href="https://slt.xizang.gov.cn/zwgk/zbxx/202408/t20240822_431985.html"&gt;西藏自治区水利厅：现代怒江达塘段资料&lt;/a&gt;&lt;br/&gt;&lt;a href="https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson"&gt;Natural Earth 1:1000万河流水系：Nu河线&lt;/a&gt;&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>93.1</longitude>
+          <latitude>31.54</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>200000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#hala_wusu_approx_style</styleUrl>
+        <ExtendedData>
+          <Data name="coordinate_role">
+            <value>阅读约位／现代河谷地区参照；历史确址未定</value>
+          </Data>
+          <Data name="historical_identity">
+            <value>阿克河谷、台站与宿处具体对应待考</value>
+          </Data>
+          <Data name="coordinate_method">
+            <value>参照现有Natural Earth概化怒江河线（river_id=nu，rivernum=134）的顶点93.10157°E、31.54133°N，舍入到93.10°E、31.54°N作为河谷阅读中心。该数据为1:1000万概化水系，不能据此认定达塘就是旧站或提供古址精度。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>93.10,31.54,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
