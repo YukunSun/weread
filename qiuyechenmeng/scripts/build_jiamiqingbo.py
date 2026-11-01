@@ -50,14 +50,14 @@ def distance_html(data):
             paragraph("换算", data["miles_conversion"]))
 
 
-def icon_png():
+def icon_png(color=(255, 179, 71)):
     size = 32
     rows = []
     for y in range(size):
         row = bytearray([0])
         for x in range(size):
             radius2 = (x - 15.5) ** 2 + (y - 15.5) ** 2
-            row.extend((255, 179, 71, 255) if 8**2 <= radius2 <= 12**2 else (0, 0, 0, 0))
+            row.extend((*color, 255) if 8**2 <= radius2 <= 12**2 else (0, 0, 0, 0))
         rows.append(bytes(row))
     def chunk(kind, data):
         return struct.pack("!I", len(data)) + kind + data + struct.pack("!I", zlib.crc32(kind + data) & 0xffffffff)

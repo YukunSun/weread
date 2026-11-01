@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="peng_north_campaign">
+    <name>《艽野尘梦》彭日升北路入波｜硕板多—春多山—中波密</name>
+    <open>1</open>
+    <description>&lt;p&gt;&lt;b&gt;范围：&lt;/b&gt;第6章的友军会攻部署，独立于陈渠珍由鲁朗、冬九方向的个人行军。蓝色空心点为现代地区参照；橙色空心点为春多山的现代山口候选；灰点以易贡地区帮助辨认中波密的一个成员地区，不代表全区中心或全区边界。&lt;/p&gt;&lt;p&gt;&lt;b&gt;地理骨架：&lt;/b&gt;硕板多（今硕督地区）→越春多山的北南通道→春多／倾多寺所在北谷→向中波密腹地进攻。春多山确切山口和后续逐站行迹未定。&lt;/p&gt;</description>
+    <LookAt>
+      <longitude>95.4</longitude>
+      <latitude>30.45</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>200000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="peng_reference">
+      <IconStyle>
+        <color>ffffd889</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="peng_candidate">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="peng_context">
+      <IconStyle>
+        <color>ffd0c6be</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="peng_direction">
+      <LineStyle>
+        <color>c047b3ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Placemark id="peng_shobando">
+      <name>硕板多／硕般多〔今硕督地区；边军出发方向〕</name>
+      <description>&lt;h3&gt;硕板多／硕般多〔今硕督地区；边军出发方向〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;含义：&lt;/b&gt;正文以硕板多为北路入波的出发方向；今地名以洛隆县硕督地区参照。并非从此开始的每一步均有记载，也不把赵尔丰所在地与此点相连当作彭军行迹。&lt;/p&gt;&lt;p&gt;&lt;b&gt;点位性质：&lt;/b&gt;沿用南北驿路层KNAB Xobando镇村地区代表点，原表30°48′31″N、95°39′03″E；原表未明确坐标基准。现代地区点不是彭军出发营址、宗署或驿站遗址。&lt;/p&gt;&lt;p&gt;&lt;b&gt;彭军耗时：&lt;/b&gt;彭军从硕板多越岭入波的完整耗时未载。‘一住经月’属于陈部在鲁朗停留；‘迟四日’属于罗长裿准备粮秣后延迟陈部出发；京中、树枝、央噶三山的三日和汤买全营渡桥三日也都不是彭军越春多山的用时。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离对照：&lt;/b&gt;硕督—倾多代表点直线约84 km。硕督—倾多两个地区参照点间只计算球面直距，约84 km；不是硕板多至中波密全程、彭军实走里程或现代公路里程。春多山对应不确定，不计算经候选山口的累计距离，也不据直距推算天数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注32：北路三营、另一路及出发延误&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/18.htm"&gt;第6章校注34、35：中波密的彝贡、上波密北谷与春多山&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17572.htm"&gt;第6章后文：边军已突入倾多寺，冲其腹地&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名库：Xobando／硕督&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：Kyungtor La、Qundo、Yi’ong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.changdu.gov.cn/cdrmzf/c100359/202407/52d9c70050de42dd9b8442ece0af700d.shtml"&gt;昌都市政府：倾多拉山、卓玛朗措的现代地域证据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/28442512"&gt;同名山口另一坐标来源：GeoNames 8048417／Mapcarta&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.65083</longitude>
+        <latitude>30.80861</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>70000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#peng_reference</styleUrl>
+      <ExtendedData>
+        <Data name="kind">
+          <value>reference</value>
+        </Data>
+        <Data name="coordinate_method">
+          <value>沿用南北驿路层KNAB Xobando镇村地区代表点，原表30°48′31″N、95°39′03″E；原表未明确坐标基准。现代地区点不是彭军出发营址、宗署或驿站遗址。</value>
+        </Data>
+        <Data name="note">
+          <value>正文以硕板多为北路入波的出发方向；今地名以洛隆县硕督地区参照。并非从此开始的每一步均有记载，也不把赵尔丰所在地与此点相连当作彭军行迹。</value>
+        </Data>
+        <Data name="timing">
+          <value>本支线完整耗时未载；经月、迟四日均属陈部或罗部</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>95.65083000,30.80861000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="peng_chunduo_candidate">
+      <name>春多山候选〔倾多拉／Kyungtor La地区；对应待核〕</name>
+      <description>&lt;h3&gt;春多山候选〔倾多拉／Kyungtor La地区；对应待核〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;含义：&lt;/b&gt;校注35只把春多山约束为春多／倾多寺北上硕板多的越岭大山。KNAB的倾多拉／Chumdo la名称、方位可提出候选，昌都市政府也确认卓玛朗措附近有倾多拉山；尚无直接旧今对照证明本点就是书中春多山。保留‘候选’，不编定其海拔。&lt;/p&gt;&lt;p&gt;&lt;b&gt;点位性质：&lt;/b&gt;采用KNAB Kyungtor La／Chumdo la／倾多拉现代山口地区参照，原表30°25′57″N、95°45′30″E；原表未明确坐标基准。不是已核实的1911年越岭口或彭军营地。&lt;/p&gt;&lt;p&gt;&lt;b&gt;彭军耗时：&lt;/b&gt;彭军从硕板多越岭入波的完整耗时未载。‘一住经月’属于陈部在鲁朗停留；‘迟四日’属于罗长裿准备粮秣后延迟陈部出发；京中、树枝、央噶三山的三日和汤买全营渡桥三日也都不是彭军越春多山的用时。&lt;/p&gt;&lt;p&gt;&lt;b&gt;点位差异：&lt;/b&gt;两同名参照点相差约6.5 km，未平均或合并，说明现代山口资料本身亦有异位；不能因经纬度位数多就称作历史精确点。另一个东拉／Dung La（95.28000°E、30.646944°N）在更西侧，不与倾多拉混并。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注32：北路三营、另一路及出发延误&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/18.htm"&gt;第6章校注34、35：中波密的彝贡、上波密北谷与春多山&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17572.htm"&gt;第6章后文：边军已突入倾多寺，冲其腹地&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名库：Xobando／硕督&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：Kyungtor La、Qundo、Yi’ong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.changdu.gov.cn/cdrmzf/c100359/202407/52d9c70050de42dd9b8442ece0af700d.shtml"&gt;昌都市政府：倾多拉山、卓玛朗措的现代地域证据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/28442512"&gt;同名山口另一坐标来源：GeoNames 8048417／Mapcarta&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.75833333</longitude>
+        <latitude>30.4325</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>70000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#peng_candidate</styleUrl>
+      <ExtendedData>
+        <Data name="kind">
+          <value>candidate</value>
+        </Data>
+        <Data name="coordinate_method">
+          <value>采用KNAB Kyungtor La／Chumdo la／倾多拉现代山口地区参照，原表30°25′57″N、95°45′30″E；原表未明确坐标基准。不是已核实的1911年越岭口或彭军营地。</value>
+        </Data>
+        <Data name="note">
+          <value>校注35只把春多山约束为春多／倾多寺北上硕板多的越岭大山。KNAB的倾多拉／Chumdo la名称、方位可提出候选，昌都市政府也确认卓玛朗措附近有倾多拉山；尚无直接旧今对照证明本点就是书中春多山。保留‘候选’，不编定其海拔。</value>
+        </Data>
+        <Data name="timing">
+          <value>本支线完整耗时未载；经月、迟四日均属陈部或罗部</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>95.75833333,30.43250000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="peng_qundo">
+      <name>春多寺／倾多寺〔上波密北谷地区参照〕</name>
+      <description>&lt;h3&gt;春多寺／倾多寺〔上波密北谷地区参照〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;含义：&lt;/b&gt;校注35将春多寺对应倾多寺，并称这里是上波密北谷中心；正文后叙边军突入倾多寺、冲其腹地。它是理解北路入口和驻军背景的参照，不能直接改名为‘中波密’。第7章陈渠珍后来亲到这一地区，是另一时段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;点位性质：&lt;/b&gt;沿用项目既有倾多聚落地区点；KNAB Qundo旧聚落条30°03′27″N、95°36′08″E与此相近，和今镇治栋曲条分开。不是旧寺建筑、驻营地或会师内室确址。&lt;/p&gt;&lt;p&gt;&lt;b&gt;彭军耗时：&lt;/b&gt;彭军从硕板多越岭入波的完整耗时未载。‘一住经月’属于陈部在鲁朗停留；‘迟四日’属于罗长裿准备粮秣后延迟陈部出发；京中、树枝、央噶三山的三日和汤买全营渡桥三日也都不是彭军越春多山的用时。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离对照：&lt;/b&gt;硕督—倾多代表点直线约84 km。硕督—倾多两个地区参照点间只计算球面直距，约84 km；不是硕板多至中波密全程、彭军实走里程或现代公路里程。春多山对应不确定，不计算经候选山口的累计距离，也不据直距推算天数。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注32：北路三营、另一路及出发延误&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/18.htm"&gt;第6章校注34、35：中波密的彝贡、上波密北谷与春多山&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17572.htm"&gt;第6章后文：边军已突入倾多寺，冲其腹地&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名库：Xobando／硕督&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：Kyungtor La、Qundo、Yi’ong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.changdu.gov.cn/cdrmzf/c100359/202407/52d9c70050de42dd9b8442ece0af700d.shtml"&gt;昌都市政府：倾多拉山、卓玛朗措的现代地域证据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/28442512"&gt;同名山口另一坐标来源：GeoNames 8048417／Mapcarta&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.6022</longitude>
+        <latitude>30.0577</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>70000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#peng_reference</styleUrl>
+      <ExtendedData>
+        <Data name="kind">
+          <value>reference</value>
+        </Data>
+        <Data name="coordinate_method">
+          <value>沿用项目既有倾多聚落地区点；KNAB Qundo旧聚落条30°03′27″N、95°36′08″E与此相近，和今镇治栋曲条分开。不是旧寺建筑、驻营地或会师内室确址。</value>
+        </Data>
+        <Data name="note">
+          <value>校注35将春多寺对应倾多寺，并称这里是上波密北谷中心；正文后叙边军突入倾多寺、冲其腹地。它是理解北路入口和驻军背景的参照，不能直接改名为‘中波密’。第7章陈渠珍后来亲到这一地区，是另一时段。</value>
+        </Data>
+        <Data name="timing">
+          <value>本支线完整耗时未载；经月、迟四日均属陈部或罗部</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>95.60220000,30.05770000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="peng_yigong_context">
+      <name>彝贡／易贡〔属中波密；仅成员地区参照〕</name>
+      <description>&lt;h3&gt;彝贡／易贡〔属中波密；仅成员地区参照〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;含义：&lt;/b&gt;校注34明言彝贡属中波密，因此可以确定中波密至少包括易贡地区。全文没有给出这一区称的完整边界；既不等同现代波密县界，也不把全区压成今日扎木镇或倾多寺。此点仅作区域成员对照，不断言是彭军此次‘直捣’的唯一终点。&lt;/p&gt;&lt;p&gt;&lt;b&gt;点位性质：&lt;/b&gt;沿用项目既有现代易贡乡地区代表点；KNAB Yi’ong／易贡乡条30°16′09″N、94°49′01″E与此近似，只供方位辨认。不是旧军营、登陆点或历史全区中心。&lt;/p&gt;&lt;p&gt;&lt;b&gt;彭军耗时：&lt;/b&gt;彭军从硕板多越岭入波的完整耗时未载。‘一住经月’属于陈部在鲁朗停留；‘迟四日’属于罗长裿准备粮秣后延迟陈部出发；京中、树枝、央噶三山的三日和汤买全营渡桥三日也都不是彭军越春多山的用时。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注32：北路三营、另一路及出发延误&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/18.htm"&gt;第6章校注34、35：中波密的彝贡、上波密北谷与春多山&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17572.htm"&gt;第6章后文：边军已突入倾多寺，冲其腹地&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名库：Xobando／硕督&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：Kyungtor La、Qundo、Yi’ong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.changdu.gov.cn/cdrmzf/c100359/202407/52d9c70050de42dd9b8442ece0af700d.shtml"&gt;昌都市政府：倾多拉山、卓玛朗措的现代地域证据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/28442512"&gt;同名山口另一坐标来源：GeoNames 8048417／Mapcarta&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.8162</longitude>
+        <latitude>30.2699</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>70000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#peng_context</styleUrl>
+      <ExtendedData>
+        <Data name="kind">
+          <value>context</value>
+        </Data>
+        <Data name="coordinate_method">
+          <value>沿用项目既有现代易贡乡地区代表点；KNAB Yi’ong／易贡乡条30°16′09″N、94°49′01″E与此近似，只供方位辨认。不是旧军营、登陆点或历史全区中心。</value>
+        </Data>
+        <Data name="note">
+          <value>校注34明言彝贡属中波密，因此可以确定中波密至少包括易贡地区。全文没有给出这一区称的完整边界；既不等同现代波密县界，也不把全区压成今日扎木镇或倾多寺。此点仅作区域成员对照，不断言是彭军此次‘直捣’的唯一终点。</value>
+        </Data>
+        <Data name="timing">
+          <value>本支线完整耗时未载；经月、迟四日均属陈部或罗部</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>94.81620000,30.26990000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="peng_north_direction">
+      <name>彭军由北入波方向〔两地区直连示意；非古道复原〕</name>
+      <description>&lt;p&gt;&lt;b&gt;示意性质：&lt;/b&gt;虚线只连接硕督与倾多两个地区代表点，表示从北越岭进入上波密北谷的大方向；不沿道路、河道或候选山口逐段走线，不是GPS轨迹，也不是‘中波密’全程。春多山候选点另列，虚线不充作其身份或通行证据。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离：&lt;/b&gt;硕督—倾多两个地区参照点间只计算球面直距，约84 km；不是硕板多至中波密全程、彭军实走里程或现代公路里程。春多山对应不确定，不计算经候选山口的累计距离，也不据直距推算天数。&lt;/p&gt;</description>
+      <styleUrl>#peng_direction</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.65083000,30.80861000,0 95.64924953,30.78420543,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.64779062,30.76167813,0 95.64621015,30.73727355,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.64475125,30.71474625,0 95.64317078,30.69034168,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.64171187,30.66781438,0 95.64013140,30.64340980,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.63867250,30.62088250,0 95.63709203,30.59647793,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.63563312,30.57395063,0 95.63405265,30.54954605,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.63259375,30.52701875,0 95.63101328,30.50261418,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.62955437,30.48008688,0 95.62797390,30.45568230,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.62651500,30.43315500,0 95.62493453,30.40875043,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.62347562,30.38622313,0 95.62189515,30.36181855,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.62043625,30.33929125,0 95.61885578,30.31488668,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.61739687,30.29235938,0 95.61581640,30.26795480,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.61435750,30.24542750,0 95.61277702,30.22102292,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.61131812,30.19849562,0 95.60973765,30.17409105,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.60827875,30.15156375,0 95.60669827,30.12715917,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>95.60523937,30.10463187,0 95.60365890,30.08022730,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="peng_schedule">
+      <name>约期会攻与实际进攻｜彭军全程耗时未载</name>
+      <description>&lt;p&gt;&lt;b&gt;部署：&lt;/b&gt;引句的‘定期’是约定会攻时间，未写明具体日期。后文另记边军乘波部兵力远屯冬九，突入倾多寺、冲其腹地，可证这是随后实际发生的进攻叙述；不能据此补足逐站路线、实走里程或用时。&lt;/p&gt;&lt;p&gt;&lt;b&gt;时间：&lt;/b&gt;彭军从硕板多越岭入波的完整耗时未载。‘一住经月’属于陈部在鲁朗停留；‘迟四日’属于罗长裿准备粮秣后延迟陈部出发；京中、树枝、央噶三山的三日和汤买全营渡桥三日也都不是彭军越春多山的用时。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注32：北路三营、另一路及出发延误&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/18.htm"&gt;第6章校注34、35：中波密的彝贡、上波密北谷与春多山&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17572.htm"&gt;第6章后文：边军已突入倾多寺，冲其腹地&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名库：Xobando／硕督&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：Kyungtor La、Qundo、Yi’ong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.changdu.gov.cn/cdrmzf/c100359/202407/52d9c70050de42dd9b8442ece0af700d.shtml"&gt;昌都市政府：倾多拉山、卓玛朗措的现代地域证据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/28442512"&gt;同名山口另一坐标来源：GeoNames 8048417／Mapcarta&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.4</longitude>
+        <latitude>30.45</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>200000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+    </Placemark>
+    <Placemark id="peng_units">
+      <name>三营构成〔据校注32〕｜彭日升、顾占文、牛运隆</name>
+      <description>&lt;p&gt;&lt;b&gt;来源口径：&lt;/b&gt;据任乃强校注32整理，属于校注的部队构成说明；不将其等同逐日电令中每阶段的实际编组。&lt;/p&gt;&lt;p&gt;&lt;b&gt;调度：&lt;/b&gt;赵尔丰部署，凤山统调&lt;/p&gt;&lt;ul&gt;&lt;li&gt;彭日升：新军前营&lt;/li&gt;&lt;li&gt;顾占文：西军中营&lt;/li&gt;&lt;li&gt;牛运隆：西军左营&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;另一路：&lt;/b&gt;程凤翔的新军后营自桑昂（科麦）另道进军，校注称共四营、分两道；不把程营算入本句三营。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注32：北路三营、另一路及出发延误&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/18.htm"&gt;第6章校注34、35：中波密的彝贡、上波密北谷与春多山&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17572.htm"&gt;第6章后文：边军已突入倾多寺，冲其腹地&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名库：Xobando／硕督&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：Kyungtor La、Qundo、Yi’ong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.changdu.gov.cn/cdrmzf/c100359/202407/52d9c70050de42dd9b8442ece0af700d.shtml"&gt;昌都市政府：倾多拉山、卓玛朗措的现代地域证据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/28442512"&gt;同名山口另一坐标来源：GeoNames 8048417／Mapcarta&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.4</longitude>
+        <latitude>30.45</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>200000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+    </Placemark>
+    <Placemark id="peng_middle_region">
+      <name>中波密是地区｜彝贡属其中，倾多为上波北谷</name>
+      <description>&lt;p&gt;&lt;b&gt;区域：&lt;/b&gt;校注34明言彝贡属中波密，因此可以确定中波密至少包括易贡地区。全文没有给出这一区称的完整边界；既不等同现代波密县界，也不把全区压成今日扎木镇或倾多寺。此点仅作区域成员对照，不断言是彭军此次‘直捣’的唯一终点。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注32：北路三营、另一路及出发延误&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/18.htm"&gt;第6章校注34、35：中波密的彝贡、上波密北谷与春多山&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17572.htm"&gt;第6章后文：边军已突入倾多寺，冲其腹地&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名库：Xobando／硕督&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：Kyungtor La、Qundo、Yi’ong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.changdu.gov.cn/cdrmzf/c100359/202407/52d9c70050de42dd9b8442ece0af700d.shtml"&gt;昌都市政府：倾多拉山、卓玛朗措的现代地域证据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://mapcarta.com/28442512"&gt;同名山口另一坐标来源：GeoNames 8048417／Mapcarta&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.4</longitude>
+        <latitude>30.45</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>200000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+    </Placemark>
+  </Document>
+</kml>
