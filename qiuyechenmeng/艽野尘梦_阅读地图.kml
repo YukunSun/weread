@@ -4470,6 +4470,10 @@
         <name>八噶山、其南大雪山与金珠山旧驻兵地【未定位】</name>
         <description><![CDATA[<h3>八噶山、其南大雪山与金珠山旧驻兵地</h3><p>第6章。八噶山未与今八卡村、巴卡寺闭合，大雪山未具专名，均无坐标。金珠山另以金珠拉山口作地形候选，旧驻兵地未定；八百余里的承接对象仍待核，不赋现代km，不绘作者亲到或该队撤退路线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
+      <Placemark id="unlocated_33">
+        <name>甑巴旧宿处与范玉昆住宅【未定位】</name>
+        <description><![CDATA[<h3>甑巴旧宿处与范玉昆住宅</h3><p>第7章。百巴镇增巴村为本段行程较相容候选，甑巴与增巴异写及古今对应仍待考；不指认清末住宅、宿营点或后来遇害处。新增留宿说明，复用15层村落参照，不按一日行程造点或复原古道。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
     </Folder>
     <Folder id="minor_folder">
       <name>08 小地名补充｜18处（含区域参照）</name>
@@ -25781,6 +25785,72 @@
       <Placemark id="mountain_defence_garrison">
         <name>驻金珠山的一队兵〔陈劝阻；结局两说〕</name>
         <description><![CDATA[<p>罗长裿因担忧而派一队驻金珠山，陈渠珍认为荒远、雪山甚大而劝阻，未被采纳。驻兵并非陈本人所率的到访。原文后记该队因雪封不能归而被杀，另有逃到三十九族被杀的传闻，并明确未知孰是；两说并列保留，不裁定死地、不绘三十九族撤退路线，也不推算驻守天数。</p><p><a href="https://www.xuges.com/xdwx/qycm/20.htm">陈渠珍《艽野尘梦》第6章：八噶、大雪山与金珠山驻兵</a></p>]]></description>
+      </Placemark>
+    </Folder>
+    <Folder id="zengba_overnight_context">
+      <name>甑巴留宿｜百巴增巴候选</name>
+      <open>1</open>
+      <description><![CDATA[<h3>《艽野尘梦》甑巴留宿｜百巴增巴候选；范玉昆居留处未定</h3><p><b>原句：</b>是日宿甑巴，范玉昆住此。</p><p><b>阅读范围：</b>第七章兵变后离开工布、经脚木宗往江达的途中。此处江达沿用太昭／江达村地区参照，不是昌都江达县；陈渠珍当时原拟赴拉萨，尚未从江达北出青海。</p><p><b>对应判断：</b>甑巴可能是增巴的异写，这是音译与上下文推断，未找到直接史料确认等同。KNAB同时列百巴镇与米瑞乡两处Zinba／Dzinpa（增巴村），藏文也相同。若沿用脚木宗为觉木／Qomo地区的既有候选判断，百巴镇增巴位于继续往江达的方向，比米瑞乡同名村更合本段行程；条件性的方位相容不能证明旧名对应。第四章曲巴、增巴、脚木宗的活动顺序可作旁证，但第四章的增巴仍保留双候选，不因本段而直接选定。</p><p><b>耗时与日序：</b>脚木宗到达当晚留宿，次日晨早出发，当日宿甑巴，翌晨离开：因此脚木宗至甑巴为一个行军日，甑巴宿一夜；不等于连续行走24小时，也不另加整日驻留。甑巴至江达用时未明。德摩至脚木宗行两日、江达驻三日均是相邻另段，不能套作甑巴的耗时。</p><p><b>人物背景：</b>范玉昆为贵州籍、曾分发成都的府经历，随军任营部书记。住此指当时与当地妻子、出生数日的幼子居留甑巴，不是范家祖居或营官驻防地认定。陈约其同行，范因幼子迟疑，翌晨答应稍后赴江达；陈在江达等候三日而范未至。后来一家遇害为陈书所记张子青转述，不能据此测定遇害地点或精确日期。</p><p><b>坐标性质：</b>沿用15层工布安抚的百巴增巴现代候选坐标：KNAB原表29°46′36″N、93°54′48″E，十进制29.77666667、93.91333333；原表未注明坐标基准。只作村落地区参照，保留小数不表示清末住处精度，不能指认范玉昆住宅、陈军宿营点或遇害地。本段没有里数，不按一天行军插值、计算实际行程或复原古道。</p><p><b>显示方式：</b>完整阅读地图的15层已有百巴增巴候选点，本段只补可点击说明，避免重复几何。独立甑巴留宿KMZ提供同一坐标的一个橙色空心候选点；若与含15层的完整地图同用，可关闭重复点。独立层不绘路线，也不新增米瑞增巴或范宅点。</p><p><b>候选限制：</b>百巴增巴仅作本段甑巴的候选地区；古今对应、范玉昆旧宅和陈部宿营确址均未确定。</p><p><a href="https://www.xuges.com/xdwx/qycm/22.htm">《艽野尘梦》第七章（2）：脚木宗、甑巴留宿及江达等候</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第四章：工布安抚活动地名</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名表：两处Zinba／Dzinpa及Qomo</a><br/><a href="https://linzhi.gov.cn/linzhi/xwzx/202607/bba54ac24ede4024a7ac9c6f06a2991d.shtml">林芝市政府：巴宜区苹果结出乡村振兴致富果</a></p>]]></description>
+      <LookAt>
+        <longitude>93.91333333</longitude>
+        <latitude>29.77666667</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>65000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="zengba_overnight_guide">
+        <name>本段说明｜是日留宿、翌晨离开；现代对应仍候选</name>
+        <description><![CDATA[<h3>《艽野尘梦》甑巴留宿｜百巴增巴候选；范玉昆居留处未定</h3><p><b>原句：</b>是日宿甑巴，范玉昆住此。</p><p><b>阅读范围：</b>第七章兵变后离开工布、经脚木宗往江达的途中。此处江达沿用太昭／江达村地区参照，不是昌都江达县；陈渠珍当时原拟赴拉萨，尚未从江达北出青海。</p><p><b>对应判断：</b>甑巴可能是增巴的异写，这是音译与上下文推断，未找到直接史料确认等同。KNAB同时列百巴镇与米瑞乡两处Zinba／Dzinpa（增巴村），藏文也相同。若沿用脚木宗为觉木／Qomo地区的既有候选判断，百巴镇增巴位于继续往江达的方向，比米瑞乡同名村更合本段行程；条件性的方位相容不能证明旧名对应。第四章曲巴、增巴、脚木宗的活动顺序可作旁证，但第四章的增巴仍保留双候选，不因本段而直接选定。</p><p><b>耗时与日序：</b>脚木宗到达当晚留宿，次日晨早出发，当日宿甑巴，翌晨离开：因此脚木宗至甑巴为一个行军日，甑巴宿一夜；不等于连续行走24小时，也不另加整日驻留。甑巴至江达用时未明。德摩至脚木宗行两日、江达驻三日均是相邻另段，不能套作甑巴的耗时。</p><p><b>人物背景：</b>范玉昆为贵州籍、曾分发成都的府经历，随军任营部书记。住此指当时与当地妻子、出生数日的幼子居留甑巴，不是范家祖居或营官驻防地认定。陈约其同行，范因幼子迟疑，翌晨答应稍后赴江达；陈在江达等候三日而范未至。后来一家遇害为陈书所记张子青转述，不能据此测定遇害地点或精确日期。</p><p><b>坐标性质：</b>沿用15层工布安抚的百巴增巴现代候选坐标：KNAB原表29°46′36″N、93°54′48″E，十进制29.77666667、93.91333333；原表未注明坐标基准。只作村落地区参照，保留小数不表示清末住处精度，不能指认范玉昆住宅、陈军宿营点或遇害地。本段没有里数，不按一天行军插值、计算实际行程或复原古道。</p><p><b>显示方式：</b>完整阅读地图的15层已有百巴增巴候选点，本段只补可点击说明，避免重复几何。独立甑巴留宿KMZ提供同一坐标的一个橙色空心候选点；若与含15层的完整地图同用，可关闭重复点。独立层不绘路线，也不新增米瑞增巴或范宅点。</p><p><b>候选限制：</b>百巴增巴仅作本段甑巴的候选地区；古今对应、范玉昆旧宅和陈部宿营确址均未确定。</p><p><a href="https://www.xuges.com/xdwx/qycm/22.htm">《艽野尘梦》第七章（2）：脚木宗、甑巴留宿及江达等候</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第四章：工布安抚活动地名</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名表：两处Zinba／Dzinpa及Qomo</a><br/><a href="https://linzhi.gov.cn/linzhi/xwzx/202607/bba54ac24ede4024a7ac9c6f06a2991d.shtml">林芝市政府：巴宜区苹果结出乡村振兴致富果</a></p>]]></description>
+        <LookAt>
+          <longitude>93.91333333</longitude>
+          <latitude>29.77666667</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="zengba_overnight_card_identity">
+        <name>甑巴与两处增巴｜本段较合百巴候选，古今对应未定</name>
+        <description><![CDATA[<h3>甑巴与两处增巴｜本段较合百巴候选，古今对应未定</h3><p>现代百巴镇、米瑞乡都有增巴村，不能仅因音近认定甑巴。以既有觉木候选及江达／太昭参照理解本段顺序，百巴增巴更合继续西行方向；这仍依赖脚木宗候选成立。第4章增巴的双候选保留，不能据返程推断直接合并两次经历。</p><p><a href="https://www.xuges.com/xdwx/qycm/22.htm">《艽野尘梦》第七章（2）：脚木宗、甑巴留宿及江达等候</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第四章：工布安抚活动地名</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名表：两处Zinba／Dzinpa及Qomo</a><br/><a href="https://linzhi.gov.cn/linzhi/xwzx/202607/bba54ac24ede4024a7ac9c6f06a2991d.shtml">林芝市政府：巴宜区苹果结出乡村振兴致富果</a></p>]]></description>
+        <LookAt>
+          <longitude>93.91333333</longitude>
+          <latitude>29.77666667</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="zengba_overnight_card_overnight">
+        <name>行程与留宿｜脚木宗→甑巴当日；宿一夜；至江达日数未载</name>
+        <description><![CDATA[<h3>行程与留宿｜脚木宗→甑巴当日；宿一夜；至江达日数未载</h3><p>次日晨早出发承接脚木宗一夜；是日宿甑巴说明当日行至此；翌晨出发说明甑巴过夜后次晨离开。两夜分别属于脚木宗和甑巴。德摩至脚木宗行两日不可延长到甑巴，江达驻三日是后来等候时间，不能用来推算甑巴至江达行军日数。</p><p><a href="https://www.xuges.com/xdwx/qycm/22.htm">《艽野尘梦》第七章（2）：脚木宗、甑巴留宿及江达等候</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第四章：工布安抚活动地名</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名表：两处Zinba／Dzinpa及Qomo</a><br/><a href="https://linzhi.gov.cn/linzhi/xwzx/202607/bba54ac24ede4024a7ac9c6f06a2991d.shtml">林芝市政府：巴宜区苹果结出乡村振兴致富果</a></p>]]></description>
+        <LookAt>
+          <longitude>93.91333333</longitude>
+          <latitude>29.77666667</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="zengba_overnight_card_fan_yukun">
+        <name>范玉昆｜营部书记在此携眷居留；住宅及后来遇害处未定</name>
+        <description><![CDATA[<h3>范玉昆｜营部书记在此携眷居留；住宅及后来遇害处未定</h3><p>原文后段介绍范为贵州籍营部书记。当时幼子出生仅数日，陈渠珍劝他携眷同行，筹商半夜未决，翌晨分别；约赴江达而未至。后来一家遇害是张子青由藏归后向陈的转述，不把候选村点改成确证死亡地点，也不将两月后换算成公历日期。</p><p><a href="https://www.xuges.com/xdwx/qycm/22.htm">《艽野尘梦》第七章（2）：脚木宗、甑巴留宿及江达等候</a><br/><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第四章：工布安抚活动地名</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名表：两处Zinba／Dzinpa及Qomo</a><br/><a href="https://linzhi.gov.cn/linzhi/xwzx/202607/bba54ac24ede4024a7ac9c6f06a2991d.shtml">林芝市政府：巴宜区苹果结出乡村振兴致富果</a></p>]]></description>
+        <LookAt>
+          <longitude>93.91333333</longitude>
+          <latitude>29.77666667</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
       </Placemark>
     </Folder>
   </Document>

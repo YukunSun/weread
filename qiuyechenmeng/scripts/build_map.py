@@ -23,6 +23,7 @@ from demo_lulang import add_demo_lulang, write_demo_lulang_index
 from bomi_campaign_plan import add_campaign_plan, anchor_html as campaign_anchor_html, write_campaign_indexes
 from katuo_context import add_katuo_context, write_katuo_index
 from mountain_defence import add_mountain_defence, write_mountain_index
+from zengba_context import add_zengba_context, write_zengba_outputs
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -131,6 +132,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ]
 UNLOCATED += unlocated_entries() + gongbu_unlocated_entries()
 UNLOCATED += [('第6章','八噶山、其南大雪山与金珠山旧驻兵地','八噶山未与今八卡村、巴卡寺闭合，大雪山未具专名，均无坐标。金珠山另以金珠拉山口作地形候选，旧驻兵地未定；八百余里的承接对象仍待核，不赋现代km，不绘作者亲到或该队撤退路线。')]
+UNLOCATED += [('第7章','甑巴旧宿处与范玉昆住宅','百巴镇增巴村为本段行程较相容候选，甑巴与增巴异写及古今对应仍待考；不指认清末住宅、宿营点或后来遇害处。新增留宿说明，复用15层村落参照，不按一日行程造点或复原古道。')]
 
 PHASES = {
  'in': ('01 川西入藏｜成都至康定行约12日；炉城至昌都记50余日＊', '#49a7ff', True),
@@ -609,6 +611,7 @@ def make_map(bundled=False):
     add_campaign_plan(doc,el,view,kcolor,CAMPAIGN_ANCHORS,bundled)
     add_katuo_context(doc,el,view,CAMPAIGN_ANCHORS,bundled)
     add_mountain_defence(doc,el,view,CAMPAIGN_ANCHORS)
+    add_zengba_context(doc,el,view)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -762,6 +765,7 @@ def main():
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     mountain_defence_note=write_mountain_index()
+    zengba_note=write_zengba_outputs()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1047,6 +1051,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n德摩—鲁朗越岭｜16层\n'+crossing_note)
         f.write('\n卡拖召议与野人山｜休息1日；赴此2日\n'+katuo_note)
         f.write('\n八噶山与金珠山｜八百余里指代待核\n'+mountain_defence_note)
+        f.write('\n甑巴留宿｜百巴增巴候选；范玉昆居留处未定\n'+zengba_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 
 if __name__=='__main__':
