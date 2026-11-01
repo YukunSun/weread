@@ -20,6 +20,7 @@ from annotation_eleven import add_annotation11, add_deep_research, add_approxima
 from annotation11_figure import write_figure
 from gongbu_pacification import add_gongbu_pacification, write_gongbu_indexes, unlocated_entries as gongbu_unlocated_entries
 from balangdeng import add_folder as add_balangdeng, write_index as write_balangdeng_index
+from three_temples import add_folder as add_three_temples, write_index as write_three_temples_index
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -69,7 +70,7 @@ ROWS = [
 ('lulang','17 鲁朗','鲁朗地区',94.7332,29.7257,'第5—7章','pome','区域参照','https://mapcarta.com/N12238762005','使用现代镇驻地作地区参照。镇治曾由东久迁移，旅游小镇与书中驻营地不能直接等同；未确认作者每次驻地。'),
 ('tongmai','18 汤买／汤木 → 通麦一带','通麦、易贡藏布渡河地区',95.0646,30.0976,'第6章；校注33','pome','区域参照','https://www.upc.pbs.bridgemeister.com/bridge.php?bid=6161','现代通麦桥坐标仅用于定位渡河地区，不认定旧藤桥与今桥重合。'),
 ('yigong','19 彝贡 → 易贡地区','易贡乡一带',94.8162,30.2699,'第6章','pome','区域参照','https://mapcarta.com/29837964','现代易贡乡聚落代表点，用于查看易贡河谷；不等同书中的军营、登岸点或具体战场。'),
-('qundo','20 春多寺 → 倾多寺一带','倾多镇、倾多寺地区',95.6022,30.0577,'第6—7章；校注35','pome','事件区域','https://mapcarta.com/N3017464360','校注将春多寺、春倾寺对应倾多寺。坐标取现代倾多聚落点，非寺院测绘坐标；主要作为书中部队和人物活动的事件地点，不认定作者本人亲到，未接入个人行程连线。'),
+('qundo','20 春多寺 → 倾多寺一带','倾多镇、倾多寺地区',95.6022,30.0577,'第4章校注29；第6—7章及校注35','pome','地区参照；作者后来亲到，旧寺确址未定','https://mapcarta.com/N3017464360','校注将春多寺、春倾寺对应倾多寺。校注29所述为程凤翔、彭日升会师，程未与陈相晤；第7章又明记罗长裿急召陈渠珍至春多寺，陈见密函后辞归卡拖，故可认定作者后来到过该地区。两件事分开，不能反推陈参与程军攻取或与程同行。本点取现代倾多聚落代表坐标，非旧寺建筑、会见内室或营地确址；往返卡拖的逐站路线未定，未新增连线。'),
 ('golmud','21 柴达木 → 格尔木一带（推定）','格尔木地区',94.9042,36.4028,'第11章；校注55','return','校注推定',wiki('格尔木市'),'任乃强按程站推为格尔木一带，不是作者明确写出的今名。使用现代城市代表点；不是当时城市已建成的断言，也不能据此反推羌塘精确轨迹。'),
 ('qinghai','22 青海 → 青海湖（区域）','青海湖',100.2,36.9,'第11章；校注57','return','区域参照','https://en.wikipedia.org/wiki/Qinghai_Lake','湖面代表点，仅定位整湖。原文及校注记行海南路；不代表到湖心，也不是确定的岸边营地。书中另有“青盐海”，与青海湖分开处理。'),
 ('riyue','23 日月山','日月山一带',101.0939,36.4431,'第11章；校注58','return','区域参照','https://mapcarta.com/W1425740804','使用日月山景区代表点，未确认旧道具体翻越位置。'),
@@ -116,6 +117,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第5—7章','纳衣当噶、京中、树枝、央噶','德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。'),
 ('第5—6章；校注33','八浪登、甲米青波及前方石卡','八浪登为冬九—汤买方向旧山路上的山腹隘口，现代名称与确址未定；甲米青波宿营地、前方石卡与隘口分别待考。17层只有文字核对卡与地区背景镜头，不造地点或路线几何。'),
 ('第6—7章','卡拖、八阶、夥若桥','具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。'),
+('第4章校注29；第6章校注32、35','薄宗寺','校注称上波密东谷通桑昂，以薄宗寺为中心；现代寺名与旧址未定。18层只提供地区概览及文义核对卡，镜头中心不是寺址坐标，不冒认波曲宗或波密县城。'),
 ('第8章','凝多／凝多塘','北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。'),
 ('第8章','哈喇乌苏','按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。'),
 ('第8—10章','酱通／绛通（羌塘）','高原区域名称，并非一个可定位的沙漠景区。迷路行迹缺少足够空间约束，本图不复原其折线。'),
@@ -460,6 +462,7 @@ def major_place(parent,row):
     if rid=='taizhao': extra.append(('江达与太昭：社科院考察',SOURCES['江达与太昭考证']))
     if rid=='changba': extra.extend([('长坝春今名考证',SOURCES['旧驿道与长坝春考证']),('江巴村现行政归属',SOURCES['江巴村现行政归属核查'])])
     if rid=='lulang': extra.append(('鲁朗镇治迁移',SOURCES['鲁朗镇治迁移']))
+    if rid=='qundo': extra.extend([('校注35：春多、倾多与春倾异译','https://read.99csw.com/book/554/17572.html'),('第7章：作者后来赴春多寺',TEXT),('波密县政府：现代倾多寺介绍','https://www.bomi.gov.cn/bmx/zjbm/201912/8c29f77a1f724e41b6751ced0aa39099.shtml')])
     if rid=='bomi': extra.extend([('校注33：波部、上波与下波','https://www.xuges.com/xdwx/qycm/17.htm'),('波密县历史沿革','https://bomi.gov.cn/bmx/zjbm/201901/6e18ca202e204e23a572f56f2b17dfd4.shtml'),('县政府驻扎木镇：官方简介','https://www.bomi.gov.cn/bmx/newxz/202012/ee7bcc2e5e7143c59d7f4725fa059033.shtml')])
     coordinate_note=('KNAB原表为29°51′33″N、95°46′14″E，未明确坐标基准；本点仅为现代扎木镇代表点，显示位数不代表历史地区中心或古址精度。' if rid=='bomi' else '坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。')
     body=f'<h3>{html.escape(label)}</h3><p><b>今名／定位对象：</b>{html.escape(modern)}<br/><b>对应章节：</b>{html.escape(chapter)}<br/><b>定位性质：</b>{certainty}<br/><b>经纬度：</b>{lon:.4f}°E, {lat:.4f}°N</p><p>{html.escape(note)}</p><p>{coordinate_note}</p><p>'+links(extra)+'</p>'
@@ -570,6 +573,7 @@ def make_map(bundled=False):
     add_annotation11(doc,el,view,bundled,True)
     add_gongbu_pacification(doc,el,view,kcolor,bundled)
     add_balangdeng(doc,el,view)
+    add_three_temples(doc,el,view)
     return serialize(root)
 
 def make_balangdeng_supplement():
@@ -578,6 +582,14 @@ def make_balangdeng_supplement():
     el(doc,'description','无几何的山路区段核对卡。镜头只供查看现代东久—通麦方向，不代表八浪登坐标、旧道、古界或误差范围。')
     view(doc,94.90258,29.964635,180000)
     add_balangdeng(doc,el,view)
+    return serialize(root)
+
+def make_three_temples_supplement():
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='three_temples_supplement')
+    el(doc,'name','《艽野尘梦》边军攻取上波密三寺｜并列战果');el(doc,'open',1)
+    el(doc,'description','春多／倾多、松宗复用既有地区方位，薄宗旧址待考。四张无几何说明卡只移动镜头，不新增寺院点，也不按枚举顺序画路线。')
+    view(doc,95.9,29.9,300000)
+    add_three_temples(doc,el,view)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -739,6 +751,11 @@ def main():
     with zipfile.ZipFile(ROOT/(balangdeng+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_balangdeng_supplement())
     balangdeng_note=write_balangdeng_index()
+    three_temples='艽野尘梦_边军攻取三寺'
+    (ROOT/(three_temples+'.kml')).write_bytes(make_three_temples_supplement())
+    with zipfile.ZipFile(ROOT/(three_temples+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_three_temples_supplement())
+    three_temples_note=write_three_temples_index()
     bomi='艽野尘梦_波密地区参照'
     (ROOT/(bomi+'.kml')).write_bytes(make_bomi_supplement())
     with zipfile.ZipFile(ROOT/(bomi+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -939,6 +956,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n二十五、波密｜历史地区；今扎木镇方位参照\n'+bomi_note)
         f.write('\n二十六、八浪登旧山路核对｜确址待考\n'+balangdeng_note)
+        f.write('\n二十七、边军攻取上波密三寺｜并列战果\n'+three_temples_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

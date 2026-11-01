@@ -3245,8 +3245,8 @@
       <Placemark id="place_qundo">
         <name>20 春多寺 → 倾多寺一带</name>
         <visibility>1</visibility>
-        <Snippet maxLines="2">第6—7章；校注35 · 事件区域</Snippet>
-        <description><![CDATA[<p>本地点单独耗时未明确记载，不按里程分摊。</p><h3>20 春多寺 → 倾多寺一带</h3><p><b>今名／定位对象：</b>倾多镇、倾多寺地区<br/><b>对应章节：</b>第6—7章；校注35<br/><b>定位性质：</b>事件区域<br/><b>经纬度：</b>95.6022°E, 30.0577°N</p><p>校注将春多寺、春倾寺对应倾多寺。坐标取现代倾多聚落点，非寺院测绘坐标；主要作为书中部队和人物活动的事件地点，不认定作者本人亲到，未接入个人行程连线。</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">地名与行程：原文、校注</a><br/><a href="https://mapcarta.com/N3017464360">坐标参照</a></p>]]></description>
+        <Snippet maxLines="2">第4章校注29；第6—7章及校注35 · 地区参照；作者后来亲到，旧寺确址未定</Snippet>
+        <description><![CDATA[<p>本地点单独耗时未明确记载，不按里程分摊。</p><h3>20 春多寺 → 倾多寺一带</h3><p><b>今名／定位对象：</b>倾多镇、倾多寺地区<br/><b>对应章节：</b>第4章校注29；第6—7章及校注35<br/><b>定位性质：</b>地区参照；作者后来亲到，旧寺确址未定<br/><b>经纬度：</b>95.6022°E, 30.0577°N</p><p>校注将春多寺、春倾寺对应倾多寺。校注29所述为程凤翔、彭日升会师，程未与陈相晤；第7章又明记罗长裿急召陈渠珍至春多寺，陈见密函后辞归卡拖，故可认定作者后来到过该地区。两件事分开，不能反推陈参与程军攻取或与程同行。本点取现代倾多聚落代表坐标，非旧寺建筑、会见内室或营地确址；往返卡拖的逐站路线未定，未新增连线。</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">地名与行程：原文、校注</a><br/><a href="https://mapcarta.com/N3017464360">坐标参照</a><br/><a href="https://read.99csw.com/book/554/17572.html">校注35：春多、倾多与春倾异译</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">第7章：作者后来赴春多寺</a><br/><a href="https://www.bomi.gov.cn/bmx/zjbm/201912/8c29f77a1f724e41b6751ced0aa39099.shtml">波密县政府：现代倾多寺介绍</a></p>]]></description>
         <LookAt>
           <longitude>95.6022</longitude>
           <latitude>30.0577</latitude>
@@ -3265,10 +3265,10 @@
             <value>倾多镇、倾多寺地区</value>
           </Data>
           <Data name="chapter">
-            <value>第6—7章；校注35</value>
+            <value>第4章校注29；第6—7章及校注35</value>
           </Data>
           <Data name="certainty">
-            <value>事件区域</value>
+            <value>地区参照；作者后来亲到，旧寺确址未定</value>
           </Data>
           <Data name="coordinate_reference">
             <value>https://mapcarta.com/N3017464360</value>
@@ -3277,7 +3277,7 @@
             <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
           </Data>
           <Data name="note">
-            <value>校注将春多寺、春倾寺对应倾多寺。坐标取现代倾多聚落点，非寺院测绘坐标；主要作为书中部队和人物活动的事件地点，不认定作者本人亲到，未接入个人行程连线。</value>
+            <value>校注将春多寺、春倾寺对应倾多寺。校注29所述为程凤翔、彭日升会师，程未与陈相晤；第7章又明记罗长裿急召陈渠珍至春多寺，陈见密函后辞归卡拖，故可认定作者后来到过该地区。两件事分开，不能反推陈参与程军攻取或与程同行。本点取现代倾多聚落代表坐标，非旧寺建筑、会见内室或营地确址；往返卡拖的逐站路线未定，未新增连线。</value>
           </Data>
           <Data name="travel_time">
             <value />
@@ -3368,27 +3368,27 @@
         <range>1000000</range>
         <altitudeMode>clampToGround</altitudeMode>
       </LookAt>
-      <Placemark id="unlocated_12">
+      <Placemark id="unlocated_13">
         <name>凝多／凝多塘【未定位】</name>
         <description><![CDATA[<h3>凝多／凝多塘</h3><p>第8章。北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_13">
+      <Placemark id="unlocated_14">
         <name>哈喇乌苏【未定位】</name>
         <description><![CDATA[<h3>哈喇乌苏</h3><p>第8章。按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_14">
+      <Placemark id="unlocated_15">
         <name>酱通／绛通（羌塘）【未定位】</name>
         <description><![CDATA[<h3>酱通／绛通（羌塘）</h3><p>第8—10章。高原区域名称，并非一个可定位的沙漠景区。迷路行迹缺少足够空间约束，本图不复原其折线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_15">
+      <Placemark id="unlocated_16">
         <name>通天河渡点【未定位】</name>
         <description><![CDATA[<h3>通天河渡点</h3><p>第9章。跨河本身有文本依据；校注联系穆鲁乌苏水系，但渡点不详，未用现代沱沱河桥或通天河大桥充作历史渡口。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_16">
+      <Placemark id="unlocated_17">
         <name>冈天削【未定位】</name>
         <description><![CDATA[<h3>冈天削</h3><p>第8—10章。校注48推测与昆仑山口有关，此说不作为精确定位依据；不把现代公路山口写成已证实途经点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_17">
+      <Placemark id="unlocated_18">
         <name>遇蒙古喇嘛、遇猎户地点【未定位】</name>
         <description><![CDATA[<h3>遇蒙古喇嘛、遇猎户地点</h3><p>第10章。事件有原文，地点无可靠坐标，不另造营地。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
@@ -4410,63 +4410,67 @@
         <name>卡拖、八阶、夥若桥【未定位】</name>
         <description><![CDATA[<h3>卡拖、八阶、夥若桥</h3><p>第6—7章。具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_18">
+      <Placemark id="unlocated_12">
+        <name>薄宗寺【未定位】</name>
+        <description><![CDATA[<h3>薄宗寺</h3><p>第4章校注29；第6章校注32、35。校注称上波密东谷通桑昂，以薄宗寺为中心；现代寺名与旧址未定。18层只提供地区概览及文义核对卡，镜头中心不是寺址坐标，不冒认波曲宗或波密县城。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_19">
         <name>盐淖、青盐海【未定位】</name>
         <description><![CDATA[<h3>盐淖、青盐海</h3><p>第11章。盐沼及盐湖的具体范围未定。青盐海不同于随后到达的青海湖，不直接对应察尔汗、茶卡或柯柯盐湖。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_19">
+      <Placemark id="unlocated_20">
         <name>都兰【未定位】</name>
         <description><![CDATA[<h3>都兰</h3><p>第11章。校注56作地理推定，未核当时市场位置，不使用今日察汗乌苏县城作为旧市镇的确点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_20">
+      <Placemark id="unlocated_21">
         <name>分州、洪铺街寓所、西原墓【未定位】</name>
         <description><![CDATA[<h3>分州、洪铺街寓所、西原墓</h3><p>第12章。旧名或具体地点尚待考；地图止于西安，不另画一条书中未叙述的回凤凰路线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_21">
+      <Placemark id="unlocated_22">
         <name>西藏桥〔书图近城另列〕【未定位】</name>
         <description><![CDATA[<h3>西藏桥〔书图近城另列〕</h3><p>第2章；校注十一及书图。桥名图文有异，旧桥确址待考。正文与略图先列于昌都附近；与俄洛桥名称冲突见总说明</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_22">
+      <Placemark id="unlocated_23">
         <name>甲令塘〔书图识读待核〕【未定位】</name>
         <description><![CDATA[<h3>甲令塘〔书图识读待核〕</h3><p>第2章；校注十一及书图。仅据略图；令字识读中等置信度，现代对应待考。图示俄洛桥与浪荡沟之间，正文未逐名叙述，不认定在此宿营</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_23">
+      <Placemark id="unlocated_24">
         <name>纳贡山／腊左山／腊左大山／安初拉〔书图藏名识读〕【未定位】</name>
         <description><![CDATA[<h3>纳贡山／腊左山／腊左大山／安初拉〔书图藏名识读〕</h3><p>第2章；校注十一及书图。精确旧山口未定；14F已补Namts’o La／雪佩拉候选参照，推定而非确证。分隔昂曲与恩达河两条谷地的越岭段；校注四千余米，不按正文十余里推算垂直高度</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_24">
+      <Placemark id="unlocated_25">
         <name>日雨娃〔书图识读待核〕【未定位】</name>
         <description><![CDATA[<h3>日雨娃〔书图识读待核〕</h3><p>第2章；校注十一及书图。仅据略图，中等识读置信度；现代对应待考。图示梭罗坝与恩达之间；不当作正文明确的宿站</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_25">
+      <Placemark id="unlocated_26">
         <name>果角塘〔书图补充〕【未定位】</name>
         <description><![CDATA[<h3>果角塘〔书图补充〕</h3><p>第2章；校注十一及书图。只识得书图地名与相对谷地；是否逐站亲经未定。浪荡沟通向纳贡山的谷地一带；不强插进主链或认作宿站</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_26">
+      <Placemark id="unlocated_27">
         <name>陈渠珍被擒处〔书图事件〕【未定位】</name>
         <description><![CDATA[<h3>陈渠珍被擒处〔书图事件〕</h3><p>第2章；校注十一及书图。只知纳贡塘附近的相对位置。无具体民房、石后或受袭点坐标；不造精确事件点</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_27">
+      <Placemark id="unlocated_28">
         <name>云南桥〔书图背景〕【未定位】</name>
         <description><![CDATA[<h3>云南桥〔书图背景〕</h3><p>第2章；校注十一及书图。图示昌都南侧澜沧江桥，旧桥址未定。不属于西行恩达主链，不据本图认定此次探险经过</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_28">
+      <Placemark id="unlocated_29">
         <name>瓦合大山〔背景〕／瓦合山／一柱拉【未定位】</name>
         <description><![CDATA[<h3>瓦合大山〔背景〕／瓦合山／一柱拉</h3><p>第2章；校注十一及书图。恩达以西山系背景，通行山口未定位。不与纳贡山合并；本次第2章探险不据校注另翻瓦合山</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_29">
+      <Placemark id="unlocated_30">
         <name>恩达河〔图注子曲〕／子曲〔书图括注识读〕【未定位】</name>
         <description><![CDATA[<h3>恩达河〔图注子曲〕／子曲〔书图括注识读〕</h3><p>第2章；校注十一及书图。书图水系关系已记录，现代河段对应待考。恩达—梭罗坝—甲木桥一侧河谷；不直接套成昂曲或按旧图画现代河线</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_30">
+      <Placemark id="unlocated_31">
         <name>曲巴〔古今对应待考〕【未定位】</name>
         <description><![CDATA[<h3>曲巴〔古今对应待考〕</h3><p>第4章。15层保留无坐标文字条目；现代对应、相邻段方向和里程未定，不据列举顺序插值造点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_31">
+      <Placemark id="unlocated_32">
         <name>增巴〔两处现代同名候选，书中对应未定〕【未定位】</name>
         <description><![CDATA[<h3>增巴〔两处现代同名候选，书中对应未定〕</h3><p>第4章。15层并列百巴镇、米瑞乡两个增巴村参照点；尚未选定书中对应，不表示作者到过两处。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_32">
+      <Placemark id="unlocated_33">
         <name>脚木宗古今对应、旧驻地及窝冗噶伽旧庄园【未定位】</name>
         <description><![CDATA[<h3>脚木宗古今对应、旧驻地及窝冗噶伽旧庄园</h3><p>第3—4章。15层已补觉木／Qomo地区作脚木宗候选，与校注27“牙丕附近”说的差异仍待核；候选不共用牙披坐标。08层已补窝冗噶伽的卧龙—嘎加地区参照，脚木宗的具体营地、寺院及窝冗噶伽旧庄园、藏经密室和陈部驻地仍未测定。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
@@ -25323,6 +25327,72 @@
           <heading>0</heading>
           <tilt>0</tilt>
           <range>180000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+    </Folder>
+    <Folder id="three_temples_check">
+      <name>18 边军攻取上波密三寺｜并列战果</name>
+      <open>1</open>
+      <description><![CDATA[校注32并列列举边军攻取的春多、松宗、薄宗等中心地点，不是三寺的逐站路线。春多／倾多与松宗仅沿用现代地区参照；薄宗寺旧今对应及旧址未定。此轮边军行动与陈渠珍本人行程、后来赴春多寺的另次行动分开。]]></description>
+      <LookAt>
+        <longitude>95.9</longitude>
+        <latitude>29.9</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>300000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="three_temples_overview">
+        <name>三寺为并列战果〔不按枚举顺序画路线〕</name>
+        <description><![CDATA[<h3>三寺为并列战果〔不按枚举顺序画路线〕</h3><p>这句出自任乃强校注32，是对边军进展的补充叙述。春多寺、松宗寺、薄宗寺在此并列列举，没有给出三者逐站先后、每寺攻取部队或各站完整日数，不能按词序画成春多→松宗→薄宗的连续行军线。</p><p>按校注29、32合读：彭日升、顾占文、牛运隆三营自硕板多方向入波，程凤翔后营自桑昂（科麦）另道进入，共四营、分两道。校注29另记程军攻取薄宗、松宗等寺后与彭日升会于春多；不能据此把每一寺分别分配给某一营，也不把程军接到陈渠珍的个人行程上。</p><p>校注解释波部主力远屯冬九，使边军进展迅速；如入无人之境是对进展的形容，不按字面标注全境空无居民或没有任何战斗。本句未载完整耗时，不套用陈部在鲁朗经月、罗部延迟四日或陈部翻山、渡桥的日数。</p><p><b>镜头与定位：</b>上波密地区概览镜头，仅辅助比较地区方位，不表示三寺的精确分布、进攻线路或历史疆界。</p><p><a href="https://www.xuges.com/xdwx/qycm/17.htm">第6章任乃强校注32：三寺、三营与另一路边军</a><br/><a href="https://www.99csw.com/book/554/17570.htm">第4章任乃强校注29：程军攻取与春多会师</a><br/><a href="https://read.99csw.com/book/554/17572.html">第6章任乃强校注35：上波密两谷与春多异译</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">第7章：陈渠珍后来赴春多寺见罗长裿</a><br/><a href="https://www.bomi.gov.cn/bmx/zjbm/201912/8c29f77a1f724e41b6751ced0aa39099.shtml">波密县政府：现代倾多寺又称倾多强巴林寺</a><br/><a href="https://www.bomi.gov.cn/bmx/zwgk/202306/718415cdaf11429f8c23cfbfe41bd8b5.shtml">波密县政府2023年河道规划公示：松宗镇松宗寺</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名库：Qundo与Sumzom现代地区对象</a></p>]]></description>
+        <LookAt>
+          <longitude>95.9</longitude>
+          <latitude>29.9</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>300000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="three_temples_qundo">
+        <name>春多寺／倾多寺〔上波密北谷地区参照〕</name>
+        <description><![CDATA[<h3>春多寺／倾多寺〔上波密北谷地区参照〕</h3><p>任乃强校注35说明春多寺又译倾多寺，春倾寺是异译混写；并将其置于上波密北谷、北通硕板多的方向。这是理解边军北路及会师背景的地区参照，不把北谷中心等同现代波密县城。</p><p>校注29所述程、彭会师，与第7章罗长裿后来急召陈渠珍至春多寺、陈见密函后辞归卡拖，是两个时段。陈后来到过该地区，不代表他参加此前边军攻取、与程军同行或见过程凤翔。</p><p>波密县政府介绍确认现代倾多寺又称倾多强巴林寺，支持名称与现代地区联系，未提供清末寺院建筑或会师处测绘。现有点定位倾多旧聚落一带。KNAB的Qundo旧聚落条30°03′27″N、95°36′08″E与它相近；倾多镇治栋曲村则是另一个地点，不能用现代镇治坐标替换旧聚落或当作寺址。原地名表未明确坐标基准，仍保留地区参照精度。</p><p><b>镜头与定位：</b>镜头沿用项目既有倾多聚落地区点95.6022°E、30.0577°N；不是旧寺建筑、会师处、会见内室或军营的测绘坐标。未新增第二个物理点。</p><p><a href="https://www.xuges.com/xdwx/qycm/17.htm">第6章任乃强校注32：三寺、三营与另一路边军</a><br/><a href="https://www.99csw.com/book/554/17570.htm">第4章任乃强校注29：程军攻取与春多会师</a><br/><a href="https://read.99csw.com/book/554/17572.html">第6章任乃强校注35：上波密两谷与春多异译</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">第7章：陈渠珍后来赴春多寺见罗长裿</a><br/><a href="https://www.bomi.gov.cn/bmx/zjbm/201912/8c29f77a1f724e41b6751ced0aa39099.shtml">波密县政府：现代倾多寺又称倾多强巴林寺</a><br/><a href="https://www.bomi.gov.cn/bmx/zwgk/202306/718415cdaf11429f8c23cfbfe41bd8b5.shtml">波密县政府2023年河道规划公示：松宗镇松宗寺</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名库：Qundo与Sumzom现代地区对象</a></p>]]></description>
+        <LookAt>
+          <longitude>95.6022</longitude>
+          <latitude>30.0577</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="three_temples_songzong">
+        <name>松宗寺〔松宗镇地区参照；旧寺确址未定〕</name>
+        <description><![CDATA[<h3>松宗寺〔松宗镇地区参照；旧寺确址未定〕</h3><p>校注29、32均将松宗寺列入边军攻取的地点。波密县政府河道规划公示中也有松宗镇松宗寺这一现代地名，可支持名称与地区联系，不能据公示中的河桥或禁采断面认定清末寺院建筑和攻取现场。</p><p>KNAB的Sumzom松宗镇条以纳玉村为镇区参照，原表29°44′49″N、96°06′16″E，与项目既有代表点约相差0.8km。这里只作现代地区旁证，保留原地区点，不把它写成KNAB给出的精确寺院坐标。</p><p>本句属于边军行动，没有据此认定陈渠珍亲自到松宗或参加此次攻取。与春多、薄宗的具体先后和到达、驻留日数均未确定，不按现代公路测程分摊。</p><p><b>镜头与定位：</b>镜头沿用项目既有松宗镇地区代表点96.10032°E、29.75355°N，仅作地区方位参照；不是松宗寺建筑、清末寺区边界或战场确址。未新增第二个物理点。</p><p><a href="https://www.xuges.com/xdwx/qycm/17.htm">第6章任乃强校注32：三寺、三营与另一路边军</a><br/><a href="https://www.99csw.com/book/554/17570.htm">第4章任乃强校注29：程军攻取与春多会师</a><br/><a href="https://read.99csw.com/book/554/17572.html">第6章任乃强校注35：上波密两谷与春多异译</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">第7章：陈渠珍后来赴春多寺见罗长裿</a><br/><a href="https://www.bomi.gov.cn/bmx/zjbm/201912/8c29f77a1f724e41b6751ced0aa39099.shtml">波密县政府：现代倾多寺又称倾多强巴林寺</a><br/><a href="https://www.bomi.gov.cn/bmx/zwgk/202306/718415cdaf11429f8c23cfbfe41bd8b5.shtml">波密县政府2023年河道规划公示：松宗镇松宗寺</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名库：Qundo与Sumzom现代地区对象</a></p>]]></description>
+        <LookAt>
+          <longitude>96.10032</longitude>
+          <latitude>29.75355</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="three_temples_bozong">
+        <name>薄宗寺〔上波密东谷方向；旧址待考〕</name>
+        <description><![CDATA[<h3>薄宗寺〔上波密东谷方向；旧址待考〕</h3><p>任乃强校注35把薄宗寺说明为上波密东谷的中心，东谷通桑昂；与北谷春多寺分读。这能约束历史地区关系，仍不足以确定现代寺名或遗址。</p><p>本轮未取得足以闭合薄宗寺古今对应的可靠证据，保留旧址待考。不把薄宗自动认作现代波曲宗、波密县城、某座同音寺院或东谷任一聚落，也不由三寺的文字排列反推坐标。</p><p>校注29将其列入程凤翔自桑昂方向进入后的战果，与松宗等寺并列。此句未给分寺攻取日数或陈渠珍亲到的证据；不绘进攻线，不为薄宗补造地图点。</p><p><b>镜头与定位：</b>本卡只打开与总述相同的上波密概览镜头。镜头中心不是薄宗寺坐标、候选位置、寺址范围或历史边界；本卡没有地点几何。</p><p><a href="https://www.xuges.com/xdwx/qycm/17.htm">第6章任乃强校注32：三寺、三营与另一路边军</a><br/><a href="https://www.99csw.com/book/554/17570.htm">第4章任乃强校注29：程军攻取与春多会师</a><br/><a href="https://read.99csw.com/book/554/17572.html">第6章任乃强校注35：上波密两谷与春多异译</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">第7章：陈渠珍后来赴春多寺见罗长裿</a><br/><a href="https://www.bomi.gov.cn/bmx/zjbm/201912/8c29f77a1f724e41b6751ced0aa39099.shtml">波密县政府：现代倾多寺又称倾多强巴林寺</a><br/><a href="https://www.bomi.gov.cn/bmx/zwgk/202306/718415cdaf11429f8c23cfbfe41bd8b5.shtml">波密县政府2023年河道规划公示：松宗镇松宗寺</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB林芝地名库：Qundo与Sumzom现代地区对象</a></p>]]></description>
+        <LookAt>
+          <longitude>95.9</longitude>
+          <latitude>29.9</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>300000</range>
           <altitudeMode>clampToGround</altitudeMode>
         </LookAt>
       </Placemark>
