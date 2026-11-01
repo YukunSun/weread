@@ -303,6 +303,54 @@
     "timing": "此段未记赵尔丰在更庆的独立驻留日数；邀请未成行，不虚构甘孜至更庆的行程耗时。"
   },
   {
+    "id": "darjeeling",
+    "name": "大吉岭〔Darjeeling；达赖、夏扎赴印背景〕",
+    "old_names": "大吉岭／Darjeeling／Darjiling",
+    "modern": "印度西孟加拉邦大吉岭市区（1910年属英属印度）",
+    "lon": 88.2632,
+    "lat": 27.0378,
+    "view_range": 100000,
+    "chapter": "第4章：达赖、厦札赴印的叙事背景",
+    "group": "人物事件地点｜不接陈渠珍行军线",
+    "certainty": "现代城市代表点，人物背景参照；具体住所及路径未定位",
+    "reference": "lhasa",
+    "coordinate_source": "https://www.openstreetmap.org/node/3411073296",
+    "identity_source": "https://treasuryoflives.org/bo/biographies/view/Shatra-Peljor-Dorje/9301",
+    "note": "第4章所称达赖为十三世达赖Tubten／Thubten Gyatso；厦札即夏扎Shatra，个人名Paljor／Peljor Dorje，为藏方大臣，不以君主身份标注。书中叙述两人赴大吉岭及英方关系，是陈渠珍当时叙事的一部分，其中“昵就英人、可忧方大”是作者的评价与忧虑，不作为无归属的史实判断。牛津Pitt Rivers所收人物资料记1910年夏扎陪达赖赴印度，达赖传记涉及大吉岭；Treasury of Lives的夏扎研究传记亦支持一行人在该城的活动。相关资料不能证明两人同一日抵达或某一具体房屋。本点取OSM的现代大吉岭city节点，既不是同名district边界或地区中心，也不是近代人物住处。1910—1912年间他们还在其他地方活动，不把全部时段写成连续驻此。大吉岭仅作他人人物活动背景，不表示陈渠珍到过此城，不接入其个人路线。",
+    "timing": "人物背景时段：1910年2—3月赴英属印度，3月初达赖抵大吉岭；夏扎随行赴印及该城活动见传记。到达确日的记录时序有差异，不据此裁定两人同日到达。1910—1912年间还涉及噶伦堡、加尔各答等地，不能全部当作大吉岭连续驻留。本段不赋陈渠珍的行军或驻留耗时；与拉萨的显示距离仅为现代两城市代表点直距，不是出走路线或实走里程。",
+    "literary_quote": "相率逃至大吉岭。",
+    "additional_sources": [
+      {
+        "title": "《艽野尘梦》第4章：大吉岭及作者的局势评价",
+        "url": "https://www.99csw.com/book/554/17569.htm"
+      },
+      {
+        "title": "Oxford Pitt Rivers：十三世达赖人物资料（官网条目检索缓存可读）",
+        "url": "https://tibet.prm.ox.ac.uk/biography_336.html"
+      },
+      {
+        "title": "Oxford Pitt Rivers：Shatra／Paljor Dorje人物资料（官网条目检索缓存可读）",
+        "url": "https://tibet.prm.ox.ac.uk/biography_541.html"
+      },
+      {
+        "title": "英国议会Hansard：1910年3月2日问答及引述电报",
+        "url": "https://api.parliament.uk/historic-hansard/commons/1910/mar/02/flight-of-dalai-lama-from-tibet"
+      },
+      {
+        "title": "GeoNames1273467：大吉岭城市地名记录",
+        "url": "https://sws.geonames.org/1273467/about.rdf"
+      },
+      {
+        "title": "大吉岭地区政府：地区总部与Darjeeling Town分列",
+        "url": "https://darjeeling.gov.in/demography/"
+      },
+      {
+        "title": "大吉岭地区政府：大吉岭为印度西孟加拉邦的municipality town",
+        "url": "https://darjeeling.gov.in/how-to-reach/"
+      }
+    ]
+  },
+  {
     "id": "bianba",
     "name": "边坝〔今边坝镇夏林村；旧宗驻地区域〕",
     "old_names": "边坝",

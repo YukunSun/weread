@@ -414,6 +414,36 @@ def write_bomi_index():
     return note
 
 
+def make_darjeeling_supplement(bundled=False):
+    p=next(p for p in MINOR_PLACES if p['id']=='darjeeling')
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='darjeeling_supplement')
+    el(doc,'name','《艽野尘梦》大吉岭｜达赖、夏扎赴印背景');el(doc,'open',1)
+    el(doc,'description','印度西孟加拉邦大吉岭城市代表点，说明十三世达赖与夏扎1910年赴英属印度的背景；不是陈渠珍亲到地点，不接入其路线，不标人物住所或同名district边界。具体到达日的记录时序有差异，1910—1912并非在此连续驻留。完整阅读图、小地名补充图和本文件选择一份显示，避免重复。')
+    view(doc,p['lon'],p['lat'],p['view_range']);minor_styles(doc,bundled);minor_folder(doc,[p])
+    return serialize(root)
+
+
+def write_darjeeling_index():
+    p=next(p for p in MINOR_PLACES if p['id']=='darjeeling')
+    check=json.loads((ROOT/'data/place_checks/大吉岭核对.json').read_text(encoding='utf-8'))
+    note=('大吉岭｜达赖、夏扎赴印背景\n核对日期：'+check['checked_at']+'\n\n'
+          +p['note']+'\n\n时间口径：'+p['timing']+'\n\n'
+          +f'现代城市代表点：{p["lon"]}°E，{p["lat"]}°N。\n'+check['coordinate_note']+'\n\n'
+          +'08层人物事件背景组中的金色空心点可点击查看。完整阅读地图、小地名补充图、独立“艽野尘梦_大吉岭背景.kmz”选择一份显示；未添加任何出走路线或人物住所。与拉萨仅作现代两城市代表点直距对照，不是出走或陈渠珍行军的距离。\n\n城市与同名地区\n')
+    for value in check['city_district_distinction'].values(): note+=value+'\n'
+    note+='\n人物身份\n'
+    for person in check['people']: note+=person['book_name']+'：'+person['identity']+'\n'+person['scope']+'\n'
+    note+='\n日期记录与限度\n'
+    for item in check['timing_records']: note+=item['source']+'\n'+item['record']+'\n'+item['limit']+'\n\n'
+    note+='资料出处\n'+check['source_provenance']+'\n\n来源及限度\n'
+    for source in check['sources']:
+        note+='\n'+source['title']+'\n'+source['supports']+'\n'+source['url']+'\n'
+        if source.get('access_note'): note+='读取说明：'+source['access_note']+'\n'
+    note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
+    (ROOT/'大吉岭核对说明.txt').write_text(note,encoding='utf-8')
+    return note
+
+
 def make_road_supplement():
     root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='modern_road_supplement')
     el(doc,'name','《艽野尘梦》现代道路对照｜G317等国道省道');el(doc,'open',1)
@@ -728,6 +758,13 @@ def main():
     with zipfile.ZipFile(ROOT/(bomi+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_bomi_supplement(True))
         z.writestr('icons/context.png',png(PHASES['context'][1]))
+    darjeeling='艽野尘梦_大吉岭背景'
+    (ROOT/(darjeeling+'.kml')).write_bytes(make_darjeeling_supplement())
+    with zipfile.ZipFile(ROOT/(darjeeling+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_darjeeling_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    darjeeling_note=write_darjeeling_index()
     jiangda='艽野尘梦_江达定位'
     (ROOT/(jiangda+'.kml')).write_bytes(make_jiangda_supplement())
     with zipfile.ZipFile(ROOT/(jiangda+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -795,7 +832,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 
 二、内容和图例
 主要地图点：MAJOR_COUNT个，含书中地点、校注补充地区及2个默认隐藏的现代县城对照点。
-另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、贡觉（米瑞广久地区候选）、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、边坝（旧宗驻地与战事背景）、乌斯江（藏军防线背景）、窝冗噶伽（卧龙—嘎加地区参照）、百马岗／白马岗（墨脱地区背景参照）。
+另加9处小地名：俄洛桥、恩达、牙披／阿丕、德摩、贡觉（米瑞广久地区候选）、冬九、松宗寺、飞越岭、大相岭古道、上八美、更庆（赵尔丰驻地背景）、大吉岭（达赖、夏扎赴印背景）、边坝（旧宗驻地与战事背景）、乌斯江（藏军防线背景）、窝冗噶伽（卧龙—嘎加地区参照）、百马岗／白马岗（墨脱地区背景参照）。
 08小地名层可在左侧列表点击，放大后更易读；金色空心点是村域或地区参照，不是确认古址。
 支持Region的客户端会按缩放显示小地名；网页版忽略Region，可手动开关08图层控制全景标注数量。
 俄洛桥用现代俄洛村参照，未认定清末桥位；西藏桥与俄洛桥的正文、校注和书图差异在弹窗及14层说明。
@@ -922,6 +959,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n二十四、贡觉｜米瑞广久一带候选；旧宅未定\n'+gongjue_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n二十五、波密｜历史地区；今扎木镇方位参照\n'+bomi_note)
+        f.write('\n二十六、大吉岭｜达赖、夏扎赴印背景\n'+darjeeling_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

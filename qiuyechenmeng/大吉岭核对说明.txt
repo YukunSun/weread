@@ -1,0 +1,91 @@
+大吉岭｜达赖、夏扎赴印背景
+核对日期：2026-11-01
+
+第4章所称达赖为十三世达赖Tubten／Thubten Gyatso；厦札即夏扎Shatra，个人名Paljor／Peljor Dorje，为藏方大臣，不以君主身份标注。书中叙述两人赴大吉岭及英方关系，是陈渠珍当时叙事的一部分，其中“昵就英人、可忧方大”是作者的评价与忧虑，不作为无归属的史实判断。牛津Pitt Rivers所收人物资料记1910年夏扎陪达赖赴印度，达赖传记涉及大吉岭；Treasury of Lives的夏扎研究传记亦支持一行人在该城的活动。相关资料不能证明两人同一日抵达或某一具体房屋。本点取OSM的现代大吉岭city节点，既不是同名district边界或地区中心，也不是近代人物住处。1910—1912年间他们还在其他地方活动，不把全部时段写成连续驻此。大吉岭仅作他人人物活动背景，不表示陈渠珍到过此城，不接入其个人路线。
+
+时间口径：人物背景时段：1910年2—3月赴英属印度，3月初达赖抵大吉岭；夏扎随行赴印及该城活动见传记。到达确日的记录时序有差异，不据此裁定两人同日到达。1910—1912年间还涉及噶伦堡、加尔各答等地，不能全部当作大吉岭连续驻留。本段不赋陈渠珍的行军或驻留耗时；与拉萨的显示距离仅为现代两城市代表点直距，不是出走路线或实走里程。
+
+现代城市代表点：88.2632°E，27.0378°N。
+原OSM节点3411073296明确place=city、中文名大吉岭、Wikidata Q169997；WGS84原坐标88.263176°E、27.0377554°N，地图舍入为88.2632°E、27.0378°N。此为现代城市代表点，不是人物住所、Darjeeling district中心或边界。节点version 14，timestamp 2025-12-23T11:21:27Z；原API响应保存在data/place_checks/darjeeling_osm_node.json。
+
+08层人物事件背景组中的金色空心点可点击查看。完整阅读地图、小地名补充图、独立“艽野尘梦_大吉岭背景.kmz”选择一份显示；未添加任何出走路线或人物住所。与拉萨仅作现代两城市代表点直距对照，不是出走或陈渠珍行军的距离。
+
+城市与同名地区
+OSM3411073296，place=city，现代大吉岭城市代表点。
+GeoNames1273467 Darjeeling，P.PPL聚落类，88.26667°E、27.03333°N；两数据库城市代表点可不同，不以其差异定位人物房屋。
+GeoNames1273468 Darjeeling，A.ADM2二级行政区类，88.25827°E、26.85034°N。此为同名district地名记录，不用作城市点，也不绘district边界。
+大吉岭地区政府网站将district总部Darjeeling与Darjeeling Town的数据分别列示，支持区分城市与同名地区。
+
+人物身份
+达赖：十三世达赖Tubten／Thubten Gyatso
+1910年赴英属印度、活动涉及大吉岭；不以现代城市点代替具体住所。
+厦札：夏扎Shatra，Paljor／Peljor Dorje，藏方大臣
+1910年随达赖赴印度，与同行者在大吉岭的活动有传记支持；不据资料合读推断同日抵达，不称为君主。
+
+日期记录与限度
+Oxford biography336
+传记把入印度边境记为1910年2月21日、抵大吉岭记为3月3日。
+官网条目人物资料的日期说，保留来源，不当作两人共同到达日期。
+
+Hansard 1910-03-02问答
+问答引述前夜收到的总督电报，电报以to-day表述抵达Darjiling。
+问答日期、电报收发时点和相对时间词分开；不直接将1910年3月2日定为实际到达日，也不与Oxford日期强行合并。
+
+综合展示
+本图采用1910年2—3月赴印、3月初大吉岭这一粗时段。
+不硬定到达日；1910—1912年另有噶伦堡、加尔各答等地活动，不写作全程连续驻大吉岭；不算陈渠珍耗时。
+
+资料出处
+Oxford人物条目来自Who Was Who in Tibet／当时Who’s Who in Tibet相关资料的整理。它们不是因网站收藏Bell照片便可归为Bell亲撰；本图将传记及其资料传统与陈渠珍正文、英国议会问答、现代地名库分别标明。
+
+来源及限度
+
+《艽野尘梦》第4章：大吉岭叙事与评价
+用户所引达赖、厦札赴大吉岭的段落。有关英方关系和形势忧虑是陈渠珍的叙事立场；本点不是作者亲到的地点。
+https://www.99csw.com/book/554/17569.htm
+
+Treasury of Lives：Ryosuke Kobayashi，Shatra Peljor Dorje
+研究传记记1910年夏扎随达赖赴印度，并将大吉岭列为一行人的活动地；支持身份与地区背景，不确定两人抵达同一天，也不定位具体房屋。
+https://treasuryoflives.org/bo/biographies/view/Shatra-Peljor-Dorje/9301
+
+Oxford Pitt Rivers：13th Dalai Lama人物资料
+所收人物资料记1910年2月赴印、3月初抵大吉岭，并提噶伦堡和其他印度地点；不将1910—1912全部写为大吉岭连续驻留。
+https://tibet.prm.ox.ac.uk/biography_336.html
+读取说明：官网条目检索缓存可读，直连间歇不可用；本次直连返回404，未称已直接取得官网全文。
+
+Oxford Pitt Rivers：Shatra／Paljor Dorje人物资料
+所收人物资料记1910年夏扎陪达赖赴印度，另记加尔各答及巡礼活动；支持随行赴印，不单独证明与达赖同日到达大吉岭。
+https://tibet.prm.ox.ac.uk/biography_541.html
+读取说明：官网条目检索缓存可读，直连间歇不可用；本次直连返回404，未称已直接取得官网全文。
+
+Oxford Pitt Rivers：Who Was Who in Tibet项目说明
+项目说明介绍对多个版本当时人物资料的整理，不能把网站传记一概说成Bell亲撰。
+https://tibet.prm.ox.ac.uk/tibet_whos_who.html
+读取说明：官网检索缓存可读。
+
+英国议会Hansard：Flight of Dalai Lama from Tibet，1910年3月2日
+问答记录引前夜收到的总督电报；其中相对时间词不直接等于问答日期，不据此硬定抵达日。
+https://api.parliament.uk/historic-hansard/commons/1910/mar/02/flight-of-dalai-lama-from-tibet
+
+OpenStreetMap：大吉岭城市节点3411073296
+原API确认city节点、中文名大吉岭及WGS84坐标，只作城市代表点；不是同名district，也不是任何人物住所。
+https://www.openstreetmap.org/node/3411073296
+
+GeoNames1273467：Darjeeling城市地名记录
+P.PPL聚落类地名记录可作城市层级对照；其代表点与OSM不同，不据此确定历史房屋。
+https://sws.geonames.org/1273467/about.rdf
+
+GeoNames1273468：Darjeeling district记录（排除）
+A.ADM2行政区类记录，与城市1273467及OSM city节点区分，不把地区中心当城市背景点。
+https://sws.geonames.org/1273468/about.rdf
+
+大吉岭地区政府：Demography
+官方页面分别使用district、district headquarters和Darjeeling Town称谓，用于城市与同名地区的层级区分。
+https://darjeeling.gov.in/demography/
+
+大吉岭地区政府：How to Reach
+官方开篇明确Darjeeling为印度西孟加拉邦的municipality town，用于确认现代国家、邦和城市层级；不引用旅游推荐或交通里程。
+https://darjeeling.gov.in/how-to-reach/
+
+Google Earth核验
+2026-11-01已将独立大吉岭背景KMZ导入原Google Earth网页版阅读地图，展开人物事件背景分组并定位至88.2632°E、27.0378°N。地图实际显示大吉岭金色空心城市代表点，弹窗保留十三世达赖、厦札／夏扎身份，1910年赴印背景、作者评价归属及到达日期限制；未画陈渠珍路线或具体人物住处。页面显示已保存到Google云端硬盘。
