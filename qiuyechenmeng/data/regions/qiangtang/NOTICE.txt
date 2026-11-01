@@ -1,0 +1,25 @@
+羌塘保护区公开地图轮廓：数据归属与用途
+
+数据来源：OpenStreetMap relation 8590456，version 10。
+原关系编辑时间：2026-10-02T06:53:19Z；本次获取日期：2026-11-01。
+原始 API 响应按原字节保留，含公开的 OSM 编辑署名元数据。
+
+© OpenStreetMap contributors
+OpenStreetMap 数据以 Open Data Commons Open Database License (ODbL) 1.0 提供。
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+
+derived_osm_8590456.geojson 是该公开数据的派生数据库。
+连接29条外环成员线，保留全部边界坐标，仅去掉线连接处的重复出现并反转外环方向。
+未简化、平滑、缩放、扩张，也未按官方公布面积补足形状。
+
+这份轮廓是社区绘制的现代保护区范围参照，不是已核定的当前官方勘界线，
+不是“羌塘无人区”的统一边界，不表示绝无人类活动，也不是书中历史酱通范围。
+原关系编辑时间不能替代官方边界调整、勘界或发布版本的时间。
+未划出核心区、缓冲区、实验区，不作进入许可或路线判断。
+
+重建：python rebuild_geometry.py
+最终重建需要 shapely 和 pyproj，用于复核拓扑与WGS84椭球面积。
+缺少这些包时默认退出且不覆盖已核验文件；只有显式添加 --allow-spherical 才允许输出球面初算。
+本次manifest记录的最终面积由 pyproj 3.8.0 的 WGS84 Geod 计算；Shapely 2.2.0 验证为有效多边形。
+数值精度不表示边界测绘精度。官方公布面积29.8万平方公里与图形计算面积分列，不作等同。

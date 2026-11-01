@@ -26,6 +26,7 @@ from mountain_defence import add_mountain_defence, write_mountain_index
 from zengba_context import add_zengba_context, write_zengba_outputs
 from ningduo_muster import add_ningduo_muster, write_ningduo_outputs
 from build_three_mountains import add_horse_retrospective, main as write_three_mountains_outputs
+from current_qiangtang import add_current_qiangtang, write_current_qiangtang_outputs
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -616,6 +617,7 @@ def make_map(bundled=False):
     add_zengba_context(doc,el,view)
     add_ningduo_muster(doc,el)
     add_horse_retrospective(doc,el)
+    add_current_qiangtang(doc,el,view,kcolor,bundled)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -772,6 +774,7 @@ def main():
     zengba_note=write_zengba_outputs()
     ningduo_note=write_ningduo_outputs()
     horse_note=write_three_mountains_outputs()
+    current_qiangtang_note=write_current_qiangtang_outputs()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1060,6 +1063,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n甑巴留宿｜百巴增巴候选；范玉昆居留处未定\n'+zengba_note)
         f.write('\n北返首宿凝多｜17层；官兵111、全队115，地点待考\n'+ningduo_note)
         f.write('\n枣骝马与三山｜第8章追叙；山址待考\n'+horse_note)
+        f.write('\n现代羌塘无人区｜保护区公开轮廓参照\n'+current_qiangtang_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 
 if __name__=='__main__':

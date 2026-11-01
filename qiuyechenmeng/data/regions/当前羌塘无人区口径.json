@@ -1,0 +1,81 @@
+{
+  "checked_at": "2026-11-01",
+  "title": "现代羌塘无人区｜保护区公开轮廓参照",
+  "area_name": "羌塘国家级自然保护区〔OSM轮廓参照，非官方勘界〕",
+  "label": {
+    "name": "羌塘保护区轮廓参照 · © OpenStreetMap",
+    "lon": 85.1472558801999,
+    "lat": 34.2796153,
+    "role": "坐标仅用于范围文字摆放，不是无人区中心、宿营点或地名定位点。"
+  },
+  "view": {"lon": 85.2, "lat": 34.2, "range": 1700000},
+  "color": "#33b8cc",
+  "fill_alpha": "38",
+  "line_width": 2.4,
+  "scope": "“羌塘无人区”没有本轮查得的统一精确外缘，羌塘国家级自然保护区也并非处处无人。本图用保护区的OpenStreetMap社区公开轮廓帮助辨认现代方位，不能把两者等同为一条法定边界。",
+  "official_area_km2": 298000,
+  "drawing_area_km2": 273475.02315151255,
+  "drawing_area_method": "按实际绘图GeoJSON外环计算WGS84椭球面积273475.02315151255平方公里；核验方法与完整精度保留在data/regions/qiangtang/manifest.json，图示采用约数。",
+  "area_note": "官方报告保护区面积为29.8万平方公里；本图轮廓的计算面积另列。两者存在差异，不按官方面积缩放或补画边界。",
+  "boundary_note": "边界来自OpenStreetMap关系8590456，关系版本v10编辑时间2026-10-02T06:53:19Z，本次完整数据成员最晚编辑时间2026-10-14T05:59:57Z，获取日期2026-11-01。这些仅是OSM编辑与获取日期；社区数据不是官方勘界成果，尚未核实与2018年批准调整后的官方边界完全吻合，不据此细分核心区、缓冲区或实验区。",
+  "park_note": "2026年阿里官方资料仍使用羌塘国家公园候选区、创建和推动正式设立等表述，本轮未查到正式设立批复。本图不把保护区轮廓改称国家公园法定边界。",
+  "book_note": "书中“酱通”是当时对羌塘荒原的称呼，叙事范围与现代保护区、国家公园候选区口径不同，不能画等号。本层也不复原陈渠珍在荒原中的具体行迹。原10E广义羌塘示意仍单独保留，阅读时可分别开关。",
+  "coordinate_note": "OpenStreetMap源节点以WGS84经纬度提供；仅调整闭合环的绘制方向，不以矩形、整县边界或旅游穿越轨迹替代轮廓。文字标签点只用于区域名称摆放。",
+  "geometry_file": "data/regions/qiangtang/derived_osm_8590456.geojson",
+  "data_attribution": "© OpenStreetMap contributors",
+  "data_license": "本层OSM派生轮廓遵循Open Database License 1.0（ODbL），数据归属与许可仅针对该来源数据；不改变仓库代码或其他独立资料的许可。",
+  "sources": [
+    {
+      "title": "OSM关系8590456原始完整API",
+      "url": "https://www.openstreetmap.org/api/0.6/relation/8590456/full.json",
+      "supports": "本图社区几何的数据来源；具体获取结果与版本见同目录原始数据和manifest，不代表官方勘界。"
+    },
+    {
+      "title": "OSM关系8590456版本10记录",
+      "url": "https://www.openstreetmap.org/api/0.6/relation/8590456/10",
+      "supports": "关系版本、编辑日期与成员记录；节点坐标和完整组环来源另随原始数据保留。"
+    },
+    {
+      "title": "OpenStreetMap版权与署名",
+      "url": "https://www.openstreetmap.org/copyright",
+      "supports": "地图数据版权、© OpenStreetMap contributors署名及ODbL许可说明。"
+    },
+    {
+      "title": "Open Database License 1.0",
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "supports": "本层OSM派生轮廓的数据库许可。"
+    },
+    {
+      "title": "阿里地区生态环境局：羌塘保护区分区管控，2026-07-31",
+      "url": "https://xsbgs.al.gov.cn/info/1008/51091.htm",
+      "supports": "羌塘国家级自然保护区官方报告总面积29.8万平方公里与现代生态管护口径。"
+    },
+    {
+      "title": "国家林草局自然保护区研究中心：羌塘保护区简介",
+      "url": "https://www.fnrrc.com/ziranbaohuqujianjie/9861.html",
+      "supports": "保护区涉及6县24乡镇69村及经纬跨度，不能理解为各县全境或处处无人。经纬跨度不是矩形保护区边界。"
+    },
+    {
+      "title": "阿里地区林草局：2026-08-04公告",
+      "url": "https://lycy.al.gov.cn/info/2363/42882.htm",
+      "supports": "2026年8月仍称羌塘国家公园候选区建设，本图保留候选区状态。"
+    },
+    {
+      "title": "阿里地区生态环境保护工作会议，2026-03-18",
+      "url": "https://www.al.gov.cn/info/1490/185094.htm",
+      "supports": "羌塘国家公园创建材料上报、推动正式设立的阶段性表述。"
+    },
+    {
+      "title": "国务院办公厅2018年调整羌塘等保护区范围的通知",
+      "url": "https://www.nhc.gov.cn/bgt/gwywj2/201807/b8cad2dc76cc4e1ca0385fe14cbbfdb3.shtml",
+      "supports": "2018-07-07批准羌塘保护区范围调整；社区轮廓与调整后勘界成果尚未逐界核对。"
+    }
+  ],
+  "google_earth_import": {
+    "status": "verified",
+    "checked_at": "2026-11-01",
+    "project_id": "13kFLqFR-hXU21HBQK4FDOmsitZMJmw0n",
+    "screenshot": "data/regions/qiangtang/current_qiangtang_google_earth.png",
+    "note": "已将独立KMZ导入既有阅读地图，界面显示处理成功及已保存到Google云端硬盘。现场核验蓝青色完整轮廓、范围名称与OpenStreetMap署名可见，说明面板分列官方29.8万与绘图27.35万平方公里及约8.2%差异，并保留非官方勘界提示。原10E示意及历史路线未修改。"
+  }
+}
