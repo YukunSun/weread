@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="republic_garrisons">
+    <name>《艽野尘梦》校注39｜民初边军驻防与彭日升援军</name>
+    <open>1</open>
+    <description>&lt;p&gt;&lt;b&gt;范围：&lt;/b&gt;任乃强校注39追述的民初边军背景。巴塘、江卡、昌都为三处并列驻防地区，类乌齐为彭日升进援方向；不属于陈渠珍1909—1912年的个人行军线。四点均为现代聚落地区代表点，旧营房、官署及战场确址未定。葱坡埂只设待考说明卡。&lt;/p&gt;&lt;p&gt;&lt;b&gt;时间口径：&lt;/b&gt;民国三年为1914年，校注以此记张毅到职及旧边军三部分防。随后‘彭曾率军’未另列援类乌齐、葱坡埂战事的独立年月，不能把这场战事自动标成1914年某日，也不以‘其年夏’反推精确日期。1917—1918年后续战争为另一阶段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;下列km只比较现代代表点的球面直距，不是历史实走里程、行军路线或驻防边界长度。驻军分驻不表示依次旅行。昌都—类乌齐虚线只示进援的地区方向，不通过或定位葱坡埂；历史用时及战事全程公里数未载。&lt;/p&gt;&lt;p&gt;&lt;b&gt;现代代表点球面直距&lt;/b&gt;&lt;/p&gt;&lt;table border="1" cellpadding="4"&gt;&lt;tr&gt;&lt;td&gt;巴塘—江卡驻地空间对照&lt;/td&gt;&lt;td&gt;60.7 km&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;江卡—昌都驻地空间对照&lt;/td&gt;&lt;td&gt;211.6 km&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;昌都—类乌齐进援方向空间对照&lt;/td&gt;&lt;td&gt;68.8 km&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;仅供空间对照；历史实走公里数与耗时未载。&lt;/p&gt;</description>
+    <LookAt>
+      <longitude>97.7</longitude>
+      <latitude>30.6</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>600000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="republic_garrison">
+      <IconStyle>
+        <color>ffffa452</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="republic_aid">
+      <IconStyle>
+        <color>fff17db8</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="republic_direction">
+      <LineStyle>
+        <color>c0f17db8</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Placemark id="republic_batang">
+      <name>巴塘驻防〔校注：刘端麟；论文：刘瑞麟〕</name>
+      <description>&lt;h3&gt;巴塘驻防〔校注：刘端麟；论文：刘瑞麟〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;含义：&lt;/b&gt;据校注39为三部驻地之一。人名原记刘端麟；黄天华、赵艾东的研究论文作刘瑞麟。不同记法并列，不把两种写法另画成两个驻军节点，也不据此虚构两人关系。巴塘、巴安是本处历史地名对照，具体军署未定位。&lt;/p&gt;&lt;p&gt;&lt;b&gt;点位性质：&lt;/b&gt;KNAB Batang城镇条（对应Xiaqiong／夏邛）代表点，原表30°00′23″N、99°06′20″E；原表未明确坐标基准。不是全县地理中心、旧军署或营址。&lt;/p&gt;&lt;p&gt;&lt;b&gt;现代代表点球面直距&lt;/b&gt;&lt;/p&gt;&lt;table border="1" cellpadding="4"&gt;&lt;tr&gt;&lt;td&gt;巴塘—江卡驻地空间对照&lt;/td&gt;&lt;td&gt;60.7 km&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;仅供空间对照；历史实走公里数与耗时未载。&lt;/p&gt;&lt;p&gt;&lt;b&gt;时间口径：&lt;/b&gt;民国三年为1914年，校注以此记张毅到职及旧边军三部分防。随后‘彭曾率军’未另列援类乌齐、葱坡埂战事的独立年月，不能把这场战事自动标成1914年某日，也不以‘其年夏’反推精确日期。1917—1918年后续战争为另一阶段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;下列km只比较现代代表点的球面直距，不是历史实走里程、行军路线或驻防边界长度。驻军分驻不表示依次旅行。昌都—类乌齐虚线只示进援的地区方向，不通过或定位葱坡埂；历史用时及战事全程公里数未载。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/20.htm"&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/30/Travels_of_a_consular_officer_in_eastern_Tibet_-_together_with_a_history_of_the_relations_between_China%2C_Tibet_and_India_%28IA_cu31924089999209%29.pdf"&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.batang.gov.cn/batang/c102994/201501/952b90fba68b490e84de53719cfdcc89.shtml"&gt;巴塘县政府：夏邛镇历史县城背景&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/cgi-bin/mkn8.cgi?f10v=Y&amp;amp;f14v=Y&amp;amp;f2v=Y&amp;amp;f3v=Y&amp;amp;form=mm&amp;amp;kohanimi=Ta&amp;amp;lang=et&amp;amp;of=tb"&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标&lt;/a&gt;&lt;br/&gt;&lt;a href="https://wkxb.sicnu.edu.cn/Publish/201205/%E9%BB%84%E5%A4%A9%E5%8D%8E.pdf"&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/0baae25daabd0d9f9b1694d09c61fb68"&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg"&gt;Survey of India 1919：Tibet and Adjacent Countries原图&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.scsqw.cn/upload/main/contentmanage/article/file/201701162212259604.pdf"&gt;四川官方地方志：江卡改宁静县的沿革&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事：本次阅读地图的驻军人物、地点及进援类乌齐与葱坡埂事件，来源为任乃强校注，非陈渠珍本人在场叙事。&lt;/li&gt;&lt;li&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche：江卡与Markam Gartok旧今名、现代聚落坐标、类乌齐旧寺镇与桑多分开。&lt;/li&gt;&lt;li&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)：江卡与宁静、Markam Gartok的历史地名桥接，不能据此指认军署。&lt;/li&gt;&lt;li&gt;巴塘县政府：夏邛镇历史县城背景：夏邛镇历史城镇与旧城区背景，不指认民初军署坐标。&lt;/li&gt;&lt;li&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标：Batang城镇条给30°00′23″N、99°06′20″E；区分无具体城镇坐标的县域条。&lt;/li&gt;&lt;li&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期：人名与官制异文及第170页所引‘三十九族之葱坡埂’。本轮读取搜索索引，PDF原页未成功获取，不宣称已亲见原电。&lt;/li&gt;&lt;li&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期：刘瑞麟、刘赞廷与彭日升的驻地和职称对照、1915年另次改编；本次不把编制沿革混成单一时点。&lt;/li&gt;&lt;li&gt;Survey of India 1919：Tibet and Adjacent Countries原图：目读Gartok、Batang、Chiamdo与Riwoche的相对方位，不作为旧营地测绘坐标。&lt;/li&gt;&lt;li&gt;四川官方地方志：江卡改宁静县的沿革：江卡和宁静为此处旧新地名对照，不作为两处驻地矛盾。&lt;/li&gt;&lt;/ul&gt;</description>
+      <LookAt>
+        <longitude>99.10555556</longitude>
+        <latitude>30.00638889</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>80000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#republic_garrison</styleUrl>
+      <ExtendedData>
+        <Data name="kind">
+          <value>garrison</value>
+        </Data>
+        <Data name="note">
+          <value>据校注39为三部驻地之一。人名原记刘端麟；黄天华、赵艾东的研究论文作刘瑞麟。不同记法并列，不把两种写法另画成两个驻军节点，也不据此虚构两人关系。巴塘、巴安是本处历史地名对照，具体军署未定位。</value>
+        </Data>
+        <Data name="coordinate_method">
+          <value>KNAB Batang城镇条（对应Xiaqiong／夏邛）代表点，原表30°00′23″N、99°06′20″E；原表未明确坐标基准。不是全县地理中心、旧军署或营址。</value>
+        </Data>
+        <Data name="chronology_note">
+          <value>民国三年为1914年，校注以此记张毅到职及旧边军三部分防。随后‘彭曾率军’未另列援类乌齐、葱坡埂战事的独立年月，不能把这场战事自动标成1914年某日，也不以‘其年夏’反推精确日期。1917—1918年后续战争为另一阶段。</value>
+        </Data>
+        <Data name="distance_note">
+          <value>下列km只比较现代代表点的球面直距，不是历史实走里程、行军路线或驻防边界长度。驻军分驻不表示依次旅行。昌都—类乌齐虚线只示进援的地区方向，不通过或定位葱坡埂；历史用时及战事全程公里数未载。</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>99.10555556,30.00638889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="republic_jiangka">
+      <name>江卡驻防〔刘赞廷；今芒康嘎托地区〕</name>
+      <description>&lt;h3&gt;江卡驻防〔刘赞廷；今芒康嘎托地区〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;含义：&lt;/b&gt;江卡对应宁静县旧称及Markam Gartok地区，即今芒康嘎托镇方向。不是昌都市江达县，也不是工布江达太昭。Teichman1922原书记Ning-ching Hsien, or Chiang-ka (Markam Gartok)，KNAB亦归入Gartog。按校注标刘赞廷驻防；论文另记分统驻宁静，属于本处旧名对照，营房未定位。&lt;/p&gt;&lt;p&gt;&lt;b&gt;点位性质：&lt;/b&gt;KNAB Gartog／嘎托镇代表点，原表29°41′11″N、98°35′43″E；原表未明确坐标基准。仅作江卡地区参照，不指认旧宗署或刘赞廷军营。&lt;/p&gt;&lt;p&gt;&lt;b&gt;现代代表点球面直距&lt;/b&gt;&lt;/p&gt;&lt;table border="1" cellpadding="4"&gt;&lt;tr&gt;&lt;td&gt;巴塘—江卡驻地空间对照&lt;/td&gt;&lt;td&gt;60.7 km&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;江卡—昌都驻地空间对照&lt;/td&gt;&lt;td&gt;211.6 km&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;仅供空间对照；历史实走公里数与耗时未载。&lt;/p&gt;&lt;p&gt;&lt;b&gt;时间口径：&lt;/b&gt;民国三年为1914年，校注以此记张毅到职及旧边军三部分防。随后‘彭曾率军’未另列援类乌齐、葱坡埂战事的独立年月，不能把这场战事自动标成1914年某日，也不以‘其年夏’反推精确日期。1917—1918年后续战争为另一阶段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;下列km只比较现代代表点的球面直距，不是历史实走里程、行军路线或驻防边界长度。驻军分驻不表示依次旅行。昌都—类乌齐虚线只示进援的地区方向，不通过或定位葱坡埂；历史用时及战事全程公里数未载。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/20.htm"&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/30/Travels_of_a_consular_officer_in_eastern_Tibet_-_together_with_a_history_of_the_relations_between_China%2C_Tibet_and_India_%28IA_cu31924089999209%29.pdf"&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.batang.gov.cn/batang/c102994/201501/952b90fba68b490e84de53719cfdcc89.shtml"&gt;巴塘县政府：夏邛镇历史县城背景&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/cgi-bin/mkn8.cgi?f10v=Y&amp;amp;f14v=Y&amp;amp;f2v=Y&amp;amp;f3v=Y&amp;amp;form=mm&amp;amp;kohanimi=Ta&amp;amp;lang=et&amp;amp;of=tb"&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标&lt;/a&gt;&lt;br/&gt;&lt;a href="https://wkxb.sicnu.edu.cn/Publish/201205/%E9%BB%84%E5%A4%A9%E5%8D%8E.pdf"&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/0baae25daabd0d9f9b1694d09c61fb68"&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg"&gt;Survey of India 1919：Tibet and Adjacent Countries原图&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.scsqw.cn/upload/main/contentmanage/article/file/201701162212259604.pdf"&gt;四川官方地方志：江卡改宁静县的沿革&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事：本次阅读地图的驻军人物、地点及进援类乌齐与葱坡埂事件，来源为任乃强校注，非陈渠珍本人在场叙事。&lt;/li&gt;&lt;li&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche：江卡与Markam Gartok旧今名、现代聚落坐标、类乌齐旧寺镇与桑多分开。&lt;/li&gt;&lt;li&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)：江卡与宁静、Markam Gartok的历史地名桥接，不能据此指认军署。&lt;/li&gt;&lt;li&gt;巴塘县政府：夏邛镇历史县城背景：夏邛镇历史城镇与旧城区背景，不指认民初军署坐标。&lt;/li&gt;&lt;li&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标：Batang城镇条给30°00′23″N、99°06′20″E；区分无具体城镇坐标的县域条。&lt;/li&gt;&lt;li&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期：人名与官制异文及第170页所引‘三十九族之葱坡埂’。本轮读取搜索索引，PDF原页未成功获取，不宣称已亲见原电。&lt;/li&gt;&lt;li&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期：刘瑞麟、刘赞廷与彭日升的驻地和职称对照、1915年另次改编；本次不把编制沿革混成单一时点。&lt;/li&gt;&lt;li&gt;Survey of India 1919：Tibet and Adjacent Countries原图：目读Gartok、Batang、Chiamdo与Riwoche的相对方位，不作为旧营地测绘坐标。&lt;/li&gt;&lt;li&gt;四川官方地方志：江卡改宁静县的沿革：江卡和宁静为此处旧新地名对照，不作为两处驻地矛盾。&lt;/li&gt;&lt;/ul&gt;</description>
+      <LookAt>
+        <longitude>98.59527778</longitude>
+        <latitude>29.68638889</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>80000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#republic_garrison</styleUrl>
+      <ExtendedData>
+        <Data name="kind">
+          <value>garrison</value>
+        </Data>
+        <Data name="note">
+          <value>江卡对应宁静县旧称及Markam Gartok地区，即今芒康嘎托镇方向。不是昌都市江达县，也不是工布江达太昭。Teichman1922原书记Ning-ching Hsien, or Chiang-ka (Markam Gartok)，KNAB亦归入Gartog。按校注标刘赞廷驻防；论文另记分统驻宁静，属于本处旧名对照，营房未定位。</value>
+        </Data>
+        <Data name="coordinate_method">
+          <value>KNAB Gartog／嘎托镇代表点，原表29°41′11″N、98°35′43″E；原表未明确坐标基准。仅作江卡地区参照，不指认旧宗署或刘赞廷军营。</value>
+        </Data>
+        <Data name="chronology_note">
+          <value>民国三年为1914年，校注以此记张毅到职及旧边军三部分防。随后‘彭曾率军’未另列援类乌齐、葱坡埂战事的独立年月，不能把这场战事自动标成1914年某日，也不以‘其年夏’反推精确日期。1917—1918年后续战争为另一阶段。</value>
+        </Data>
+        <Data name="distance_note">
+          <value>下列km只比较现代代表点的球面直距，不是历史实走里程、行军路线或驻防边界长度。驻军分驻不表示依次旅行。昌都—类乌齐虚线只示进援的地区方向，不通过或定位葱坡埂；历史用时及战事全程公里数未载。</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>98.59527778,29.68638889,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="republic_chamdo">
+      <name>昌都驻防〔彭日升；现代老城地区参照〕</name>
+      <description>&lt;h3&gt;昌都驻防〔彭日升；现代老城地区参照〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;含义：&lt;/b&gt;据校注39，彭日升驻昌都。校注称标统，黄天华论文称帮统，赵艾东论文脚注又称标统；保留文献和阶段差异，不用一个职称覆盖民初历次编制。这里是驻防背景，不能与作者早年的昌都到站算成同一停留。&lt;/p&gt;&lt;p&gt;&lt;b&gt;点位性质：&lt;/b&gt;KNAB Qamdo聚落代表点，原表31°08′40″N、97°10′39″E；原表未明确坐标基准。只表示昌都老城地区，非彭营营房遗址。&lt;/p&gt;&lt;p&gt;&lt;b&gt;现代代表点球面直距&lt;/b&gt;&lt;/p&gt;&lt;table border="1" cellpadding="4"&gt;&lt;tr&gt;&lt;td&gt;江卡—昌都驻地空间对照&lt;/td&gt;&lt;td&gt;211.6 km&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;昌都—类乌齐进援方向空间对照&lt;/td&gt;&lt;td&gt;68.8 km&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;仅供空间对照；历史实走公里数与耗时未载。&lt;/p&gt;&lt;p&gt;&lt;b&gt;时间口径：&lt;/b&gt;民国三年为1914年，校注以此记张毅到职及旧边军三部分防。随后‘彭曾率军’未另列援类乌齐、葱坡埂战事的独立年月，不能把这场战事自动标成1914年某日，也不以‘其年夏’反推精确日期。1917—1918年后续战争为另一阶段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;下列km只比较现代代表点的球面直距，不是历史实走里程、行军路线或驻防边界长度。驻军分驻不表示依次旅行。昌都—类乌齐虚线只示进援的地区方向，不通过或定位葱坡埂；历史用时及战事全程公里数未载。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/20.htm"&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/30/Travels_of_a_consular_officer_in_eastern_Tibet_-_together_with_a_history_of_the_relations_between_China%2C_Tibet_and_India_%28IA_cu31924089999209%29.pdf"&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.batang.gov.cn/batang/c102994/201501/952b90fba68b490e84de53719cfdcc89.shtml"&gt;巴塘县政府：夏邛镇历史县城背景&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/cgi-bin/mkn8.cgi?f10v=Y&amp;amp;f14v=Y&amp;amp;f2v=Y&amp;amp;f3v=Y&amp;amp;form=mm&amp;amp;kohanimi=Ta&amp;amp;lang=et&amp;amp;of=tb"&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标&lt;/a&gt;&lt;br/&gt;&lt;a href="https://wkxb.sicnu.edu.cn/Publish/201205/%E9%BB%84%E5%A4%A9%E5%8D%8E.pdf"&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/0baae25daabd0d9f9b1694d09c61fb68"&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg"&gt;Survey of India 1919：Tibet and Adjacent Countries原图&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.scsqw.cn/upload/main/contentmanage/article/file/201701162212259604.pdf"&gt;四川官方地方志：江卡改宁静县的沿革&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事：本次阅读地图的驻军人物、地点及进援类乌齐与葱坡埂事件，来源为任乃强校注，非陈渠珍本人在场叙事。&lt;/li&gt;&lt;li&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche：江卡与Markam Gartok旧今名、现代聚落坐标、类乌齐旧寺镇与桑多分开。&lt;/li&gt;&lt;li&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)：江卡与宁静、Markam Gartok的历史地名桥接，不能据此指认军署。&lt;/li&gt;&lt;li&gt;巴塘县政府：夏邛镇历史县城背景：夏邛镇历史城镇与旧城区背景，不指认民初军署坐标。&lt;/li&gt;&lt;li&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标：Batang城镇条给30°00′23″N、99°06′20″E；区分无具体城镇坐标的县域条。&lt;/li&gt;&lt;li&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期：人名与官制异文及第170页所引‘三十九族之葱坡埂’。本轮读取搜索索引，PDF原页未成功获取，不宣称已亲见原电。&lt;/li&gt;&lt;li&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期：刘瑞麟、刘赞廷与彭日升的驻地和职称对照、1915年另次改编；本次不把编制沿革混成单一时点。&lt;/li&gt;&lt;li&gt;Survey of India 1919：Tibet and Adjacent Countries原图：目读Gartok、Batang、Chiamdo与Riwoche的相对方位，不作为旧营地测绘坐标。&lt;/li&gt;&lt;li&gt;四川官方地方志：江卡改宁静县的沿革：江卡和宁静为此处旧新地名对照，不作为两处驻地矛盾。&lt;/li&gt;&lt;/ul&gt;</description>
+      <LookAt>
+        <longitude>97.1775</longitude>
+        <latitude>31.14444444</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>80000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#republic_garrison</styleUrl>
+      <ExtendedData>
+        <Data name="kind">
+          <value>garrison</value>
+        </Data>
+        <Data name="note">
+          <value>据校注39，彭日升驻昌都。校注称标统，黄天华论文称帮统，赵艾东论文脚注又称标统；保留文献和阶段差异，不用一个职称覆盖民初历次编制。这里是驻防背景，不能与作者早年的昌都到站算成同一停留。</value>
+        </Data>
+        <Data name="coordinate_method">
+          <value>KNAB Qamdo聚落代表点，原表31°08′40″N、97°10′39″E；原表未明确坐标基准。只表示昌都老城地区，非彭营营房遗址。</value>
+        </Data>
+        <Data name="chronology_note">
+          <value>民国三年为1914年，校注以此记张毅到职及旧边军三部分防。随后‘彭曾率军’未另列援类乌齐、葱坡埂战事的独立年月，不能把这场战事自动标成1914年某日，也不以‘其年夏’反推精确日期。1917—1918年后续战争为另一阶段。</value>
+        </Data>
+        <Data name="distance_note">
+          <value>下列km只比较现代代表点的球面直距，不是历史实走里程、行军路线或驻防边界长度。驻军分驻不表示依次旅行。昌都—类乌齐虚线只示进援的地区方向，不通过或定位葱坡埂；历史用时及战事全程公里数未载。</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>97.17750000,31.14444444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="republic_riwoche">
+      <name>类乌齐进援方向〔旧寺镇／达郭地区参照〕</name>
+      <description>&lt;h3&gt;类乌齐进援方向〔旧寺镇／达郭地区参照〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;含义：&lt;/b&gt;校注记彭率军进援类乌齐。采用类乌齐旧寺镇地区帮助比较方位，区分今天桑多县城。旧营地、援军逐站走法与葱坡埂战场未定位，不能据寺镇点断定交战就在寺旁。&lt;/p&gt;&lt;p&gt;&lt;b&gt;点位性质：&lt;/b&gt;KNAB Riwoche／类乌齐旧寺镇（Daggo／达郭镇中心）代表点，原表31°22′15″N、96°30′14″E；原表未明确坐标基准。不是今桑多县城，也不是已考定的葱坡埂。&lt;/p&gt;&lt;p&gt;&lt;b&gt;现代代表点球面直距&lt;/b&gt;&lt;/p&gt;&lt;table border="1" cellpadding="4"&gt;&lt;tr&gt;&lt;td&gt;昌都—类乌齐进援方向空间对照&lt;/td&gt;&lt;td&gt;68.8 km&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;仅供空间对照；历史实走公里数与耗时未载。&lt;/p&gt;&lt;p&gt;&lt;b&gt;时间口径：&lt;/b&gt;民国三年为1914年，校注以此记张毅到职及旧边军三部分防。随后‘彭曾率军’未另列援类乌齐、葱坡埂战事的独立年月，不能把这场战事自动标成1914年某日，也不以‘其年夏’反推精确日期。1917—1918年后续战争为另一阶段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;下列km只比较现代代表点的球面直距，不是历史实走里程、行军路线或驻防边界长度。驻军分驻不表示依次旅行。昌都—类乌齐虚线只示进援的地区方向，不通过或定位葱坡埂；历史用时及战事全程公里数未载。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/20.htm"&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/30/Travels_of_a_consular_officer_in_eastern_Tibet_-_together_with_a_history_of_the_relations_between_China%2C_Tibet_and_India_%28IA_cu31924089999209%29.pdf"&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.batang.gov.cn/batang/c102994/201501/952b90fba68b490e84de53719cfdcc89.shtml"&gt;巴塘县政府：夏邛镇历史县城背景&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/cgi-bin/mkn8.cgi?f10v=Y&amp;amp;f14v=Y&amp;amp;f2v=Y&amp;amp;f3v=Y&amp;amp;form=mm&amp;amp;kohanimi=Ta&amp;amp;lang=et&amp;amp;of=tb"&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标&lt;/a&gt;&lt;br/&gt;&lt;a href="https://wkxb.sicnu.edu.cn/Publish/201205/%E9%BB%84%E5%A4%A9%E5%8D%8E.pdf"&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/0baae25daabd0d9f9b1694d09c61fb68"&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg"&gt;Survey of India 1919：Tibet and Adjacent Countries原图&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.scsqw.cn/upload/main/contentmanage/article/file/201701162212259604.pdf"&gt;四川官方地方志：江卡改宁静县的沿革&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事：本次阅读地图的驻军人物、地点及进援类乌齐与葱坡埂事件，来源为任乃强校注，非陈渠珍本人在场叙事。&lt;/li&gt;&lt;li&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche：江卡与Markam Gartok旧今名、现代聚落坐标、类乌齐旧寺镇与桑多分开。&lt;/li&gt;&lt;li&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)：江卡与宁静、Markam Gartok的历史地名桥接，不能据此指认军署。&lt;/li&gt;&lt;li&gt;巴塘县政府：夏邛镇历史县城背景：夏邛镇历史城镇与旧城区背景，不指认民初军署坐标。&lt;/li&gt;&lt;li&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标：Batang城镇条给30°00′23″N、99°06′20″E；区分无具体城镇坐标的县域条。&lt;/li&gt;&lt;li&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期：人名与官制异文及第170页所引‘三十九族之葱坡埂’。本轮读取搜索索引，PDF原页未成功获取，不宣称已亲见原电。&lt;/li&gt;&lt;li&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期：刘瑞麟、刘赞廷与彭日升的驻地和职称对照、1915年另次改编；本次不把编制沿革混成单一时点。&lt;/li&gt;&lt;li&gt;Survey of India 1919：Tibet and Adjacent Countries原图：目读Gartok、Batang、Chiamdo与Riwoche的相对方位，不作为旧营地测绘坐标。&lt;/li&gt;&lt;li&gt;四川官方地方志：江卡改宁静县的沿革：江卡和宁静为此处旧新地名对照，不作为两处驻地矛盾。&lt;/li&gt;&lt;/ul&gt;</description>
+      <LookAt>
+        <longitude>96.50388889</longitude>
+        <latitude>31.37083333</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>80000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#republic_aid</styleUrl>
+      <ExtendedData>
+        <Data name="kind">
+          <value>aid</value>
+        </Data>
+        <Data name="note">
+          <value>校注记彭率军进援类乌齐。采用类乌齐旧寺镇地区帮助比较方位，区分今天桑多县城。旧营地、援军逐站走法与葱坡埂战场未定位，不能据寺镇点断定交战就在寺旁。</value>
+        </Data>
+        <Data name="coordinate_method">
+          <value>KNAB Riwoche／类乌齐旧寺镇（Daggo／达郭镇中心）代表点，原表31°22′15″N、96°30′14″E；原表未明确坐标基准。不是今桑多县城，也不是已考定的葱坡埂。</value>
+        </Data>
+        <Data name="chronology_note">
+          <value>民国三年为1914年，校注以此记张毅到职及旧边军三部分防。随后‘彭曾率军’未另列援类乌齐、葱坡埂战事的独立年月，不能把这场战事自动标成1914年某日，也不以‘其年夏’反推精确日期。1917—1918年后续战争为另一阶段。</value>
+        </Data>
+        <Data name="distance_note">
+          <value>下列km只比较现代代表点的球面直距，不是历史实走里程、行军路线或驻防边界长度。驻军分驻不表示依次旅行。昌都—类乌齐虚线只示进援的地区方向，不通过或定位葱坡埂；历史用时及战事全程公里数未载。</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>96.50388889,31.37083333,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="republic_aid_direction">
+      <name>彭军进援类乌齐方向〔直连示意；非古道或战场定位〕｜代表点直距68.8 km</name>
+      <description>&lt;p&gt;&lt;b&gt;示意性质：&lt;/b&gt;依校注‘驻昌都’与‘进援类乌齐’作两地区方向参照。虚线不复原实际走法，不表示每段均实经，也不把葱坡埂插在这条直线上。两地区代表点的直距可供空间对照，不能冒作彭军行军里程。战事独立年月及用时未核定。&lt;/p&gt;&lt;p&gt;&lt;b&gt;现代代表点直距：&lt;/b&gt;68.8 km；历史实走里程未载。&lt;/p&gt;&lt;p&gt;&lt;b&gt;时间口径：&lt;/b&gt;民国三年为1914年，校注以此记张毅到职及旧边军三部分防。随后‘彭曾率军’未另列援类乌齐、葱坡埂战事的独立年月，不能把这场战事自动标成1914年某日，也不以‘其年夏’反推精确日期。1917—1918年后续战争为另一阶段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;下列km只比较现代代表点的球面直距，不是历史实走里程、行军路线或驻防边界长度。驻军分驻不表示依次旅行。昌都—类乌齐虚线只示进援的地区方向，不通过或定位葱坡埂；历史用时及战事全程公里数未载。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/20.htm"&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/30/Travels_of_a_consular_officer_in_eastern_Tibet_-_together_with_a_history_of_the_relations_between_China%2C_Tibet_and_India_%28IA_cu31924089999209%29.pdf"&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.batang.gov.cn/batang/c102994/201501/952b90fba68b490e84de53719cfdcc89.shtml"&gt;巴塘县政府：夏邛镇历史县城背景&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/cgi-bin/mkn8.cgi?f10v=Y&amp;amp;f14v=Y&amp;amp;f2v=Y&amp;amp;f3v=Y&amp;amp;form=mm&amp;amp;kohanimi=Ta&amp;amp;lang=et&amp;amp;of=tb"&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标&lt;/a&gt;&lt;br/&gt;&lt;a href="https://wkxb.sicnu.edu.cn/Publish/201205/%E9%BB%84%E5%A4%A9%E5%8D%8E.pdf"&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/0baae25daabd0d9f9b1694d09c61fb68"&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg"&gt;Survey of India 1919：Tibet and Adjacent Countries原图&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.scsqw.cn/upload/main/contentmanage/article/file/201701162212259604.pdf"&gt;四川官方地方志：江卡改宁静县的沿革&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事：本次阅读地图的驻军人物、地点及进援类乌齐与葱坡埂事件，来源为任乃强校注，非陈渠珍本人在场叙事。&lt;/li&gt;&lt;li&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche：江卡与Markam Gartok旧今名、现代聚落坐标、类乌齐旧寺镇与桑多分开。&lt;/li&gt;&lt;li&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)：江卡与宁静、Markam Gartok的历史地名桥接，不能据此指认军署。&lt;/li&gt;&lt;li&gt;巴塘县政府：夏邛镇历史县城背景：夏邛镇历史城镇与旧城区背景，不指认民初军署坐标。&lt;/li&gt;&lt;li&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标：Batang城镇条给30°00′23″N、99°06′20″E；区分无具体城镇坐标的县域条。&lt;/li&gt;&lt;li&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期：人名与官制异文及第170页所引‘三十九族之葱坡埂’。本轮读取搜索索引，PDF原页未成功获取，不宣称已亲见原电。&lt;/li&gt;&lt;li&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期：刘瑞麟、刘赞廷与彭日升的驻地和职称对照、1915年另次改编；本次不把编制沿革混成单一时点。&lt;/li&gt;&lt;li&gt;Survey of India 1919：Tibet and Adjacent Countries原图：目读Gartok、Batang、Chiamdo与Riwoche的相对方位，不作为旧营地测绘坐标。&lt;/li&gt;&lt;li&gt;四川官方地方志：江卡改宁静县的沿革：江卡和宁静为此处旧新地名对照，不作为两处驻地矛盾。&lt;/li&gt;&lt;/ul&gt;</description>
+      <LookAt>
+        <longitude>97.7</longitude>
+        <latitude>30.6</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>600000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#republic_direction</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>97.17750000,31.14444444,0 97.15560764,31.15180208,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>97.13539931,31.15859375,0 97.11350694,31.16595138,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>97.09329861,31.17274305,0 97.07140625,31.18010069,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>97.05119792,31.18689236,0 97.02930556,31.19425000,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>97.00909722,31.20104166,0 96.98720486,31.20839930,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.96699653,31.21519097,0 96.94510417,31.22254861,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.92489583,31.22934027,0 96.90300347,31.23669791,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.88279514,31.24348958,0 96.86090278,31.25084722,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.84069444,31.25763888,0 96.81880208,31.26499652,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.79859375,31.27178819,0 96.77670139,31.27914583,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.75649306,31.28593750,0 96.73460070,31.29329514,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.71439236,31.30008680,0 96.69250000,31.30744444,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.67229167,31.31423611,0 96.65039931,31.32159375,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.63019097,31.32838541,0 96.60829861,31.33574305,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.58809028,31.34253472,0 96.56619792,31.34989236,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>96.54598958,31.35668402,0 96.52409722,31.36404166,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="republic_congpogeng">
+      <name>葱坡埂〔校注战地；三十九族方向线索，确址待考〕</name>
+      <description>&lt;p&gt;任乃强校注39记彭日升进援类乌齐，并在葱坡埂击败藏军。黄天华《民初川边治理及其成效》第170页转引张毅回电，另有‘三十九族之葱坡埂’的地域线索。研究论文为转引，原电尚未亲见；本轮该论文原址下载不成功，相关段落读取自搜索引擎索引，不宣称已核原刊影像。该转引只反映填防曾至该地区、继奉令停进，不能据此确认就是彭日升校注所述那次胜战的原始军报。&lt;/p&gt;&lt;p&gt;这可增加旧地名及三十九族方向的文献依据，但仍不足以核定现代村、山脊、山口或营垒。不因音近而把葱坡埂等同某个琼布地名，也不在现代丁青或类乌齐周围任意落点。当前无坐标、无搜索圈，不参与距离合计。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/20.htm"&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/30/Travels_of_a_consular_officer_in_eastern_Tibet_-_together_with_a_history_of_the_relations_between_China%2C_Tibet_and_India_%28IA_cu31924089999209%29.pdf"&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.batang.gov.cn/batang/c102994/201501/952b90fba68b490e84de53719cfdcc89.shtml"&gt;巴塘县政府：夏邛镇历史县城背景&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/cgi-bin/mkn8.cgi?f10v=Y&amp;amp;f14v=Y&amp;amp;f2v=Y&amp;amp;f3v=Y&amp;amp;form=mm&amp;amp;kohanimi=Ta&amp;amp;lang=et&amp;amp;of=tb"&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标&lt;/a&gt;&lt;br/&gt;&lt;a href="https://wkxb.sicnu.edu.cn/Publish/201205/%E9%BB%84%E5%A4%A9%E5%8D%8E.pdf"&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/0baae25daabd0d9f9b1694d09c61fb68"&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg"&gt;Survey of India 1919：Tibet and Adjacent Countries原图&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.scsqw.cn/upload/main/contentmanage/article/file/201701162212259604.pdf"&gt;四川官方地方志：江卡改宁静县的沿革&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事：本次阅读地图的驻军人物、地点及进援类乌齐与葱坡埂事件，来源为任乃强校注，非陈渠珍本人在场叙事。&lt;/li&gt;&lt;li&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche：江卡与Markam Gartok旧今名、现代聚落坐标、类乌齐旧寺镇与桑多分开。&lt;/li&gt;&lt;li&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)：江卡与宁静、Markam Gartok的历史地名桥接，不能据此指认军署。&lt;/li&gt;&lt;li&gt;巴塘县政府：夏邛镇历史县城背景：夏邛镇历史城镇与旧城区背景，不指认民初军署坐标。&lt;/li&gt;&lt;li&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标：Batang城镇条给30°00′23″N、99°06′20″E；区分无具体城镇坐标的县域条。&lt;/li&gt;&lt;li&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期：人名与官制异文及第170页所引‘三十九族之葱坡埂’。本轮读取搜索索引，PDF原页未成功获取，不宣称已亲见原电。&lt;/li&gt;&lt;li&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期：刘瑞麟、刘赞廷与彭日升的驻地和职称对照、1915年另次改编；本次不把编制沿革混成单一时点。&lt;/li&gt;&lt;li&gt;Survey of India 1919：Tibet and Adjacent Countries原图：目读Gartok、Batang、Chiamdo与Riwoche的相对方位，不作为旧营地测绘坐标。&lt;/li&gt;&lt;li&gt;四川官方地方志：江卡改宁静县的沿革：江卡和宁静为此处旧新地名对照，不作为两处驻地矛盾。&lt;/li&gt;&lt;/ul&gt;</description>
+      <LookAt>
+        <longitude>97.7</longitude>
+        <latitude>30.6</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>600000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+    </Placemark>
+    <Placemark id="republic_three_garrisons">
+      <name>三部分驻〔并列驻地；姓名、职称异文分别保留〕</name>
+      <description>&lt;p&gt;任注39列刘端麟统领驻巴塘、刘赞廷分驻江卡、彭日升标统驻昌都。本图以这段阅读背景标三处驻地，不把三点连成一条依次行军线，也不将点间连线当作当时边界或防线。&lt;/p&gt;&lt;p&gt;黄天华2012年论文作刘瑞麟全军统领驻巴塘、刘赞廷分统驻宁静、彭日升帮统驻昌都；赵艾东2008年论文脚注作刘瑞麟驻巴安、刘赞廷驻江卡、彭日升标统驻昌都，并叙1915年另次改编。人名和编制写法应分源、分阶段保留，不能悄然将刘端麟改作已经证实的另一姓名。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/20.htm"&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/30/Travels_of_a_consular_officer_in_eastern_Tibet_-_together_with_a_history_of_the_relations_between_China%2C_Tibet_and_India_%28IA_cu31924089999209%29.pdf"&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.batang.gov.cn/batang/c102994/201501/952b90fba68b490e84de53719cfdcc89.shtml"&gt;巴塘县政府：夏邛镇历史县城背景&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/cgi-bin/mkn8.cgi?f10v=Y&amp;amp;f14v=Y&amp;amp;f2v=Y&amp;amp;f3v=Y&amp;amp;form=mm&amp;amp;kohanimi=Ta&amp;amp;lang=et&amp;amp;of=tb"&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标&lt;/a&gt;&lt;br/&gt;&lt;a href="https://wkxb.sicnu.edu.cn/Publish/201205/%E9%BB%84%E5%A4%A9%E5%8D%8E.pdf"&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/0baae25daabd0d9f9b1694d09c61fb68"&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg"&gt;Survey of India 1919：Tibet and Adjacent Countries原图&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.scsqw.cn/upload/main/contentmanage/article/file/201701162212259604.pdf"&gt;四川官方地方志：江卡改宁静县的沿革&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事：本次阅读地图的驻军人物、地点及进援类乌齐与葱坡埂事件，来源为任乃强校注，非陈渠珍本人在场叙事。&lt;/li&gt;&lt;li&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche：江卡与Markam Gartok旧今名、现代聚落坐标、类乌齐旧寺镇与桑多分开。&lt;/li&gt;&lt;li&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)：江卡与宁静、Markam Gartok的历史地名桥接，不能据此指认军署。&lt;/li&gt;&lt;li&gt;巴塘县政府：夏邛镇历史县城背景：夏邛镇历史城镇与旧城区背景，不指认民初军署坐标。&lt;/li&gt;&lt;li&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标：Batang城镇条给30°00′23″N、99°06′20″E；区分无具体城镇坐标的县域条。&lt;/li&gt;&lt;li&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期：人名与官制异文及第170页所引‘三十九族之葱坡埂’。本轮读取搜索索引，PDF原页未成功获取，不宣称已亲见原电。&lt;/li&gt;&lt;li&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期：刘瑞麟、刘赞廷与彭日升的驻地和职称对照、1915年另次改编；本次不把编制沿革混成单一时点。&lt;/li&gt;&lt;li&gt;Survey of India 1919：Tibet and Adjacent Countries原图：目读Gartok、Batang、Chiamdo与Riwoche的相对方位，不作为旧营地测绘坐标。&lt;/li&gt;&lt;li&gt;四川官方地方志：江卡改宁静县的沿革：江卡和宁静为此处旧新地名对照，不作为两处驻地矛盾。&lt;/li&gt;&lt;/ul&gt;</description>
+      <LookAt>
+        <longitude>97.7</longitude>
+        <latitude>30.6</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>600000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+    </Placemark>
+    <Placemark id="republic_chronology">
+      <name>年代与耗时〔1914分防；援军战事年月及全程用时未核〕</name>
+      <description>&lt;p&gt;民国三年对应1914年，用于校注所述张毅到职和三部分防背景。‘曾率军’只表示援类乌齐为彭的经历，独立战事年月未明，不能把整段所有事件都赋予一个精确1914日期。&lt;/p&gt;&lt;p&gt;本段没有援军逐站行程、日数或小时数；‘三部’是部队分组，不是三日。后续1917—1918年的战争与此背景分开，不将整个彭日升生平串成一次行军。相关人物补充另存同目录可编辑源文件：艽野尘梦_民初边军人物时间线.mmd。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/20.htm"&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/30/Travels_of_a_consular_officer_in_eastern_Tibet_-_together_with_a_history_of_the_relations_between_China%2C_Tibet_and_India_%28IA_cu31924089999209%29.pdf"&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.batang.gov.cn/batang/c102994/201501/952b90fba68b490e84de53719cfdcc89.shtml"&gt;巴塘县政府：夏邛镇历史县城背景&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/cgi-bin/mkn8.cgi?f10v=Y&amp;amp;f14v=Y&amp;amp;f2v=Y&amp;amp;f3v=Y&amp;amp;form=mm&amp;amp;kohanimi=Ta&amp;amp;lang=et&amp;amp;of=tb"&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标&lt;/a&gt;&lt;br/&gt;&lt;a href="https://wkxb.sicnu.edu.cn/Publish/201205/%E9%BB%84%E5%A4%A9%E5%8D%8E.pdf"&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/0baae25daabd0d9f9b1694d09c61fb68"&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg"&gt;Survey of India 1919：Tibet and Adjacent Countries原图&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.scsqw.cn/upload/main/contentmanage/article/file/201701162212259604.pdf"&gt;四川官方地方志：江卡改宁静县的沿革&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事：本次阅读地图的驻军人物、地点及进援类乌齐与葱坡埂事件，来源为任乃强校注，非陈渠珍本人在场叙事。&lt;/li&gt;&lt;li&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche：江卡与Markam Gartok旧今名、现代聚落坐标、类乌齐旧寺镇与桑多分开。&lt;/li&gt;&lt;li&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)：江卡与宁静、Markam Gartok的历史地名桥接，不能据此指认军署。&lt;/li&gt;&lt;li&gt;巴塘县政府：夏邛镇历史县城背景：夏邛镇历史城镇与旧城区背景，不指认民初军署坐标。&lt;/li&gt;&lt;li&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标：Batang城镇条给30°00′23″N、99°06′20″E；区分无具体城镇坐标的县域条。&lt;/li&gt;&lt;li&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期：人名与官制异文及第170页所引‘三十九族之葱坡埂’。本轮读取搜索索引，PDF原页未成功获取，不宣称已亲见原电。&lt;/li&gt;&lt;li&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期：刘瑞麟、刘赞廷与彭日升的驻地和职称对照、1915年另次改编；本次不把编制沿革混成单一时点。&lt;/li&gt;&lt;li&gt;Survey of India 1919：Tibet and Adjacent Countries原图：目读Gartok、Batang、Chiamdo与Riwoche的相对方位，不作为旧营地测绘坐标。&lt;/li&gt;&lt;li&gt;四川官方地方志：江卡改宁静县的沿革：江卡和宁静为此处旧新地名对照，不作为两处驻地矛盾。&lt;/li&gt;&lt;/ul&gt;</description>
+      <LookAt>
+        <longitude>97.7</longitude>
+        <latitude>30.6</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>600000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+    </Placemark>
+    <Placemark id="republic_jangkha_distinction">
+      <name>江卡旧今对照〔宁静／Markam Gartok；不是江达〕</name>
+      <description>&lt;p&gt;1922年Teichman的地名表将Ning-ching Hsien与Chiang-ka (Markam Gartok)对照，KNAB的Gartog条亦收录这一旧名。因此江卡可用今芒康嘎托镇地区代表点，不能误放到江达县，或作者另一段经过的工布江达太昭。&lt;/p&gt;&lt;p&gt;类乌齐采用旧寺镇达郭地区，区别今桑多县城。四个点的经纬度用于地区对照，不赋予历史官署、寺内会见处、营房或战场精度。1919旧图只用于核对各地区大致方位，没有据旧图量坐标或恢复道路。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/20.htm"&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54q.htm"&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/30/Travels_of_a_consular_officer_in_eastern_Tibet_-_together_with_a_history_of_the_relations_between_China%2C_Tibet_and_India_%28IA_cu31924089999209%29.pdf"&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.batang.gov.cn/batang/c102994/201501/952b90fba68b490e84de53719cfdcc89.shtml"&gt;巴塘县政府：夏邛镇历史县城背景&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/cgi-bin/mkn8.cgi?f10v=Y&amp;amp;f14v=Y&amp;amp;f2v=Y&amp;amp;f3v=Y&amp;amp;form=mm&amp;amp;kohanimi=Ta&amp;amp;lang=et&amp;amp;of=tb"&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标&lt;/a&gt;&lt;br/&gt;&lt;a href="https://wkxb.sicnu.edu.cn/Publish/201205/%E9%BB%84%E5%A4%A9%E5%8D%8E.pdf"&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/0baae25daabd0d9f9b1694d09c61fb68"&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期&lt;/a&gt;&lt;br/&gt;&lt;a href="https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg"&gt;Survey of India 1919：Tibet and Adjacent Countries原图&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.scsqw.cn/upload/main/contentmanage/article/file/201701162212259604.pdf"&gt;四川官方地方志：江卡改宁静县的沿革&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;《艽野尘梦》第6章任乃强校注39：民初分防与彭日升后事：本次阅读地图的驻军人物、地点及进援类乌齐与葱坡埂事件，来源为任乃强校注，非陈渠珍本人在场叙事。&lt;/li&gt;&lt;li&gt;KNAB昌都地名表：Gartog、Qamdo与Riwoche：江卡与Markam Gartok旧今名、现代聚落坐标、类乌齐旧寺镇与桑多分开。&lt;/li&gt;&lt;li&gt;Teichman1922原书，第35页地名表：宁静／Chiang-ka (Markam Gartok)：江卡与宁静、Markam Gartok的历史地名桥接，不能据此指认军署。&lt;/li&gt;&lt;li&gt;巴塘县政府：夏邛镇历史县城背景：夏邛镇历史城镇与旧城区背景，不指认民初军署坐标。&lt;/li&gt;&lt;li&gt;KNAB查询：Batang／Xiaqiong城镇代表坐标：Batang城镇条给30°00′23″N、99°06′20″E；区分无具体城镇坐标的县域条。&lt;/li&gt;&lt;li&gt;黄天华《民初川边治理及其成效》，四川师范大学学报2012年第3期：人名与官制异文及第170页所引‘三十九族之葱坡埂’。本轮读取搜索索引，PDF原页未成功获取，不宣称已亲见原电。&lt;/li&gt;&lt;li&gt;赵艾东《美国传教士史德文在1917—1918年康藏纠纷中的活动与角色》，西藏研究2008年第6期：刘瑞麟、刘赞廷与彭日升的驻地和职称对照、1915年另次改编；本次不把编制沿革混成单一时点。&lt;/li&gt;&lt;li&gt;Survey of India 1919：Tibet and Adjacent Countries原图：目读Gartok、Batang、Chiamdo与Riwoche的相对方位，不作为旧营地测绘坐标。&lt;/li&gt;&lt;li&gt;四川官方地方志：江卡改宁静县的沿革：江卡和宁静为此处旧新地名对照，不作为两处驻地矛盾。&lt;/li&gt;&lt;/ul&gt;</description>
+      <LookAt>
+        <longitude>97.7</longitude>
+        <latitude>30.6</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>600000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+    </Placemark>
+  </Document>
+</kml>
