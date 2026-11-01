@@ -1,0 +1,56 @@
+"""Geometry-free cards separating the Baimagang retreats and Gebu mission."""
+from pathlib import Path
+import html
+import json
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def load():
+    return json.loads((ROOT / 'data/place_checks/白马杠格布沟招抚核对.json').read_text(encoding='utf-8'))
+
+
+def card_html(cfg, card):
+    body = '<h3>' + html.escape(card['name']) + '</h3>'
+    body += ''.join('<p>' + html.escape(p) + '</p>' for p in card['paragraphs'])
+    body += '<p><b>镜头与定位：</b>' + html.escape(card['look_at']['note']) + '</p>'
+    return body + '<p>' + '<br/>'.join(
+        '<a href="' + html.escape(s['url'], quote=True) + '">' + html.escape(s['title']) + '</a>'
+        for s in cfg['sources']) + '</p>'
+
+
+def add_folder(doc, el, view):
+    cfg = load()
+    folder = el(doc, 'Folder', id='gebu_reconciliation_check')
+    el(folder, 'name', '19 白马杠与格布沟｜人物行动分读')
+    el(folder, 'open', 1)
+    el(folder, 'description', cfg['summary'])
+    camera = cfg['overview']
+    view(folder, camera['lon'], camera['lat'], camera['range_m'])
+    for card in cfg['cards']:
+        pm = el(folder, 'Placemark', id='gebu_reconciliation_' + card['id'])
+        el(pm, 'name', card['name'])
+        el(pm, 'description', card_html(cfg, card))
+        camera = card['look_at']
+        view(pm, camera['lon'], camera['lat'], camera['range_m'])
+    return cfg
+
+
+def write_index():
+    cfg = load()
+    note = ('白马杠与格布沟｜人物行动分读\n核对日期：' + cfg['checked_at'] + '\n\n'
+            + cfg['summary'] + '\n\n')
+    for card in cfg['cards']:
+        note += card['name'] + '\n' + '\n'.join(card['paragraphs']) + '\n'
+        note += '镜头与定位：' + card['look_at']['note'] + '\n\n'
+    note += ('完整阅读地图19层与独立“艽野尘梦_白马杠与格布沟.kmz”均有五张可点击说明卡，选择一份显示。'
+             '本层只移动镜头到既有现代墨脱地区参照或编辑概览视图，不新增地点、路线、范围或搜索圈。'
+             '白马杠山岭、格布沟、野人山与卡拖营地均没有在本层赋坐标；主要点及小地名数量不增加。\n\n来源及限度\n')
+    for source in cfg['sources']:
+        note += '\n' + source['title'] + '\n' + source['supports'] + '\n' + source['url'] + '\n'
+    if cfg.get('google_earth_import'):
+        note += '\nGoogle Earth核验\n' + cfg['google_earth_import']['note'] + '\n'
+        if cfg['google_earth_import'].get('screenshot'):
+            note += '核验截图：' + cfg['google_earth_import']['screenshot'] + '\n'
+    (ROOT / '白马杠格布沟招抚核对说明.txt').write_text(note, encoding='utf-8')
+    return note
