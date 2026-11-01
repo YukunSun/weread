@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="three_mountains_unlocated">
+    <name>《艽野尘梦》京中—树枝—央噶｜三日越岭，确址待考</name>
+    <open>1</open>
+    <description>&lt;p&gt;&lt;b&gt;范围：&lt;/b&gt;本图层记录陈渠珍反攻波密时由八浪登向汤买前进的后三山。三座旧山名的现代对应尚未闭合，各设无几何说明卡；灰色东久、通麦两点只帮助查看这一方向的现代山地背景，不代表三山、古营地或旧桥址。&lt;/p&gt;&lt;p&gt;&lt;b&gt;正文顺序：&lt;/b&gt;正文前进顺序为八浪登→京中→树枝→央噶→下山后再行半日→汤买。这里记录的是正文列名顺序，不据此给现代山口强行赋名。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注33：三山顺序、三日与六日、下山半日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年行程报告，印刷第51—52页&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;同报告路线8，印刷第101—102页：地区旧道测程对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：现代Dongjug／东久、Tangmai／通麦&lt;/a&gt;&lt;/p&gt;</description>
+    <LookAt>
+      <longitude>94.95</longitude>
+      <latitude>30.0</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>130000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="three_mountains_context">
+      <IconStyle>
+        <color>ffd0c6be</color>
+        <scale>0.85</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Placemark id="three_mountains_jingzhong">
+      <name>京中〔八浪登之后第一旧山名；确址待考〕</name>
+      <description>&lt;h3&gt;京中〔八浪登之后第一旧山名；确址待考〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;地望：&lt;/b&gt;正文在八浪登之后首先列京中，之后是树枝、央噶。它在此为行军所越的旧山名，尚不能确定是某座现代峰、某个山口还是所越山脊。&lt;/p&gt;&lt;p&gt;&lt;b&gt;时间口径：&lt;/b&gt;三日属于后三山整体通过耗时；京中单山耗时没有独立记录。‘每上下一山，皆须整日赶行’是行进困难的叙述，不将三日机械分配为每山一日。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离：&lt;/b&gt;三山各段及全段的公里数原文未载，陈书条目的km列留空。另列1913年调查队反向旧路测程作对照，不能补作陈军实走距离，也不以现代公路里程或两端直距替代。&lt;/p&gt;&lt;p&gt;&lt;b&gt;标识性质：&lt;/b&gt;本条为无几何说明卡，没有山峰、山口或营地坐标。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注33：三山顺序、三日与六日、下山半日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年行程报告，印刷第51—52页&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;同报告路线8，印刷第101—102页：地区旧道测程对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：现代Dongjug／东久、Tangmai／通麦&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.95</longitude>
+        <latitude>30.0</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>130000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <ExtendedData>
+        <Data name="geometry_role">
+          <value>无几何说明卡；未定位旧山名或行程解释</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark id="three_mountains_shuzhi">
+      <name>树枝〔京中与央噶之间旧山名；确址待考〕</name>
+      <description>&lt;h3&gt;树枝〔京中与央噶之间旧山名；确址待考〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;地望：&lt;/b&gt;正文将树枝列在京中与央噶之间；此名称不能按汉语字义或近似音转直接等同任一现代地名，也不能以旧报告的第二个山嘴替名。&lt;/p&gt;&lt;p&gt;&lt;b&gt;时间口径：&lt;/b&gt;树枝单山耗时未单列；后三山陈部合计三日、负重商旅六日的口径各自保留。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离：&lt;/b&gt;三山各段及全段的公里数原文未载，陈书条目的km列留空。另列1913年调查队反向旧路测程作对照，不能补作陈军实走距离，也不以现代公路里程或两端直距替代。&lt;/p&gt;&lt;p&gt;&lt;b&gt;标识性质：&lt;/b&gt;本条为无几何说明卡，没有山峰、山口或营地坐标。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注33：三山顺序、三日与六日、下山半日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年行程报告，印刷第51—52页&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;同报告路线8，印刷第101—102页：地区旧道测程对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：现代Dongjug／东久、Tangmai／通麦&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.95</longitude>
+        <latitude>30.0</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>130000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <ExtendedData>
+        <Data name="geometry_role">
+          <value>无几何说明卡；未定位旧山名或行程解释</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark id="three_mountains_yangga">
+      <name>央噶〔汤买前最后列出的旧山名；确址待考〕</name>
+      <description>&lt;h3&gt;央噶〔汤买前最后列出的旧山名；确址待考〕&lt;/h3&gt;&lt;p&gt;&lt;b&gt;地望：&lt;/b&gt;央噶是这段正文最后列出的山名；随后记下山后再行半日至汤买。现有证据不足以确定其现代峰、山脊或山口位置。&lt;/p&gt;&lt;p&gt;&lt;b&gt;时间口径：&lt;/b&gt;央噶单山耗时未单列。下山后半日至汤买另记，不把这半日写作央噶山本身的通过耗时。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离：&lt;/b&gt;三山各段及全段的公里数原文未载，陈书条目的km列留空。另列1913年调查队反向旧路测程作对照，不能补作陈军实走距离，也不以现代公路里程或两端直距替代。&lt;/p&gt;&lt;p&gt;&lt;b&gt;标识性质：&lt;/b&gt;本条为无几何说明卡，没有山峰、山口或营地坐标。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注33：三山顺序、三日与六日、下山半日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年行程报告，印刷第51—52页&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;同报告路线8，印刷第101—102页：地区旧道测程对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：现代Dongjug／东久、Tangmai／通麦&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.95</longitude>
+        <latitude>30.0</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>130000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <ExtendedData>
+        <Data name="geometry_role">
+          <value>无几何说明卡；未定位旧山名或行程解释</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark id="three_mountains_sequence_time">
+      <name>八浪登→京中→树枝→央噶→汤买｜三日、六日与两处半日分读</name>
+      <description>&lt;p&gt;&lt;b&gt;顺序：&lt;/b&gt;正文前进顺序为八浪登→京中→树枝→央噶→下山后再行半日→汤买。这里记录的是正文列名顺序，不据此给现代山口强行赋名。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;陈部行军：三日。后三山整体耗时；不是各三日，也不是彭军北路耗时。&lt;/li&gt;&lt;li&gt;负重商旅对照：六日。三日宿山上、三日宿谷底；是另一通行情境，不与陈部三日相加。&lt;/li&gt;&lt;li&gt;后续行军：半日。正文另记的下山后行程，不属于三山单山定位或精确公里数。&lt;/li&gt;&lt;li&gt;前置停留：停半日。发生在通过后三山之前；停留与行军分列，不据此推算精确总小时数。&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;日数解释：&lt;/b&gt;三山整体三日不机械分配每山一天；商旅六日是另一通行情境；收葬半日停留与下山后半日行军分别保留，不换算精确小时或虚构逐日宿营点。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离：&lt;/b&gt;三山各段及全段的公里数原文未载，陈书条目的km列留空。另列1913年调查队反向旧路测程作对照，不能补作陈军实走距离，也不以现代公路里程或两端直距替代。&lt;/p&gt;&lt;p&gt;&lt;b&gt;1913年反向旧路测程对照：&lt;/b&gt;Bailey、Morshead报告路线8的另一调查队反向旧路测程：Chuluk→Trulung为10.5英里（约16.9 km），Trulung→Chema chembo为8英里（约12.9 km），合18.5英里（约29.8 km）。按1英里=1.609344 km换算。Chuluk营地位于Po与Yigrong汇流处、Tangme对岸，不能把测程起点改写成Tangme，过河交通不在该测程内。这不是陈军通过京中、树枝、央噶三山的实走距离，也不是三个山头的分段测量。&lt;/p&gt;&lt;p&gt;&lt;b&gt;另一调查队日期：&lt;/b&gt;1913年7月5日宿Chuluk；7月6日宿Trulung；7月7日宿Chema chembo。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注33：三山顺序、三日与六日、下山半日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年行程报告，印刷第51—52页&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;同报告路线8，印刷第101—102页：地区旧道测程对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：现代Dongjug／东久、Tangmai／通麦&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.95</longitude>
+        <latitude>30.0</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>130000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <ExtendedData>
+        <Data name="geometry_role">
+          <value>无几何说明卡；未定位旧山名或行程解释</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark id="three_mountains_evidence_limits">
+      <name>定位证据限制｜约4000m为组概述；旧山名不强行套点</name>
+      <description>&lt;p&gt;&lt;b&gt;现代对应：&lt;/b&gt;本轮公开地名检索与KNAB林芝地名表未形成京中、树枝、央噶的独立现代旧今对照。未检出可靠对应不表示山地不存在，而是现有证据不足以逐一落点。现代G318与谷地地形只能作为背景，不能替代旧道复原。&lt;/p&gt;&lt;p&gt;&lt;b&gt;旧报告对照：&lt;/b&gt;Bailey、Morshead于1913年反向行程记有Tangme对岸Chuluk、Trulung、Chabji La、Palong Teng、Desinko La、Chema chembo。依其正文及路线8反向阅读，Palongteng之后可见Chabji La→Trulung→两个未命名山嘴→Tangme方向的地形顺序。这与八浪登之后三次越岭的结构存在候选对照，但没有中文山名的桥接证据；Palongteng与八浪登也仅为候选对应。不能直接把Chabji La、Desinko La或两个无名山嘴改名为京中、树枝、央噶，更不能据此填入三山坐标。&lt;/p&gt;&lt;p&gt;&lt;b&gt;海拔口径：&lt;/b&gt;任乃强校注33将纳衣当噶至汤买之间概括为八浪登、京中、树枝、央噶四重山地，并称高度皆在四千米左右。这是山地组的概述，不能作为三座已定位峰点或山口的精确海拔。&lt;/p&gt;&lt;p&gt;&lt;b&gt;地图限制：&lt;/b&gt;本图层记录陈渠珍反攻波密时由八浪登向汤买前进的后三山。三座旧山名的现代对应尚未闭合，各设无几何说明卡；灰色东久、通麦两点只帮助查看这一方向的现代山地背景，不代表三山、古营地或旧桥址。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注33：三山顺序、三日与六日、下山半日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年行程报告，印刷第51—52页&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;同报告路线8，印刷第101—102页：地区旧道测程对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：现代Dongjug／东久、Tangmai／通麦&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.95</longitude>
+        <latitude>30.0</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>130000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <ExtendedData>
+        <Data name="geometry_role">
+          <value>无几何说明卡；未定位旧山名或行程解释</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark id="three_mountains_dongjug_reference">
+      <name>现代东久村〔灰色地区参照；非三山或旧寨址〕</name>
+      <description>&lt;p&gt;&lt;b&gt;参照性质：&lt;/b&gt;仅作东久—通麦方向的现代地区参照。现代东久村不自动等同正文冬九旧寨、旧桥、纳衣当噶或京中等山地，坐标不参与三山里程计算。&lt;/p&gt;&lt;p&gt;&lt;b&gt;坐标依据：&lt;/b&gt;KNAB Dongjug：29°49′54″N、94°44′26″E；原表未明确坐标基准。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离：&lt;/b&gt;三山各段及全段的公里数原文未载，陈书条目的km列留空。另列1913年调查队反向旧路测程作对照，不能补作陈军实走距离，也不以现代公路里程或两端直距替代。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注33：三山顺序、三日与六日、下山半日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年行程报告，印刷第51—52页&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;同报告路线8，印刷第101—102页：地区旧道测程对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：现代Dongjug／东久、Tangmai／通麦&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.74055556</longitude>
+        <latitude>29.83166667</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>70000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#three_mountains_context</styleUrl>
+      <ExtendedData>
+        <Data name="coordinate_role">
+          <value>现代地区参照；不是旧山名、营地、寨址或旧桥址</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>94.74055556,29.83166667,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="three_mountains_tangmai_reference">
+      <name>现代通麦地区〔灰色地区参照；非三山或汤买旧桥址〕</name>
+      <description>&lt;p&gt;&lt;b&gt;参照性质：&lt;/b&gt;仅为汤买方向的现代通麦地区参照。不是精测的汤买旧藤桥、陈军营地或央噶山脚；现代代表点位置与旧渡口位置必须区分，坐标不参与三山里程计算。&lt;/p&gt;&lt;p&gt;&lt;b&gt;坐标依据：&lt;/b&gt;KNAB Tangmai：30°06′09″N、95°04′45″E；原表未明确坐标基准。&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离：&lt;/b&gt;三山各段及全段的公里数原文未载，陈书条目的km列留空。另列1913年调查队反向旧路测程作对照，不能补作陈军实走距离，也不以现代公路里程或两端直距替代。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/17.htm"&gt;第6章正文与任乃强校注33：三山顺序、三日与六日、下山半日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年行程报告，印刷第51—52页&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;同报告路线8，印刷第101—102页：地区旧道测程对照&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：现代Dongjug／东久、Tangmai／通麦&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.07916667</longitude>
+        <latitude>30.1025</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>70000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#three_mountains_context</styleUrl>
+      <ExtendedData>
+        <Data name="coordinate_role">
+          <value>现代地区参照；不是旧山名、营地、寨址或旧桥址</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>95.07916667,30.10250000,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
