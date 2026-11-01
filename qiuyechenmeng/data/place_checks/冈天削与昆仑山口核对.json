@@ -1,0 +1,99 @@
+{
+  "checked_at": "2026-11-01",
+  "title": "冈天削与昆仑山口｜校注解释，现代方位参照",
+  "quote": "所谓“冈天削”，即巴颜喀喇山脉中之昆仑山口也。",
+  "scope": "冈天削保留为未定位旧地名；任乃强校注48以昆仑山口解释。图上的G109现代昆仑山口只帮助辨认方位，不据此认定为冈天削确址或陈部亲经点，也不增画荒原历史路线。",
+  "reading_note": "用户引句应与校注后文“应即”的判断语气及正文情境连读：冈天削起于向导对前路的记忆，陈部后来反复寻找而未明确确认抵达。保留校注的昆仑山口解释，不把一个现代参照点升级为已证实的古今对应。柴达木盆地范围与校注55推定的格尔木地区另行分读。",
+  "quote_origin": "任乃强校注四十八；用户摘句按原样保留。它是校注中的地理解释，不是正文直接记述到达现代山口。",
+  "version_note": "本轮对读的YENKE与m-d重刊此句作“所谓‘冈天削’，即巴颜喀喇山脉中昆仑山口也”，其中没有用户引句的“之”字；不据这一虚字差异改变地名判断。电子本另有个别河名OCR差异，应结合上下文阅读。",
+  "body_context": {
+    "chapter8": "第8章进入酱通后，向导回忆过通天河后可到一处孤山，山旁有河、有低矮树木，再沿河前往蒙古帐房所在地区。这是向导对前路的记忆，不是陈部已经抵达该地的现场记述。",
+    "chapter9": "第9章渡过通天河后，向导所说的到达日数先后不一，随后离队。陈部继续寻找冈天削；沿途小丘、小山和后来掌形小山均未被认定为冈天削，正文没有明确的抵达记录。",
+    "later_route": "第11章经猎户相助后抵达柴达木；校注55按程站推其为格尔木一带。这是后段的地理推定，不能反推出此前冈天削的精确山口或荒原路线。"
+  },
+  "annotation48": {
+    "reading_location": "第8章，重刊标页194，校注四十八。完整段可在sources中的全文链接检索“校注四十八”或“冈天削”；不从单独摘句定现代坐标。",
+    "preceding_context": "校注先解释蒙可罗、蒙古帐房与藏族帐房的分布，并讨论向导所谓通天河的水系对应。",
+    "interpretation": "校注先以“即”把冈天削解释为巴颜喀喇山脉中的昆仑山口，随后又以“应即”将其解释为两峰间通道，联系北侧柴达木盆地和蒙古游牧地区。这一古今地理判断应保留，但没有经纬度、逐站坐标或独立旧名对照，尚不能据此认定今天G109的某个节点就是冈天削确址。",
+    "following_context": "校注据此前路解释，判断陈部当时仍在金沙江流域以南、玉树草原西部高地，并提出顺河谷下行可能接近牧场的意见。它不是陈部实走路线的测绘记录。",
+    "mountain_name_caution": "现代资料中的昆仑山脉、巴颜喀拉山脉及各公路山口须分别辨认。既不能直接把现代昆仑山口定作冈天削，也不能仅凭旧山系称谓改钉现代巴颜喀拉山口；本轮证据同样不足以断言冈天削必定不是现代昆仑山口。"
+  },
+  "historical_location": {
+    "name": "冈天削",
+    "lon": null,
+    "lat": null,
+    "status": "现代确址未定，保留校注解释线索，不落历史地点坐标。",
+    "variant_searches": "已以冈／岗、削／峭／雪等组合作扩展检索，未发现可靠独立旧今地名桥接；这些只作检索异写，未确认为正式别名。"
+  },
+  "modern_reference": {
+    "id": "kunlun_pass_modern_reference",
+    "name": "现代昆仑山口〔G109方位参照，非冈天削确址〕",
+    "lon": 94.0685899,
+    "lat": 35.6404915,
+    "coordinate_role": "G109现代山口方位参照，不是冈天削确址、陈部营地或实际翻越点。",
+    "source_coordinate": "OpenStreetMap node 4496086699，版本4；原始WGS84坐标94.0685899°E、35.6404915°N，mountain_pass=yes、addr:street=G109。",
+    "coordinate_reference": "WGS84经纬度，取OSM山口节点原始坐标，不作GCJ-02转换。",
+    "coordinate_precision": "保留源坐标位数便于复核，不表示经过测绘精度验证，更不是冈天削古址、陈部营地或实际翻越点坐标。",
+    "osm_node_id": 4496086699,
+    "osm_version": 4,
+    "osm_timestamp": "2024-08-08T09:32:26Z",
+    "retrieved_on": "2026-11-01",
+    "osm_tags_used": {"name": "昆仑山口", "name:en": "Kunlun Mountain Pass", "mountain_pass": "yes", "addr:street": "G109", "ele": "4767"},
+    "elevation_note": "OSM的ele=4767与格尔木官方报道的海拔4767米相符，仅作为现代山口资料，不用于解释书中十余丈的相对地形描述。相对高度与海拔不能直接对比。",
+    "raw_file": "data/place_checks/kunlun_pass_osm_node.json",
+    "raw_sha256": "3a488688e5c068d1bc16dbe8bef3771d9df45bda174fa46098edc037ec58ff4a",
+    "source_url": "https://www.openstreetmap.org/node/4496086699",
+    "source_api_url": "https://www.openstreetmap.org/api/0.6/node/4496086699.json",
+    "attribution": "© OpenStreetMap contributors",
+    "license": "ODbL-1.0",
+    "license_url": "https://www.openstreetmap.org/copyright",
+    "not_used": "附近同名OSM节点12094620834标为historic=memorial，是纪念标识，不取其替代山口节点。相关Wikidata或第三方页面有青海昆仑山口与广西昆仑关信息混合，本项不据该字段判定地点身份。"
+  },
+  "map_policy": {
+    "text_card": "校注48以昆仑山口解释冈天削，并联系其北的柴达木盆地；图上的现代昆仑山口仅作G109方位参照。尚无独立证据把冈天削旧名与该现代节点直接相连，古址与陈部是否确经此垭口仍待考。",
+    "historical_route": "不新增陈渠珍历史行军线，不把现代山口接入北返路线，也不按书中日数或后段格尔木推定点反算荒原轨迹。",
+    "basin": "柴达木盆地可另作为现代自然地理范围参照；盆地范围、书中抵达的柴达木与校注55推定的格尔木地点分别阅读。"
+  },
+  "sources": [
+    {
+      "title": "《艽野尘梦》全文及任乃强校注48、55",
+      "url": "https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6",
+      "supports": "校注48的完整上下文、即与应即的判断语气；校注55对格尔木的程站推定。"
+    },
+    {
+      "title": "正文与校注重刊：第8—11章，标页193—194、201起及225",
+      "url": "https://m-d.me/notes/chenquzhen-dream/",
+      "supports": "向导前路记忆、渡河后寻而未确认冈天削，以及校注48和55。页面可按校注编号检索完整段。"
+    },
+    {
+      "title": "《艽野尘梦》第9章正文对读",
+      "url": "https://www.99csw.com/book/554/17575.htm",
+      "supports": "反复寻找冈天削、见山仍非的叙述。该网站部分段落顺序不稳定，需与全文重刊对读，不单据其页面排列重排行程。"
+    },
+    {
+      "title": "OSM昆仑山口节点4496086699原API",
+      "url": "https://www.openstreetmap.org/api/0.6/node/4496086699.json",
+      "supports": "现代山口WGS84原坐标、mountain_pass=yes、G109及海拔标签；原响应另存并校验SHA256。"
+    },
+    {
+      "title": "格尔木市政府：天路信使，2024-10-29",
+      "url": "https://www.geermu.gov.cn/details?id=ff80808191c740bd0192d64333af057b",
+      "supports": "格尔木至唐古拉山镇现代通道翻越昆仑山口，海拔4767米；不提供冈天削旧今对应。"
+    },
+    {
+      "title": "最高人民法院：沿109国道的环资审判路，2024-12-16",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/449861.html",
+      "supports": "G109格尔木、纳赤台、西大滩、昆仑山口、风火山、沱沱河的现代通道背景；不是历史路线对照证据。"
+    },
+    {
+      "title": "中国科学院青藏高原研究所：青藏高原山脉",
+      "url": "https://itpcas.cas.cn/kxcb/kpwz/200811/t20081108_2034940.html",
+      "supports": "现代昆仑山脉与巴颜喀拉山脉的地理关系，供山系名词对读，不据此认定冈天削位置。"
+    },
+    {
+      "title": "OpenStreetMap版权与ODbL许可",
+      "url": "https://www.openstreetmap.org/copyright",
+      "supports": "本现代参照点的OSM数据署名和数据库许可；不改变其他资料或仓库代码许可。"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "title": "柴达木盆地｜汇水区参照",
+  "retrieved_on": "2026-11-01",
+  "source": {
+    "doi": "10.3974/geodb.2023.10.08.V1",
+    "publication_date": "2023-10",
+    "citation": "桂东伟, 林敬梧, 王颢霖, 李希明, 刘闯. 柴达木盆地汇水区绿洲、水系及高程分类数据集[J/DB/OL]. 全球变化数据仓储电子杂志(中英文), 2023. https://doi.org/10.3974/geodb.2023.10.08.V1.",
+    "metadata_url": "https://geodoi.ac.cn/WebCn/doi.aspx?Id=3414",
+    "download_url": "https://geodoi.ac.cn/webcn/down.aspx?fileID=8476&size=3412600",
+    "download_method": "Normal public download link presented by the dataset page; no login or restricted-access bypass.",
+    "raw_filename": "raw_QaidamBasinCatchment.kmz",
+    "raw_bytes": 3412600,
+    "raw_sha256": "b1391f6cd1749afb171114cc770af7bed95de545fcdd670aed9118f57404efa7",
+    "raw_kmz_entries": [
+      "doc.kml"
+    ],
+    "reported_area_km2": 275753.06,
+    "reported_area_projection": "Albers",
+    "source_data_description": "Based on Google Earth images, ASTER GDEM 30 m and field measurements, according to the institutional metadata. This does not establish boundary positional accuracy."
+  },
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "evidence_url": "https://data.dcxjegi.cn/portal/metadata/9da9c5e5-a6f8-41c2-b594-92d0345b7da1",
+    "evidence_verified_on": "2026-11-01",
+    "evidence": "Institutional mirror at Xinjiang Institute of Ecology and Geography, CAS lists this same DOI, matching five file names/sizes, and explicitly applies Creative Commons Attribution 4.0 International License.",
+    "evidence_short_quote": "本作品采用 知识共享署名 4.0 国际许可协议进行许可。",
+    "attribution": "桂东伟、林敬梧、王颢霖、李希明、刘闯（2023）；全球变化科学研究数据出版系统；干旱区生态与资源科学数据中心",
+    "mirror_contributors": [
+      "桂东伟",
+      "李伯騛"
+    ],
+    "changes": "Reconstructed one closed ring from 32 source LineStrings; merged duplicate joining endpoints, including two floating point tails; simplified for drawing in metric projection and reprojected to WGS84.",
+    "no_endorsement": true,
+    "general_ten_percent_policy": "Not used as the authorization basis. A smaller fraction of the source archive size alone is not evidence of compliance with a policy concerning the contents of a new dataset."
+  },
+  "boundary_nature": {
+    "type": "basin catchment / 盆地汇水区",
+    "not_natural_landform_basin_boundary": true,
+    "not_administrative_boundary": true,
+    "not_historic_travel_extent": true,
+    "context_natural_landform_basin_area_km2_approximate": 250000,
+    "context_source": "https://igsnrr.cas.cn/cbkx/kpyd/zgdl/cndm/202009/t20200910_5692364.html",
+    "context_note": "The broad natural landform basin is commonly described at about 250,000 km². Do not compare areas as if they were the same boundary, or scale this catchment to that number.",
+    "unavailable_preferred_dataset": "NCDC 朱高峰 柴达木盆地矢量边界数据集（2021年）, about 240,000 km²; login to access, not obtained or substituted.",
+    "unavailable_preferred_dataset_url": "https://www.ncdc.ac.cn/portal/metadata/7d5ae51d-7d95-4edd-819d-dbfb528ba991"
+  },
+  "reconstruction": {
+    "coordinate_system": "WGS84 / EPSG:4326; longitude, latitude; altitude omitted",
+    "input_geometry_type": "32 KML LineString features",
+    "raw_coordinate_count_including_shared_endpoints": 298713,
+    "segment_join_order": [
+      "3",
+      "5",
+      "7",
+      "9",
+      "1",
+      "11",
+      "13",
+      "15",
+      "17",
+      "19",
+      "21",
+      "23",
+      "25",
+      "27",
+      "29",
+      "31",
+      "33",
+      "35",
+      "0",
+      "61",
+      "59",
+      "57",
+      "55",
+      "53",
+      "51",
+      "49",
+      "47",
+      "45",
+      "43",
+      "41",
+      "39",
+      "37"
+    ],
+    "endpoint_matching": "Match endpoints rounded to 9 decimal places for comparison only; retain first encountered source coordinate; reverse segments as necessary; omit their duplicate joining endpoint.",
+    "approximate_endpoint_joins": [
+      {
+        "retained": [
+          89.36206038800007,
+          38.22087078599998
+        ],
+        "duplicate": [
+          89.36206038800007,
+          38.22087078599997
+        ]
+      },
+      {
+        "retained": [
+          97.12329344400008,
+          35.34439095899973
+        ],
+        "duplicate": [
+          97.12329344400008,
+          35.34439095899974
+        ]
+      }
+    ],
+    "full_ring_coordinate_count_including_closure": 298682,
+    "full_ring_valid": true,
+    "full_ring_exactly_closed": true,
+    "full_ring_holes": 0,
+    "full_ring_bounds_west_south_east_north": [
+      87.81043025300008,
+      34.69064304200007,
+      99.31914499900005,
+      39.33450550900007
+    ],
+    "full_wgs84_ellipsoidal_area_km2": 275753.05741014384,
+    "full_wgs84_ellipsoidal_perimeter_km": 4053.791366042033
+  },
+  "drawing": {
+    "file": "derived_qaidam_catchment_100m.geojson",
+    "sha256": "650fb44e18eff7cd88472e94bb1e96d1b71e8c8d81e56df2f56d86eeb24a0eb8",
+    "feature_count": 1,
+    "type": "Polygon",
+    "simplification_tolerance_m": 100,
+    "preserve_topology": true,
+    "method": "Douglas-Peucker topology-preserving simplification using Shapely in a local Azimuthal Equidistant projection centered at 94°E, 37°N, then transformed back to WGS84.",
+    "metric_projection": "+proj=aeqd +lat_0=37 +lon_0=94 +datum=WGS84 +units=m +no_defs",
+    "not_original_data_accuracy_promise": true,
+    "coordinate_count_including_closure": 4947,
+    "valid": true,
+    "validity": "Valid Geometry",
+    "exactly_closed": true,
+    "holes": 0,
+    "wgs84_ellipsoidal_area_km2": 275754.2680785527,
+    "wgs84_ellipsoidal_perimeter_km": 3902.639654444011,
+    "area_change_km2": 1.2106684088357724,
+    "area_change_percent": 0.0004390407925880524,
+    "label_coordinates": [
+      94.2,
+      37.5
+    ],
+    "label_strictly_inside_full": true,
+    "label_strictly_inside_simplified": true,
+    "label_distance_to_simplified_boundary_local_projection_m": 196475.66286305114,
+    "alternative_representative_point": [
+      94.88352923967639,
+      37.013038084499925
+    ]
+  },
+  "software": {
+    "shapely": "2.2.0",
+    "pyproj": "3.8.0"
+  }
+}

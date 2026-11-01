@@ -27,6 +27,7 @@ from zengba_context import add_zengba_context, write_zengba_outputs
 from ningduo_muster import add_ningduo_muster, write_ningduo_outputs
 from build_three_mountains import add_horse_retrospective, main as write_three_mountains_outputs
 from current_qiangtang import add_current_qiangtang, write_current_qiangtang_outputs
+from qaidam_kunlun import add_qaidam_kunlun, write_outputs as write_qaidam_kunlun_outputs
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -127,7 +128,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第8章','哈喇乌苏','按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。'),
 ('第8—10章','酱通／绛通（羌塘）','高原区域名称，并非一个可定位的沙漠景区。迷路行迹缺少足够空间约束，本图不复原其折线。'),
 ('第9章','通天河渡点','跨河本身有文本依据；校注联系穆鲁乌苏水系，但渡点不详，未用现代沱沱河桥或通天河大桥充作历史渡口。'),
-('第8—10章','冈天削','校注48推测与昆仑山口有关，此说不作为精确定位依据；不把现代公路山口写成已证实途经点。'),
+('第8—10章','冈天削','向导所述前路地名，正文反复寻找而无明确抵达记录。校注48以巴颜喀喇山脉中的昆仑山口解释，后句仍用“应即”推断两峰间通道；这一解释保留，但尚无独立旧今桥接可定现代确址。G109现代昆仑山口仅作方位参照，不能据此等同冈天削或认定陈部确经，不赋冈天削坐标，也不据后段格尔木推定点复原荒原路线。'),
 ('第10章','遇蒙古喇嘛、遇猎户地点','事件有原文，地点无可靠坐标，不另造营地。'),
 ('第11章','盐淖、青盐海','盐沼及盐湖的具体范围未定。青盐海不同于随后到达的青海湖，不直接对应察尔汗、茶卡或柯柯盐湖。'),
 ('第11章','都兰','校注56作地理推定，未核当时市场位置，不使用今日察汗乌苏县城作为旧市镇的确点。'),
@@ -618,6 +619,7 @@ def make_map(bundled=False):
     add_ningduo_muster(doc,el)
     add_horse_retrospective(doc,el)
     add_current_qiangtang(doc,el,view,kcolor,bundled)
+    add_qaidam_kunlun(doc,el,view,kcolor,bundled)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -775,6 +777,7 @@ def main():
     ningduo_note=write_ningduo_outputs()
     horse_note=write_three_mountains_outputs()
     current_qiangtang_note=write_current_qiangtang_outputs()
+    qaidam_kunlun_note=write_qaidam_kunlun_outputs()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1064,6 +1067,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n北返首宿凝多｜17层；官兵111、全队115，地点待考\n'+ningduo_note)
         f.write('\n枣骝马与三山｜第8章追叙；山址待考\n'+horse_note)
         f.write('\n现代羌塘无人区｜保护区公开轮廓参照\n'+current_qiangtang_note)
+        f.write('\n柴达木盆地与昆仑山口｜现代地理参照\n'+qaidam_kunlun_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 
 if __name__=='__main__':
