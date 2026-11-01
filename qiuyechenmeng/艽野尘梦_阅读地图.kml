@@ -3368,27 +3368,27 @@
         <range>1000000</range>
         <altitudeMode>clampToGround</altitudeMode>
       </LookAt>
-      <Placemark id="unlocated_14">
+      <Placemark id="unlocated_15">
         <name>凝多／凝多塘【未定位】</name>
         <description><![CDATA[<h3>凝多／凝多塘</h3><p>第8章。北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_15">
+      <Placemark id="unlocated_16">
         <name>哈喇乌苏【未定位】</name>
         <description><![CDATA[<h3>哈喇乌苏</h3><p>第8章。按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_16">
+      <Placemark id="unlocated_17">
         <name>酱通／绛通（羌塘）【未定位】</name>
         <description><![CDATA[<h3>酱通／绛通（羌塘）</h3><p>第8—10章。高原区域名称，并非一个可定位的沙漠景区。迷路行迹缺少足够空间约束，本图不复原其折线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_17">
+      <Placemark id="unlocated_18">
         <name>通天河渡点【未定位】</name>
         <description><![CDATA[<h3>通天河渡点</h3><p>第9章。跨河本身有文本依据；校注联系穆鲁乌苏水系，但渡点不详，未用现代沱沱河桥或通天河大桥充作历史渡口。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_18">
+      <Placemark id="unlocated_19">
         <name>冈天削【未定位】</name>
         <description><![CDATA[<h3>冈天削</h3><p>第8—10章。校注48推测与昆仑山口有关，此说不作为精确定位依据；不把现代公路山口写成已证实途经点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_19">
+      <Placemark id="unlocated_20">
         <name>遇蒙古喇嘛、遇猎户地点【未定位】</name>
         <description><![CDATA[<h3>遇蒙古喇嘛、遇猎户地点</h3><p>第10章。事件有原文，地点无可靠坐标，不另造营地。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
@@ -4411,70 +4411,74 @@
         <description><![CDATA[<h3>卡拖、八阶、夥惹／夥若桥</h3><p>第6—7章；校注37、38。卡拖驻所、八阶旧址及夥惹／夥若桥确址未定；不把卡拖自动放在波密县城，也不把旧桥直接等同今某座大桥。20层以无几何卡分读未准过桥阶段与校注大峡南部推测，不据对话定岸别或行政界线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
       <Placemark id="unlocated_12">
+        <name>彭褚／彭诸【未定位】</name>
+        <description><![CDATA[<h3>彭褚／彭诸</h3><p>第7章。新兵队旧驻地现代对应未定。按陈返卡拖的前后文，四十里为两驻处相距的上下文判断；21层无几何卡保留字形、原文里数与星夜调回，不据此画半径圈或陈本人行军线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+      </Placemark>
+      <Placemark id="unlocated_13">
         <name>格布沟、野人山与白马杠山岭【未定位】</name>
         <description><![CDATA[<h3>格布沟、野人山与白马杠山岭</h3><p>第6章；校注37、38。格布沟为王孚出使报告中的林噶驻地；野人山、白马杠山岭及营地确址未定。19层分叙人物退向、卡拖会商与招抚出使，概览镜头及现代墨脱地区参照均不是待考地点坐标。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_13">
+      <Placemark id="unlocated_14">
         <name>薄宗寺【未定位】</name>
         <description><![CDATA[<h3>薄宗寺</h3><p>第4章校注29；第6章校注32、35。校注称上波密东谷通桑昂，以薄宗寺为中心；现代寺名与旧址未定。18层只提供地区概览及文义核对卡，镜头中心不是寺址坐标，不冒认波曲宗或波密县城。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_20">
+      <Placemark id="unlocated_21">
         <name>盐淖、青盐海【未定位】</name>
         <description><![CDATA[<h3>盐淖、青盐海</h3><p>第11章。盐沼及盐湖的具体范围未定。青盐海不同于随后到达的青海湖，不直接对应察尔汗、茶卡或柯柯盐湖。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_21">
+      <Placemark id="unlocated_22">
         <name>都兰【未定位】</name>
         <description><![CDATA[<h3>都兰</h3><p>第11章。校注56作地理推定，未核当时市场位置，不使用今日察汗乌苏县城作为旧市镇的确点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_22">
+      <Placemark id="unlocated_23">
         <name>分州、洪铺街寓所、西原墓【未定位】</name>
         <description><![CDATA[<h3>分州、洪铺街寓所、西原墓</h3><p>第12章。旧名或具体地点尚待考；地图止于西安，不另画一条书中未叙述的回凤凰路线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_23">
+      <Placemark id="unlocated_24">
         <name>西藏桥〔书图近城另列〕【未定位】</name>
         <description><![CDATA[<h3>西藏桥〔书图近城另列〕</h3><p>第2章；校注十一及书图。桥名图文有异，旧桥确址待考。正文与略图先列于昌都附近；与俄洛桥名称冲突见总说明</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_24">
+      <Placemark id="unlocated_25">
         <name>甲令塘〔书图识读待核〕【未定位】</name>
         <description><![CDATA[<h3>甲令塘〔书图识读待核〕</h3><p>第2章；校注十一及书图。仅据略图；令字识读中等置信度，现代对应待考。图示俄洛桥与浪荡沟之间，正文未逐名叙述，不认定在此宿营</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_25">
+      <Placemark id="unlocated_26">
         <name>纳贡山／腊左山／腊左大山／安初拉〔书图藏名识读〕【未定位】</name>
         <description><![CDATA[<h3>纳贡山／腊左山／腊左大山／安初拉〔书图藏名识读〕</h3><p>第2章；校注十一及书图。精确旧山口未定；14F已补Namts’o La／雪佩拉候选参照，推定而非确证。分隔昂曲与恩达河两条谷地的越岭段；校注四千余米，不按正文十余里推算垂直高度</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_26">
+      <Placemark id="unlocated_27">
         <name>日雨娃〔书图识读待核〕【未定位】</name>
         <description><![CDATA[<h3>日雨娃〔书图识读待核〕</h3><p>第2章；校注十一及书图。仅据略图，中等识读置信度；现代对应待考。图示梭罗坝与恩达之间；不当作正文明确的宿站</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_27">
+      <Placemark id="unlocated_28">
         <name>果角塘〔书图补充〕【未定位】</name>
         <description><![CDATA[<h3>果角塘〔书图补充〕</h3><p>第2章；校注十一及书图。只识得书图地名与相对谷地；是否逐站亲经未定。浪荡沟通向纳贡山的谷地一带；不强插进主链或认作宿站</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_28">
+      <Placemark id="unlocated_29">
         <name>陈渠珍被擒处〔书图事件〕【未定位】</name>
         <description><![CDATA[<h3>陈渠珍被擒处〔书图事件〕</h3><p>第2章；校注十一及书图。只知纳贡塘附近的相对位置。无具体民房、石后或受袭点坐标；不造精确事件点</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_29">
+      <Placemark id="unlocated_30">
         <name>云南桥〔书图背景〕【未定位】</name>
         <description><![CDATA[<h3>云南桥〔书图背景〕</h3><p>第2章；校注十一及书图。图示昌都南侧澜沧江桥，旧桥址未定。不属于西行恩达主链，不据本图认定此次探险经过</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_30">
+      <Placemark id="unlocated_31">
         <name>瓦合大山〔背景〕／瓦合山／一柱拉【未定位】</name>
         <description><![CDATA[<h3>瓦合大山〔背景〕／瓦合山／一柱拉</h3><p>第2章；校注十一及书图。恩达以西山系背景，通行山口未定位。不与纳贡山合并；本次第2章探险不据校注另翻瓦合山</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_31">
+      <Placemark id="unlocated_32">
         <name>恩达河〔图注子曲〕／子曲〔书图括注识读〕【未定位】</name>
         <description><![CDATA[<h3>恩达河〔图注子曲〕／子曲〔书图括注识读〕</h3><p>第2章；校注十一及书图。书图水系关系已记录，现代河段对应待考。恩达—梭罗坝—甲木桥一侧河谷；不直接套成昂曲或按旧图画现代河线</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_32">
+      <Placemark id="unlocated_33">
         <name>曲巴〔古今对应待考〕【未定位】</name>
         <description><![CDATA[<h3>曲巴〔古今对应待考〕</h3><p>第4章。15层保留无坐标文字条目；现代对应、相邻段方向和里程未定，不据列举顺序插值造点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_33">
+      <Placemark id="unlocated_34">
         <name>增巴〔两处现代同名候选，书中对应未定〕【未定位】</name>
         <description><![CDATA[<h3>增巴〔两处现代同名候选，书中对应未定〕</h3><p>第4章。15层并列百巴镇、米瑞乡两个增巴村参照点；尚未选定书中对应，不表示作者到过两处。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
-      <Placemark id="unlocated_34">
+      <Placemark id="unlocated_35">
         <name>脚木宗古今对应、旧驻地及窝冗噶伽旧庄园【未定位】</name>
         <description><![CDATA[<h3>脚木宗古今对应、旧驻地及窝冗噶伽旧庄园</h3><p>第3—4章。15层已补觉木／Qomo地区作脚木宗候选，与校注27“牙丕附近”说的差异仍待核；候选不共用牙披坐标。08层已补窝冗噶伽的卧龙—嘎加地区参照，脚木宗的具体营地、寺院及窝冗噶伽旧庄园、藏经密室和陈部驻地仍未测定。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
@@ -25529,6 +25533,46 @@
           <heading>0</heading>
           <tilt>0</tilt>
           <range>300000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+    </Folder>
+    <Folder id="pengchu_garrison_check">
+      <name>21 彭褚／彭诸｜新兵驻地与四十里分读</name>
+      <open>1</open>
+      <description><![CDATA[彭褚／彭诸为第7章新兵队驻地，现代对应与确址未定。按陈返卡拖的前后文，四十里应是新兵驻处与陈在卡拖驻处的相距；星夜调回的是新兵队，不是陈本人赴彭褚的行程。]]></description>
+      <LookAt>
+        <longitude>95.7</longitude>
+        <latitude>30.0</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>160000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="pengchu_garrison_place">
+        <name>彭褚／彭诸〔新兵队驻地；旧址待考〕</name>
+        <description><![CDATA[<h3>彭褚／彭诸〔新兵队驻地；旧址待考〕</h3><p>本图并记彭褚与彭诸两种字形。第7章所用九九藏书繁体在线本作彭諸，简体为彭诸；陈书TXT转录也作彭诸。原始刻本字形尚未核准，保留版本字形，不擅改为彭楚或彭楮，也不据字形相近认定现代村名。</p><p>彭褚／彭诸在本句是新兵队驻地。本轮未获得足以闭合其现代对应的直接证据，保留旧址待考；四十里没有附方向或测量口径，不能凭这一项距离反推驻地。</p><p>第5章另说明，补充陈渠珍部的新兵队是在原建制四队之外加编的一队；本句新兵队不能混作彭日升的边军彭营。驻军关系不等于陈本人曾到彭褚。</p><p><b>镜头与定位：</b>编辑选取的现代波密—倾多地区160km概览镜头，仅辅助阅读驻军背景；不是彭褚／彭诸或卡拖驻所坐标、两驻地中点、四十里半径、候选位置或误差范围。</p><p><a href="https://read.99csw.com/book/554/17573.html">第7章完整在线本：返卡拖、彭諸驻队与星夜调回</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">陈书TXT转录：彭诸字形及第7章上下文</a><br/><a href="https://www.xuges.com/xdwx/qycm/16.htm">第5章后半：陈部新兵队在四队外加编</a></p>]]></description>
+        <LookAt>
+          <longitude>95.7</longitude>
+          <latitude>30.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>160000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="pengchu_garrison_recall">
+        <name>四十里与星夜调回〔据上下文自卡拖调新兵〕</name>
+        <description><![CDATA[<h3>四十里与星夜调回〔据上下文自卡拖调新兵〕</h3><p>第7章先记陈仍留卡拖，后应召赴春多寺见密函，罗长裿嘱他迅返卡拖，接着写匆匆而返与是夜。按这一前后文，四十里应指彭褚新兵驻处与陈在卡拖驻处的相距，是上下文判断，不是春多寺或拉萨至彭褚的距离。</p><p>紧接本句的乃星夜调其回，所调回者为新兵队；这不是陈本人赴彭褚的实走记录。此处接拉萨传来的武昌起义消息，似已知仍是陈当时对士兵反应的推测，不能写成已确认消息传达，也不另定绝对日期。</p><p>四十里按原文保留，不换成精确20km，不画卡拖周围的半径圈或补造现代公路路线。星夜表示紧急夜间调回，没有给出准确小时数或完整通行日数；本条不新增行军线，不计入陈个人路线距离与耗时合计。</p><p><b>镜头与定位：</b>编辑选取的现代波密—倾多地区160km概览镜头，仅辅助阅读驻军背景；不是彭褚／彭诸或卡拖驻所坐标、两驻地中点、四十里半径、候选位置或误差范围。</p><p><a href="https://read.99csw.com/book/554/17573.html">第7章完整在线本：返卡拖、彭諸驻队与星夜调回</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">陈书TXT转录：彭诸字形及第7章上下文</a><br/><a href="https://www.xuges.com/xdwx/qycm/16.htm">第5章后半：陈部新兵队在四队外加编</a></p>]]></description>
+        <LookAt>
+          <longitude>95.7</longitude>
+          <latitude>30.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>160000</range>
           <altitudeMode>clampToGround</altitudeMode>
         </LookAt>
       </Placemark>
