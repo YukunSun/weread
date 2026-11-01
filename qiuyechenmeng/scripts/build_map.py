@@ -130,7 +130,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第8—10章','酱通／绛通（羌塘）','高原区域名称，并非一个可定位的沙漠景区。迷路行迹缺少足够空间约束，本图不复原其折线。'),
 ('第9章','通天河渡点','跨河本身有文本依据；校注联系穆鲁乌苏水系，但渡点不详，未用现代沱沱河桥或通天河大桥充作历史渡口。'),
 ('第8—10章','冈天削','向导所述前路地名，正文反复寻找而无明确抵达记录。校注48以巴颜喀喇山脉中的昆仑山口解释，后句仍用“应即”推断两峰间通道；这一解释保留，但尚无独立旧今桥接可定现代确址。G109现代昆仑山口仅作方位参照，不能据此等同冈天削或认定陈部确经，不赋冈天削坐标，也不据后段格尔木推定点复原荒原路线。'),
-('第10章','遇蒙古喇嘛、遇猎户地点','事件有原文，地点无可靠坐标，不另造营地。'),
+('第10章','遇蒙古喇嘛、遇猎户地点','正文能约束事件先后和大方向，但不足以确定营地坐标。地图另以橙色空心标记显示区域推测锚点；锚点不是历史坐标，极低置信，不连成路线。'),
 ('第11章','盐淖、青盐海','盐沼及盐湖的具体范围未定。青盐海不同于随后到达的青海湖，不直接对应察尔汗、茶卡或柯柯盐湖。'),
 ('第11章','都兰','校注56作地理推定，未核当时市场位置，不使用今日察汗乌苏县城作为旧市镇的确点。'),
 ('第12章','分州、洪铺街寓所、西原墓','旧名或具体地点尚待考；地图止于西安，不另画一条书中未叙述的回凤凰路线。'),
@@ -149,6 +149,36 @@ PHASES = {
  'context': ('06 现代地理参照｜默认隐藏', '#aaaaaa', False),
 }
 
+# These are deliberately cartographic anchors for broad candidate areas, not
+# recovered historical coordinates. Keep them separate from the reconstructed
+# route network and explain the inference in each balloon.
+WILDERNESS_EVENT_CANDIDATES = [
+    {
+        'id':'mongol_lama_encounter_candidate',
+        'name':'遇蒙古喇嘛｜荒原区段候选（示意锚点）',
+        'lon':93.25,'lat':34.55,
+        'basis':'第九章先记通天河以北数日行程、遇野牛后再行十余里遇七名蒙古喇嘛；喇嘛称前方约一月到盐海。只能判断在通天河以北、向盐海去的荒原行程中，不能把“一个月”换算成坐标或路线。',
+        'certainty':'极低；仅为宽泛阅读候选区的图面锚点。不是事件坐标，也不证明进入羌塘自然保护区。',
+        'source':'https://www.99csw.com/book/554/17574.htm'
+    },
+    {
+        'id':'mongol_lama_killing_candidate',
+        'name':'蒙古喇嘛遇袭处｜近程候选（示意锚点）',
+        'lon':93.35,'lat':34.58,
+        'basis':'第十章记遇喇嘛后同行；约三日后发生邻帐枪击，喇嘛遭袭时又只行约三四里。可推在首次相遇地附近的同一荒原行程段，正文不能确定方位或营帐位置。',
+        'certainty':'极低；锚点与相遇候选点相邻，只表达文本所述近程关系，不代表真实位移方向或距离。',
+        'source':'https://www.99csw.com/book/554/17576.htm'
+    },
+    {
+        'id':'hunters_encounter_candidate',
+        'name':'胡玉林遇猎户、全队寻至处｜候选（示意锚点）',
+        'lon':93.0,'lat':34.85,
+        'basis':'喇嘛遇害后，胡玉林掉队并在山边帐幕遇四名猎户；队伍鸣枪后猎户带他策骑返回。此后全队获猎户接济并由猎户带路，行十六日至柴达木。校注对出口有格尔木一带的推测，但迷路段没有中间地名，无法从十六日倒算营地。',
+        'certainty':'极低；点位只是荒原北返后段的阅读锚点，不是猎户营地或确定的果纳河谷位置。',
+        'source':'https://www.99csw.com/book/554/17576.htm'
+    },
+]
+
 def el(parent, tag, text=None, **attrs):
     node = ET.SubElement(parent, f'{{{KML}}}{tag}', attrs)
     if text is not None:
@@ -159,6 +189,46 @@ def view(parent, lon, lat, distance=70000):
     v=el(parent,'LookAt')
     for tag,value in [('longitude',lon),('latitude',lat),('altitude',0),('heading',0),('tilt',0),('range',distance),('altitudeMode','clampToGround')]:
         el(v,tag,value)
+
+def add_wilderness_event_candidates(parent, bundled=False):
+    folder=el(parent,'Folder',id='wilderness_event_candidates')
+    el(folder,'name','荒原事件区推测｜锚点非历史坐标，极低置信')
+    el(folder,'visibility',1);el(folder,'open',0)
+    el(folder,'description',
+       '<p>橙色空心点是便于查看的区域推测锚点，不是考定事件坐标，也不表示精确搜索半径。它们只依据正文的事件顺序、通天河以北及柴达木方向等约束放置。事件间不连线，不据此判定陈渠珍一行进入现代羌塘自然保护区。</p>'
+       '<p>依据：<a href="https://www.99csw.com/book/554/17574.htm">第九章</a>、<a href="https://www.99csw.com/book/554/17576.htm">第十章及任乃强校注</a>、<a href="https://www.99csw.com/book/554/17577.htm">第十一章及校注55</a>。</p>')
+    for item in WILDERNESS_EVENT_CANDIDATES:
+        pm=el(folder,'Placemark',id=item['id'])
+        el(pm,'name',item['name'])
+        el(pm,'description',
+           f'<h3>{html.escape(item["name"])}</h3>'
+           f'<p><b>定位性质：</b>区域候选示意锚点；非事件坐标。</p>'
+           f'<p><b>文本依据：</b>{html.escape(item["basis"])}</p>'
+           f'<p><b>把握度：</b>{html.escape(item["certainty"])}</p>'
+           '<p>不绘历史路线，不用于判断是否经过现代自然保护区边界。</p>'
+           +links([('《艽野尘梦》对应章节',item['source'])]))
+        el(pm,'styleUrl','#wilderness_uncertain')
+        pt=el(pm,'Point');el(pt,'altitudeMode','clampToGround')
+        el(pt,'coordinates',f'{item["lon"]:.5f},{item["lat"]:.5f},0')
+    return folder
+
+def make_wilderness_event_supplement(bundled=False):
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='wilderness_event_supplement')
+    el(doc,'name','《艽野尘梦》北返荒原｜事件区域推测（极低置信）')
+    el(doc,'open',1)
+    el(doc,'description','仅标示遇蒙古喇嘛、喇嘛遇袭和猎户救助的区域候选锚点。标记不是历史坐标，不连成路线，不证明进入现代羌塘自然保护区。')
+    view(doc,93.2,34.7,700000)
+    style=el(doc,'Style',id='wilderness_uncertain')
+    ic=el(style,'IconStyle')
+    if not bundled:
+        color=el(ic,'color');color.text=kcolor('#ffb347')
+    el(ic,'scale',1.2)
+    icon=el(ic,'Icon')
+    href='icons/wilderness_uncertain.png' if bundled else 'https://maps.google.com/mapfiles/kml/shapes/open-diamond.png'
+    el(icon,'href',href)
+    lab=el(style,'LabelStyle');el(lab,'color','ffffffff');el(lab,'scale',0.9)
+    add_wilderness_event_candidates(doc,bundled)
+    return serialize(root)
 
 def links(items):
     return '<br/>'.join(f'<a href="{html.escape(u, quote=True)}">{html.escape(n)}</a>' for n,u in items)
@@ -591,6 +661,7 @@ def make_map(bundled=False):
         refs=[('原文与校注',TEXT)]
         if name=='恩达': refs.append(('恩达与瓦合山旧驿道实地报道',SOURCES['恩达与瓦合山旧驿道']))
         el(p,'description',f'<h3>{html.escape(name)}</h3><p>{chapter}。{html.escape(note)}</p><p>本条无几何坐标；不会在地球上显示点标。</p>'+links(refs))
+    add_wilderness_event_candidates(folders['wilderness'])
     for n,(phase,name,ids) in enumerate(ROUTES,1):
         distance_entries=[d for d in DISTANCE_ROWS if d[0]==name]
         total=sum(d[4] for d in distance_entries)
@@ -742,6 +813,37 @@ def main():
         for sid,color,hollow in [('point','#8ad4ff',False),('uncertain','#ffc66d',True),('measure','#cbd5e1',False)]:
             z.writestr('icons/post_'+sid+'.png',png(color,hollow))
         pack_annotation11_sources(z)
+    event_map='艽野尘梦_北返荒原事件候选'
+    (ROOT/(event_map+'.kml')).write_bytes(make_wilderness_event_supplement())
+    with zipfile.ZipFile(ROOT/(event_map+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_wilderness_event_supplement(True))
+        z.writestr('icons/wilderness_uncertain.png',png('#ffb347',True))
+    event_note=['《艽野尘梦》北返荒原事件区域推测','',
+        '本说明对应主图“04 北返荒原”内的橙色空心标记。每个坐标只是显示用的地图锚点，不是事件发生坐标、误差中心或精确搜索范围；三点不连线，不证明陈渠珍一行进入现代羌塘自然保护区。把握度均为极低。','',
+        '1. 遇蒙古喇嘛｜荒原区段候选（示意锚点）',
+        '锚点：93.25°E, 34.55°N。正文先记通天河以北数日行程，见野牛后再行十余里遇七名蒙古喇嘛；喇嘛称前方约一月到盐海。只能约束在通天河以北、向盐海去的荒原行程中，不能把“一个月”换算成坐标或路线。','',
+        '2. 蒙古喇嘛遇袭处｜近程候选（示意锚点）',
+        '锚点：93.35°E, 34.58°N。正文记相遇后同行，约三日后发生邻帐枪击；喇嘛遇袭时又只行约三四里。可判断在相遇地附近的同一行程段，不能确定真实方位或营帐位置。图上与相遇候选点相邻仅表达这一文本关系。','',
+        '3. 胡玉林遇猎户、全队寻至处｜候选（示意锚点）',
+        '锚点：93.00°E, 34.85°N。喇嘛遇害后，胡玉林掉队并在山边帐幕遇四名猎户；队伍鸣枪后猎户带他策骑返回。此后全队获猎户接济并由猎户带路，行十六日至柴达木。校注对出口有格尔木一带推测，但迷路段没有中间地名，无法从十六日倒算营地。锚点不等同猎户驻地或确定的果纳河谷位置。','',
+        '依据：','https://www.99csw.com/book/554/17574.htm',
+        'https://www.99csw.com/book/554/17576.htm',
+        'https://www.99csw.com/book/554/17577.htm','',
+        '完整阅读地图已包含这些标记。旧版云端图如需补充，可单独导入“艽野尘梦_北返荒原事件候选.kmz”。新版完整图与补充图二选一显示，避免重复标记。','']
+    (ROOT/'北返荒原事件候选说明.txt').write_text('\n'.join(event_note),encoding='utf-8')
+    event_data={
+        'checked_at':'2026-11-01',
+        'title':'《艽野尘梦》北返荒原事件区域推测',
+        'scope':'事件顺序与方向候选；所有点坐标是地图展示锚点，不是事件坐标，不是置信范围边界。不得据此构造历史路线或判定进入现代羌塘自然保护区。',
+        'source_chapters':[
+            {'title':'第九章《过通天河》','url':'https://www.99csw.com/book/554/17574.htm'},
+            {'title':'第十章《遇蒙古喇嘛》及任乃强校注','url':'https://www.99csw.com/book/554/17576.htm'},
+            {'title':'第十一章《至柴达木》及校注55','url':'https://www.99csw.com/book/554/17577.htm'}
+        ],
+        'events':WILDERNESS_EVENT_CANDIDATES,
+        'publication_boundary':'主图与独立KMZ只显示三个极低置信区域推测锚点；事件间无路线。'
+    }
+    (ROOT/'data/place_checks/北返荒原事件候选.json').write_text(json.dumps(event_data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     crossing='艽野尘梦_德摩鲁朗越岭'
     (ROOT/(crossing+'.kml')).write_bytes(make_demo_lulang_supplement())
     with zipfile.ZipFile(ROOT/(crossing+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1073,6 +1175,8 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n现代羌塘无人区｜保护区公开轮廓参照\n'+current_qiangtang_note)
         f.write('\n柴达木盆地与昆仑山口｜现代地理参照\n'+qaidam_kunlun_note)
         f.write('\n玉树草原西部与穆鲁乌苏｜任注48的区域推测\n'+yushu_note)
+    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+        f.write('\n\n二十七、北返荒原事件区域推测\n'+ '\n'.join(event_note))
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 
 if __name__=='__main__':

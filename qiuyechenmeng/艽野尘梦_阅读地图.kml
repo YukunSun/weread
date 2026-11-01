@@ -3451,8 +3451,41 @@
       </Placemark>
       <Placemark id="unlocated_16">
         <name>遇蒙古喇嘛、遇猎户地点【未定位】</name>
-        <description><![CDATA[<h3>遇蒙古喇嘛、遇猎户地点</h3><p>第10章。事件有原文，地点无可靠坐标，不另造营地。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+        <description><![CDATA[<h3>遇蒙古喇嘛、遇猎户地点</h3><p>第10章。正文能约束事件先后和大方向，但不足以确定营地坐标。地图另以橙色空心标记显示区域推测锚点；锚点不是历史坐标，极低置信，不连成路线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
+      <Folder id="wilderness_event_candidates">
+        <name>荒原事件区推测｜锚点非历史坐标，极低置信</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <description><![CDATA[<p>橙色空心点是便于查看的区域推测锚点，不是考定事件坐标，也不表示精确搜索半径。它们只依据正文的事件顺序、通天河以北及柴达木方向等约束放置。事件间不连线，不据此判定陈渠珍一行进入现代羌塘自然保护区。</p><p>依据：<a href="https://www.99csw.com/book/554/17574.htm">第九章</a>、<a href="https://www.99csw.com/book/554/17576.htm">第十章及任乃强校注</a>、<a href="https://www.99csw.com/book/554/17577.htm">第十一章及校注55</a>。</p>]]></description>
+        <Placemark id="mongol_lama_encounter_candidate">
+          <name>遇蒙古喇嘛｜荒原区段候选（示意锚点）</name>
+          <description><![CDATA[<h3>遇蒙古喇嘛｜荒原区段候选（示意锚点）</h3><p><b>定位性质：</b>区域候选示意锚点；非事件坐标。</p><p><b>文本依据：</b>第九章先记通天河以北数日行程、遇野牛后再行十余里遇七名蒙古喇嘛；喇嘛称前方约一月到盐海。只能判断在通天河以北、向盐海去的荒原行程中，不能把“一个月”换算成坐标或路线。</p><p><b>把握度：</b>极低；仅为宽泛阅读候选区的图面锚点。不是事件坐标，也不证明进入羌塘自然保护区。</p><p>不绘历史路线，不用于判断是否经过现代自然保护区边界。</p><a href="https://www.99csw.com/book/554/17574.htm">《艽野尘梦》对应章节</a>]]></description>
+          <styleUrl>#wilderness_uncertain</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.25000,34.55000,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="mongol_lama_killing_candidate">
+          <name>蒙古喇嘛遇袭处｜近程候选（示意锚点）</name>
+          <description><![CDATA[<h3>蒙古喇嘛遇袭处｜近程候选（示意锚点）</h3><p><b>定位性质：</b>区域候选示意锚点；非事件坐标。</p><p><b>文本依据：</b>第十章记遇喇嘛后同行；约三日后发生邻帐枪击，喇嘛遭袭时又只行约三四里。可推在首次相遇地附近的同一荒原行程段，正文不能确定方位或营帐位置。</p><p><b>把握度：</b>极低；锚点与相遇候选点相邻，只表达文本所述近程关系，不代表真实位移方向或距离。</p><p>不绘历史路线，不用于判断是否经过现代自然保护区边界。</p><a href="https://www.99csw.com/book/554/17576.htm">《艽野尘梦》对应章节</a>]]></description>
+          <styleUrl>#wilderness_uncertain</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.35000,34.58000,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="hunters_encounter_candidate">
+          <name>胡玉林遇猎户、全队寻至处｜候选（示意锚点）</name>
+          <description><![CDATA[<h3>胡玉林遇猎户、全队寻至处｜候选（示意锚点）</h3><p><b>定位性质：</b>区域候选示意锚点；非事件坐标。</p><p><b>文本依据：</b>喇嘛遇害后，胡玉林掉队并在山边帐幕遇四名猎户；队伍鸣枪后猎户带他策骑返回。此后全队获猎户接济并由猎户带路，行十六日至柴达木。校注对出口有格尔木一带的推测，但迷路段没有中间地名，无法从十六日倒算营地。</p><p><b>把握度：</b>极低；点位只是荒原北返后段的阅读锚点，不是猎户营地或确定的果纳河谷位置。</p><p>不绘历史路线，不用于判断是否经过现代自然保护区边界。</p><a href="https://www.99csw.com/book/554/17576.htm">《艽野尘梦》对应章节</a>]]></description>
+          <styleUrl>#wilderness_uncertain</styleUrl>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>93.00000,34.85000,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
     </Folder>
     <Folder id="folder_return">
       <name>05 柴达木至西安｜第11—12章</name>
