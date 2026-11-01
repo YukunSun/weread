@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="renjinbang_katuo_unlocated">
+    <name>《艽野尘梦》仁进邦与卡拖｜王孚招降返回支线，确址待考</name>
+    <open>1</open>
+    <description>&lt;p&gt;&lt;b&gt;范围：&lt;/b&gt;本补充记录王孚招降林噶后返回卡拖的叙事支线。仁进邦、卡拖及格布沟的现代确址均未在本文件核定，只设无几何说明卡，不画地点、路线、边界或搜索范围。&lt;/p&gt;&lt;p&gt;&lt;b&gt;行动者与先后：&lt;/b&gt;王孚偕番官赴格布沟劝降林噶；准许过桥、继续劝说后，林噶率众来降；返回途中经过仁进邦，截留其随从，随后至卡拖安置。陈渠珍当时驻卡拖，次日前往会见林噶；不把此支线当作陈本人经仁进邦的行程。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/19.htm"&gt;《艽野尘梦》第六章（3）：格布沟招降、仁进邦与卡拖&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.newsmth.net/bbsanc.php?path=%2Fgroups%2Fsci.faq%2FGeography%2F11%2Fmingqing%2FM.1183100239.C0"&gt;房建昌历史地理考察：水木2007年转载，非旧图或原刊影像&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qinghistory.cn/c/361/361193.shtml"&gt;中华文史网：《中国边疆史地研究》2000年第4期目录&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead：1913年调查报告，印刷第47页Rinchenpung条&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：另图层卡拖Kata／Kardag候选的地名依据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年报告：首章第1页与附录路线12第105页，Kata和Kato分列&lt;/a&gt;&lt;/p&gt;</description>
+    <LookAt>
+      <longitude>95.55</longitude>
+      <latitude>29.75</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>200000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Placemark id="renjinbang_garrison">
+      <name>仁进邦〔驻兵一营、截留随从；确址待考〕</name>
+      <description>&lt;h3&gt;仁进邦〔驻兵一营、截留随从；确址待考〕&lt;/h3&gt;&lt;p&gt;原文记王孚招降林噶后，一行经过仁进邦；该地驻有清军一营，遂止住林噶随从，以卡拖边军较多、恐生误会为由解释。这里的一营是驻军编制数量，不能解释为驻留一天或按固定人数换算。&lt;/p&gt;&lt;p&gt;这是一处可由正文确认存在的旧地名及驻兵节点，但本次没有核定现代对应、营址、截留随从的具体位置或经纬度。此条为无几何说明卡。&lt;/p&gt;&lt;p&gt;&lt;b&gt;镜头与定位：&lt;/b&gt;波密—墨脱方向的背景阅读镜头，仅用于观察地区山地。镜头中心不是仁进邦、卡拖、格布沟的坐标，也不是旧路线中点、历史范围中心或位置误差圈。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/19.htm"&gt;《艽野尘梦》第六章（3）：格布沟招降、仁进邦与卡拖&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.newsmth.net/bbsanc.php?path=%2Fgroups%2Fsci.faq%2FGeography%2F11%2Fmingqing%2FM.1183100239.C0"&gt;房建昌历史地理考察：水木2007年转载，非旧图或原刊影像&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qinghistory.cn/c/361/361193.shtml"&gt;中华文史网：《中国边疆史地研究》2000年第4期目录&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead：1913年调查报告，印刷第47页Rinchenpung条&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：另图层卡拖Kata／Kardag候选的地名依据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年报告：首章第1页与附录路线12第105页，Kata和Kato分列&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.55</longitude>
+        <latitude>29.75</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>200000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <ExtendedData>
+        <Data name="geometry_role">
+          <value>无几何说明卡；现代确址待考</value>
+        </Data>
+        <Data name="narrative_actor">
+          <value>王孚招降林噶后返回；不当陈本人经仁进邦的轨迹</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark id="katuo_reception">
+      <name>卡拖〔既有Kata候选另有Kato异名疑点；旧驻所待考〕</name>
+      <description>&lt;h3&gt;卡拖〔既有Kata候选另有Kato异名疑点；旧驻所待考〕&lt;/h3&gt;&lt;p&gt;此前陈渠珍在彝贡休息一日后，奉罗长裿调令率部赴卡拖，正文记行两日始至。随后由王孚偕番官赴格布沟招降；林噶到卡拖后，被安置于喇嘛寺并由士兵监守，陈于次日前往会见。&lt;/p&gt;&lt;p&gt;卡拖在此既是陈部驻地，也是招降返回的接收地点。喇嘛寺、军营及后续刑场不可未经证据合并为同一坐标；不自动把卡拖等同现代扎木镇、波密县城、噶陀寺或任何近音村名。&lt;/p&gt;&lt;p&gt;已发布的卡拖与野人山图层另列Kata／Kardag地区候选：95.64°E、29.91°N。其依据是KNAB将Bell1919旧名Kata归入Kardag／Kartak；汉文卡拖与该地的对应仍属推定，另一Kada／Khata独立分列，不能合并。候选点不确定罗长裿驻所、陈营地或寺院的确址。本层只引用该候选判断，不重复新增点。彝贡至卡拖的两日属于陈部另一次调动，不能移用为仁进邦至卡拖的行军时间。&lt;/p&gt;&lt;p&gt;本轮复核1913年Bailey、Morshead报告：首章把Tangme、Kata、Gondza、Kato、Nyilo分列为五个小酋地区；附录路线12又列Showa→Kato→Chumdo→Tenaka→Wongdu→Shobando，为据当地消息整理的五站路线，没有分段英里数。因此Kata与Kato不能不加说明地合并，既有Kata／Kardag点只是旧图地名参照，卡拖汉名的对应还有独立异名疑点；目前也没有可靠Kato现代坐标，不用它另造卡拖点。&lt;/p&gt;&lt;p&gt;&lt;b&gt;镜头与定位：&lt;/b&gt;波密—墨脱方向的背景阅读镜头，仅用于观察地区山地。镜头中心不是仁进邦、卡拖、格布沟的坐标，也不是旧路线中点、历史范围中心或位置误差圈。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/19.htm"&gt;《艽野尘梦》第六章（3）：格布沟招降、仁进邦与卡拖&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.newsmth.net/bbsanc.php?path=%2Fgroups%2Fsci.faq%2FGeography%2F11%2Fmingqing%2FM.1183100239.C0"&gt;房建昌历史地理考察：水木2007年转载，非旧图或原刊影像&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qinghistory.cn/c/361/361193.shtml"&gt;中华文史网：《中国边疆史地研究》2000年第4期目录&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead：1913年调查报告，印刷第47页Rinchenpung条&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：另图层卡拖Kata／Kardag候选的地名依据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年报告：首章第1页与附录路线12第105页，Kata和Kato分列&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.55</longitude>
+        <latitude>29.75</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>200000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <ExtendedData>
+        <Data name="geometry_role">
+          <value>无几何说明卡；现代确址待考</value>
+        </Data>
+        <Data name="narrative_actor">
+          <value>王孚招降林噶后返回；不当陈本人经仁进邦的轨迹</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark id="renjinbang_actors_sequence">
+      <name>行动者与顺序｜格布沟→仁进邦→卡拖〔王孚招降返回支线〕</name>
+      <description>&lt;h3&gt;行动者与顺序｜格布沟→仁进邦→卡拖〔王孚招降返回支线〕&lt;/h3&gt;&lt;p&gt;王孚是前往格布沟劝降的排长，同行者有一名番官；林噶是被劝说后率众返回的波方头目，仁进邦截留的是其随从。正文以王孚所述交代格布沟道路、藤桥和会见情况。&lt;/p&gt;&lt;p&gt;可确认的叙事关系为格布沟劝降，返回时经仁进邦，继而至卡拖；原文未列两段间的全部地点或完整路线。此箭头仅表达叙事顺序，不形成地理连线。&lt;/p&gt;&lt;p&gt;陈渠珍在卡拖参与接待及后续事件，不能因原文使用我军二字，就把王孚的招降返回路线归入陈本人亲历的行军轨迹。&lt;/p&gt;&lt;p&gt;&lt;b&gt;镜头与定位：&lt;/b&gt;波密—墨脱方向的背景阅读镜头，仅用于观察地区山地。镜头中心不是仁进邦、卡拖、格布沟的坐标，也不是旧路线中点、历史范围中心或位置误差圈。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/19.htm"&gt;《艽野尘梦》第六章（3）：格布沟招降、仁进邦与卡拖&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.newsmth.net/bbsanc.php?path=%2Fgroups%2Fsci.faq%2FGeography%2F11%2Fmingqing%2FM.1183100239.C0"&gt;房建昌历史地理考察：水木2007年转载，非旧图或原刊影像&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qinghistory.cn/c/361/361193.shtml"&gt;中华文史网：《中国边疆史地研究》2000年第4期目录&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead：1913年调查报告，印刷第47页Rinchenpung条&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：另图层卡拖Kata／Kardag候选的地名依据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年报告：首章第1页与附录路线12第105页，Kata和Kato分列&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.55</longitude>
+        <latitude>29.75</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>200000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <ExtendedData>
+        <Data name="geometry_role">
+          <value>无几何说明卡；现代确址待考</value>
+        </Data>
+        <Data name="narrative_actor">
+          <value>王孚招降林噶后返回；不当陈本人经仁进邦的轨迹</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark id="renjinbang_time_distance">
+      <name>距离与耗时｜候一日、又住两日为等待；仁进邦→卡拖未载</name>
+      <description>&lt;h3&gt;距离与耗时｜候一日、又住两日为等待；仁进邦→卡拖未载&lt;/h3&gt;&lt;p&gt;王孚至格布沟时，先候一日才获准过桥；说明来意后，又住两日继续劝慰，林噶才率众来降。这两处日数是等待与劝说时间，不是格布沟至仁进邦或仁进邦至卡拖的行军耗时。&lt;/p&gt;&lt;p&gt;前往格布沟沿途历藤桥七处，是桥梁数量，不能解释为七日或七站；仁进邦驻兵一营也不是日数。正文没有给出仁进邦至卡拖的公里数、单段行军日数或小时数。&lt;/p&gt;&lt;p&gt;林噶到卡拖后，次日陈渠珍前往会见，翌晨发生后续处置；这些是到达后的相对日序，不据此推算仁进邦至卡拖的距离或在途时间。&lt;/p&gt;&lt;p&gt;陈从彝贡赴卡拖另记行两日，出发前休息一日；该段与王孚招降返回支线分开记录，不合并成同一条路线或统一总时长。&lt;/p&gt;&lt;p&gt;&lt;b&gt;镜头与定位：&lt;/b&gt;波密—墨脱方向的背景阅读镜头，仅用于观察地区山地。镜头中心不是仁进邦、卡拖、格布沟的坐标，也不是旧路线中点、历史范围中心或位置误差圈。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/19.htm"&gt;《艽野尘梦》第六章（3）：格布沟招降、仁进邦与卡拖&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.newsmth.net/bbsanc.php?path=%2Fgroups%2Fsci.faq%2FGeography%2F11%2Fmingqing%2FM.1183100239.C0"&gt;房建昌历史地理考察：水木2007年转载，非旧图或原刊影像&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qinghistory.cn/c/361/361193.shtml"&gt;中华文史网：《中国边疆史地研究》2000年第4期目录&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead：1913年调查报告，印刷第47页Rinchenpung条&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：另图层卡拖Kata／Kardag候选的地名依据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年报告：首章第1页与附录路线12第105页，Kata和Kato分列&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.55</longitude>
+        <latitude>29.75</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>200000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <ExtendedData>
+        <Data name="geometry_role">
+          <value>无几何说明卡；现代确址待考</value>
+        </Data>
+        <Data name="narrative_actor">
+          <value>王孚招降林噶后返回；不当陈本人经仁进邦的轨迹</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark id="renjinbang_evidence_limits">
+      <name>地名证据辨析｜旧金珠西南方向线索；不与仁青崩直接等同</name>
+      <description>&lt;h3&gt;地名证据辨析｜旧金珠西南方向线索；不与仁青崩直接等同&lt;/h3&gt;&lt;p&gt;房建昌《雅鲁藏布江大拐弯峡谷至下游底杭河名称的由来及历史地理考察》转述波密军用略图，将仁进邦标在金珠村西南，并以发表时的区划解释金珠为墨脱县金珠区驻地格当乡。该解释提供格当方向的区域线索，不是仁进邦的现代坐标。&lt;/p&gt;&lt;p&gt;房文发表于《中国边疆史地研究》2000年第4期，第30—43页；本次读取的是2007年水木转载，原刊书目经中华文史网目录交叉核对。转载不是旧图原页，书目目录也不支持仁进邦具体方位。房文注①所指相关图文为罗春驭辑《泣血缉存》民国初年自印本卷二页10下、13上；本轮未亲见该旧图或图说原页，因此不依西南二字画点、范围或搜索圈。&lt;/p&gt;&lt;p&gt;1913年Bailey、Morshead报告中的Rinchenpung是Meto附近的山中小寺，其记录可与今墨脱仁青崩、仁钦崩寺作近音比较。但现有资料没有把仁进邦与该寺直接联系起来，不据音近合并地名，也不把该寺、其附近标本采集点或Meto的坐标移给仁进邦。&lt;/p&gt;&lt;p&gt;房文另引仁进邦业巴蒲冲等与白马青翁之死有关的历史记载，属于另一件事；这类资料可以补充同名地区的存在及背景，不能替代当前王孚招降林噶这一段的行动者、时间和路线。&lt;/p&gt;&lt;p&gt;&lt;b&gt;镜头与定位：&lt;/b&gt;波密—墨脱方向的背景阅读镜头，仅用于观察地区山地。镜头中心不是仁进邦、卡拖、格布沟的坐标，也不是旧路线中点、历史范围中心或位置误差圈。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/19.htm"&gt;《艽野尘梦》第六章（3）：格布沟招降、仁进邦与卡拖&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.newsmth.net/bbsanc.php?path=%2Fgroups%2Fsci.faq%2FGeography%2F11%2Fmingqing%2FM.1183100239.C0"&gt;房建昌历史地理考察：水木2007年转载，非旧图或原刊影像&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.qinghistory.cn/c/361/361193.shtml"&gt;中华文史网：《中国边疆史地研究》2000年第4期目录&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead：1913年调查报告，印刷第47页Rinchenpung条&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名库：另图层卡拖Kata／Kardag候选的地名依据&lt;/a&gt;&lt;br/&gt;&lt;a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"&gt;Bailey、Morshead 1913年报告：首章第1页与附录路线12第105页，Kata和Kato分列&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>95.55</longitude>
+        <latitude>29.75</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>200000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <ExtendedData>
+        <Data name="geometry_role">
+          <value>无几何说明卡；现代确址待考</value>
+        </Data>
+        <Data name="narrative_actor">
+          <value>王孚招降林噶后返回；不当陈本人经仁进邦的轨迹</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+  </Document>
+</kml>
