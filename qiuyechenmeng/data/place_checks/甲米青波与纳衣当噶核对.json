@@ -1,0 +1,100 @@
+{
+  "checked_at": "2026-11-01",
+  "chapter": "第5章；第6章重经旧垒另述",
+  "title": "甲米青波与纳衣当噶｜1913年旧道候选对照",
+  "quote": "是日宿营纳衣当噶。有人户三十余家。次日宿甲米青波，则旷野荒山。",
+  "scope": "两处均是编辑选取的候选阅读中心，不是已确证的现代地名、考古点或旧营地坐标。不接入陈渠珍的精确行军路线，不计算两候选点直距并冒作实走里程。",
+  "places": [
+    {
+      "id": "nayidangga_candidate",
+      "name": "纳衣当噶候选〔Layoting旧道地区；大概位置〕",
+      "historical_candidate": "Layöting／Layoting",
+      "lon": 94.91,
+      "lat": 30.0,
+      "strength": "较弱候选：地点顺序、三十余户相合；名称对应未闭合",
+      "evidence": "Bailey、Morshead的1913年调查记Layoting约三十户，位于Tongkyuk Bridge与Chema chembo之间，村庄已毁。该顺序和规模与书中纳衣当噶相合，但未找到纳衣当噶与Layoting的藏文异译或直接对照，不能写成同一地点已获确认。报告附录II印刷第(18)页给Layoting村南缘实测纬度29°59′45″N；附图标有Layöting，图读经度约94.91°E。",
+      "coordinate_method": "阅读中心取94.91°E、30.00°N。纬度据1913年报告观测值舍入，经度据1914年初步附图粗读；未实施旧图基准转换或现代地物配准。历史村南缘的纬度观测不等于其与纳衣当噶的身份确证，也不赋予本点米级精度。",
+      "timing": "陈、张两营由冬九出发，当日宿此；次日宿甲米青波。可记为一个宿营日段，不能换算成连续24小时或精确行军小时数。后来的石门修筑两日、驻防与撤退另述，不并入这一天。",
+      "limits": "不直接等同现代拉月村，不把报告Layoting点、现代东久村和1913年Tongkyuk桥自动视为同址；纳衣当噶石门、寨址及营地均未定位。"
+    },
+    {
+      "id": "jiamiqingbo_candidate",
+      "name": "甲米青波候选〔Chema chembo旧道地区；大概位置〕",
+      "historical_candidate": "Chema chembo／Chema Chembo",
+      "lon": 95.0,
+      "lat": 30.0,
+      "strength": "较强候选：名称音形与冬九—八浪登间顺序相合；现代确址未定",
+      "evidence": "1913年7月7日，Bailey、Morshead由Trulung经Palongteng、Desingko La到Chema chembo废村田地宿营；7月8日再经Layoting到Tongkyuk Bridge。将反向顺序与陈书冬九→纳衣当噶→甲米青波→八浪登对照，Chema chembo的音形与甲米青波相近、位置顺序吻合，是较强候选；报告所见毁村荒地也提供环境旁证，但后来的毁村状态不能用来证明陈到时已经荒废。",
+      "coordinate_method": "阅读中心95.00°E、30.00°N为编辑选取，参考报告所述Layoting东侧、Palongteng西侧的旧Rong Chu谷道与Netang沟口方向。附图没有标注Chema chembo，故本点不是从旧图直接读取的该村坐标，更不是现代同名村测绘点。只供转动地球查看周围地形。",
+      "timing": "继纳衣当噶之后，次日在此宿营；再下一日前进并在沿途作战，抵八浪登。后来的八浪登撤退途中又在甲米青波大休息，继而夜半抵纳衣当噶；两次经过分别记录，不混成一趟。",
+      "limits": "没有已核实的现代中文对应、藏文名或营地遗址。不得仅凭音近标成确定古址，不把现代排龙村或现代公路上的某个地点改名为甲米青波。"
+    }
+  ],
+  "narrative_sequence": [
+    "先前已在冬九停留，不能把鲁朗出发日与本轮日序连续编号",
+    "本轮第1日：冬九出发，当日宿纳衣当噶（三十余家）",
+    "本轮第2日：宿甲米青波（旷野荒山）",
+    "本轮第3日：前进、登山与作战，抵八浪登；原文先记行四十里，之后另叙坡路与战斗，不把四十里当全段总程",
+    "另次退军：八浪登→甲米青波大休息→夜半抵纳衣当噶；不据三更、夜半推算精确行军小时数"
+  ],
+  "distance_policy": "陈书未给纳衣当噶至甲米青波全段里程。下列数字是1913年另一调查队的旧路测程，只用于史地对照，非陈军实走里程，也不是现代公路里程；无路线复原。",
+  "comparison_distances": [
+    {
+      "from": "Tongkyuk Bridge",
+      "to": "Layoting",
+      "miles": 7.5,
+      "km": 12.07008
+    },
+    {
+      "from": "Layoting",
+      "to": "Chema chembo",
+      "miles": 6.0,
+      "km": 9.656064
+    },
+    {
+      "from": "Tongkyuk Bridge",
+      "to": "Chema chembo",
+      "miles": 13.5,
+      "km": 21.726144
+    }
+  ],
+  "miles_conversion": "1 international mile = 1.609344 km；保留报告英里原数，以0.1 km显示；换算精度不是旧测程精度。",
+  "withdrawal_distance_note": "原文纳衣当噶夜退‘行三十余里，天甫晓’后受到追击，再‘乘胜退回冬九’；三十余里只到追击点，不当作纳衣当噶至冬九的全程。",
+  "modern_reference_caution": "KNAB现代Dongjug／东久／曲尼玛村地区参照，不能未经核实当成1913年的Tongkyuk Bridge或营官寨；该报告将Chunyima另列为桥往鲁朗方向的一站。保留现有现代地区点，但本补充不依其坐标画旧道或计算12.1 km。",
+  "sources": [
+    {
+      "title": "陈渠珍《艽野尘梦》第5章：宿营、进击与撤退",
+      "url": "https://www.xuges.com/xdwx/qycm/15.htm"
+    },
+    {
+      "title": "Bailey、Morshead：1913年调查报告，1914年刊；印刷pp51–52、p102路线8、第(18)页纬度表、1914初步附图",
+      "url": "https://archive.org/details/ExplorationOnTheNorthEastFrontier1913"
+    },
+    {
+      "title": "调查报告PDF（Pahar藏本）",
+      "url": "https://pahar.in/pahar/Books%20and%20Articles/Indian%20Subcontinent/1913%20Report%20on%20an%20Exploration%20on%20the%20North%20East%20Frontier%201913%20by%20Bailey%20and%20Morshead%20s.pdf"
+    },
+    {
+      "title": "KNAB林芝地名表：现代地区定位对照，不能直接确证两旧名",
+      "url": "https://arhiiv.eki.ee/knab/valik/cn54ny.htm"
+    }
+  ],
+  "local_evidence": [
+    {
+      "file": "data/place_checks/甲米青波研究/1913报告_纬度表p18.png",
+      "description": "1913报告_纬度表p18"
+    },
+    {
+      "file": "data/place_checks/甲米青波研究/1913报告_行程p52.png",
+      "description": "1913报告_行程p52"
+    },
+    {
+      "file": "data/place_checks/甲米青波研究/1913报告_路线8p102.png",
+      "description": "1913报告_路线8p102"
+    },
+    {
+      "file": "data/place_checks/甲米青波研究/1914初步附图_北侧局部.png",
+      "description": "1914初步附图_北侧局部"
+    }
+  ]
+}
