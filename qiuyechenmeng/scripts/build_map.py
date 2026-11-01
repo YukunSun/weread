@@ -19,6 +19,7 @@ from post_routes import load as load_post_routes
 from annotation_eleven import add_annotation11, add_deep_research, add_approximate_places, write_annotation11_indexes, unlocated_entries, load as load_annotation11
 from annotation11_figure import write_figure
 from gongbu_pacification import add_gongbu_pacification, write_gongbu_indexes, unlocated_entries as gongbu_unlocated_entries
+from balangdeng import add_folder as add_balangdeng, write_index as write_balangdeng_index
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -112,7 +113,8 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第2—3章','恩达汛署／堪布营地','已补今桑多镇恩达村代表点，但汛署及堪布大营遗址未定位。'),
 ('第3章','三十九族','区域名称，不能当一座城镇。未知作者在该区域的逐站行迹。'),
 ('第4章；校注27','百马岗召询现场及绕行路线','08层以现代墨脱镇、墨脱村地区点参照校注所指百马岗／白马岗。该点不是召询现场或陈部驻地，历史地区不直接等同现代县界，不能据此断言作者到今县城；正文从窝冗绕行六日、后行四日至德摩与受访者自述路程分别保留，具体路线未定位。'),
-('第5—7章','纳衣当噶、八浪登、京中、树枝、央噶','德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。'),
+('第5—7章','纳衣当噶、京中、树枝、央噶','德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。'),
+('第5—6章；校注33','八浪登、甲米青波及前方石卡','八浪登为冬九—汤买方向旧山路上的山腹隘口，现代名称与确址未定；甲米青波宿营地、前方石卡与隘口分别待考。17层只有文字核对卡与地区背景镜头，不造地点或路线几何。'),
 ('第6—7章','卡拖、八阶、夥若桥','具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。'),
 ('第8章','凝多／凝多塘','北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。'),
 ('第8章','哈喇乌苏','按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。'),
@@ -567,6 +569,15 @@ def make_map(bundled=False):
     add_rivers(doc,el,view,kcolor,bundled)
     add_annotation11(doc,el,view,bundled,True)
     add_gongbu_pacification(doc,el,view,kcolor,bundled)
+    add_balangdeng(doc,el,view)
+    return serialize(root)
+
+def make_balangdeng_supplement():
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='balangdeng_supplement')
+    el(doc,'name','《艽野尘梦》八浪登旧山路核对｜确址待考');el(doc,'open',1)
+    el(doc,'description','无几何的山路区段核对卡。镜头只供查看现代东久—通麦方向，不代表八浪登坐标、旧道、古界或误差范围。')
+    view(doc,94.90258,29.964635,180000)
+    add_balangdeng(doc,el,view)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -723,6 +734,11 @@ def main():
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     gongjue_note=write_gongjue_index()
     bomi_note=write_bomi_index()
+    balangdeng='艽野尘梦_八浪登山路核对'
+    (ROOT/(balangdeng+'.kml')).write_bytes(make_balangdeng_supplement())
+    with zipfile.ZipFile(ROOT/(balangdeng+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_balangdeng_supplement())
+    balangdeng_note=write_balangdeng_index()
     bomi='艽野尘梦_波密地区参照'
     (ROOT/(bomi+'.kml')).write_bytes(make_bomi_supplement())
     with zipfile.ZipFile(ROOT/(bomi+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -922,6 +938,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n二十四、贡觉｜米瑞广久一带候选；旧宅未定\n'+gongjue_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n二十五、波密｜历史地区；今扎木镇方位参照\n'+bomi_note)
+        f.write('\n二十六、八浪登旧山路核对｜确址待考\n'+balangdeng_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':

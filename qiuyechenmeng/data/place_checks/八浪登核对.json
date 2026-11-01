@@ -1,0 +1,94 @@
+{
+  "checked_at": "2026-11-01",
+  "name": "八浪登〔冬九—汤买之间山路；确址待考〕",
+  "modern_identification": null,
+  "geometry": null,
+  "summary": "八浪登在正文中是一处无人烟的山腹隘口。其叙事位置在冬九、纳衣当噶、甲米青波之后，京中、树枝、央噶三山和汤买之前；现代名称、隘口、营地及前方石卡尚未定位。",
+  "look_at": {
+    "lon": 94.90258,
+    "lat": 29.964635,
+    "range_m": 180000,
+    "reference_endpoints": [
+      {
+        "id": "dongjiu",
+        "lon": 94.74056,
+        "lat": 29.83167,
+        "kind": "既有东久村地区参照"
+      },
+      {
+        "id": "tongmai",
+        "lon": 95.0646,
+        "lat": 30.0976,
+        "kind": "既有通麦渡河地区参照"
+      }
+    ],
+    "note": "镜头中心只是既有现代东久、通麦地区参照点的算术中间位置，视距180km，用来查看东久—通麦方向的山地背景。它不是八浪登坐标、历史路线中点、隘口中心、古界或位置误差范围；两端代表点也不是已测定的旧寨与旧渡口。"
+  },
+  "cards": [
+    {
+      "id": "place",
+      "name": "八浪登〔冬九—汤买之间山路；确址待考〕",
+      "paragraphs": [
+        "第5章出兵前先获知八浪登道路险峻，决定陈渠珍全营与张鸿升工程营部队先进，主力在纳衣当噶等待。随后正文明确描写八浪登为“山腹隘口”，当时无人居住；不是一座已识别的现代村镇或山峰。",
+        "文字可确定它位于冬九至汤买方向的旧山路上，经过纳衣当噶、甲米青波后才到达；前进还需通过京中、树枝、央噶三山。任乃强校注33将八浪登与其后三山合称纳衣当噶—汤买之间的四重山地，并作历史工布、波密分界的解释。",
+        "1913年Bailey、Morshead调查记有旧名Palong Teng／Palongteng。其反向行程由Chema chembo经Desinko La到Palong Teng废村，再越Chabji La至Trulung。Palongteng与八浪登音形接近；若甲米青波对应Chema chembo的候选判断成立，旧道先后也可对照。因此列为历史地名候选线索，尚未确证同一地点。报告所记是村址，陈书所记是无人烟隘口，不能直接采用村址或任一邻近山脊的坐标。",
+        "本轮未找到足以核定其现代名称及位置的直接证据。山腹隘口、后方营地、下山后的石卡伏击地及遗骸收葬处不能合并成一个精确战场点，也不把八浪登直接等同色季拉、排龙或任何现代山口。现代G318及现今谷地仅作背景，旧道和古界均未复原。"
+      ]
+    },
+    {
+      "id": "sequence",
+      "name": "进军顺序与日数分读〔非路线复原〕",
+      "paragraphs": [
+        "第5章首次进军的宿营顺序：由冬九出发，当晚宿纳衣当噶；次日宿甲米青波；再次日前进抵八浪登。陈继续下山至前方石卡受阻，退至河边，之后沿溪登山回八浪登。这是抵达、前出与返回的叙述，不把出兵前的计划当作已走完的路线。",
+        "第6章反攻时复过纳衣当噶、八浪登，在八浪登下山处收葬遗骸停半日；随后通过京中、树枝、央噶三山记用三日，负重商旅则记需六日。三日与六日属于同一山路不同通行情境，不是八浪登单点的驻留日数，也不彼此相加。",
+        "过后三山下山后又行半日至汤买。原文各处里数、宿营日序、收葬停留与后续通行时间分别保留，不折算出精确公里数，不按现代公路分摊日数，不为整个波密战事填统一总时长。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "第5章：进兵计划、宿营日序与山腹隘口",
+      "url": "https://www.xuges.com/xdwx/qycm/15.htm",
+      "supports": "冬九—纳衣当噶—甲米青波—八浪登的先后，以及山腹隘口和前方石卡、河边伏击地的区别；没有提供现代对应坐标。"
+    },
+    {
+      "title": "第5章：退兵经甲米青波、纳衣当噶至冬九",
+      "url": "https://www.xuges.com/xdwx/qycm/16.htm",
+      "supports": "回撤、纳衣当噶防守及冬九方向的关系；不能把后来的守备事件全部记在八浪登。"
+    },
+    {
+      "title": "第6章及校注33：四重山地与三日、六日之别",
+      "url": "https://www.xuges.com/xdwx/qycm/17.htm",
+      "supports": "八浪登下山收葬停半日，其后另经京中、树枝、央噶；部队通过三日、负重商旅六日，后下山半日至汤买。校注的古界解释不是已测绘边界。"
+    },
+    {
+      "title": "地质力学学报2018：藏东南鲁朗—通麦崩塌滑坡孕灾地质背景特征研究",
+      "url": "https://pubs.cstam.org.cn/article/doi/10.12090/j.issn.1006-6616.2018.24.04.049",
+      "supports": "现代鲁朗—东久—拉月—排龙—通麦走廊的地质与地形背景；未给八浪登的古今对应，不用于识别某现代山口或复原旧行军道。"
+    },
+    {
+      "title": "Bailey、Morshead：1913年行程报告（1914年刊），印刷第52页",
+      "url": "https://archive.org/details/ExplorationOnTheNorthEastFrontier1913/page/n82/mode/1up",
+      "supports": "已视觉核对PDF第83页。Palong Teng废村、Desinko La、Chema chembo在同一旧道中的先后；只列八浪登音形与地望的候选，不将村址、相邻山脊和书中隘口合并。"
+    }
+  ],
+  "google_earth_import": {
+    "verified_at": "2026-11-01T10:27:00+08:00",
+    "note": "已将新版八浪登山路核对KMZ导入原Google Earth阅读地图，根目录与17层两张无几何说明卡均出现。打开八浪登卡核验山腹隘口、条件性的Palongteng历史地名候选、村址与隘口不可合并及现代确址未定说明；打开另一卡核验首次宿营顺序与后三山三日、负重商旅六日分读。镜头按180km概览展示现代东久—通麦方向，无八浪登地点或线路几何。最初导入的旧版卡片根目录已隐藏，最终新版可见。已确认页面显示“已保存到Google云端硬盘”，并保存最终地图与弹窗截图。",
+    "screenshot": "data/place_checks/balangdeng_google_earth.jpg",
+    "geometry_present": false,
+    "previous_card_layer_hidden": true
+  },
+  "historical_name_candidate": {
+    "name": "Palong Teng／Palongteng",
+    "status": "音形及旧道先后的候选对照；尚未确证同一地名或隘口",
+    "basis": "Bailey、Morshead的1913年行程（1914年刊）印刷第52页，将Palong Teng记为Rong Chu谷地中的废村，另列Desinko La与Chabji La两山脊。按其反向行程，Chema chembo在西，Palong Teng在东；若甲米青波与Chema chembo的候选对照成立，其先后与八浪登在甲米青波之后相合。",
+    "limit": "音形与先后仅支持地望线索；报告是村址，陈书记为无人烟的山腹隘口，两个对象不可直接套同一坐标，也不能把相邻Desinko La或Chabji La自动改称八浪登。Chema chembo的对应同样尚属候选。",
+    "coordinate": null,
+    "source_url": "https://archive.org/details/ExplorationOnTheNorthEastFrontier1913/page/n82/mode/1up",
+    "printed_page": 52,
+    "pdf_page": 83,
+    "publication_year": 1914,
+    "verified_source_image": "data/place_checks/balangdeng_bailey_morshead_1914_p52.png"
+  }
+}

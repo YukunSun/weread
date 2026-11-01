@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="balangdeng_supplement">
+    <name>《艽野尘梦》八浪登旧山路核对｜确址待考</name>
+    <open>1</open>
+    <description><![CDATA[无几何的山路区段核对卡。镜头只供查看现代东久—通麦方向，不代表八浪登坐标、旧道、古界或误差范围。]]></description>
+    <LookAt>
+      <longitude>94.90258</longitude>
+      <latitude>29.964635</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>180000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Folder id="balangdeng_check">
+      <name>17 八浪登旧山路核对｜确址待考</name>
+      <open>1</open>
+      <description><![CDATA[八浪登在正文中是一处无人烟的山腹隘口。其叙事位置在冬九、纳衣当噶、甲米青波之后，京中、树枝、央噶三山和汤买之前；现代名称、隘口、营地及前方石卡尚未定位。 镜头中心只是既有现代东久、通麦地区参照点的算术中间位置，视距180km，用来查看东久—通麦方向的山地背景。它不是八浪登坐标、历史路线中点、隘口中心、古界或位置误差范围；两端代表点也不是已测定的旧寨与旧渡口。]]></description>
+      <LookAt>
+        <longitude>94.90258</longitude>
+        <latitude>29.964635</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>180000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="balangdeng_place">
+        <name>八浪登〔冬九—汤买之间山路；确址待考〕</name>
+        <description><![CDATA[<h3>八浪登〔冬九—汤买之间山路；确址待考〕</h3><p>第5章出兵前先获知八浪登道路险峻，决定陈渠珍全营与张鸿升工程营部队先进，主力在纳衣当噶等待。随后正文明确描写八浪登为“山腹隘口”，当时无人居住；不是一座已识别的现代村镇或山峰。</p><p>文字可确定它位于冬九至汤买方向的旧山路上，经过纳衣当噶、甲米青波后才到达；前进还需通过京中、树枝、央噶三山。任乃强校注33将八浪登与其后三山合称纳衣当噶—汤买之间的四重山地，并作历史工布、波密分界的解释。</p><p>1913年Bailey、Morshead调查记有旧名Palong Teng／Palongteng。其反向行程由Chema chembo经Desinko La到Palong Teng废村，再越Chabji La至Trulung。Palongteng与八浪登音形接近；若甲米青波对应Chema chembo的候选判断成立，旧道先后也可对照。因此列为历史地名候选线索，尚未确证同一地点。报告所记是村址，陈书所记是无人烟隘口，不能直接采用村址或任一邻近山脊的坐标。</p><p>本轮未找到足以核定其现代名称及位置的直接证据。山腹隘口、后方营地、下山后的石卡伏击地及遗骸收葬处不能合并成一个精确战场点，也不把八浪登直接等同色季拉、排龙或任何现代山口。现代G318及现今谷地仅作背景，旧道和古界均未复原。</p><p><b>镜头与定位：</b>镜头中心只是既有现代东久、通麦地区参照点的算术中间位置，视距180km，用来查看东久—通麦方向的山地背景。它不是八浪登坐标、历史路线中点、隘口中心、古界或位置误差范围；两端代表点也不是已测定的旧寨与旧渡口。</p><p><a href="https://www.xuges.com/xdwx/qycm/15.htm">第5章：进兵计划、宿营日序与山腹隘口</a><br/><a href="https://www.xuges.com/xdwx/qycm/16.htm">第5章：退兵经甲米青波、纳衣当噶至冬九</a><br/><a href="https://www.xuges.com/xdwx/qycm/17.htm">第6章及校注33：四重山地与三日、六日之别</a><br/><a href="https://pubs.cstam.org.cn/article/doi/10.12090/j.issn.1006-6616.2018.24.04.049">地质力学学报2018：藏东南鲁朗—通麦崩塌滑坡孕灾地质背景特征研究</a><br/><a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913/page/n82/mode/1up">Bailey、Morshead：1913年行程报告（1914年刊），印刷第52页</a></p>]]></description>
+        <LookAt>
+          <longitude>94.90258</longitude>
+          <latitude>29.964635</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>180000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="balangdeng_sequence">
+        <name>进军顺序与日数分读〔非路线复原〕</name>
+        <description><![CDATA[<h3>进军顺序与日数分读〔非路线复原〕</h3><p>第5章首次进军的宿营顺序：由冬九出发，当晚宿纳衣当噶；次日宿甲米青波；再次日前进抵八浪登。陈继续下山至前方石卡受阻，退至河边，之后沿溪登山回八浪登。这是抵达、前出与返回的叙述，不把出兵前的计划当作已走完的路线。</p><p>第6章反攻时复过纳衣当噶、八浪登，在八浪登下山处收葬遗骸停半日；随后通过京中、树枝、央噶三山记用三日，负重商旅则记需六日。三日与六日属于同一山路不同通行情境，不是八浪登单点的驻留日数，也不彼此相加。</p><p>过后三山下山后又行半日至汤买。原文各处里数、宿营日序、收葬停留与后续通行时间分别保留，不折算出精确公里数，不按现代公路分摊日数，不为整个波密战事填统一总时长。</p><p><b>镜头与定位：</b>镜头中心只是既有现代东久、通麦地区参照点的算术中间位置，视距180km，用来查看东久—通麦方向的山地背景。它不是八浪登坐标、历史路线中点、隘口中心、古界或位置误差范围；两端代表点也不是已测定的旧寨与旧渡口。</p><p><a href="https://www.xuges.com/xdwx/qycm/15.htm">第5章：进兵计划、宿营日序与山腹隘口</a><br/><a href="https://www.xuges.com/xdwx/qycm/16.htm">第5章：退兵经甲米青波、纳衣当噶至冬九</a><br/><a href="https://www.xuges.com/xdwx/qycm/17.htm">第6章及校注33：四重山地与三日、六日之别</a><br/><a href="https://pubs.cstam.org.cn/article/doi/10.12090/j.issn.1006-6616.2018.24.04.049">地质力学学报2018：藏东南鲁朗—通麦崩塌滑坡孕灾地质背景特征研究</a><br/><a href="https://archive.org/details/ExplorationOnTheNorthEastFrontier1913/page/n82/mode/1up">Bailey、Morshead：1913年行程报告（1914年刊），印刷第52页</a></p>]]></description>
+        <LookAt>
+          <longitude>94.90258</longitude>
+          <latitude>29.964635</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>180000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
