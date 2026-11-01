@@ -42740,5 +42740,1914 @@
         </LookAt>
       </Placemark>
     </Folder>
+    <Folder id="qingzang_annotation54_three_routes">
+      <name>校注54 青藏三道｜西、中、东道地区关系示意</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <description><![CDATA[<h3>校注54 青藏三道｜西、中、东道地区关系示意</h3><p>依据任乃强校注54绘制西宁至拉萨三道的地区先后关系，供与陈渠珍北返候选线及现代道路叠加比较。三道属于校注所述交通格局，不表示陈氏分别走过这三条路线。</p><p>金黄色虚线＝西道，玫红色虚线＝中道，青绿色虚线＝东道；灰白虚线＝本图单列的共用地区走廊。空心点只作现代地区参照。各道分别开关，玉树旁通昌都支路默认关闭。</p><p>按校注文字的地区先后和分合关系绘制，尚未核得校注所附交通路线图。经纬折点用于把文字关系放到地理框架内，不等于古站、旧渡口、山口或确切会合位置。线段省略实际绕折；柴达木分歧、沿青海湖的湖侧、黄河与通天河旧渡、各道翻越当拉岭及合路处均保留待考。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+      <LookAt>
+        <longitude>96.3</longitude>
+        <latitude>33.0</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>1800000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="qingzang54_overview">
+        <name>三道总览〔任注路线关系，非陈氏实走线〕</name>
+        <description><![CDATA[<h3>校注54 青藏三道｜西、中、东道地区关系示意</h3><p>依据任乃强校注54绘制西宁至拉萨三道的地区先后关系，供与陈渠珍北返候选线及现代道路叠加比较。三道属于校注所述交通格局，不表示陈氏分别走过这三条路线。</p><p>金黄色虚线＝西道，玫红色虚线＝中道，青绿色虚线＝东道；灰白虚线＝本图单列的共用地区走廊。空心点只作现代地区参照。各道分别开关，玉树旁通昌都支路默认关闭。</p><p>按校注文字的地区先后和分合关系绘制，尚未核得校注所附交通路线图。经纬折点用于把文字关系放到地理框架内，不等于古站、旧渡口、山口或确切会合位置。线段省略实际绕折；柴达木分歧、沿青海湖的湖侧、黄河与通天河旧渡、各道翻越当拉岭及合路处均保留待考。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Folder id="qingzang54_references">
+        <name>地区参照〔空心点；旧渡口、山口和合路待考〕</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Placemark id="qingzang54_node_xining">
+          <name>西宁〔现代城区参照〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>西宁〔现代城区参照〕</h3><p>三道的北端总览参照；旧西宁城出发点未细定。</p><p>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</p><p>把握程度：现代地区参照；旧路未定</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a><br/><a href="https://github.com/YukunSun/weread/blob/0e35be52c7acbf05b1a64fab2e33f43ba2be6218/qiuyechenmeng/scripts/build_map.py">本项目既有西宁、湟源、日月山及青海湖地区参照</a></p>]]></description>
+          <LookAt>
+            <longitude>101.7781</longitude>
+            <latitude>36.6169</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <IconStyle>
+              <color>ffe8f1f4</color>
+              <scale>0.72</scale>
+              <Icon>
+                <href>icons/qingzang_three_routes_reference.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ffffffff</color>
+              <scale>0.88</scale>
+            </LabelStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="certainty">
+              <value>现代地区参照；旧路未定</value>
+            </Data>
+            <Data name="coordinate_role">
+              <value>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</value>
+            </Data>
+            <Data name="basis">
+              <value>三道的北端总览参照；旧西宁城出发点未细定。</value>
+            </Data>
+            <Data name="source_keys">
+              <value>annotation54;map_refs</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.778100,36.616900,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="qingzang54_node_huangyuan">
+          <name>湟源〔丹噶尔地区参照〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>湟源〔丹噶尔地区参照〕</h3><p>东道明确自湟源起；西中道只借此作北端地理布局参照。</p><p>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</p><p>把握程度：现代地区参照；旧路未定</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a><br/><a href="https://github.com/YukunSun/weread/blob/0e35be52c7acbf05b1a64fab2e33f43ba2be6218/qiuyechenmeng/scripts/build_map.py">本项目既有西宁、湟源、日月山及青海湖地区参照</a></p>]]></description>
+          <LookAt>
+            <longitude>101.2643</longitude>
+            <latitude>36.689</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <IconStyle>
+              <color>ffe8f1f4</color>
+              <scale>0.72</scale>
+              <Icon>
+                <href>icons/qingzang_three_routes_reference.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ffffffff</color>
+              <scale>0.88</scale>
+            </LabelStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="certainty">
+              <value>现代地区参照；旧路未定</value>
+            </Data>
+            <Data name="coordinate_role">
+              <value>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</value>
+            </Data>
+            <Data name="basis">
+              <value>东道明确自湟源起；西中道只借此作北端地理布局参照。</value>
+            </Data>
+            <Data name="source_keys">
+              <value>annotation54;map_refs</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.264300,36.689000,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="qingzang54_node_riyue">
+          <name>日月山〔地区参照〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>日月山〔地区参照〕</h3><p>校注明确东道逾日月山；本图西中道经此只是沿湖接续的布局，未认定同一山口。</p><p>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</p><p>把握程度：现代地区参照；旧路未定</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a><br/><a href="https://github.com/YukunSun/weread/blob/0e35be52c7acbf05b1a64fab2e33f43ba2be6218/qiuyechenmeng/scripts/build_map.py">本项目既有西宁、湟源、日月山及青海湖地区参照</a></p>]]></description>
+          <LookAt>
+            <longitude>101.0939</longitude>
+            <latitude>36.4431</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <IconStyle>
+              <color>ffe8f1f4</color>
+              <scale>0.72</scale>
+              <Icon>
+                <href>icons/qingzang_three_routes_reference.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ffffffff</color>
+              <scale>0.88</scale>
+            </LabelStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="certainty">
+              <value>现代地区参照；旧路未定</value>
+            </Data>
+            <Data name="coordinate_role">
+              <value>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</value>
+            </Data>
+            <Data name="basis">
+              <value>校注明确东道逾日月山；本图西中道经此只是沿湖接续的布局，未认定同一山口。</value>
+            </Data>
+            <Data name="source_keys">
+              <value>annotation54;map_refs</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>101.093900,36.443100,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="qingzang54_node_heimah">
+          <name>青海湖西南〔现代地区参照〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>青海湖西南〔现代地区参照〕</h3><p>借黑马河地区表现湖西南方位；不是任注明确记载的西中道驿站。</p><p>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</p><p>把握程度：现代地区参照；旧路未定</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a><br/><a href="https://github.com/YukunSun/weread/blob/0e35be52c7acbf05b1a64fab2e33f43ba2be6218/qiuyechenmeng/scripts/build_map.py">本项目既有西宁、湟源、日月山及青海湖地区参照</a></p>]]></description>
+          <LookAt>
+            <longitude>99.75</longitude>
+            <latitude>36.73</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <IconStyle>
+              <color>ffe8f1f4</color>
+              <scale>0.72</scale>
+              <Icon>
+                <href>icons/qingzang_three_routes_reference.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ffffffff</color>
+              <scale>0.88</scale>
+            </LabelStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="certainty">
+              <value>现代地区参照；旧路未定</value>
+            </Data>
+            <Data name="coordinate_role">
+              <value>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</value>
+            </Data>
+            <Data name="basis">
+              <value>借黑马河地区表现湖西南方位；不是任注明确记载的西中道驿站。</value>
+            </Data>
+            <Data name="source_keys">
+              <value>annotation54;map_refs</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>99.750000,36.730000,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="qingzang54_node_yushu">
+          <name>玉树／戒谷多〔现代地区参照〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>玉树／戒谷多〔现代地区参照〕</h3><p>校注明确东道至玉树（戒谷多）；使用现代城区粗略代表点，古站、渡口及草原出入口未定。</p><p>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</p><p>把握程度：现代地区参照；旧路未定</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.99</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <IconStyle>
+              <color>ffe8f1f4</color>
+              <scale>0.72</scale>
+              <Icon>
+                <href>icons/qingzang_three_routes_reference.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ffffffff</color>
+              <scale>0.88</scale>
+            </LabelStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="certainty">
+              <value>现代地区参照；旧路未定</value>
+            </Data>
+            <Data name="coordinate_role">
+              <value>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</value>
+            </Data>
+            <Data name="basis">
+              <value>校注明确东道至玉树（戒谷多）；使用现代城区粗略代表点，古站、渡口及草原出入口未定。</value>
+            </Data>
+            <Data name="source_keys">
+              <value>annotation54</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>96.990000,33.000000,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="qingzang54_node_lhasa">
+          <name>拉萨〔现代城区参照〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>拉萨〔现代城区参照〕</h3><p>三道的共同目的地地区参照；不定位清代衙署或入城路线。</p><p>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</p><p>把握程度：现代地区参照；旧路未定</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>91.13</longitude>
+            <latitude>29.65</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>250000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <IconStyle>
+              <color>ffe8f1f4</color>
+              <scale>0.72</scale>
+              <Icon>
+                <href>icons/qingzang_three_routes_reference.png</href>
+              </Icon>
+            </IconStyle>
+            <LabelStyle>
+              <color>ffffffff</color>
+              <scale>0.88</scale>
+            </LabelStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="certainty">
+              <value>现代地区参照；旧路未定</value>
+            </Data>
+            <Data name="coordinate_role">
+              <value>复用或舍入的现代地区代表点，非旧站、渡口或行军停留点。</value>
+            </Data>
+            <Data name="basis">
+              <value>三道的共同目的地地区参照；不定位清代衙署或入城路线。</value>
+            </Data>
+            <Data name="source_keys">
+              <value>annotation54</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>91.130000,29.650000,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder id="qingzang54_group_shared_north">
+        <name>北端与沿湖共段〔湖侧、分道点待考〕</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <description><![CDATA[<p>西／中道沿青海湖经柴达木的关系只画一次。注文明说东道经湟源、日月山；本图也借这两处现代地区为西中线的布局参照，不能据此认定三道同走每一段。沿湖南侧的示意接续不代表任注明确指定湖南岸，湖侧与分道处均待考。</p><p>按校注文字的地区先后和分合关系绘制，尚未核得校注所附交通路线图。经纬折点用于把文字关系放到地理框架内，不等于古站、旧渡口、山口或确切会合位置。线段省略实际绕折；柴达木分歧、沿青海湖的湖侧、黄河与通天河旧渡、各道翻越当拉岭及合路处均保留待考。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Placemark id="qingzang54_segment_north_reference">
+          <name>西宁—湟源—日月山〔北端地区参照〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>西宁—湟源—日月山〔北端地区参照〕</h3><p>东道明确由湟源逾日月山；西宁为三道北端。西中道借这两个地区接沿湖段仅为地理布局，并非逐段同路的断言。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ffd6e4e9</color>
+              <width>4.2</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>北端与沿湖共段〔湖侧、分道点待考〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>西宁〔现代城区参照〕 → 湟源〔丹噶尔地区参照〕 → 日月山〔地区参照〕</value>
+            </Data>
+            <Data name="basis">
+              <value>东道明确由湟源逾日月山；西宁为三道北端。西中道借这两个地区接沿湖段仅为地理布局，并非逐段同路的断言。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>101.778100,36.616900,0 101.671915,36.631801,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>101.606833,36.640933,0 101.500648,36.655834,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>101.435567,36.664967,0 101.329381,36.679867,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>101.264300,36.689000,0 101.211476,36.612771,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>101.179100,36.566050,0 101.126276,36.489821,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+        <Placemark id="qingzang54_segment_lake_qaidam">
+          <name>西／中道沿湖入柴达木〔湖侧、分道点待考〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>西／中道沿湖入柴达木〔湖侧、分道点待考〕</h3><p>校注只确定西中道沿青海湖经柴达木；本图选湖南侧—湖西南作沿湖布局，南北湖侧及盆地分道位置尚未考定。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ffd6e4e9</color>
+              <width>4.2</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>北端与沿湖共段〔湖侧、分道点待考〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>日月山〔地区参照〕 → 青海湖沿湖段〔湖侧待考〕 → 青海湖西南〔现代地区参照〕 → 柴达木分向〔盆地布局，地点未定〕</value>
+            </Data>
+            <Data name="basis">
+              <value>校注只确定西中道沿青海湖经柴达木；本图选湖南侧—湖西南作沿湖布局，南北湖侧及盆地分道位置尚未考定。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>101.093900,36.443100,0 100.989256,36.456356,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.925120,36.464480,0 100.820476,36.477736,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.756340,36.485860,0 100.651696,36.499116,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.587560,36.507240,0 100.482916,36.520496,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.418780,36.528620,0 100.314136,36.541876,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.250000,36.550000,0 100.146667,36.587200,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.083333,36.610000,0 99.980000,36.647200,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.916667,36.670000,0 99.813333,36.707200,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.750000,36.730000,0 99.627824,36.719788,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.552941,36.713529,0 99.430765,36.703318,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.355882,36.697059,0 99.233706,36.686847,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.158824,36.680588,0 99.036647,36.670376,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.961765,36.664118,0 98.839588,36.653906,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.764706,36.647647,0 98.642529,36.637435,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.567647,36.631176,0 98.445471,36.620965,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.370588,36.614706,0 98.248412,36.604494,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.173529,36.598235,0 98.051353,36.588024,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.976471,36.581765,0 97.854294,36.571553,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.779412,36.565294,0 97.657235,36.555082,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.582353,36.548824,0 97.460176,36.538612,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.385294,36.532353,0 97.263118,36.522141,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.188235,36.515882,0 97.066059,36.505671,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.991176,36.499412,0 96.869000,36.489200,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.794118,36.482941,0 96.671941,36.472729,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.597059,36.466471,0 96.474882,36.456259,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+      </Folder>
+      <Folder id="qingzang54_group_west">
+        <name>西道〔金黄色；军台正站地区关系〕</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <description><![CDATA[<p>沿青海湖经柴达木折南，沿金沙江上源穆鲁乌苏，逾当拉岭至拉萨。旧军台、河渡与山口仍需逐站考证。</p><p>按校注文字的地区先后和分合关系绘制，尚未核得校注所附交通路线图。经纬折点用于把文字关系放到地理框架内，不等于古站、旧渡口、山口或确切会合位置。线段省略实际绕折；柴达木分歧、沿青海湖的湖侧、黄河与通天河旧渡、各道翻越当拉岭及合路处均保留待考。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a><br/><a href="https://www.99csw.com/book/554/17577.htm">《艽野尘梦》校注55：格尔木与青藏西道</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Placemark id="qingzang54_segment_west_turn_south">
+          <name>西道：柴达木折南〔地区关系〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>西道：柴达木折南〔地区关系〕</h3><p>校注54记西道经柴达木折南。校注55又以格尔木地区属于青藏西道为旁证；西支借盆地较西地区与昆仑方向表达大关系，未逐站复原旧军台，也不认定注54在格尔木分道。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a><br/><a href="https://www.99csw.com/book/554/17577.htm">《艽野尘梦》校注55：格尔木与青藏西道</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ff61cef3</color>
+              <width>4.2</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>西道〔金黄色；军台正站地区关系〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>柴达木分向〔盆地布局，地点未定〕 → 柴达木较西走廊〔布局〕 → 昆仑西向通道〔布局〕</value>
+            </Data>
+            <Data name="basis">
+              <value>校注54记西道经柴达木折南。校注55又以格尔木地区属于青藏西道为旁证；西支借盆地较西地区与昆仑方向表达大关系，未逐站复原旧军台，也不认定注54在格尔木分道。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.400000,36.450000,0 96.283750,36.438375,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.212500,36.431250,0 96.096250,36.419625,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.025000,36.412500,0 95.908750,36.400875,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.837500,36.393750,0 95.721250,36.382125,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.650000,36.375000,0 95.533750,36.363375,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.462500,36.356250,0 95.346250,36.344625,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.275000,36.337500,0 95.158750,36.325875,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.087500,36.318750,0 94.971250,36.307125,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.900000,36.300000,0 94.813200,36.231800,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.760000,36.190000,0 94.673200,36.121800,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.620000,36.080000,0 94.533200,36.011800,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.480000,35.970000,0 94.393200,35.901800,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.340000,35.860000,0 94.253200,35.791800,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+        <Placemark id="qingzang54_segment_west_mulu_tanggula">
+          <name>西道：穆鲁乌苏—当拉岭〔河段与山口待考〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>西道：穆鲁乌苏—当拉岭〔河段与山口待考〕</h3><p>按沿金沙江上源穆鲁乌苏、逾当拉岭的次序绘制地区关系；不认定现代沱沱河桥、现代公路山口或陈氏除夕渡点。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ff61cef3</color>
+              <width>4.2</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>西道〔金黄色；军台正站地区关系〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>昆仑西向通道〔布局〕 → 穆鲁乌苏上源走廊〔河段待考〕 → 当拉岭西向〔翻越范围示意〕</value>
+            </Data>
+            <Data name="basis">
+              <value>按沿金沙江上源穆鲁乌苏、逾当拉岭的次序绘制地区关系；不认定现代沱沱河桥、现代公路山口或陈氏除夕渡点。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.200000,35.750000,0 94.133231,35.671308,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.092308,35.623077,0 94.025538,35.544385,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.984615,35.496154,0 93.917846,35.417462,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.876923,35.369231,0 93.810154,35.290538,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.769231,35.242308,0 93.702462,35.163615,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.661538,35.115385,0 93.594769,35.036692,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.553846,34.988462,0 93.487077,34.909769,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.446154,34.861538,0 93.379385,34.782846,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.338462,34.734615,0 93.271692,34.655923,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.230769,34.607692,0 93.164000,34.529000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.123077,34.480769,0 93.056308,34.402077,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.015385,34.353846,0 92.948615,34.275154,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.907692,34.226923,0 92.840923,34.148231,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.800000,34.100000,0 92.738000,34.024222,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.700000,33.977778,0 92.638000,33.902000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.600000,33.855556,0 92.538000,33.779778,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.500000,33.733333,0 92.438000,33.657556,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.400000,33.611111,0 92.338000,33.535333,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.300000,33.488889,0 92.238000,33.413111,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.200000,33.366667,0 92.138000,33.290889,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.100000,33.244444,0 92.038000,33.168667,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.000000,33.122222,0 91.938000,33.046444,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+        <Placemark id="qingzang54_segment_west_north_tibet">
+          <name>西道南接藏北〔接续待考〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>西道南接藏北〔接续待考〕</h3><p>表达逾当拉岭后朝拉萨方向南续；图上与其他线汇拢处是布局，不是已经定位的三道会合点。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ff61cef3</color>
+              <width>4.2</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>西道〔金黄色；军台正站地区关系〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>当拉岭西向〔翻越范围示意〕 → 藏北接续范围〔会合地点待考〕</value>
+            </Data>
+            <Data name="basis">
+              <value>表达逾当拉岭后朝拉萨方向南续；图上与其他线汇拢处是布局，不是已经定位的三道会合点。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.900000,33.000000,0 91.912400,32.910100,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.920000,32.855000,0 91.932400,32.765100,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.940000,32.710000,0 91.952400,32.620100,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.960000,32.565000,0 91.972400,32.475100,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.980000,32.420000,0 91.992400,32.330100,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.000000,32.275000,0 92.012400,32.185100,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.020000,32.130000,0 92.032400,32.040100,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.040000,31.985000,0 92.052400,31.895100,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.060000,31.840000,0 92.072400,31.750100,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.080000,31.695000,0 92.092400,31.605100,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+      </Folder>
+      <Folder id="qingzang54_group_middle">
+        <name>中道〔玫红色；径渡通天河〕</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <description><![CDATA[<p>青海湖—柴达木段与西道同，随后径渡通天河、合当拉岭大道。直趋是校注的相对关系，不表示无绕折直线或唯一渡口。</p><p>按校注文字的地区先后和分合关系绘制，尚未核得校注所附交通路线图。经纬折点用于把文字关系放到地理框架内，不等于古站、旧渡口、山口或确切会合位置。线段省略实际绕折；柴达木分歧、沿青海湖的湖侧、黄河与通天河旧渡、各道翻越当拉岭及合路处均保留待考。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Placemark id="qingzang54_segment_middle_cross_tongtian">
+          <name>中道：柴达木径渡通天河〔渡点待考〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>中道：柴达木径渡通天河〔渡点待考〕</h3><p>校注以径渡通天河区别西道沿穆鲁乌苏上源的走法。本图仅表达较直接南趋的相对关系，不给出唯一河渡、山口或通过站。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ffa675ff</color>
+              <width>4.2</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>中道〔玫红色；径渡通天河〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>柴达木分向〔盆地布局，地点未定〕 → 中道折南通道〔布局〕 → 径渡通天河范围〔旧渡点未定〕</value>
+            </Data>
+            <Data name="basis">
+              <value>校注以径渡通天河区别西道沿穆鲁乌苏上源的走法。本图仅表达较直接南趋的相对关系，不给出唯一河渡、山口或通过站。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.400000,36.450000,0 96.330250,36.380250,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.287500,36.337500,0 96.217750,36.267750,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.175000,36.225000,0 96.105250,36.155250,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.062500,36.112500,0 95.992750,36.042750,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.950000,36.000000,0 95.880250,35.930250,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.837500,35.887500,0 95.767750,35.817750,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.725000,35.775000,0 95.655250,35.705250,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.612500,35.662500,0 95.542750,35.592750,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.500000,35.550000,0 95.431800,35.475600,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.390000,35.430000,0 95.321800,35.355600,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.280000,35.310000,0 95.211800,35.235600,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.170000,35.190000,0 95.101800,35.115600,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.060000,35.070000,0 94.991800,34.995600,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.950000,34.950000,0 94.881800,34.875600,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.840000,34.830000,0 94.771800,34.755600,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.730000,34.710000,0 94.661800,34.635600,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.620000,34.590000,0 94.551800,34.515600,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.510000,34.470000,0 94.441800,34.395600,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+        <Placemark id="qingzang54_segment_middle_join_tanggula">
+          <name>中道合当拉岭大道〔合路位置待考〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>中道合当拉岭大道〔合路位置待考〕</h3><p>据渡通天河后合当拉岭大道的文字关系；旧今河名范围有重叠，不把西中两道画成经过两条完全不同的现代河流，也不定位确切合路点。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ffa675ff</color>
+              <width>4.2</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>中道〔玫红色；径渡通天河〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>径渡通天河范围〔旧渡点未定〕 → 中道合当拉岭路〔位置待考〕 → 藏北接续范围〔会合地点待考〕</value>
+            </Data>
+            <Data name="basis">
+              <value>据渡通天河后合当拉岭大道的文字关系；旧今河名范围有重叠，不把西中两道画成经过两条完全不同的现代河流，也不定位确切合路点。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.400000,34.350000,0 94.358667,34.263889,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.333333,34.211111,0 94.292000,34.125000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.266667,34.072222,0 94.225333,33.986111,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.200000,33.933333,0 94.158667,33.847222,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.133333,33.794444,0 94.092000,33.708333,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.066667,33.655556,0 94.025333,33.569444,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.000000,33.516667,0 93.958667,33.430556,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.933333,33.377778,0 93.892000,33.291667,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.866667,33.238889,0 93.825333,33.152778,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.800000,33.100000,0 93.724714,33.031357,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.678571,32.989286,0 93.603286,32.920643,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.557143,32.878571,0 93.481857,32.809929,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.435714,32.767857,0 93.360429,32.699214,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.314286,32.657143,0 93.239000,32.588500,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.192857,32.546429,0 93.117571,32.477786,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.071429,32.435714,0 92.996143,32.367071,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.950000,32.325000,0 92.874714,32.256357,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.828571,32.214286,0 92.753286,32.145643,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.707143,32.103571,0 92.631857,32.034929,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.585714,31.992857,0 92.510429,31.924214,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.464286,31.882143,0 92.389000,31.813500,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.342857,31.771429,0 92.267571,31.702786,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.221429,31.660714,0 92.146143,31.592071,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+      </Folder>
+      <Folder id="qingzang54_group_east">
+        <name>东道〔青绿色；黄河—玉树方向〕</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <description><![CDATA[<p>自湟源逾日月山，穿低平沮洳荒原，渡黄河至玉树，再穿玉树草原合当拉岭路。南续暂借东部当拉岭、聂荣方向表达宽走廊；官方古道资料只提供区域旁证，尚未证与任注东道逐段同线。旧渡和会合处待考。</p><p>按校注文字的地区先后和分合关系绘制，尚未核得校注所附交通路线图。经纬折点用于把文字关系放到地理框架内，不等于古站、旧渡口、山口或确切会合位置。线段省略实际绕折；柴达木分歧、沿青海湖的湖侧、黄河与通天河旧渡、各道翻越当拉岭及合路处均保留待考。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Placemark id="qingzang54_segment_east_yellow_yushu">
+          <name>东道：日月山—渡黄河—玉树〔旧渡与山口待考〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>东道：日月山—渡黄河—玉树〔旧渡与山口待考〕</h3><p>据日月山、低平沮洳荒原、渡黄河、玉树的顺序表达宽走廊；共和盆地、黄河上游与巴颜喀拉折点只是地理背景，并非原文明载旧站。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ffc5e069</color>
+              <width>4.2</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>东道〔青绿色；黄河—玉树方向〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>日月山〔地区参照〕 → 低平荒原／共和盆地方向〔布局〕 → 黄河上游渡河区域〔旧渡点未定〕 → 巴颜喀拉山系方向〔布局〕 → 玉树／戒谷多〔现代地区参照〕</value>
+            </Data>
+            <Data name="basis">
+              <value>据日月山、低平沮洳荒原、渡黄河、玉树的顺序表达宽走廊；共和盆地、黄河上游与巴颜喀拉折点只是地理背景，并非原文明载旧站。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>101.093900,36.443100,0 101.014056,36.388156,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.965120,36.354480,0 100.885276,36.299536,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.836340,36.265860,0 100.756496,36.210916,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.707560,36.177240,0 100.627716,36.122296,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.578780,36.088620,0 100.498936,36.033676,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.450000,36.000000,0 100.342692,35.952308,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.276923,35.923077,0 100.169615,35.875385,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>100.103846,35.846154,0 99.996538,35.798462,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.930769,35.769231,0 99.823462,35.721538,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.757692,35.692308,0 99.650385,35.644615,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.584615,35.615385,0 99.477308,35.567692,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.411538,35.538462,0 99.304231,35.490769,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.238462,35.461538,0 99.131154,35.413846,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>99.065385,35.384615,0 98.958077,35.336923,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.892308,35.307692,0 98.785000,35.260000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.719231,35.230769,0 98.611923,35.183077,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.546154,35.153846,0 98.438846,35.106154,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.373077,35.076923,0 98.265769,35.029231,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.200000,35.000000,0 98.155714,34.920286,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.128571,34.871429,0 98.084286,34.791714,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>98.057143,34.742857,0 98.012857,34.663143,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.985714,34.614286,0 97.941429,34.534571,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.914286,34.485714,0 97.870000,34.406000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.842857,34.357143,0 97.798571,34.277429,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.771429,34.228571,0 97.727143,34.148857,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.700000,34.100000,0 97.644975,34.014750,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.611250,33.962500,0 97.556225,33.877250,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.522500,33.825000,0 97.467475,33.739750,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.433750,33.687500,0 97.378725,33.602250,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.345000,33.550000,0 97.289975,33.464750,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.256250,33.412500,0 97.201225,33.327250,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.167500,33.275000,0 97.112475,33.189750,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.078750,33.137500,0 97.023725,33.052250,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+        <Placemark id="qingzang54_segment_east_grassland_join">
+          <name>东道：玉树草原—东部当拉岭／聂荣方向〔接续待考〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>东道：玉树草原—东部当拉岭／聂荣方向〔接续待考〕</h3><p>校注记穿玉树草原合当拉岭路，本图用西南宽走廊表达未知接续。聂荣古道资料只提供区域旁证，不能证明全段同一；未强折到现代109唐古拉口，未把那曲城定为唯一会合点。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a><br/><a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202407/t20240712_425475.html">西藏政府：唐蕃古道的聂荣区域背景（2024）</a><br/><a href="https://wlt.xizang.gov.cn/xwzx_69/wlyw/wldt/202407/t20240725_427246.html">西藏文旅厅：聂荣古道联系资料（2024）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ffc5e069</color>
+              <width>4.2</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>东道〔青绿色；黄河—玉树方向〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>玉树／戒谷多〔现代地区参照〕 → 玉树草原西南走廊〔布局〕 → 东部当拉岭方向〔接续待考〕 → 聂荣方向〔区域旁证〕 → 藏北接续范围〔会合地点待考〕</value>
+            </Data>
+            <Data name="basis">
+              <value>校注记穿玉树草原合当拉岭路，本图用西南宽走廊表达未知接续。聂荣古道资料只提供区域旁证，不能证明全段同一；未强折到现代109唐古拉口，未把那曲城定为唯一会合点。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.990000,33.000000,0 96.877367,32.979333,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.808333,32.966667,0 96.695700,32.946000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.626667,32.933333,0 96.514033,32.912667,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.445000,32.900000,0 96.332367,32.879333,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.263333,32.866667,0 96.150700,32.846000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.081667,32.833333,0 95.969033,32.812667,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.900000,32.800000,0 95.807000,32.769000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.750000,32.750000,0 95.657000,32.719000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.600000,32.700000,0 95.507000,32.669000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.450000,32.650000,0 95.357000,32.619000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.300000,32.600000,0 95.207000,32.569000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.150000,32.550000,0 95.057000,32.519000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>95.000000,32.500000,0 94.888400,32.483467,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.820000,32.473333,0 94.708400,32.456800,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.640000,32.446667,0 94.528400,32.430133,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.460000,32.420000,0 94.348400,32.403467,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.280000,32.393333,0 94.168400,32.376800,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>94.100000,32.366667,0 93.988400,32.350133,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.920000,32.340000,0 93.808400,32.323467,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.740000,32.313333,0 93.628400,32.296800,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.560000,32.286667,0 93.448400,32.270133,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.380000,32.260000,0 93.268400,32.243467,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.200000,32.233333,0 93.088400,32.216800,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>93.020000,32.206667,0 92.908400,32.190133,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.840000,32.180000,0 92.728400,32.163467,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.660000,32.153333,0 92.548400,32.136800,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.480000,32.126667,0 92.368400,32.110133,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.300000,32.100000,0 92.269000,32.014750,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.250000,31.962500,0 92.219000,31.877250,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.200000,31.825000,0 92.169000,31.739750,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.150000,31.687500,0 92.119000,31.602250,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+      </Folder>
+      <Folder id="qingzang54_group_shared_south">
+        <name>合路后南下〔灰白；拉萨方向〕</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <description><![CDATA[<p>只表达各道最后接向拉萨的共同方向，不能将同一示意折点当成已查明的三道会合点。</p><p>按校注文字的地区先后和分合关系绘制，尚未核得校注所附交通路线图。经纬折点用于把文字关系放到地理框架内，不等于古站、旧渡口、山口或确切会合位置。线段省略实际绕折；柴达木分歧、沿青海湖的湖侧、黄河与通天河旧渡、各道翻越当拉岭及合路处均保留待考。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Placemark id="qingzang54_segment_south_lhasa">
+          <name>藏北接续—拉萨〔共同方向，具体合路待考〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>藏北接续—拉萨〔共同方向，具体合路待考〕</h3><p>表达各道最终接向拉萨的共同南向关系；并线折点和当雄方向控制只是布局，未逐段复原古道或确定合流位置。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ffd6e4e9</color>
+              <width>4.2</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>合路后南下〔灰白；拉萨方向〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>藏北接续范围〔会合地点待考〕 → 藏北至拉萨南向〔布局〕 → 拉萨〔现代城区参照〕</value>
+            </Data>
+            <Data name="basis">
+              <value>表达各道最终接向拉萨的共同南向关系；并线折点和当雄方向控制只是布局，未逐段复原古道或确定合流位置。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>92.100000,31.550000,0 92.031111,31.477667,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.988889,31.433333,0 91.920000,31.361000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.877778,31.316667,0 91.808889,31.244333,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.766667,31.200000,0 91.697778,31.127667,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.655556,31.083333,0 91.586667,31.011000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.544444,30.966667,0 91.475556,30.894333,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.433333,30.850000,0 91.364444,30.777667,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.322222,30.733333,0 91.253333,30.661000,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.211111,30.616667,0 91.142222,30.544333,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.100000,30.500000,0 91.103100,30.412167,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.105000,30.358333,0 91.108100,30.270500,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.110000,30.216667,0 91.113100,30.128833,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.115000,30.075000,0 91.118100,29.987167,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.120000,29.933333,0 91.123100,29.845500,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>91.125000,29.791667,0 91.128100,29.703833,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+      </Folder>
+      <Folder id="qingzang54_group_chamdo_branch">
+        <name>玉树旁通昌都／西康〔支路方向；默认关闭〕</name>
+        <visibility>0</visibility>
+        <open>0</open>
+        <description><![CDATA[<p>校注另说玉树可旁通昌都及西康。此支路不属于西宁—拉萨三道的必经串联。</p><p>按校注文字的地区先后和分合关系绘制，尚未核得校注所附交通路线图。经纬折点用于把文字关系放到地理框架内，不等于古站、旧渡口、山口或确切会合位置。线段省略实际绕折；柴达木分歧、沿青海湖的湖侧、黄河与通天河旧渡、各道翻越当拉岭及合路处均保留待考。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Placemark id="qingzang54_segment_branch_chamdo">
+          <name>玉树旁通昌都〔支路方向；不是三道必经段〕</name>
+          <visibility>1</visibility>
+          <description><![CDATA[<h3>玉树旁通昌都〔支路方向；不是三道必经段〕</h3><p>校注另言玉树可旁通昌都及西康；此线只表达玉树—昌都的地区关系，支路具体走法未绘，不把昌都接入西宁—拉萨三道必经序列。</p><p>把握程度：文字关系示意；具体走法待考</p><p>虚线只表达校注中的地区先后与联系；河流渡点、山口及合路地点未逐段考定。</p><p>此层是历史交通参照，不并入陈渠珍个人行程，不改变原北返候选路线、原距离或耗时统计，不把示意虚线长度当历史实走里程。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+          <LookAt>
+            <longitude>96.3</longitude>
+            <latitude>33.0</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>1800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <Style>
+            <LineStyle>
+              <color>ffadc5a7</color>
+              <width>3.3</width>
+            </LineStyle>
+          </Style>
+          <ExtendedData>
+            <Data name="route_group">
+              <value>玉树旁通昌都／西康〔支路方向；默认关闭〕</value>
+            </Data>
+            <Data name="certainty">
+              <value>文字关系示意；具体走法待考</value>
+            </Data>
+            <Data name="geometry_role">
+              <value>校注54地区关系示意；非精确古道或陈氏行迹</value>
+            </Data>
+            <Data name="node_order">
+              <value>玉树／戒谷多〔现代地区参照〕 → 昌都〔旁通支路地区参照〕</value>
+            </Data>
+            <Data name="basis">
+              <value>校注另言玉树可旁通昌都及西康；此线只表达玉树—昌都的地区关系，支路具体走法未绘，不把昌都接入西宁—拉萨三道必经序列。</value>
+            </Data>
+          </ExtendedData>
+          <MultiGeometry>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>96.990000,33.000000,0 96.999300,32.903900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.005000,32.845000,0 97.014300,32.748900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.020000,32.690000,0 97.029300,32.593900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.035000,32.535000,0 97.044300,32.438900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.050000,32.380000,0 97.059300,32.283900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.065000,32.225000,0 97.074300,32.128900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.080000,32.070000,0 97.089300,31.973900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.095000,31.915000,0 97.104300,31.818900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.110000,31.760000,0 97.119300,31.663900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.125000,31.605000,0 97.134300,31.508900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.140000,31.450000,0 97.149300,31.353900,0</coordinates>
+            </LineString>
+            <LineString>
+              <tessellate>1</tessellate>
+              <altitudeMode>clampToGround</altitudeMode>
+              <coordinates>97.155000,31.295000,0 97.164300,31.198900,0</coordinates>
+            </LineString>
+          </MultiGeometry>
+        </Placemark>
+      </Folder>
+      <Placemark id="qingzang54_card_time">
+        <name>75日与223日〔不同路线与统计口径〕</name>
+        <description><![CDATA[<h3>75日与223日〔不同路线与统计口径〕</h3><p>七十五日是校注对西道旧军台正站常程的概述，不能分摊给每个地图节点，也不表示陈氏走完此线只用了七十五日。</p><p>二百二十三日是陈氏从江达到丹噶尔自述的北返总时长，包含迷途、停留、等待和往复绕折；与西宁—拉萨西道不是相同起讫，不能直接算速度或超时比例。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="qingzang54_card_period">
+        <name>“近时”属任注叙述时代〔不是今日路况〕</name>
+        <description><![CDATA[<h3>“近时”属任注叙述时代〔不是今日路况〕</h3><p>任乃强弁言署1941年，只能作为校注初写的年代参照；现行版本又有后续修订，不能据弁言断定每句注都写于1941年。文中“近时青藏往来”应按任注的叙述时代理解，不当成2026年公路状态。</p><p>‘鼎革后此路荒废’及‘西道台站已撤’描述当时制度和交通条件；冬季牧户远徙，不能据此认定整条走廊在所有季节均无人活动。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a><br/><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">任乃强《弁言》：1941年署记</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="qingzang54_card_chen">
+        <name>与陈氏北返推测分读〔不把三道套成实走轨迹〕</name>
+        <description><![CDATA[<h3>与陈氏北返推测分读〔不把三道套成实走轨迹〕</h3><p>任注明确说陈氏曾走入无人烟地区，冰雪中向导不能辨路，并有往复绕折。本层三道提供区域参照，不把他的橙色候选线自动吸附到其中任何一道。</p><p>穆鲁乌苏、通天河的旧今名称范围存在重叠；本层的西中区别只表达校注关系，不意味着两条互不相干的现代河流。没有据本层新增旧渡口、碑址或山口确址。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="qingzang54_card_join_limits">
+        <name>读图限度〔分道、湖侧与合路均未精定〕</name>
+        <description><![CDATA[<h3>读图限度〔分道、湖侧与合路均未精定〕</h3><p>三色线和灰白共段是地理拓扑示意，尚未核得任注原交通路线图。柴达木盆地分向和藏北并线折点只服务于读图，不指认旧站或会合遗址。</p><p>西中道的沿湖部分没有南北岸确证，本图暂用湖南侧接续；东道玉树以后保留宽走廊，聂荣方向仅有区域古道旁证，不认定逐段同线。</p><p>未另立黄河、通天河旧渡口、青藏界碑或当拉岭山口的确址地标，也未把现代公路几何替作古道。</p><p><a href="https://www.yenke.net/wiki/index.php?title=%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6">《艽野尘梦》校注54（用户提供原文）</a><br/><a href="https://www.xizang.gov.cn/xwzx_406/bmkx/202407/t20240712_425475.html">西藏政府：唐蕃古道的聂荣区域背景（2024）</a><br/><a href="https://wlt.xizang.gov.cn/xwzx_69/wlyw/wldt/202407/t20240725_427246.html">西藏文旅厅：聂荣古道联系资料（2024）</a></p>]]></description>
+        <LookAt>
+          <longitude>96.3</longitude>
+          <latitude>33.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>1800000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+    </Folder>
   </Document>
 </kml>

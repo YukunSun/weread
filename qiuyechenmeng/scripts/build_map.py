@@ -29,6 +29,7 @@ from hala_wusu import add_hala_wusu, write_hala_wusu_outputs
 from hala_wusu_approx import add_hala_wusu_approx, write_hala_wusu_approx_outputs, reference_icon as hala_wusu_approx_icon
 from north_return_hypothesis import add_north_return_hypothesis, write_north_return_outputs
 from north_return_roads import add_north_return_roads, write_north_return_road_outputs
+from qingzang_three_routes import add_qingzang_three_routes, write_qingzang_three_route_outputs
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -622,6 +623,7 @@ def make_map(bundled=False):
     add_hala_wusu_approx(doc,el,view)
     add_north_return_hypothesis(doc,el,view)
     add_north_return_roads(doc,el,view)
+    add_qingzang_three_routes(doc,el,view)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -734,6 +736,7 @@ def main():
         z.writestr('icons/hala_wusu_approx.png',hala_wusu_approx_icon())
         z.writestr('icons/north_return_reference.png',png('#60b4ff',True))
         z.writestr('icons/north_return_road_label.png',png('#ffffff',True))
+        z.writestr('icons/qingzang_three_routes_reference.png',png('#ffffff',True))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
         z.writestr('icons/annotation11_approximate.png',png('#ffb347',True))
         z.writestr('icons/gongbu_candidate.png',png('#ffb347',True))
@@ -784,6 +787,7 @@ def main():
     hala_wusu_approx_note=write_hala_wusu_approx_outputs()
     north_return_note=write_north_return_outputs()
     north_return_roads_note=write_north_return_road_outputs()
+    qingzang_three_routes_note=write_qingzang_three_route_outputs()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1075,6 +1079,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n哈喇乌苏｜大概位置·怒江上游河谷，推定\n'+hala_wusu_approx_note)
         f.write('\n第8—11章 北返推测路线｜按河谷与叙事线索\n'+north_return_note)
         f.write('\n第8—11章 北返现代道路对照｜现代实线与候选虚线分读\n'+north_return_roads_note)
+        f.write('\n校注54 青藏三道｜西、中、东道地区关系示意\n'+qingzang_three_routes_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 
 if __name__=='__main__':
