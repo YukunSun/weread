@@ -24,6 +24,7 @@ from bomi_campaign_plan import add_campaign_plan, anchor_html as campaign_anchor
 from katuo_context import add_katuo_context, write_katuo_index
 from mountain_defence import add_mountain_defence, write_mountain_index
 from zengba_context import add_zengba_context, write_zengba_outputs
+from ningduo_muster import add_ningduo_muster, write_ningduo_outputs
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -120,7 +121,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第4章；校注27','百马岗召询现场及绕行路线','08层以现代墨脱镇、墨脱村地区点参照校注所指百马岗／白马岗。该点不是召询现场或陈部驻地，历史地区不直接等同现代县界，不能据此断言作者到今县城；正文从窝冗绕行六日、后行四日至德摩与受访者自述路程分别保留，具体路线未定位。'),
 ('第5—7章','纳衣当噶、八浪登、京中、树枝、央噶','德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。'),
 ('第6—7章','卡拖旧驻所、八阶、夥若桥','卡拖另以Kata／Kardag作地区候选；古今对应及罗、陈驻所、喇嘛寺等确址仍未核实，不自动放在波密县城。八阶及夥若桥亦未核定，不把夥若桥直接等同今某座大桥。'),
-('第8章','凝多／凝多塘','北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。'),
+('第8章','凝多／凝多塘','北返离江达当晚首宿并清点官兵111人，完整段另述作者等4人、全队115人及120余头驮牛。仅明记当晚宿营，不固定驻留24小时或只有一夜；凝多塘／宁多塘对应为旧站序线索，今址仍未核，不赋坐标。后由凝多北行避过拉里，不等于再次经过拉里；详见17层首宿清点说明。'),
 ('第8章','哈喇乌苏','按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。'),
 ('第8—10章','酱通／绛通（羌塘）','高原区域名称，并非一个可定位的沙漠景区。迷路行迹缺少足够空间约束，本图不复原其折线。'),
 ('第9章','通天河渡点','跨河本身有文本依据；校注联系穆鲁乌苏水系，但渡点不详，未用现代沱沱河桥或通天河大桥充作历史渡口。'),
@@ -612,6 +613,7 @@ def make_map(bundled=False):
     add_katuo_context(doc,el,view,CAMPAIGN_ANCHORS,bundled)
     add_mountain_defence(doc,el,view,CAMPAIGN_ANCHORS)
     add_zengba_context(doc,el,view)
+    add_ningduo_muster(doc,el)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -766,6 +768,7 @@ def main():
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     mountain_defence_note=write_mountain_index()
     zengba_note=write_zengba_outputs()
+    ningduo_note=write_ningduo_outputs()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1052,6 +1055,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n卡拖召议与野人山｜休息1日；赴此2日\n'+katuo_note)
         f.write('\n八噶山与金珠山｜八百余里指代待核\n'+mountain_defence_note)
         f.write('\n甑巴留宿｜百巴增巴候选；范玉昆居留处未定\n'+zengba_note)
+        f.write('\n北返首宿凝多｜17层；官兵111、全队115，地点待考\n'+ningduo_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 
 if __name__=='__main__':
