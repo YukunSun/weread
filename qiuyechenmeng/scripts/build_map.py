@@ -30,6 +30,7 @@ from current_qiangtang import add_current_qiangtang, write_current_qiangtang_out
 from qaidam_kunlun import add_qaidam_kunlun, write_outputs as write_qaidam_kunlun_outputs
 from yushu_context import add_yushu_context, write_yushu_outputs
 from hehuang_shibao import add_hehuang_shibao, write_hehuang_outputs
+from dulan_golmud import add_dulan_golmud, write_dulan_outputs
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -133,7 +134,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第8—10章','冈天削','向导所述前路地名，正文反复寻找而无明确抵达记录。校注48以巴颜喀喇山脉中的昆仑山口解释，后句仍用“应即”推断两峰间通道；这一解释保留，但尚无独立旧今桥接可定现代确址。G109现代昆仑山口仅作方位参照，不能据此等同冈天削或认定陈部确经，不赋冈天削坐标，也不据后段格尔木推定点复原荒原路线。'),
 ('第10章','遇蒙古喇嘛、遇猎户地点','正文能约束事件先后和大方向，但不足以确定营地坐标。地图另以橙色空心标记显示区域推测锚点；锚点不是历史坐标，极低置信，不连成路线。'),
 ('第11章','盐淖、青盐海','盐沼及盐湖的具体范围未定。青盐海不同于随后到达的青海湖，不直接对应察尔汗、茶卡或柯柯盐湖。'),
-('第11章','都兰','校注56作地理推定，未核当时市场位置，不使用今日察汗乌苏县城作为旧市镇的确点。'),
+('第11章；校注56','都兰旧市场、百余户聚落与湘阴老人住宅','旧都兰寺地区以98.6°E、37.0°N粗位作候选参照，未核陈氏当时聚落、市场或住宅确址；今察汗乌苏县城另标现代点。1917设理事公署、1930正式设县，不能把校注时已设县套回1911—1912年北返。又行两日从取盐后蒙古包起算，不是格尔木至都兰两日，不绘历史路线。'),
 ('第12章','分州、洪铺街寓所、西原墓','旧名或具体地点尚待考；地图止于西安，不另画一条书中未叙述的回凤凰路线。'),
 ]
 UNLOCATED += unlocated_entries() + gongbu_unlocated_entries()
@@ -697,6 +698,7 @@ def make_map(bundled=False):
     add_qaidam_kunlun(doc,el,view,kcolor,bundled)
     add_yushu_context(doc,el,view)
     add_hehuang_shibao(doc,el,view,kcolor,bundled)
+    add_dulan_golmud(doc,el,view,kcolor,bundled)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -888,6 +890,7 @@ def main():
     qaidam_kunlun_note=write_qaidam_kunlun_outputs()
     yushu_note=write_yushu_outputs()
     hehuang_note=write_hehuang_outputs()
+    dulan_note=write_dulan_outputs()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1180,6 +1183,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n柴达木盆地与昆仑山口｜现代地理参照\n'+qaidam_kunlun_note)
         f.write('\n玉树草原西部与穆鲁乌苏｜任注48的区域推测\n'+yushu_note)
         f.write('\n河湟谷地与石堡城｜河谷背景与古城约位\n'+hehuang_note)
+        f.write('\n都兰与格尔木｜旧地名候选与现代参照\n'+dulan_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n\n二十七、北返荒原事件区域推测\n'+ '\n'.join(event_note))
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')

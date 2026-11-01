@@ -1329,6 +1329,32 @@
         <scale>1.05</scale>
       </LabelStyle>
     </Style>
+    <Style id="dulan_golmud_candidate_style">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>1.05</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.95</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="dulan_golmud_modern_style">
+      <IconStyle>
+        <color>ffffd889</color>
+        <scale>1.05</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.95</scale>
+      </LabelStyle>
+    </Style>
     <Folder>
       <name>00 耗时、距离总览与图例</name>
       <open>0</open>
@@ -4549,8 +4575,8 @@
         <description><![CDATA[<h3>盐淖、青盐海</h3><p>第11章。盐沼及盐湖的具体范围未定。青盐海不同于随后到达的青海湖，不直接对应察尔汗、茶卡或柯柯盐湖。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
       <Placemark id="unlocated_18">
-        <name>都兰【未定位】</name>
-        <description><![CDATA[<h3>都兰</h3><p>第11章。校注56作地理推定，未核当时市场位置，不使用今日察汗乌苏县城作为旧市镇的确点。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
+        <name>都兰旧市场、百余户聚落与湘阴老人住宅【未定位】</name>
+        <description><![CDATA[<h3>都兰旧市场、百余户聚落与湘阴老人住宅</h3><p>第11章；校注56。旧都兰寺地区以98.6°E、37.0°N粗位作候选参照，未核陈氏当时聚落、市场或住宅确址；今察汗乌苏县城另标现代点。1917设理事公署、1930正式设县，不能把校注时已设县套回1911—1912年北返。又行两日从取盐后蒙古包起算，不是格尔木至都兰两日，不绘历史路线。</p><p>本条无几何坐标；不会在地球上显示点标。</p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文与校注</a>]]></description>
       </Placemark>
       <Placemark id="unlocated_19">
         <name>分州、洪铺街寓所、西原墓【未定位】</name>
@@ -27021,6 +27047,144 @@
           <heading>0</heading>
           <tilt>0</tilt>
           <range>450000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+    </Folder>
+    <Folder id="dulan_golmud_context">
+      <name>都兰与格尔木｜旧地名候选与现代参照</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <description><![CDATA[<h3>《艽野尘梦》都兰与格尔木｜旧寺地区候选与现代城市参照</h3><p>校注五十六：其地即都兰也，时已设县。</p><p>第十一章的两个校注地理判断：校注55将正文柴达木推为噶尔木一带；校注56将青盐海之后的百余户聚落判为都兰。正文未直接写出这两个现代城市名。本图给旧都兰寺地区候选、今都兰县城和格尔木城市参照，帮助辨认古今地名关系。</p><p>旧都兰寺在今乌兰县境内，曾为蒙古左翼盟各旗互市场所；1930年设县后县治选希里沟。今都兰县城则为察汗乌苏。两处不能互换。旧寺的市场史使它成为理解任注都兰的候选地区，但还不能独立证实陈氏所宿百余户聚落就在寺旁，更不能确定湘阴老人住宅。</p><p>海西州政府资料记1917年设置都兰理事公署、1930年改都兰县；国博研究据1929年调查日记与相册明确1930年11月正式升县、选希里沟为县治。因此校注时已设县若理解为陈氏1911—1912年北返当时的建制便不合年代，应与后来的设县分读。理事公署、县级治理与正式设县也不混称。今县城驻地据官方资料为察汗乌苏，本层不把后来的迁治套回陈氏行程。</p><p>牧民皆蒙古族、都兰最大市场是任注对历史牧业和贸易的概述，且注中同时记汉、回商人居此。保留为校注的时代性判断，不据此画固定民族边界，也不当作今日人口结构统计。</p><p>正文顺序为青盐海取盐、当日午后再行不远宿蒙古包、又行两日至百余户聚落；两日只从该蒙古包起算，不能写成格尔木至都兰两日。正文记该处止宿、次晨与老人告别，可记一夜叙事，不能分配确切公历日期、停留足24小时或由日数倒算地点。猎户处至柴达木十六日属于另段；格尔木至都兰、都兰至青海湖均不新增实走km或连线。</p><p>独立KMZ含旧都兰寺地区候选、今都兰县城、格尔木三点。主图复用原05层golmud点及其坐标、耗时和距离，不重复加格尔木几何，只添都兰两点和说明。蓝色表示现代城镇参照；橙色空心表示旧都兰寺地区候选，原05层格尔木仍沿用其橙色推定样式。主图与独立补图选择一份显示，叠加旧图时可隐藏旧格尔木点。</p><p>本层点位用于阅读地名和时代差别；坐标不是古市场、县署或作者宿营地的实测确址。说明卡片无地理几何，不绘行军连线或历史范围边界。</p><p><a href="https://www.xuges.com/xdwx/qycm/31.htm">《艽野尘梦》第十一章（2）与校注56、57</a>：取盐、蒙古包、又行两日、聚落止宿及校注都兰判断；正文没有现代都兰县城名。<br/><a href="https://www.xuges.com/xdwx/qycm/30.htm">《艽野尘梦》第十一章（1）与校注55</a>：正文柴达木、十六日及校注噶尔木/果纳河谷的推论性质。<br/><a href="https://www.thepaper.cn/newsDetail_forward_30552389">樊丽媛（中国国家博物馆）：1929年都兰县治考察与边疆摄影</a>：作者馆刊文章经授权刊载，原文注释从略，依据1929年调查日记与相册论旧寺互市和1930年11月升县、县治希里沟；不是陈氏到站鉴定。<br/><a href="https://haixi.gov.cn/mlhx.htm">海西州人民政府：魅力海西·都兰县简介</a>：1917年理事公署、1930年改县、今察汗乌苏驻地；1955迁治为该页所记，不据此合并其他时期辖区或治所。<br/><a href="https://museum.wa.gov.au/catalogues/pseudoscorpions/pseudotyrannochthoniidae/kozlovi">西澳博物馆旧目录：Centrochthonius kozlovi / Dulansi</a>：搜索索引保留的目录正文将Dulon-kit对应Dulansi，给37°00′N、98°36′E；本轮原URL直开404，不单凭旧索引定址。<br/><a href="https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/arac-50-02-158.pdf/?no_cache=1#page=8">Harvey and Harms 2022：The pseudoscorpion genus Centrochthonius，p165</a>：旧名Dulon-kit=今Dulansi、37°01′N98°37′E；文中称参核Kozlov1906图，只作旧寺地区地名桥接，不是陈氏行迹证据。<br/><a href="https://www.wac.nmbe.ch/order/pseudoscorpiones/speciesdata/1690">伯尔尼自然史博物馆World Arachnida Catalog：Dulansi地名坐标</a>：目录列Dulansi=37.016666、98.616666，与2022研究同值；非建筑或宿营测绘。<br/><a href="https://www.geermu.gov.cn/into">格尔木市人民政府：格尔木概况</a>：名称蒙古语来源、1954建政与现代城市兴起；不构成陈氏当年城市到站证明。<br/><a href="https://zh.wikipedia.org/wiki/格尔木市">既有地图城市参照来源：格尔木市</a>：既有golmud城市代表点的来源沿用；本轮仅用OSM点交叉核对今城区，不用百科替代正文/史志定位。<br/><a href="https://www.openstreetmap.org/node/8125230793">OpenStreetMap town node8125230793：察汗乌苏镇</a>：原API https://api.openstreetmap.org/api/0.6/node/8125230793.json 核到v6、WGS84点98.0898688/36.3068805；只取城镇点，不取行政边界。<br/><a href="https://www.openstreetmap.org/node/315046176">OpenStreetMap city node315046176：格尔木</a>：原API核到v31、WGS84点94.9026289/36.4011402，仅交叉核城区，不更改既有主图点。<br/><a href="https://www.openstreetmap.org/copyright">OpenStreetMap署名与ODbL许可</a>：© OpenStreetMap contributors。现代城镇点的派生数据遵循ODbL 1.0，保留源对象、版本和坐标口径。</p>]]></description>
+      <LookAt>
+        <longitude>96.85</longitude>
+        <latitude>36.65</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>650000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="dulan_golmud_place_old_dulan_region">
+        <name>旧都兰〔都兰寺地区约位；校注56候选〕</name>
+        <description><![CDATA[<h3>旧都兰〔都兰寺地区约位；校注56候选〕</h3><p>点位性质：历史地点候选地区参照</p><p>判断依据：旧都兰寺曾为互市场所，位于今乌兰县境内。地理目录将旧名Dulon-kit对应Dulansi；这只支持旧寺地区位置，不独立证明任注所说的百余户聚落就是寺址。 都兰1917年设理事公署、1930年正式设县，校注时已设县不能套回陈氏北返当时。</p><p>坐标方法与精度：采用2022年Harvey与Harms研究p165所给Dulansi坐标37°01′N、98°37′E，舍入至0.1°得98.6°E、37.0°N；伯尔尼自然史博物馆目录同值。西澳博物馆旧索引另给37°00′N、98°36′E，亦在同一粗地区。本层不采用小数六位的表观精度。生物采集地名的地理核对不是寺院或陈氏宿地测绘；论文未注明该历史地名坐标的基准，不擅自转为GCJ-02/BD-09。</p><p>定位限制：旧寺地区候选，非确定市场、县署、寺墙或住宅。陈氏原文仅描述聚落，古今对应仍待考；不从行两日造点。</p><p>独立KMZ含旧都兰寺地区候选、今都兰县城、格尔木三点。主图复用原05层golmud点及其坐标、耗时和距离，不重复加格尔木几何，只添都兰两点和说明。蓝色表示现代城镇参照；橙色空心表示旧都兰寺地区候选，原05层格尔木仍沿用其橙色推定样式。主图与独立补图选择一份显示，叠加旧图时可隐藏旧格尔木点。</p><p>本层点位用于阅读地名和时代差别；坐标不是古市场、县署或作者宿营地的实测确址。说明卡片无地理几何，不绘行军连线或历史范围边界。</p><p><a href="https://www.xuges.com/xdwx/qycm/31.htm">《艽野尘梦》第十一章（2）与校注56、57</a>：取盐、蒙古包、又行两日、聚落止宿及校注都兰判断；正文没有现代都兰县城名。<br/><a href="https://www.thepaper.cn/newsDetail_forward_30552389">樊丽媛（中国国家博物馆）：1929年都兰县治考察与边疆摄影</a>：作者馆刊文章经授权刊载，原文注释从略，依据1929年调查日记与相册论旧寺互市和1930年11月升县、县治希里沟；不是陈氏到站鉴定。<br/><a href="https://museum.wa.gov.au/catalogues/pseudoscorpions/pseudotyrannochthoniidae/kozlovi">西澳博物馆旧目录：Centrochthonius kozlovi / Dulansi</a>：搜索索引保留的目录正文将Dulon-kit对应Dulansi，给37°00′N、98°36′E；本轮原URL直开404，不单凭旧索引定址。<br/><a href="https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/arac-50-02-158.pdf/?no_cache=1#page=8">Harvey and Harms 2022：The pseudoscorpion genus Centrochthonius，p165</a>：旧名Dulon-kit=今Dulansi、37°01′N98°37′E；文中称参核Kozlov1906图，只作旧寺地区地名桥接，不是陈氏行迹证据。<br/><a href="https://www.wac.nmbe.ch/order/pseudoscorpiones/speciesdata/1690">伯尔尼自然史博物馆World Arachnida Catalog：Dulansi地名坐标</a>：目录列Dulansi=37.016666、98.616666，与2022研究同值；非建筑或宿营测绘。</p>]]></description>
+        <LookAt>
+          <longitude>98.6</longitude>
+          <latitude>37.0</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#dulan_golmud_candidate_style</styleUrl>
+        <ExtendedData>
+          <Data name="role">
+            <value>historical_candidate</value>
+          </Data>
+          <Data name="coordinate_method">
+            <value>采用2022年Harvey与Harms研究p165所给Dulansi坐标37°01′N、98°37′E，舍入至0.1°得98.6°E、37.0°N；伯尔尼自然史博物馆目录同值。西澳博物馆旧索引另给37°00′N、98°36′E，亦在同一粗地区。本层不采用小数六位的表观精度。生物采集地名的地理核对不是寺院或陈氏宿地测绘；论文未注明该历史地名坐标的基准，不擅自转为GCJ-02/BD-09。</value>
+          </Data>
+          <Data name="limits">
+            <value>旧寺地区候选，非确定市场、县署、寺墙或住宅。陈氏原文仅描述聚落，古今对应仍待考；不从行两日造点。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>98.6,37.0,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="dulan_golmud_place_modern_dulan">
+        <name>今都兰县城〔察汗乌苏；现代参照〕</name>
+        <description><![CDATA[<h3>今都兰县城〔察汗乌苏；现代参照〕</h3><p>点位性质：现代地点参照</p><p>判断依据：海西州政府确认今都兰县驻地为察汗乌苏；与今乌兰境内旧都兰寺地区分开显示。</p><p>坐标方法与精度：OSM镇点node8125230793原WGS84经纬度98.0898688、36.3068805，舍入为98.09°E、36.31°N。v6，2026-03-13T09:00:20Z，name察汗乌苏镇、place=town、capital=8；是城镇代表点，非县域中心、县政府大楼或历史宿处。© OpenStreetMap contributors，ODbL 1.0。</p><p>定位限制：只标今日县城方位，不把它当作校注56旧市镇或陈氏亲到确点。现代同名镇与其他省区察汗乌苏不可混用。</p><p>独立KMZ含旧都兰寺地区候选、今都兰县城、格尔木三点。主图复用原05层golmud点及其坐标、耗时和距离，不重复加格尔木几何，只添都兰两点和说明。蓝色表示现代城镇参照；橙色空心表示旧都兰寺地区候选，原05层格尔木仍沿用其橙色推定样式。主图与独立补图选择一份显示，叠加旧图时可隐藏旧格尔木点。</p><p>本层点位用于阅读地名和时代差别；坐标不是古市场、县署或作者宿营地的实测确址。说明卡片无地理几何，不绘行军连线或历史范围边界。</p><p><a href="https://haixi.gov.cn/mlhx.htm">海西州人民政府：魅力海西·都兰县简介</a>：1917年理事公署、1930年改县、今察汗乌苏驻地；1955迁治为该页所记，不据此合并其他时期辖区或治所。<br/><a href="https://www.openstreetmap.org/node/8125230793">OpenStreetMap town node8125230793：察汗乌苏镇</a>：原API https://api.openstreetmap.org/api/0.6/node/8125230793.json 核到v6、WGS84点98.0898688/36.3068805；只取城镇点，不取行政边界。<br/><a href="https://www.openstreetmap.org/copyright">OpenStreetMap署名与ODbL许可</a>：© OpenStreetMap contributors。现代城镇点的派生数据遵循ODbL 1.0，保留源对象、版本和坐标口径。</p>]]></description>
+        <LookAt>
+          <longitude>98.09</longitude>
+          <latitude>36.31</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>65000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#dulan_golmud_modern_style</styleUrl>
+        <ExtendedData>
+          <Data name="role">
+            <value>modern_reference</value>
+          </Data>
+          <Data name="coordinate_method">
+            <value>OSM镇点node8125230793原WGS84经纬度98.0898688、36.3068805，舍入为98.09°E、36.31°N。v6，2026-03-13T09:00:20Z，name察汗乌苏镇、place=town、capital=8；是城镇代表点，非县域中心、县政府大楼或历史宿处。© OpenStreetMap contributors，ODbL 1.0。</value>
+          </Data>
+          <Data name="limits">
+            <value>只标今日县城方位，不把它当作校注56旧市镇或陈氏亲到确点。现代同名镇与其他省区察汗乌苏不可混用。</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>98.09,36.31,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="dulan_golmud_guide">
+        <name>本层说明｜都兰旧地名与格尔木现代参照</name>
+        <description><![CDATA[<h3>《艽野尘梦》都兰与格尔木｜旧寺地区候选与现代城市参照</h3><p>校注五十六：其地即都兰也，时已设县。</p><p>第十一章的两个校注地理判断：校注55将正文柴达木推为噶尔木一带；校注56将青盐海之后的百余户聚落判为都兰。正文未直接写出这两个现代城市名。本图给旧都兰寺地区候选、今都兰县城和格尔木城市参照，帮助辨认古今地名关系。</p><p>旧都兰寺在今乌兰县境内，曾为蒙古左翼盟各旗互市场所；1930年设县后县治选希里沟。今都兰县城则为察汗乌苏。两处不能互换。旧寺的市场史使它成为理解任注都兰的候选地区，但还不能独立证实陈氏所宿百余户聚落就在寺旁，更不能确定湘阴老人住宅。</p><p>海西州政府资料记1917年设置都兰理事公署、1930年改都兰县；国博研究据1929年调查日记与相册明确1930年11月正式升县、选希里沟为县治。因此校注时已设县若理解为陈氏1911—1912年北返当时的建制便不合年代，应与后来的设县分读。理事公署、县级治理与正式设县也不混称。今县城驻地据官方资料为察汗乌苏，本层不把后来的迁治套回陈氏行程。</p><p>牧民皆蒙古族、都兰最大市场是任注对历史牧业和贸易的概述，且注中同时记汉、回商人居此。保留为校注的时代性判断，不据此画固定民族边界，也不当作今日人口结构统计。</p><p>正文顺序为青盐海取盐、当日午后再行不远宿蒙古包、又行两日至百余户聚落；两日只从该蒙古包起算，不能写成格尔木至都兰两日。正文记该处止宿、次晨与老人告别，可记一夜叙事，不能分配确切公历日期、停留足24小时或由日数倒算地点。猎户处至柴达木十六日属于另段；格尔木至都兰、都兰至青海湖均不新增实走km或连线。</p><p>独立KMZ含旧都兰寺地区候选、今都兰县城、格尔木三点。主图复用原05层golmud点及其坐标、耗时和距离，不重复加格尔木几何，只添都兰两点和说明。蓝色表示现代城镇参照；橙色空心表示旧都兰寺地区候选，原05层格尔木仍沿用其橙色推定样式。主图与独立补图选择一份显示，叠加旧图时可隐藏旧格尔木点。</p><p>本层点位用于阅读地名和时代差别；坐标不是古市场、县署或作者宿营地的实测确址。说明卡片无地理几何，不绘行军连线或历史范围边界。</p><p><a href="https://www.xuges.com/xdwx/qycm/31.htm">《艽野尘梦》第十一章（2）与校注56、57</a>：取盐、蒙古包、又行两日、聚落止宿及校注都兰判断；正文没有现代都兰县城名。<br/><a href="https://www.xuges.com/xdwx/qycm/30.htm">《艽野尘梦》第十一章（1）与校注55</a>：正文柴达木、十六日及校注噶尔木/果纳河谷的推论性质。<br/><a href="https://www.thepaper.cn/newsDetail_forward_30552389">樊丽媛（中国国家博物馆）：1929年都兰县治考察与边疆摄影</a>：作者馆刊文章经授权刊载，原文注释从略，依据1929年调查日记与相册论旧寺互市和1930年11月升县、县治希里沟；不是陈氏到站鉴定。<br/><a href="https://haixi.gov.cn/mlhx.htm">海西州人民政府：魅力海西·都兰县简介</a>：1917年理事公署、1930年改县、今察汗乌苏驻地；1955迁治为该页所记，不据此合并其他时期辖区或治所。<br/><a href="https://museum.wa.gov.au/catalogues/pseudoscorpions/pseudotyrannochthoniidae/kozlovi">西澳博物馆旧目录：Centrochthonius kozlovi / Dulansi</a>：搜索索引保留的目录正文将Dulon-kit对应Dulansi，给37°00′N、98°36′E；本轮原URL直开404，不单凭旧索引定址。<br/><a href="https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/arac-50-02-158.pdf/?no_cache=1#page=8">Harvey and Harms 2022：The pseudoscorpion genus Centrochthonius，p165</a>：旧名Dulon-kit=今Dulansi、37°01′N98°37′E；文中称参核Kozlov1906图，只作旧寺地区地名桥接，不是陈氏行迹证据。<br/><a href="https://www.wac.nmbe.ch/order/pseudoscorpiones/speciesdata/1690">伯尔尼自然史博物馆World Arachnida Catalog：Dulansi地名坐标</a>：目录列Dulansi=37.016666、98.616666，与2022研究同值；非建筑或宿营测绘。<br/><a href="https://www.geermu.gov.cn/into">格尔木市人民政府：格尔木概况</a>：名称蒙古语来源、1954建政与现代城市兴起；不构成陈氏当年城市到站证明。<br/><a href="https://zh.wikipedia.org/wiki/格尔木市">既有地图城市参照来源：格尔木市</a>：既有golmud城市代表点的来源沿用；本轮仅用OSM点交叉核对今城区，不用百科替代正文/史志定位。<br/><a href="https://www.openstreetmap.org/node/8125230793">OpenStreetMap town node8125230793：察汗乌苏镇</a>：原API https://api.openstreetmap.org/api/0.6/node/8125230793.json 核到v6、WGS84点98.0898688/36.3068805；只取城镇点，不取行政边界。<br/><a href="https://www.openstreetmap.org/node/315046176">OpenStreetMap city node315046176：格尔木</a>：原API核到v31、WGS84点94.9026289/36.4011402，仅交叉核城区，不更改既有主图点。<br/><a href="https://www.openstreetmap.org/copyright">OpenStreetMap署名与ODbL许可</a>：© OpenStreetMap contributors。现代城镇点的派生数据遵循ODbL 1.0，保留源对象、版本和坐标口径。</p>]]></description>
+        <LookAt>
+          <longitude>96.85</longitude>
+          <latitude>36.65</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>650000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="dulan_golmud_card_old_and_new">
+        <name>都兰古今分读〔旧寺、希里沟与察汗乌苏〕</name>
+        <description><![CDATA[<p>任注的都兰为历史地区判断；旧都兰寺的互市史可作候选线索。1930年县治选希里沟，今都兰县城为察汗乌苏。旧寺地区粗点不是陈氏聚落或老人住宅的确定位置。</p><p>独立KMZ含旧都兰寺地区候选、今都兰县城、格尔木三点。主图复用原05层golmud点及其坐标、耗时和距离，不重复加格尔木几何，只添都兰两点和说明。蓝色表示现代城镇参照；橙色空心表示旧都兰寺地区候选，原05层格尔木仍沿用其橙色推定样式。主图与独立补图选择一份显示，叠加旧图时可隐藏旧格尔木点。</p><p>本层点位用于阅读地名和时代差别；坐标不是古市场、县署或作者宿营地的实测确址。说明卡片无地理几何，不绘行军连线或历史范围边界。</p><p><a href="https://www.xuges.com/xdwx/qycm/31.htm">《艽野尘梦》第十一章（2）与校注56、57</a>：取盐、蒙古包、又行两日、聚落止宿及校注都兰判断；正文没有现代都兰县城名。<br/><a href="https://www.xuges.com/xdwx/qycm/30.htm">《艽野尘梦》第十一章（1）与校注55</a>：正文柴达木、十六日及校注噶尔木/果纳河谷的推论性质。<br/><a href="https://www.thepaper.cn/newsDetail_forward_30552389">樊丽媛（中国国家博物馆）：1929年都兰县治考察与边疆摄影</a>：作者馆刊文章经授权刊载，原文注释从略，依据1929年调查日记与相册论旧寺互市和1930年11月升县、县治希里沟；不是陈氏到站鉴定。<br/><a href="https://haixi.gov.cn/mlhx.htm">海西州人民政府：魅力海西·都兰县简介</a>：1917年理事公署、1930年改县、今察汗乌苏驻地；1955迁治为该页所记，不据此合并其他时期辖区或治所。<br/><a href="https://museum.wa.gov.au/catalogues/pseudoscorpions/pseudotyrannochthoniidae/kozlovi">西澳博物馆旧目录：Centrochthonius kozlovi / Dulansi</a>：搜索索引保留的目录正文将Dulon-kit对应Dulansi，给37°00′N、98°36′E；本轮原URL直开404，不单凭旧索引定址。<br/><a href="https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/arac-50-02-158.pdf/?no_cache=1#page=8">Harvey and Harms 2022：The pseudoscorpion genus Centrochthonius，p165</a>：旧名Dulon-kit=今Dulansi、37°01′N98°37′E；文中称参核Kozlov1906图，只作旧寺地区地名桥接，不是陈氏行迹证据。<br/><a href="https://www.wac.nmbe.ch/order/pseudoscorpiones/speciesdata/1690">伯尔尼自然史博物馆World Arachnida Catalog：Dulansi地名坐标</a>：目录列Dulansi=37.016666、98.616666，与2022研究同值；非建筑或宿营测绘。<br/><a href="https://www.geermu.gov.cn/into">格尔木市人民政府：格尔木概况</a>：名称蒙古语来源、1954建政与现代城市兴起；不构成陈氏当年城市到站证明。<br/><a href="https://zh.wikipedia.org/wiki/格尔木市">既有地图城市参照来源：格尔木市</a>：既有golmud城市代表点的来源沿用；本轮仅用OSM点交叉核对今城区，不用百科替代正文/史志定位。<br/><a href="https://www.openstreetmap.org/node/8125230793">OpenStreetMap town node8125230793：察汗乌苏镇</a>：原API https://api.openstreetmap.org/api/0.6/node/8125230793.json 核到v6、WGS84点98.0898688/36.3068805；只取城镇点，不取行政边界。<br/><a href="https://www.openstreetmap.org/node/315046176">OpenStreetMap city node315046176：格尔木</a>：原API核到v31、WGS84点94.9026289/36.4011402，仅交叉核城区，不更改既有主图点。<br/><a href="https://www.openstreetmap.org/copyright">OpenStreetMap署名与ODbL许可</a>：© OpenStreetMap contributors。现代城镇点的派生数据遵循ODbL 1.0，保留源对象、版本和坐标口径。</p>]]></description>
+        <LookAt>
+          <longitude>96.85</longitude>
+          <latitude>36.65</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>650000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="dulan_golmud_card_county_dates">
+        <name>设县年代〔1917理事公署；1930正式设县〕</name>
+        <description><![CDATA[<p>海西州政府记1917年理事公署、1930年都兰县；国博据1929调查材料细化为1930年11月，县治希里沟。不能将校注时已设县读成陈氏北返当时已有都兰县。</p><p>独立KMZ含旧都兰寺地区候选、今都兰县城、格尔木三点。主图复用原05层golmud点及其坐标、耗时和距离，不重复加格尔木几何，只添都兰两点和说明。蓝色表示现代城镇参照；橙色空心表示旧都兰寺地区候选，原05层格尔木仍沿用其橙色推定样式。主图与独立补图选择一份显示，叠加旧图时可隐藏旧格尔木点。</p><p>本层点位用于阅读地名和时代差别；坐标不是古市场、县署或作者宿营地的实测确址。说明卡片无地理几何，不绘行军连线或历史范围边界。</p><p><a href="https://www.xuges.com/xdwx/qycm/31.htm">《艽野尘梦》第十一章（2）与校注56、57</a>：取盐、蒙古包、又行两日、聚落止宿及校注都兰判断；正文没有现代都兰县城名。<br/><a href="https://www.xuges.com/xdwx/qycm/30.htm">《艽野尘梦》第十一章（1）与校注55</a>：正文柴达木、十六日及校注噶尔木/果纳河谷的推论性质。<br/><a href="https://www.thepaper.cn/newsDetail_forward_30552389">樊丽媛（中国国家博物馆）：1929年都兰县治考察与边疆摄影</a>：作者馆刊文章经授权刊载，原文注释从略，依据1929年调查日记与相册论旧寺互市和1930年11月升县、县治希里沟；不是陈氏到站鉴定。<br/><a href="https://haixi.gov.cn/mlhx.htm">海西州人民政府：魅力海西·都兰县简介</a>：1917年理事公署、1930年改县、今察汗乌苏驻地；1955迁治为该页所记，不据此合并其他时期辖区或治所。<br/><a href="https://museum.wa.gov.au/catalogues/pseudoscorpions/pseudotyrannochthoniidae/kozlovi">西澳博物馆旧目录：Centrochthonius kozlovi / Dulansi</a>：搜索索引保留的目录正文将Dulon-kit对应Dulansi，给37°00′N、98°36′E；本轮原URL直开404，不单凭旧索引定址。<br/><a href="https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/arac-50-02-158.pdf/?no_cache=1#page=8">Harvey and Harms 2022：The pseudoscorpion genus Centrochthonius，p165</a>：旧名Dulon-kit=今Dulansi、37°01′N98°37′E；文中称参核Kozlov1906图，只作旧寺地区地名桥接，不是陈氏行迹证据。<br/><a href="https://www.wac.nmbe.ch/order/pseudoscorpiones/speciesdata/1690">伯尔尼自然史博物馆World Arachnida Catalog：Dulansi地名坐标</a>：目录列Dulansi=37.016666、98.616666，与2022研究同值；非建筑或宿营测绘。<br/><a href="https://www.geermu.gov.cn/into">格尔木市人民政府：格尔木概况</a>：名称蒙古语来源、1954建政与现代城市兴起；不构成陈氏当年城市到站证明。<br/><a href="https://zh.wikipedia.org/wiki/格尔木市">既有地图城市参照来源：格尔木市</a>：既有golmud城市代表点的来源沿用；本轮仅用OSM点交叉核对今城区，不用百科替代正文/史志定位。<br/><a href="https://www.openstreetmap.org/node/8125230793">OpenStreetMap town node8125230793：察汗乌苏镇</a>：原API https://api.openstreetmap.org/api/0.6/node/8125230793.json 核到v6、WGS84点98.0898688/36.3068805；只取城镇点，不取行政边界。<br/><a href="https://www.openstreetmap.org/node/315046176">OpenStreetMap city node315046176：格尔木</a>：原API核到v31、WGS84点94.9026289/36.4011402，仅交叉核城区，不更改既有主图点。<br/><a href="https://www.openstreetmap.org/copyright">OpenStreetMap署名与ODbL许可</a>：© OpenStreetMap contributors。现代城镇点的派生数据遵循ODbL 1.0，保留源对象、版本和坐标口径。</p>]]></description>
+        <LookAt>
+          <longitude>96.85</longitude>
+          <latitude>36.65</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>650000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="dulan_golmud_card_day_count">
+        <name>又行两日与止宿〔从取盐后蒙古包起算〕</name>
+        <description><![CDATA[<p>青盐海取盐后当日下午宿蒙古包，再行两日至百余户聚落；不是格尔木至都兰两日。止宿、次晨告别表示一次过夜，不据此求坐标、公历日或全天驻留时长。</p><p>独立KMZ含旧都兰寺地区候选、今都兰县城、格尔木三点。主图复用原05层golmud点及其坐标、耗时和距离，不重复加格尔木几何，只添都兰两点和说明。蓝色表示现代城镇参照；橙色空心表示旧都兰寺地区候选，原05层格尔木仍沿用其橙色推定样式。主图与独立补图选择一份显示，叠加旧图时可隐藏旧格尔木点。</p><p>本层点位用于阅读地名和时代差别；坐标不是古市场、县署或作者宿营地的实测确址。说明卡片无地理几何，不绘行军连线或历史范围边界。</p><p><a href="https://www.xuges.com/xdwx/qycm/31.htm">《艽野尘梦》第十一章（2）与校注56、57</a>：取盐、蒙古包、又行两日、聚落止宿及校注都兰判断；正文没有现代都兰县城名。<br/><a href="https://www.xuges.com/xdwx/qycm/30.htm">《艽野尘梦》第十一章（1）与校注55</a>：正文柴达木、十六日及校注噶尔木/果纳河谷的推论性质。<br/><a href="https://www.thepaper.cn/newsDetail_forward_30552389">樊丽媛（中国国家博物馆）：1929年都兰县治考察与边疆摄影</a>：作者馆刊文章经授权刊载，原文注释从略，依据1929年调查日记与相册论旧寺互市和1930年11月升县、县治希里沟；不是陈氏到站鉴定。<br/><a href="https://haixi.gov.cn/mlhx.htm">海西州人民政府：魅力海西·都兰县简介</a>：1917年理事公署、1930年改县、今察汗乌苏驻地；1955迁治为该页所记，不据此合并其他时期辖区或治所。<br/><a href="https://museum.wa.gov.au/catalogues/pseudoscorpions/pseudotyrannochthoniidae/kozlovi">西澳博物馆旧目录：Centrochthonius kozlovi / Dulansi</a>：搜索索引保留的目录正文将Dulon-kit对应Dulansi，给37°00′N、98°36′E；本轮原URL直开404，不单凭旧索引定址。<br/><a href="https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/arac-50-02-158.pdf/?no_cache=1#page=8">Harvey and Harms 2022：The pseudoscorpion genus Centrochthonius，p165</a>：旧名Dulon-kit=今Dulansi、37°01′N98°37′E；文中称参核Kozlov1906图，只作旧寺地区地名桥接，不是陈氏行迹证据。<br/><a href="https://www.wac.nmbe.ch/order/pseudoscorpiones/speciesdata/1690">伯尔尼自然史博物馆World Arachnida Catalog：Dulansi地名坐标</a>：目录列Dulansi=37.016666、98.616666，与2022研究同值；非建筑或宿营测绘。<br/><a href="https://www.geermu.gov.cn/into">格尔木市人民政府：格尔木概况</a>：名称蒙古语来源、1954建政与现代城市兴起；不构成陈氏当年城市到站证明。<br/><a href="https://zh.wikipedia.org/wiki/格尔木市">既有地图城市参照来源：格尔木市</a>：既有golmud城市代表点的来源沿用；本轮仅用OSM点交叉核对今城区，不用百科替代正文/史志定位。<br/><a href="https://www.openstreetmap.org/node/8125230793">OpenStreetMap town node8125230793：察汗乌苏镇</a>：原API https://api.openstreetmap.org/api/0.6/node/8125230793.json 核到v6、WGS84点98.0898688/36.3068805；只取城镇点，不取行政边界。<br/><a href="https://www.openstreetmap.org/node/315046176">OpenStreetMap city node315046176：格尔木</a>：原API核到v31、WGS84点94.9026289/36.4011402，仅交叉核城区，不更改既有主图点。<br/><a href="https://www.openstreetmap.org/copyright">OpenStreetMap署名与ODbL许可</a>：© OpenStreetMap contributors。现代城镇点的派生数据遵循ODbL 1.0，保留源对象、版本和坐标口径。</p>]]></description>
+        <LookAt>
+          <longitude>96.85</longitude>
+          <latitude>36.65</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>650000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="dulan_golmud_card_golmud_relation">
+        <name>格尔木与柴达木〔现代城市参照；任注55推定〕</name>
+        <description><![CDATA[<p>正文至柴达木，任注按程站推为噶尔木一带。今日格尔木1954年建政，以今市区作方位参照；主图复用05层原点，精确营地、谷口及途中路线仍待考。</p><p>独立KMZ含旧都兰寺地区候选、今都兰县城、格尔木三点。主图复用原05层golmud点及其坐标、耗时和距离，不重复加格尔木几何，只添都兰两点和说明。蓝色表示现代城镇参照；橙色空心表示旧都兰寺地区候选，原05层格尔木仍沿用其橙色推定样式。主图与独立补图选择一份显示，叠加旧图时可隐藏旧格尔木点。</p><p>本层点位用于阅读地名和时代差别；坐标不是古市场、县署或作者宿营地的实测确址。说明卡片无地理几何，不绘行军连线或历史范围边界。</p><p><a href="https://www.xuges.com/xdwx/qycm/31.htm">《艽野尘梦》第十一章（2）与校注56、57</a>：取盐、蒙古包、又行两日、聚落止宿及校注都兰判断；正文没有现代都兰县城名。<br/><a href="https://www.xuges.com/xdwx/qycm/30.htm">《艽野尘梦》第十一章（1）与校注55</a>：正文柴达木、十六日及校注噶尔木/果纳河谷的推论性质。<br/><a href="https://www.thepaper.cn/newsDetail_forward_30552389">樊丽媛（中国国家博物馆）：1929年都兰县治考察与边疆摄影</a>：作者馆刊文章经授权刊载，原文注释从略，依据1929年调查日记与相册论旧寺互市和1930年11月升县、县治希里沟；不是陈氏到站鉴定。<br/><a href="https://haixi.gov.cn/mlhx.htm">海西州人民政府：魅力海西·都兰县简介</a>：1917年理事公署、1930年改县、今察汗乌苏驻地；1955迁治为该页所记，不据此合并其他时期辖区或治所。<br/><a href="https://museum.wa.gov.au/catalogues/pseudoscorpions/pseudotyrannochthoniidae/kozlovi">西澳博物馆旧目录：Centrochthonius kozlovi / Dulansi</a>：搜索索引保留的目录正文将Dulon-kit对应Dulansi，给37°00′N、98°36′E；本轮原URL直开404，不单凭旧索引定址。<br/><a href="https://www.americanarachnology.org/journal-joa/joa-all-articles/article/download/arac-50-02-158.pdf/?no_cache=1#page=8">Harvey and Harms 2022：The pseudoscorpion genus Centrochthonius，p165</a>：旧名Dulon-kit=今Dulansi、37°01′N98°37′E；文中称参核Kozlov1906图，只作旧寺地区地名桥接，不是陈氏行迹证据。<br/><a href="https://www.wac.nmbe.ch/order/pseudoscorpiones/speciesdata/1690">伯尔尼自然史博物馆World Arachnida Catalog：Dulansi地名坐标</a>：目录列Dulansi=37.016666、98.616666，与2022研究同值；非建筑或宿营测绘。<br/><a href="https://www.geermu.gov.cn/into">格尔木市人民政府：格尔木概况</a>：名称蒙古语来源、1954建政与现代城市兴起；不构成陈氏当年城市到站证明。<br/><a href="https://zh.wikipedia.org/wiki/格尔木市">既有地图城市参照来源：格尔木市</a>：既有golmud城市代表点的来源沿用；本轮仅用OSM点交叉核对今城区，不用百科替代正文/史志定位。<br/><a href="https://www.openstreetmap.org/node/8125230793">OpenStreetMap town node8125230793：察汗乌苏镇</a>：原API https://api.openstreetmap.org/api/0.6/node/8125230793.json 核到v6、WGS84点98.0898688/36.3068805；只取城镇点，不取行政边界。<br/><a href="https://www.openstreetmap.org/node/315046176">OpenStreetMap city node315046176：格尔木</a>：原API核到v31、WGS84点94.9026289/36.4011402，仅交叉核城区，不更改既有主图点。<br/><a href="https://www.openstreetmap.org/copyright">OpenStreetMap署名与ODbL许可</a>：© OpenStreetMap contributors。现代城镇点的派生数据遵循ODbL 1.0，保留源对象、版本和坐标口径。</p>]]></description>
+        <LookAt>
+          <longitude>96.85</longitude>
+          <latitude>36.65</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>650000</range>
           <altitudeMode>clampToGround</altitudeMode>
         </LookAt>
       </Placemark>
