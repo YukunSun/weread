@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="bomi_supplement">
+    <name>《艽野尘梦》波密｜历史地区；今扎木镇方位参照</name>
+    <open>1</open>
+    <description><![CDATA[同一波密地区参照点的独立呈现文件，以现代扎木镇帮助辨认历史地区；不是卡拖、春多寺、王宫或战场，不绘古界与行军线。可补充旧版地图，请隐藏旧版06层波密点，或与新版完整阅读地图二选一显示。]]></description>
+    <LookAt>
+      <longitude>95.77055556</longitude>
+      <latitude>29.85916667</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>240000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="context">
+      <IconStyle>
+        <color>ffaaaaaa</color>
+        <scale>1.05</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Placemark id="place_bomi">
+      <name>波密〔历史地区；今扎木镇方位参照〕</name>
+      <visibility>1</visibility>
+      <Snippet maxLines="2">第5—7章；校注33 · 现代镇区方位参照；历史地区范围未复原</Snippet>
+      <description><![CDATA[<h3>波密〔历史地区；今扎木镇方位参照〕</h3><p><b>今名／定位对象：</b>今波密县扎木镇，仅作历史波密地区的现代方位参照<br/><b>对应章节：</b>第5—7章；校注33<br/><b>定位性质：</b>现代镇区方位参照；历史地区范围未复原<br/><b>经纬度：</b>95.7706°E, 29.8592°N</p><p>任乃强校注33区分东北上波（波堆）与西南下波（波密），并说明波部常被汉文统称波密；这是对书中历史地区的地理解释，不将历史范围直接套成今县界。现代波密县1959年设县，县政府驻扎木镇。本点以KNAB扎木镇代表坐标辨认地区方位，不是卡拖、春多寺、嘎朗王宫或具体战场，也不接入作者行军线。第5—7章含多地进退、驻防与等待，不能合并成该点的一次到站或统一用时。</p><p>KNAB原表为29°51′33″N、95°46′14″E，未明确坐标基准；本点仅为现代扎木镇代表点，显示位数不代表历史地区中心或古址精度。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">地名与行程：原文、校注</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">坐标参照</a><br/><a href="https://www.xuges.com/xdwx/qycm/17.htm">校注33：波部、上波与下波</a><br/><a href="https://bomi.gov.cn/bmx/zjbm/201901/6e18ca202e204e23a572f56f2b17dfd4.shtml">波密县历史沿革</a><br/><a href="https://www.bomi.gov.cn/bmx/newxz/202012/ee7bcc2e5e7143c59d7f4725fa059033.shtml">县政府驻扎木镇：官方简介</a></p><p>本地点单独耗时未明确记载，不按里程分摊。</p>]]></description>
+      <LookAt>
+        <longitude>95.77055556</longitude>
+        <latitude>29.85916667</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>240000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#context</styleUrl>
+      <ExtendedData>
+        <Data name="book_name">
+          <value>波密〔历史地区；今扎木镇方位参照〕</value>
+        </Data>
+        <Data name="modern_name">
+          <value>今波密县扎木镇，仅作历史波密地区的现代方位参照</value>
+        </Data>
+        <Data name="chapter">
+          <value>第5—7章；校注33</value>
+        </Data>
+        <Data name="certainty">
+          <value>现代镇区方位参照；历史地区范围未复原</value>
+        </Data>
+        <Data name="coordinate_reference">
+          <value>https://arhiiv.eki.ee/knab/valik/cn54ny.htm</value>
+        </Data>
+        <Data name="literary_source">
+          <value>https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt</value>
+        </Data>
+        <Data name="note">
+          <value>任乃强校注33区分东北上波（波堆）与西南下波（波密），并说明波部常被汉文统称波密；这是对书中历史地区的地理解释，不将历史范围直接套成今县界。现代波密县1959年设县，县政府驻扎木镇。本点以KNAB扎木镇代表坐标辨认地区方位，不是卡拖、春多寺、嘎朗王宫或具体战场，也不接入作者行军线。第5—7章含多地进退、驻防与等待，不能合并成该点的一次到站或统一用时。</value>
+        </Data>
+        <Data name="travel_time">
+          <value />
+        </Data>
+        <Data name="timing_basis">
+          <value />
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>95.77055556,29.85916667,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

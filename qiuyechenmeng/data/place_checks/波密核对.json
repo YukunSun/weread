@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-01",
+  "place_id": "bomi",
+  "name": "波密〔历史地区；今扎木镇方位参照〕",
+  "scope": "历史波密为地区称谓；复用06层既有bomi现代镇区背景点，完整主图仅保留一个bomi。旧图可用独立补图呈现同一点，须隐藏旧版06层波密点或与新版主图二选一显示，不作为第二历史站点；历史范围不套现代县界。",
+  "coordinate_record": {
+    "source_url": "https://arhiiv.eki.ee/knab/valik/cn54ny.htm",
+    "entry": "Chabmog / ཁྲབ་རྨོག；Zhamog、Zhamo、Zhamu／扎木、Zhamu Zhen／扎木镇",
+    "feature_codes": "a41, p0, @3",
+    "administrative_path": "54 : Nyingchi : Bomê",
+    "original_latitude": "29°51′33″N",
+    "original_longitude": "95°46′14″E",
+    "lon": 95.77055556,
+    "lat": 29.85916667,
+    "datum": "原表未明确坐标基准",
+    "retrieved_at": "2026-11-01",
+    "note": "取KNAB Chabmog主条中扎木镇（Zhamu Zhen）现代镇区代表点；原表29°51′33″N、95°46′14″E，未明确坐标基准。与扎木村另条（29°52′02″N、95°45′57″E）区分。原背景点95.7694°E、29.8585°N更新至本点，移动约134米，仅更换可核对的现代地名库依据，不提高历史定位精度；视距240km。"
+  },
+  "timing_note": "第5—7章叙述多地进退、作战、驻防和等待，没有一个可记在现代扎木镇点上的统一波密行程或驻留总日数；不把整个战事压成一次到站，不按现代距离分摊时间。",
+  "sources": [
+    {
+      "title": "《艽野尘梦》第六章，任乃强校注33",
+      "url": "https://www.xuges.com/xdwx/qycm/17.htm",
+      "supports": "校注将波部区分上波／波堆与下波／波密，并说明汉文通称波密、历史工布与波密边界曾有变化。作为校注对书中地区的解释，不当作现代县界或已复原的历史疆界。"
+    },
+    {
+      "title": "波密县政府：波密历史沿革",
+      "url": "https://bomi.gov.cn/bmx/zjbm/201901/6e18ca202e204e23a572f56f2b17dfd4.shtml",
+      "supports": "记1954年曲宗、易贡、倾多三宗统一管辖，1959年设波密县及县政府驻扎木镇的沿革；用于区分现代县制与清末历史地区。"
+    },
+    {
+      "title": "波密县政府：扎木镇基本情况简介（2023年）",
+      "url": "https://www.bomi.gov.cn/bmx/newxz/202012/ee7bcc2e5e7143c59d7f4725fa059033.shtml",
+      "supports": "确认扎木镇为波密县政府驻地，只用于现代地区方位参照。"
+    },
+    {
+      "title": "KNAB林芝地名库：Chabmog／扎木镇",
+      "url": "https://arhiiv.eki.ee/knab/valik/cn54ny.htm",
+      "supports": "Chabmog主条含Zhamog、Zhamu／扎木与Zhamu Zhen／扎木镇等异名；提供29°51′33″N、95°46′14″E的现代代表点，非历史事件定位。"
+    },
+    {
+      "title": "波密县政府：嘎朗王宫遗址考古调查及试掘启动（2023年）",
+      "url": "https://www.bomi.gov.cn/bmx/zjbm/202312/664dc78335b24e8c9906062e1a0fe1d4.shtml",
+      "supports": "嘎朗王宫遗址是古乡嘎朗村附近山脊上的另一遗址，不能与现代扎木镇点混同；本轮仅记录区别，不落王宫坐标，也不推定陈渠珍到访。"
+    }
+  ],
+  "google_earth_import": {
+    "verified_at": "2026-11-01T09:35:51+08:00",
+    "note": "2026-11-01已将独立波密地区参照KMZ作为地图项导入原Google Earth阅读地图。已隐藏旧版“校注十一地点落点版”06层中的波密点及06层，避免与新点重复显示；其他旧版主图仍隐藏。新目录与灰色波密点可见，弹窗和位置字段均核对为现代扎木镇代表点29°51′33″N、95°46′14″E，坐标来源字段为KNAB，镜头视距240km。说明保留历史地区不等于今县界、并非卡拖或春多寺等确址、不给整个波密战事填统一用时。画面显示“已保存到Google云端硬盘”，已保存地图与弹窗截图。",
+    "screenshot": "data/place_checks/bomi_google_earth.jpg",
+    "legacy_point_hidden": true,
+    "project_title": "《艽野尘梦》阅读地图｜耗时与距离（km）"
+  }
+}

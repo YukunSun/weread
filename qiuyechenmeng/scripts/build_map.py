@@ -77,7 +77,7 @@ ROWS = [
 ('lanzhou','26 兰州','兰州城区',103.8320,36.0610,'第12章','return','对应较明确',wiki('兰州市'),'现代城市代表点；旧炭市街旅店位置未核。'),
 ('xian','27 长安 → 西安','西安老城一带',108.9453,34.2592,'第12章','return','对应较明确',wiki('西安市'),'全书叙事终点。使用老城范围代表点；洪铺街寓所及墓葬均未精确定位。'),
 ('gongbo','参照 工布江达现代县城','工布江达县城',93.2462,29.8868,'地理对照','context','背景参照',wiki('工布江达县'),'供辨认今地名。与西北方向的太昭／江达村分开；本图不把现代县城当书中“江达”。'),
-('bomi','参照 波密现代县城','波密扎木镇一带',95.7694,29.8585,'地理对照','context','背景参照',wiki('波密县'),'现代地理参照。历史波密是区域，不把今县城自动等同卡拖或春多寺。'),
+('bomi','波密〔历史地区；今扎木镇方位参照〕','今波密县扎木镇，仅作历史波密地区的现代方位参照',95.77055556,29.85916667,'第5—7章；校注33','context','现代镇区方位参照；历史地区范围未复原','https://arhiiv.eki.ee/knab/valik/cn54ny.htm','任乃强校注33区分东北上波（波堆）与西南下波（波密），并说明波部常被汉文统称波密；这是对书中历史地区的地理解释，不将历史范围直接套成今县界。现代波密县1959年设县，县政府驻扎木镇。本点以KNAB扎木镇代表坐标辨认地区方位，不是卡拖、春多寺、嘎朗王宫或具体战场，也不接入作者行军线。第5—7章含多地进退、驻防与等待，不能合并成该点的一次到站或统一用时。'),
 ]
 
 # Distances are between representative points, never reconstructed walking miles.
@@ -396,6 +396,24 @@ def write_gongjue_index():
     return note
 
 
+def write_bomi_index():
+    row=PLACE_BY_ID['bomi']
+    check=json.loads((ROOT/'data/place_checks/波密核对.json').read_text(encoding='utf-8'))
+    note=('波密｜历史地区；今扎木镇方位参照\n核对日期：'+check['checked_at']+'\n\n'
+          +row[9]+'\n\n'
+          +f'现代镇区代表点：{row[3]}°E，{row[4]}°N。\n'+check['coordinate_record']['note']+'\n\n'
+          +'复用完整阅读地图06现代地理参照层的既有bomi点，主要点数仍为32；本层默认隐藏，需要时从列表显示。旧图可用独立“艽野尘梦_波密地区参照.kmz”补充同一点，须隐藏旧版06层波密点，或与新版主图二选一显示。这是同一地点的独立呈现文件，不是新增历史站点；不绘历史地区边界、王宫点或作者行军线。\n\n'
+          +'耗时：'+check['timing_note']+'\n\n来源及限度\n')
+    for source in check['sources']:
+        note+='\n'+source['title']+'\n'+source['supports']+'\n'+source['url']+'\n'
+    if check.get('google_earth_import'):
+        note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
+        if check['google_earth_import'].get('screenshot'):
+            note+='核验截图：'+check['google_earth_import']['screenshot']+'\n'
+    (ROOT/'波密核对说明.txt').write_text(note,encoding='utf-8')
+    return note
+
+
 def make_road_supplement():
     root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='modern_road_supplement')
     el(doc,'name','《艽野尘梦》现代道路对照｜G317等国道省道');el(doc,'open',1)
@@ -440,11 +458,13 @@ def major_place(parent,row):
     if rid=='taizhao': extra.append(('江达与太昭：社科院考察',SOURCES['江达与太昭考证']))
     if rid=='changba': extra.extend([('长坝春今名考证',SOURCES['旧驿道与长坝春考证']),('江巴村现行政归属',SOURCES['江巴村现行政归属核查'])])
     if rid=='lulang': extra.append(('鲁朗镇治迁移',SOURCES['鲁朗镇治迁移']))
-    body=f'<h3>{html.escape(label)}</h3><p><b>今名／定位对象：</b>{html.escape(modern)}<br/><b>对应章节：</b>{html.escape(chapter)}<br/><b>定位性质：</b>{certainty}<br/><b>经纬度：</b>{lon:.4f}°E, {lat:.4f}°N</p><p>{html.escape(note)}</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p>'+links(extra)+'</p>'
+    if rid=='bomi': extra.extend([('校注33：波部、上波与下波','https://www.xuges.com/xdwx/qycm/17.htm'),('波密县历史沿革','https://bomi.gov.cn/bmx/zjbm/201901/6e18ca202e204e23a572f56f2b17dfd4.shtml'),('县政府驻扎木镇：官方简介','https://www.bomi.gov.cn/bmx/newxz/202012/ee7bcc2e5e7143c59d7f4725fa059033.shtml')])
+    coordinate_note=('KNAB原表为29°51′33″N、95°46′14″E，未明确坐标基准；本点仅为现代扎木镇代表点，显示位数不代表历史地区中心或古址精度。' if rid=='bomi' else '坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。')
+    body=f'<h3>{html.escape(label)}</h3><p><b>今名／定位对象：</b>{html.escape(modern)}<br/><b>对应章节：</b>{html.escape(chapter)}<br/><b>定位性质：</b>{certainty}<br/><b>经纬度：</b>{lon:.4f}°E, {lat:.4f}°N</p><p>{html.escape(note)}</p><p>{coordinate_note}</p><p>'+links(extra)+'</p>'
     related_distances=[d for d in DISTANCE_ROWS if d[1]==rid or d[2]==rid]
     travel=time_html(entries)+(distance_html(related_distances) if related_distances else '')
-    el(pm,'description',body+travel if rid=='taizhao' else travel+body)
-    view(pm,lon,lat,180000 if rid in ['golmud','qinghai'] else 45000 if rid=='taizhao' else 65000)
+    el(pm,'description',body+travel if rid in ['taizhao','bomi'] else travel+body)
+    view(pm,lon,lat,240000 if rid=='bomi' else 180000 if rid in ['golmud','qinghai'] else 45000 if rid=='taizhao' else 65000)
     el(pm,'styleUrl','#jiangda' if rid=='taizhao' else '#'+phase+('_uncertain' if uncertain else ''))
     ed=el(pm,'ExtendedData')
     for name,value in [('book_name',label),('modern_name',modern),('chapter',chapter),('certainty',certainty),('coordinate_reference',coordsource),('literary_source',TEXT),('note',note),('travel_time','；'.join(t['segment']+'：'+t['duration'] for t in entries)),('timing_basis','；'.join(t['kind']+'：'+t['basis'] for t in entries))]:
@@ -460,6 +480,20 @@ def make_jiangda_supplement(bundled=False):
     el(doc,'description','仅含江达一处区域参照点，点击查看今名、定位依据及北返耗时。可供旧版地图单独导入；请隐藏旧版02层中的江达点，或与新版完整阅读地图二选一，避免同地点重复显示。旧驿站、陈部驻地及出发确址未定。')
     view(doc,row[3],row[4],45000)
     jiangda_style(doc,bundled);major_place(doc,row)
+    return serialize(root)
+
+def make_bomi_supplement(bundled=False):
+    row=PLACE_BY_ID['bomi']
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='bomi_supplement')
+    el(doc,'name','《艽野尘梦》波密｜历史地区；今扎木镇方位参照');el(doc,'open',1)
+    el(doc,'description','同一波密地区参照点的独立呈现文件，以现代扎木镇帮助辨认历史地区；不是卡拖、春多寺、王宫或战场，不绘古界与行军线。可补充旧版地图，请隐藏旧版06层波密点，或与新版完整阅读地图二选一显示。')
+    view(doc,row[3],row[4],240000)
+    st=el(doc,'Style',id='context');ic=el(st,'IconStyle')
+    el(ic,'color','ffffffff' if bundled else kcolor(PHASES['context'][1]));el(ic,'scale',1.05)
+    icon=el(ic,'Icon');el(icon,'href','icons/context.png' if bundled else 'https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png')
+    lab=el(st,'LabelStyle');el(lab,'color','ffffffff');el(lab,'scale',0.85)
+    major_place(doc,row)
+    doc.find(f'{{{KML}}}Placemark/{{{KML}}}visibility').text='1'
     return serialize(root)
 
 def make_map(bundled=False):
@@ -688,6 +722,12 @@ def main():
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     gongjue_note=write_gongjue_index()
+    bomi_note=write_bomi_index()
+    bomi='艽野尘梦_波密地区参照'
+    (ROOT/(bomi+'.kml')).write_bytes(make_bomi_supplement())
+    with zipfile.ZipFile(ROOT/(bomi+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_bomi_supplement(True))
+        z.writestr('icons/context.png',png(PHASES['context'][1]))
     jiangda='艽野尘梦_江达定位'
     (ROOT/(jiangda+'.kml')).write_bytes(make_jiangda_supplement())
     with zipfile.ZipFile(ROOT/(jiangda+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -880,6 +920,8 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n二十二、百马岗／白马岗｜墨脱地区参照\n'+baimagang_note)
         f.write('\n二十三、德摩｜赴此4日；驻月余\n'+demo_note)
         f.write('\n二十四、贡觉｜米瑞广久一带候选；旧宅未定\n'+gongjue_note)
+    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+        f.write('\n二十五、波密｜历史地区；今扎木镇方位参照\n'+bomi_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':
