@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="huore_bridge_supplement">
+    <name>《艽野尘梦》夥惹／夥若桥｜未准过桥与地望待考</name>
+    <open>1</open>
+    <description><![CDATA[未准过桥与后文过桥分阶段记录。两张无几何说明卡保留旧桥址待考，不据对话推定岸别、界线或陈本人渡江。]]></description>
+    <LookAt>
+      <longitude>95.55</longitude>
+      <latitude>29.65</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>300000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Folder id="huore_bridge_check">
+      <name>20 夥惹／夥若桥｜未准过桥与地望待考</name>
+      <open>1</open>
+      <description><![CDATA[夥惹／夥若是本段桥名的异写。酋长对话说此前已入境、当时仍不准过桥，后文另记商议数日后的过桥事件；不把阶段合并，也不据对话画界线或定岸别。校注38推测桥在雅鲁藏布江大峡南部，现代桥址尚未核定。]]></description>
+      <LookAt>
+        <longitude>95.55</longitude>
+        <latitude>29.65</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>300000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="huore_bridge_place">
+        <name>夥惹／夥若桥〔雅鲁藏布江旧藤桥；确址待考〕</name>
+        <description><![CDATA[<h3>夥惹／夥若桥〔雅鲁藏布江旧藤桥；确址待考〕</h3><p>第6章对话的在线对读本文作夥若桥；后续的桥梁描写作夥惹藤桥，校注38又作夥若桥。同一章节的桥梁叙述中互见的字形在此合读，保留夥惹／夥若异写，不因写法不同拆成两座已定位桥。</p><p>任乃强校注38将桥说明为跨雅鲁藏布江、波密白马岗通珞渝的孔道，并称依西文地图推测其在雅鲁藏布江大峡南部。这是校注地望判断，没有给出现代桥名、测绘桥址或可绘制的位置范围。</p><p>本轮未取得足以闭合现代桥址的直接证据。德兴、希让等藤网桥或解放大桥，不因形制或地区相近就认作本桥；格布沟出使途中多处藤桥、守桥与汤买古藤桥，也不据相邻叙述互相推定身份。本卡不新增桥点、渡江线或搜索圈。</p><p>书中将夥惹解释为神造，这里仅保留该书所记的名称解释，不视为已独立核实的藏语词源或藤桥自然生成事实；桥的外形、宽度与高度描写均不能代替旧桥址证据。</p><p><b>镜头与定位：</b>编辑选取的波密—墨脱方向300km概览镜头，仅辅助阅读地区背景；不是夥惹／夥若桥坐标、候选位置、桥头驻所、两岸方位、历史界线或位置误差范围。</p><p><a href="https://www.xuges.com/xdwx/qycm/19.htm">第6章正文及校注37：未准过桥、后阶段与传闻层级</a><br/><a href="https://www.xuges.com/xdwx/qycm/20.htm">第6章正文及校注38：夥惹／夥若异写与大峡南部推测</a></p>]]></description>
+        <LookAt>
+          <longitude>95.55</longitude>
+          <latitude>29.65</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>300000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="huore_bridge_stage">
+        <name>前已入境，未准过桥〔对话阶段；非陈本人渡江〕</name>
+        <description><![CDATA[<h3>前已入境，未准过桥〔对话阶段；非陈本人渡江〕</h3><p>这段对话由喇嘛询问白马青滃／青翁的去向引出。酋长称此前已入境，但当时仍拒绝其过夥惹／夥若桥；不能把已入境改记为已经过桥。后文另叙召集各山酋长、商议数日后再诱其过桥，属于后一个阶段。不使过记录当时的阻止，不表示其始终没有过桥。</p><p>同段喇嘛随后又说既拒其入境，与酋长前已入境的措辞存在张力。本图保留对话中的地方准入与拒绝过桥关系，不把境解释成一条已测定的行政边界或国界，也不据此判定白马青滃所在岸别、桥头驻所或桥与界线重合。</p><p>校注37指出陈渠珍当时在卡拖，关于喇嘛应募经过得自传闻。桥段的对话和后续两岸地理叙述，均不能标成陈本人亲访桥头或亲自渡江，也不接入他的个人行程线。</p><p>商议数日没有给出确切日数，不能补成某个固定天数；本段亦未载完整行程公里数。不据桥宽、两岸高度、过山十余里或入境一词推造渡桥位置、路线与总耗时。</p><p><b>镜头与定位：</b>编辑选取的波密—墨脱方向300km概览镜头，仅辅助阅读地区背景；不是夥惹／夥若桥坐标、候选位置、桥头驻所、两岸方位、历史界线或位置误差范围。</p><p><a href="https://www.xuges.com/xdwx/qycm/19.htm">第6章正文及校注37：未准过桥、后阶段与传闻层级</a><br/><a href="https://www.xuges.com/xdwx/qycm/20.htm">第6章正文及校注38：夥惹／夥若异写与大峡南部推测</a></p>]]></description>
+        <LookAt>
+          <longitude>95.55</longitude>
+          <latitude>29.65</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>300000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

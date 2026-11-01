@@ -22,6 +22,7 @@ from gongbu_pacification import add_gongbu_pacification, write_gongbu_indexes, u
 from balangdeng import add_folder as add_balangdeng, write_index as write_balangdeng_index
 from three_temples import add_folder as add_three_temples, write_index as write_three_temples_index
 from gebu_reconciliation import add_folder as add_gebu_reconciliation, write_index as write_gebu_reconciliation_index
+from huore_bridge import add_folder as add_huore_bridge, write_index as write_huore_bridge_index
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -117,7 +118,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第4章；校注27','百马岗召询现场及绕行路线','08层以现代墨脱镇、墨脱村地区点参照校注所指百马岗／白马岗。该点不是召询现场或陈部驻地，历史地区不直接等同现代县界，不能据此断言作者到今县城；正文从窝冗绕行六日、后行四日至德摩与受访者自述路程分别保留，具体路线未定位。'),
 ('第5—7章','纳衣当噶、京中、树枝、央噶','德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。'),
 ('第5—6章；校注33','八浪登、甲米青波及前方石卡','八浪登为冬九—汤买方向旧山路上的山腹隘口，现代名称与确址未定；甲米青波宿营地、前方石卡与隘口分别待考。17层只有文字核对卡与地区背景镜头，不造地点或路线几何。'),
-('第6—7章','卡拖、八阶、夥若桥','具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。'),
+('第6—7章；校注37、38','卡拖、八阶、夥惹／夥若桥','卡拖驻所、八阶旧址及夥惹／夥若桥确址未定；不把卡拖自动放在波密县城，也不把旧桥直接等同今某座大桥。20层以无几何卡分读未准过桥阶段与校注大峡南部推测，不据对话定岸别或行政界线。'),
 ('第6章；校注37、38','格布沟、野人山与白马杠山岭','格布沟为王孚出使报告中的林噶驻地；野人山、白马杠山岭及营地确址未定。19层分叙人物退向、卡拖会商与招抚出使，概览镜头及现代墨脱地区参照均不是待考地点坐标。'),
 ('第4章校注29；第6章校注32、35','薄宗寺','校注称上波密东谷通桑昂，以薄宗寺为中心；现代寺名与旧址未定。18层只提供地区概览及文义核对卡，镜头中心不是寺址坐标，不冒认波曲宗或波密县城。'),
 ('第8章','凝多／凝多塘','北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。'),
@@ -577,6 +578,7 @@ def make_map(bundled=False):
     add_balangdeng(doc,el,view)
     add_three_temples(doc,el,view)
     add_gebu_reconciliation(doc,el,view)
+    add_huore_bridge(doc,el,view)
     return serialize(root)
 
 def make_balangdeng_supplement():
@@ -601,6 +603,14 @@ def make_gebu_reconciliation_supplement():
     el(doc,'description','白马青滃、林噶退向与陈渠珍卡拖会商、王孚格布沟招抚分读。五张无几何说明卡，不新增人物行军线或待考地点。')
     view(doc,95.55,29.65,300000)
     add_gebu_reconciliation(doc,el,view)
+    return serialize(root)
+
+def make_huore_bridge_supplement():
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='huore_bridge_supplement')
+    el(doc,'name','《艽野尘梦》夥惹／夥若桥｜未准过桥与地望待考');el(doc,'open',1)
+    el(doc,'description','未准过桥与后文过桥分阶段记录。两张无几何说明卡保留旧桥址待考，不据对话推定岸别、界线或陈本人渡江。')
+    view(doc,95.55,29.65,300000)
+    add_huore_bridge(doc,el,view)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -772,6 +782,11 @@ def main():
     with zipfile.ZipFile(ROOT/(gebu+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_gebu_reconciliation_supplement())
     gebu_note=write_gebu_reconciliation_index()
+    huore='艽野尘梦_夥惹桥'
+    (ROOT/(huore+'.kml')).write_bytes(make_huore_bridge_supplement())
+    with zipfile.ZipFile(ROOT/(huore+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_huore_bridge_supplement())
+    huore_note=write_huore_bridge_index()
     bomi='艽野尘梦_波密地区参照'
     (ROOT/(bomi+'.kml')).write_bytes(make_bomi_supplement())
     with zipfile.ZipFile(ROOT/(bomi+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -974,6 +989,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n二十六、八浪登与四重山核对｜确址待考\n'+balangdeng_note)
         f.write('\n二十七、边军攻取上波密三寺｜并列战果\n'+three_temples_note)
         f.write('\n二十八、白马杠与格布沟｜人物行动分读\n'+gebu_note)
+        f.write('\n二十九、夥惹／夥若桥｜未准过桥与地望待考\n'+huore_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes.')
 
 if __name__=='__main__':
