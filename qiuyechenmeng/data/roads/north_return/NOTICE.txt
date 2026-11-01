@@ -1,0 +1,14 @@
+现行道路参照：第八至十一章北返推测路线
+
+© OpenStreetMap contributors
+Source: https://www.openstreetmap.org/
+License: Open Database License (ODbL) 1.0
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+
+道路几何于2026-11-01由OSM官方只读API取得。来源关系、取得时间与原始XML SHA256详见manifest.json。
+数据只供现代道路与历史候选路线对照。缺口不作直线补齐；当前OSM标签不等于现场通行或历史重合证据。
+生成数据保留原始节点顺序，仅按研究bbox裁切；无路线规划和推测连接。
+
+补充来源：Overpass API对OSM独立way ref=G0612与确切名称倒湖茶公路的读取；OSM数据库基准时间及查询保存在manifest.json。
+倒湖茶公路原OSM ref GZ25并非本地图宣称的现行路号；现G109已采用共和—倒淌河南线。

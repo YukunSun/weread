@@ -1,0 +1,1780 @@
+{
+  "dataset": "north_return_modern_road_reference",
+  "generated_at_utc": "2026-11-01T10:43:29.925574+00:00",
+  "coordinate_reference_system": "WGS84 lon/lat",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "source_discovery": [
+    "https://wiki.openstreetmap.org/wiki/China/Transport/National_Highways",
+    "https://wiki.openstreetmap.org/wiki/China/Transport/National_Highways/Expressways"
+  ],
+  "geometry_file": "roads.geojson",
+  "feature_count": 2575,
+  "bbox": [
+    90.5302901,
+    29.6458985,
+    101.65,
+    37.519416
+  ],
+  "per_road": {
+    "G109": {
+      "name": "109国道（青藏公路及青海湖以南现行线）",
+      "feature_count": 526,
+      "bbox": [
+        90.5431943,
+        29.6458985,
+        101.65,
+        36.7920867
+      ],
+      "selection_bbox": [
+        90.5,
+        29.4,
+        101.65,
+        37.5
+      ],
+      "source_relation_ids": [
+        153104
+      ],
+      "retrieved_at": [
+        "2026-11-01T10:37:31.427392+00:00"
+      ],
+      "excluded_by_reason": {},
+      "unresolved_child_relations": [],
+      "polyline_km": 2033.16
+    },
+    "G315": {
+      "name": "315国道（德令哈—乌兰—青海湖北侧）",
+      "feature_count": 215,
+      "bbox": [
+        94.0,
+        36.6759061,
+        101.2674635,
+        37.519416
+      ],
+      "selection_bbox": [
+        94.0,
+        36.25,
+        101.35,
+        38.2
+      ],
+      "source_relation_ids": [
+        932944
+      ],
+      "retrieved_at": [
+        "2026-11-01T10:37:25.025470+00:00"
+      ],
+      "excluded_by_reason": {
+        "old_or_conflicting_way_ref": 58
+      },
+      "unresolved_child_relations": [],
+      "polyline_km": 666.58,
+      "missing_coverage_note": "G315路线关系包含56条S20德小高速与2条G315(旧)道路，已排除；由此产生的柴达木中西部缺口不补线。"
+    },
+    "G6": {
+      "name": "京藏高速（已标注为现状的分段）",
+      "feature_count": 1359,
+      "bbox": [
+        90.5302901,
+        29.6865322,
+        101.65,
+        36.8027647
+      ],
+      "selection_bbox": [
+        90.5,
+        29.4,
+        101.65,
+        37.5
+      ],
+      "source_relation_ids": [
+        16192294,
+        16192295
+      ],
+      "retrieved_at": [
+        "2026-11-01T10:37:42.764194+00:00",
+        "2026-11-01T10:37:42.930456+00:00"
+      ],
+      "excluded_by_reason": {
+        "highway=construction": 18,
+        "construction_or_proposed_tag": 8
+      },
+      "unresolved_child_relations": [],
+      "polyline_km": 2092.49,
+      "large_gap_latitude_range_approx": [
+        31.4343,
+        36.012
+      ]
+    },
+    "G0612": {
+      "name": "西和高速（OSM当前有独立G0612路号的分段）",
+      "feature_count": 278,
+      "bbox": [
+        98.8410339,
+        36.9907164,
+        100.928568,
+        37.2960738
+      ],
+      "selection_bbox": [
+        96.8,
+        36.4,
+        101.4,
+        38.2
+      ],
+      "source_relation_ids": [
+        12746684
+      ],
+      "retrieved_at": [
+        "2026-11-01T10:42:08.888513+00:00"
+      ],
+      "excluded_by_reason": {
+        "independent_query_highway_construction": 121
+      },
+      "unresolved_child_relations": [],
+      "polyline_km": 458.84,
+      "independent_way_query_count": 278,
+      "added_by_independent_way_query": 6,
+      "missing_coverage_note": "关系及独立way ref查询均未取得德令哈—乌兰西一段；不得以现G0612连续覆盖茶德全段。西端路号在OSM可能保留S20等旧号，本次不作改号推断。"
+    },
+    "G317": {
+      "name": "317国道（那曲—夏曲—索县方向）",
+      "feature_count": 85,
+      "bbox": [
+        91.35,
+        31.4748994,
+        94.3,
+        31.9412621
+      ],
+      "selection_bbox": [
+        91.35,
+        31.0,
+        94.3,
+        32.35
+      ],
+      "source_relation_ids": [
+        215491
+      ],
+      "retrieved_at": [
+        "2026-11-01T10:37:50.339554+00:00"
+      ],
+      "excluded_by_reason": {},
+      "unresolved_child_relations": [],
+      "polyline_km": 379.42
+    },
+    "G349": {
+      "name": "349国道（嘉黎—墨竹工卡方向相关分段）",
+      "feature_count": 85,
+      "bbox": [
+        92.0,
+        30.0025625,
+        94.2,
+        30.7639581
+      ],
+      "selection_bbox": [
+        92.0,
+        29.8,
+        94.2,
+        31.5
+      ],
+      "source_relation_ids": [
+        13088685
+      ],
+      "retrieved_at": [
+        "2026-11-01T10:37:45.240678+00:00"
+      ],
+      "excluded_by_reason": {},
+      "unresolved_child_relations": [],
+      "polyline_km": 362.8
+    },
+    "DAOHUCHA": {
+      "name": "倒湖茶公路（青海湖南岸原G109；黑马河—二郎剑—倒淌河分段）",
+      "feature_count": 27,
+      "bbox": [
+        99.4521845,
+        36.3981692,
+        100.9698197,
+        36.785283
+      ],
+      "selection_bbox": [
+        99.0,
+        36.35,
+        101.0,
+        36.85
+      ],
+      "retrieved_at": [
+        "2026-11-01T10:40:03.050628+00:00"
+      ],
+      "polyline_km": 154.56,
+      "independent_way_query_count": 27,
+      "added_by_independent_way_query": 27,
+      "identity_note": "采用现行名称倒湖茶公路作为层名，不将OSM旧ref GZ25展示为现行国道号，也不将该线当现G109；所取黑马河—倒淌河实际分段保留原始弯曲。",
+      "coverage_note": "抓取区域以黑马河—二郎剑—倒淌河为重点；西端止于现有OSM way约99.452E，未宣称完整覆盖茶卡至倒淌河全线。"
+    }
+  },
+  "sources": [
+    {
+      "road_ref": "G109",
+      "relation_id": 153104,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/153104/full",
+      "retrieved_at": "2026-11-01T10:37:31.427392+00:00",
+      "sha256": "0bd32d9c42613f240438c0f1ec3251c5c8710dea66529736dd7539e51af3e7f7",
+      "member_way_count": 2002,
+      "unresolved_child_relations": []
+    },
+    {
+      "road_ref": "G315",
+      "relation_id": 932944,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/932944/full",
+      "retrieved_at": "2026-11-01T10:37:25.025470+00:00",
+      "sha256": "549ec6a24df4eab228181e25e021fd8ebf1d2ef6ab9ba337d6920ead0cc7666e",
+      "member_way_count": 1137,
+      "unresolved_child_relations": []
+    },
+    {
+      "road_ref": "G6",
+      "relation_id": 16192294,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/16192294/full",
+      "retrieved_at": "2026-11-01T10:37:42.764194+00:00",
+      "sha256": "b1e50f34a9eca447c89f75e8117a2f6dbd7106be5d837ccfac07950fc2123afa",
+      "member_way_count": 2436,
+      "unresolved_child_relations": []
+    },
+    {
+      "road_ref": "G6",
+      "relation_id": 16192295,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/16192295/full",
+      "retrieved_at": "2026-11-01T10:37:42.930456+00:00",
+      "sha256": "604c4c6c40ce356e5f2d53f3b931c08ec248caed58580e4b67347c5cabb4918f",
+      "member_way_count": 2400,
+      "unresolved_child_relations": []
+    },
+    {
+      "road_ref": "G0612",
+      "relation_id": 12746684,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/12746684/full",
+      "retrieved_at": "2026-11-01T10:39:28.802821+00:00",
+      "sha256": "cef80178041bf8d1525235dc965527ccecf3b22c47f8786a4ed1b264a7a473b0",
+      "member_way_count": 1656,
+      "unresolved_child_relations": []
+    },
+    {
+      "road_ref": "G317",
+      "relation_id": 215491,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/215491/full",
+      "retrieved_at": "2026-11-01T10:37:50.339554+00:00",
+      "sha256": "8f76748e6e77497052712db2fdb6bc0982009d0645f4076138d37450b3bf1d25",
+      "member_way_count": 1185,
+      "unresolved_child_relations": []
+    },
+    {
+      "road_ref": "G349",
+      "relation_id": 13088685,
+      "url": "https://www.openstreetmap.org/api/0.6/relation/13088685/full",
+      "retrieved_at": "2026-11-01T10:37:45.240678+00:00",
+      "sha256": "2f1e105be8ea5bff8aea0c5d46533a83ff0caf1959e120b03c3cd15ff92e6f83",
+      "member_way_count": 698,
+      "unresolved_child_relations": []
+    },
+    {
+      "road_ref": "G0612",
+      "url": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:70];way[highway][ref~\"(^|;)G0612(;|$)\"](36.4,96.8,38.2,101.4);out meta geom;",
+      "retrieved_at": "2026-11-01T10:42:08.888513+00:00",
+      "osm_base_timestamp": "2026-11-01T10:40:51Z",
+      "sha256": "56fdc5ed1831e809bc5e19ee707a99111e5ff1f143ea8b048afd3a50fa17482d",
+      "selected_way_count": 278,
+      "selection_method": "exact independent way ref G0612"
+    },
+    {
+      "road_ref": "DAOHUCHA",
+      "url": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:70];way[highway~\"^(trunk|primary|secondary)$\"](36.45,99.5,36.85,100.9);out geom;",
+      "retrieved_at": "2026-11-01T10:40:03.050628+00:00",
+      "osm_base_timestamp": "2026-11-01T10:38:51Z",
+      "sha256": "9bbfce7384991e07d0d078d9b04c837201450c660c7cc6b273fee3ff5e0c104e",
+      "selected_way_count": 27,
+      "selection_method": "exact way name=倒湖茶公路"
+    },
+    {
+      "road_ref": "G109/DAOHUCHA",
+      "source_type": "official_numbering_reference",
+      "url": "https://jtyst.qinghai.gov.cn/jtyst/2023-12/22/article_2023122215073538161.html",
+      "note": "现G109已改走共和—倒淌河；湖南岸旧线为倒湖茶公路，仅用作路名身份说明，不从文字生成几何。"
+    }
+  ],
+  "status_definitions": {
+    "existing_osm": "OSM中实际道路highway记录；已排除construction/proposed/abandoned/razed及access=no/private。仅表示数据标签，不保证现场开放、路况、法定路号逐点核验或可通行。"
+  },
+  "processing": [
+    "仅采用关系直接way成员的原始节点几何，不采用OSM路线示意图或坐标推断。",
+    "按selection_bbox裁切原始折线；仅在原折线与边界交点作线性裁切，不跨缺口连接，不做平滑或简化。",
+    "保留OSM多路号ref原文，road_ref采用所属路线关系；G6双向关系分别保留实际车行线。",
+    "排除建设、规划、拆除或访问受限标签，排除不属选定公路类型的成员。",
+    "未复用2026-10-30旧缓存；本数据全部为2026-11-01重新取得。"
+  ],
+  "limitations": [
+    "本文件是现代道路对照层，不能据接近程度认定1911年前后路线与今日公路重合。",
+    "G6青藏高原区间有显著未覆盖段，缺口保持空白，不表示有连续高速。",
+    "G109今天抓取的关系已走共和—倒淌河南线；青海湖南岸黑马河—二郎剑的旧G109不应沿用当前G109标注。",
+    "S205未取得独立可靠几何，未把OSM旧S303强行改标S205。",
+    "每条公路仅选取研究范围内部分路段，bbox之外不表示道路终点；两条高速双向线的公里数为车行线总长，不能当旅行里程。",
+    "G315关系内原ref为S20的德小高速及G315(旧)成员被排除，不混作现G315普通国道。",
+    "G0612独立ref查询仍缺德令哈—乌兰西一段，图中不能作为连续茶德高速。",
+    "倒湖茶公路仅收录确切OSM名称一致的实际way；原ref GZ25保留为来源字段，不宣称其为现行路号。",
+    "G349本次仅嘉黎—墨竹工卡方向研究bbox内分段，不把其当成太昭—娘蒲S205，也不延伸至巴青。",
+    "G0612独立查询另有121条湟西高速建设标签way，已排除；只绘OSM标为实际motorway的278条way。"
+  ],
+  "excluded_features": [
+    {
+      "road_ref": "G315",
+      "osm_id": 147057103,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 184450499,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 184451870,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 184545156,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 184545159,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "destination": "格尔木",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo/GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 184545161,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 184546747,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo/GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 184546749,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo/GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 184546758,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 193448062,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 200974133,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 200974134,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 200974143,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 200974145,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 256279817,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 283783732,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "secondary",
+        "ref": "G315(旧)"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 285595703,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 285595704,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 309027426,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "ref": "G315(旧)",
+        "source": "digitalGlobe Premium"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 311789936,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 311789939,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 311789942,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 311789950,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 312306583,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 312306584,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 325114753,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 325114754,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 325114755,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 325114756,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 325114757,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 325114758,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 328483035,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 328483036,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 328483037,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 328483039,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 385997653,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 385997660,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 720376392,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 720376395,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "-1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 720376396,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 937708922,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916683,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916684,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916685,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916686,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916689,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916690,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916693,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916694,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916707,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916708,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916709,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916710,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "bing",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916713,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916714,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916715,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "bridge": "yes",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 976916716,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "source": "Yahoo,bing,GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G315",
+      "osm_id": 1380952782,
+      "reason": "old_or_conflicting_way_ref",
+      "tags": {
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "100",
+        "name": "德小高速",
+        "name:en": "Dexiao Expressway",
+        "name:zh": "德小高速",
+        "oneway": "yes",
+        "ref": "S20",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 741055101,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "construction": "motorway",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "source": "Maxar Imagery 2019"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 741055102,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "construction": "motorway",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "source": "Maxar Imagery 2019"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 741055103,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "construction",
+        "layer": "1",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "source": "Maxar Imagery 2019"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 808431728,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "construction": "motorway",
+        "highway": "construction",
+        "name": "京藏高速",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 813671392,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "construction": "motorway",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 852980115,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "bridge": "yes",
+        "construction": "motorway_link",
+        "highway": "construction",
+        "layer": "1",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 852980116,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "construction": "motorway_link",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 853237602,
+      "reason": "construction_or_proposed_tag",
+      "tags": {
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "toll": "no"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 853237608,
+      "reason": "construction_or_proposed_tag",
+      "tags": {
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "toll": "no"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 853237611,
+      "reason": "construction_or_proposed_tag",
+      "tags": {
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "toll": "no"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 853237615,
+      "reason": "construction_or_proposed_tag",
+      "tags": {
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "toll": "no"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 958454235,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "construction": "motorway_link",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 741055106,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "construction": "motorway",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "source": "Maxar Imagery 2019"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 741055108,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "construction": "motorway",
+        "highway": "construction",
+        "name": "京藏高速",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 741055109,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "construction",
+        "layer": "1",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "source": "Maxar Imagery 2019"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 808431721,
+      "reason": "highway=construction",
+      "tags": {
+        "construction": "motorway",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "source": "Maxar Imagery 2019"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 808431722,
+      "reason": "highway=construction",
+      "tags": {
+        "construction": "motorway",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 813672812,
+      "reason": "highway=construction",
+      "tags": {
+        "construction": "motorway",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 813672814,
+      "reason": "highway=construction",
+      "tags": {
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "construction",
+        "layer": "1",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 852980118,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "bridge": "yes",
+        "construction": "motorway_link",
+        "highway": "construction",
+        "layer": "1",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 852980119,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "construction": "motorway_link",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 853237604,
+      "reason": "construction_or_proposed_tag",
+      "tags": {
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "toll": "no"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 853237606,
+      "reason": "construction_or_proposed_tag",
+      "tags": {
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "toll": "no"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 853237613,
+      "reason": "construction_or_proposed_tag",
+      "tags": {
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "toll": "no"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 853237617,
+      "reason": "construction_or_proposed_tag",
+      "tags": {
+        "bridge": "yes",
+        "construction": "motorway",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6",
+        "toll": "no"
+      }
+    },
+    {
+      "road_ref": "G6",
+      "osm_id": 1128231623,
+      "reason": "highway=construction",
+      "tags": {
+        "access": "no",
+        "construction": "motorway_link",
+        "highway": "construction",
+        "name": "京藏高速",
+        "oneway": "yes",
+        "ref": "G6"
+      }
+    }
+  ],
+  "ref_mismatches": [
+    {
+      "road_ref": "G109",
+      "osm_id": 134200081,
+      "way_ref": "G317",
+      "basis": "route relation membership; retained for possible shared short segment"
+    },
+    {
+      "road_ref": "G109",
+      "osm_id": 1108127118,
+      "way_ref": "G317",
+      "basis": "route relation membership; retained for possible shared short segment"
+    },
+    {
+      "road_ref": "G109",
+      "osm_id": 1449559736,
+      "way_ref": "G317",
+      "basis": "route relation membership; retained for possible shared short segment"
+    },
+    {
+      "road_ref": "G109",
+      "osm_id": 1449559737,
+      "way_ref": "G317",
+      "basis": "route relation membership; retained for possible shared short segment"
+    },
+    {
+      "road_ref": "G317",
+      "osm_id": 27920411,
+      "way_ref": "G109",
+      "basis": "route relation membership; retained for possible shared short segment"
+    },
+    {
+      "road_ref": "G317",
+      "osm_id": 35476406,
+      "way_ref": "G109",
+      "basis": "route relation membership; retained for possible shared short segment"
+    },
+    {
+      "road_ref": "G317",
+      "osm_id": 151525515,
+      "way_ref": "317",
+      "basis": "route relation membership; retained for possible shared short segment"
+    },
+    {
+      "road_ref": "G317",
+      "osm_id": 450039485,
+      "way_ref": "G109",
+      "basis": "route relation membership; retained for possible shared short segment"
+    },
+    {
+      "road_ref": "G317",
+      "osm_id": 450039486,
+      "way_ref": "G109",
+      "basis": "route relation membership; retained for possible shared short segment"
+    },
+    {
+      "road_ref": "G317",
+      "osm_id": 621042712,
+      "way_ref": "G109",
+      "basis": "route relation membership; retained for possible shared short segment"
+    },
+    {
+      "road_ref": "G317",
+      "osm_id": 1108127114,
+      "way_ref": "G109",
+      "basis": "route relation membership; retained for possible shared short segment"
+    }
+  ],
+  "validation": {
+    "required_feature_properties_checked": true,
+    "geojson_line_coordinates_finite_and_wgs84_range": true,
+    "duplicate_feature_ids": 0,
+    "missing_original_node_references": 0,
+    "selected_g315_expressway_or_old_ref_members": 0,
+    "no_invented_gap_connections": true
+  }
+}
