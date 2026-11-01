@@ -3,7 +3,7 @@
   <Document id="minor_supplement">
     <name>《艽野尘梦》小地名补充｜俄洛桥等</name>
     <open>1</open>
-    <description><![CDATA[新增16处小地名，可叠加到已导入的耗时与距离版。村域、地区参照均有说明，旧桥、旧营地不冒作确点。]]></description>
+    <description><![CDATA[新增17处小地名，可叠加到已导入的耗时与距离版。村域、地区参照均有说明，旧桥、旧营地不冒作确点。]]></description>
     <LookAt>
       <longitude>97.07278</longitude>
       <latitude>31.18528</latitude>
@@ -40,7 +40,7 @@
       </LabelStyle>
     </Style>
     <Folder id="minor_folder">
-      <name>08 小地名补充｜16处（含区域参照）</name>
+      <name>08 小地名补充｜17处（含区域参照）</name>
       <open>1</open>
       <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。]]></description>
       <LookAt>
@@ -921,6 +921,63 @@
           <Point>
             <altitudeMode>clampToGround</altitudeMode>
             <coordinates>92.15611111,29.70972222,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>卡拖召议与野人山背景</name>
+        <open>0</open>
+        <Placemark id="minor_katuo_candidate">
+          <name>卡拖〔Kata／Kardag候选；赴此2日〕</name>
+          <description><![CDATA[<h3>卡拖〔Kata／Kardag候选；赴此2日〕</h3><p><b>书中名：</b>卡拖；Kata／Kardag／Kartak为对应候选<br/><b>现代参照：</b>波密县Kardag／Kartak一带（候选地区；非波密县城）<br/><b>章节：</b>第5章目标；第6章赴会与驻留；第7章<br/><b>定位性质：</b>古今对应候选；作者亲到有记载，驻所确址未定</p><p>第6章罗长裿驻卡拖，召陈渠珍从彝贡来商议。此为实际亲到，区别于第5章计划目标。KNAB把Bell1919旧名Kata归入Kardag／Kartak，现代地区代表坐标95°38′24″E、29°54′37″N；本图粗取95.64、29.91作汉文卡拖的候选地区。汉名与Kata的对应仍未完全闭合，旧驻所、喇嘛寺和营地确址未定。另一Kada／Khata独立成条，不能混为同一村。1919原图可核Kata河谷方位，未作配准，不能据其比例确定营地。KNAB的‡表示旧名形式，并非存疑；上一轮误释已更正。野人山、格布沟是他人活动及使者报告背景，不新增陈亲到这些地方的路线。</p><p><b>耗时：</b>八阶返彝贡之后，先休息1日，再率部赴卡拖，行2日抵达。休息与行军分记，不写成行军3日或连续48小时；不把八阶返彝贡的另一个2日或买马约定5日混入。现代两代表点直距不是原文实走里程。</p><p><b>距易贡乡一带代表点：直线约89 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>95.64000°E, 29.91000°N。小数位不代表古址精度。</p><a href="https://www.xuges.com/xdwx/qycm/19.htm">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><b>书中节引：</b>长裿调余至卡拖，筹商进剿事。</p><p><a href="https://arhiiv.eki.ee/knab/valik/cn54inf.htm">KNAB符号说明：‡表示旧名</a><br/><a href="https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg">1919年Survey of India原图：Kata</a><br/><a href="https://www.xuges.com/xdwx/qycm/20.htm">野人山、白马杠与夥若桥：正文及校注38</a></p>]]></description>
+          <LookAt>
+            <longitude>95.64</longitude>
+            <latitude>29.91</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>100000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>30.01</north>
+              <south>29.81</south>
+              <east>95.76</east>
+              <west>95.52</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>卡拖；Kata／Kardag／Kartak为对应候选</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>波密县Kardag／Kartak一带（候选地区；非波密县城）</value>
+            </Data>
+            <Data name="chapter">
+              <value>第5章目标；第6章赴会与驻留；第7章</value>
+            </Data>
+            <Data name="certainty">
+              <value>古今对应候选；作者亲到有记载，驻所确址未定</value>
+            </Data>
+            <Data name="timing">
+              <value>八阶返彝贡之后，先休息1日，再率部赴卡拖，行2日抵达。休息与行军分记，不写成行军3日或连续48小时；不把八阶返彝贡的另一个2日或买马约定5日混入。现代两代表点直距不是原文实走里程。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距易贡乡一带代表点直线约89 km</value>
+            </Data>
+            <Data name="note">
+              <value>第6章罗长裿驻卡拖，召陈渠珍从彝贡来商议。此为实际亲到，区别于第5章计划目标。KNAB把Bell1919旧名Kata归入Kardag／Kartak，现代地区代表坐标95°38′24″E、29°54′37″N；本图粗取95.64、29.91作汉文卡拖的候选地区。汉名与Kata的对应仍未完全闭合，旧驻所、喇嘛寺和营地确址未定。另一Kada／Khata独立成条，不能混为同一村。1919原图可核Kata河谷方位，未作配准，不能据其比例确定营地。KNAB的‡表示旧名形式，并非存疑；上一轮误释已更正。野人山、格布沟是他人活动及使者报告背景，不新增陈亲到这些地方的路线。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.64,29.91,0</coordinates>
           </Point>
         </Placemark>
       </Folder>

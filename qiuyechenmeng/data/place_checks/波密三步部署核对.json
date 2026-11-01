@@ -83,11 +83,13 @@
       "book_name": "卡拖",
       "label": "卡拖〔第二步目标，未定位〕",
       "certainty": "现代对应未核定，不自动等同县城或卡达村",
-      "note": "原文后续有陈驻卡拖的记载，但不能据此直接放到现代波密县城。KNAB分列Kardag（Kartak，Bell 1919的Kata标记附存疑符号）与Kada（Khata）并互参，属于进一步查考线索，尚不足以把卡拖定到其中任一处；本次不放候选点。",
+      "note": "第5章只是第二步目标；第6章后文实记罗驻此、陈自彝贡赴此，休息1日后行2日抵达。另见卡拖召议层的Kata／Kardag地区候选，旧驻所和汉名对应仍未闭合，本三步部署条目继续不设几何。KNAB将Bell1919旧名Kata归入Kardag／Kartak，‡表示旧名形式，并非存疑；另一Kada／Khata独立成条，不混为同一村。不得自动放到现代波密县城。",
       "source_ids": [
         "chapter5",
         "chapter7",
-        "knab"
+        "knab",
+        "knab_legend",
+        "katuo_visit"
       ]
     },
     {
@@ -165,6 +167,16 @@
       "title": "波密县政府：2023年嘎朗王宫遗址考古调查介绍",
       "url": "https://www.bomi.gov.cn/bmx/zjbm/202312/664dc78335b24e8c9906062e1a0fe1d4.shtml",
       "supports": "介绍遗址在今古乡嘎朗村西南约1公里的色沃山山脊，仅凭此文不能确认第5章第三步所指酋长当时所在地。"
+    },
+    "knab_legend": {
+      "title": "KNAB符号说明：‡为旧名形式",
+      "url": "https://arhiiv.eki.ee/knab/valik/cn54inf.htm",
+      "supports": "更正上一轮把‡误释为存疑；不据此确认汉名卡拖的对应。"
+    },
+    "katuo_visit": {
+      "title": "第6章：陈从彝贡奉召赴卡拖",
+      "url": "https://www.xuges.com/xdwx/qycm/19.htm",
+      "supports": "作者后来实际赴会，休息1日与行程2日分记，非前期三步计划已经完成。"
     }
   },
   "google_earth_import": {

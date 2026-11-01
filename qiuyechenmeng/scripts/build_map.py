@@ -21,6 +21,7 @@ from annotation11_figure import write_figure
 from gongbu_pacification import add_gongbu_pacification, write_gongbu_indexes, unlocated_entries as gongbu_unlocated_entries
 from demo_lulang import add_demo_lulang, write_demo_lulang_index
 from bomi_campaign_plan import add_campaign_plan, anchor_html as campaign_anchor_html, write_campaign_indexes
+from katuo_context import add_katuo_context, write_katuo_index
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -116,7 +117,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第3章','三十九族','区域名称，不能当一座城镇。未知作者在该区域的逐站行迹。'),
 ('第4章；校注27','百马岗召询现场及绕行路线','08层以现代墨脱镇、墨脱村地区点参照校注所指百马岗／白马岗。该点不是召询现场或陈部驻地，历史地区不直接等同现代县界，不能据此断言作者到今县城；正文从窝冗绕行六日、后行四日至德摩与受访者自述路程分别保留，具体路线未定位。'),
 ('第5—7章','纳衣当噶、八浪登、京中、树枝、央噶','德摩、冬九已补地区参照；此处其余旧山名、聚落仍未逐一核准，未冒用现代公路折线。'),
-('第6—7章','卡拖、八阶、夥若桥','具体地点未核实，不把卡拖自动放在波密县城，也不把夥若桥直接等同今某座大桥。'),
+('第6—7章','卡拖旧驻所、八阶、夥若桥','卡拖另以Kata／Kardag作地区候选；古今对应及罗、陈驻所、喇嘛寺等确址仍未核实，不自动放在波密县城。八阶及夥若桥亦未核定，不把夥若桥直接等同今某座大桥。'),
 ('第8章','凝多／凝多塘','北返起初的重要节点，现代点位未核；北行避开拉里的记载不等于再次经过拉里。'),
 ('第8章','哈喇乌苏','按校注44指怒江南源阿克河谷；具体聚落、河段存疑，未用今日那曲城区代替。'),
 ('第8—10章','酱通／绛通（羌塘）','高原区域名称，并非一个可定位的沙漠景区。迷路行迹缺少足够空间约束，本图不复原其折线。'),
@@ -604,6 +605,7 @@ def make_map(bundled=False):
     add_gongbu_pacification(doc,el,view,kcolor,bundled)
     add_demo_lulang(doc,el,view,reuse_endpoints=True)
     add_campaign_plan(doc,el,view,kcolor,CAMPAIGN_ANCHORS,bundled)
+    add_katuo_context(doc,el,view,CAMPAIGN_ANCHORS,bundled)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -674,6 +676,17 @@ def make_campaign_supplement(bundled=False):
     add_campaign_plan(doc,el,view,kcolor,CAMPAIGN_ANCHORS,bundled,True)
     return serialize(root)
 
+def make_katuo_supplement(bundled=False):
+    p=next(p for p in MINOR_PLACES if p['id']=='katuo_candidate')
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='katuo_consultation_supplement')
+    el(doc,'name','《艽野尘梦》卡拖召议与野人山｜休1日；赴此2日')
+    el(doc,'open',1)
+    el(doc,'description','卡拖以旧图Kata所对应Kardag地区作候选，汉名对应与旧营地仍未确定。陈本人赴卡拖行2日，出发前休息1日；野人山、格布沟保留无坐标背景说明，不画陈追入的路线。完整图、小地名图与独立补图选择一份显示。')
+    view(doc,p['lon'],p['lat'],150000)
+    minor_styles(doc,bundled);minor_folder(doc,[p])
+    add_katuo_context(doc,el,view,CAMPAIGN_ANCHORS,bundled,True)
+    return serialize(root)
+
 def main():
     # ElementTree has one process-wide default namespace; inline HTML needs unprefixed SVG tags.
     ET.register_namespace('', 'http://www.w3.org/2000/svg')
@@ -717,6 +730,13 @@ def main():
         z.writestr('doc.kml',make_campaign_supplement(True))
         z.writestr('icons/campaign_reference.png',png('#ffd166',True))
     campaign_note=write_campaign_indexes(CAMPAIGN_ANCHORS)
+    katuo='艽野尘梦_卡拖与野人山'
+    (ROOT/(katuo+'.kml')).write_bytes(make_katuo_supplement())
+    with zipfile.ZipFile(ROOT/(katuo+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_katuo_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    katuo_note=write_katuo_index()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1000,6 +1020,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n波密进军三步部署｜计划与待考\n'+campaign_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n德摩—鲁朗越岭｜16层\n'+crossing_note)
+        f.write('\n卡拖召议与野人山｜休息1日；赴此2日\n'+katuo_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 
 if __name__=='__main__':

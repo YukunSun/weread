@@ -1,0 +1,117 @@
+{
+  "checked_at": "2026-11-01",
+  "quote": "是时，长裿驻卡拖。因波酋白马青滃窜入野人山，长裿调余至卡拖，筹商进剿事。",
+  "scope": "第6章的实际活动：罗长裿当时驻卡拖，陈渠珍从八阶返回彝贡后奉调赴卡拖筹商。与第5章三步作战计划分开；本段没有陈本人进野人山或格布沟的记载。",
+  "sequence_note": "陈从八阶返回彝贡后，休息一日，始率部赴卡拖，行两日抵达。后文记陈在卡拖与罗商议用兵、主张招抚；赴格布沟的是排长王孚和一名番官，险道、藤桥和林噶驻所为王孚报告，不是陈本人的踏勘路线。",
+  "timing_note": "休息1日属于彝贡休整，行2日才是彝贡赴卡拖的行程；不写成行军3日，不换成连续48小时，也不把八阶返彝贡的另一段2日或买马上约定的5日混入本段。休整加赶路可作叙事先后说明，不据此计算两地总驻留。",
+  "geography_note": "结合正文白马青翁越山至白马杠、林噶在山下格布沟，以及校注37的白马岗，可将本处野人山理解为波密南向、通往白马岗相关地域的山地屏障；具体名称、范围和山口尚未确定。今墨脱与历史白玛岗有地名联系，但现代墨脱镇不是野人山定位点，历史地区也不直接等于今县界。格布沟与夥若桥同样保留待考，不配同音村、现代桥或精确渡点；不把此处野人山落到缅北胡康谷地。书中的野人、野番仅作为历史原词保留，不用作现代族群分类。",
+  "coordinate_note": "卡拖仅标地区候选95.64°E、29.91°N。KNAB把Bell1919所载旧名Kata归入Kardag／Kartak，原表坐标29°54′37″N、95°38′24″E；本图舍入至0.01°，原表未明示坐标基准。汉名卡拖与Kata的对应仍属推定；不以该点认定罗驻所、陈营地、喇嘛寺或刑场。另一个Kada／Khata独立成条，不能混为同一村。1919原图目读可核Kata在河谷中的大致方位，其比例不足以区分相隔约9公里的两个现代地名点；本次没有古图配准、古道拟合、赴野人山线路或里程估算。",
+  "coordinate_record": {
+    "place": "Kardag／Kartak，旧名Kata（Bell1919）",
+    "original_lat_dms": "29°54′37″N",
+    "original_lon_dms": "95°38′24″E",
+    "original_lon": 95.64,
+    "original_lat": 29.91027778,
+    "map_lon": 95.64,
+    "map_lat": 29.91,
+    "basis": "KNAB归并旧名与现代代表位置；汉名对应仅候选，非遗址坐标。",
+    "alternative_not_selected": "Kada／Khata条为29°52′50″N、95°43′25″E，与Kardag互参但独立；本次不将其合并为同一位置。",
+    "old_map_crop": "data/place_checks/katuo_1919_pome_crop.jpg",
+    "old_map_limit": "已目读Kata字样与河谷位置；不以原图量取本点坐标。"
+  },
+  "correction": "上一轮三步部署核对把KNAB的‡误释为存疑；本次依据该库说明更正：‡表示OBS，即旧名形式，疑名另用¿。三步部署旧文件亦同步修正。符号释义正确不等于已经证明汉名卡拖=Kardag。",
+  "cards": [
+    {
+      "id": "actual_visit",
+      "name": "彝贡休1日 → 卡拖行2日〔本人实际赴会〕",
+      "text": "前文陈自八阶还彝贡，后奉罗长裿召赴卡拖。休息1日、行程2日分别记；卡拖本人亲到有原文依据，而现代定位仍只是Kata／Kardag地区候选。第5章目标计划、第6章此次赴会、第7章后来赴春多寺再返卡拖是不同事件。未知中间站不插值、不用现代公路补线。",
+      "source_ids": [
+        "chapter6",
+        "chapter5",
+        "chapter7"
+      ]
+    },
+    {
+      "id": "wild_mountains",
+      "name": "野人山〔通往白马岗的南向山地；未定范围〕",
+      "text": "正文随后记白马青翁越野人山至白马杠，林噶则在山下格布沟。结合下文波密与白马岗大山的地理关系，宜理解为这一带南向山地，不等同一座已核定现代山峰或缅北同名地区。白马岗与今墨脱有历史地名联系，但不把墨脱镇点、今县界或嘎隆拉山口当作野人山的确点或边界。本条没有几何。",
+      "source_ids": [
+        "chapter6",
+        "annotation38",
+        "motuo"
+      ]
+    },
+    {
+      "id": "gebugou",
+      "name": "格布沟、藤桥与林噶驻所〔王孚报告；未定位〕",
+      "text": "陈在卡拖主张招抚，罗同意后遣王孚偕番官前往。格布沟三面绝壁、河流环绕、藤桥与寺院是使者回报的描述，不能画成陈亲到或凭桥数推定路线。格布沟、夥若桥及山岭对应仍待考，继续无坐标。",
+      "source_ids": [
+        "chapter6",
+        "annotation38"
+      ]
+    },
+    {
+      "id": "candidate_limit",
+      "name": "卡拖候选依据｜旧图Kata；‡是旧名",
+      "text": "KNAB将Bell1919的Kata归入Kardag／Kartak，可给卡拖一个有出处的候选地区。另一Kada／Khata仍分列。1919图能辨Kata河谷方位，但不足以精确判定两个现代位置。95.64、29.91仅粗略阅读参照，不能用于导航或定位营地。上一轮将‡解释为存疑有误，已按库说明改为旧名形式；汉文卡拖与Kata的对应仍未完全闭合。",
+      "source_ids": [
+        "knab",
+        "knab_legend",
+        "knab_sources",
+        "bell_map"
+      ]
+    }
+  ],
+  "sources": {
+    "chapter6": {
+      "title": "陈渠珍第6章：彝贡返程、赴卡拖与王孚出使",
+      "url": "https://www.xuges.com/xdwx/qycm/19.htm",
+      "supports": "罗长裿驻卡拖，陈休息1日后赴卡拖行2日；白马青翁越野人山至白马杠，林噶在格布沟；王孚出使的描述应与作者行程分开。"
+    },
+    "chapter5": {
+      "title": "第5章：卡拖仅在三步部署中列为目标",
+      "url": "https://www.xuges.com/xdwx/qycm/15.htm",
+      "supports": "区分前期计划与后来的实际亲到，不据此连成一次完成的进军路线。"
+    },
+    "chapter7": {
+      "title": "《艽野尘梦》完整原文与任乃强校注：第7章另次召至春多",
+      "url": "https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt",
+      "supports": "第7章罗移住春多，陈留卡拖；后急召陈至春多，再嘱迅返卡拖，为另一事件。"
+    },
+    "annotation38": {
+      "title": "正文与校注38：白马杠大山、夥若桥及大峡南部推测",
+      "url": "https://www.xuges.com/xdwx/qycm/20.htm",
+      "supports": "说明波密与白马岗方向的山地及通珞渝背景；桥位只是任乃强依西文地图所作推测，不是现代桥址考定。"
+    },
+    "motuo": {
+      "title": "墨脱县政府：白玛岗、博隅白玛岗与墨脱的沿革",
+      "url": "https://www.motuo.gov.cn/mtx/zjmt/201901/0a518352da6b4628a461c12bbed79ac2.shtml",
+      "supports": "只支持现代墨脱与白玛岗旧称的地域联系；不能用来确定野人山、格布沟或人物停留确址。"
+    },
+    "knab": {
+      "title": "KNAB林芝地名库：Kardag／Kartak与Kada／Khata分列",
+      "url": "https://arhiiv.eki.ee/knab/valik/cn54ny.htm",
+      "supports": "将Bell1919旧名Kata归入Kardag，给出现代地区代表位置；不能单独证明汉文卡拖的对应。"
+    },
+    "knab_legend": {
+      "title": "KNAB符号说明：‡为OBS旧名形式",
+      "url": "https://arhiiv.eki.ee/knab/valik/cn54inf.htm",
+      "supports": "更正上轮对‡的误释；不是据此将候选升级为确证。"
+    },
+    "knab_sources": {
+      "title": "KNAB来源表：Bell1919地图定义",
+      "url": "https://arhiiv.eki.ee/knab/valik/cn54src.htm",
+      "supports": "Bell1919为Tibet and adjacent countries地图来源。"
+    },
+    "bell_map": {
+      "title": "Survey of India 1919：Tibet and Adjacent Countries原图影像",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/1919_Survey_of_India_map_of_Tibet_and_Adjacent_Countries.jpg",
+      "supports": "本次目读Kata字样及河谷方位；比例不能可靠区分约9公里间隔的现代Kardag与Kada点，未作配准或从图中量坐标。"
+    }
+  },
+  "google_earth_import": {
+    "status": "pending",
+    "project_id": "13kFLqFR-hXU21HBQK4FDOmsitZMJmw0n",
+    "note": "待卡拖候选点及野人山文字说明实际导入和云端保存核验。"
+  }
+}
