@@ -22,6 +22,7 @@ from gongbu_pacification import add_gongbu_pacification, write_gongbu_indexes, u
 from demo_lulang import add_demo_lulang, write_demo_lulang_index
 from bomi_campaign_plan import add_campaign_plan, anchor_html as campaign_anchor_html, write_campaign_indexes
 from katuo_context import add_katuo_context, write_katuo_index
+from mountain_defence import add_mountain_defence, write_mountain_index
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -129,6 +130,7 @@ UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocate
 ('第12章','分州、洪铺街寓所、西原墓','旧名或具体地点尚待考；地图止于西安，不另画一条书中未叙述的回凤凰路线。'),
 ]
 UNLOCATED += unlocated_entries() + gongbu_unlocated_entries()
+UNLOCATED += [('第6章','八噶山、其南大雪山与金珠山旧驻兵地','八噶山未与今八卡村、巴卡寺闭合，大雪山未具专名，均无坐标。金珠山另以金珠拉山口作地形候选，旧驻兵地未定；八百余里的承接对象仍待核，不赋现代km，不绘作者亲到或该队撤退路线。')]
 
 PHASES = {
  'in': ('01 川西入藏｜成都至康定行约12日；炉城至昌都记50余日＊', '#49a7ff', True),
@@ -606,6 +608,7 @@ def make_map(bundled=False):
     add_demo_lulang(doc,el,view,reuse_endpoints=True)
     add_campaign_plan(doc,el,view,kcolor,CAMPAIGN_ANCHORS,bundled)
     add_katuo_context(doc,el,view,CAMPAIGN_ANCHORS,bundled)
+    add_mountain_defence(doc,el,view,CAMPAIGN_ANCHORS)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -687,6 +690,21 @@ def make_katuo_supplement(bundled=False):
     add_katuo_context(doc,el,view,CAMPAIGN_ANCHORS,bundled,True)
     return serialize(root)
 
+def make_mountain_defence_supplement(bundled=False):
+    p=next(p for p in MINOR_PLACES if p['id']=='jinzhu_la_candidate')
+    root=ET.Element(f'{{{KML}}}kml');doc=el(root,'Document',id='baga_jinzhu_supplement')
+    el(doc,'name','《艽野尘梦》八噶山与金珠山｜山地候选与八百余里')
+    el(doc,'open',1)
+    el(doc,'description','金珠山以现代金珠拉山口为候选；八噶山、其南大雪山及驻兵确址未定位。春多仅作原文距离参照地，八百余里承接关系保留待核，不换km或画半径，不画陈本人或驻兵队的路线。完整图、小地名图与独立补图选择一份显示。')
+    view(doc,95.70,29.85,200000)
+    minor_styles(doc,bundled);folder=minor_folder(doc,[p])
+    # Earth web ignores Region; the standalone cloud supplement needs no zoom filter.
+    for pm in folder.findall('.//{'+KML+'}Placemark'):
+        region=pm.find('{'+KML+'}Region')
+        if region is not None: pm.remove(region)
+    add_mountain_defence(doc,el,view,CAMPAIGN_ANCHORS,True)
+    return serialize(root)
+
 def main():
     # ElementTree has one process-wide default namespace; inline HTML needs unprefixed SVG tags.
     ET.register_namespace('', 'http://www.w3.org/2000/svg')
@@ -737,6 +755,13 @@ def main():
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     katuo_note=write_katuo_index()
+    mountain_defence='艽野尘梦_八噶山与金珠山'
+    (ROOT/(mountain_defence+'.kml')).write_bytes(make_mountain_defence_supplement())
+    with zipfile.ZipFile(ROOT/(mountain_defence+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+        z.writestr('doc.kml',make_mountain_defence_supplement(True))
+        z.writestr('icons/minor_landmark.png',png('#89d8ff'))
+        z.writestr('icons/minor_reference.png',png('#ffd166',True))
+    mountain_defence_note=write_mountain_index()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1021,6 +1046,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n德摩—鲁朗越岭｜16层\n'+crossing_note)
         f.write('\n卡拖召议与野人山｜休息1日；赴此2日\n'+katuo_note)
+        f.write('\n八噶山与金珠山｜八百余里指代待核\n'+mountain_defence_note)
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 
 if __name__=='__main__':
