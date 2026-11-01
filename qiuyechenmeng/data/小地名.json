@@ -439,5 +439,37 @@
         "url": "https://www.xuges.com/xdwx/qycm/20.htm"
       }
     ]
+  },
+  {
+    "id": "jinzhu_la_candidate",
+    "name": "金珠山〔金珠拉山口候选；旧驻兵地未定〕",
+    "old_names": "金珠山；金珠拉／Jainzhug La／Chendruk la为对应候选",
+    "modern": "波密—墨脱间金珠拉山口地区",
+    "lon": 95.83,
+    "lat": 29.61,
+    "view_range": 110000,
+    "chapter": "第6章：八噶山集众后另派一队防守",
+    "group": "波密南向山地与驻兵背景",
+    "certainty": "现代山口代表位置；旧山名对应候选，驻兵确址未定",
+    "reference": "qundo",
+    "coordinate_source": "https://arhiiv.eki.ee/knab/valik/cn54ny.htm",
+    "identity_source": "https://www.xuges.com/xdwx/qycm/20.htm",
+    "note": "原文金珠山以现代金珠拉山口作地形候选。KNAB列此为山口，原坐标95°49′43″E、29°36′52″N，本图舍入至95.83、29.61；原表未明示坐标基准，不据小数位认定旧驻兵地。中科院实地科考与官方古道介绍均记达兴越金珠拉、经格当赴墨脱的通道，只能支持山口与地区方位，未证明书中金珠山特指该垭口。罗长裿派一队驻此、陈劝阻，不能当作陈本人登山。八噶山及其南大雪山仍无坐标。八百余里按近接句法更自然承接大雪山距春多寺，指代仍待核；不是金珠拉至倾多的已定距离，也不用于反推山口。其与春多代表点的显示直距是另一量。未绘驻兵或作者行军线，不写互异的海拔值。",
+    "timing": "正文只有夏秋可行、雪封等季节性描述，驻兵和往返具体日数未明。该队结局有两说，原作者未知孰是；不推算驻守天数、不连接三十九族撤退路线。",
+    "literary_quote": "乃派兵一队驻金珠山防之。",
+    "additional_sources": [
+      {
+        "title": "中科院杨逸畴：金珠拉通道亲历",
+        "url": "https://www.igsnrr.cas.cn/cbkx/kpyd/kcsj/ylzb/202009/t20200910_5693379.html"
+      },
+      {
+        "title": "官方古道介绍：达兴—金珠拉—格当—墨脱",
+        "url": "https://www.al.gov.cn/info/1034/20426.htm"
+      },
+      {
+        "title": "校注35：春多、倾多译名关系",
+        "url": "https://www.xuges.com/xdwx/qycm/18.htm"
+      }
+    ]
   }
 ]

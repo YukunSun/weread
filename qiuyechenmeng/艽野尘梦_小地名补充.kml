@@ -3,7 +3,7 @@
   <Document id="minor_supplement">
     <name>《艽野尘梦》小地名补充｜俄洛桥等</name>
     <open>1</open>
-    <description><![CDATA[新增17处小地名，可叠加到已导入的耗时与距离版。村域、地区参照均有说明，旧桥、旧营地不冒作确点。]]></description>
+    <description><![CDATA[新增18处小地名，可叠加到已导入的耗时与距离版。村域、地区参照均有说明，旧桥、旧营地不冒作确点。]]></description>
     <LookAt>
       <longitude>97.07278</longitude>
       <latitude>31.18528</latitude>
@@ -40,7 +40,7 @@
       </LabelStyle>
     </Style>
     <Folder id="minor_folder">
-      <name>08 小地名补充｜17处（含区域参照）</name>
+      <name>08 小地名补充｜18处（含区域参照）</name>
       <open>1</open>
       <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。]]></description>
       <LookAt>
@@ -978,6 +978,63 @@
           <Point>
             <altitudeMode>clampToGround</altitudeMode>
             <coordinates>95.64,29.91,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>波密南向山地与驻兵背景</name>
+        <open>0</open>
+        <Placemark id="minor_jinzhu_la_candidate">
+          <name>金珠山〔金珠拉山口候选；旧驻兵地未定〕</name>
+          <description><![CDATA[<h3>金珠山〔金珠拉山口候选；旧驻兵地未定〕</h3><p><b>书中名：</b>金珠山；金珠拉／Jainzhug La／Chendruk la为对应候选<br/><b>现代参照：</b>波密—墨脱间金珠拉山口地区<br/><b>章节：</b>第6章：八噶山集众后另派一队防守<br/><b>定位性质：</b>现代山口代表位置；旧山名对应候选，驻兵确址未定</p><p>原文金珠山以现代金珠拉山口作地形候选。KNAB列此为山口，原坐标95°49′43″E、29°36′52″N，本图舍入至95.83、29.61；原表未明示坐标基准，不据小数位认定旧驻兵地。中科院实地科考与官方古道介绍均记达兴越金珠拉、经格当赴墨脱的通道，只能支持山口与地区方位，未证明书中金珠山特指该垭口。罗长裿派一队驻此、陈劝阻，不能当作陈本人登山。八噶山及其南大雪山仍无坐标。八百余里按近接句法更自然承接大雪山距春多寺，指代仍待核；不是金珠拉至倾多的已定距离，也不用于反推山口。其与春多代表点的显示直距是另一量。未绘驻兵或作者行军线，不写互异的海拔值。</p><p><b>耗时：</b>正文只有夏秋可行、雪封等季节性描述，驻兵和往返具体日数未明。该队结局有两说，原作者未知孰是；不推算驻守天数、不连接三十九族撤退路线。</p><p><b>距倾多镇、倾多寺地区代表点：直线约54 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>95.83000°E, 29.61000°N。小数位不代表古址精度。</p><a href="https://www.xuges.com/xdwx/qycm/20.htm">今名／历史依据</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><b>书中节引：</b>乃派兵一队驻金珠山防之。</p><p><a href="https://www.igsnrr.cas.cn/cbkx/kpyd/kcsj/ylzb/202009/t20200910_5693379.html">中科院杨逸畴：金珠拉通道亲历</a><br/><a href="https://www.al.gov.cn/info/1034/20426.htm">官方古道介绍：达兴—金珠拉—格当—墨脱</a><br/><a href="https://www.xuges.com/xdwx/qycm/18.htm">校注35：春多、倾多译名关系</a></p>]]></description>
+          <LookAt>
+            <longitude>95.83</longitude>
+            <latitude>29.61</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>110000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>29.71</north>
+              <south>29.509999999999998</south>
+              <east>95.95</east>
+              <west>95.71</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>金珠山；金珠拉／Jainzhug La／Chendruk la为对应候选</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>波密—墨脱间金珠拉山口地区</value>
+            </Data>
+            <Data name="chapter">
+              <value>第6章：八噶山集众后另派一队防守</value>
+            </Data>
+            <Data name="certainty">
+              <value>现代山口代表位置；旧山名对应候选，驻兵确址未定</value>
+            </Data>
+            <Data name="timing">
+              <value>正文只有夏秋可行、雪封等季节性描述，驻兵和往返具体日数未明。该队结局有两说，原作者未知孰是；不推算驻守天数、不连接三十九族撤退路线。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距倾多镇、倾多寺地区代表点直线约54 km</value>
+            </Data>
+            <Data name="note">
+              <value>原文金珠山以现代金珠拉山口作地形候选。KNAB列此为山口，原坐标95°49′43″E、29°36′52″N，本图舍入至95.83、29.61；原表未明示坐标基准，不据小数位认定旧驻兵地。中科院实地科考与官方古道介绍均记达兴越金珠拉、经格当赴墨脱的通道，只能支持山口与地区方位，未证明书中金珠山特指该垭口。罗长裿派一队驻此、陈劝阻，不能当作陈本人登山。八噶山及其南大雪山仍无坐标。八百余里按近接句法更自然承接大雪山距春多寺，指代仍待核；不是金珠拉至倾多的已定距离，也不用于反推山口。其与春多代表点的显示直距是另一量。未绘驻兵或作者行军线，不写互异的海拔值。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>95.83,29.61,0</coordinates>
           </Point>
         </Placemark>
       </Folder>
