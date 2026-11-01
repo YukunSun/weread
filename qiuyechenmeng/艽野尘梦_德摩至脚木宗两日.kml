@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="demo_jiaomu_chapter7">
+    <name>《艽野尘梦》第7章｜德摩→脚木宗：行2日，宿后次晨出发</name>
+    <open>1</open>
+    <description>&lt;p&gt;&lt;b&gt;阅读范围：&lt;/b&gt;第七章兵变后离开德摩、原拟赴拉萨的途中，再经脚木宗；不是第四章初次安抚工布的驻留。两端沿用已有地区参照及候选坐标，不新增旧营址认定。&lt;/p&gt;&lt;p&gt;&lt;b&gt;正文行程：&lt;/b&gt;离德摩→行两日到脚木宗、当晚留宿和送别→次日晨早出发、当日宿甑巴→后抵江达。仅本次德摩至脚木宗一段有明确两日；本层不扩展定位甑巴或推算其余路段日数。&lt;/p&gt;&lt;p&gt;&lt;b&gt;耗时口径：&lt;/b&gt;行两日为德摩至脚木宗的行军日数，包含到达日，不换算为48小时。宿焉结合次日晨早出发理解为到达当晚留宿，不另加一整天驻留。第四章脚木宗驻半月、后赴窝冗四日属于较早另一次经历，不加到本段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;代表点直距：&lt;/b&gt;35.8 km&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;35.8 km仅为现德木寺地区参照点与觉木／Qomo候选地区点的球面直线距离，使用平均地球半径6371.0088 km。它不是陈军实走里程，也不是已确定的两个清末营址间距；不据此推算速度、现代公路里程或古道。&lt;/p&gt;&lt;p&gt;&lt;b&gt;示意限制：&lt;/b&gt;虚线只连接两地区代表点，表达正文明确的先后方向；端点身份仍有地区参照或候选限制。虚线不复原沿河、翻山、渡口或逐站走法。未定位的中途第一晚宿处不插值造点。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/22.htm"&gt;《艽野尘梦》第七章（2）：德摩离别、脚木宗宿营及江达&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/12.htm"&gt;《艽野尘梦》第四章：早先脚木宗驻半月及赴窝冗四日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/13.htm"&gt;《艽野尘梦》第四章（2）任乃强校注27&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：Qomo／Jomo／Juemu／Chomo Dzong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml"&gt;巴宜区政府：苯日神山旅游区简介，第穆及德木寺&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.openstreetmap.org/node/3316890527"&gt;OpenStreetMap：现德木寺节点3316890527&lt;/a&gt;&lt;/p&gt;</description>
+    <LookAt>
+      <longitude>94.47</longitude>
+      <latitude>29.59</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>85000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="demo_jiaomu_reference">
+      <IconStyle>
+        <color>ffb7ab9b</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="demo_jiaomu_candidate">
+      <IconStyle>
+        <color>ff47b3ff</color>
+        <scale>0.9</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.85</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="demo_jiaomu_direction_style">
+      <LineStyle>
+        <color>d047b3ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Placemark id="demo_departure_region">
+      <name>德摩〔现德木寺地区参照；旧营地未定〕｜本段出发</name>
+      <visibility>0</visibility>
+      <description>&lt;p&gt;&lt;b&gt;地区身份：&lt;/b&gt;复用既有德摩／第穆／德木地区参照点。巴宜区政府明确这些名称的异译关系；坐标取现代德木寺节点，不指认书中第巴住宅、旧寺原址或陈部营地。官方记寺院迁址，年代与旧址关系仍待核。&lt;/p&gt;&lt;p&gt;&lt;b&gt;坐标性质：&lt;/b&gt;OpenStreetMap现寺节点3316890527原WGS84为94.6334648 E、29.5123880 N，本层沿用项目坐标94.63347、29.51239；保留小数不表示古址精度。&lt;/p&gt;&lt;p&gt;&lt;b&gt;本段时间：&lt;/b&gt;第七章离开德摩之出发地区；到脚木宗行两日。不能把此前赴德摩四日、在德摩月余混入本段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;正文行程：&lt;/b&gt;离德摩→行两日到脚木宗、当晚留宿和送别→次日晨早出发、当日宿甑巴→后抵江达。仅本次德摩至脚木宗一段有明确两日；本层不扩展定位甑巴或推算其余路段日数。&lt;/p&gt;&lt;p&gt;&lt;b&gt;耗时口径：&lt;/b&gt;行两日为德摩至脚木宗的行军日数，包含到达日，不换算为48小时。宿焉结合次日晨早出发理解为到达当晚留宿，不另加一整天驻留。第四章脚木宗驻半月、后赴窝冗四日属于较早另一次经历，不加到本段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;代表点直距：&lt;/b&gt;35.8 km&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;35.8 km仅为现德木寺地区参照点与觉木／Qomo候选地区点的球面直线距离，使用平均地球半径6371.0088 km。它不是陈军实走里程，也不是已确定的两个清末营址间距；不据此推算速度、现代公路里程或古道。&lt;/p&gt;&lt;p&gt;&lt;b&gt;示意限制：&lt;/b&gt;虚线只连接两地区代表点，表达正文明确的先后方向；端点身份仍有地区参照或候选限制。虚线不复原沿河、翻山、渡口或逐站走法。未定位的中途第一晚宿处不插值造点。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/22.htm"&gt;《艽野尘梦》第七章（2）：德摩离别、脚木宗宿营及江达&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/12.htm"&gt;《艽野尘梦》第四章：早先脚木宗驻半月及赴窝冗四日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/13.htm"&gt;《艽野尘梦》第四章（2）任乃强校注27&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：Qomo／Jomo／Juemu／Chomo Dzong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml"&gt;巴宜区政府：苯日神山旅游区简介，第穆及德木寺&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.openstreetmap.org/node/3316890527"&gt;OpenStreetMap：现德木寺节点3316890527&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.47</longitude>
+        <latitude>29.59</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>85000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#demo_jiaomu_reference</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>94.63347000,29.51239000,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="jiaomu_return_candidate">
+      <name>脚木宗候选〔觉木／Qomo地区〕｜自德摩行2日；宿后次晨出发</name>
+      <visibility>0</visibility>
+      <description>&lt;p&gt;&lt;b&gt;地区身份：&lt;/b&gt;复用工布安抚层的觉木／Qomo地区候选。KNAB列Qomo／Jomo、Juemu／觉木及旧名Chomo Dzong（Bell1919）。音译与区域背景支持候选判断，但尚缺直接史证证明陈文脚木宗就是该宗。任乃强校注27依陈文推测脚木宗在牙丕附近，此异说继续保留；不移点到阿沛，也不改作加木。&lt;/p&gt;&lt;p&gt;&lt;b&gt;坐标性质：&lt;/b&gt;KNAB Qomo条29°40′14″N、94°18′40″E，换算为29.67055556、94.31111111。原表未说明坐标基准；只作觉木地区阅读参照，不指认宗署、喇嘛寺或清末宿营建筑。&lt;/p&gt;&lt;p&gt;&lt;b&gt;本段时间：&lt;/b&gt;本次行两日到达，当晚呼图克图及彭错夫妇送行，次日晨早出发。第四章驻半月是较早一次经历。&lt;/p&gt;&lt;p&gt;&lt;b&gt;正文行程：&lt;/b&gt;离德摩→行两日到脚木宗、当晚留宿和送别→次日晨早出发、当日宿甑巴→后抵江达。仅本次德摩至脚木宗一段有明确两日；本层不扩展定位甑巴或推算其余路段日数。&lt;/p&gt;&lt;p&gt;&lt;b&gt;耗时口径：&lt;/b&gt;行两日为德摩至脚木宗的行军日数，包含到达日，不换算为48小时。宿焉结合次日晨早出发理解为到达当晚留宿，不另加一整天驻留。第四章脚木宗驻半月、后赴窝冗四日属于较早另一次经历，不加到本段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;代表点直距：&lt;/b&gt;35.8 km&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;35.8 km仅为现德木寺地区参照点与觉木／Qomo候选地区点的球面直线距离，使用平均地球半径6371.0088 km。它不是陈军实走里程，也不是已确定的两个清末营址间距；不据此推算速度、现代公路里程或古道。&lt;/p&gt;&lt;p&gt;&lt;b&gt;示意限制：&lt;/b&gt;虚线只连接两地区代表点，表达正文明确的先后方向；端点身份仍有地区参照或候选限制。虚线不复原沿河、翻山、渡口或逐站走法。未定位的中途第一晚宿处不插值造点。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/22.htm"&gt;《艽野尘梦》第七章（2）：德摩离别、脚木宗宿营及江达&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/12.htm"&gt;《艽野尘梦》第四章：早先脚木宗驻半月及赴窝冗四日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/13.htm"&gt;《艽野尘梦》第四章（2）任乃强校注27&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：Qomo／Jomo／Juemu／Chomo Dzong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml"&gt;巴宜区政府：苯日神山旅游区简介，第穆及德木寺&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.openstreetmap.org/node/3316890527"&gt;OpenStreetMap：现德木寺节点3316890527&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.47</longitude>
+        <latitude>29.59</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>85000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#demo_jiaomu_candidate</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>94.31111111,29.67055556,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="demo_jiaomu_two_days_direction">
+      <name>德摩→脚木宗候选｜行2日；代表点直距35.8 km〔方向示意〕</name>
+      <description>&lt;p&gt;&lt;b&gt;正文行程：&lt;/b&gt;离德摩→行两日到脚木宗、当晚留宿和送别→次日晨早出发、当日宿甑巴→后抵江达。仅本次德摩至脚木宗一段有明确两日；本层不扩展定位甑巴或推算其余路段日数。&lt;/p&gt;&lt;p&gt;&lt;b&gt;耗时口径：&lt;/b&gt;行两日为德摩至脚木宗的行军日数，包含到达日，不换算为48小时。宿焉结合次日晨早出发理解为到达当晚留宿，不另加一整天驻留。第四章脚木宗驻半月、后赴窝冗四日属于较早另一次经历，不加到本段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;代表点直距：&lt;/b&gt;35.8 km&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;35.8 km仅为现德木寺地区参照点与觉木／Qomo候选地区点的球面直线距离，使用平均地球半径6371.0088 km。它不是陈军实走里程，也不是已确定的两个清末营址间距；不据此推算速度、现代公路里程或古道。&lt;/p&gt;&lt;p&gt;&lt;b&gt;示意限制：&lt;/b&gt;虚线只连接两地区代表点，表达正文明确的先后方向；端点身份仍有地区参照或候选限制。虚线不复原沿河、翻山、渡口或逐站走法。未定位的中途第一晚宿处不插值造点。&lt;/p&gt;&lt;p&gt;&lt;b&gt;点位显示：&lt;/b&gt;两地区点已在德摩定位层及工布安抚层提供，本补层的重复参照点默认隐藏以减少重叠；可在项目面板开启。两日行程虚线与说明默认显示。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/22.htm"&gt;《艽野尘梦》第七章（2）：德摩离别、脚木宗宿营及江达&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/12.htm"&gt;《艽野尘梦》第四章：早先脚木宗驻半月及赴窝冗四日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/13.htm"&gt;《艽野尘梦》第四章（2）任乃强校注27&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：Qomo／Jomo／Juemu／Chomo Dzong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml"&gt;巴宜区政府：苯日神山旅游区简介，第穆及德木寺&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.openstreetmap.org/node/3316890527"&gt;OpenStreetMap：现德木寺节点3316890527&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.47</longitude>
+        <latitude>29.59</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>85000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#demo_jiaomu_direction_style</styleUrl>
+      <MultiGeometry>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.63347000,29.51239000,0 94.61869522,29.51963925,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.60660676,29.52557046,0 94.59183198,29.53281972,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.57974352,29.53875093,0 94.56496874,29.54600018,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.55288028,29.55193139,0 94.53810550,29.55918064,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.52601704,29.56511185,0 94.51124225,29.57236111,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.49915380,29.57829232,0 94.48437901,29.58554157,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.47229056,29.59147278,0 94.45751577,29.59872203,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.44542731,29.60465324,0 94.43065253,29.61190250,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.41856407,29.61783371,0 94.40378929,29.62508296,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.39170083,29.63101417,0 94.37692605,29.63826342,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.36483759,29.64419463,0 94.35006281,29.65144389,0</coordinates>
+        </LineString>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.33797435,29.65737510,0 94.32319957,29.66462435,0</coordinates>
+        </LineString>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark id="demo_jiaomu_days">
+      <name>两次脚木宗分读｜本次行2日、宿后次晨出发；前次驻半月</name>
+      <description>&lt;p&gt;本句出自第七章：兵变后陈渠珍偕西原离开德摩，口称赴拉萨，途中再经脚木宗，后在江达改计由青海出甘肃。这里还不是从江达北出的草地行程。&lt;/p&gt;&lt;p&gt;正文明确德摩到脚木宗行两日；到达当晚留宿，喇嘛寺呼图克图与加瓜营官彭错夫妇送别，次日晨早出发。途中第一晚的地名、分段里程和各日小时数均未载。&lt;/p&gt;&lt;p&gt;第四章工布安抚后脚木宗驻半月、随后赴窝冗四日属于早先经历；本次不重复套用半月，也不把到达当晚住宿另加成整一日。&lt;/p&gt;&lt;p&gt;&lt;b&gt;正文行程：&lt;/b&gt;离德摩→行两日到脚木宗、当晚留宿和送别→次日晨早出发、当日宿甑巴→后抵江达。仅本次德摩至脚木宗一段有明确两日；本层不扩展定位甑巴或推算其余路段日数。&lt;/p&gt;&lt;p&gt;&lt;b&gt;耗时口径：&lt;/b&gt;行两日为德摩至脚木宗的行军日数，包含到达日，不换算为48小时。宿焉结合次日晨早出发理解为到达当晚留宿，不另加一整天驻留。第四章脚木宗驻半月、后赴窝冗四日属于较早另一次经历，不加到本段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;代表点直距：&lt;/b&gt;35.8 km&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;35.8 km仅为现德木寺地区参照点与觉木／Qomo候选地区点的球面直线距离，使用平均地球半径6371.0088 km。它不是陈军实走里程，也不是已确定的两个清末营址间距；不据此推算速度、现代公路里程或古道。&lt;/p&gt;&lt;p&gt;&lt;b&gt;示意限制：&lt;/b&gt;虚线只连接两地区代表点，表达正文明确的先后方向；端点身份仍有地区参照或候选限制。虚线不复原沿河、翻山、渡口或逐站走法。未定位的中途第一晚宿处不插值造点。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/22.htm"&gt;《艽野尘梦》第七章（2）：德摩离别、脚木宗宿营及江达&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/12.htm"&gt;《艽野尘梦》第四章：早先脚木宗驻半月及赴窝冗四日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/13.htm"&gt;《艽野尘梦》第四章（2）任乃强校注27&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：Qomo／Jomo／Juemu／Chomo Dzong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml"&gt;巴宜区政府：苯日神山旅游区简介，第穆及德木寺&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.openstreetmap.org/node/3316890527"&gt;OpenStreetMap：现德木寺节点3316890527&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.47</longitude>
+        <latitude>29.59</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>85000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+    </Placemark>
+    <Placemark id="demo_jiaomu_identity">
+      <name>定位与距离｜觉木候选；35.8 km为代表点直距</name>
+      <description>&lt;p&gt;德摩沿用现代德木寺地区参照；脚木宗沿用觉木／Qomo地区候选，两端旧营地均未测定。校注27的牙丕附近说与觉木候选有出入，继续保留待考。&lt;/p&gt;&lt;p&gt;35.8 km仅供空间对照；候选身份、参照坐标与直连示意均不构成历史实际路程证明。两日直接来自正文，不能用35.8除以两日来声称陈军行军速度。&lt;/p&gt;&lt;p&gt;两参照点默认隐藏以减少与已有图层重复，可在此文件夹中手动开启；虚线及本段说明默认显示。&lt;/p&gt;&lt;p&gt;&lt;b&gt;正文行程：&lt;/b&gt;离德摩→行两日到脚木宗、当晚留宿和送别→次日晨早出发、当日宿甑巴→后抵江达。仅本次德摩至脚木宗一段有明确两日；本层不扩展定位甑巴或推算其余路段日数。&lt;/p&gt;&lt;p&gt;&lt;b&gt;耗时口径：&lt;/b&gt;行两日为德摩至脚木宗的行军日数，包含到达日，不换算为48小时。宿焉结合次日晨早出发理解为到达当晚留宿，不另加一整天驻留。第四章脚木宗驻半月、后赴窝冗四日属于较早另一次经历，不加到本段。&lt;/p&gt;&lt;p&gt;&lt;b&gt;代表点直距：&lt;/b&gt;35.8 km&lt;/p&gt;&lt;p&gt;&lt;b&gt;距离口径：&lt;/b&gt;35.8 km仅为现德木寺地区参照点与觉木／Qomo候选地区点的球面直线距离，使用平均地球半径6371.0088 km。它不是陈军实走里程，也不是已确定的两个清末营址间距；不据此推算速度、现代公路里程或古道。&lt;/p&gt;&lt;p&gt;&lt;b&gt;示意限制：&lt;/b&gt;虚线只连接两地区代表点，表达正文明确的先后方向；端点身份仍有地区参照或候选限制。虚线不复原沿河、翻山、渡口或逐站走法。未定位的中途第一晚宿处不插值造点。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/22.htm"&gt;《艽野尘梦》第七章（2）：德摩离别、脚木宗宿营及江达&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/12.htm"&gt;《艽野尘梦》第四章：早先脚木宗驻半月及赴窝冗四日&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/13.htm"&gt;《艽野尘梦》第四章（2）任乃强校注27&lt;/a&gt;&lt;br/&gt;&lt;a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm"&gt;KNAB林芝地名表：Qomo／Jomo／Juemu／Chomo Dzong&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml"&gt;巴宜区政府：苯日神山旅游区简介，第穆及德木寺&lt;/a&gt;&lt;br/&gt;&lt;a href="https://www.openstreetmap.org/node/3316890527"&gt;OpenStreetMap：现德木寺节点3316890527&lt;/a&gt;&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>94.47</longitude>
+        <latitude>29.59</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>85000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+    </Placemark>
+  </Document>
+</kml>
