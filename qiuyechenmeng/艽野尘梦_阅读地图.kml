@@ -3,7 +3,7 @@
   <Document id="qiuyechenmeng">
     <name>《艽野尘梦》阅读地图｜边坝背景补充版</name>
     <open>1</open>
-    <description><![CDATA[32个主要地点及参照点，另补15处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
+    <description><![CDATA[32个主要地点及参照点，另补16处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
 小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
     <LookAt>
       <longitude>100.5</longitude>
@@ -1229,7 +1229,7 @@
       <open>0</open>
       <Placemark>
         <name>地图用法、精度与来源</name>
-        <description><![CDATA[32个主要地点及参照点，另补15处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
+        <description><![CDATA[32个主要地点及参照点，另补16处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。
 小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。]]></description>
       </Placemark>
       <Placemark>
@@ -3090,7 +3090,7 @@
         <name>17 鲁朗｜等待援军约1月</name>
         <visibility>1</visibility>
         <Snippet maxLines="2">约1个月 · 第5—7章 · 区域参照</Snippet>
-        <description><![CDATA[<h3>行程与耗时</h3><p><b>鲁朗等待援军：约1个月</b><br/>原文约数。第6章一住经月。</p><h3>距离（km）</h3><p><b>鲁朗地区 → 通麦、易贡藏布渡河地区：直线约 52 km</b><br/>相邻示意节点</p><p>代表点之间的球面近似直线距离，按平均地球半径6371.0088 km计算，取整。不是历史实走里程、现代公路里程或虚线短笔画长度；不确定位置会影响距离，不能当导航数据。</p><h3>17 鲁朗</h3><p><b>今名／定位对象：</b>鲁朗地区<br/><b>对应章节：</b>第5—7章<br/><b>定位性质：</b>区域参照<br/><b>经纬度：</b>94.7332°E, 29.7257°N</p><p>使用现代镇驻地作地区参照。镇治曾由东久迁移，旅游小镇与书中驻营地不能直接等同；未确认作者每次驻地。</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">地名与行程：原文、校注</a><br/><a href="https://mapcarta.com/N12238762005">坐标参照</a><br/><a href="https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html">鲁朗镇治迁移</a></p>]]></description>
+        <description><![CDATA[<h3>行程与耗时</h3><p><b>鲁朗等待援军：约1个月</b><br/>原文约数。第6章一住经月。</p><h3>距离（km）</h3><p><b>鲁朗地区 → 通麦、易贡藏布渡河地区：直线约 52 km</b><br/>相邻示意节点</p><p>代表点之间的球面近似直线距离，按平均地球半径6371.0088 km计算，取整。不是历史实走里程、现代公路里程或虚线短笔画长度；不确定位置会影响距离，不能当导航数据。</p><h3>17 鲁朗</h3><p><b>今名／定位对象：</b>鲁朗地区<br/><b>对应章节：</b>第5—7章<br/><b>定位性质：</b>区域参照<br/><b>经纬度：</b>94.7332°E, 29.7257°N</p><p>使用现代镇驻地作地区参照。镇治曾由东久迁移，旅游小镇与书中驻营地不能直接等同；未确认作者每次驻地。</p><p>坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">地名与行程：原文、校注</a><br/><a href="https://mapcarta.com/N12238762005">坐标参照</a><br/><a href="https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html">鲁朗镇治迁移</a></p><h3>德摩—德摩大山—拉佐—鲁朗｜越岭与宿营</h3><p>原文明记作者自德摩率队越山，经拉佐至鲁朗并宿营。德摩大山可与德木拉古道走廊联系，但现代山口标记不是清末越岭确点的证明。拉佐今名未核，保留无坐标条目。</p><p>原文顺序：德摩 → 德摩大山 → 拉佐 → 鲁朗宿营。</p><p>地图标出现有德摩、鲁朗两端代表点和可追溯的现代德木拉山口。只表达地点与原文顺序，不按代表点插值绘制古道，不给拉佐赋坐标。</p><p>原文记本次前进后宿鲁朗；随后遣第巴与一名传骑赴冬九，作者率部返回德摩。作者行动与使者行动分开，不把此次到鲁朗直接延伸为作者本次亲到冬九。此前赴德摩四日、德摩驻月余均为另段。</p><h3>原文里数，分别保留</h3><p>德摩至鲁朗全段：七十里。作者对本段路程的记述；原样保留，不乘固定系数换成km，不作为两代表点直距。</p><p>出发后开始遇险山的一段：行十余里。包含在全程七十里之内，不另加成八十余里，也不据此固定山口位置。</p><p>德摩大山：山高十五里。旧式山高描述，未明确现代测量口径；不换算为海拔、垂直高差或额外十五里路程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a><br/><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">巴宜区政府：德木寺与德木拉—鲁朗线路</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1160015.html">西藏新闻网：德木寺—德木拉山口—鲁朗历史线路</a></p>]]></description>
         <LookAt>
           <longitude>94.7332</longitude>
           <latitude>29.7257</latitude>
@@ -4468,7 +4468,7 @@
       </Placemark>
     </Folder>
     <Folder id="minor_folder">
-      <name>08 小地名补充｜15处（含区域参照）</name>
+      <name>08 小地名补充｜16处（含区域参照）</name>
       <open>1</open>
       <description><![CDATA[蓝点：现代山口参照；金色空心点：村域、旧名或事件地区参照。支持Region的客户端按缩放显示小地名；Google Earth网页版会忽略此显示条件，可手动开关本层或从列表点击定位。俄洛桥不冒作已测定旧桥位；校注十一与书图的完整旧地名顺序及桥名差异见14层，不按里数给中间旧站造点。]]></description>
       <LookAt>
@@ -4693,7 +4693,7 @@
         </Placemark>
         <Placemark id="minor_demo">
           <name>德摩〔第穆／德木地区参照〕｜赴此4日；驻月余</name>
-          <description><![CDATA[<h3>德摩〔第穆／德木地区参照〕｜赴此4日；驻月余</h3><p><b>书中名：</b>德摩／第穆／德木<br/><b>现代参照：</b>林芝市巴宜区米瑞乡德木寺周边地区（现代寺院代表点参照）<br/><b>章节：</b>第4—7章<br/><b>定位性质：</b>地名异译有官方依据；地区参照，旧驻地确址未定</p><p>巴宜区政府资料明确第穆作为地名也译为德摩或德木，支持书中地名与这一地区对应。点位沿用现代德木寺代表坐标，不指认陈部军营、第巴住宅、书中大喇嘛寺建筑或旧寺原址。官方资料记德木寺由鲁朗德木北沟迁至米瑞德木南沟，并曾几度兴废；迁址年代和书中所见建筑仍须另核。正文的二百余户、田野和住宅为作者当时见闻，不是现代人口或现状统计；工布极东是书中历史区域叙述，不等同今日行政区边界。KNAB的Têmo／Têmogoin／Demu对应带¿疑问符号，且与今寺坐标不同，仅留作待核线索，不据此移动本点。</p><p><b>耗时：</b>正文先从窝冗噶伽绕行六日至访野番处（今址未定），访问后由该处赴德摩，行4日到达，随后驻留月余。赴此4日的起点是未定位的访野番处，不是已确认的窝冗至德摩直达段。校注27另述窝冗噶伽与德摩相距四日程，是相对程距说；与正文绕行6日、后来赴德摩4日及驻留月余分开保留，不按代表点直距反推路线或日数。</p><p><b>距鲁朗地区代表点：直线约26 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>94.63347°E, 29.51239°N。小数位不代表古址精度。</p><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">今名／历史依据</a><br/><a href="https://www.openstreetmap.org/node/3316890527">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><b>书中节引：</b>行四日始至。……余驻此月余。</p><p><a href="https://www.99csw.com/book/554/17570.htm">《艽野尘梦》第4章：绕行、赴德摩与驻留；校注27另述相对程距</a><br/><a href="https://zh.wikipedia.org/wiki/德木寺">维基百科：德木寺（既有代表坐标对照）</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB：Têmo／Têmogoin疑似对应带¿，仅作待核线索</a></p>]]></description>
+          <description><![CDATA[<h3>德摩〔第穆／德木地区参照〕｜赴此4日；驻月余</h3><p><b>书中名：</b>德摩／第穆／德木<br/><b>现代参照：</b>林芝市巴宜区米瑞乡德木寺周边地区（现代寺院代表点参照）<br/><b>章节：</b>第4—7章<br/><b>定位性质：</b>地名异译有官方依据；地区参照，旧驻地确址未定</p><p>巴宜区政府资料明确第穆作为地名也译为德摩或德木，支持书中地名与这一地区对应。点位沿用现代德木寺代表坐标，不指认陈部军营、第巴住宅、书中大喇嘛寺建筑或旧寺原址。官方资料记德木寺由鲁朗德木北沟迁至米瑞德木南沟，并曾几度兴废；迁址年代和书中所见建筑仍须另核。正文的二百余户、田野和住宅为作者当时见闻，不是现代人口或现状统计；工布极东是书中历史区域叙述，不等同今日行政区边界。KNAB的Têmo／Têmogoin／Demu对应带¿疑问符号，且与今寺坐标不同，仅留作待核线索，不据此移动本点。</p><p><b>耗时：</b>正文先从窝冗噶伽绕行六日至访野番处（今址未定），访问后由该处赴德摩，行4日到达，随后驻留月余。赴此4日的起点是未定位的访野番处，不是已确认的窝冗至德摩直达段。校注27另述窝冗噶伽与德摩相距四日程，是相对程距说；与正文绕行6日、后来赴德摩4日及驻留月余分开保留，不按代表点直距反推路线或日数。</p><p><b>距鲁朗地区代表点：直线约26 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>94.63347°E, 29.51239°N。小数位不代表古址精度。</p><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">今名／历史依据</a><br/><a href="https://www.openstreetmap.org/node/3316890527">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><b>书中节引：</b>行四日始至。……余驻此月余。</p><p><a href="https://www.99csw.com/book/554/17570.htm">《艽野尘梦》第4章：绕行、赴德摩与驻留；校注27另述相对程距</a><br/><a href="https://zh.wikipedia.org/wiki/德木寺">维基百科：德木寺（既有代表坐标对照）</a><br/><a href="https://arhiiv.eki.ee/knab/valik/cn54ny.htm">KNAB：Têmo／Têmogoin疑似对应带¿，仅作待核线索</a></p><h3>德摩—德摩大山—拉佐—鲁朗｜越岭与宿营</h3><p>原文明记作者自德摩率队越山，经拉佐至鲁朗并宿营。德摩大山可与德木拉古道走廊联系，但现代山口标记不是清末越岭确点的证明。拉佐今名未核，保留无坐标条目。</p><p>原文顺序：德摩 → 德摩大山 → 拉佐 → 鲁朗宿营。</p><p>地图标出现有德摩、鲁朗两端代表点和可追溯的现代德木拉山口。只表达地点与原文顺序，不按代表点插值绘制古道，不给拉佐赋坐标。</p><p>原文记本次前进后宿鲁朗；随后遣第巴与一名传骑赴冬九，作者率部返回德摩。作者行动与使者行动分开，不把此次到鲁朗直接延伸为作者本次亲到冬九。此前赴德摩四日、德摩驻月余均为另段。</p><h3>原文里数，分别保留</h3><p>德摩至鲁朗全段：七十里。作者对本段路程的记述；原样保留，不乘固定系数换成km，不作为两代表点直距。</p><p>出发后开始遇险山的一段：行十余里。包含在全程七十里之内，不另加成八十余里，也不据此固定山口位置。</p><p>德摩大山：山高十五里。旧式山高描述，未明确现代测量口径；不换算为海拔、垂直高差或额外十五里路程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a><br/><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">巴宜区政府：德木寺与德木拉—鲁朗线路</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1160015.html">西藏新闻网：德木寺—德木拉山口—鲁朗历史线路</a></p>]]></description>
           <LookAt>
             <longitude>94.63347</longitude>
             <latitude>29.51239</latitude>
@@ -5178,6 +5178,59 @@
           <Point>
             <altitudeMode>clampToGround</altitudeMode>
             <coordinates>98.5810914,31.8175808,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark id="minor_darjeeling">
+          <name>大吉岭〔Darjeeling；达赖、夏扎赴印背景〕</name>
+          <description><![CDATA[<h3>大吉岭〔Darjeeling；达赖、夏扎赴印背景〕</h3><p><b>书中名：</b>大吉岭／Darjeeling／Darjiling<br/><b>现代参照：</b>印度西孟加拉邦大吉岭市区（1910年属英属印度）<br/><b>章节：</b>第4章：达赖、厦札赴印的叙事背景<br/><b>定位性质：</b>现代城市代表点，人物背景参照；具体住所及路径未定位</p><p>第4章所称达赖为十三世达赖Tubten／Thubten Gyatso；厦札即夏扎Shatra，个人名Paljor／Peljor Dorje，为藏方大臣，不以君主身份标注。书中叙述两人赴大吉岭及英方关系，是陈渠珍当时叙事的一部分，其中“昵就英人、可忧方大”是作者的评价与忧虑，不作为无归属的史实判断。牛津Pitt Rivers所收人物资料记1910年夏扎陪达赖赴印度，达赖传记涉及大吉岭；Treasury of Lives的夏扎研究传记亦支持一行人在该城的活动。相关资料不能证明两人同一日抵达或某一具体房屋。本点取OSM的现代大吉岭city节点，既不是同名district边界或地区中心，也不是近代人物住处。1910—1912年间他们还在其他地方活动，不把全部时段写成连续驻此。大吉岭仅作他人人物活动背景，不表示陈渠珍到过此城，不接入其个人路线。</p><p><b>耗时：</b>人物背景时段：1910年2—3月赴英属印度，3月初达赖抵大吉岭；夏扎随行赴印及该城活动见传记。到达确日的记录时序有差异，不据此裁定两人同日到达。1910—1912年间还涉及噶伦堡、加尔各答等地，不能全部当作大吉岭连续驻留。本段不赋陈渠珍的行军或驻留耗时；与拉萨的显示距离仅为现代两城市代表点直距，不是出走路线或实走里程。</p><p><b>距拉萨〔南路终点对照〕代表点：直线约404 km。</b>只是两代表点间的距离，非书中两站路程；不与全书总里程累加。</p><p><b>经纬度：</b>88.26320°E, 27.03780°N。小数位不代表古址精度。</p><a href="https://treasuryoflives.org/bo/biographies/view/Shatra-Peljor-Dorje/9301">今名／历史依据</a><br/><a href="https://www.openstreetmap.org/node/3411073296">坐标参照</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">原文及任乃强校注</a><p><b>书中节引：</b>相率逃至大吉岭。</p><p><a href="https://www.99csw.com/book/554/17569.htm">《艽野尘梦》第4章：大吉岭及作者的局势评价</a><br/><a href="https://tibet.prm.ox.ac.uk/biography_336.html">Oxford Pitt Rivers：十三世达赖人物资料（官网条目检索缓存可读）</a><br/><a href="https://tibet.prm.ox.ac.uk/biography_541.html">Oxford Pitt Rivers：Shatra／Paljor Dorje人物资料（官网条目检索缓存可读）</a><br/><a href="https://api.parliament.uk/historic-hansard/commons/1910/mar/02/flight-of-dalai-lama-from-tibet">英国议会Hansard：1910年3月2日问答及引述电报</a><br/><a href="https://sws.geonames.org/1273467/about.rdf">GeoNames1273467：大吉岭城市地名记录</a><br/><a href="https://darjeeling.gov.in/demography/">大吉岭地区政府：地区总部与Darjeeling Town分列</a><br/><a href="https://darjeeling.gov.in/how-to-reach/">大吉岭地区政府：大吉岭为印度西孟加拉邦的municipality town</a></p>]]></description>
+          <LookAt>
+            <longitude>88.2632</longitude>
+            <latitude>27.0378</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>0</tilt>
+            <range>100000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+          </LookAt>
+          <styleUrl>#minor_reference</styleUrl>
+          <Region>
+            <LatLonAltBox>
+              <north>27.137800000000002</north>
+              <south>26.9378</south>
+              <east>88.3832</east>
+              <west>88.1432</west>
+            </LatLonAltBox>
+            <Lod>
+              <minLodPixels>32</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <ExtendedData>
+            <Data name="old_names">
+              <value>大吉岭／Darjeeling／Darjiling</value>
+            </Data>
+            <Data name="modern_reference">
+              <value>印度西孟加拉邦大吉岭市区（1910年属英属印度）</value>
+            </Data>
+            <Data name="chapter">
+              <value>第4章：达赖、厦札赴印的叙事背景</value>
+            </Data>
+            <Data name="certainty">
+              <value>现代城市代表点，人物背景参照；具体住所及路径未定位</value>
+            </Data>
+            <Data name="timing">
+              <value>人物背景时段：1910年2—3月赴英属印度，3月初达赖抵大吉岭；夏扎随行赴印及该城活动见传记。到达确日的记录时序有差异，不据此裁定两人同日到达。1910—1912年间还涉及噶伦堡、加尔各答等地，不能全部当作大吉岭连续驻留。本段不赋陈渠珍的行军或驻留耗时；与拉萨的显示距离仅为现代两城市代表点直距，不是出走路线或实走里程。</value>
+            </Data>
+            <Data name="reference_distance">
+              <value>距拉萨〔南路终点对照〕代表点直线约404 km</value>
+            </Data>
+            <Data name="note">
+              <value>第4章所称达赖为十三世达赖Tubten／Thubten Gyatso；厦札即夏扎Shatra，个人名Paljor／Peljor Dorje，为藏方大臣，不以君主身份标注。书中叙述两人赴大吉岭及英方关系，是陈渠珍当时叙事的一部分，其中“昵就英人、可忧方大”是作者的评价与忧虑，不作为无归属的史实判断。牛津Pitt Rivers所收人物资料记1910年夏扎陪达赖赴印度，达赖传记涉及大吉岭；Treasury of Lives的夏扎研究传记亦支持一行人在该城的活动。相关资料不能证明两人同一日抵达或某一具体房屋。本点取OSM的现代大吉岭city节点，既不是同名district边界或地区中心，也不是近代人物住处。1910—1912年间他们还在其他地方活动，不把全部时段写成连续驻此。大吉岭仅作他人人物活动背景，不表示陈渠珍到过此城，不接入其个人路线。</value>
+            </Data>
+          </ExtendedData>
+          <Point>
+            <altitudeMode>clampToGround</altitudeMode>
+            <coordinates>88.2632,27.0378,0</coordinates>
           </Point>
         </Placemark>
         <Placemark id="minor_bianba">
@@ -25281,6 +25334,105 @@
         <name>曲巴〔古今对应待考；无坐标〕</name>
         <visibility>1</visibility>
         <description><![CDATA[<h3>曲巴〔古今对应待考；无坐标〕</h3><p><b>书中名：</b>曲巴<br/><b>现代参照：</b>未确定<br/><b>定位性质：</b>正文有名，现代对应未定</p><p>原文在工布安抚段列曲巴、增巴、脚木宗。现有资料尚未建立曲巴的可靠古今对应，不凭近音改认秀巴、久巴等地，也不按列举顺序或里数在牙披和候选点之间插值造点。</p><p><b>耗时：</b>单独耗时与相邻段里程未明，坐标与距离留空。</p><p>本条无坐标，仅在图层列表保留说明。</p><p><a href="https://www.xuges.com/xdwx/qycm/12.htm">《艽野尘梦》第4章原文</a></p>]]></description>
+      </Placemark>
+    </Folder>
+    <Folder id="demo_lulang_crossing">
+      <name>16 德摩—鲁朗越岭｜七十里；拉佐待考</name>
+      <open>1</open>
+      <description><![CDATA[<h3>德摩—德摩大山—拉佐—鲁朗｜越岭与宿营</h3><p>原文明记作者自德摩率队越山，经拉佐至鲁朗并宿营。德摩大山可与德木拉古道走廊联系，但现代山口标记不是清末越岭确点的证明。拉佐今名未核，保留无坐标条目。</p><p>原文顺序：德摩 → 德摩大山 → 拉佐 → 鲁朗宿营。</p><p>地图标出现有德摩、鲁朗两端代表点和可追溯的现代德木拉山口。只表达地点与原文顺序，不按代表点插值绘制古道，不给拉佐赋坐标。</p><p>原文记本次前进后宿鲁朗；随后遣第巴与一名传骑赴冬九，作者率部返回德摩。作者行动与使者行动分开，不把此次到鲁朗直接延伸为作者本次亲到冬九。此前赴德摩四日、德摩驻月余均为另段。</p><h3>原文里数，分别保留</h3><p>德摩至鲁朗全段：七十里。作者对本段路程的记述；原样保留，不乘固定系数换成km，不作为两代表点直距。</p><p>出发后开始遇险山的一段：行十余里。包含在全程七十里之内，不另加成八十余里，也不据此固定山口位置。</p><p>德摩大山：山高十五里。旧式山高描述，未明确现代测量口径；不换算为海拔、垂直高差或额外十五里路程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a><br/><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">巴宜区政府：德木寺与德木拉—鲁朗线路</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1160015.html">西藏新闻网：德木寺—德木拉山口—鲁朗历史线路</a></p><p>蓝色点为现代两端地区参照；金色空心点为现代山口及历史对应候选。现有主图只新增山口点并复用德摩、鲁朗；独立补充包含三点。未绘古道连线。</p>]]></description>
+      <LookAt>
+        <longitude>94.69</longitude>
+        <latitude>29.62</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>70000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="crossing_reference_demo">
+        <name>德摩〔米瑞德木地区参照；此次越岭出发地〕【复用主图点】</name>
+        <description><![CDATA[<h3>德摩〔米瑞德木地区参照；此次越岭出发地〕</h3><p>定位性质：现代寺院及周边地区参照，旧军营未定</p><p>沿用主图德摩代表点。官方明确第穆、德摩、德木为地名异译；现代德木寺曾迁址，不能将现寺建筑等同陈部营地或书中寺院。这里是后来从德摩前往鲁朗的一次行动，与此前赴德摩四日、驻留月余分别记录。</p><p>现代参照坐标：94.63347°E，29.51239°N；小数位不表示历史位置精度。</p><p><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">巴宜区政府：德木寺与德木拉—鲁朗线路</a><br/><a href="https://www.openstreetmap.org/node/3316890527">OSM现德木寺节点3316890527</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a></p><h3>德摩—德摩大山—拉佐—鲁朗｜越岭与宿营</h3><p>原文明记作者自德摩率队越山，经拉佐至鲁朗并宿营。德摩大山可与德木拉古道走廊联系，但现代山口标记不是清末越岭确点的证明。拉佐今名未核，保留无坐标条目。</p><p>原文顺序：德摩 → 德摩大山 → 拉佐 → 鲁朗宿营。</p><p>地图标出现有德摩、鲁朗两端代表点和可追溯的现代德木拉山口。只表达地点与原文顺序，不按代表点插值绘制古道，不给拉佐赋坐标。</p><p>原文记本次前进后宿鲁朗；随后遣第巴与一名传骑赴冬九，作者率部返回德摩。作者行动与使者行动分开，不把此次到鲁朗直接延伸为作者本次亲到冬九。此前赴德摩四日、德摩驻月余均为另段。</p><h3>原文里数，分别保留</h3><p>德摩至鲁朗全段：七十里。作者对本段路程的记述；原样保留，不乘固定系数换成km，不作为两代表点直距。</p><p>出发后开始遇险山的一段：行十余里。包含在全程七十里之内，不另加成八十余里，也不据此固定山口位置。</p><p>德摩大山：山高十五里。旧式山高描述，未明确现代测量口径；不换算为海拔、垂直高差或额外十五里路程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a><br/><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">巴宜区政府：德木寺与德木拉—鲁朗线路</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1160015.html">西藏新闻网：德木寺—德木拉山口—鲁朗历史线路</a></p>]]></description>
+        <LookAt>
+          <longitude>94.63347</longitude>
+          <latitude>29.51239</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>25000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>现代寺院及周边地区参照，旧军营未定</value>
+          </Data>
+          <Data name="chapter">
+            <value>第5章 进击波密</value>
+          </Data>
+          <Data name="route_role">
+            <value>现代参照点；历史越岭路线未测定</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark id="crossing_point_demu_la">
+        <name>德木拉山口〔现代山口；德摩大山对应候选〕</name>
+        <description><![CDATA[<h3>德木拉山口〔现代山口；德摩大山对应候选〕</h3><p>定位性质：现代地图山口参照；清末越岭确点未定</p><p>OpenStreetMap节点3315765280明确标记德木拉山口／Temo La，类型mountain_pass=yes。巴宜区政府记载由米瑞德木寺翻越德木拉山口可达鲁朗，为德摩大山的古道走廊对应提供依据。采用现代地图节点，不据此宣称已测定陈部实际越岭点、山峰峰顶或历史道路。原文山高十五里不作现代海拔或垂直高差；不采用另一个约94.6°E、29.6°N的粗略地名库点。</p><p>现代参照坐标：94.6788032°E，29.5858302°N；小数位不表示历史位置精度。</p><p><a href="https://www.openstreetmap.org/node/3315765280">OSM现代德木拉山口节点3315765280</a><br/><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">巴宜区政府：德木寺与德木拉—鲁朗线路</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1160015.html">西藏新闻网：德木寺—德木拉山口—鲁朗历史线路</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a></p><h3>德摩—德摩大山—拉佐—鲁朗｜越岭与宿营</h3><p>原文明记作者自德摩率队越山，经拉佐至鲁朗并宿营。德摩大山可与德木拉古道走廊联系，但现代山口标记不是清末越岭确点的证明。拉佐今名未核，保留无坐标条目。</p><p>原文顺序：德摩 → 德摩大山 → 拉佐 → 鲁朗宿营。</p><p>地图标出现有德摩、鲁朗两端代表点和可追溯的现代德木拉山口。只表达地点与原文顺序，不按代表点插值绘制古道，不给拉佐赋坐标。</p><p>原文记本次前进后宿鲁朗；随后遣第巴与一名传骑赴冬九，作者率部返回德摩。作者行动与使者行动分开，不把此次到鲁朗直接延伸为作者本次亲到冬九。此前赴德摩四日、德摩驻月余均为另段。</p><h3>原文里数，分别保留</h3><p>德摩至鲁朗全段：七十里。作者对本段路程的记述；原样保留，不乘固定系数换成km，不作为两代表点直距。</p><p>出发后开始遇险山的一段：行十余里。包含在全程七十里之内，不另加成八十余里，也不据此固定山口位置。</p><p>德摩大山：山高十五里。旧式山高描述，未明确现代测量口径；不换算为海拔、垂直高差或额外十五里路程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a><br/><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">巴宜区政府：德木寺与德木拉—鲁朗线路</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1160015.html">西藏新闻网：德木寺—德木拉山口—鲁朗历史线路</a></p>]]></description>
+        <LookAt>
+          <longitude>94.6788032</longitude>
+          <latitude>29.5858302</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>25000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <styleUrl>#minor_reference</styleUrl>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>现代地图山口参照；清末越岭确点未定</value>
+          </Data>
+          <Data name="chapter">
+            <value>第5章 进击波密</value>
+          </Data>
+          <Data name="route_role">
+            <value>现代参照点；历史越岭路线未测定</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>94.6788032,29.5858302,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="crossing_reference_lulang">
+        <name>鲁朗〔此次越岭抵达并宿营；旧营地未定〕【复用主图点】</name>
+        <description><![CDATA[<h3>鲁朗〔此次越岭抵达并宿营；旧营地未定〕</h3><p>定位性质：现代镇区代表点，旧宿营地未定</p><p>沿用主图鲁朗地区点；现代OSM参照节点12238762005为鲁朗镇人民政府，不是书中宿营地。镇治曾由东久搬迁，现代镇区及旅游小镇不能直接当作清末驻地。此段原文已明确作者本人抵鲁朗宿营，区别于前文仅推荐鲁朗第巴出使的叙述。再进即波密境是作者对当时地域关系的说明，不画现代行政边界。</p><p>现代参照坐标：94.7332°E，29.7257°N；小数位不表示历史位置精度。</p><p><a href="https://www.openstreetmap.org/node/12238762005">OSM现代鲁朗镇政府节点12238762005（地区参照）</a><br/><a href="https://www.xzdw.gov.cn/dsdt/lz/201805/t20180528_57143.html">鲁朗镇治迁移与旅游小镇建设沿革</a><br/><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a></p><h3>德摩—德摩大山—拉佐—鲁朗｜越岭与宿营</h3><p>原文明记作者自德摩率队越山，经拉佐至鲁朗并宿营。德摩大山可与德木拉古道走廊联系，但现代山口标记不是清末越岭确点的证明。拉佐今名未核，保留无坐标条目。</p><p>原文顺序：德摩 → 德摩大山 → 拉佐 → 鲁朗宿营。</p><p>地图标出现有德摩、鲁朗两端代表点和可追溯的现代德木拉山口。只表达地点与原文顺序，不按代表点插值绘制古道，不给拉佐赋坐标。</p><p>原文记本次前进后宿鲁朗；随后遣第巴与一名传骑赴冬九，作者率部返回德摩。作者行动与使者行动分开，不把此次到鲁朗直接延伸为作者本次亲到冬九。此前赴德摩四日、德摩驻月余均为另段。</p><h3>原文里数，分别保留</h3><p>德摩至鲁朗全段：七十里。作者对本段路程的记述；原样保留，不乘固定系数换成km，不作为两代表点直距。</p><p>出发后开始遇险山的一段：行十余里。包含在全程七十里之内，不另加成八十余里，也不据此固定山口位置。</p><p>德摩大山：山高十五里。旧式山高描述，未明确现代测量口径；不换算为海拔、垂直高差或额外十五里路程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a><br/><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">巴宜区政府：德木寺与德木拉—鲁朗线路</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1160015.html">西藏新闻网：德木寺—德木拉山口—鲁朗历史线路</a></p>]]></description>
+        <LookAt>
+          <longitude>94.7332</longitude>
+          <latitude>29.7257</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>25000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <ExtendedData>
+          <Data name="certainty">
+            <value>现代镇区代表点，旧宿营地未定</value>
+          </Data>
+          <Data name="chapter">
+            <value>第5章 进击波密</value>
+          </Data>
+          <Data name="route_role">
+            <value>现代参照点；历史越岭路线未测定</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark id="crossing_unlocated_lazuo">
+        <name>拉佐〔德摩越岭至鲁朗之间，今址未定〕【无坐标】</name>
+        <description><![CDATA[<p>原文给出经拉佐至鲁朗的顺序，但尚无可靠现代对应；不从拉则、拉措等近音地名选点，不按七十里或示意线比例插值定位。亦不与觉拉沟、觉泥巴合并。</p><h3>德摩—德摩大山—拉佐—鲁朗｜越岭与宿营</h3><p>原文明记作者自德摩率队越山，经拉佐至鲁朗并宿营。德摩大山可与德木拉古道走廊联系，但现代山口标记不是清末越岭确点的证明。拉佐今名未核，保留无坐标条目。</p><p>原文顺序：德摩 → 德摩大山 → 拉佐 → 鲁朗宿营。</p><p>地图标出现有德摩、鲁朗两端代表点和可追溯的现代德木拉山口。只表达地点与原文顺序，不按代表点插值绘制古道，不给拉佐赋坐标。</p><p>原文记本次前进后宿鲁朗；随后遣第巴与一名传骑赴冬九，作者率部返回德摩。作者行动与使者行动分开，不把此次到鲁朗直接延伸为作者本次亲到冬九。此前赴德摩四日、德摩驻月余均为另段。</p><h3>原文里数，分别保留</h3><p>德摩至鲁朗全段：七十里。作者对本段路程的记述；原样保留，不乘固定系数换成km，不作为两代表点直距。</p><p>出发后开始遇险山的一段：行十余里。包含在全程七十里之内，不另加成八十余里，也不据此固定山口位置。</p><p>德摩大山：山高十五里。旧式山高描述，未明确现代测量口径；不换算为海拔、垂直高差或额外十五里路程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a><br/><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">巴宜区政府：德木寺与德木拉—鲁朗线路</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1160015.html">西藏新闻网：德木寺—德木拉山口—鲁朗历史线路</a></p>]]></description>
+      </Placemark>
+      <Placemark id="crossing_original_distances">
+        <name>七十里全程／十余里途中／山高十五里｜不相加、不换海拔</name>
+        <description><![CDATA[<h3>德摩—德摩大山—拉佐—鲁朗｜越岭与宿营</h3><p>原文明记作者自德摩率队越山，经拉佐至鲁朗并宿营。德摩大山可与德木拉古道走廊联系，但现代山口标记不是清末越岭确点的证明。拉佐今名未核，保留无坐标条目。</p><p>原文顺序：德摩 → 德摩大山 → 拉佐 → 鲁朗宿营。</p><p>地图标出现有德摩、鲁朗两端代表点和可追溯的现代德木拉山口。只表达地点与原文顺序，不按代表点插值绘制古道，不给拉佐赋坐标。</p><p>原文记本次前进后宿鲁朗；随后遣第巴与一名传骑赴冬九，作者率部返回德摩。作者行动与使者行动分开，不把此次到鲁朗直接延伸为作者本次亲到冬九。此前赴德摩四日、德摩驻月余均为另段。</p><h3>原文里数，分别保留</h3><p>德摩至鲁朗全段：七十里。作者对本段路程的记述；原样保留，不乘固定系数换成km，不作为两代表点直距。</p><p>出发后开始遇险山的一段：行十余里。包含在全程七十里之内，不另加成八十余里，也不据此固定山口位置。</p><p>德摩大山：山高十五里。旧式山高描述，未明确现代测量口径；不换算为海拔、垂直高差或额外十五里路程。</p><p><a href="https://github.com/chaimol/chaimol.github.com/blob/master/book/%E8%89%BD%E9%87%8E%E5%B0%98%E6%A2%A6.txt">《艽野尘梦》正文与任乃强校注</a><br/><a href="https://www.bayiqu.gov.cn/byq/c100447/201901/365462949a454d559bcdc949fe8d93f6.shtml">巴宜区政府：德木寺与德木拉—鲁朗线路</a><br/><a href="https://www.xzxw.com/lyrw/2015-03/21/content_1160015.html">西藏新闻网：德木寺—德木拉山口—鲁朗历史线路</a></p>]]></description>
       </Placemark>
     </Folder>
   </Document>
