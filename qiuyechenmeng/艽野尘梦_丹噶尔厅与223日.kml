@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="dangaer_supplement">
+    <name>《艽野尘梦》丹噶尔厅｜农历六月廿四抵达；所读本记223日；1937本作193日</name>
+    <open>1</open>
+    <LookAt>
+      <longitude>101.2643</longitude>
+      <latitude>36.689</latitude>
+      <altitude>0</altitude>
+      <heading>0</heading>
+      <tilt>0</tilt>
+      <range>24000</range>
+      <altitudeMode>clampToGround</altitudeMode>
+    </LookAt>
+    <Style id="dangaer_reference_style">
+      <IconStyle>
+        <color>ff7a8dff</color>
+        <scale>1.05</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>0.95</scale>
+      </LabelStyle>
+    </Style>
+    <Placemark id="place_huangyuan">
+      <name>丹噶尔厅〔今湟源古城｜农历六月廿四｜所读本记223日〕</name>
+      <description>&lt;h3&gt;丹噶尔厅与抵达日序&lt;/h3&gt;&lt;p&gt;丹噶尔厅对应今青海省西宁市湟源县老城一带。县文旅资料记1829年设厅、1913年改为湟源县；校注59亦释今湟源县。这里的厅是当时行政建制及其治所称谓，不仅指厅署一栋建筑。&lt;/p&gt;&lt;p&gt;复用既有huangyuan点101.2643°E、36.6890°N，以丹噶尔古城内城隍庙作老城地标参照。坐标来自现有地图采用的城隍庙地名条目，存储小数不等于历史米级精度。县文旅局将城隍庙列入古城建筑群，支持作为老城参照；不能据此认定作者到过城隍庙，也不把该点冒充旧厅署、旅店、布店或清洗更衣处。&lt;/p&gt;&lt;p&gt;223日按用户所读正文和现用任注本转录保留，为该版本陈述的江达出发至抵丹噶尔全段自计耗时（1937印本此数作193日，暂不裁定改字），包含行进、途中停留和后段有人烟地区；不是连续断粮、全在无人区或纯步行223日。主图江达起点和丹噶尔终点的223日是同一段，不能相加。内部十六日、五日等亦不重复累加。&lt;/p&gt;&lt;p&gt;冬月即农历十一月；出发冬月十一日、到达次年六月二十四日均按原文农历书写，不改成公历11月11日、6月24日。本轮未作双历法换算、闰月或首尾计日重算，223日为文本自记值，不是本图用日期重新算出的结果。 香港天文台对照表1911年的闰六月在冬月出发之前，1912年无闰月；不能拿1911全年有闰月解释两版相差30日。&lt;/p&gt;&lt;p&gt;用户所引、虚阁网及九九藏书的任注电子文本作二百二十三日；南京图书馆藏1937年铅印本，扫描第153页、印刷第133页，章首清楚作一百九十三日，冬月十一日与六月二十四日仍相同。已有影像支持的版本异文并列保留；本图沿用用户所读本223日作为显示值，不判定哪一数为最终实历，不将193仅当作网络讹误，也不以月份一律30日凑算。&lt;/p&gt;&lt;p&gt;第十二章先记购制衣履羁留一周，后明确住丹噶尔厅七日，制备衣物毕再赴西宁。两句是同一次停留，记一次7日；它发生在本段抵达之后，不并入江达到达前的223日。洗濯、更衣、购制服物和剪去结块辫发等发生在本地叙事中，未定位到某一旅店或店铺。&lt;/p&gt;&lt;p&gt;主图复用05层place_huangyuan，不新增同位置几何；补充本段说明卡和既有点弹窗。独立补图含同一古城代表点与说明，和完整主图选择一份显示；叠加旧图时可隐藏旧丹噶尔点。到此是一段北返行程的终点，之后仍有西宁、兰州、长安等南归叙事，不称全书旅程结束；不由223日反推实走距离。&lt;/p&gt;&lt;p&gt;地图只用现存古城内的地标作地区参照，不能据此确定作者住宿旅店、当年厅署范围或行走路线；日期与停留说明卡不含地理几何。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/32.htm"&gt;《艽野尘梦》第十二章（1）：223日、购衣与七日停留&lt;/a&gt;：正文该版转录作二百二十三日；停留一周与住七日为同一次。&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;《艽野尘梦》第十一章（2）与校注59&lt;/a&gt;：到达丹噶尔厅、校注今湟源；下日月山后再行两日，不与223总段重复累加。&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17578.htm"&gt;九九藏书：第十二章丹噶尔厅至兰州&lt;/a&gt;：同任注本网络转录可核223日与七日；网页段落排列有错乱，须与连续正文对读，不代替初刊影像。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=856&amp;amp;s=special"&gt;湟源县文旅局：丹噶尔古城简介&lt;/a&gt;：1829设厅、1913改县，城隍庙和厅署均属古城主要建筑群。当前直开404，搜索索引可读原文；不据此定位旧旅店。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=1192&amp;amp;s=special"&gt;湟源县政府：历史沿革&lt;/a&gt;：设丹噶尔厅及改为湟源县的行政对应，非特定旅店或厅署坐标。&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/城隍庙_(湟源县)"&gt;城隍庙（湟源县）地名条目&lt;/a&gt;：复用地图既有101.2643/36.6890古城地标代表点；对应物不是作者明确到访的建筑。&lt;br/&gt;&lt;a href="https://cndo.cn/library/chapter/46304/16.html"&gt;网络转录异文：丹噶尔厅至兰州&lt;/a&gt;：该网页作一百九十三日，只记录转录差异，不据此认定初刊用字或改动用户所读文本。&lt;br/&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:NJlib-0096958-0001_艽野塵夢不分卷.pdf#page=153"&gt;南京图书馆藏1937年铅印本：扫描153页／印刷133页&lt;/a&gt;：第十二章章首影像作一百九十三日，日期仍冬月十一至六月廿四。Commons元数据标民国二十六年铅印本、南京图书馆来源；原页机械扫描属公有领域。不能仅由早期印本推定所有后版用字及历法实数。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1911.pdf"&gt;香港天文台：1911年公历与农历对照表&lt;/a&gt;：闰六月在农历冬月之前，不在这段自冬月至次年六月的期间。这里只核闰月相对次序，不发布公历换算结果。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1912.pdf"&gt;香港天文台：1912年公历与农历对照表&lt;/a&gt;：该年对照表无闰月，不能用此前闰月直接解释193/223差异。&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>101.2643</longitude>
+        <latitude>36.689</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>24000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <styleUrl>#dangaer_reference_style</styleUrl>
+      <ExtendedData>
+        <Data name="coordinate_role">
+          <value>现存古城地标的地区代表点；非作者旅店确址</value>
+        </Data>
+        <Data name="coordinate_note">
+          <value>复用既有huangyuan点101.2643°E、36.6890°N，以丹噶尔古城内城隍庙作老城地标参照。坐标来自现有地图采用的城隍庙地名条目，存储小数不等于历史米级精度。县文旅局将城隍庙列入古城建筑群，支持作为老城参照；不能据此认定作者到过城隍庙，也不把该点冒充旧厅署、旅店、布店或清洗更衣处。</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates>101.2643,36.689,0</coordinates>
+      </Point>
+    </Placemark>
+    <Folder id="dangaer_context">
+      <name>丹噶尔厅与223日｜古城参照与抵达日序</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <description>&lt;h3&gt;《艽野尘梦》丹噶尔厅｜农历六月廿四抵达；所读本记223日；1937本作193日&lt;/h3&gt;&lt;p&gt;余由江达出发，为冬月十一日。至丹噶尔厅，已六月二十四日矣。长途征行，已历二百二十三日之久，衣服久未洗濯，又无更换，皆作赭黑。&lt;/p&gt;&lt;h3&gt;丹噶尔厅与抵达日序&lt;/h3&gt;&lt;p&gt;丹噶尔厅对应今青海省西宁市湟源县老城一带。县文旅资料记1829年设厅、1913年改为湟源县；校注59亦释今湟源县。这里的厅是当时行政建制及其治所称谓，不仅指厅署一栋建筑。&lt;/p&gt;&lt;p&gt;复用既有huangyuan点101.2643°E、36.6890°N，以丹噶尔古城内城隍庙作老城地标参照。坐标来自现有地图采用的城隍庙地名条目，存储小数不等于历史米级精度。县文旅局将城隍庙列入古城建筑群，支持作为老城参照；不能据此认定作者到过城隍庙，也不把该点冒充旧厅署、旅店、布店或清洗更衣处。&lt;/p&gt;&lt;p&gt;223日按用户所读正文和现用任注本转录保留，为该版本陈述的江达出发至抵丹噶尔全段自计耗时（1937印本此数作193日，暂不裁定改字），包含行进、途中停留和后段有人烟地区；不是连续断粮、全在无人区或纯步行223日。主图江达起点和丹噶尔终点的223日是同一段，不能相加。内部十六日、五日等亦不重复累加。&lt;/p&gt;&lt;p&gt;冬月即农历十一月；出发冬月十一日、到达次年六月二十四日均按原文农历书写，不改成公历11月11日、6月24日。本轮未作双历法换算、闰月或首尾计日重算，223日为文本自记值，不是本图用日期重新算出的结果。 香港天文台对照表1911年的闰六月在冬月出发之前，1912年无闰月；不能拿1911全年有闰月解释两版相差30日。&lt;/p&gt;&lt;p&gt;用户所引、虚阁网及九九藏书的任注电子文本作二百二十三日；南京图书馆藏1937年铅印本，扫描第153页、印刷第133页，章首清楚作一百九十三日，冬月十一日与六月二十四日仍相同。已有影像支持的版本异文并列保留；本图沿用用户所读本223日作为显示值，不判定哪一数为最终实历，不将193仅当作网络讹误，也不以月份一律30日凑算。&lt;/p&gt;&lt;p&gt;第十二章先记购制衣履羁留一周，后明确住丹噶尔厅七日，制备衣物毕再赴西宁。两句是同一次停留，记一次7日；它发生在本段抵达之后，不并入江达到达前的223日。洗濯、更衣、购制服物和剪去结块辫发等发生在本地叙事中，未定位到某一旅店或店铺。&lt;/p&gt;&lt;p&gt;主图复用05层place_huangyuan，不新增同位置几何；补充本段说明卡和既有点弹窗。独立补图含同一古城代表点与说明，和完整主图选择一份显示；叠加旧图时可隐藏旧丹噶尔点。到此是一段北返行程的终点，之后仍有西宁、兰州、长安等南归叙事，不称全书旅程结束；不由223日反推实走距离。&lt;/p&gt;&lt;p&gt;地图只用现存古城内的地标作地区参照，不能据此确定作者住宿旅店、当年厅署范围或行走路线；日期与停留说明卡不含地理几何。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/32.htm"&gt;《艽野尘梦》第十二章（1）：223日、购衣与七日停留&lt;/a&gt;：正文该版转录作二百二十三日；停留一周与住七日为同一次。&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;《艽野尘梦》第十一章（2）与校注59&lt;/a&gt;：到达丹噶尔厅、校注今湟源；下日月山后再行两日，不与223总段重复累加。&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17578.htm"&gt;九九藏书：第十二章丹噶尔厅至兰州&lt;/a&gt;：同任注本网络转录可核223日与七日；网页段落排列有错乱，须与连续正文对读，不代替初刊影像。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=856&amp;amp;s=special"&gt;湟源县文旅局：丹噶尔古城简介&lt;/a&gt;：1829设厅、1913改县，城隍庙和厅署均属古城主要建筑群。当前直开404，搜索索引可读原文；不据此定位旧旅店。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=1192&amp;amp;s=special"&gt;湟源县政府：历史沿革&lt;/a&gt;：设丹噶尔厅及改为湟源县的行政对应，非特定旅店或厅署坐标。&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/城隍庙_(湟源县)"&gt;城隍庙（湟源县）地名条目&lt;/a&gt;：复用地图既有101.2643/36.6890古城地标代表点；对应物不是作者明确到访的建筑。&lt;br/&gt;&lt;a href="https://cndo.cn/library/chapter/46304/16.html"&gt;网络转录异文：丹噶尔厅至兰州&lt;/a&gt;：该网页作一百九十三日，只记录转录差异，不据此认定初刊用字或改动用户所读文本。&lt;br/&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:NJlib-0096958-0001_艽野塵夢不分卷.pdf#page=153"&gt;南京图书馆藏1937年铅印本：扫描153页／印刷133页&lt;/a&gt;：第十二章章首影像作一百九十三日，日期仍冬月十一至六月廿四。Commons元数据标民国二十六年铅印本、南京图书馆来源；原页机械扫描属公有领域。不能仅由早期印本推定所有后版用字及历法实数。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1911.pdf"&gt;香港天文台：1911年公历与农历对照表&lt;/a&gt;：闰六月在农历冬月之前，不在这段自冬月至次年六月的期间。这里只核闰月相对次序，不发布公历换算结果。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1912.pdf"&gt;香港天文台：1912年公历与农历对照表&lt;/a&gt;：该年对照表无闰月，不能用此前闰月直接解释193/223差异。&lt;/p&gt;</description>
+      <LookAt>
+        <longitude>101.2643</longitude>
+        <latitude>36.689</latitude>
+        <altitude>0</altitude>
+        <heading>0</heading>
+        <tilt>0</tilt>
+        <range>24000</range>
+        <altitudeMode>clampToGround</altitudeMode>
+      </LookAt>
+      <Placemark id="dangaer_guide">
+        <name>抵达丹噶尔厅｜农历六月廿四；所读本记223日</name>
+        <description>&lt;h3&gt;《艽野尘梦》丹噶尔厅｜农历六月廿四抵达；所读本记223日；1937本作193日&lt;/h3&gt;&lt;p&gt;余由江达出发，为冬月十一日。至丹噶尔厅，已六月二十四日矣。长途征行，已历二百二十三日之久，衣服久未洗濯，又无更换，皆作赭黑。&lt;/p&gt;&lt;h3&gt;丹噶尔厅与抵达日序&lt;/h3&gt;&lt;p&gt;丹噶尔厅对应今青海省西宁市湟源县老城一带。县文旅资料记1829年设厅、1913年改为湟源县；校注59亦释今湟源县。这里的厅是当时行政建制及其治所称谓，不仅指厅署一栋建筑。&lt;/p&gt;&lt;p&gt;复用既有huangyuan点101.2643°E、36.6890°N，以丹噶尔古城内城隍庙作老城地标参照。坐标来自现有地图采用的城隍庙地名条目，存储小数不等于历史米级精度。县文旅局将城隍庙列入古城建筑群，支持作为老城参照；不能据此认定作者到过城隍庙，也不把该点冒充旧厅署、旅店、布店或清洗更衣处。&lt;/p&gt;&lt;p&gt;223日按用户所读正文和现用任注本转录保留，为该版本陈述的江达出发至抵丹噶尔全段自计耗时（1937印本此数作193日，暂不裁定改字），包含行进、途中停留和后段有人烟地区；不是连续断粮、全在无人区或纯步行223日。主图江达起点和丹噶尔终点的223日是同一段，不能相加。内部十六日、五日等亦不重复累加。&lt;/p&gt;&lt;p&gt;冬月即农历十一月；出发冬月十一日、到达次年六月二十四日均按原文农历书写，不改成公历11月11日、6月24日。本轮未作双历法换算、闰月或首尾计日重算，223日为文本自记值，不是本图用日期重新算出的结果。 香港天文台对照表1911年的闰六月在冬月出发之前，1912年无闰月；不能拿1911全年有闰月解释两版相差30日。&lt;/p&gt;&lt;p&gt;用户所引、虚阁网及九九藏书的任注电子文本作二百二十三日；南京图书馆藏1937年铅印本，扫描第153页、印刷第133页，章首清楚作一百九十三日，冬月十一日与六月二十四日仍相同。已有影像支持的版本异文并列保留；本图沿用用户所读本223日作为显示值，不判定哪一数为最终实历，不将193仅当作网络讹误，也不以月份一律30日凑算。&lt;/p&gt;&lt;p&gt;第十二章先记购制衣履羁留一周，后明确住丹噶尔厅七日，制备衣物毕再赴西宁。两句是同一次停留，记一次7日；它发生在本段抵达之后，不并入江达到达前的223日。洗濯、更衣、购制服物和剪去结块辫发等发生在本地叙事中，未定位到某一旅店或店铺。&lt;/p&gt;&lt;p&gt;主图复用05层place_huangyuan，不新增同位置几何；补充本段说明卡和既有点弹窗。独立补图含同一古城代表点与说明，和完整主图选择一份显示；叠加旧图时可隐藏旧丹噶尔点。到此是一段北返行程的终点，之后仍有西宁、兰州、长安等南归叙事，不称全书旅程结束；不由223日反推实走距离。&lt;/p&gt;&lt;p&gt;地图只用现存古城内的地标作地区参照，不能据此确定作者住宿旅店、当年厅署范围或行走路线；日期与停留说明卡不含地理几何。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/32.htm"&gt;《艽野尘梦》第十二章（1）：223日、购衣与七日停留&lt;/a&gt;：正文该版转录作二百二十三日；停留一周与住七日为同一次。&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;《艽野尘梦》第十一章（2）与校注59&lt;/a&gt;：到达丹噶尔厅、校注今湟源；下日月山后再行两日，不与223总段重复累加。&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17578.htm"&gt;九九藏书：第十二章丹噶尔厅至兰州&lt;/a&gt;：同任注本网络转录可核223日与七日；网页段落排列有错乱，须与连续正文对读，不代替初刊影像。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=856&amp;amp;s=special"&gt;湟源县文旅局：丹噶尔古城简介&lt;/a&gt;：1829设厅、1913改县，城隍庙和厅署均属古城主要建筑群。当前直开404，搜索索引可读原文；不据此定位旧旅店。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=1192&amp;amp;s=special"&gt;湟源县政府：历史沿革&lt;/a&gt;：设丹噶尔厅及改为湟源县的行政对应，非特定旅店或厅署坐标。&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/城隍庙_(湟源县)"&gt;城隍庙（湟源县）地名条目&lt;/a&gt;：复用地图既有101.2643/36.6890古城地标代表点；对应物不是作者明确到访的建筑。&lt;br/&gt;&lt;a href="https://cndo.cn/library/chapter/46304/16.html"&gt;网络转录异文：丹噶尔厅至兰州&lt;/a&gt;：该网页作一百九十三日，只记录转录差异，不据此认定初刊用字或改动用户所读文本。&lt;br/&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:NJlib-0096958-0001_艽野塵夢不分卷.pdf#page=153"&gt;南京图书馆藏1937年铅印本：扫描153页／印刷133页&lt;/a&gt;：第十二章章首影像作一百九十三日，日期仍冬月十一至六月廿四。Commons元数据标民国二十六年铅印本、南京图书馆来源；原页机械扫描属公有领域。不能仅由早期印本推定所有后版用字及历法实数。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1911.pdf"&gt;香港天文台：1911年公历与农历对照表&lt;/a&gt;：闰六月在农历冬月之前，不在这段自冬月至次年六月的期间。这里只核闰月相对次序，不发布公历换算结果。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1912.pdf"&gt;香港天文台：1912年公历与农历对照表&lt;/a&gt;：该年对照表无闰月，不能用此前闰月直接解释193/223差异。&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.2643</longitude>
+          <latitude>36.689</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>24000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="dangaer_card_identity">
+        <name>丹噶尔厅与今湟源〔古城代表点；旧旅店待考〕</name>
+        <description>&lt;p&gt;1829年设丹噶尔厅，1913年改湟源县。点位沿用古城内城隍庙地标代表老城，不能解释为作者旅店、厅署或亲访城隍庙。&lt;/p&gt;&lt;p&gt;复用既有huangyuan点101.2643°E、36.6890°N，以丹噶尔古城内城隍庙作老城地标参照。坐标来自现有地图采用的城隍庙地名条目，存储小数不等于历史米级精度。县文旅局将城隍庙列入古城建筑群，支持作为老城参照；不能据此认定作者到过城隍庙，也不把该点冒充旧厅署、旅店、布店或清洗更衣处。&lt;/p&gt;&lt;p&gt;主图复用05层place_huangyuan，不新增同位置几何；补充本段说明卡和既有点弹窗。独立补图含同一古城代表点与说明，和完整主图选择一份显示；叠加旧图时可隐藏旧丹噶尔点。到此是一段北返行程的终点，之后仍有西宁、兰州、长安等南归叙事，不称全书旅程结束；不由223日反推实走距离。&lt;/p&gt;&lt;p&gt;地图只用现存古城内的地标作地区参照，不能据此确定作者住宿旅店、当年厅署范围或行走路线；日期与停留说明卡不含地理几何。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/32.htm"&gt;《艽野尘梦》第十二章（1）：223日、购衣与七日停留&lt;/a&gt;：正文该版转录作二百二十三日；停留一周与住七日为同一次。&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;《艽野尘梦》第十一章（2）与校注59&lt;/a&gt;：到达丹噶尔厅、校注今湟源；下日月山后再行两日，不与223总段重复累加。&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17578.htm"&gt;九九藏书：第十二章丹噶尔厅至兰州&lt;/a&gt;：同任注本网络转录可核223日与七日；网页段落排列有错乱，须与连续正文对读，不代替初刊影像。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=856&amp;amp;s=special"&gt;湟源县文旅局：丹噶尔古城简介&lt;/a&gt;：1829设厅、1913改县，城隍庙和厅署均属古城主要建筑群。当前直开404，搜索索引可读原文；不据此定位旧旅店。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=1192&amp;amp;s=special"&gt;湟源县政府：历史沿革&lt;/a&gt;：设丹噶尔厅及改为湟源县的行政对应，非特定旅店或厅署坐标。&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/城隍庙_(湟源县)"&gt;城隍庙（湟源县）地名条目&lt;/a&gt;：复用地图既有101.2643/36.6890古城地标代表点；对应物不是作者明确到访的建筑。&lt;br/&gt;&lt;a href="https://cndo.cn/library/chapter/46304/16.html"&gt;网络转录异文：丹噶尔厅至兰州&lt;/a&gt;：该网页作一百九十三日，只记录转录差异，不据此认定初刊用字或改动用户所读文本。&lt;br/&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:NJlib-0096958-0001_艽野塵夢不分卷.pdf#page=153"&gt;南京图书馆藏1937年铅印本：扫描153页／印刷133页&lt;/a&gt;：第十二章章首影像作一百九十三日，日期仍冬月十一至六月廿四。Commons元数据标民国二十六年铅印本、南京图书馆来源；原页机械扫描属公有领域。不能仅由早期印本推定所有后版用字及历法实数。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1911.pdf"&gt;香港天文台：1911年公历与农历对照表&lt;/a&gt;：闰六月在农历冬月之前，不在这段自冬月至次年六月的期间。这里只核闰月相对次序，不发布公历换算结果。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1912.pdf"&gt;香港天文台：1912年公历与农历对照表&lt;/a&gt;：该年对照表无闰月，不能用此前闰月直接解释193/223差异。&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.2643</longitude>
+          <latitude>36.689</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>24000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="dangaer_card_total">
+        <name>江达至丹噶尔〔所读本记223日；同一总段〕</name>
+        <description>&lt;p&gt;从冬月十一日离江达到六月二十四日抵丹噶尔，用户所读本记223日；包含行走与停留。起点和终点的同一数字不相加，也不解释为连续断粮或全在无人区。&lt;/p&gt;&lt;p&gt;复用既有huangyuan点101.2643°E、36.6890°N，以丹噶尔古城内城隍庙作老城地标参照。坐标来自现有地图采用的城隍庙地名条目，存储小数不等于历史米级精度。县文旅局将城隍庙列入古城建筑群，支持作为老城参照；不能据此认定作者到过城隍庙，也不把该点冒充旧厅署、旅店、布店或清洗更衣处。&lt;/p&gt;&lt;p&gt;主图复用05层place_huangyuan，不新增同位置几何；补充本段说明卡和既有点弹窗。独立补图含同一古城代表点与说明，和完整主图选择一份显示；叠加旧图时可隐藏旧丹噶尔点。到此是一段北返行程的终点，之后仍有西宁、兰州、长安等南归叙事，不称全书旅程结束；不由223日反推实走距离。&lt;/p&gt;&lt;p&gt;地图只用现存古城内的地标作地区参照，不能据此确定作者住宿旅店、当年厅署范围或行走路线；日期与停留说明卡不含地理几何。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/32.htm"&gt;《艽野尘梦》第十二章（1）：223日、购衣与七日停留&lt;/a&gt;：正文该版转录作二百二十三日；停留一周与住七日为同一次。&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;《艽野尘梦》第十一章（2）与校注59&lt;/a&gt;：到达丹噶尔厅、校注今湟源；下日月山后再行两日，不与223总段重复累加。&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17578.htm"&gt;九九藏书：第十二章丹噶尔厅至兰州&lt;/a&gt;：同任注本网络转录可核223日与七日；网页段落排列有错乱，须与连续正文对读，不代替初刊影像。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=856&amp;amp;s=special"&gt;湟源县文旅局：丹噶尔古城简介&lt;/a&gt;：1829设厅、1913改县，城隍庙和厅署均属古城主要建筑群。当前直开404，搜索索引可读原文；不据此定位旧旅店。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=1192&amp;amp;s=special"&gt;湟源县政府：历史沿革&lt;/a&gt;：设丹噶尔厅及改为湟源县的行政对应，非特定旅店或厅署坐标。&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/城隍庙_(湟源县)"&gt;城隍庙（湟源县）地名条目&lt;/a&gt;：复用地图既有101.2643/36.6890古城地标代表点；对应物不是作者明确到访的建筑。&lt;br/&gt;&lt;a href="https://cndo.cn/library/chapter/46304/16.html"&gt;网络转录异文：丹噶尔厅至兰州&lt;/a&gt;：该网页作一百九十三日，只记录转录差异，不据此认定初刊用字或改动用户所读文本。&lt;br/&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:NJlib-0096958-0001_艽野塵夢不分卷.pdf#page=153"&gt;南京图书馆藏1937年铅印本：扫描153页／印刷133页&lt;/a&gt;：第十二章章首影像作一百九十三日，日期仍冬月十一至六月廿四。Commons元数据标民国二十六年铅印本、南京图书馆来源；原页机械扫描属公有领域。不能仅由早期印本推定所有后版用字及历法实数。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1911.pdf"&gt;香港天文台：1911年公历与农历对照表&lt;/a&gt;：闰六月在农历冬月之前，不在这段自冬月至次年六月的期间。这里只核闰月相对次序，不发布公历换算结果。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1912.pdf"&gt;香港天文台：1912年公历与农历对照表&lt;/a&gt;：该年对照表无闰月，不能用此前闰月直接解释193/223差异。&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.2643</longitude>
+          <latitude>36.689</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>24000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="dangaer_card_calendar">
+        <name>版本与农历〔所读本223；1937印本193；未换公历〕</name>
+        <description>&lt;p&gt;两版日期均冬月十一日出发、六月廿四到达。用户所读任注电子文本作223日，南京图书馆藏1937年铅印本p133作193日。保留为版本差异，未由历法重算、暂不裁定改字。1911闰六月早于冬月出发，不能用于解释这30日差异。&lt;/p&gt;&lt;p&gt;复用既有huangyuan点101.2643°E、36.6890°N，以丹噶尔古城内城隍庙作老城地标参照。坐标来自现有地图采用的城隍庙地名条目，存储小数不等于历史米级精度。县文旅局将城隍庙列入古城建筑群，支持作为老城参照；不能据此认定作者到过城隍庙，也不把该点冒充旧厅署、旅店、布店或清洗更衣处。&lt;/p&gt;&lt;p&gt;主图复用05层place_huangyuan，不新增同位置几何；补充本段说明卡和既有点弹窗。独立补图含同一古城代表点与说明，和完整主图选择一份显示；叠加旧图时可隐藏旧丹噶尔点。到此是一段北返行程的终点，之后仍有西宁、兰州、长安等南归叙事，不称全书旅程结束；不由223日反推实走距离。&lt;/p&gt;&lt;p&gt;地图只用现存古城内的地标作地区参照，不能据此确定作者住宿旅店、当年厅署范围或行走路线；日期与停留说明卡不含地理几何。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/32.htm"&gt;《艽野尘梦》第十二章（1）：223日、购衣与七日停留&lt;/a&gt;：正文该版转录作二百二十三日；停留一周与住七日为同一次。&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;《艽野尘梦》第十一章（2）与校注59&lt;/a&gt;：到达丹噶尔厅、校注今湟源；下日月山后再行两日，不与223总段重复累加。&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17578.htm"&gt;九九藏书：第十二章丹噶尔厅至兰州&lt;/a&gt;：同任注本网络转录可核223日与七日；网页段落排列有错乱，须与连续正文对读，不代替初刊影像。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=856&amp;amp;s=special"&gt;湟源县文旅局：丹噶尔古城简介&lt;/a&gt;：1829设厅、1913改县，城隍庙和厅署均属古城主要建筑群。当前直开404，搜索索引可读原文；不据此定位旧旅店。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=1192&amp;amp;s=special"&gt;湟源县政府：历史沿革&lt;/a&gt;：设丹噶尔厅及改为湟源县的行政对应，非特定旅店或厅署坐标。&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/城隍庙_(湟源县)"&gt;城隍庙（湟源县）地名条目&lt;/a&gt;：复用地图既有101.2643/36.6890古城地标代表点；对应物不是作者明确到访的建筑。&lt;br/&gt;&lt;a href="https://cndo.cn/library/chapter/46304/16.html"&gt;网络转录异文：丹噶尔厅至兰州&lt;/a&gt;：该网页作一百九十三日，只记录转录差异，不据此认定初刊用字或改动用户所读文本。&lt;br/&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:NJlib-0096958-0001_艽野塵夢不分卷.pdf#page=153"&gt;南京图书馆藏1937年铅印本：扫描153页／印刷133页&lt;/a&gt;：第十二章章首影像作一百九十三日，日期仍冬月十一至六月廿四。Commons元数据标民国二十六年铅印本、南京图书馆来源；原页机械扫描属公有领域。不能仅由早期印本推定所有后版用字及历法实数。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1911.pdf"&gt;香港天文台：1911年公历与农历对照表&lt;/a&gt;：闰六月在农历冬月之前，不在这段自冬月至次年六月的期间。这里只核闰月相对次序，不发布公历换算结果。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1912.pdf"&gt;香港天文台：1912年公历与农历对照表&lt;/a&gt;：该年对照表无闰月，不能用此前闰月直接解释193/223差异。&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.2643</longitude>
+          <latitude>36.689</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>24000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+      <Placemark id="dangaer_card_stay">
+        <name>抵达后住7日〔购制衣履；不并入到达前223日〕</name>
+        <description>&lt;p&gt;羁留一周与住丹噶尔厅七日是同一段驻留，记一次7日。洗濯、更衣、购制衣物后赴西宁；旧旅店、布店与厅官故事中的场所无确址。&lt;/p&gt;&lt;p&gt;复用既有huangyuan点101.2643°E、36.6890°N，以丹噶尔古城内城隍庙作老城地标参照。坐标来自现有地图采用的城隍庙地名条目，存储小数不等于历史米级精度。县文旅局将城隍庙列入古城建筑群，支持作为老城参照；不能据此认定作者到过城隍庙，也不把该点冒充旧厅署、旅店、布店或清洗更衣处。&lt;/p&gt;&lt;p&gt;主图复用05层place_huangyuan，不新增同位置几何；补充本段说明卡和既有点弹窗。独立补图含同一古城代表点与说明，和完整主图选择一份显示；叠加旧图时可隐藏旧丹噶尔点。到此是一段北返行程的终点，之后仍有西宁、兰州、长安等南归叙事，不称全书旅程结束；不由223日反推实走距离。&lt;/p&gt;&lt;p&gt;地图只用现存古城内的地标作地区参照，不能据此确定作者住宿旅店、当年厅署范围或行走路线；日期与停留说明卡不含地理几何。&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/32.htm"&gt;《艽野尘梦》第十二章（1）：223日、购衣与七日停留&lt;/a&gt;：正文该版转录作二百二十三日；停留一周与住七日为同一次。&lt;br/&gt;&lt;a href="https://www.xuges.com/xdwx/qycm/31.htm"&gt;《艽野尘梦》第十一章（2）与校注59&lt;/a&gt;：到达丹噶尔厅、校注今湟源；下日月山后再行两日，不与223总段重复累加。&lt;br/&gt;&lt;a href="https://www.99csw.com/book/554/17578.htm"&gt;九九藏书：第十二章丹噶尔厅至兰州&lt;/a&gt;：同任注本网络转录可核223日与七日；网页段落排列有错乱，须与连续正文对读，不代替初刊影像。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=856&amp;amp;s=special"&gt;湟源县文旅局：丹噶尔古城简介&lt;/a&gt;：1829设厅、1913改县，城隍庙和厅署均属古城主要建筑群。当前直开404，搜索索引可读原文；不据此定位旧旅店。&lt;br/&gt;&lt;a href="https://www.huangyuan.gov.cn/index.php?c=show&amp;amp;id=1192&amp;amp;s=special"&gt;湟源县政府：历史沿革&lt;/a&gt;：设丹噶尔厅及改为湟源县的行政对应，非特定旅店或厅署坐标。&lt;br/&gt;&lt;a href="https://zh.wikipedia.org/wiki/城隍庙_(湟源县)"&gt;城隍庙（湟源县）地名条目&lt;/a&gt;：复用地图既有101.2643/36.6890古城地标代表点；对应物不是作者明确到访的建筑。&lt;br/&gt;&lt;a href="https://cndo.cn/library/chapter/46304/16.html"&gt;网络转录异文：丹噶尔厅至兰州&lt;/a&gt;：该网页作一百九十三日，只记录转录差异，不据此认定初刊用字或改动用户所读文本。&lt;br/&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:NJlib-0096958-0001_艽野塵夢不分卷.pdf#page=153"&gt;南京图书馆藏1937年铅印本：扫描153页／印刷133页&lt;/a&gt;：第十二章章首影像作一百九十三日，日期仍冬月十一至六月廿四。Commons元数据标民国二十六年铅印本、南京图书馆来源；原页机械扫描属公有领域。不能仅由早期印本推定所有后版用字及历法实数。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1911.pdf"&gt;香港天文台：1911年公历与农历对照表&lt;/a&gt;：闰六月在农历冬月之前，不在这段自冬月至次年六月的期间。这里只核闰月相对次序，不发布公历换算结果。&lt;br/&gt;&lt;a href="https://www.hko.gov.hk/tc/gts/time/calendar/pdf/files/1912.pdf"&gt;香港天文台：1912年公历与农历对照表&lt;/a&gt;：该年对照表无闰月，不能用此前闰月直接解释193/223差异。&lt;/p&gt;</description>
+        <LookAt>
+          <longitude>101.2643</longitude>
+          <latitude>36.689</latitude>
+          <altitude>0</altitude>
+          <heading>0</heading>
+          <tilt>0</tilt>
+          <range>24000</range>
+          <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

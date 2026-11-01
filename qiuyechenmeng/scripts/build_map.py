@@ -31,6 +31,7 @@ from qaidam_kunlun import add_qaidam_kunlun, write_outputs as write_qaidam_kunlu
 from yushu_context import add_yushu_context, write_yushu_outputs
 from hehuang_shibao import add_hehuang_shibao, write_hehuang_outputs
 from dulan_golmud import add_dulan_golmud, write_dulan_outputs
+from dangaer_context import add_dangaer_context, point_html as dangaer_point_html, write_dangaer_outputs
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -84,7 +85,7 @@ ROWS = [
 ('golmud','21 柴达木 → 格尔木一带（推定）','格尔木地区',94.9042,36.4028,'第11章；校注55','return','校注推定',wiki('格尔木市'),'任乃强按程站推为格尔木一带，不是作者明确写出的今名。使用现代城市代表点；不是当时城市已建成的断言，也不能据此反推羌塘精确轨迹。'),
 ('qinghai','22 青海 → 青海湖（区域）','青海湖',100.2,36.9,'第11章；校注57','return','区域参照','https://en.wikipedia.org/wiki/Qinghai_Lake','湖面代表点，仅定位整湖。原文及校注记行海南路；不代表到湖心，也不是确定的岸边营地。书中另有“青盐海”，与青海湖分开处理。'),
 ('riyue','23 日月山','日月山一带',101.0939,36.4431,'第11章；校注58','return','区域参照','https://mapcarta.com/W1425740804','使用日月山景区代表点，未确认旧道具体翻越位置。'),
-('huangyuan','24 丹噶尔厅 → 湟源','丹噶尔古城一带',101.2643,36.6890,'第11—12章；校注59','return','对应较明确',wiki('城隍庙_(湟源县)'),'用古城内城隍庙定位丹噶尔老城，非作者旅店。书中到达日期为农历六月二十四，本图未换算为公历。'),
+('huangyuan','24 丹噶尔厅〔今湟源古城一带〕','丹噶尔古城一带',101.2643,36.6890,'第11—12章；校注59','return','对应较明确',wiki('城隍庙_(湟源县)'),'用古城内城隍庙代表丹噶尔老城，非作者旅店或厅署确址。农历六月二十四到达；所读本记北返223日，1937印本作193日，异文分列，未换公历。'),
 ('xining','25 西宁','西宁城区',101.7781,36.6169,'第12章','return','对应较明确',wiki('西宁市'),'现代城市代表点，不指认张镇军衙署或作者所住旅店。'),
 ('lanzhou','26 兰州','兰州城区',103.8320,36.0610,'第12章','return','对应较明确',wiki('兰州市'),'现代城市代表点；旧炭市街旅店位置未核。'),
 ('xian','27 长安 → 西安','西安老城一带',108.9453,34.2592,'第12章','return','对应较明确',wiki('西安市'),'全书叙事终点。使用老城范围代表点；洪铺街寓所及墓葬均未精确定位。'),
@@ -116,7 +117,7 @@ for phase,route,ids in ROUTES:
         DISTANCE_ROWS.append((route,a,b,'相邻示意节点',distance_km(a,b)))
 DISTANCE_ROWS += [
     ('补充起讫对照','kangding','chamdo','康定至昌都起讫直线，不含绕行',distance_km('kangding','chamdo')),
-    ('补充起讫对照','taizhao','huangyuan','北返223日全段起讫直线，不是荒原轨迹',distance_km('taizhao','huangyuan')),
+    ('补充起讫对照','taizhao','huangyuan','所读本223日全段起讫直线，不是荒原轨迹；1937印本193日',distance_km('taizhao','huangyuan')),
 ]
 
 UNLOCATED = [('第1章；校注10',i['name'],i['note']) for i in CHECK['unlocated']] + [
@@ -580,9 +581,10 @@ def major_place(parent,row):
     coordinate_note=('KNAB原表为29°51′33″N、95°46′14″E，未明确坐标基准；本点仅为现代扎木镇代表点，显示位数不代表历史地区中心或古址精度。' if rid=='bomi' else '坐标的小数位仅为存储格式，不代表历史位置已精确到米。除特别说明外，使用WGS84兼容地名／地标坐标；定位性质比显示位数更重要。')
     body=f'<h3>{html.escape(label)}</h3><p><b>今名／定位对象：</b>{html.escape(modern)}<br/><b>对应章节：</b>{html.escape(chapter)}<br/><b>定位性质：</b>{certainty}<br/><b>经纬度：</b>{lon:.4f}°E, {lat:.4f}°N</p><p>{html.escape(note)}</p><p>{coordinate_note}</p><p>'+links(extra)+'</p>'
     if rid in ['tongmai','qundo']: body+=campaign_anchor_html(rid,CAMPAIGN_ANCHORS)
+    if rid=='huangyuan': body+=dangaer_point_html()
     related_distances=[d for d in DISTANCE_ROWS if d[1]==rid or d[2]==rid]
     travel=time_html(entries)+(distance_html(related_distances) if related_distances else '')
-    el(pm,'description',body+travel if rid in ['taizhao','bomi'] else travel+body)
+    el(pm,'description',body+travel if rid in ['taizhao','bomi','huangyuan'] else travel+body)
     view(pm,lon,lat,240000 if rid=='bomi' else 180000 if rid in ['golmud','qinghai'] else 45000 if rid=='taizhao' else 65000)
     el(pm,'styleUrl','#jiangda' if rid=='taizhao' else '#'+phase+('_uncertain' if uncertain else ''))
     ed=el(pm,'ExtendedData')
@@ -619,7 +621,7 @@ def make_map(bundled=False):
     root=ET.Element(f'{{{KML}}}kml'); doc=el(root,'Document',id='qiuyechenmeng')
     el(doc,'name','《艽野尘梦》阅读地图｜边坝背景补充版')
     el(doc,'open',1)
-    el(doc,'description',f'{len(ROWS)}个主要地点及参照点，另补{len(MINOR_PLACES)}处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：作者自计223日。\n小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。')
+    el(doc,'description',f'{len(ROWS)}个主要地点及参照点，另补{len(MINOR_PLACES)}处小地名；含耗时、驻留和直线距离（km）。北返江达到丹噶尔：所读本记223日；1937印本作193日。\n小地名可从08图层点击定位，放大后更易读。虚线仅为示意；距离不是历史实走里程。＊炉城至昌都50余日被校注质疑。农历未换算公历，交叠段不相加。')
     view(doc,100.5,33.6,2000000)
     for key,(_,color,_) in PHASES.items():
         for uncertain in [False, True]:
@@ -640,7 +642,7 @@ def make_map(bundled=False):
     guide=el(doc,'Folder');el(guide,'name','00 耗时、距离总览与图例');el(guide,'open',0)
     pm=el(guide,'Placemark');el(pm,'name','地图用法、精度与来源');el(pm,'description',doc.find(f'{{{KML}}}description').text)
     pm=el(guide,'Placemark');el(pm,'name','各段耗时总览｜不能全部相加')
-    el(pm,'description','<p>原文日期保留农历；约数、推算和正文与校注分歧分别标明。北返223日是江达到丹噶尔全段，不等于连续断粮或全在无人区。内部16日、5日等均包含在总段内。时间未明的地点不按距离猜测。</p>'+time_html(TIMINGS)+'<h3>资料</h3>'+links(SOURCES.items()))
+    el(pm,'description','<p>原文日期保留农历；约数、推算和正文与校注分歧分别标明。所读本北返223日是江达到丹噶尔全段，1937印本此数作193日，版本异文分列，不裁定实历。全段不等于连续断粮或全在无人区。内部16日、5日等均包含在总段内。时间未明的地点不按距离猜测。</p>'+time_html(TIMINGS)+'<h3>资料</h3>'+links(SOURCES.items()))
     pm=el(guide,'Placemark');el(pm,'name','距离总览｜km，直线近似，非实走')
     el(pm,'description',distance_html(DISTANCE_ROWS))
     folders={}
@@ -699,6 +701,7 @@ def make_map(bundled=False):
     add_yushu_context(doc,el,view)
     add_hehuang_shibao(doc,el,view,kcolor,bundled)
     add_dulan_golmud(doc,el,view,kcolor,bundled)
+    add_dangaer_context(doc,el,view)
     return serialize(root)
 
 def make_history_supplement(bundled=False):
@@ -891,6 +894,7 @@ def main():
     yushu_note=write_yushu_outputs()
     hehuang_note=write_hehuang_outputs()
     dulan_note=write_dulan_outputs()
+    dangaer_note=write_dangaer_outputs()
     annotation11='艽野尘梦_腊左探险校对'
     (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
     with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
@@ -1063,7 +1067,7 @@ Google Earth网页版：使用导入KML/KMZ功能选择本地文件；不同版�
 显示四位小数仅是统一存储格式，不能理解成历史位置精确到米。
 没有给未知行程编造日期或经纬度；农历日期未冒作公历。
 已补行程和驻留耗时：直接显示于主要点标标签、弹窗、图层和耗时总览。
-江达至丹噶尔223日是整个北返大段；猎户处至柴达木16日等是子段，不重复相加。
+江达至丹噶尔按所读本记223日；南京图书馆藏1937年铅印本p133作193日，版本异文分列保留，未由历法重算。此为整个北返大段；猎户处至柴达木16日等是子段，不重复相加。
 康定至昌都正文50余日被校注质疑，保留分歧；分州至长安7日不误写为兰州至西安7日。
 西安停留约2—3个月为叙事粗略推算；其余未明记的时间不按现代距离猜测。
 距离统一用km：按代表点的球面近似直线计算，取整，不是历史实际步行或公路里程。
@@ -1184,6 +1188,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n玉树草原西部与穆鲁乌苏｜任注48的区域推测\n'+yushu_note)
         f.write('\n河湟谷地与石堡城｜河谷背景与古城约位\n'+hehuang_note)
         f.write('\n都兰与格尔木｜旧地名候选与现代参照\n'+dulan_note)
+        f.write('\n丹噶尔厅与抵达日序｜所读本223日与1937印本异文\n'+dangaer_note)
     with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
         f.write('\n\n二十七、北返荒原事件区域推测\n'+ '\n'.join(event_note))
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
