@@ -36,7 +36,8 @@ def kcolor(color):
 
 def overview_html(cfg):
     return '<h3>'+html.escape(cfg['title'])+'</h3>'+paragraphs(
-        [cfg['summary'], cfg['legend'], cfg['methodology'], cfg['scope']])+links(cfg, ['annotation54'])
+        [cfg['summary'], cfg['legend'], cfg['methodology'], cfg['scope']]
+        +([cfg['comparison_summary']] if cfg.get('comparison_summary') else []))+links(cfg, ['annotation54'])
 
 
 def line_style(placemark, el, color, width):
@@ -116,8 +117,46 @@ def add_segment(folder, el, view, cfg, group, segment, nodes):
     add_geometry(point, el, path, segment.get('dashed', True))
 
 
+def label_position(segment, nodes, fraction):
+    """Place a route-name label on the schematic line, without adding a route anchor."""
+    path = [[nodes[key]['lon'], nodes[key]['lat']] for key in segment['path']]
+    lengths = [display_distance(a, b) for a, b in zip(path, path[1:])]
+    remaining = sum(lengths)*fraction
+    for index, length in enumerate(lengths):
+        if remaining <= length or index == len(lengths)-1:
+            start, end = path[index:index+2]
+            t = min(1, max(0, remaining/length)) if length else 0
+            return [start[0]+(end[0]-start[0])*t, start[1]+(end[1]-start[1])*t]
+        remaining -= length
+
+
+def add_route_label(folder, el, view, cfg, group, label, segments, nodes):
+    segment = segments[label['segment_id']]
+    lon, lat = label_position(segment, nodes, label.get('fraction', 0.5))
+    point = el(folder, 'Placemark', id='qingzang54_label_'+label['id'])
+    el(point, 'name', label['text'])
+    el(point, 'description', paragraphs([group['summary'],
+       '此点只放置线路名称文字，位于本图示意线；不是新考定的地名、古站、渡口或山口。']))
+    view(point, lon, lat, 700000)
+    style = el(point, 'Style')
+    icon = el(style, 'IconStyle'); el(icon, 'scale', 0.05)
+    el(el(icon, 'Icon'), 'href', ICON)
+    label_style = el(style, 'LabelStyle')
+    el(label_style, 'color', 'ffffffff'); el(label_style, 'scale', 1.15)
+    add_metadata(point, el, [('geometry_role', '线路文字标签；非历史地点'),
+                             ('route_group', group['name']), ('source_segment', segment['id'])])
+    geom = el(point, 'Point'); el(geom, 'altitudeMode', 'clampToGround')
+    el(geom, 'coordinates', f'{lon:.6f},{lat:.6f},0')
+
+
+def comparison_html(cfg, row):
+    return '<h3>'+html.escape(row['name'])+'</h3>'+paragraphs(
+        [row['assessment'], row['evidence'], row['uncertainty']])+links(cfg, row['source_keys'])
+
+
 def add_qingzang_three_routes(doc, el, view):
     cfg = load(); nodes = {node['id']: node for node in cfg['nodes']}
+    segments = {segment['id']: segment for segment in cfg['segments']}
     folder = el(doc, 'Folder', id='qingzang_annotation54_three_routes')
     el(folder, 'name', cfg['title']); el(folder, 'visibility', 1); el(folder, 'open', 1)
     el(folder, 'description', overview_html(cfg))
@@ -142,6 +181,8 @@ def add_qingzang_three_routes(doc, el, view):
         for segment in cfg['segments']:
             if segment['group'] == group['id']:
                 add_segment(group_folder, el, view, cfg, group, segment, nodes)
+        for label in group.get('labels', []):
+            add_route_label(group_folder, el, view, cfg, group, label, segments, nodes)
     for card in cfg['cards']:
         point = el(folder, 'Placemark', id='qingzang54_card_'+card['id'])
         el(point, 'name', card['name'])
@@ -149,6 +190,16 @@ def add_qingzang_three_routes(doc, el, view):
            +paragraphs(card['paragraphs'])+links(cfg, card['source_keys']))
         camera = card.get('camera', cfg['overview'])
         view(point, camera['lon'], camera['lat'], camera['range_m'])
+    comparisons = cfg.get('comparisons', [])
+    if comparisons:
+        compare_folder = el(folder, 'Folder', id='qingzang54_north_return_comparison')
+        el(compare_folder, 'name', '陈氏北返与三道对照〔按叙事和任注，非贴线测算〕')
+        el(compare_folder, 'visibility', 1); el(compare_folder, 'open', 1)
+        for row in comparisons:
+            point = el(compare_folder, 'Placemark', id='qingzang54_compare_'+row['id'])
+            el(point, 'name', row['name']); el(point, 'description', comparison_html(cfg, row))
+            camera = row.get('camera', cfg['overview'])
+            view(point, camera['lon'], camera['lat'], camera['range_m'])
     return folder
 
 
@@ -179,6 +230,10 @@ def write_index():
                   segment['basis'], '']
     for card in cfg['cards']:
         lines += [card['name'], *card['paragraphs'], '']
+    if cfg.get('comparison_summary'):
+        lines += ['陈氏北返与三道对照', cfg['comparison_summary'], '']
+    for row in cfg.get('comparisons', []):
+        lines += [row['name'], row['assessment'], row['evidence'], row['uncertainty'], '']
     lines += ['来源与限度']
     for key, source in cfg['sources'].items():
         lines += [key+'｜'+source['title'], source['url'], source['supports'], '']
@@ -198,6 +253,13 @@ def write_index():
             writer.writerow(['地区关系线', segment['id'], segment['name'], '', '', segment['group'],
                              ';'.join(segment['path']), segment['certainty'], segment['basis'],
                              ';'.join(segment['source_keys']), ';'.join(cfg['sources'][key]['url'] for key in segment['source_keys'])])
+    with (ROOT/'北返与青藏三道对照.csv').open('w', encoding='utf-8-sig', newline='') as stream:
+        writer = csv.writer(stream, lineterminator='\n')
+        writer.writerow(['区段', '判断', '文本依据', '不确定性', '来源键', '来源链接'])
+        for row in cfg.get('comparisons', []):
+            writer.writerow([row['name'], row['assessment'], row['evidence'], row['uncertainty'],
+                             ';'.join(row['source_keys']),
+                             ';'.join(cfg['sources'][key]['url'] for key in row['source_keys'])])
     return note
 
 
