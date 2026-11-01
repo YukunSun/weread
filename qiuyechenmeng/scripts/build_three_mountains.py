@@ -12,6 +12,69 @@ ROOT = Path(__file__).resolve().parents[1]
 NAME = "艽野尘梦_京中树枝央噶"
 DATA = ROOT / "data/place_checks/京中树枝央噶核对.json"
 TITLE = "《艽野尘梦》京中—树枝—央噶｜三日越岭，确址待考"
+HORSE_NAME = "艽野尘梦_枣骝马与三山追叙"
+
+
+def horse_overview(horse):
+    body = paragraph("章节", horse["chapter"]) + paragraph("原引", horse["quote"])
+    body += paragraph("阅读提示", horse["scope"])
+    for item in horse["cards"]:
+        body += "<h3>" + html.escape(item["name"]) + "</h3>" + "<p>" + html.escape(item["text"]) + "</p>"
+    return body + paragraph("版本备注", horse["version_note"]) + source_links(horse)
+
+
+def add_horse_retrospective(parent, el):
+    """Add only explanatory text; retain the existing map view and geometry."""
+    horse = json.loads(DATA.read_text(encoding="utf-8"))["horse_retrospective"]
+    folder = el(parent, "Folder", id="horse_three_mountains_retrospective")
+    el(folder, "name", horse["layer_name"])
+    el(folder, "open", 1)
+    el(folder, "description", horse_overview(horse))
+    for item in horse["cards"]:
+        pm = el(folder, "Placemark", id="horse_three_mountains_" + item["id"])
+        el(pm, "name", item["name"])
+        body = "<h3>" + html.escape(item["name"]) + "</h3><p>" + html.escape(item["text"]) + "</p>"
+        body += paragraph("阅读提示", horse["scope"]) + source_links(horse)
+        el(pm, "description", body)
+        metadata = el(pm, "ExtendedData")
+        for key, value in [("chapter", horse["chapter"]), ("reading_role", "马匹表现追叙；三山现代对应待考")]:
+            el(el(metadata, "Data", name=key), "value", value)
+    return folder
+
+
+def make_horse_retrospective(data):
+    ET.register_namespace("", NS)
+    root = ET.Element(f"{{{NS}}}kml")
+    doc = el(root, "Document", id="horse_three_mountains_text_supplement")
+    el(doc, "name", "《艽野尘梦》枣骝马与三山追叙｜山址待考")
+    el(doc, "open", 1)
+    el(doc, "description", horse_overview(data["horse_retrospective"]))
+    add_horse_retrospective(doc, el)
+    ET.indent(root, space="  ")
+    return ET.tostring(root, encoding="utf-8", xml_declaration=True)
+
+
+def write_horse_outputs(data):
+    horse = data["horse_retrospective"]
+    raw = make_horse_retrospective(data)
+    (ROOT / (HORSE_NAME + ".kml")).write_bytes(raw)
+    with zipfile.ZipFile(ROOT / (HORSE_NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
+        archive.writestr("doc.kml", raw)
+    note = [horse["title"], "核对日期：" + horse["checked_at"], "", horse["chapter"],
+            horse["quote"], "", horse["scope"], ""]
+    for item in horse["cards"]:
+        note.extend([item["name"], item["text"], ""])
+    note.extend(["版本备注", horse["version_note"], "", "导入提示",
+                 "完整阅读地图、京中树枝央噶独立层与本次纯文字增量均包含同名三条说明，选择一份显示，避免重复。已有旧版三山层时，可只导入“" + HORSE_NAME + ".kmz”。",
+                 "增量只含文字文件夹与三条无几何说明卡，没有新增坐标、点线面或相机视角。部分客户端可能省略无几何条目，完整内容亦保留在文件夹说明与本TXT。原三山独立层的五张旧说明卡与两个现代地区参照点保持原样。",
+                 "没有新增距离、耗时记录，原距离耗时CSV不变。", "", "来源与证据限度"])
+    for source in horse["sources"]:
+        note.extend([source["title"], source["url"], source["supports"], ""])
+    note.extend(["Google Earth核验：" + horse["google_earth_import"]["status"],
+                 horse["google_earth_import"]["note"]])
+    text = "\n".join(note) + "\n"
+    (ROOT / "枣骝马与三山追叙说明.txt").write_text(text, encoding="utf-8")
+    return text
 
 
 def overview(node):
@@ -73,6 +136,7 @@ def make(data, bundled=False):
         point = el(pm, "Point")
         el(point, "altitudeMode", "clampToGround")
         el(point, "coordinates", f'{place["lon"]:.8f},{place["lat"]:.8f},0')
+    add_horse_retrospective(doc, el)
     ET.indent(root, space="  ")
     return ET.tostring(root, encoding="utf-8", xml_declaration=True)
 
@@ -84,7 +148,7 @@ def main():
         archive.writestr("doc.kml", make(data, True))
         archive.writestr("icons/context.png", icon_png((190, 198, 208)))
     with (ROOT / "京中树枝央噶_距离耗时.csv").open("w", encoding="utf-8-sig", newline="") as stream:
-        writer = csv.writer(stream)
+        writer = csv.writer(stream, lineterminator="\n")
         writer.writerow(["口径", "起点或地点", "终点或事项", "耗时", "km", "依据和限制"])
         for row in data["time_entries"]:
             writer.writerow([row["role"], row["from"], row["to"], row["time"], "", "原文公里数未载；" + row["note"]])
@@ -101,8 +165,11 @@ def main():
         note.extend([place["name"], place["source_coordinate"], place["note"], ""])
     note.append("来源")
     note.extend(source["title"] + "\n" + source["url"] for source in data["sources"])
+    horse_note = write_horse_outputs(data)
+    note.extend(["", "补充：枣骝马与三山追叙", horse_note.rstrip("\n")])
     (ROOT / "京中树枝央噶核对说明.txt").write_text("\n".join(note) + "\n", encoding="utf-8")
-    print(f"Created {NAME}.kml/.kmz: 2 modern reference points, 5 geometry-free cards, no route or area")
+    print(f"Created {NAME}.kml/.kmz: 2 unchanged modern reference points, 5 original cards + 3 horse-retrospective text cards; text-only increment generated")
+    return horse_note
 
 
 if __name__ == "__main__":
