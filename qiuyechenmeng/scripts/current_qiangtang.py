@@ -8,6 +8,7 @@ import zipfile
 
 from regional_ranges import insert_styles
 from build_jiamiqingbo import icon_png
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 KML = 'http://www.opengis.net/kml/2.2'
@@ -140,8 +141,8 @@ def make_current_qiangtang(bundled=False):
 
 def write_current_qiangtang_outputs():
     cfg, ring = load()
-    (ROOT/(NAME+'.kml')).write_bytes(make_current_qiangtang())
-    with zipfile.ZipFile(ROOT/(NAME+'.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + '.kml')).write_bytes(make_current_qiangtang())
+    with zipfile.ZipFile(output_path('maps', NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.writestr('doc.kml', make_current_qiangtang(True))
         archive.writestr('icons/region_label.png', icon_png((255, 255, 255)))
     note = [cfg['title'], '核对日期：'+cfg['checked_at'], '', cfg['scope'], area_text(cfg),
@@ -155,7 +156,7 @@ def write_current_qiangtang_outputs():
         note.extend([source['title'], source['url'], source['supports'], ''])
     note.extend(['Google Earth核验：'+cfg['google_earth_import']['status'], cfg['google_earth_import']['note']])
     text = '\n'.join(note)+'\n'
-    (ROOT/'现代羌塘无人区范围说明.txt').write_text(text, encoding='utf-8')
+    (output_path('docs', '现代羌塘无人区范围说明.txt')).write_text(text, encoding='utf-8')
     return text
 
 

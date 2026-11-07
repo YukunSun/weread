@@ -2,6 +2,7 @@
 from pathlib import Path
 import html
 import json
+from output_paths import output_path
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -86,5 +87,5 @@ def write_mountain_index():
                         source['supports'])
     sections.append('Google Earth核验\n' + check['google_earth_import']['note'])
     text = '\n\n'.join(sections) + '\n'
-    (ROOT / '八噶山金珠山核对说明.txt').write_text(text, encoding='utf-8')
+    (output_path('docs', '八噶山金珠山核对说明.txt')).write_text(text, encoding='utf-8')
     return text

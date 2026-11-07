@@ -3,6 +3,7 @@ from pathlib import Path
 import csv
 import html
 import json
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 KML = 'http://www.opengis.net/kml/2.2'
@@ -104,8 +105,8 @@ def write_demo_lulang_index():
     for source in cfg['sources'].values():
         lines += [source['title'], source['url']]
     note = '\n'.join(lines)+'\n'
-    (ROOT/'德摩鲁朗越岭核对说明.txt').write_text(note, encoding='utf-8')
-    with (ROOT/'德摩鲁朗_地点与里数.csv').open('w', encoding='utf-8-sig', newline='') as stream:
+    (output_path('docs', '德摩鲁朗越岭核对说明.txt')).write_text(note, encoding='utf-8')
+    with (output_path('tables', '德摩鲁朗_地点与里数.csv')).open('w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.writer(stream, lineterminator='\n')
         writer.writerow(['类别', '名称或地段', '经度', '纬度', '性质或原文里数', '说明'])
         for point in cfg['points']:

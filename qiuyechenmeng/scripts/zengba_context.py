@@ -10,6 +10,7 @@ from build_jiamiqingbo import (
     NS, el as standalone_el, view as standalone_view,
     paragraph, source_links, icon_png,
 )
+from output_paths import output_path
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -123,8 +124,8 @@ def make_standalone(data, bundled=False):
 
 def write_zengba_outputs():
     data = load()
-    (ROOT / (NAME + '.kml')).write_bytes(make_standalone(data))
-    with zipfile.ZipFile(ROOT / (NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + '.kml')).write_bytes(make_standalone(data))
+    with zipfile.ZipFile(output_path('maps', NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.writestr('doc.kml', make_standalone(data, True))
         archive.writestr(ICON_PATH, icon_png())
 
@@ -149,10 +150,10 @@ def write_zengba_outputs():
     sections.append('Google Earth核验\n' + data['google_earth_import']['status'] +
                     '\n' + data['google_earth_import']['note'])
     text = '\n\n'.join(sections) + '\n'
-    (ROOT / '甑巴留宿核对说明.txt').write_text(text, encoding='utf-8')
+    (output_path('docs', '甑巴留宿核对说明.txt')).write_text(text, encoding='utf-8')
 
     urls = '；'.join(source['url'] for source in data['sources'])
-    with (ROOT / '甑巴留宿对照.csv').open('w', encoding='utf-8-sig', newline='') as stream:
+    with (output_path('tables', '甑巴留宿对照.csv')).open('w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.writer(stream, lineterminator='\n')
         writer.writerow(['类型', 'id', '地图标签', '经度', '纬度', '说明', '耗时与日序', '来源'])
         writer.writerow(['候选地区', point['id'], point['name'], point['lon'], point['lat'],

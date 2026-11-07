@@ -7,6 +7,7 @@ import xml.etree.ElementTree as ET
 import zipfile
 
 from build_jiamiqingbo import NS, el, view, paragraph, source_links, icon_png
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 NAME = "艽野尘梦_京中树枝央噶"
@@ -57,8 +58,8 @@ def make_horse_retrospective(data):
 def write_horse_outputs(data):
     horse = data["horse_retrospective"]
     raw = make_horse_retrospective(data)
-    (ROOT / (HORSE_NAME + ".kml")).write_bytes(raw)
-    with zipfile.ZipFile(ROOT / (HORSE_NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', HORSE_NAME + ".kml")).write_bytes(raw)
+    with zipfile.ZipFile(output_path('maps', HORSE_NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
         archive.writestr("doc.kml", raw)
     note = [horse["title"], "核对日期：" + horse["checked_at"], "", horse["chapter"],
             horse["quote"], "", horse["scope"], ""]
@@ -73,7 +74,7 @@ def write_horse_outputs(data):
     note.extend(["Google Earth核验：" + horse["google_earth_import"]["status"],
                  horse["google_earth_import"]["note"]])
     text = "\n".join(note) + "\n"
-    (ROOT / "枣骝马与三山追叙说明.txt").write_text(text, encoding="utf-8")
+    (output_path('docs', "枣骝马与三山追叙说明.txt")).write_text(text, encoding="utf-8")
     return text
 
 
@@ -143,11 +144,11 @@ def make(data, bundled=False):
 
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
-    (ROOT / (NAME + ".kml")).write_bytes(make(data))
-    with zipfile.ZipFile(ROOT / (NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + ".kml")).write_bytes(make(data))
+    with zipfile.ZipFile(output_path('maps', NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
         archive.writestr("doc.kml", make(data, True))
         archive.writestr("icons/context.png", icon_png((190, 198, 208)))
-    with (ROOT / "京中树枝央噶_距离耗时.csv").open("w", encoding="utf-8-sig", newline="") as stream:
+    with (output_path('tables', "京中树枝央噶_距离耗时.csv")).open("w", encoding="utf-8-sig", newline="") as stream:
         writer = csv.writer(stream, lineterminator="\n")
         writer.writerow(["口径", "起点或地点", "终点或事项", "耗时", "km", "依据和限制"])
         for row in data["time_entries"]:
@@ -167,7 +168,7 @@ def main():
     note.extend(source["title"] + "\n" + source["url"] for source in data["sources"])
     horse_note = write_horse_outputs(data)
     note.extend(["", "补充：枣骝马与三山追叙", horse_note.rstrip("\n")])
-    (ROOT / "京中树枝央噶核对说明.txt").write_text("\n".join(note) + "\n", encoding="utf-8")
+    (output_path('docs', "京中树枝央噶核对说明.txt")).write_text("\n".join(note) + "\n", encoding="utf-8")
     print(f"Created {NAME}.kml/.kmz: 2 unchanged modern reference points, 5 original cards + 3 horse-retrospective text cards; text-only increment generated")
     return horse_note
 

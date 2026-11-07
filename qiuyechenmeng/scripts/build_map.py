@@ -33,6 +33,7 @@ from hehuang_shibao import add_hehuang_shibao, write_hehuang_outputs
 from dulan_golmud import add_dulan_golmud, write_dulan_outputs
 from dangaer_context import add_dangaer_context, point_html as dangaer_point_html, write_dangaer_outputs
 from binzhou_context import add_binzhou_context, point_html as binzhou_point_html, write_binzhou_outputs
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 TIMINGS = json.loads((ROOT/'data'/'行程耗时.json').read_text(encoding='utf-8'))
@@ -399,7 +400,7 @@ def write_worang_index():
         note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
         if check['google_earth_import'].get('screenshot'):
             note+='核验截图：'+check['google_earth_import']['screenshot']+'\n'
-    (ROOT/'窝冗噶伽核对说明.txt').write_text(note,encoding='utf-8')
+    (output_path('docs', '窝冗噶伽核对说明.txt')).write_text(note,encoding='utf-8')
     return note
 
 
@@ -425,7 +426,7 @@ def write_baimagang_index():
         note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
         if check['google_earth_import'].get('screenshot'):
             note+='核验截图：'+check['google_earth_import']['screenshot']+'\n'
-    (ROOT/'百马岗墨脱核对说明.txt').write_text(note,encoding='utf-8')
+    (output_path('docs', '百马岗墨脱核对说明.txt')).write_text(note,encoding='utf-8')
     return note
 
 
@@ -455,7 +456,7 @@ def write_demo_index():
         for source in check['pending_sources']:
             note+='\n'+source['title']+'\n'+source['status']+'\n'+source['url']+'\n'
     note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
-    (ROOT/'德摩核对说明.txt').write_text(note,encoding='utf-8')
+    (output_path('docs', '德摩核对说明.txt')).write_text(note,encoding='utf-8')
     return note
 
 
@@ -483,7 +484,7 @@ def write_gongjue_index():
         note+='\n'+source['title']+'\n'+source['supports']+'\n'+source['url']+'\n'
     note+='\n原始坐标记录\n'+check['coordinate_record']['local_snapshot']+'\n'
     note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
-    (ROOT/'贡觉核对说明.txt').write_text(note,encoding='utf-8')
+    (output_path('docs', '贡觉核对说明.txt')).write_text(note,encoding='utf-8')
     return note
 
 
@@ -501,7 +502,7 @@ def write_bomi_index():
         note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
         if check['google_earth_import'].get('screenshot'):
             note+='核验截图：'+check['google_earth_import']['screenshot']+'\n'
-    (ROOT/'波密核对说明.txt').write_text(note,encoding='utf-8')
+    (output_path('docs', '波密核对说明.txt')).write_text(note,encoding='utf-8')
     return note
 
 
@@ -531,7 +532,7 @@ def write_darjeeling_index():
         note+='\n'+source['title']+'\n'+source['supports']+'\n'+source['url']+'\n'
         if source.get('access_note'): note+='读取说明：'+source['access_note']+'\n'
     note+='\nGoogle Earth核验\n'+check['google_earth_import']['note']+'\n'
-    (ROOT/'大吉岭核对说明.txt').write_text(note,encoding='utf-8')
+    (output_path('docs', '大吉岭核对说明.txt')).write_text(note,encoding='utf-8')
     return note
 
 
@@ -808,7 +809,7 @@ def main():
     write_figure()
     ET.register_namespace('', KML)
     name='艽野尘梦_阅读地图'
-    (ROOT/(name+'.kml')).write_bytes(make_map())
+    (output_path('maps', name + '.kml')).write_bytes(make_map())
     with zipfile.ZipFile(ROOT/(name+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_map(True))
         for phase,(_,color,_) in PHASES.items():
@@ -826,8 +827,8 @@ def main():
             z.writestr('icons/post_'+sid+'.png',png(color,hollow))
         pack_annotation11_sources(z)
     event_map='艽野尘梦_北返荒原事件候选'
-    (ROOT/(event_map+'.kml')).write_bytes(make_wilderness_event_supplement())
-    with zipfile.ZipFile(ROOT/(event_map+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', event_map + '.kml')).write_bytes(make_wilderness_event_supplement())
+    with zipfile.ZipFile(output_path('maps', event_map + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_wilderness_event_supplement(True))
         z.writestr('icons/wilderness_uncertain.png',png('#ffb347',True))
     event_note=['《艽野尘梦》北返荒原事件区域推测','',
@@ -842,7 +843,7 @@ def main():
         'https://www.99csw.com/book/554/17576.htm',
         'https://www.99csw.com/book/554/17577.htm','',
         '完整阅读地图已包含这些标记。旧版云端图如需补充，可单独导入“艽野尘梦_北返荒原事件候选.kmz”。新版完整图与补充图二选一显示，避免重复标记。','']
-    (ROOT/'北返荒原事件候选说明.txt').write_text('\n'.join(event_note),encoding='utf-8')
+    (output_path('docs', '北返荒原事件候选说明.txt')).write_text('\n'.join(event_note),encoding='utf-8')
     event_data={
         'checked_at':'2026-11-01',
         'title':'《艽野尘梦》北返荒原事件区域推测',
@@ -857,35 +858,35 @@ def main():
     }
     (ROOT/'data/place_checks/北返荒原事件候选.json').write_text(json.dumps(event_data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     crossing='艽野尘梦_德摩鲁朗越岭'
-    (ROOT/(crossing+'.kml')).write_bytes(make_demo_lulang_supplement())
-    with zipfile.ZipFile(ROOT/(crossing+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', crossing + '.kml')).write_bytes(make_demo_lulang_supplement())
+    with zipfile.ZipFile(output_path('maps', crossing + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_demo_lulang_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     crossing_note=write_demo_lulang_index()
     gongbu='艽野尘梦_工布安抚三地'
-    (ROOT/(gongbu+'.kml')).write_bytes(make_gongbu_supplement())
-    with zipfile.ZipFile(ROOT/(gongbu+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', gongbu + '.kml')).write_bytes(make_gongbu_supplement())
+    with zipfile.ZipFile(output_path('maps', gongbu + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_gongbu_supplement(True))
         z.writestr('icons/gongbu_candidate.png',png('#ffb347',True))
         z.writestr('icons/gongbu_reference.png',png('#89d8ff'))
     gongbu_note=write_gongbu_indexes()
     campaign='艽野尘梦_波密三步部署'
-    (ROOT/(campaign+'.kml')).write_bytes(make_campaign_supplement())
-    with zipfile.ZipFile(ROOT/(campaign+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', campaign + '.kml')).write_bytes(make_campaign_supplement())
+    with zipfile.ZipFile(output_path('maps', campaign + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_campaign_supplement(True))
         z.writestr('icons/campaign_reference.png',png('#ffd166',True))
     campaign_note=write_campaign_indexes(CAMPAIGN_ANCHORS)
     katuo='艽野尘梦_卡拖与野人山'
-    (ROOT/(katuo+'.kml')).write_bytes(make_katuo_supplement())
-    with zipfile.ZipFile(ROOT/(katuo+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', katuo + '.kml')).write_bytes(make_katuo_supplement())
+    with zipfile.ZipFile(output_path('maps', katuo + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_katuo_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     katuo_note=write_katuo_index()
     mountain_defence='艽野尘梦_八噶山与金珠山'
-    (ROOT/(mountain_defence+'.kml')).write_bytes(make_mountain_defence_supplement())
-    with zipfile.ZipFile(ROOT/(mountain_defence+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', mountain_defence + '.kml')).write_bytes(make_mountain_defence_supplement())
+    with zipfile.ZipFile(output_path('maps', mountain_defence + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_mountain_defence_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
@@ -901,8 +902,8 @@ def main():
     dangaer_note=write_dangaer_outputs()
     binzhou_note=write_binzhou_outputs()
     annotation11='艽野尘梦_腊左探险校对'
-    (ROOT/(annotation11+'.kml')).write_bytes(make_annotation11_supplement())
-    with zipfile.ZipFile(ROOT/(annotation11+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', annotation11 + '.kml')).write_bytes(make_annotation11_supplement())
+    with zipfile.ZipFile(output_path('maps', annotation11 + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_annotation11_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
@@ -910,129 +911,129 @@ def main():
         pack_annotation11_sources(z)
     write_annotation11_indexes()
     approximate='艽野尘梦_恩达河谷三处约位'
-    (ROOT/(approximate+'.kml')).write_bytes(make_enda_approximate_supplement())
-    with zipfile.ZipFile(ROOT/(approximate+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', approximate + '.kml')).write_bytes(make_enda_approximate_supplement())
+    with zipfile.ZipFile(output_path('maps', approximate + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_enda_approximate_supplement(True))
         z.writestr('icons/annotation11_approximate.png',png('#ffb347',True))
     deep='艽野尘梦_浪荡沟与纳贡深查'
-    (ROOT/(deep+'.kml')).write_bytes(make_deep_research_supplement())
-    with zipfile.ZipFile(ROOT/(deep+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', deep + '.kml')).write_bytes(make_deep_research_supplement())
+    with zipfile.ZipFile(output_path('maps', deep + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_deep_research_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     supplement='艽野尘梦_小地名补充'
-    (ROOT/(supplement+'.kml')).write_bytes(make_supplement())
-    with zipfile.ZipFile(ROOT/(supplement+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', supplement + '.kml')).write_bytes(make_supplement())
+    with zipfile.ZipFile(output_path('maps', supplement + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     gengqing='艽野尘梦_更庆驻地'
-    (ROOT/(gengqing+'.kml')).write_bytes(make_gengqing_supplement())
-    with zipfile.ZipFile(ROOT/(gengqing+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', gengqing + '.kml')).write_bytes(make_gengqing_supplement())
+    with zipfile.ZipFile(output_path('maps', gengqing + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_gengqing_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     wusijiang='艽野尘梦_乌斯江防线背景'
-    (ROOT/(wusijiang+'.kml')).write_bytes(make_wusijiang_supplement())
-    with zipfile.ZipFile(ROOT/(wusijiang+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', wusijiang + '.kml')).write_bytes(make_wusijiang_supplement())
+    with zipfile.ZipFile(output_path('maps', wusijiang + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_wusijiang_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     bianba='艽野尘梦_边坝历史背景'
-    (ROOT/(bianba+'.kml')).write_bytes(make_bianba_supplement())
-    with zipfile.ZipFile(ROOT/(bianba+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', bianba + '.kml')).write_bytes(make_bianba_supplement())
+    with zipfile.ZipFile(output_path('maps', bianba + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_bianba_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     worang='艽野尘梦_窝冗噶伽'
-    (ROOT/(worang+'.kml')).write_bytes(make_worang_supplement())
-    with zipfile.ZipFile(ROOT/(worang+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', worang + '.kml')).write_bytes(make_worang_supplement())
+    with zipfile.ZipFile(output_path('maps', worang + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_worang_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     worang_note=write_worang_index()
     baimagang='艽野尘梦_百马岗墨脱'
-    (ROOT/(baimagang+'.kml')).write_bytes(make_baimagang_supplement())
-    with zipfile.ZipFile(ROOT/(baimagang+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', baimagang + '.kml')).write_bytes(make_baimagang_supplement())
+    with zipfile.ZipFile(output_path('maps', baimagang + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_baimagang_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     baimagang_note=write_baimagang_index()
     demo='艽野尘梦_德摩定位'
-    (ROOT/(demo+'.kml')).write_bytes(make_demo_supplement())
-    with zipfile.ZipFile(ROOT/(demo+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', demo + '.kml')).write_bytes(make_demo_supplement())
+    with zipfile.ZipFile(output_path('maps', demo + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_demo_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     demo_note=write_demo_index()
     gongjue='艽野尘梦_贡觉定位'
-    (ROOT/(gongjue+'.kml')).write_bytes(make_gongjue_supplement())
-    with zipfile.ZipFile(ROOT/(gongjue+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', gongjue + '.kml')).write_bytes(make_gongjue_supplement())
+    with zipfile.ZipFile(output_path('maps', gongjue + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_gongjue_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     gongjue_note=write_gongjue_index()
     bomi_note=write_bomi_index()
     bomi='艽野尘梦_波密地区参照'
-    (ROOT/(bomi+'.kml')).write_bytes(make_bomi_supplement())
-    with zipfile.ZipFile(ROOT/(bomi+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', bomi + '.kml')).write_bytes(make_bomi_supplement())
+    with zipfile.ZipFile(output_path('maps', bomi + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_bomi_supplement(True))
         z.writestr('icons/context.png',png(PHASES['context'][1]))
     darjeeling='艽野尘梦_大吉岭背景'
-    (ROOT/(darjeeling+'.kml')).write_bytes(make_darjeeling_supplement())
-    with zipfile.ZipFile(ROOT/(darjeeling+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', darjeeling + '.kml')).write_bytes(make_darjeeling_supplement())
+    with zipfile.ZipFile(output_path('maps', darjeeling + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_darjeeling_supplement(True))
         z.writestr('icons/minor_landmark.png',png('#89d8ff'))
         z.writestr('icons/minor_reference.png',png('#ffd166',True))
     darjeeling_note=write_darjeeling_index()
     jiangda='艽野尘梦_江达定位'
-    (ROOT/(jiangda+'.kml')).write_bytes(make_jiangda_supplement())
-    with zipfile.ZipFile(ROOT/(jiangda+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', jiangda + '.kml')).write_bytes(make_jiangda_supplement())
+    with zipfile.ZipFile(output_path('maps', jiangda + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_jiangda_supplement(True))
         z.writestr('icons/west.png',png(PHASES['west'][1]))
     roads='艽野尘梦_现代道路对照'
     road_kml=make_road_supplement()
-    (ROOT/(roads+'.kml')).write_bytes(road_kml)
-    with zipfile.ZipFile(ROOT/(roads+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', roads + '.kml')).write_bytes(road_kml)
+    with zipfile.ZipFile(output_path('maps', roads + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',road_kml)
     ranges='艽野尘梦_藏区地理范围'
-    (ROOT/(ranges+'.kml')).write_bytes(make_range_supplement())
-    with zipfile.ZipFile(ROOT/(ranges+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', ranges + '.kml')).write_bytes(make_range_supplement())
+    with zipfile.ZipFile(output_path('maps', ranges + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_range_supplement(True))
         z.writestr('icons/region_label.png',png('#ffffff'))
     post='艽野尘梦_南北驿路对照'
-    (ROOT/(post+'.kml')).write_bytes(make_post_supplement())
-    with zipfile.ZipFile(ROOT/(post+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', post + '.kml')).write_bytes(make_post_supplement())
+    with zipfile.ZipFile(output_path('maps', post + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_post_supplement(True))
         for sid,color,hollow in [('point','#8ad4ff',False),('uncertain','#ffc66d',True),('measure','#cbd5e1',False)]:
             z.writestr('icons/post_'+sid+'.png',png(color,hollow))
     history='艽野尘梦_瞻对历史背景'
-    (ROOT/(history+'.kml')).write_bytes(make_history_supplement())
-    with zipfile.ZipFile(ROOT/(history+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', history + '.kml')).write_bytes(make_history_supplement())
+    with zipfile.ZipFile(output_path('maps', history + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_history_supplement(True))
         z.writestr('icons/region_label.png',png('#ffffff'))
     write_historical_index()
     rivers='艽野尘梦_沿途河流'
-    (ROOT/(rivers+'.kml')).write_bytes(make_river_supplement())
-    with zipfile.ZipFile(ROOT/(rivers+'.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', rivers + '.kml')).write_bytes(make_river_supplement())
+    with zipfile.ZipFile(output_path('maps', rivers + '.kmz'),'w',zipfile.ZIP_DEFLATED) as z:
         z.writestr('doc.kml',make_river_supplement(True))
         z.writestr('icons/river_label.png',png('#60d4ff'))
         z.writestr('icons/river_crossing.png',png('#ffdc7b',True))
     write_river_index()
     write_route_check(PLACE_BY_ID,distance_km)
-    with (ROOT/'小地名对照与坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (output_path('tables', '小地名对照与坐标.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         fields=['id','name','old_names','modern','lon','lat','chapter','group','certainty','coordinate_source','identity_source','note','timing']
         w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(MINOR_PLACES)
     headers=['id','地图标签','现代定位对象','经度','纬度','章节','图层','定位性质','坐标来源','说明','耗时','耗时依据']
-    with (ROOT/'地名对照与坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (output_path('tables', '地名对照与坐标.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.writer(f,lineterminator='\n');w.writerow(headers)
         for row in ROWS:
             entries=[t for t in TIMINGS if t['anchor']==row[0]]
             w.writerow([*row,'；'.join(t['segment']+'：'+t['duration'] for t in entries),'；'.join(t['kind']+'：'+t['basis'] for t in entries)])
-    with (ROOT/'行程耗时对照.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (output_path('tables', '行程耗时对照.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.writer(f,lineterminator='\n');w.writerow(['地点ID','图层','地段／事项','耗时','性质','依据与限制'])
         for t in TIMINGS: w.writerow([t[k] for k in ['anchor','phase','segment','duration','kind','basis']])
-    with (ROOT/'行程距离对照_km.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (output_path('tables', '行程距离对照_km.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.writer(f,lineterminator='\n');w.writerow(['示意段','起点','终点','口径','直线距离_km','限制'])
         for route,a,b,kind,km in DISTANCE_ROWS: w.writerow([route,PLACE_BY_ID[a][2],PLACE_BY_ID[b][2],kind,round(km),DISTANCE_NOTE])
     (ROOT/'data'/'未定位地名.json').write_text(json.dumps(UNLOCATED,ensure_ascii=False,indent=2)+'\n')
@@ -1040,6 +1041,7 @@ def main():
 制作与核对日期：2026-10-30
 
 一、打开方式
+文件路径以本书目录为基准。主地图 KMZ 在根目录，专题地图在 maps/，说明在 docs/，表格在 tables/，对读图件在 figures/。
 推荐使用“艽野尘梦_阅读地图.kmz”：与KML包含相同地点和连线，并内置全部点标图标。
 若先前已导入耗时与距离版，仅导入“艽野尘梦_小地名补充.kmz”即可增加俄洛桥等小地名，避免重复主要地点。
 完整版和小地名补充版二选一；不要同时加载两者中的08小地名图层。
@@ -1130,14 +1132,14 @@ https://opendatacommons.org/licenses/odbl/1-0/
 已在俄洛桥—昌都视图抽查G317、G214实线与路号标签，以及历史行程虚线、小地名的同时显示。
 '''
     readme=readme.replace('MAJOR_COUNT',str(len(ROWS))).replace('17条',f'{len(UNLOCATED)}条').replace('另加9处',f'另加{len(MINOR_PLACES)}处')
-    (ROOT/'地图使用说明.txt').write_text(readme,encoding='utf-8')
-    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+    (output_path('docs', '地图使用说明.txt')).write_text(readme,encoding='utf-8')
+    with (output_path('docs', '地图使用说明.txt')).open('a',encoding='utf-8') as f:
         f.write('\n九、知乎回答的藏区地理范围\n核对日期2026-10-31。新增10范围层，以半透明色块表达文章地理称谓的概略范围。\n现代行政数据只是范围参照；文化地理、元明称谓、自然羌塘与现代政区分套，可单独开关。\n已导入旧版时，可单独叠加“艽野尘梦_藏区地理范围.kmz”，不重复地点或道路。\n2026-10-31已将含10、11层的完整阅读地图导入原Google Earth网页版项目，确认处理完成并保存到云端硬盘。当时显示“南北驿路、分区与耗时距离（长坝春核对版）”根目录，旧版根目录已隐藏。\n详细口径、坐标与来源见“藏区地理范围说明.txt”和“藏区范围对照.csv”。\n')
         f.write('\n十、本段南北驿路对照\n新增11层，南路背景、北路进昌都、昌都后北绕及原文另列走法分色显示。\n11层新增理塘、巴塘、硕督、丹达地区、拉萨对照共5点；甑科候选已并入主图，三十九族按核心方位区域显示。\n距离仍用代表点直距km；完整阅读图复用原有地点，单独南北驿路KMZ包含22个地点代表点。\n已知耗时按原文与校注保留，未记日数不分摊，南路不套现代G318。详见“南北驿路说明.txt”及两个南北驿路CSV。\n')
         f.write('\n十一、长坝春与新都桥核对\n2026-10-31复核：现有史地研究支持江巴村一带，不能直接等同新都桥镇中心。现官方资料称塔公镇江巴村。\n历史点保留原地区参照坐标，旧驿站与营地确址未定；11F新增新都桥现代对照点及约23 km直距比较线，该线不属于作者行程。\n详见“长坝春新都桥核对说明.txt”与data/place_checks/长坝春核对.json。\n')
         f.write('\n十二、瞻对／三瞻历史背景\n12层以现代新龙县轮廓作瞻对方位参照，非三瞻旧界，不接入陈渠珍此次个人路线。\n校注八所述鹿传霖事件对应1896—1897年，光绪初的年代表述有误；各次瞻对战事不合并。\n县名沿革年份存在资料异说，详见“瞻对历史背景说明.txt”。已有云端地图可单独叠加“艽野尘梦_瞻对历史背景.kmz”。\n')
         f.write('\n十三、沿途主要河流\n13层显示现代真实河道片段和书中渡河地区，突出甘孜雅砻江、岗拖金沙江，另含泸定桥及通麦易贡相关渡水。\n北返通天河渡点不明，不以今桥定位；怒江南源阿克的河段对应、薄藏布古藤桥位置保留待考。\nOSM河道片段与Natural Earth概化背景分层，缺口不补直线。详见“沿途河流说明.txt”和“河流与渡河对照.csv”。已有云端地图可单独叠加“艽野尘梦_沿途河流.kmz”。\n')
-    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+    with (output_path('docs', '地图使用说明.txt')).open('a',encoding='utf-8') as f:
         f.write('\n十四、校注十甘孜至昌都路线校对\n主图R1与11B北路统一补入大金寺、甑科候选、麦学、八邦寺和同普方向；不经雀儿山大道／德格县城。\n11G有本次校注核对及打火沟、卡工、纳夺的待考说明；卡工以西野宿三日与作者逐段实测耗时分开，距离留空。\n详见“甘孜昌都路线校对说明.txt”及data/route_checks/甘孜昌都校注十.json。\n2026-10-31本校对版完整KMZ已导入原Google Earth项目并显示已保存到云端硬盘，当时启用“《艽野尘梦》阅读地图｜校注十路线校对版”根目录；上一版完整图及旧河流、历史背景补充根目录已隐藏。已抽查大金寺点及R1弹窗的路线顺序、46／33／19 km和卡工以西野宿三日限定。仅Region、maxLines、textColor显示字段被忽略。\n')
         f.write('\n十五、更庆｜赵尔丰驻地背景\n第2章“赵尔丰驻更庆”对应今德格县更庆镇、德格旧城一带。08层新增更庆点，用现代镇区地名点作参照，不指认赵营、衙署或更庆寺内的具体建筑。\n钟颖未应邀前往，更庆不接入作者行军线，不给邀请虚构耗时；与岗拖代表点的距离只作直距比较。\n已有校注十云端图时，仅叠加“艽野尘梦_更庆驻地.kmz”即可。完整图、小地名补充图均含此点，三种文件中只显示一份更庆，避免重复。\n定位依据和原始OSM响应见data/小地名.json及data/place_checks/gengqing_osm_node.json。\n')
         f.write('\n十六、校注十一与书图对读\n新增14层，按第二张书图逐项补昌都、近城西藏桥、俄洛桥、甲令塘、浪荡沟、纳贡山、纳贡塘、甲木桥、梭罗坝、日雨娃、恩达的顺序。果角塘、被擒处、云南桥、瓦合山及恩达河另列背景。\n陈确至恩达，被俘押送与自行侦探分开；约3日2夜为相对分日推算，不把撤兵三日期限当作行程。\n四个现代地区参照继续显示；2026-11-01按用户要求，14B另补梭罗坝、甲木桥、纳贡塘三个橙色空心大概位置。14G的3km参考圈默认关闭，只表示查找尺度；三点不计入古道距离或耗时，其他未知旧站仍留文字条目。纳贡山候选在14F单列，顺序图不编码地理距离。\n校注浪荡沟经俄洛桥至昌都六十里是组合段；正文和校注里数分源列示，不乘0.5换km。\n第一张是出藏全局图；第二张为昌都恩达略图，均不据像素配准。详见“校注十一地图校对说明.txt”、两个“昌都恩达_校注十一”CSV与SVG／HTML对读页。\n独立“艽野尘梦_腊左探险校对.kmz”和完整版均在14B显示四处地区参照与三处大概位置，二选一导入。已有旧云端图时，仅叠加“艽野尘梦_恩达河谷三处约位.kmz”即可；旧图中三处原为无坐标文字条目，不会重复点标。\n')
@@ -1151,8 +1153,8 @@ https://opendatacommons.org/licenses/odbl/1-0/
           +wusijiang['coordinate_source']+'\n'+wusijiang['identity_source']+'\n'
           +'\n'.join(s['title']+'\n'+s['url'] for s in wusijiang['additional_sources'])+'\n'
           +'\n2026-11-01已在原Google Earth网页版项目中核验“《艽野尘梦》乌斯江｜拉萨东侧藏军防线背景”图层与乌斯江点标，点位为92.15611111°E、29.70972222°N。地图实际显示金色空心标记，弹窗保留现代地区参照、旧阵地确址未定、七十里与约99 km直距的区别。页面显示“已保存到Google云端硬盘”。本次复用已有标记，未重复导入。核验截图：data/place_checks/wusijiang_google_earth.jpg。\n')
-    (ROOT/'乌斯江核对说明.txt').write_text(note)
-    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+    (output_path('docs', '乌斯江核对说明.txt')).write_text(note)
+    with (output_path('docs', '地图使用说明.txt')).open('a',encoding='utf-8') as f:
         f.write('\n十七、乌斯江／乌苏江藏军防线背景\n'+note)
         f.write('\n十八、江达｜今太昭／江达村一带\n2026-11-01核对。主图02层的16号江达点已突出显示，标签为“江达〔今太昭／江达村一带〕”，点击先显示古今定位和精度说明，再显示耗时与距离。\n社科院考察记从工布江达现代县城沿318国道向西约20公里到江达村、太昭古城。此为书中北返青海的出发地区，与昌都市江达县、现代工布江达县城分别标识。\n沿用约93.08°E、30.00°N区域参照坐标，不指认旧驿站、陈部驻地或出发确址。\n完整阅读地图已包含此点；单独“艽野尘梦_江达定位.kmz”仅含江达，适合旧图补充。导入独立文件时隐藏旧版02层中的江达点；与新版完整图二选一显示，避免重复。\n定位依据：https://www.cass.cn/xueshuchengguo/xscg_lsyjy/202303/t20230317_5608287.shtml\n')
         f.write('2026-11-01已将独立江达KMZ导入原Google Earth网页版项目，确认“江达｜今太昭／江达村一带”根目录与点标出现，旧版“校注十一地点落点版”02层中的江达点已隐藏。已抽查地标坐标、今名、区域参照和旧址未定说明，页面显示已保存到Google云端硬盘。\n')
@@ -1166,22 +1168,22 @@ https://opendatacommons.org/licenses/odbl/1-0/
                  'Google Earth核验：'+bianba_check['google_earth_import']['note']+'\n\n来源\n'
                  +bianba['identity_source']+'\n'+bianba['coordinate_source']+'\n'
                  +'\n'.join(s['title']+'\n'+s['url'] for s in bianba['additional_sources'])+'\n')
-    (ROOT/'边坝核对说明.txt').write_text(bianba_note,encoding='utf-8')
-    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+    (output_path('docs', '边坝核对说明.txt')).write_text(bianba_note,encoding='utf-8')
+    with (output_path('docs', '地图使用说明.txt')).open('a',encoding='utf-8') as f:
         f.write('\n十九、边坝｜旧宗驻地与战事背景\n'+bianba_note)
-    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+    with (output_path('docs', '地图使用说明.txt')).open('a',encoding='utf-8') as f:
         f.write('\n二十、工布安抚｜曲巴、增巴、脚木宗\n'+gongbu_note)
-    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+    with (output_path('docs', '地图使用说明.txt')).open('a',encoding='utf-8') as f:
         f.write('\n二十一、窝冗噶伽｜卧龙—嘎加地区参照\n'+worang_note)
-    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+    with (output_path('docs', '地图使用说明.txt')).open('a',encoding='utf-8') as f:
         f.write('\n二十二、百马岗／白马岗｜墨脱地区参照\n'+baimagang_note)
         f.write('\n二十三、德摩｜赴此4日；驻月余\n'+demo_note)
         f.write('\n二十四、贡觉｜米瑞广久一带候选；旧宅未定\n'+gongjue_note)
-    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+    with (output_path('docs', '地图使用说明.txt')).open('a',encoding='utf-8') as f:
         f.write('\n二十五、波密｜历史地区；今扎木镇方位参照\n'+bomi_note)
         f.write('\n二十六、大吉岭｜达赖、夏扎赴印背景\n'+darjeeling_note)
         f.write('\n波密进军三步部署｜计划与待考\n'+campaign_note)
-    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+    with (output_path('docs', '地图使用说明.txt')).open('a',encoding='utf-8') as f:
         f.write('\n德摩—鲁朗越岭｜16层\n'+crossing_note)
         f.write('\n卡拖召议与野人山｜休息1日；赴此2日\n'+katuo_note)
         f.write('\n八噶山与金珠山｜八百余里指代待核\n'+mountain_defence_note)
@@ -1195,7 +1197,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
         f.write('\n都兰与格尔木｜旧地名候选与现代参照\n'+dulan_note)
         f.write('\n丹噶尔厅与抵达日序｜所读本223日与1937印本异文\n'+dangaer_note)
         f.write('\n邠州与中秋停留｜十四日、明日中秋与后续七日\n'+binzhou_note)
-    with (ROOT/'地图使用说明.txt').open('a',encoding='utf-8') as f:
+    with (output_path('docs', '地图使用说明.txt')).open('a',encoding='utf-8') as f:
         f.write('\n\n二十七、北返荒原事件区域推测\n'+ '\n'.join(event_note))
     print(f'Created: {len(ROWS)} major + {len(MINOR_PLACES)} minor point markers, {len(UNLOCATED)} unlocated entries, 4 schematic routes; Demo–Lulang crossing reference layer and Bomi campaign plan.')
 

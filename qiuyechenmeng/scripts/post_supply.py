@@ -6,6 +6,7 @@ import json
 import xml.etree.ElementTree as ET
 import zipfile
 from poor_rich_posts import add_poor_rich_posts, write_poor_rich_files
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 KML = 'http://www.opengis.net/kml/2.2'
@@ -95,8 +96,8 @@ def write_supply_outputs():
     ET.indent(root, space='  ')
     raw = ET.tostring(root, encoding='utf-8', xml_declaration=True)
     name = '艽野尘梦_穷富八站说明'
-    (ROOT/(name+'.kml')).write_bytes(raw)
-    with zipfile.ZipFile(ROOT/(name+'.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', name + '.kml')).write_bytes(raw)
+    with zipfile.ZipFile(output_path('maps', name + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.writestr('doc.kml', raw)
 
     lines = [cfg['title'], '核对日期：'+cfg['reviewed'], '', cfg['source_label'],
@@ -112,8 +113,8 @@ def write_supply_outputs():
               cfg['publication'], '', '来源']
     for source in cfg['sources'].values():
         lines += [source['title'], source['url']]
-    (ROOT/'穷富八站核对说明.txt').write_text('\n'.join(lines)+'\n', encoding='utf-8')
-    with (ROOT/'穷富八站_分段对照.csv').open('w', encoding='utf-8-sig', newline='') as stream:
+    (output_path('docs', '穷富八站核对说明.txt')).write_text('\n'.join(lines)+'\n', encoding='utf-8')
+    with (output_path('tables', '穷富八站_分段对照.csv')).open('w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.writer(stream, lineterminator='\n')
         writer.writerow(['分段', '起点', '终点', '已知中间节点', '供应条件', '耗时口径', '定位限制', '来源'])
         for segment in cfg['segments']:

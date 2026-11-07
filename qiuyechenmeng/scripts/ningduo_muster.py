@@ -5,6 +5,7 @@ import html
 import json
 import xml.etree.ElementTree as ET
 import zipfile
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 KML = 'http://www.opengis.net/kml/2.2'
@@ -76,8 +77,8 @@ def write_ningduo_outputs():
     cfg = load()
     ET.register_namespace('', KML)
     raw = make_ningduo_muster()
-    (ROOT/(NAME+'.kml')).write_bytes(raw)
-    with zipfile.ZipFile(ROOT/(NAME+'.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + '.kml')).write_bytes(raw)
+    with zipfile.ZipFile(output_path('maps', NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.writestr('doc.kml', raw)
 
     lines = [cfg['title'], '核对日期：'+cfg['checked_at'], '', cfg['chapter'],
@@ -92,8 +93,8 @@ def write_ningduo_outputs():
     lines += ['Google Earth核验：'+cfg['google_earth_import']['status'],
               cfg['google_earth_import']['note']]
     note = '\n'.join(lines)+'\n'
-    (ROOT/'凝多首宿清点说明.txt').write_text(note, encoding='utf-8')
-    with (ROOT/'凝多首宿清点.csv').open('w', encoding='utf-8-sig', newline='') as stream:
+    (output_path('docs', '凝多首宿清点说明.txt')).write_text(note, encoding='utf-8')
+    with (output_path('tables', '凝多首宿清点.csv')).open('w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.writer(stream, lineterminator='\n')
         writer.writerow(['条目', '章节', '说明', '定位性质', '来源'])
         for card in cfg['cards']:

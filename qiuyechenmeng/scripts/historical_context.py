@@ -6,6 +6,7 @@ import html
 import json
 from fetch_regions import convert_coords, inverse_gcj
 from regional_ranges import insert_styles, polygons, polygon
+from output_paths import output_path
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'data/historical_context'
@@ -57,6 +58,6 @@ def write_historical_index():
     text+='本层不接入作者路线，不为瞻对另造个人行程距离、耗时或战场精确点。\n已有云端地图时可叠加“艽野尘梦_瞻对历史背景.kmz”；新版完整阅读地图已包含12层，二选一以免重复显示。\n\n'
     text+='2026-10-31已将独立背景KMZ叠加到原Google Earth网页版项目，显示导入完成并保存到云端硬盘；已抽查半透明新龙县轮廓、雅砻江附近标签、历史背景与1896—1897年代说明。\n\n'
     text+='\n'.join(s['title']+'\n'+s['url'] for s in config['sources'].values())+'\n\n'+config['geometry']['source']+'\n'+config['geometry']['method']+'\n'+config['geometry']['license_note']+'\n'
-    (ROOT/'瞻对历史背景说明.txt').write_text(text)
+    (output_path('docs', '瞻对历史背景说明.txt')).write_text(text)
     manifest={'retrieved_at':'2026-10-31','source_url':config['geometry']['source'],'raw_sha256':hashlib.sha256((DATA/config['geometry']['file']).read_bytes()).hexdigest(),'use':'Modern Xinlong administrative reference, not historical Zhandui or three-tusi boundaries','coordinate_method':config['geometry']['method']}
     (DATA/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')

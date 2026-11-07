@@ -3,6 +3,7 @@ from pathlib import Path
 import csv
 import html
 import json
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / 'data/place_checks/工布安抚三地核对.json'
@@ -124,9 +125,9 @@ def write_gongbu_indexes():
         text += '\nGoogle Earth核验\n' + config['google_earth_import']['note'] + '\n'
         if config['google_earth_import'].get('screenshot'):
             text += '核验截图：' + config['google_earth_import']['screenshot'] + '\n'
-    (ROOT / '工布安抚三地核对说明.txt').write_text(text, encoding='utf-8')
+    (output_path('docs', '工布安抚三地核对说明.txt')).write_text(text, encoding='utf-8')
     fields = ['id', '书中名', '地图标签', '现代参照', '经度', '纬度', '定位性质', '说明', '耗时', '来源']
-    with (ROOT / '工布安抚三地对照.csv').open('w', encoding='utf-8-sig', newline='') as output:
+    with (output_path('tables', '工布安抚三地对照.csv')).open('w', encoding='utf-8-sig', newline='') as output:
         writer = csv.DictWriter(output, fieldnames=fields, lineterminator='\n')
         writer.writeheader()
         for place in config['places']:

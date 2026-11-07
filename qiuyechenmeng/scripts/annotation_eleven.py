@@ -4,6 +4,7 @@ import csv
 import html
 import json
 import math
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT/'data/annotation11'
@@ -230,17 +231,17 @@ def add_deep_research(parent,el,view,include_langda=False):
     for key in ['nagongshan','nagongtang']:
         item=research[key];report+=key+'｜'+item['certainty']+'\n'+'\n'.join(item['basis'])+'\n'+item['limit']+'\n\n'
     report+='来源\n'+'\n\n'.join(s['title']+'\n'+s['url']+'\n'+s['use'] for s in research['sources'])+'\n'
-    (ROOT/'浪荡沟纳贡三地深查说明.txt').write_text(report)
+    (output_path('docs', '浪荡沟纳贡三地深查说明.txt')).write_text(report)
     return folder
 
 
 def write_annotation11_indexes():
     cfg,text,scan,places=load()
-    with (ROOT/'昌都恩达_校注十一地名.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (output_path('tables', '昌都恩达_校注十一地名.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         writer=csv.writer(f,lineterminator='\n');writer.writerow(['ID','书图主链顺序','名称','别名／正文原名','定位性质','地图显示经度','地图显示纬度','人物／路径性质','坐标来源','是否大概位置','展示参考圈半径_km','约位依据'])
         for p in cfg['places']:
             writer.writerow([p['id'],cfg['main_sequence'].index(p['id'])+1 if p['id'] in cfg['main_sequence'] else '',p['name'],'；'.join(p['aliases']),p['status'],p.get('lon',''),p.get('lat',''),p['role'],p.get('coordinate_source',''),'是，阅读示意中心' if p.get('approximate') else '',p.get('reference_radius_km',''),p.get('placement_basis','')])
-    with (ROOT/'昌都恩达_校注十一距离耗时.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (output_path('tables', '昌都恩达_校注十一距离耗时.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         writer=csv.writer(f,lineterminator='\n');writer.writerow(['类别','依据','起点','终点','经由','原书里数','现代直距_km','耗时或时刻','性质与限制'])
         for d in text['distance_claims']:
             writer.writerow(['原书距离',d['source'],label(d['from'],places),label(d['to'],places),'；'.join(label(v,places) for v in d['via']),d['original_li'],'','',d['note']])
@@ -256,4 +257,4 @@ def write_annotation11_indexes():
     notes+=cfg['map_point_policy']+'\n'+APPROX_NOTE+'\n完整阅读地图与独立艽野尘梦_腊左探险校对.kmz均在14B显示四处地区参照与三处大概位置，14G有默认关闭的三个参考圈；二者选一导入。旧云端地图可仅叠加“艽野尘梦_恩达河谷三处约位.kmz”，勿与新版完整图重复显示。\n昌都恩达_校注十一顺序图.svg与对读HTML为非地理配准的顺序图；原书照片原字节保存在data/annotation11/scans/。\n\n'
     notes+=cfg['scan_display_note']+'\n\n'
     notes+='来源\n'+'\n\n'.join(s['title']+'\n'+s['use']+'\n'+s['url'] for s in cfg['sources'])+'\n'
-    (ROOT/'校注十一地图校对说明.txt').write_text(notes)
+    (output_path('docs', '校注十一地图校对说明.txt')).write_text(notes)

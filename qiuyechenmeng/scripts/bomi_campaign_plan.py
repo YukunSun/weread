@@ -3,6 +3,7 @@ from pathlib import Path
 import csv
 import html
 import json
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / 'data/place_checks/波密三步部署核对.json'
@@ -108,8 +109,8 @@ def write_campaign_indexes(anchors):
     for source in config['sources'].values():
         text += '\n' + source['title'] + '\n' + source['supports'] + '\n' + source['url'] + '\n'
     text += '\nGoogle Earth核验\n' + config['google_earth_import']['note'] + '\n'
-    (ROOT / '波密三步部署核对说明.txt').write_text(text, encoding='utf-8')
-    with (ROOT / '波密三步部署地名对照.csv').open('w', encoding='utf-8-sig', newline='') as output:
+    (output_path('docs', '波密三步部署核对说明.txt')).write_text(text, encoding='utf-8')
+    with (output_path('tables', '波密三步部署地名对照.csv')).open('w', encoding='utf-8-sig', newline='') as output:
         writer = csv.writer(output, lineterminator='\n')
         writer.writerow(['id', '阶段', '书中名', '地图标签', '定位性质', '复用地点id', '经度', '纬度', '说明', '来源'])
         for place in config['places']:

@@ -6,6 +6,7 @@ import json
 import math
 import re
 import xml.etree.ElementTree as ET
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 KML = 'http://www.opengis.net/kml/2.2'
@@ -176,7 +177,7 @@ def add_roads(doc, el, view, kcolor):
     return roads
 
 def write_road_index(roads):
-    with (ROOT/'现代道路对照.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (output_path('tables', '现代道路对照.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.writer(f,lineterminator='\n');w.writerow(['路号','所选方向','数据状态','OSM道路段数','所绘线段长度合计_km','限制说明','路号依据','几何来源'])
         for r in roads:
             length=sum(km(a,b) for line in r['lines'] for a,b in zip(line,line[1:]))

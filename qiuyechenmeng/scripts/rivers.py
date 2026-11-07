@@ -7,6 +7,7 @@ import json
 import math
 from regional_ranges import insert_styles, polygon
 from post_routes import km
+from output_paths import output_path
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'data/rivers'
@@ -100,7 +101,7 @@ def add_rivers(doc,el,view,kcolor,bundled=False):
 
 def write_river_index():
     config,detailed,overview=load()
-    with (ROOT/'河流与渡河对照.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (output_path('tables', '河流与渡河对照.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.writer(f,lineterminator='\n');w.writerow(['类别','河流／事项','章节','依据／方法','耗时','定位与限制','已绘河段线长km','数据性质'])
         for r in config['rivers']:
             features=detailed.get(r['id']) or overview.get(r['id'],[])
@@ -115,4 +116,4 @@ def write_river_index():
     text+='已有地图只需叠加“艽野尘梦_沿途河流.kmz”；新版完整阅读地图已含13层，二选一避免重复。河线片段km不是整条河长、历史实走或河宽；地区示意圈半径不是历史范围测定。\n\n'
     text+='2026-10-31已将河流补充KMZ导入原Google Earth网页版项目，确认导入完成并保存到云端硬盘。已抽查甘孜雅砻江、岗拖金沙江的现代河线、地区示意圈及皮船/约3日估算弹窗。\n\n'
     text+='数据 © OpenStreetMap contributors，ODbL 1.0；Natural Earth为公有领域制图数据。逐段OSM IDs、时间戳、来源、覆盖缺口在data/rivers/的manifest中。\n\n'+config['book_url']+'\n'+'\n'.join(config['sources'].values())+'\n'
-    (ROOT/'沿途河流说明.txt').write_text(text)
+    (output_path('docs', '沿途河流说明.txt')).write_text(text)

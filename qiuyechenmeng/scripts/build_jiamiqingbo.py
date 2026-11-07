@@ -7,6 +7,7 @@ import struct
 import xml.etree.ElementTree as ET
 import zipfile
 import zlib
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 NS = "http://www.opengis.net/kml/2.2"
@@ -116,11 +117,11 @@ def make(data, bundled):
 
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
-    (ROOT / (NAME + ".kml")).write_bytes(make(data, False))
-    with zipfile.ZipFile(ROOT / (NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + ".kml")).write_bytes(make(data, False))
+    with zipfile.ZipFile(output_path('maps', NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
         archive.writestr("doc.kml", make(data, True))
         archive.writestr("icons/candidate.png", icon_png())
-    with (ROOT / "甲米青波与纳衣当噶_距离耗时.csv").open("w", encoding="utf-8-sig", newline="") as stream:
+    with (output_path('tables', "甲米青波与纳衣当噶_距离耗时.csv")).open("w", encoding="utf-8-sig", newline="") as stream:
         writer = csv.writer(stream)
         writer.writerow(["类型", "起点", "终点", "原数", "km", "口径"])
         writer.writerow(["陈书宿营", "冬九", "纳衣当噶", "当日", "未记", "本轮第1日，不能换算小时"])
@@ -137,7 +138,7 @@ def main():
                 for d in data["comparison_distances"])
     note.extend([data["withdrawal_distance_note"], data["modern_reference_caution"], "", "来源"])
     note.extend(s["title"] + "\n" + s["url"] for s in data["sources"])
-    (ROOT / "甲米青波与纳衣当噶核对说明.txt").write_text("\n".join(note) + "\n", encoding="utf-8")
+    (output_path('docs', "甲米青波与纳衣当噶核对说明.txt")).write_text("\n".join(note) + "\n", encoding="utf-8")
     print(f"Created {NAME}.kml/.kmz: 2 candidate reading centers, 3 non-geometric explanation cards")
 
 

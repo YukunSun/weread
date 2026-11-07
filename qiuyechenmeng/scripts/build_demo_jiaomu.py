@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 import zipfile
 
 from build_jiamiqingbo import NS, el, view, paragraph, source_links, icon_png
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/place_checks/德摩至脚木宗两日核对.json"
@@ -96,12 +97,12 @@ def make(data, bundled=False):
 
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
-    (ROOT / (NAME + ".kml")).write_bytes(make(data))
-    with zipfile.ZipFile(ROOT / (NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + ".kml")).write_bytes(make(data))
+    with zipfile.ZipFile(output_path('maps', NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
         archive.writestr("doc.kml", make(data, True))
         archive.writestr("icons/reference.png", icon_png((155, 171, 183)))
         archive.writestr("icons/candidate.png", icon_png((255, 179, 71)))
-    with (ROOT / "德摩至脚木宗_距离耗时.csv").open("w", encoding="utf-8-sig", newline="") as stream:
+    with (output_path('tables', "德摩至脚木宗_距离耗时.csv")).open("w", encoding="utf-8-sig", newline="") as stream:
         writer = csv.writer(stream)
         writer.writerow(["口径", "起点", "终点或事项", "耗时", "km", "限制"])
         writer.writerow(["正文行军", "德摩", "脚木宗", "2日", "未载", data["duration_note"]])
@@ -115,7 +116,7 @@ def main():
     note.append("来源与限度")
     for source in data["sources"]:
         note.extend([source["title"], source["supports"], source["url"], ""])
-    (ROOT / "德摩至脚木宗两日核对说明.txt").write_text("\n".join(note).rstrip() + "\n", encoding="utf-8")
+    (output_path('docs', "德摩至脚木宗两日核对说明.txt")).write_text("\n".join(note).rstrip() + "\n", encoding="utf-8")
     print(f"Created {NAME}.kml/.kmz: 2 hidden reference points, 1 direction (12 strokes), 2 cards; {distance_km(data['places']):.1f} km straight comparison, 2 days from text")
 
 

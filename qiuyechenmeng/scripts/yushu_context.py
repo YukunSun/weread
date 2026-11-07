@@ -11,6 +11,7 @@ from build_jiamiqingbo import (
     NS, el as standalone_el, view as standalone_view,
     paragraph, source_links, icon_png,
 )
+from output_paths import output_path
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -206,8 +207,8 @@ def make_standalone(data, bundled=False):
 
 def write_yushu_outputs():
     data = load()
-    (ROOT / (NAME + '.kml')).write_bytes(make_standalone(data))
-    with zipfile.ZipFile(ROOT / (NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + '.kml')).write_bytes(make_standalone(data))
+    with zipfile.ZipFile(output_path('maps', NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.writestr('doc.kml', make_standalone(data, True))
         for rid, color in RIVER_COLORS.items():
             archive.writestr('icons/yushu_' + rid + '.png', icon_png(color))
@@ -226,11 +227,11 @@ def write_yushu_outputs():
     sections.append('Google Earth核验\n' + data['google_earth_import']['status'] +
                     '\n' + data['google_earth_import']['note'])
     text = '\n\n'.join(sections) + '\n'
-    (ROOT / '玉树草原与穆鲁乌苏核对说明.txt').write_text(text, encoding='utf-8')
+    (output_path('docs', '玉树草原与穆鲁乌苏核对说明.txt')).write_text(text, encoding='utf-8')
 
     features_by_id = river_features(data)
     urls = '；'.join(source['url'] for source in data['sources'])
-    with (ROOT / '玉树草原与穆鲁乌苏对照.csv').open(
+    with (output_path('tables', '玉树草原与穆鲁乌苏对照.csv')).open(
             'w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.writer(stream, lineterminator='\n')
         writer.writerow(['类型', 'id', '名称', '标签经度', '标签纬度', '性质与限制', '来源'])

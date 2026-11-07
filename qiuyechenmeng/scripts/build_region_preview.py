@@ -4,6 +4,7 @@ import html
 import json
 import math
 import xml.etree.ElementTree as ET
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 WIDTH, HEIGHT = 1440, 1100
@@ -120,7 +121,7 @@ def main():
     parts.append('<text x="72" y="1040" font-size="14" fill="#7b8793">原文的前后藏、元明地域称谓及羌塘另有独立图层；此图不复原历代政权边界，也不表示完整藏族分布。</text>')
     parts.append(f'<a xlink:href="{e(config["article"]["url"])}"><text x="72" y="1074" font-size="14" fill="#53728d">指定知乎回答 · 数据：DataV 行政几何 · 核查：中国藏学研究中心、地方志及西藏自治区公开资料</text></a>')
     parts.append('</svg>')
-    output = ROOT/'藏区地理范围_概览.svg'
+    output = output_path('figures', '藏区地理范围_概览.svg')
     output.write_text('\n'.join(parts), encoding='utf-8')
     ET.parse(output)
     print(output, output.stat().st_size, 'bytes', f'{WIDTH}×{HEIGHT}')

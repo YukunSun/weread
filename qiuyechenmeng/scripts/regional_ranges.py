@@ -3,6 +3,7 @@ from pathlib import Path
 import csv
 import html
 import json
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 KML = 'http://www.opengis.net/kml/2.2'
@@ -97,7 +98,7 @@ def add_ranges(doc,el,view,kcolor,bundled=False):
 
 def write_range_index():
     config,admin=load()
-    with (ROOT/'藏区范围对照.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (output_path('tables', '藏区范围对照.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.writer(f,lineterminator='\n');w.writerow(['图层','范围名','几何性质','实际绘图组合','文章概括','本图口径与限制','文章链接','核查链接'])
         for r in config['ranges']:
             names='、'.join(admin[c]['properties']['name'] for c in r.get('members',[]))
@@ -131,4 +132,4 @@ KML通过OGC KML 2.2官方XSD校验；KMZ完整性、图标引用、坐标范围
 网页版仅提示忽略Region、maxLines、textColor显示字段；已抽查10层目录和北路弹窗逐段km、耗时。行政及历史范围的逐边界精确对位、桌面客户端仍未逐项验收。
 '''
     text+='\n指定文章\n'+config['article']['url']+'\n\n核查资料\n'+'\n'.join(config['sources'].values())+'\n'
-    (ROOT/'藏区地理范围说明.txt').write_text(text)
+    (output_path('docs', '藏区地理范围说明.txt')).write_text(text)

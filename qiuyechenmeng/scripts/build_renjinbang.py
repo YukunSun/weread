@@ -7,6 +7,7 @@ import xml.etree.ElementTree as ET
 import zipfile
 
 from build_jiamiqingbo import NS, el, paragraph, source_links, view
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 NAME = "艽野尘梦_仁进邦与卡拖"
@@ -45,10 +46,10 @@ def make(data):
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
     payload = make(data)
-    (ROOT / (NAME + ".kml")).write_bytes(payload)
-    with zipfile.ZipFile(ROOT / (NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + ".kml")).write_bytes(payload)
+    with zipfile.ZipFile(output_path('maps', NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as archive:
         archive.writestr("doc.kml", payload)
-    with (ROOT / "仁进邦与卡拖_距离耗时.csv").open("w", encoding="utf-8-sig", newline="") as stream:
+    with (output_path('tables', "仁进邦与卡拖_距离耗时.csv")).open("w", encoding="utf-8-sig", newline="") as stream:
         writer = csv.writer(stream)
         writer.writerow(["口径", "起点或地点", "终点或事项", "耗时或日序", "km", "依据和限制"])
         for row in data["time_entries"]:
@@ -62,7 +63,7 @@ def main():
     note.extend(["", "来源与限度"])
     for source in data["sources"]:
         note.extend([source["title"], source["supports"], source["url"], ""])
-    (ROOT / "仁进邦与卡拖核对说明.txt").write_text("\n".join(note).rstrip() + "\n", encoding="utf-8")
+    (output_path('docs', "仁进邦与卡拖核对说明.txt")).write_text("\n".join(note).rstrip() + "\n", encoding="utf-8")
     print(f"Created {NAME}.kml/.kmz: {len(data['cards'])} geometry-free cards, no point, route or area")
 
 

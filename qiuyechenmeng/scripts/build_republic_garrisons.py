@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 import zipfile
 
 from build_jiamiqingbo import NS, el, view, paragraph, source_links, icon_png
+from output_paths import output_path
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -159,13 +160,13 @@ def main():
     places = {p["id"]: p for p in data["places"]}
     distances = [(pair, haversine(places[pair["from"]], places[pair["to"]]))
                  for pair in data["distance_pairs"]]
-    (ROOT / (NAME + ".kml")).write_bytes(make(data))
-    with zipfile.ZipFile(ROOT / (NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', NAME + ".kml")).write_bytes(make(data))
+    with zipfile.ZipFile(output_path('maps', NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("doc.kml", make(data, bundled=True))
         for kind, color in COLORS.items():
             z.writestr(f"icons/{kind}.png", icon_png(color))
 
-    with (ROOT / "民初边军驻防_距离耗时.csv").open("w", encoding="utf-8-sig", newline="") as f:
+    with (output_path('tables', "民初边军驻防_距离耗时.csv")).open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["条目", "起点", "终点", "现代代表点球面直距(km)",
                          "历史实走距离(km)", "历史耗时", "依据和限制"])
@@ -190,7 +191,7 @@ def main():
     note.extend(["", "来源"])
     for source in data["sources"]:
         note.extend([source["title"], source["url"], "支持内容：" + support_text(source), ""])
-    (ROOT / "民初边军驻防核对说明.txt").write_text("\n".join(note).rstrip() + "\n", encoding="utf-8")
+    (output_path('docs', "民初边军驻防核对说明.txt")).write_text("\n".join(note).rstrip() + "\n", encoding="utf-8")
     print(f'Created {NAME}.kml/.kmz: {len(places)} representative points, '
           f'1 direction (16 strokes), {len(data["cards"])} cards, {len(distances)} distance comparisons')
 

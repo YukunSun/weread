@@ -5,6 +5,7 @@ import html
 import json
 import unicodedata
 import xml.etree.ElementTree as ET
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT/'data/annotation11'
@@ -219,14 +220,14 @@ def build_html(scan, text, nodes, svg):
 @media(max-width:850px){header,main,footer{padding-left:20px;padding-right:20px}.layout{grid-template-columns:1fr;gap:32px}.outline{position:static}.route{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.route li{margin:0}.route li:not(:last-child):after{display:none}.route a{height:100%;padding:13px 10px;gap:8px}.route a>span:last-child{display:none}.route small{font-size:11px}.cards{grid-template-columns:1fr}.timing-grid{grid-template-columns:1fr}.intro{font-size:16px}.detail-body{padding:17px}.node-detail summary{font-size:20px;padding:15px}.section{padding-top:33px}.image-card{padding:10px}}
 @media(max-width:420px){.route{grid-template-columns:1fr}.route small{font-size:12px}.route a{min-height:67px}.legend{gap:8px 16px;font-size:13px}.toolbar a,.jump a{font-size:13px;padding:9px 11px}h2{font-size:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{.toolbar,.jump,.back{display:none}.layout{display:block}.outline{position:static}.node-detail{break-inside:avoid}.node-detail>.detail-body{display:block}.section{break-before:auto}.image-card{break-inside:avoid}}
-</style></head><body><header><div class="eyebrow">《艽野尘梦》第二章 · 校注十一 · 2026-10-31</div><h1>昌都—恩达：把旧名、书图与经历对起来</h1><p class="intro">陈渠珍由昌都出发侦探，在纳贡塘附近被俘，后被带到恩达，与堪布交涉后获释，返抵昌都。下面把十一处主链地名与正文分日、原述里数并列，避免把地名订正误当作已经定位的古道。</p><p class="warning"><b>顺序示意，无比例尺、无经纬度。</b>原述“里”保留原样，不换算 km；图上的地名顺序不能直接证明现代点位。</p><div class="toolbar"><a href="'''+esc(SVG_NAME)+'''">打开完整 SVG 顺序图</a><a href="data/annotation11/书图识读.json">书图识读数据</a><a href="data/annotation11/探险文字核对.json">正文核对数据</a></div><nav class="jump" aria-label="页内目录"><a href="#route">地点顺序</a><a href="#time">耗时与时刻</a><a href="#distances">原述里数</a><a href="#differences">图文差异</a><a href="#scans">原书图</a></nav><div class="legend">'''+''.join(f'<span><i class="swatch" style="--phase:{v[0]}"></i>{v[2]}</span>' for v in COLORS.values())+'''</div></header><main>
+</style></head><body><header><div class="eyebrow">《艽野尘梦》第二章 · 校注十一 · 2026-10-31</div><h1>昌都—恩达：把旧名、书图与经历对起来</h1><p class="intro">陈渠珍由昌都出发侦探，在纳贡塘附近被俘，后被带到恩达，与堪布交涉后获释，返抵昌都。下面把十一处主链地名与正文分日、原述里数并列，避免把地名订正误当作已经定位的古道。</p><p class="warning"><b>顺序示意，无比例尺、无经纬度。</b>原述“里”保留原样，不换算 km；图上的地名顺序不能直接证明现代点位。</p><div class="toolbar"><a href="'''+esc(SVG_NAME)+'''">打开完整 SVG 顺序图</a><a href="../data/annotation11/书图识读.json">书图识读数据</a><a href="../data/annotation11/探险文字核对.json">正文核对数据</a></div><nav class="jump" aria-label="页内目录"><a href="#route">地点顺序</a><a href="#time">耗时与时刻</a><a href="#distances">原述里数</a><a href="#differences">图文差异</a><a href="#scans">原书图</a></nav><div class="legend">'''+''.join(f'<span><i class="swatch" style="--phase:{v[0]}"></i>{v[2]}</span>' for v in COLORS.values())+'''</div></header><main>
 <div class="layout"><nav class="outline" id="route" aria-label="十一处地点顺序"><h2>地点顺序</h2><p class="muted">点击地点展开对应明细；编号只表达顺序。</p><ol class="route">'''+''.join(outline)+'''</ol></nav><section aria-label="节点明细"><h2>逐点对读</h2>'''+''.join(details)+'''</section></div>
 <section class="section" id="time"><h2>约三日、两夜：推算与明记分开</h2><p>首晚俄洛桥留宿，第二夜被俘后至梭罗坝，第三日上午到恩达并在同日午夜返抵昌都。约3日、2夜来自这些相对分日，不能与堪布承诺的“三日撤兵”、校注十“卡工以西野宿三日”混为一项。</p><ol class="timing-grid">'''+timing+'''</ol></section>
 <section class="section" id="distances"><h2>原述里数：保留范围与异说</h2><p>下表来源不同的约数分别保留，不取平均、不用固定现代里制换算，也不据这些里数给未知地名插值坐标。现代已核实代表点直距属于另一口径。</p><div class="table-scroll"><table><thead><tr><th>来源</th><th>原述段落</th><th>里数</th><th>说明</th></tr></thead><tbody>'''+distance_table+'''</tbody></table></div></section>
 <section class="section" id="differences"><h2>书图与文字的差异</h2><div class="cards">'''+conflicts+'''</div></section>
 <section class="section" id="extras"><h2>旁注地点与河名</h2><p>以下地点参与理解相对地形或事件背景，未被强插为主链中的独立停驻站。</p><div class="cards">'''+extras+'''</div><h3 style="margin-top:27px">河名识读</h3><ul>'''+rivers+'''</ul></section>
 <section class="section" id="figure"><h2>完整顺序图</h2><details class="overview"><summary>展开 SVG 全图（可横向滚动；点击节点进入明细）</summary><div class="overview-frame">'''+svg.replace('href="'+HTML_NAME+'#', 'href="#')+'''</div></details></section>
-<section class="section" id="scans"><h2>回看两张原书图</h2><p>原始书影保持不变。第二张仅通过页面样式旋转以便阅读；它们不是可量距或配准的地理底图。</p><figure class="image-card"><h3>照片2：昌都至恩达略图</h3><div class="rotated-frame"><img src="data/annotation11/scans/昌都恩达略图.jpg" alt="用户提供的昌都至恩达略图，按阅读方向转正。标示西藏桥、俄洛桥、浪荡沟、纳贡山、纳贡塘、甲木桥、梭罗坝及恩达等地名。"></div><figcaption>书图的西藏桥与俄洛桥是两个标位；主名和括注应与上面的差异记录一起读。</figcaption></figure><figure class="image-card"><h3>照片1：陈渠珍出藏路线图</h3><img loading="lazy" src="data/annotation11/scans/出藏路线图.jpg" alt="用户提供的陈渠珍出藏路线图，含旧西康省、青海省及甘肃省等区域标签，表示北返背景。"><figcaption>这张是出藏／北返全局背景图，不用来给昌都—恩达细部赋坐标，也不直接倒套现代省界。</figcaption></figure></section>
+<section class="section" id="scans"><h2>回看两张原书图</h2><p>原始书影保持不变。第二张仅通过页面样式旋转以便阅读；它们不是可量距或配准的地理底图。</p><figure class="image-card"><h3>照片2：昌都至恩达略图</h3><div class="rotated-frame"><img src="../data/annotation11/scans/昌都恩达略图.jpg" alt="用户提供的昌都至恩达略图，按阅读方向转正。标示西藏桥、俄洛桥、浪荡沟、纳贡山、纳贡塘、甲木桥、梭罗坝及恩达等地名。"></div><figcaption>书图的西藏桥与俄洛桥是两个标位；主名和括注应与上面的差异记录一起读。</figcaption></figure><figure class="image-card"><h3>照片1：陈渠珍出藏路线图</h3><img loading="lazy" src="../data/annotation11/scans/出藏路线图.jpg" alt="用户提供的陈渠珍出藏路线图，含旧西康省、青海省及甘肃省等区域标签，表示北返背景。"><figcaption>这张是出藏／北返全局背景图，不用来给昌都—恩达细部赋坐标，也不直接倒套现代省界。</figcaption></figure></section>
 <section class="section" id="sources"><h2>依据与边界</h2><ul>'''+sources+'''<li>用户提供的校注十一及两张书影；图中字形未读清处保留置信度，不自行改定。</li></ul><p>已核实的现代地区参照点仍需在阅读地图中与旧桥、旧营地、被擒处等未定位条目分开。没有新增古道轨迹或虚构逐站耗时。</p></section></main><footer>文字与图片来源分项记录在 data/annotation11。此页的节点目录使用 URL 片段保留位置；不向外发送数据，不使用外部字体、地图或脚本。</footer>
 <script>
 (function(){function reveal(){var id=decodeURIComponent(location.hash.slice(1));var el=document.getElementById(id);if(el&&el.tagName==='DETAILS')el.open=true;}window.addEventListener('hashchange',reveal);document.addEventListener('click',function(event){var a=event.target.closest('a[href^="#detail-"]');if(a){var el=document.getElementById(a.hash.slice(1));if(el)el.open=true;}});reveal();})();
@@ -237,9 +238,11 @@ def write_figure():
     scan, text, nodes = load()
     svg = build_svg(scan, text, nodes)
     ET.fromstring(svg)
-    (ROOT/SVG_NAME).write_text('<?xml version="1.0" encoding="UTF-8"?>\n'+svg+'\n', encoding='utf-8')
-    (ROOT/HTML_NAME).write_text(build_html(scan, text, nodes, svg), encoding='utf-8')
-    return [ROOT/SVG_NAME, ROOT/HTML_NAME]
+    svg_path = output_path('figures', SVG_NAME)
+    html_path = output_path('figures', HTML_NAME)
+    svg_path.write_text('<?xml version="1.0" encoding="UTF-8"?>\n'+svg+'\n', encoding='utf-8')
+    html_path.write_text(build_html(scan, text, nodes, svg), encoding='utf-8')
+    return [svg_path, html_path]
 
 
 if __name__ == '__main__':

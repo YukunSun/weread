@@ -10,6 +10,7 @@ import zipfile
 
 from build_jiamiqingbo import NS, el as standalone_el, view as standalone_view, icon_png
 from regional_ranges import insert_styles
+from output_paths import output_path
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -245,8 +246,8 @@ def make(bundled=False):
 def write_hehuang_outputs():
     check = load()
     groups, manifest, manifest_path = load_rivers(check)
-    (ROOT / (NAME + '.kml')).write_bytes(make())
-    with zipfile.ZipFile(ROOT / (NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + '.kml')).write_bytes(make())
+    with zipfile.ZipFile(output_path('maps', NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.writestr('doc.kml', make(True))
         archive.writestr('icons/minor_reference.png', icon_png((255, 209, 102)))
         archive.writestr('icons/river_label.png', icon_png((96, 212, 255)))
@@ -270,9 +271,9 @@ def write_hehuang_outputs():
                   'Google Earth核验：' + check['google_earth_import']['status'],
                   check['google_earth_import']['note']])
     text = '\n\n'.join(notes) + '\n'
-    (ROOT / '河湟谷地与石堡城核对说明.txt').write_text(text, encoding='utf-8')
+    (output_path('docs', '河湟谷地与石堡城核对说明.txt')).write_text(text, encoding='utf-8')
     urls = '；'.join(source['url'] for source in check['sources'])
-    with (ROOT / '河湟谷地与石堡城对照.csv').open('w', encoding='utf-8-sig', newline='') as output:
+    with (output_path('tables', '河湟谷地与石堡城对照.csv')).open('w', encoding='utf-8-sig', newline='') as output:
         writer = csv.writer(output, lineterminator='\n')
         writer.writerow(['类型', 'id', '名称', '经度', '纬度', '说明', '来源'])
         stone = check['stone']

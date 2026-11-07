@@ -6,6 +6,7 @@ import json
 import math
 import xml.etree.ElementTree as ET
 import zipfile
+from output_paths import output_path
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -265,12 +266,12 @@ def write_poor_rich_files():
     icon_paths = ('icons/post_point.png', 'icons/post_uncertain.png')
     with zipfile.ZipFile(ROOT / '艽野尘梦_阅读地图.kmz') as archive:
         icons = {name: archive.read(name) for name in icon_paths}
-    (ROOT / (NAME + '.kml')).write_bytes(_standalone())
-    with zipfile.ZipFile(ROOT / (NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + '.kml')).write_bytes(_standalone())
+    with zipfile.ZipFile(output_path('maps', NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.writestr('doc.kml', _standalone(True))
         for name, data in icons.items():
             archive.writestr(name, data)
-    with (ROOT / '穷富八站_地名坐标.csv').open('w', encoding='utf-8-sig', newline='') as stream:
+    with (output_path('tables', '穷富八站_地名坐标.csv')).open('w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.writer(stream, lineterminator='\n')
         writer.writerow(['id', '地名', '现代定位对象', '经度', '纬度', '定位性质',
                          '复用已有地点', '说明', '来源标题', '来源链接'])
@@ -299,7 +300,7 @@ def write_poor_rich_files():
                   prose(place['note']) + '\n\n')
     guide += '来源\n' + '\n\n'.join(s['title'] + '\n' + prose(s.get('supports', '')) +
                                     '\n' + s['url'] for s in cfg['sources']) + '\n'
-    (ROOT / '穷富八站说明.txt').write_text(guide, encoding='utf-8')
+    (output_path('docs', '穷富八站说明.txt')).write_text(guide, encoding='utf-8')
 
 
 if __name__ == '__main__':

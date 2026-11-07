@@ -2,6 +2,7 @@
 from pathlib import Path
 import html
 import json
+from output_paths import output_path
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -69,5 +70,5 @@ def write_katuo_index():
                         source['url'])
     sections.append('Google Earth核验\n' + check['google_earth_import']['note'])
     text = '\n\n'.join(sections) + '\n'
-    (ROOT / '卡拖与野人山核对说明.txt').write_text(text, encoding='utf-8')
+    (output_path('docs', '卡拖与野人山核对说明.txt')).write_text(text, encoding='utf-8')
     return text

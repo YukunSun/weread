@@ -8,6 +8,7 @@ import zipfile
 
 from regional_ranges import insert_styles
 from build_jiamiqingbo import icon_png
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 KML = 'http://www.opengis.net/kml/2.2'
@@ -158,8 +159,8 @@ def make(bundled=False):
 
 def write_outputs():
     cfg, mountain, groups = load()
-    (ROOT/(NAME+'.kml')).write_bytes(make())
-    with zipfile.ZipFile(ROOT/(NAME+'.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
+    (output_path('maps', NAME + '.kml')).write_bytes(make())
+    with zipfile.ZipFile(output_path('maps', NAME + '.kmz'), 'w', zipfile.ZIP_DEFLATED) as archive:
         archive.writestr('doc.kml', make(True))
         archive.writestr('icons/region_label.png', icon_png((255, 255, 255)))
     note = [cfg['title'], '核对日期：'+cfg['checked_at'], '', cfg['range_name'], cfg['scope'], cfg['area_note'],
@@ -174,7 +175,7 @@ def write_outputs():
         note.extend([source['title'], source['url'], source['supports'], ''])
     note.extend(['Google Earth核验：'+cfg['google_earth_import']['status'], cfg['google_earth_import']['note']])
     text = '\n'.join(note)+'\n'
-    (ROOT/'柴达木盆地与昆仑山口说明.txt').write_text(text, encoding='utf-8')
+    (output_path('docs', '柴达木盆地与昆仑山口说明.txt')).write_text(text, encoding='utf-8')
     return text
 
 

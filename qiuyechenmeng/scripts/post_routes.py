@@ -7,6 +7,7 @@ import math
 from regional_ranges import insert_styles, polygons, polygon
 from route_checks import CHECK, SEQUENCE, route_check_html
 from post_supply import add_post_supply, write_supply_outputs
+from output_paths import output_path
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'data/postroads'
@@ -129,13 +130,13 @@ def write_post_indexes():
     explanation='长坝春与新都桥核对\n核对日期：'+check['checked_at']+'\n\n'+check['conclusion']+f'\n\n图示长坝春/江巴村地区点：{a["lon"]}, {a["lat"]}。\n新都桥OSM镇区代表点：{b["lon"]}, {b["lat"]}。\n两点球面近似直距约{km(a,b):.0f} km。'+check['distance_note']+'\n\n11F显示现代新都桥点和位置比较虚线；比较线不接入作者行程。主图与南北驿路补充图的长坝春点均保留江巴村地区参照，更新证据与精度说明。\n\n'
     explanation+='\n\n'.join(e['title']+'\n'+e['supports']+'\n'+e['url'] for e in check['evidence'])
     explanation+='\n\n新都桥点来源：'+b['source']+'\n数据原更新时间：'+b['source_timestamp']+'\n'+check['attribution']+'\n'
-    (ROOT/'长坝春新都桥核对说明.txt').write_text(explanation)
-    with (ROOT/'南北驿路_地点距离耗时.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    (output_path('docs', '长坝春新都桥核对说明.txt')).write_text(explanation)
+    with (output_path('tables', '南北驿路_地点距离耗时.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         w=csv.writer(f,lineterminator='\n');w.writerow(['路线','起点','终点','直距_km','相邻段耗时','整段耗时说明','距离口径'])
         for route in cfg['routes']:
             for a,b in zip(route['ids'],route['ids'][1:]): w.writerow([route['name'],places[a]['name'],places[b]['name'],round(km(places[a],places[b])),edge_time(cfg,a,b),route['timing'],DISTANCE_NOTE])
         for t in cfg['timings']: w.writerow(['耗时总览',timing_endpoint(t,'from',places),timing_endpoint(t,'to',places),round(km(places[t['from']],places[t['to']])) if t['from'] and t['to'] else '',t['time'],t['basis'],DISTANCE_NOTE])
-    with (ROOT/'南北驿路_地名坐标.csv').open('w',encoding='utf-8-sig',newline='') as f:
+    with (output_path('tables', '南北驿路_地名坐标.csv')).open('w',encoding='utf-8-sig',newline='') as f:
         fields=['id','name','lon','lat','certainty','source','identity_source','note'];w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore',lineterminator='\n');w.writeheader();w.writerows(cfg['places'])
     guide='''《艽野尘梦》本段南北驿路对照
 核对日期2026-10-31。
@@ -156,5 +157,5 @@ def write_post_indexes():
     guide=guide.replace('全部17个地点',f'全部{len(places)}个地点').replace('新增6个点',f'新增{sum(not p["existing"] for p in places.values())}个点').replace('上述17个历史站点代表点','上述地点代表点')
     guide+='\n校注十路线核对\n'+CHECK['text_sequence']+'\n'+CHECK['timing_note']+'\n11G有路线核对和未定位地名文字条目；主图R1与本层北路使用同一节点顺序。详见甘孜昌都路线校对说明.txt。\n'
     guide+='\n11H 穷八站／富八站\n甲贡塘暂用边坝加贡乡地区候选，凝多塘不赋坐标。穷八站内部方向、凝多待考过渡方向、富八站内部方向分棕、灰、绿三种虚线；均不是完整古道或穷富精确分界。较晚拉如／太昭分段说另列。\n完整图11H仅新增甲贡候选点；独立“艽野尘梦_穷八站与富八站.kmz”包含5个地区锚点，凝多另列无几何说明。叠加旧图时可整组隐藏“已有地区锚点”，避免重复。逐点证据、旧站顺序和精度限制见“穷富八站说明.txt”及data/postroads/穷富八站.json。旧“艽野尘梦_穷富八站说明.kmz”仍保留为纯文字版。\n'
-    (ROOT/'南北驿路说明.txt').write_text(guide+'\n原文与校注\n'+cfg['source']+'\n')
+    (output_path('docs', '南北驿路说明.txt')).write_text(guide+'\n原文与校注\n'+cfg['source']+'\n')
     write_supply_outputs()

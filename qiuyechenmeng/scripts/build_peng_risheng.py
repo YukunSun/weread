@@ -7,6 +7,7 @@ import math
 import xml.etree.ElementTree as ET
 import zipfile
 from build_jiamiqingbo import NS, el, view, paragraph, source_links, icon_png
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 NAME = "艽野尘梦_彭日升北路入波"
@@ -107,14 +108,14 @@ def make(data, bundled=False):
 
 def main():
     data = json.loads(DATA.read_text(encoding="utf-8"))
-    (ROOT / (NAME + ".kml")).write_bytes(make(data))
-    with zipfile.ZipFile(ROOT / (NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as z:
+    (output_path('maps', NAME + ".kml")).write_bytes(make(data))
+    with zipfile.ZipFile(output_path('maps', NAME + ".kmz"), "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("doc.kml", make(data, True))
         for kind, color in COLORS.items():
             z.writestr(f"icons/{kind}.png", icon_png(color))
     p = {p["id"]: p for p in data["places"]}
     km = haversine(p["peng_shobando"], p["peng_qundo"])
-    with (ROOT / "彭日升北路_地点距离耗时.csv").open("w", encoding="utf-8-sig", newline="") as f:
+    with (output_path('tables', "彭日升北路_地点距离耗时.csv")).open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["名称", "经度", "纬度", "定位性质", "距离或耗时", "依据和限制"])
         for place in data["places"]:
@@ -126,7 +127,7 @@ def main():
         note.extend([place["name"], place["note"], place["coordinate_method"], ""])
     note.extend([data["coordinate_discrepancy"]["note"], "", "来源"])
     note.extend(s["title"] + "\n" + s["url"] for s in data["sources"])
-    (ROOT / "彭日升北路入波核对说明.txt").write_text("\n".join(note) + "\n", encoding="utf-8")
+    (output_path('docs', "彭日升北路入波核对说明.txt")).write_text("\n".join(note) + "\n", encoding="utf-8")
     print(f"Created {NAME}.kml/.kmz: 4 points, 1 schematic direction, 3 explanation cards; {km:.0f} km reference")
 
 

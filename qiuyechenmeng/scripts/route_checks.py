@@ -2,6 +2,7 @@
 from pathlib import Path
 import html
 import json
+from output_paths import output_path
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECK = json.loads((ROOT/'data/route_checks/甘孜昌都校注十.json').read_text())
@@ -48,4 +49,4 @@ def write_route_check(places, distance):
         text += '\n'+e['title']+'\n'+e['supports']+'\n'+e['url']+'\n'
     text += '\n同普点使用OpenStreetMap地名点，© OpenStreetMap contributors，ODbL 1.0。原始响应保存在data/route_checks/tongpu_osm_node.json。\n'
     text += '\n云端验收（2026-10-31）\n完整KMZ已导入原Google Earth项目，新根目录为“《艽野尘梦》阅读地图｜校注十路线校对版”，界面显示已保存到Google云端硬盘。旧完整地图及旧河流、历史背景补充包已隐藏；新版内置这些内容。\n已打开大金寺点及R1路线弹窗，核对新节点顺序、46／33／19 km直距，以及卡工以西野宿三日的校注限定。Google Earth仅提示忽略Region、maxLines、textColor三种显示字段。未逐段复原历史旧道，未逐点测绘验收。\n'
-    (ROOT/'甘孜昌都路线校对说明.txt').write_text(text)
+    (output_path('docs', '甘孜昌都路线校对说明.txt')).write_text(text)
